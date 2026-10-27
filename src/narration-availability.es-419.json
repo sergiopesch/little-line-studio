@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "locale": "es-419",
+  "lessons": [
+    "apple",
+    "balloon",
+    "bird",
+    "butterfly",
+    "cat",
+    "dog",
+    "elephant",
+    "fish",
+    "flower",
+    "fox",
+    "ice-cream",
+    "ladybird",
+    "mushroom",
+    "owl",
+    "rabbit",
+    "rainbow",
+    "sailboat",
+    "sun",
+    "turtle"
+  ]
+}

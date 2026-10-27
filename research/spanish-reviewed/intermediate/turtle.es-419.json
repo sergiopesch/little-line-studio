@@ -1,0 +1,210 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "turtle",
+  "lesson": {
+    "title": "La tortuga",
+    "invitation": "Un caparazón grande con partes pequeñas.",
+    "objective": "Unir una cabeza, patas y cola a un caparazón grande; explorar cómo las líneas dividen una superficie en espacios.",
+    "parentNote": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir.",
+    "simplify": "",
+    "transfer": "Otro día, prueben dibujar un escarabajo: mantengan un cuerpo central grande, pero elijan otras partes alrededor de su borde. Invita a tu niña o niño a decidir qué partes de la tortuga ya no corresponden.",
+    "colouringLabel": "Trazos pequeños y colores a tu manera",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un viaje imaginario por el jardín.",
+        "instruction": "Observa el caparazón grande y las partes más pequeñas que lo rodean.",
+        "spoken": "Nuestra tortuga de papel hace un viaje imaginario por el jardín. Mira cómo su cabeza y sus patas pequeñas se unen a un caparazón mucho más grande.",
+        "hint": "Busca primero la forma más grande y luego las partes más pequeñas que la rodean.",
+        "notice": "Mira nuestra tortuga. ¿Qué partes pequeñas sobresalen del caparazón grande?"
+      },
+      "turtle-shell": {
+        "title": "El caparazón",
+        "instruction": "Dibuja un óvalo ancho para el caparazón de la tortuga.",
+        "spoken": "Un óvalo ancho forma nuestro caparazón. Dejo espacio a un lado para la cabeza y debajo para las patitas.",
+        "hint": "Deja espacio en el papel alrededor del caparazón para las partes más pequeñas.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-head": {
+        "title": "La cabeza",
+        "instruction": "Agrega un óvalo mucho más pequeño junto al caparazón.",
+        "spoken": "Un óvalo más pequeño toca uno de los lados. Comparar la cabeza con el caparazón me ayuda a decidir cuánto espacio necesita.",
+        "hint": "Haz que la cabecita toque el lado del caparazón.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-front-foot": {
+        "title": "La pata delantera",
+        "instruction": "Haz una curva para una patita debajo de la parte delantera.",
+        "spoken": "Una curva baja desde el caparazón y vuelve a un punto cercano. La mayor parte de nuestra tortuga queda dentro de esa forma grande.",
+        "hint": "Haz esta patita pequeña junto al óvalo ancho.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-back-foot": {
+        "title": "La pata trasera",
+        "instruction": "Agrega otra patita debajo de la parte trasera.",
+        "spoken": "Una segunda patita curva sale más abajo, en la parte trasera. Deja que se vea claramente la forma ancha del caparazón.",
+        "hint": "Mira debajo del caparazón, hacia el otro lado, para colocar la segunda patita.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-tail": {
+        "title": "La cola",
+        "instruction": "Une dos líneas cortas para hacer una colita.",
+        "spoken": "Dos líneas cortas se encuentran en una punta detrás del caparazón. La colita equilibra la cabeza mucho más grande del otro lado.",
+        "hint": "Haz que esta puntita sea más pequeña que la cabeza.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-eye": {
+        "title": "El ojo",
+        "instruction": "Coloca un ojito dentro de la cabeza.",
+        "spoken": "Un ojito va dentro de la cabeza, lejos del borde. Me detengo después de hacer una pequeña marca.",
+        "hint": "Busca un lugar dentro del óvalo pequeño de la cabeza.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-mouth": {
+        "title": "La boca",
+        "instruction": "Haz una pequeña curva para la boca cerca del borde de la cabeza.",
+        "spoken": "Una boca corta y curva le da una expresión a nuestra tortuga de cuento. Deja un poco de espacio debajo del ojo.",
+        "hint": "Haz una curva pequeña en la parte inferior de la cabeza.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-shell-rim": {
+        "title": "El borde del caparazón",
+        "instruction": "Haz una curva a lo largo de la parte inferior del caparazón.",
+        "spoken": "Esta curva sigue el borde inferior del caparazón, un poquito hacia adentro. El espacio entre las líneas forma una franja estrecha.",
+        "hint": "Sigue el óvalo sin dibujar directamente encima de su borde.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-centre-pattern": {
+        "title": "El diseño del centro",
+        "instruction": "Une lados cortos para hacer un diseño en el caparazón.",
+        "spoken": "Uno lados cortos en el centro del caparazón. Este es nuestro diseño; dejo espacio alrededor para agregar más líneas.",
+        "hint": "Empieza con unos pocos lados unidos dentro del óvalo grande.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-upper-left": {
+        "title": "La línea superior izquierda",
+        "instruction": "Conecta el diseño del centro hacia arriba a la izquierda.",
+        "spoken": "Una línea va desde una esquina superior hacia el borde del caparazón. Detente donde se encuentre con el borde exterior.",
+        "hint": "Empieza en el diseño y dirígete hacia el borde del caparazón.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-upper-right": {
+        "title": "La línea superior derecha",
+        "instruction": "Conecta otra esquina de arriba con el caparazón.",
+        "spoken": "Otra línea sale de la otra esquina superior. Observa cómo cambian de forma los espacios entre las líneas.",
+        "hint": "Mira el borde cercano del caparazón antes de hacer esta línea.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-right-pattern": {
+        "title": "La línea derecha",
+        "instruction": "Traza una línea hacia la derecha.",
+        "spoken": "La siguiente línea va desde el diseño hasta el borde derecho. Cada conexión queda dentro de nuestro caparazón grande.",
+        "hint": "Detente cuando esta línea llegue al óvalo exterior.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-lower-right": {
+        "title": "La línea inferior derecha",
+        "instruction": "Conecta una esquina de abajo hacia la franja del borde.",
+        "spoken": "Una línea baja inclinada desde el diseño hacia la franja. Me detengo al llegar a la franja, sin cruzarla.",
+        "hint": "Dirígete al borde interior de la franja, cerca de la parte inferior del caparazón.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-lower-left": {
+        "title": "La línea inferior izquierda",
+        "instruction": "Une la otra esquina de abajo con la franja del borde.",
+        "spoken": "Ahora conecto la otra esquina inferior. Los espacios del diseño pueden ser distintos entre sí y aun así formar parte de tu tortuga.",
+        "hint": "Une el diseño con la franja del borde de este lado.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-left-pattern": {
+        "title": "La línea izquierda",
+        "instruction": "Completa una conexión en el lado izquierdo.",
+        "spoken": "Una línea conecta el centro con el borde izquierdo. Ahora nuestro diseño del caparazón tiene espacios listos para colorear.",
+        "hint": "Haz una línea corta entre el diseño y el borde del caparazón.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-front-toe": {
+        "title": "Un dedito delantero",
+        "instruction": "Si quieres, prueba hacer una pequeña marca para un dedito.",
+        "spoken": "Una línea pequeñita puede formar un dedo en la pata delantera. Es un detalle adicional que puedes dejar fuera.",
+        "hint": "Busca la patita antes de hacer este detalle pequeño.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-back-toe": {
+        "title": "Un dedito trasero",
+        "instruction": "Prueba otro dedito pequeño, o déjalo sencillo.",
+        "spoken": "También puedes agregar un dedito en la otra pata. Una línea pequeña basta para este detalle opcional.",
+        "hint": "Mantén esta pequeña marca dentro de la patita que dibujaste.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "turtle-ground": {
+        "title": "El suelo",
+        "instruction": "Prueba una línea corta para el suelo debajo de la tortuga.",
+        "spoken": "Una línea debajo puede darle un lugar a nuestro viaje imaginario. Tu tortuga también puede quedarse sobre el papel sin suelo.",
+        "hint": "Coloca la línea del suelo debajo de las patitas, sin atravesarlas.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      },
+      "colour-choice": {
+        "title": "Colores para nuestra tortuga del jardín.",
+        "instruction": "Elige verdes o los colores que quieras para tu tortuga.",
+        "spoken": "Yo elijo verde para el caparazón y un color crema claro para la cabeza. Tu tortuga de papel puede usar los colores que tengas.",
+        "hint": "Un verde oscuro y otro más claro pueden formar una pareja sencilla.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-shell": {
+        "title": "Un caparazón verde y ancho.",
+        "instruction": "Colorea el caparazón en pequeños grupos de trazos.",
+        "spoken": "Hago trazos verdes cortos por el caparazón. Levanto el creyón entre grupos de trazos y dejo que se vean las líneas del diseño.",
+        "hint": "Deja pequeños espacios de papel entre los trazos cercanos del creyón.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-small-parts": {
+        "title": "Partes pequeñas, movimientos pequeños.",
+        "instruction": "Usa trazos más pequeños para la cabeza y las patas.",
+        "spoken": "La cabeza y las patas necesitan movimientos más pequeños que el caparazón. Voy más despacio cerca de cada borde y levanto el creyón antes de moverme a otra parte.",
+        "hint": "Las partes pequeñas necesitan trazos cortitos en vez de un movimiento largo.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-shell-shadow": {
+        "title": "Un caparazón suavemente redondeado.",
+        "instruction": "Agrega una capa más oscura cerca de la parte inferior del caparazón.",
+        "spoken": "Un poco de verde más oscuro cerca del borde inferior hace que el caparazón parezca redondeado. Dejo la parte de arriba más clara para que se vean los dos colores.",
+        "hint": "Agrega el color suavemente al principio; luego puedes elegir otra capa.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-reflection": {
+        "title": "Un caparazón grande y partes pequeñas.",
+        "instruction": "Observa el caparazón grande y las partes más pequeñas que se unen a él.",
+        "spoken": "El caparazón sigue siendo la forma más grande, con pequeñas partes que sobresalen. Imagina adónde podría ir tu tortuga de papel en su viaje por el jardín.",
+        "hint": "Tu dibujo puede quedarse tal como está.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "explore": {
+        "title": "¿Adónde irá tu tortuga?",
+        "instruction": "Inventa un lugar en el jardín, sigue coloreando o termina aquí.",
+        "spoken": "Puedes darle a tu tortuga una hoja o un camino imaginario por el jardín. Hay tiempo para tus ideas, o puedes terminar aquí.",
+        "hint": "Prueba una criatura diferente con una forma grande y partes pequeñas.",
+        "notice": "Si las divisiones del caparazón causan confusión, ofrece la opción más sencilla de dejarlo sin diseño. Si te pide una pausa, comparen el borde de la forma central con el borde exterior del caparazón del ejemplo. La figura del centro puede tener cualquier cantidad de esquinas. No conviertas el diseño del caparazón en un ejercicio de contar o corregir."
+      }
+    },
+    "sourceSha256": "3c41d267134cc5b8446029ab14ea340e7a0e6409302af44afd5b89fcf98b4c32"
+  }
+}

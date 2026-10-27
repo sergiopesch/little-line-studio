@@ -1,0 +1,231 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "tree-path",
+  "lesson": {
+    "title": "Árbol junto a un camino sinuoso",
+    "invitation": "Un camino que serpentea hacia la distancia.",
+    "objective": "explorar cómo los bordes de un camino pueden acercarse entre sí a medida que se aleja dentro del dibujo.",
+    "parentNote": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave.",
+    "simplify": "Usen un camino recto con dos bordes, un tronco sencillo y una forma para la copa. Los caminos de ancho uniforme y las vistas imaginarias también son válidos; pueden omitir los detalles del paisaje.",
+    "transfer": "Otro día, prueben dibujar un río o una vía de tren que desaparezca en otro paisaje. Exploren cómo cambia el espacio entre dos bordes sin usar el modelo del árbol y el camino.",
+    "colouringLabel": "Movimientos pequeños con creyón, tus propios colores",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un camino hacia un lugar imaginario",
+        "instruction": "Fíjate en el camino ancho cerca de nosotros y estrecho a lo lejos.",
+        "spoken": "Nuestro camino sinuoso lleva a un lugar que podemos imaginar. Mira cómo es ancho cerca de nosotros y mucho más estrecho cuando se aleja.",
+        "hint": "Compara el extremo ancho de abajo con el extremo pequeño y lejano.",
+        "notice": "Miren una foto de un camino desde el suelo. Observen si sus bordes visibles están más separados cerca y más juntos a lo lejos. Esta es una manera de sugerir distancia, no una regla obligatoria para paisajes imaginarios."
+      },
+      "distant-hill": {
+        "title": "Una colina lejana",
+        "instruction": "Dibuja una colina baja y lejana en la parte superior del paisaje.",
+        "spoken": "Empieza con una colina baja a lo lejos. Deja bastante espacio debajo para el camino sinuoso y un árbol cercano.",
+        "hint": "Mantén la colina lejana cerca de la parte superior de la hoja.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "path-left-edge": {
+        "title": "El borde izquierdo del camino",
+        "instruction": "Traza un borde sinuoso del camino hacia la colina lejana.",
+        "spoken": "Empieza abajo y deja que este borde del camino serpentee hacia la colina. Una curva larga y cómoda puede cambiar de dirección sin hacer una esquina puntiaguda.",
+        "hint": "Deja que una curva suelta vaya desde la parte cercana hacia la colina.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "path-right-edge": {
+        "title": "El borde derecho del camino",
+        "instruction": "Deja el camino más ancho cerca y más estrecho lejos.",
+        "spoken": "Agrega el otro borde. Deja un espacio más ancho abajo y uno estrecho a lo lejos; ese cambio ayuda a sugerir distancia.",
+        "hint": "Compara el espacio de abajo con el espacio cerca de la colina.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "trunk-left-edge": {
+        "title": "El lado izquierdo del tronco",
+        "instruction": "Dibuja un tronco suavemente curvo a la izquierda.",
+        "spoken": "Haz subir un tronco de árbol a la izquierda del camino. Una curva que cambia suavemente puede hacer que parezca menos recto que un poste.",
+        "hint": "Empieza cerca del suelo y deja que el tronco suba con una curva.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "trunk-right-edge": {
+        "title": "El lado derecho del tronco",
+        "instruction": "Agrega cerca el otro lado del tronco.",
+        "spoken": "Dibuja el otro lado y deja espacio entre los bordes. Haz que el tronco sea un poco más ancho cerca del suelo.",
+        "hint": "Deja un espacio más ancho cerca del extremo inferior del tronco.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "left-branch": {
+        "title": "La rama izquierda",
+        "instruction": "Deja que una rama se curve hacia arriba y a la izquierda.",
+        "spoken": "Una rama sale del tronco y se curva hacia arriba. Deja espacio alrededor de la punta para la copa de hojas que dibujaremos después.",
+        "hint": "Deja que la rama salga hacia un lado antes de girar hacia arriba.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "right-branch": {
+        "title": "La rama derecha",
+        "instruction": "Curva otra rama hacia arriba y a la derecha.",
+        "spoken": "Otra rama se extiende hacia la derecha. Las diferentes direcciones ayudan a que el árbol se abra en vez de llevar todas sus hojas hacia un solo lado.",
+        "hint": "Haz que esta rama gire en una dirección diferente.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "leafy-crown": {
+        "title": "La copa de hojas",
+        "instruction": "Une curvas grandes y redondeadas alrededor de las ramas.",
+        "spoken": "Forma la copa de hojas con curvas grandes y redondeadas. Piensa primero en todo el conjunto; no necesitamos una línea separada para cada hoja.",
+        "hint": "Une varias curvas grandes y redondeadas alrededor de las puntas de las ramas.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "left-root": {
+        "title": "La raíz izquierda",
+        "instruction": "Haz que una raíz corta salga hacia un lado por el suelo.",
+        "spoken": "Una raíz pequeña sale hacia la izquierda por el suelo.",
+        "hint": "Deja que esta curva pequeña se aleje del tronco.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "right-root": {
+        "title": "La raíz derecha",
+        "instruction": "Agrega una raíz corta que se extienda hacia el otro lado.",
+        "spoken": "Una raíz del otro lado ayuda a que el árbol parezca asentado en el paisaje.",
+        "hint": "Curva una raíz pequeña hacia la derecha.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "trunk-bark": {
+        "title": "La corteza",
+        "instruction": "Deja que una línea ondulada de corteza siga la altura del tronco.",
+        "spoken": "Si quieres textura de corteza, una línea ondulada puede seguir el tronco hacia arriba. No necesitas cubrir todo el árbol de marcas.",
+        "hint": "Una sola línea ondulada y suave basta para sugerir textura.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "leafy-cluster": {
+        "title": "Un grupo de hojas",
+        "instruction": "Si quieres, agrega un grupo pequeño de hojas dentro de la copa.",
+        "spoken": "Un grupo redondeado más pequeño dentro puede sugerir varias hojas. Deja claro el contorno de afuera para que toda la copa siga viéndose como una sola forma.",
+        "hint": "Repite unas curvas redondeadas más pequeñas dentro de la copa grande.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "near-path-stone": {
+        "title": "Una piedra cercana",
+        "instruction": "Coloca una piedra plana más grande cerca de la parte de abajo.",
+        "spoken": "Puedes colocar una piedra plana cerca de nosotros. Déjala junto al camino, sin tapar el recorrido de nuestro viaje imaginario.",
+        "hint": "Haz un óvalo bajo cerca de la parte delantera del paisaje.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "far-path-stone": {
+        "title": "Una piedra lejana",
+        "instruction": "Si quieres, prueba una piedrita junto a la parte alta del camino.",
+        "spoken": "Puedes agregar una piedra diminuta a lo lejos. Si dibujaste una piedra cercana, comparar sus tamaños es otra manera de sugerir distancia.",
+        "hint": "Coloca un óvalo diminuto junto a la parte superior del camino.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "tree-grass": {
+        "title": "Pasto junto al árbol",
+        "instruction": "Agrega una pequeña marca doblada de pasto junto al árbol.",
+        "spoken": "Si quieres, una marca pequeña y doblada de pasto puede quedar junto a las raíces.",
+        "hint": "Mantén esta marca pequeña de pasto cerca del suelo.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "path-grass": {
+        "title": "Pasto junto al camino",
+        "instruction": "Deja que otra pequeña marca de pasto se levante junto al camino.",
+        "spoken": "Puedes agregar otra marca pequeña de pasto junto al camino o dejar este espacio vacío.",
+        "hint": "Un pequeño giro hacia arriba basta para sugerir pasto.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "distant-bush": {
+        "title": "Un arbusto lejano",
+        "instruction": "Si quieres, dibuja un arbusto redondeado y diminuto cerca de la colina.",
+        "spoken": "Un arbusto redondeado cerca de la colina se mantiene pequeño en nuestro paisaje. Estas formas lejanas ayudan a sugerir distancia, como el camino que se estrecha.",
+        "hint": "Usa unas curvas redondeadas pequeñas para este arbusto lejano.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "landscape-cloud": {
+        "title": "Una nube",
+        "instruction": "Si quieres, agrega una nube suave en el cielo abierto.",
+        "spoken": "Una nubecita puede estar en el cielo abierto. Une curvas redondeadas y ciérralas con una línea suave por debajo.",
+        "hint": "Deja cielo libre alrededor de esta nube pequeña.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "fallen-tree-leaf": {
+        "title": "Una hoja caída",
+        "instruction": "Si quieres, coloca una hoja pequeña cerca del árbol.",
+        "spoken": "Una hoja caída puede quedar cerca del árbol. Dos curvas cortas que se unen en una punta forman este pequeño detalle del paisaje.",
+        "hint": "Usa dos curvas pequeñas que se unan en ambos extremos.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "landscape-sun": {
+        "title": "Un sol de papel",
+        "instruction": "Si quieres, dibuja un sol pequeño en el cielo abierto.",
+        "spoken": "Puedes agregar un sol pequeño a este paisaje inventado. Usa nuestro dibujo de papel como referencia, nunca el Sol de verdad.",
+        "hint": "Una forma redonda pequeña cabe en un espacio libre del cielo.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      },
+      "colour-choice": {
+        "title": "Colores para el paisaje",
+        "instruction": "Elige hojas verdes, un tronco marrón y un color cálido para el camino.",
+        "spoken": "Yo usaré hojas verdes, un tronco marrón y un camino de color arena cálido. Tu paisaje imaginario puede tener otro clima, otra estación y otros colores.",
+        "hint": "Elige un color para las hojas y otro diferente para el camino.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-leafy-crown": {
+        "title": "Pequeñas zonas de hojas",
+        "instruction": "Colorea zonas verdes alrededor de la copa redondeada del árbol.",
+        "spoken": "Coloreo zonas pequeñas en la copa grande de hojas y levanto el creyón antes de pasar a otra. Los espacios blancos mantienen la textura ligera y abierta.",
+        "hint": "Haz movimientos pequeños dentro de la forma redondeada grande de las hojas.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-tree-trunk": {
+        "title": "Un tronco marrón y estrecho",
+        "instruction": "Haz movimientos cortos siguiendo la altura del tronco.",
+        "spoken": "El tronco es mucho más estrecho que las hojas, así que hago movimientos más pequeños. Seguiré su dirección hacia arriba y dejaré visible la línea de la corteza.",
+        "hint": "Acorta los movimientos y sigue el tronco hacia arriba.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-winding-path": {
+        "title": "Colorea hacia la distancia",
+        "instruction": "Haz las zonas de color más pequeñas donde el camino se estrecha.",
+        "spoken": "Mira cómo los movimientos se hacen más pequeños hacia el extremo lejano. El color sigue la misma idea de ancho y estrecho que muestran los dos bordes del camino.",
+        "hint": "Los espacios grandes cercanos y los pequeños lejanos necesitan movimientos de distintos tamaños.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-landscape-layer": {
+        "title": "Un poco de sombra en las hojas",
+        "instruction": "Prueba una capa más oscura en las hojas y colorea los detalles opcionales que agregaste.",
+        "spoken": "Una capa suave de verde puede oscurecer parte de la copa. Si dibujaste una piedra o un sol de papel, puedes colorearlos de gris y amarillo.",
+        "hint": "Agrega una capa suave dentro de la copa; colorea las formas extra solo si las dibujaste.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-reflect": {
+        "title": "Un paisaje con profundidad",
+        "instruction": "Fíjate en el camino que se estrecha y en las piedras de distintos tamaños, si las agregaste.",
+        "spoken": "Sigue con los ojos el camino que se estrecha. Si dibujaste piedras de distintos tamaños, también ayudan a sugerir que el paisaje continúa a lo lejos.",
+        "hint": "Compara una forma cercana con otra más pequeña y lejana.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "explore": {
+        "title": "¿Adónde lleva tu camino?",
+        "instruction": "Sigue coloreando o imagina qué hay más allá de la colina.",
+        "spoken": "Tu camino puede llevar a un jardín, una casita o un lugar completamente imaginario. Sigue explorando el paisaje o termina cuando quieras.",
+        "hint": "Agrega una idea lejana y mantén su forma más pequeña que los objetos cercanos.",
+        "notice": "Usa dos dedos sobre una imagen para señalar el ancho del camino en dos lugares. Pregunta si el niño o niña quiere un destino cercano o lejano. Si te lo pide, muestra en otra hoja un movimiento curvo más suave."
+      }
+    },
+    "sourceSha256": "5ce444dcc37e031b00d99e4a4f7a2a67b89c6fcf248a1ab2a48953d5e69e72d5"
+  }
+}

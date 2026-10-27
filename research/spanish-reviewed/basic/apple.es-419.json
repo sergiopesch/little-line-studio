@@ -1,0 +1,143 @@
+{
+  "locale": "es-419",
+  "status": "reviewed-internally-pending-native-review",
+  "lessonId": "apple",
+  "title": "Manzana",
+  "invitation": "Dos curvas se convierten en una fruta conocida.",
+  "objective": "Formar un contorno redondeado e irregular con dos curvas y agregar un detalle pequeño.",
+  "parentNote": "Muestra los dos lados de una manzana real o de una imagen, en vez de corregir el contorno del niño. Si unir las curvas le resulta incómodo, ofrece la opción más sencilla de hacer un solo óvalo. Una manzana inventada, con colores o diseños, es tan válida como una observada.",
+  "simplify": "",
+  "transfer": "¿Cómo podrían cambiar esas dos curvas para dibujar una pera?",
+  "colouringLabel": "Curvas rojizas y un poquito de brillo",
+  "parentNotes": {
+    "observe": "Miren una manzana o una imagen de una. Fíjense en la pequeña hendidura donde empieza el tallo.",
+    "draw": "Muestra los dos lados de una manzana real o de una imagen, en vez de corregir el contorno del niño. Si unir las curvas le resulta incómodo, ofrece la opción más sencilla de hacer un solo óvalo. Una manzana inventada, con colores o diseños, es tan válida como una observada.",
+    "colour": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+  },
+  "stages": {
+    "notice": {
+      "title": "Un picnic en papel.",
+      "instruction": "Observa los dos lados curvos de la manzana y la pequeña hendidura de arriba.",
+      "spoken": "Vamos a dibujar una manzana para un picnic imaginario. Dos curvas grandes se encuentran cerca de una pequeña hendidura, con un tallo arriba.",
+      "hint": "Sigue uno de los lados desde arriba hacia abajo.",
+      "notice": "Miren una manzana o una imagen de una. Fíjense en la pequeña hendidura donde empieza el tallo."
+    },
+    "apple-left-side": {
+      "title": "El lado izquierdo de la manzana",
+      "instruction": "Haz una curva hacia afuera desde arriba y rodea la parte de abajo de la manzana.",
+      "spoken": "Empieza cerca de arriba. Haz una curva hacia la izquierda, rodea el lado y después gira hacia adentro, hacia la parte de abajo.",
+      "hint": "Deja que el lado salga hacia afuera antes de volver a curvarse hacia adentro.",
+      "notice": "Muestra los dos lados de una manzana real o de una imagen, en vez de corregir el contorno del niño. Si unir las curvas le resulta incómodo, ofrece la opción más sencilla de hacer un solo óvalo. Una manzana inventada, con colores o diseños, es tan válida como una observada."
+    },
+    "apple-right-side": {
+      "title": "El lado derecho de la manzana",
+      "instruction": "Lleva el otro lado con una curva hasta llegar arriba.",
+      "spoken": "Desde abajo, haz una curva hacia afuera y hacia arriba por el otro lado. Las dos curvas se encuentran y cierran nuestra manzana.",
+      "hint": "Sigue el contorno con un movimiento amplio y redondeado.",
+      "notice": "Muestra los dos lados de una manzana real o de una imagen, en vez de corregir el contorno del niño. Si unir las curvas le resulta incómodo, ofrece la opción más sencilla de hacer un solo óvalo. Una manzana inventada, con colores o diseños, es tan válida como una observada."
+    },
+    "apple-stalk": {
+      "title": "El tallo de la manzana",
+      "instruction": "Haz un tallo corto y curvo desde la hendidura de arriba.",
+      "spoken": "Una línea corta y curva sale hacia arriba desde la hendidura. La hago mucho más pequeña que la manzana.",
+      "hint": "Empieza donde se unen las dos curvas grandes de tu manzana.",
+      "notice": "Muestra los dos lados de una manzana real o de una imagen, en vez de corregir el contorno del niño. Si unir las curvas le resulta incómodo, ofrece la opción más sencilla de hacer un solo óvalo. Una manzana inventada, con colores o diseños, es tan válida como una observada."
+    },
+    "apple-leaf": {
+      "title": "La hoja de la manzana",
+      "instruction": "Si quieres, prueba una hoja puntiaguda al lado del tallo.",
+      "spoken": "Dos curvas se encuentran en una punta y forman una hoja. La hoja toca el pequeño tallo.",
+      "hint": "Haz una curva hacia una punta y después vuelve hacia el tallo.",
+      "notice": "Muestra los dos lados de una manzana real o de una imagen, en vez de corregir el contorno del niño. Si unir las curvas le resulta incómodo, ofrece la opción más sencilla de hacer un solo óvalo. Una manzana inventada, con colores o diseños, es tan válida como una observada."
+    },
+    "leaf-vein": {
+      "title": "Una línea en la hoja",
+      "instruction": "Si dibujaste una hoja, agrega una línea por dentro.",
+      "spoken": "Si agregaste una hoja, una línea suave puede pasar por el medio. Si no, puedes dejar este detalle fuera.",
+      "hint": "Mantén la línea pequeña dentro de los bordes curvos de la hoja.",
+      "notice": "Muestra los dos lados de una manzana real o de una imagen, en vez de corregir el contorno del niño. Si unir las curvas le resulta incómodo, ofrece la opción más sencilla de hacer un solo óvalo. Una manzana inventada, con colores o diseños, es tan válida como una observada."
+    },
+    "apple-shine": {
+      "title": "El brillo de la manzana",
+      "instruction": "Si quieres, prueba una curva pequeña dentro de la manzana para el brillo.",
+      "spoken": "Una curva pequeña sigue el lado izquierdo de la manzana. Voy a dejar el papel blanco aquí para mostrar un poco de brillo.",
+      "hint": "Deja espacio entre tu curva de brillo y el borde de afuera.",
+      "notice": "Muestra los dos lados de una manzana real o de una imagen, en vez de corregir el contorno del niño. Si unir las curvas le resulta incómodo, ofrece la opción más sencilla de hacer un solo óvalo. Una manzana inventada, con colores o diseños, es tan válida como una observada."
+    },
+    "apple-dip": {
+      "title": "La hendidura de arriba",
+      "instruction": "Si quieres, muestra la hendidura de arriba con una curva pequeñita.",
+      "spoken": "Una curva pequeñita cerca del tallo puede mostrar mejor la hendidura. Es un detalle extra.",
+      "hint": "Esta pequeña hendidura va cerca de la parte de arriba de la manzana.",
+      "notice": "Muestra los dos lados de una manzana real o de una imagen, en vez de corregir el contorno del niño. Si unir las curvas le resulta incómodo, ofrece la opción más sencilla de hacer un solo óvalo. Una manzana inventada, con colores o diseños, es tan válida como una observada."
+    },
+    "apple-ground": {
+      "title": "Una línea debajo",
+      "instruction": "Prueba una línea debajo de tu manzana o déjala fuera.",
+      "spoken": "Una curva baja debajo de la manzana puede convertirse en nuestro mantel de picnic imaginario. Deja un pequeño espacio debajo de la fruta.",
+      "hint": "La línea queda debajo del contorno de tu manzana.",
+      "notice": "Muestra los dos lados de una manzana real o de una imagen, en vez de corregir el contorno del niño. Si unir las curvas le resulta incómodo, ofrece la opción más sencilla de hacer un solo óvalo. Una manzana inventada, con colores o diseños, es tan válida como una observada."
+    },
+    "colour-choice": {
+      "title": "Colores para el picnic.",
+      "instruction": "Elige rojo y verde, u otro color para tu manzana.",
+      "spoken": "Yo elijo rojo para la manzana y verde para su hoja. Las manzanas amarillas o verdes también pueden estar en un picnic de papel.",
+      "hint": "Elige el color de manzana que quieras explorar hoy.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-apple-left": {
+      "title": "Deja un poquito de brillo.",
+      "instruction": "Colorea pequeñas zonas de rojo y deja blanco el espacio para el brillo.",
+      "spoken": "Voy haciendo pequeñas zonas rojas en un lado. El espacio blanco se queda sin colorear: el papel nos puede ayudar a mostrar el brillo.",
+      "hint": "Puedes dejar pequeños espacios sin apretar más fuerte para cubrirlo todo.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-apple-right": {
+      "title": "Por el otro lado.",
+      "instruction": "Continúa las zonas rojas hacia el borde redondeado de la manzana.",
+      "spoken": "Ahora sigo por el otro lado. Hago movimientos más cortos cerca del borde y levanto el creyón antes de pasar a la siguiente zona.",
+      "hint": "Sigue tu contorno curvo con movimientos pequeños y suaves.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-apple-leaf": {
+      "title": "Una pequeña hoja verde.",
+      "instruction": "Si agregaste una hoja, coloréala de verde.",
+      "spoken": "Unos pocos trazos pequeños de verde caben dentro de la hoja. Deja visible la línea delgada del medio o deja tu hoja blanca.",
+      "hint": "No necesitas una hoja; puedes saltarte este color.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-reflection": {
+      "title": "Nuestra manzana de picnic.",
+      "instruction": "Fíjate cómo queda el espacio blanco junto al color.",
+      "spoken": "Dos curvas grandes se convirtieron en una manzana redondeada. Mira cómo quedan juntas las zonas de color y el papel blanco en nuestro dibujo de picnic.",
+      "hint": "Tu manzana puede ser más redonda, más alta o de otro color.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "explore": {
+      "title": "Algo para tu picnic.",
+      "instruction": "Inventa otro dibujo para el picnic, sigue coloreando o termina aquí.",
+      "spoken": "¿Qué más podría haber en tu picnic imaginario? Prueba con otra fruta, una taza o tu propia idea. Puedes terminar cuando quieras.",
+      "hint": "Otra forma redondeada podría convertirse en una pera o un durazno.",
+      "notice": "Muestra los dos lados de una manzana real o de una imagen, en vez de corregir el contorno del niño. Si unir las curvas le resulta incómodo, ofrece la opción más sencilla de hacer un solo óvalo. Una manzana inventada, con colores o diseños, es tan válida como una observada."
+    }
+  },
+  "sourceTextSha256": "099ae9baacbdfff6a0bcc7df9ec236fdd5e072eebc00a0b1a44a00ab81c226bb",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Mira"
+    },
+    {
+      "id": "draw",
+      "label": "Dibuja"
+    },
+    {
+      "id": "colour",
+      "label": "Colorea"
+    },
+    {
+      "id": "explore",
+      "label": "Tus propias ideas"
+    }
+  ]
+}

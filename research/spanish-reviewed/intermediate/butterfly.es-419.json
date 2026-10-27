@@ -1,0 +1,210 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "butterfly",
+  "lesson": {
+    "title": "La mariposa",
+    "invitation": "Alas y diseños a tu manera.",
+    "objective": "Disponer las alas alrededor de un cuerpo central y comparar los lados izquierdo y derecho sin exigir simetría exacta.",
+    "parentNote": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado.",
+    "simplify": "",
+    "transfer": "Otro día, dibujen una polilla usando la misma idea de un cuerpo central con alas unidas, pero elijan un contorno diferente. Si quieren, pueden mirar una imagen de polilla elegida por la persona adulta.",
+    "colouringLabel": "Trazos pequeños y colores a tu manera",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Una visita en nuestro jardín.",
+        "instruction": "Observa las alas anchas junto al cuerpo estrecho.",
+        "spoken": "Una mariposa de papel visita nuestro jardín imaginario de flores. Mira su cuerpo estrecho y las alas anchas que salen a ambos lados.",
+        "hint": "Compara un ala ancha con el cuerpo estrecho.",
+        "notice": "Mira la mariposa de nuestro ejemplo. ¿Dónde se unen las alas al cuerpo estrecho?"
+      },
+      "butterfly-body": {
+        "title": "El cuerpo",
+        "instruction": "Dibuja un óvalo largo y estrecho en el centro.",
+        "spoken": "Este óvalo largo deja bastante papel a ambos lados. Les da a las alas un lugar en el centro donde unirse.",
+        "hint": "Deja mucho más espacio a los lados del cuerpo que dentro de él.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-head": {
+        "title": "La cabeza",
+        "instruction": "Coloca una pequeña cabeza redonda sobre el cuerpo.",
+        "spoken": "Una cabeza redonda y pequeña va sobre el cuerpo estrecho. La hago mucho más corta que ese óvalo largo.",
+        "hint": "Deja espacio encima del cuerpo para una cabecita.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-upper-left": {
+        "title": "El ala superior izquierda",
+        "instruction": "Haz una curva ancha hacia la izquierda para un ala de arriba.",
+        "spoken": "Traza una curva que salga bastante hacia un lado, redondea el borde y vuelve al cuerpo. Un movimiento grande deja espacio para colorear dentro del ala.",
+        "hint": "Haz que la curva ancha vuelva al cuerpo estrecho del centro.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-upper-right": {
+        "title": "El ala superior derecha",
+        "instruction": "Agrega un ala superior ancha al otro lado.",
+        "spoken": "Mira al otro lado del centro para colocar otra ala ancha. Comparo su altura y su ancho con los de la primera.",
+        "hint": "La segunda ala sale del otro lado del cuerpo.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-lower-left": {
+        "title": "El ala inferior izquierda",
+        "instruction": "Haz una curva para un ala más pequeña debajo de la primera.",
+        "spoken": "El ala de abajo comienza debajo de la de arriba. Hago su curva más pequeña para notar que las alas tienen tamaños diferentes.",
+        "hint": "Mantén esta ala redondeada debajo del ala grande de arriba.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-lower-right": {
+        "title": "El ala inferior derecha",
+        "instruction": "Agrega otra ala de abajo al otro lado del cuerpo.",
+        "spoken": "Otra ala más pequeña sale con una curva hacia la derecha. Comparar los dos lados me ayuda a elegir dónde volver al centro.",
+        "hint": "Mira el otro lado para elegir el lugar y el tamaño del ala inferior.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-left-antenna": {
+        "title": "La antena izquierda",
+        "instruction": "Haz una curva para una antena delgada sobre la cabeza.",
+        "spoken": "Una línea delgada sube con una curva desde la cabeza. Una curva suave al final la hace diferente de una línea recta.",
+        "hint": "Empieza en la cabeza y haz una curva en el espacio de arriba.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-right-antenna": {
+        "title": "La antena derecha",
+        "instruction": "Haz otra antena delgada y curva hacia el otro lado.",
+        "spoken": "Una segunda línea curva va hacia el otro lado. Deja un poquito de espacio entre las puntas de las dos antenas.",
+        "hint": "Prueba una curva corta que apunte en dirección contraria a la primera.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-left-upper-vein": {
+        "title": "Línea del ala superior izquierda",
+        "instruction": "Dibuja una línea que entre en el ala izquierda.",
+        "spoken": "Una línea sale desde cerca del cuerpo y entra en el ala superior. Me detengo mucho antes de llegar al borde exterior.",
+        "hint": "Mantén el extremo de la línea dentro del ala.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-right-upper-vein": {
+        "title": "Línea del ala superior derecha",
+        "instruction": "Dibuja una línea parecida en el ala derecha.",
+        "spoken": "Llevo la misma idea a la otra ala superior. Observo una dirección parecida, sin necesidad de hacer una copia exacta.",
+        "hint": "Compara esta línea con la que está al otro lado del cuerpo.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-left-lower-vein": {
+        "title": "Línea del ala inferior izquierda",
+        "instruction": "Deja que una línea corta entre en un ala de abajo.",
+        "spoken": "Una línea más corta entra en el ala inferior. Las alas pequeñas necesitan líneas más cortas que las alas grandes de arriba.",
+        "hint": "Empieza cerca del cuerpo y detente dentro del ala inferior.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-right-lower-vein": {
+        "title": "Línea del ala inferior derecha",
+        "instruction": "Agrega una línea corta en la otra ala de abajo.",
+        "spoken": "Una línea corta más entra en esta ala inferior. Cada línea queda dentro de la curva que la rodea.",
+        "hint": "Deja un poquito de espacio entre la línea y el borde del ala.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-left-oval": {
+        "title": "Un óvalo en el ala",
+        "instruction": "Si quieres, prueba un óvalo dentro de un ala.",
+        "spoken": "Un óvalo pequeño e inclinado puede decorar esta ala. Tú eliges el diseño: puede ser diferente o puedes dejarlo fuera.",
+        "hint": "Deja espacio alrededor del diseño dentro del ala.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-right-diamond": {
+        "title": "Un rombo en el ala",
+        "instruction": "Prueba una figura con puntas dentro de la otra ala.",
+        "spoken": "Cuatro lados unidos pueden formar un rombo. Una forma diferente aquí le da su propio diseño a nuestra mariposa imaginaria.",
+        "hint": "Une cuatro lados cortos en una parte libre del ala.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-left-spot": {
+        "title": "Un puntito en un ala",
+        "instruction": "Prueba un puntito en un ala inferior.",
+        "spoken": "Un puntito puede ir en el ala de abajo. Puedes detenerte después de un punto o dejar el ala sin decoración.",
+        "hint": "Busca un espacio dentro del ala inferior para hacer una marca.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-right-spot": {
+        "title": "Otro puntito",
+        "instruction": "Si quieres, prueba hacer otro puntito.",
+        "spoken": "Otro puntito puede ir al otro lado del cuerpo. El diseño no tiene que ser igual en los dos lados.",
+        "hint": "Un punto, una marca diferente o ninguna marca pueden funcionar.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-upper-band": {
+        "title": "Una línea arriba en el cuerpo",
+        "instruction": "Prueba una línea corta que cruce el cuerpo estrecho.",
+        "spoken": "Una línea corta puede cruzar el cuerpo estrecho. Me detengo en sus bordes para que la línea quede dentro.",
+        "hint": "Usa solo el ancho del pequeño óvalo central.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "butterfly-lower-band": {
+        "title": "Una línea abajo en el cuerpo",
+        "instruction": "Prueba otra línea más abajo en el cuerpo, o déjala fuera.",
+        "spoken": "Una línea corta puede ir más abajo en el cuerpo. Deja espacio de papel alrededor de las otras líneas que elijas.",
+        "hint": "Esta línea opcional va dentro de la mitad inferior del cuerpo.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      },
+      "colour-choice": {
+        "title": "Los colores de tus alas.",
+        "instruction": "Elige colores para tu visitante imaginaria del jardín.",
+        "spoken": "Yo elijo naranja para las alas de arriba y amarillo para las de abajo. Una mariposa de papel puede tener los colores y diseños que tú imagines.",
+        "hint": "Elige un color para un espacio grande y otro para los detalles.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-upper-wings": {
+        "title": "Espacio para las alas de arriba.",
+        "instruction": "Colorea las alas grandes en pequeños grupos de trazos curvos.",
+        "spoken": "Me muevo por un espacio pequeño, levanto el creyón y vuelvo a moverlo. El naranja claro deja visibles los diseños que dibujamos y los espacios blancos.",
+        "hint": "Haz movimientos más pequeños con el creyón cerca de los bordes de las alas.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-lower-wings": {
+        "title": "Alas pequeñas, amarillo suave.",
+        "instruction": "Usa amarillo en las alas más pequeñas de abajo.",
+        "spoken": "El amarillo les da otro color a las alas más pequeñas. Hago trazos cortos y luego una pequeña zona marrón y estrecha dentro del cuerpo.",
+        "hint": "Un ala pequeña necesita una zona de color más pequeña que un ala grande.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-wing-edges": {
+        "title": "Un borde de color más cálido.",
+        "instruction": "Prueba un poco de color más oscuro cerca de los bordes exteriores de las alas.",
+        "spoken": "Un poco de rojo sobre el naranja cambia su tono cerca del borde. Las capas suaves nos dejan ver los dos colores juntos.",
+        "hint": "Presiona suavemente para que aún se vea el primer color.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-reflection": {
+        "title": "Alas que salen del centro.",
+        "instruction": "Observa las alas anchas y el cuerpo estrecho del centro.",
+        "spoken": "Nuestras alas anchas salen de un cuerpo estrecho. Sus colores pueden combinar sin ser iguales, listos para un jardín imaginario de flores.",
+        "hint": "Mira uno de los colores que elegiste sin tener que decir su nombre.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "explore": {
+        "title": "Deja crecer tu jardín de papel.",
+        "instruction": "Agrega una flor, inventa un diseño o termina aquí.",
+        "spoken": "A tu visitante del jardín podría gustarle una flor inventada o un diseño creado por ti. Puedes seguir coloreando o terminar aquí.",
+        "hint": "Prueba formas anchas a ambos lados de un centro estrecho.",
+        "notice": "Si te pide ayuda, señala dónde se unen las alas en el ejemplo, sin comparar el tamaño de sus alas. Ofrece dibujar una forma de ala diferente en tu propia hoja. Puede elegir diseños iguales o diferentes en cada lado."
+      }
+    },
+    "sourceSha256": "157c5363b2149f0dbaa94801305222ec3e6eba598fe2fa3de5cdb27d98a3abbf"
+  }
+}

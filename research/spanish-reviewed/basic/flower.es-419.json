@@ -1,0 +1,164 @@
+{
+  "locale": "es-419",
+  "status": "reviewed-internally-pending-native-review",
+  "lessonId": "flower",
+  "title": "Flor del jardín",
+  "invitation": "Pétalos, hojas y un pequeño tallo.",
+  "objective": "Organizar las partes alrededor de un centro y unir un tallo a la flor.",
+  "parentNote": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada.",
+  "simplify": "",
+  "transfer": "¿Podrían unas curvas alrededor de un centro ayudarte a inventar otra flor?",
+  "colouringLabel": "Zonas de color en los pétalos y un centro dorado",
+  "parentNotes": {
+    "observe": "Miren juntos una imagen de una flor. ¿Dónde se unen sus pétalos?",
+    "draw": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada.",
+    "colour": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+  },
+  "stages": {
+    "notice": {
+      "title": "Un pequeño jardín en papel.",
+      "instruction": "Fíjate cómo cada pétalo toca el pequeño centro redondo.",
+      "spoken": "Vamos a comenzar un jardín imaginario con una flor. Un círculo pequeño reúne los pétalos y debajo hay un tallo curvo.",
+      "hint": "Encuentra el pequeño centro antes de seguir los pétalos que lo rodean.",
+      "notice": "Miren juntos una imagen de una flor. ¿Dónde se unen sus pétalos?"
+    },
+    "flower-centre": {
+      "title": "El centro de la flor",
+      "instruction": "Dibuja un círculo pequeño con espacio alrededor.",
+      "spoken": "Un círculo pequeño es el comienzo de nuestra flor. Dejo espacio alrededor para que los pétalos tengan dónde crecer.",
+      "hint": "Lleva tu línea curva de vuelta hacia donde comenzaste.",
+      "notice": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada."
+    },
+    "upper-petal": {
+      "title": "El pétalo de arriba",
+      "instruction": "Haz una curva desde el centro hacia arriba y vuelve al centro.",
+      "spoken": "Empieza al lado del círculo. Sube con una curva, rodea la punta suave y vuelve cerca de donde comenzaste: un pétalo largo.",
+      "hint": "Los dos extremos tocan lugares diferentes del círculo.",
+      "notice": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada."
+    },
+    "left-petal": {
+      "title": "El pétalo de la izquierda",
+      "instruction": "Deja que otro pétalo redondeado salga hacia la izquierda.",
+      "spoken": "Este pétalo sale hacia un lado. Ve hacia afuera, rodea su extremo y vuelve al círculo.",
+      "hint": "Haz el mismo movimiento de ida y vuelta hacia la izquierda.",
+      "notice": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada."
+    },
+    "lower-petal": {
+      "title": "El pétalo de abajo",
+      "instruction": "Haz un pétalo redondeado debajo del centro y deja espacio abajo.",
+      "spoken": "Nuestro siguiente pétalo baja con una curva y regresa. Dejo espacio debajo para un tallo.",
+      "hint": "Deja un poquito de espacio entre la flor y la parte de abajo de la hoja.",
+      "notice": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada."
+    },
+    "right-petal": {
+      "title": "El pétalo de la derecha",
+      "instruction": "Agrega un pétalo que salga hacia el otro lado.",
+      "spoken": "Ve hacia la derecha y regresa. Los pétalos de una misma flor pueden tener tamaños diferentes.",
+      "hint": "Busca el borde derecho del círculo antes de hacer tu curva.",
+      "notice": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada."
+    },
+    "upper-right-petal": {
+      "title": "Un pétalo arriba a la derecha",
+      "instruction": "Si quieres, prueba un pétalo más pequeño en un espacio libre.",
+      "spoken": "Un pétalo más pequeño puede caber en este espacio de arriba. También puedes dejar el espacio abierto.",
+      "hint": "Aunque uses un espacio libre, comienza y termina en el círculo.",
+      "notice": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada."
+    },
+    "lower-left-petal": {
+      "title": "Un pétalo abajo a la izquierda",
+      "instruction": "Elige otro espacio para un pétalo extra o déjalo así.",
+      "spoken": "Otro pétalo puede entrar en el espacio de abajo. Una flor con menos pétalos también está bien.",
+      "hint": "Elige los pétalos que quieras para tu jardín de papel.",
+      "notice": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada."
+    },
+    "flower-stem": {
+      "title": "El tallo de la flor",
+      "instruction": "Dibuja un tallo ligeramente curvo debajo de la flor.",
+      "spoken": "Desde el pétalo de abajo, deja que una línea baje haciendo una curva. Este tallo delgado une nuestra flor con su jardín imaginario.",
+      "hint": "Puedes hacer un tallo recto o curvo.",
+      "notice": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada."
+    },
+    "left-leaf": {
+      "title": "La hoja de la izquierda",
+      "instruction": "Si quieres, haz una hoja que salga del tallo y regrese a él.",
+      "spoken": "Una hoja sale del tallo con una curva hasta una punta y después vuelve con otra curva al mismo lugar.",
+      "hint": "Deja que los dos extremos de la hoja toquen el tallo.",
+      "notice": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada."
+    },
+    "right-leaf": {
+      "title": "La hoja de la derecha",
+      "instruction": "Prueba una hoja al otro lado o deja el espacio libre.",
+      "spoken": "Otra hoja puede apuntar hacia el otro lado. Puede estar más arriba, más abajo o tener otro tamaño.",
+      "hint": "Elige un lugar nuevo para empezar a lo largo del tallo.",
+      "notice": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada."
+    },
+    "colour-choice": {
+      "title": "Los colores del jardín.",
+      "instruction": "Elige rosado, amarillo y verde, o tus propios colores.",
+      "spoken": "Yo elijo pétalos rosados, un centro amarillo y hojas verdes. Tu jardín imaginario puede tener otros colores.",
+      "hint": "Pon unos creyones cerca; puedes cambiar de idea.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-first-petals": {
+      "title": "Una pequeña zona de pétalos.",
+      "instruction": "Colorea los pétalos de arriba y de la izquierda con trazos cortos.",
+      "spoken": "Con trazos cortos de rosado coloreo pequeñas zonas dentro de dos pétalos. Levanto el creyón y avanzo, más despacio cerca de los bordes curvos.",
+      "hint": "Unos pocos trazos cortos son más fáciles de detener que uno largo.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-other-petals": {
+      "title": "Pétalos alrededor del centro.",
+      "instruction": "Continúa con los pétalos de abajo y de la derecha.",
+      "spoken": "Coloreo los siguientes pétalos con las mismas zonas suaves. Dejo blancos los pétalos extra para darles una apariencia diferente.",
+      "hint": "Los espacios blancos pueden quedar junto a los pétalos coloreados.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-centre": {
+      "title": "Un centro dorado.",
+      "instruction": "Haz pequeños trazos amarillos dentro del centro redondo.",
+      "spoken": "Los movimientos pequeñitos de amarillo caben en nuestro centro. Mira cómo levanto el creyón antes de llegar al borde para mantener separados los colores de los pétalos.",
+      "hint": "Prueba un movimiento más corto cuando el espacio sea pequeño.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-leaves": {
+      "title": "Verde junto al tallo.",
+      "instruction": "Colorea las hojas que hayas agregado con trazos pequeños de verde.",
+      "spoken": "Si dibujaste hojas, prueba el verde dentro de ellas. En mi ejemplo el tallo delgado ya es verde; las hojas pueden quedarse blancas.",
+      "hint": "Puedes saltarte este color si no dibujaste hojas.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-reflection": {
+      "title": "Un jardín comienza.",
+      "instruction": "Observa el centro, los pétalos que salen y el tallo curvo.",
+      "spoken": "Nuestro pequeño jardín comenzó con un círculo. Mira cómo salen los pétalos a su alrededor, cada uno con espacio para su propio color.",
+      "hint": "Mira toda la flor sin necesidad de cambiarla.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "explore": {
+      "title": "Tu jardín puede crecer.",
+      "instruction": "Agrega otra flor, sigue coloreando o termina tu jardín aquí.",
+      "spoken": "En tu jardín puede crecer otra flor, un camino o algo que inventes. Sigue dibujando o termina con esta flor.",
+      "hint": "Otro día puedes probar una flor pequeñita junto a esta.",
+      "notice": "Señala con el dedo en el ejemplo cómo se unen los pétalos al centro. Si te lo pide, muestra cómo hacer una curva cerrada en otra hoja. No insistas en que los pétalos sean simétricos, tengan un número fijo o se parezcan a una especie determinada."
+    }
+  },
+  "sourceTextSha256": "98dae376cf0a5800ab95a38364c6db346665250225614898460ad0437fcf8aeb",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Mira"
+    },
+    {
+      "id": "draw",
+      "label": "Dibuja"
+    },
+    {
+      "id": "colour",
+      "label": "Colorea"
+    },
+    {
+      "id": "explore",
+      "label": "Tus propias ideas"
+    }
+  ]
+}

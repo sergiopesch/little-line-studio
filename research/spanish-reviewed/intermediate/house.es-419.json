@@ -1,0 +1,238 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "house",
+  "lesson": {
+    "title": "Casa y jardín",
+    "invitation": "Crea una casa con un jardín que crece.",
+    "objective": "Unir formas sencillas para una construcción y colocar un camino y una planta en relación con la casa.",
+    "parentNote": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla.",
+    "simplify": "",
+    "transfer": "Otro día, inventen una tiendita o un cobertizo. Invita a tu niña o niño a reutilizar paredes, una abertura y un techo, eligiendo una disposición diferente.",
+    "colouringLabel": "Trazos pequeños y colores a tu manera",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Una visita para nuestra casa.",
+        "instruction": "Observa el techo puntiagudo sobre las paredes anchas.",
+        "spoken": "Una visita imaginaria viene a nuestra casa de papel. Mira las paredes anchas, el techo con punta y las pequeñas aberturas dentro de la forma de las paredes.",
+        "hint": "Mira cómo descansa el techo sobre las esquinas de las paredes.",
+        "notice": "Mira nuestra casa imaginaria. ¿Dónde comienza el camino?"
+      },
+      "house-walls": {
+        "title": "Las paredes",
+        "instruction": "Une cuatro lados para hacer las paredes de la casa.",
+        "spoken": "Un rectángulo ancho forma nuestras paredes. Dejo papel arriba para el techo y debajo para un camino hacia la puerta.",
+        "hint": "Empieza con un rectángulo grande y espacio a su alrededor.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-left-roof": {
+        "title": "El lado izquierdo del techo",
+        "instruction": "Sube con una línea inclinada desde una esquina de la pared hasta la punta del techo.",
+        "spoken": "Una línea inclinada sube desde la esquina izquierda de la pared hacia el centro. La punta del techo queda por encima de la forma ancha de las paredes.",
+        "hint": "Dirígete hacia un punto por encima del centro del rectángulo de las paredes.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-right-roof": {
+        "title": "El lado derecho del techo",
+        "instruction": "Baja con una línea inclinada hasta la esquina opuesta de la pared.",
+        "spoken": "Una segunda línea inclinada llega a la otra esquina de la pared. Las dos líneas inclinadas y el borde superior de la pared encierran nuestro techo triangular.",
+        "hint": "Une el punto alto con la otra esquina superior de la pared.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-door": {
+        "title": "La puerta",
+        "instruction": "Coloca un rectángulo alto y pequeño dentro de las paredes.",
+        "spoken": "Un rectángulo estrecho llega hasta la parte inferior de la casa. Hazlo mucho más pequeño que las paredes y deja espacio a sus lados para las ventanas.",
+        "hint": "Haz que la parte de abajo de la puerta toque la parte de abajo de la casa.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-door-handle": {
+        "title": "La manilla",
+        "instruction": "Coloca una manilla pequeña dentro de la puerta.",
+        "spoken": "Una marca pequeñita va cerca de un lado de la puerta. Un poquito de papel alrededor ayuda a distinguir este detalle.",
+        "hint": "Mantén este punto dentro de la puerta, no sobre su borde.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-left-window": {
+        "title": "La primera ventana",
+        "instruction": "Dibuja una ventana pequeña al lado de la puerta.",
+        "spoken": "Un rectángulo pequeño cabe al lado de la puerta. Dejo espacio de pared entre la ventana y la puerta, y también entre la ventana y el borde exterior.",
+        "hint": "Busca un espacio libre en la pared a un lado de la puerta.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-right-window": {
+        "title": "La otra ventana",
+        "instruction": "Coloca otra ventanita al otro lado de la puerta.",
+        "spoken": "Una segunda ventana va en el otro lado. Compara su altura con la primera usando la parte superior de la pared como guía.",
+        "hint": "Deja espacio de pared alrededor del segundo rectángulo pequeño.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-left-window-bar": {
+        "title": "La línea de la primera ventana",
+        "instruction": "Dibuja una línea corta dentro de la primera ventana.",
+        "spoken": "Una línea corta divide esta ventana. Empieza y termina en sus bordes para que la línea quede dentro de la forma del vidrio.",
+        "hint": "Usa los bordes superior e inferior de la ventana como puntos para comenzar y detenerte.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-right-window-bar": {
+        "title": "La línea de la otra ventana",
+        "instruction": "Divide la segunda ventana con otra línea corta.",
+        "spoken": "Otra línea corta va dentro de la segunda ventana. Las líneas pequeñas como estas son más fáciles después de colocar las formas grandes.",
+        "hint": "Mantén esta línea pequeña dentro de la segunda ventana.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-chimney": {
+        "title": "La chimenea",
+        "instruction": "Prueba una chimenea pequeña sobre un lado inclinado del techo.",
+        "spoken": "Una chimenea pequeña puede subir desde un lado inclinado del techo. Sus esquinas inferiores se unen al techo y mantienen clara su forma.",
+        "hint": "Une lados cortos por encima del techo, sin atravesarlo.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-left-path": {
+        "title": "Un lado del camino",
+        "instruction": "Deja que un borde del camino salga con una curva desde la puerta.",
+        "spoken": "Una línea baja con una curva desde una esquina inferior de la puerta. Se va abriendo hacia un lado al acercarse a la parte inferior del papel.",
+        "hint": "Empieza en una esquina inferior de la puerta y haz una curva hacia afuera.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-right-path": {
+        "title": "El otro lado del camino",
+        "instruction": "Haz una curva para el otro borde del camino desde la puerta.",
+        "spoken": "El otro borde del camino comienza en la otra esquina. El espacio más ancho cerca de nosotros forma un camino acogedor hacia la casa.",
+        "hint": "Deja que el camino se haga más ancho al alejarse de la puerta.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-flower-stem": {
+        "title": "El tallo",
+        "instruction": "Dibuja un tallo pequeño en el jardín al lado de la casa.",
+        "spoken": "Una línea alta y delgada puede sostener una flor del jardín al lado de nuestra casa. Dejo espacio alrededor de la punta para los pétalos.",
+        "hint": "Elige un espacio libre en el jardín, lejos del camino.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-flower-centre": {
+        "title": "El centro de la flor",
+        "instruction": "Coloca un círculo pequeño en la punta del tallo.",
+        "spoken": "Un centro redondo y pequeño toca la punta del tallo. Hazlo lo bastante pequeño para dejar espacio alrededor para los pétalos.",
+        "hint": "Haz que el círculo toque el extremo superior del tallo.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-upper-petal": {
+        "title": "El pétalo de arriba",
+        "instruction": "Haz una curva para un pétalo sobre el centro de la flor.",
+        "spoken": "Una curva sale de la parte superior del centro y vuelve. Al regresar cerca del inicio, forma un pétalo redondeado con su propio espacio interior.",
+        "hint": "Haz una curva que salga del centro y vuelva al lado del punto de partida.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-left-petal": {
+        "title": "El pétalo izquierdo",
+        "instruction": "Agrega un pétalo al lado del centro de la flor.",
+        "spoken": "Otro pétalo redondeado sale hacia un lado. Mantengo su curva fuera del centro, sin atravesarlo.",
+        "hint": "Haz que este pétalo toque el lado del círculo pequeño.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-lower-petal": {
+        "title": "El pétalo de abajo",
+        "instruction": "Haz una curva para un pétalo debajo del centro de la flor.",
+        "spoken": "El siguiente pétalo se curva debajo del centro. Repetimos un movimiento curvo en una dirección nueva.",
+        "hint": "Deja espacio junto al tallo para este pétalo redondeado.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-right-petal": {
+        "title": "El pétalo derecho",
+        "instruction": "Agrega un pétalo en el último lado libre.",
+        "spoken": "Un pétalo curvo más toca el otro lado. Los pétalos de nuestra flor pueden ser diferentes y aun así verse abiertos y creciendo.",
+        "hint": "Vuelve con esta curva al lado del centro que queda libre.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-flower-leaf": {
+        "title": "La hoja",
+        "instruction": "Une dos curvas para una hoja junto al tallo.",
+        "spoken": "Dos curvas se unen en una punta al lado del tallo. Su forma cerrada deja un pequeño espacio para colorear después.",
+        "hint": "Haz que las dos curvas se unan en el tallo y en la punta de la hoja.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-ground": {
+        "title": "El suelo",
+        "instruction": "Prueba una curva pequeña para el suelo al lado de la casa.",
+        "spoken": "Una curva pequeña para el suelo puede ir al lado de la casa. Deja libres la puerta y el camino para nuestra visita imaginaria.",
+        "hint": "Mantén esta línea adicional fuera del camino que dibujaste.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-garden-stone": {
+        "title": "Una piedra",
+        "instruction": "Si quieres, prueba una piedra ovalada en el jardín.",
+        "spoken": "Un óvalo pequeño puede convertirse en una piedra del jardín. Su forma baja va al lado del camino sin bloquear la puerta.",
+        "hint": "Elige un espacio vacío del jardín para este óvalo pequeño y opcional.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "house-cloud": {
+        "title": "Una nube",
+        "instruction": "Prueba una nube suave sobre tu jardín de papel.",
+        "spoken": "Unas curvas redondeadas pueden formar una pequeña nube en el cielo. Esta forma adicional puede quedar separada de la casa y la flor.",
+        "hint": "Busca un espacio libre alrededor del techo antes de dibujarla.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      },
+      "colour-choice": {
+        "title": "Colores para una casa acogedora.",
+        "instruction": "Elige colores que combinen para la casa y el techo.",
+        "spoken": "Yo elijo paredes crema, un techo rojo y una puerta marrón. Las ventanas azules agregan otro color en los espacios pequeños.",
+        "hint": "Elige un color para las paredes que deje ver bien los contornos.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-roof": {
+        "title": "Rojo cálido en el techo.",
+        "instruction": "Colorea el techo en pequeños grupos de trazos rojos.",
+        "spoken": "Pequeños grupos de trazos rojos van dentro del triángulo. Cerca de la punta hago trazos más cortos y levanto el creyón antes de llegar a un borde.",
+        "hint": "Usa trazos más pequeños cuando el espacio se vuelva estrecho.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-walls": {
+        "title": "Color suave alrededor de las aberturas.",
+        "instruction": "Colorea las paredes alrededor de la puerta y las ventanas.",
+        "spoken": "Los trazos crema van alrededor de las aberturas y las dejan libres. Me muevo entre pequeños espacios de pared, sin colorear encima de la puerta ni de las ventanas.",
+        "hint": "Levanta el creyón antes de llegar a una abertura y empieza en otro espacio de pared.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-door-and-glass": {
+        "title": "Formas pequeñas, colores diferentes.",
+        "instruction": "Dales a la puerta y al vidrio sus propios colores.",
+        "spoken": "El marrón ayuda a distinguir la puerta de las paredes claras. El azul claro cabe en las ventanas y los pequeños espacios blancos sugieren vidrio.",
+        "hint": "Colorea cada forma pequeña por separado y levanta el creyón entre una y otra.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-reflection": {
+        "title": "Una casa lista para tu historia.",
+        "instruction": "Observa cómo caben las aberturas pequeñas dentro de las paredes grandes.",
+        "spoken": "La forma grande de las paredes contiene una puerta y ventanas más pequeñas. Su camino está listo para una visita imaginaria y el jardín puede seguir creciendo.",
+        "hint": "Observa una forma pequeña dentro de otra más grande.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "explore": {
+        "title": "Un jardín a tu manera.",
+        "instruction": "Haz crecer tu jardín, colorea más o termina aquí.",
+        "spoken": "Tu visita podría encontrar más flores, un árbol o algo que tú inventes. Sigue creando tu jardín de papel o termina cuando quieras.",
+        "hint": "Prueba colocar aberturas pequeñas dentro de otra forma grande de edificio.",
+        "notice": "Usen una casa imaginaria; no hace falta identificar el hogar real de la familia. Si la flor resulta difícil, ofrece una flor más grande o una sola flor redonda. Conversen sobre la unión del camino con la puerta solo si te lo pide. No exijas paredes perfectamente rectas como hechas con regla."
+      }
+    },
+    "sourceSha256": "97427e70cc24fb980502eddb0694cc9f84a9d98e9d712092fce269028b5aed48"
+  }
+}

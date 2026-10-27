@@ -1,0 +1,140 @@
+{
+  "locale": "es-419",
+  "status": "draft-unreviewed",
+  "lessonId": "cat",
+  "title": "La carita de un gato curioso",
+  "parentNotes": {
+    "observe": "Miren juntos una imagen del gato. ¿Dónde se unen las orejas con la cabeza?",
+    "draw": "Si ayuda, señala la izquierda y la derecha en la imagen. Si te lo pide, dibuja una oreja en tu propia hoja. No corrijas la expresión del niño ni insistas en que tenga el mismo número de bigotes.",
+    "colour": "Deja que tu niño elija los colores y si quiere usarlos. Más tiempo mantiene abierto este momento todo lo que necesite."
+  },
+  "stages": {
+    "notice": {
+      "title": "Miremos un poquito.",
+      "instruction": "Busca una cabeza redonda, dos orejas y los pequeños detalles de la cara.",
+      "spoken": "Miremos nuestro gato. Una forma grande y redonda contiene la cara, y dos orejitas están arriba. Vamos a formar el dibujo con estas figuras sencillas, una a la vez.",
+      "hint": "Fíjate dónde se unen las orejas con la cabeza y después busca los ojitos dentro."
+    },
+    "round-head": {
+      "title": "La cabeza redonda",
+      "instruction": "Haz una cabeza ancha y redonda. Deja espacio dentro para la cara.",
+      "spoken": "Empecemos con una cabeza ancha y redonda. Mira cómo mi línea da la vuelta y regresa hacia donde comenzó. Esta figura grande deja espacio dentro para la carita.",
+      "hint": "Mueve toda la mano alrededor de la curva. Si queda un espacio abierto, está bien."
+    },
+    "left-ear": {
+      "title": "La oreja izquierda",
+      "instruction": "Agrega un triángulo pequeño para la oreja izquierda.",
+      "spoken": "Un triángulo pequeño forma nuestra primera oreja. Subimos hasta una punta y bajamos hacia la cabeza. Los gatos pueden girar sus orejas hacia los sonidos. Nuestra oreja dibujada se queda quieta.",
+      "hint": "Busca la parte superior izquierda de la cabeza. Tu triángulo puede tener una punta suave."
+    },
+    "right-ear": {
+      "title": "La oreja derecha",
+      "instruction": "Agrega el otro triángulo arriba, a la derecha.",
+      "spoken": "Ahora agrega un triángulo al otro lado. Deja un poquito de espacio entre las orejas.",
+      "hint": "Tus orejas pueden ser de tamaños diferentes. Mira dónde se une cada una con la cabeza."
+    },
+    "left-eye": {
+      "title": "El ojo izquierdo",
+      "instruction": "Pon un ojo pequeño y oscuro dentro de la cabeza.",
+      "spoken": "Pon un ojo pequeño y oscuro dentro de la cabeza, un poco más arriba del centro. Un óvalo pequeñito es suficiente. Fíjate en el espacio que dejamos alrededor.",
+      "hint": "Haz un puntito o un óvalo pequeño. Deja espacio debajo para la nariz."
+    },
+    "right-eye": {
+      "title": "El ojo derecho",
+      "instruction": "Agrega el segundo ojo y deja un espacio entre los dos.",
+      "spoken": "Agrega el otro ojito frente al primero. Deja espacio entre ellos.",
+      "hint": "Busca el lugar al otro lado de tu primer ojo. Los dos ojos no tienen que ser iguales."
+    },
+    "little-nose": {
+      "title": "La naricita",
+      "instruction": "Dibuja un triángulo pequeñito debajo de los ojos para la nariz.",
+      "spoken": "Debajo de los ojos, dibuja un triángulo pequeñito con la punta hacia abajo. Esta es la nariz. Al hacerla pequeña queda espacio alrededor, dentro de la cara redonda.",
+      "hint": "Un triángulo o un puntito puede ir entre los ojos, un poco más abajo."
+    },
+    "curved-mouth": {
+      "title": "La boca curva",
+      "instruction": "Une dos curvitas debajo de la nariz para hacer la boca.",
+      "spoken": "Mira cómo se unen dos curvitas debajo de la nariz, como una letra doble u suave. Estas curvas forman la boca amigable de nuestro dibujo. Puedes darle otra expresión a tu gato.",
+      "hint": "Prueba una curva y luego otra a su lado. Una sola curva también está bien."
+    },
+    "left-whisker-upper": {
+      "title": "Un bigote a la izquierda",
+      "instruction": "Deja que un bigote salga de la mejilla izquierda.",
+      "spoken": "Deja que una línea suave salga de la mejilla izquierda. Este es un bigote. Los gatos de verdad usan sus bigotes para sentir objetos cercanos. Nuestras líneas muestran esos pelitos especiales.",
+      "hint": "Empieza cerca de la mejilla y deja que tu línea viaje hacia afuera."
+    },
+    "left-whisker-middle": {
+      "title": "Otro bigote a la izquierda",
+      "instruction": "Agrega otro bigote a la izquierda y deja un poquito de espacio.",
+      "spoken": "Otra línea suave debajo de la primera. Deja un poquito de espacio.",
+      "hint": "Deja un pequeño espacio entre tus líneas. Este bigote extra es opcional."
+    },
+    "left-whisker-lower": {
+      "title": "Un bigote inclinado a la izquierda",
+      "instruction": "Si quieres, prueba un tercer bigote a la izquierda que baje suavemente.",
+      "spoken": "Una línea más puede inclinarse hacia abajo, como un abanico pequeño. Puedes dejarla fuera si quieres.",
+      "hint": "Una línea corta también sirve. Puedes dejar fuera este bigote extra."
+    },
+    "right-whisker-upper": {
+      "title": "Un bigote a la derecha",
+      "instruction": "Deja que un bigote salga de la mejilla derecha.",
+      "spoken": "Vamos a la otra mejilla. Empieza cerca de la cara y lleva una línea hacia la derecha. Fíjate cómo los bigotes hacen que nuestro gato se vea más ancho que su cabeza redonda.",
+      "hint": "Aléjate de la mejilla derecha. Puedes hacer una línea curva o recta."
+    },
+    "right-whisker-middle": {
+      "title": "Otro bigote a la derecha",
+      "instruction": "Agrega otro bigote a la derecha y deja espacio a su lado.",
+      "spoken": "Agrega un bigote suave más y deja un poquito de espacio. Es opcional.",
+      "hint": "Deja un poquito de espacio para cada línea. Puedes dejar fuera este detalle."
+    },
+    "right-whisker-lower": {
+      "title": "Un último bigote",
+      "instruction": "Termina con otro bigote a la derecha, si quieres.",
+      "spoken": "Un último bigote puede inclinarse hacia abajo. Los dos lados pueden ser diferentes.",
+      "hint": "Los dos lados pueden ser diferentes. Haz tantos bigotes como quieras."
+    },
+    "colour-choice": {
+      "title": "Elige tus colores.",
+      "instruction": "Elige los colores de tu gato. En nuestro ejemplo usaremos naranja cálido, rosado y crema.",
+      "spoken": "Ahora vamos a darle color a nuestro gato. Yo voy a elegir naranja cálido, rosado y crema, como en un cuento. Elige los colores que te gusten. También puedes dejar partes del papel blancas.",
+      "hint": "Si quieres ver cómo se ve un color, pruébalo primero en otra hoja."
+    },
+    "colour-fur": {
+      "title": "Color suave en un lado.",
+      "instruction": "Colorea la mitad izquierda del pelaje con trazos suaves que se superponen.",
+      "spoken": "Mira cómo los trazos suaves van dando color a la mejilla y a la oreja izquierdas. Los trazos pequeños, uno sobre otro, forman una zona de pelaje suave. Voy a dejar libres los ojos y la boca para que podamos verlos.",
+      "hint": "Puedes hacer trazos suaves al lado de otros y también encima. Con Más tiempo puedes quedarte aquí todo lo que quieras."
+    },
+    "colour-fur-right": {
+      "title": "Colorea el otro lado.",
+      "instruction": "Lleva el color a la otra mitad de la cara y a la oreja.",
+      "spoken": "Lleva el color a la otra mejilla y a la oreja. Trabajar en una zona pequeña a la vez nos ayuda a elegir dónde va cada trazo. Los espacios blancos pueden formar parte del pelaje.",
+      "hint": "Gira el papel si te resulta cómodo. Tu color puede ser claro, oscuro o tener espacios."
+    },
+    "colour-details": {
+      "title": "Colorea los pequeños detalles.",
+      "instruction": "Prueba el color crema alrededor de la boca y el rosado dentro de las orejas y en la nariz.",
+      "spoken": "Voy a poner crema alrededor de la boca y después un poco de rosado dentro de las orejas y en la nariz. Los espacios pequeños solo necesitan unos pocos trazos. Fíjate cómo se destacan estas zonas más claras.",
+      "hint": "Unos pocos trazos suaves bastan para una zona pequeña. Elige tus propios colores o déjala como está."
+    },
+    "colour-patterns": {
+      "title": "Unos últimos detalles.",
+      "instruction": "Agrega unas rayitas más oscuras o marcas en las mejillas, si quieres.",
+      "spoken": "Unas marcas de naranja más oscuro forman un dibujo en la frente y las mejillas de mi gato. Estas rayitas siguen la forma redonda de la cara. Prueba tu propio diseño o disfruta tu gato tal como está.",
+      "hint": "Una raya o una mancha puede ser suficiente. Tu gato no necesita un diseño."
+    },
+    "colour-reflection": {
+      "title": "Miremos un poquito.",
+      "instruction": "Mira todo el dibujo. ¿Qué trazo o color te gusta?",
+      "spoken": "Mira todo el dibujo. Usamos formas grandes, pequeños detalles y capas de color. ¿Qué trazo te gusta? Puedes seguir coloreando, agregar una idea o terminar aquí.",
+      "hint": "No necesitas explicar ni cambiar nada. No hay apuro por terminar."
+    },
+    "explore": {
+      "title": "Dale tu propio toque.",
+      "instruction": "Sigue coloreando, inventa un hogar para tu gato o termina aquí.",
+      "spoken": "Nuestro gato está listo para tus propias ideas. Tal vez un sombrero, un hogar acogedor o más color. Puedes seguir creando todo el tiempo que quieras o terminar aquí.",
+      "hint": "Un pequeño detalle puede contar una historia. ¿Qué te gustaría agregar?"
+    }
+  },
+  "sourceStepSha256": "451b507e6f7468dbf7906c489695ed1c89189cd6a8aebef37c1952088804c838"
+}

@@ -1,0 +1,140 @@
+{
+  "locale": "es-419",
+  "status": "reviewed-internally-pending-native-review",
+  "lessonId": "sun",
+  "title": "Un sol amigable",
+  "invitation": "Líneas que salen de un círculo.",
+  "objective": "Dibujar líneas que salen hacia afuera alrededor de una figura central.",
+  "parentNote": "Si ayuda, muestra en otra hoja cómo hacer una línea que vaya hacia afuera. Los rayos no necesitan estar a la misma distancia, medir lo mismo ni ser de un número determinado. La cara es una opción imaginaria, no una observación del Sol real.",
+  "simplify": "",
+  "transfer": "¿Podrían servirte las líneas que salen del centro para dibujar una chispa o un diente de león?",
+  "colouringLabel": "Colorea tu sol",
+  "parentNotes": {
+    "observe": "Miren el dibujo del sol en la pantalla. Fíjense cómo los rayos salen desde el centro.",
+    "draw": "Si ayuda, muestra en otra hoja cómo hacer una línea que vaya hacia afuera. Los rayos no necesitan estar a la misma distancia, medir lo mismo ni ser de un número determinado. La cara es una opción imaginaria, no una observación del Sol real.",
+    "colour": "Deja que tu niño elija los colores, deje espacios en blanco o decida no agregar detalles. Más tiempo mantiene abierto cualquier momento todo el tiempo que necesite."
+  },
+  "stages": {
+    "notice": {
+      "title": "Un poquito de sol.",
+      "instruction": "Mira el centro redondo de nuestro dibujo y los rayos que salen hacia afuera.",
+      "spoken": "Vamos a dibujar un sol amigable para nuestro jardín imaginario. El Sol de verdad es una estrella que le da luz y calor a la Tierra. Fíjate en los rayos de nuestro dibujo.",
+      "hint": "Vamos a usar el dibujo de la pantalla. Nunca mires directamente al Sol de verdad."
+    },
+    "round-sun": {
+      "title": "El centro redondo",
+      "instruction": "Dibuja un centro redondo y deja espacio a su alrededor.",
+      "spoken": "Empecemos con una figura redonda en el centro. Haz una curva despacito hasta volver cerca de donde comenzaste. Deja espacio por fuera para las líneas de nuestro sol.",
+      "hint": "Tu círculo puede tener curvas irregulares. Deja un poco de papel libre a su alrededor."
+    },
+    "upward-ray": {
+      "title": "Un rayo hacia arriba",
+      "instruction": "Agrega un rayo corto arriba del círculo.",
+      "spoken": "Agrega una línea corta arriba del círculo y deja un pequeño espacio entre los dos. En nuestro dibujo, estos rayos nos ayudan a mostrar cómo se extiende la luz.",
+      "hint": "Puedes dejar un pequeño espacio entre el centro redondo y el rayo."
+    },
+    "downward-ray": {
+      "title": "Un rayo hacia abajo",
+      "instruction": "Agrega un rayo debajo del círculo.",
+      "spoken": "Ahora haz una línea debajo del círculo que apunte hacia abajo. Mira cómo estos dos rayos van en direcciones opuestas.",
+      "hint": "Empieza justo por fuera del borde de abajo y lleva la línea hacia abajo."
+    },
+    "left-ray": {
+      "title": "Un rayo a la izquierda",
+      "instruction": "Haz un rayo que salga hacia la izquierda.",
+      "spoken": "Deja que una línea salga hacia la izquierda. Mantén un poquito de espacio alrededor del centro redondo.",
+      "hint": "Busca el lado izquierdo de nuestro dibujo. Lleva la línea alejándose del círculo."
+    },
+    "right-ray": {
+      "title": "Un rayo a la derecha",
+      "instruction": "Haz un rayo que salga hacia la derecha.",
+      "spoken": "Y ahora uno hacia la derecha. Las líneas de nuestro sol se están extendiendo alrededor del centro.",
+      "hint": "Empieza justo por fuera del círculo y lleva tu línea hacia afuera."
+    },
+    "upper-left-ray": {
+      "title": "Un rayo arriba a la izquierda",
+      "instruction": "Dibuja un rayo inclinado en el espacio de arriba a la izquierda.",
+      "spoken": "Aquí hay un espacio entre dos rayos. Una línea inclinada cabe en ese espacio. Primero busco dónde hay lugar y después hago mi trazo.",
+      "hint": "Busca el espacio entre el rayo de arriba y el de la izquierda."
+    },
+    "upper-right-ray": {
+      "title": "Un rayo arriba a la derecha",
+      "instruction": "Agrega otro rayo inclinado en el espacio de arriba a la derecha.",
+      "spoken": "Otra línea inclinada puede llenar este espacio. No tiene que ser igual a la primera.",
+      "hint": "Tus rayos pueden tener diferentes largos y seguir siendo parte de tu dibujo."
+    },
+    "lower-left-ray": {
+      "title": "Un rayo abajo a la izquierda",
+      "instruction": "Si quieres, prueba un rayo ligeramente curvo abajo.",
+      "spoken": "Aquí abajo puede ir un rayo con una curva suave. En nuestro dibujo de cuento pueden ir líneas rectas o curvas. También puedes dejar este rayo fuera.",
+      "hint": "Una pequeña curva es suficiente. Este rayo extra es opcional."
+    },
+    "lower-right-ray": {
+      "title": "Un rayo abajo a la derecha",
+      "instruction": "Si quieres, agrega un último rayo en un espacio libre.",
+      "spoken": "Un último rayo puede salir hacia este espacio. Elige cómo hacer tu línea o deja el espacio como está.",
+      "hint": "Tu sol no necesita tener un rayo en cada espacio."
+    },
+    "sun-left-eye": {
+      "title": "Un ojo a la izquierda",
+      "instruction": "Si quieres, agrega un ojo pequeño a nuestro sol de cuento.",
+      "spoken": "El Sol de verdad no tiene cara, pero este sol de cuento sí puede tenerla. Si quieres, haz un puntito oscuro dentro del círculo para formar un ojo.",
+      "hint": "Puedes hacer un punto o un óvalo pequeño. También puedes dejar tu sol sin cara."
+    },
+    "sun-right-eye": {
+      "title": "Un ojo a la derecha",
+      "instruction": "Si quieres, agrega un ojo pequeño a la derecha.",
+      "spoken": "Un ojito puede ir dentro del lado derecho de tu círculo. Si quieres, prueba con un punto o un óvalo pequeño.",
+      "hint": "Pon el ojito dentro del círculo y deja espacio a su alrededor."
+    },
+    "sun-smile": {
+      "title": "Una sonrisa para el sol",
+      "instruction": "Si quieres, prueba una curva suave para hacer una sonrisa.",
+      "spoken": "Una curva suave puede hacer que nuestro sol de cuento sonría. Ponla en la mitad de abajo del círculo o deja tu sol sin boca.",
+      "hint": "Una pequeña curva es suficiente. Tú decides si quieres agregar la sonrisa."
+    },
+    "colour-choice": {
+      "title": "Elige colores cálidos.",
+      "instruction": "Elige amarillo y naranja, o los colores que te gusten.",
+      "spoken": "Vamos a darle a nuestro sol de cuento un brillo amarillo y cálido. Yo usaré amarillo y un poquito de naranja. Tu sol puede tener sus propios colores.",
+      "hint": "Prueba un trazo suave en otra hoja para ver el color de tu creyón."
+    },
+    "colour-centre-left": {
+      "title": "Un poquito de color.",
+      "instruction": "Colorea un lado con trazos cortos y suaves de creyón.",
+      "spoken": "Mira cómo coloreo un lado con trazos cortos y lentos de creyón. Voy de un lado a otro y levanto el creyón antes de pasar a otra zona. Los pequeños espacios dejan que el papel brille.",
+      "hint": "Deja que los trazos se superpongan suavemente. Detente y levanta el creyón entre una zona pequeña y otra."
+    },
+    "colour-centre-right": {
+      "title": "Colorea el otro lado.",
+      "instruction": "Sigue por el otro lado y, si dibujaste una cara, déjala visible.",
+      "spoken": "Ahora coloreo el otro lado con trazos suaves de creyón. Dejo los ojos y la sonrisa sin cubrir para que podamos seguir viendo la cara de nuestro sol.",
+      "hint": "Gira la hoja si te ayuda. Los espacios en blanco pueden quedarse así."
+    },
+    "colour-rays": {
+      "title": "Rayitos cálidos.",
+      "instruction": "Colorea algunos rayos con trazos lentos de naranja.",
+      "spoken": "Un poquito de naranja hace que los rayos de nuestro dibujo se vean cálidos. Sigue cada rayo con un trazo lento de creyón y después levántalo. Puedes colorear algunos o todos.",
+      "hint": "Levanta el creyón entre un rayo y otro. Elige los rayos que quieras."
+    },
+    "colour-warmth": {
+      "title": "Una segunda capa suave.",
+      "instruction": "Si quieres, prueba una capa suave de naranja cerca del borde.",
+      "spoken": "Agrego naranja suave cerca del borde, encima del amarillo. Una segunda capa ligera cambia nuestro color. Puedes probarlo o dejar tu sol amarillo.",
+      "hint": "Unos pocos trazos suaves son suficientes. Tu sol puede quedarse amarillo."
+    },
+    "colour-reflection": {
+      "title": "Mira tu sol.",
+      "instruction": "Observa las formas y los colores de todo tu dibujo.",
+      "spoken": "Mira la figura redonda, los rayos y los trazos de creyón en tu dibujo. ¿Qué parte te recuerda al sol? Nuestro dibujo puede llevar luz a ese jardín imaginario.",
+      "hint": "Hoy no necesitas cambiar ni explicar nada."
+    },
+    "explore": {
+      "title": "Tu propio mundo soleado.",
+      "instruction": "Agrega tu propio mundo soleado, sigue coloreando o termina aquí.",
+      "spoken": "¿Tu sol brillaría sobre flores, una casa o un mundo que inventes? Sigue dibujando o coloreando todo el tiempo que quieras, o termina aquí.",
+      "hint": "¿Podrían servirte las líneas que salen del centro para dibujar una flor otro día?"
+    }
+  },
+  "sourceTextSha256": "54ea4b368e217df573d6924b2fd96e0d9ed3164553610f1ab2b5fdf10f23b30b"
+}

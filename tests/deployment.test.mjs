@@ -1,0 +1,188 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+import { readFile, access, readdir } from "node:fs/promises";
+import config from "../vite.config.mjs";
+import { securityHeaders } from "../config/security.js";
+import { REVIEW_STAGES } from "../src/review-tour.js";
+
+test("Vercel enforces the same headers as the preview", async () => {
+  const vercel = JSON.parse(await readFile(new URL("../vercel.json", import.meta.url), "utf8"));
+  const headers = Object.fromEntries(vercel.headers[0].headers.map(({ key, value }) => [key, value]));
+  for (const [name, value] of Object.entries(securityHeaders)) assert.equal(headers[name], value, name);
+  assert.equal(vercel.outputDirectory, "dist/client");
+  assert.equal(vercel.buildCommand, "npm run check");
+  assert.ok(vercel.routes.some((route) => route.status === 405 && route.methods.includes("POST")));
+});
+
+test("hosted builds without a key select review entry; local and keyed builds retain tldraw", () => {
+  const previous = process.env.VITE_TLDRAW_LICENSE_KEY;
+  try {
+    // An explicit empty process value overrides Vite's .env.local loading.
+    process.env.VITE_TLDRAW_LICENSE_KEY = "";
+    assert.match(
+      config({ command: "build", mode: "production" }).resolve.alias[
+        "@site-entry"
+      ],
+      /LicenceReview\.jsx$/,
+    );
+    assert.match(
+      config({ command: "serve", mode: "development" }).resolve.alias[
+        "@site-entry"
+      ],
+      /LessonEntry\.jsx$/,
+    );
+    process.env.VITE_TLDRAW_LICENSE_KEY = "   ";
+    assert.match(
+      config({ command: "build", mode: "production" }).resolve.alias[
+        "@site-entry"
+      ],
+      /LicenceReview\.jsx$/,
+    );
+    // Presence selects the lesson. The SDK still verifies signatures and allowed hosts.
+    process.env.VITE_TLDRAW_LICENSE_KEY = "configuration-branch-test-only";
+    assert.match(
+      config({ command: "build", mode: "production" }).resolve.alias[
+        "@site-entry"
+      ],
+      /LessonEntry\.jsx$/,
+    );
+  } finally {
+    if (previous === undefined) delete process.env.VITE_TLDRAW_LICENSE_KEY;
+    else process.env.VITE_TLDRAW_LICENSE_KEY = previous;
+  }
+});
+
+test("licence display metadata exposes only evaluation status and expiry from fictitious payloads", () => {
+  const previous = process.env.VITE_TLDRAW_LICENSE_KEY;
+  const metadata = () =>
+    JSON.parse(
+      config({ command: "build", mode: "production" }).define
+        .__TLDRAW_LICENSE_INFO__,
+    );
+  const fixtureKey = (payload) =>
+    `tldraw/${Buffer.from(JSON.stringify(payload)).toString("base64")}.fictitious-signature`;
+  try {
+    for (const [flags, evaluation] of [
+      [16, true],
+      [0, false],
+      [17, true],
+    ]) {
+      process.env.VITE_TLDRAW_LICENSE_KEY = fixtureKey([
+        "fixture-license-id",
+        ["fixture-host.invalid"],
+        flags,
+        "2030-04-12",
+      ]);
+      assert.deepEqual(metadata(), { evaluation, expires: "2030-04-12" });
+      assert.ok(!JSON.stringify(metadata()).includes("fixture-license-id"));
+      assert.ok(!JSON.stringify(metadata()).includes("fixture-host.invalid"));
+    }
+    for (const invalid of [
+      "",
+      "malformed-fixture",
+      "tldraw/not-json.fictitious-signature",
+      fixtureKey([]),
+      fixtureKey(["fixture-license-id", [], "16", "2030-04-12"]),
+      fixtureKey(["fixture-license-id", [], 16, "invalid-date"]),
+    ]) {
+      // Empty overrides local env files, exercising the missing-key branch
+      // without reading, printing, or modifying any real key or env file.
+      process.env.VITE_TLDRAW_LICENSE_KEY = invalid;
+      assert.equal(metadata(), null);
+    }
+  } finally {
+    if (previous === undefined) delete process.env.VITE_TLDRAW_LICENSE_KEY;
+    else process.env.VITE_TLDRAW_LICENSE_KEY = previous;
+  }
+});
+
+test("packaged entry matches production configuration and ships only static public files", async () => {
+  const entry = config({ command: "build", mode: "production" }).resolve.alias[
+    "@site-entry"
+  ];
+  const lessonSelected = /LessonEntry\.jsx$/.test(entry);
+  assert.ok(lessonSelected || /LicenceReview\.jsx$/.test(entry));
+  const document = await readFile(new URL("../dist/client/index.html", import.meta.url), "utf8");
+  assert.match(document, /Little Line Studio/);
+  await access(new URL("../dist/validated.json", import.meta.url));
+  for (const privatePath of [".env.local", ".git/config", "src/main.jsx", "scripts/prepare-build.mjs", "validated.json"]) {
+    await assert.rejects(access(new URL(`../dist/client/${privatePath}`, import.meta.url)));
+  }
+  const files = await readdir(
+    new URL("../dist/client/assets/", import.meta.url),
+  );
+  const scripts = await Promise.all(
+    files
+      .filter((name) => name.endsWith(".js"))
+      .map((name) =>
+        readFile(
+          new URL(`../dist/client/assets/${name}`, import.meta.url),
+          "utf8",
+        ),
+      ),
+  );
+  const source = scripts.join("\n");
+  // Boolean assertions avoid dumping bundles (which can contain the public
+  // SDK licence value) into failure output.
+  if (lessonSelected) {
+    assert.ok(
+      source.includes("Every drawing starts"),
+      "keyed build includes the home page",
+    );
+    assert.ok(
+      source.includes("/narration/clip-"),
+      "keyed build includes prepared instruction audio",
+    );
+    await access(
+      new URL("../dist/client/narration/NOTICE.md", import.meta.url),
+    );
+    assert.ok(
+      files.some((name) => /DemonstrationBoard.*\.js$/.test(name)),
+      "keyed build includes the lazy teacher board",
+    );
+    assert.ok(
+      /tldraw\.com|No tldraw license key provided/.test(source),
+      "keyed build includes the genuine tldraw SDK",
+    );
+    assert.ok(
+      source.includes("Paper, pencil, together."),
+      "keyed build includes the authored lesson",
+    );
+    assert.ok(
+      source.includes("Draw one second bubble higher up."),
+      "keyed build includes the later authored microsteps",
+    );
+    assert.ok(
+      !source.includes("Hobby licence review"),
+      "keyed build selects the lesson rather than the review entry",
+    );
+  } else {
+    for (const path of [
+      ...REVIEW_STAGES.map((stage) => stage.image),
+      "/review/showcase-mobile.jpg",
+    ])
+      await access(new URL(`../dist/client${path}`, import.meta.url));
+    assert.ok(
+      source.includes("Hobby licence review"),
+      "no-key build includes the review entry",
+    );
+    assert.ok(
+      /lesson will be enabled after a hobby licence/.test(source),
+      "no-key review explains that the hosted lesson is disabled",
+    );
+    assert.ok(
+      !/DemonstrationBoard|sanitizeSvg/.test(files.join("\n")),
+      "no-key build excludes board and SDK chunks",
+    );
+    assert.ok(
+      !/tldraw\.com\/app|No tldraw license key provided|STEALTH_NO_TLDRAW/.test(
+        source,
+      ),
+      "no-key review excludes the SDK and licence bypasses",
+    );
+  }
+  assert.ok(
+    !source.includes("STEALTH_NO_TLDRAW"),
+    "no licence bypass is packaged",
+  );
+});

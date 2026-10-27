@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env*
+.env.elevenlabs.local
+!.env.example
+.vercel/
+.openai/
+output/
+.playwright-cli/
+media/
+/media/elevenlabs/
+__pycache__/
+*.log
+.DS_Store

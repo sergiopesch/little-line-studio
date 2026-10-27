@@ -1,0 +1,152 @@
+{
+  "sun": {
+    "level": "basic",
+    "seconds": 90,
+    "prompt": "Original gentle instrumental music for a sunny shared paper drawing lesson. Warm, softly glowing celesta and light acoustic plucked notes over calm sustained tones. A small, simple, unhurried melody suggesting a bright peaceful morning. Sparse, quiet and steady beneath a friendly teacher, with room to listen and draw. No vocals, speech, singing, choir, lyrics, birdsong, sound effects, dramatic builds, heavy percussion or sudden accents. No requested artist or song imitation. Keep an even gentle texture through the middle of the piece."
+  },
+  "rainbow": {
+    "level": "basic",
+    "seconds": 90,
+    "prompt": "Original gentle instrumental music for a shared paper drawing lesson about a rainbow above a pretend garden after a shower. Warm felt piano, rounded wooden marimba notes and soft airy sustained tones. A small light melody suggests colours appearing slowly and quietly. Sparse and steady beneath a friendly teacher, with space to listen and draw. A different composition from a sunny celesta lesson, with an even gentle texture through the middle. No vocals, speech, singing, choir, lyrics, rain or thunder sounds, sound effects, dramatic builds, heavy percussion or sudden accents. No artist or song imitation."
+  },
+  "balloon": {
+    "level": "basic",
+    "seconds": 90,
+    "prompt": "Original gentle instrumental music for a shared paper drawing lesson about one colourful pretend balloon at a tiny storybook celebration. Warm fingerpicked acoustic guitar, soft rounded pizzicato strings and a few delicate felt piano notes. A small lightly bobbing melody, unhurried and reassuring, with sparse spacious accompaniment beneath a friendly teacher. Keep an even quiet texture through the middle. A new composition distinct from sunny celesta and rainbow marimba arrangements. No vocals, speech, singing, choir, lyrics, balloon popping, party or crowd sounds, sound effects, circus fanfares, dramatic builds, heavy percussion or sudden accents. No artist or song imitation."
+  },
+  "cat": {
+    "level": "basic",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a curious ginger cat exploring a pretend quiet windowsill. Use rounded bass clarinet, tender felt piano and quiet brushed harp. Compose a gently curling three-note question answered by a soft descending phrase. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "flower": {
+    "level": "basic",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a pink garden flower opening in an imaginary small garden. Use soft nylon guitar, wooden kalimba and delicate viola. Compose a small rising petal-like phrase returning calmly to one warm note. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "apple": {
+    "level": "basic",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a red apple resting in a pretend orchard picnic. Use low rounded marimba, felt piano and muted acoustic guitar. Compose a simple rocking melody with long comfortable spaces. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "fish": {
+    "level": "basic",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a small orange fish gliding through a pretend paper pond. Use soft electric piano, warm clarinet and subtle harp harmonics. Compose a gently waving melody with smooth rising and falling notes. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "ladybird": {
+    "level": "basic",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a red ladybird taking a tiny imaginary leaf journey. Use gentle plucked cello, soft recorder and felt piano. Compose a tiny walking motif that pauses in an even reassuring texture. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "ice-cream": {
+    "level": "basic",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a strawberry ice cream at an imaginary seaside shop. Use rounded vibraphone, muted nylon guitar and soft upright bass. Compose a light little two-part melody with soft playful answers. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "mushroom": {
+    "level": "basic",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a little brown mushroom shelter in an imaginary woodland. Use warm bassoon, felt piano and low harp. Compose a soft rounded melody with a cosy spacious repeated accompaniment. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "dog": {
+    "level": "intermediate",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a friendly brown dog resting beside a pretend garden gate. Use mellow acoustic guitar, rounded pizzicato cello and soft piano. Compose a gently ambling melody that settles into a comfortable home note. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "turtle": {
+    "level": "intermediate",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a green turtle crossing an imaginary pond garden. Use warm low marimba, soft viola and quiet flute. Compose a patient flowing phrase with small deliberate melodic steps. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "butterfly": {
+    "level": "intermediate",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a colourful butterfly floating above an imaginary flower border. Use delicate harp, soft clarinet and rounded celesta. Compose a light balanced melody with two gently answering halves. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "owl": {
+    "level": "intermediate",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a brown owl sitting in a pretend moonlit tree. Use low felt piano, mellow cello and soft wooden flute. Compose a quiet curious melody with spacious rounded notes and no spooky mood. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "sailboat": {
+    "level": "intermediate",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a little sailboat on a calm imaginary paper lake. Use nylon guitar, warm accordion held very softly and delicate harp. Compose a gently swaying melody with an even stable pulse. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "rocket": {
+    "level": "intermediate",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a pretend paper rocket exploring an imaginary friendly night sky. Use soft analogue pads, rounded celesta and felt piano. Compose a small ascending motif answered by long calm notes with no launch excitement. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "house": {
+    "level": "intermediate",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a small warm house at the end of an imaginary garden path. Use quiet upright piano, soft acoustic guitar and mellow viola. Compose a welcoming simple melody returning to a settled phrase. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "train": {
+    "level": "intermediate",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a little storybook train making a quiet countryside journey. Use warm muted clarinet, plucked double bass and soft piano. Compose a gentle rolling two-note accompaniment beneath a spacious simple melody. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "cactus": {
+    "level": "intermediate",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a green cactus in a clay pot beside a pretend sunny window. Use soft nylon guitar, dry wooden marimba and low airy flute. Compose a sparse sunny melody with gently separated notes and warm sustained support. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "robot": {
+    "level": "intermediate",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a friendly pretend robot arranging a tiny paper workshop. Use rounded muted vibraphone, felt piano and warm soft synthesiser. Compose a small orderly repeating motif with gentle human variation. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "bird": {
+    "level": "expert",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a small brown bird resting on an imaginary leafy branch. Use soft flute, plucked viola and warm felt piano. Compose a light curved phrase with quiet rests and no real bird calls. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "fox": {
+    "level": "expert",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a russet fox pausing at an imaginary woodland edge. Use warm cello, fingerpicked acoustic guitar and soft clarinet. Compose a smooth thoughtful melody that turns gently and rests. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "elephant": {
+    "level": "expert",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a grey elephant standing by an imaginary calm watering place. Use rounded low marimba, soft bass clarinet and gentle piano. Compose a grounded unhurried melody with long reassuring low notes. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "rabbit": {
+    "level": "expert",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a brown rabbit resting in an imaginary meadow. Use quiet harp, felt piano and soft alto flute. Compose a small tender melody with long even accompaniment and no bouncing effects. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "cup": {
+    "level": "expert",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a blue cup and saucer resting on a pretend sunny studio table. Use intimate felt piano, soft brushed guitar strings and mellow viola. Compose a quiet circular melody with a subtle second phrase suggesting reflected light. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "fruit-bowl": {
+    "level": "expert",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a bowl of colourful fruit on an imaginary studio table. Use warm nylon guitar, rounded wooden mallets and low cello. Compose a balanced three-part phrase with gentle changes in colour and steady volume. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "tree-path": {
+    "level": "expert",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about an imaginary woodland path leading between green trees. Use soft wooden flute, fingerpicked guitar and restrained strings. Compose a gently receding melody with spacious notes and calm harmonic depth. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "castle": {
+    "level": "expert",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a pretend sandstone castle with towers beside a quiet garden. Use soft harp, mellow French horn at low volume and felt piano. Compose a dignified small melody with a warm grounded pulse and no fanfares. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "lighthouse": {
+    "level": "expert",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about a white and red lighthouse overlooking an imaginary calm coast. Use warm clarinet, soft piano and gently sustained cello. Compose a slow circular phrase suggesting a steady distant light without sound effects. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  },
+  "coral": {
+    "level": "expert",
+    "seconds": 90,
+    "prompt": "Original restrained instrumental composition for a shared paper drawing lesson about an imaginary underwater garden of coral shapes. Use soft glass-like electric piano, low harp and warm airy pads. Compose a gently branching melodic phrase with floating sustained notes. Keep a distinct original melody for this subject. Sparse, quiet and steady underneath a friendly teacher, with room to listen and draw. Maintain an even gentle texture and stable loudness through the middle, without a long introduction or an ending build. No vocals, speech, singing, choir, lyrics, animal or environment recordings, sound effects, dramatic builds, strong percussion or sudden accents. No requested artist or existing song imitation."
+  }
+}

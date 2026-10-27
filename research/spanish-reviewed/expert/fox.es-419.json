@@ -1,0 +1,231 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "fox",
+  "lesson": {
+    "title": "Zorro dormido",
+    "invitation": "Curvas que se enrollan unas alrededor de otras.",
+    "objective": "usar una curva grande que envuelve y formas pequeñas recogidas para sugerir una postura acurrucada.",
+    "parentNote": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles.",
+    "simplify": "El zorro puede hacerse con un óvalo para el cuerpo, una cabeza, una oreja, un ojo cerrado y una cola ancha. Las líneas de construcción que se cruzan pueden quedarse; no hace falta borrarlas.",
+    "transfer": "Otro día, prueben dibujar un gato o un perro acurrucado. Busquen la curva grande de afuera y elijan qué patas ocultar. Si ayuda, usen otra imagen como referencia.",
+    "colouringLabel": "Movimientos pequeños con creyón, tus propios colores",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un descanso en el bosque",
+        "instruction": "Fíjate en el lomo redondeado y la cola que se curva a su alrededor.",
+        "spoken": "Vamos a dibujar un zorro acurrucado. Su lomo redondeado y su cola curva nos ayudarán a mostrar que está descansando.",
+        "hint": "Sigue las grandes curvas de afuera antes de mirar los detalles pequeños.",
+        "notice": "Miren una foto o un dibujo de un zorro acurrucado. Fíjense en cómo la cola puede quedar delante del cuerpo y qué poco se ven las patas. Esta clase usa una vista de lado simplificada; no es una prueba de anatomía."
+      },
+      "curled-body": {
+        "title": "El cuerpo acurrucado",
+        "instruction": "Dibuja las curvas del cuerpo, levantando el lápiz donde irán la cabeza y la cola.",
+        "spoken": "Empieza con el lomo redondeado. Levanta el lápiz donde se unirán la cabeza y la cola; las dibujaremos delante sin pasar la línea a través de ellas.",
+        "hint": "Sigue el lomo redondeado y levanta el lápiz donde se unirán las partes de delante.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "resting-head": {
+        "title": "La cabeza descansando",
+        "instruction": "Dibuja una cabeza más pequeña e inclinada y deja espacio para el hocico puntiagudo.",
+        "spoken": "Dibuja una cabeza más pequeña cerca del lado derecho y deja una abertura para el hocico. Nuestro zorro se acomoda con la cabeza un poco inclinada.",
+        "hint": "Haz esta cabeza mucho más pequeña que el óvalo del cuerpo.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "pointed-muzzle": {
+        "title": "El hocico puntiagudo",
+        "instruction": "Traza un hocico estrecho hacia la izquierda.",
+        "spoken": "Dos curvas suaves llegan a una punta pequeña para formar el hocico. Esta forma estrecha ayuda a distinguir la cara del cuerpo redondeado.",
+        "hint": "Haz la curva hacia la izquierda y regresa por debajo.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "fox-nose": {
+        "title": "La nariz",
+        "instruction": "Agrega una nariz oscura y pequeña en la punta del hocico.",
+        "spoken": "Una nariz pequeña y oscura va en el extremo puntiagudo del hocico.",
+        "hint": "Pon un puntito en el extremo de la izquierda.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "near-ear": {
+        "title": "La oreja de adelante",
+        "instruction": "Dibuja una oreja puntiaguda que suba sobre la cabeza.",
+        "spoken": "Haz subir una oreja puntiaguda sobre la cabeza. Ve hasta la punta y luego baja; los dos lados no tienen que ser iguales.",
+        "hint": "Sube hasta una punta y vuelve a bajar.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "far-ear": {
+        "title": "La otra oreja",
+        "instruction": "Agrega una segunda oreja puntiaguda un poco más a la derecha.",
+        "spoken": "Agrega la otra oreja cerca de la primera. Si cambias un poco su inclinación, parecerá que la cabeza está girada suavemente.",
+        "hint": "La segunda punta estrecha queda un poco más a la derecha.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "sleepy-eye": {
+        "title": "El ojo dormido",
+        "instruction": "Haz una curva corta que baje un poquito para mostrar el ojo cerrado.",
+        "spoken": "Una pequeña curva hacia abajo le da a nuestro zorro imaginario una expresión soñolienta. Una sola línea puede contar esa parte de la historia.",
+        "hint": "Dibuja una curva pequeña hacia abajo dentro de la cabeza.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "cheek-curve": {
+        "title": "La mejilla",
+        "instruction": "Traza una curva desde la mejilla hacia abajo, en dirección al hocico.",
+        "spoken": "Curva la mejilla hacia abajo, hacia el hocico. Así separamos una zona clara de la cara del pelaje más cálido que colorearemos después.",
+        "hint": "Haz que una curva corta de la mejilla gire hacia la nariz.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "tucked-paw": {
+        "title": "La patita recogida",
+        "instruction": "Dibuja un óvalo pequeño y plano debajo de la cabeza.",
+        "spoken": "Un óvalo pequeño y plano debajo de la cabeza se convierte en una patita recogida. Su forma baja acompaña la postura tranquila del zorro.",
+        "hint": "Haz este óvalo más plano y pequeño que la cabeza.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "tail-outer-curve": {
+        "title": "La curva exterior de la cola",
+        "instruction": "Traza una curva larga alrededor de la parte baja del cuerpo.",
+        "spoken": "Ahora dibuja la parte exterior de la cola alrededor de la parte baja del cuerpo. Mueve el brazo de manera cómoda para hacer esta curva larga.",
+        "hint": "Deja que la curva larga rodee la parte baja del zorro.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "tail-return-curve": {
+        "title": "La curva de regreso",
+        "instruction": "Regresa con otra curva suave para darle grosor a la cola.",
+        "spoken": "Vuelve hacia el comienzo de la cola con otra curva. El espacio entre las dos curvas forma una cola ancha y suave.",
+        "hint": "Deja espacio entre la curva de regreso y la curva de afuera.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "pale-tail-tip": {
+        "title": "La punta clara de la cola",
+        "instruction": "Marca una punta pequeña y clara cerca del extremo de la cola.",
+        "spoken": "Esta pequeña curva separa la punta clara de la cola. Podemos dejar allí el papel blanco en vez de colorear todos los espacios.",
+        "hint": "Una curva pequeña separa el extremo de la cola.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "tucked-hind-leg": {
+        "title": "La pata trasera recogida",
+        "instruction": "Sugiere la pata trasera recogida con una curva redondeada.",
+        "spoken": "Una curva redondeada sugiere una pata trasera recogida. Podemos mostrar ese doblez sin dibujar toda una pata saliendo del cuerpo.",
+        "hint": "Dibuja parte de una forma redondeada dentro del cuerpo.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "paw-toe": {
+        "title": "Un dedito",
+        "instruction": "Agrega una línea pequeña para un dedito en la patita.",
+        "spoken": "Puedes agregar una línea diminuta para un dedito o dejar la patita sin detalles.",
+        "hint": "Haz una marca corta y suave para el dedito.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "inner-ear": {
+        "title": "Dentro de la oreja",
+        "instruction": "Coloca una punta más pequeña dentro de la oreja de adelante.",
+        "spoken": "Puedes dibujar una punta más pequeña dentro de la oreja de adelante. Deja un borde alrededor o conserva la oreja como una forma sencilla.",
+        "hint": "Repite una forma puntiaguda más pequeña dentro de la primera oreja.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "cheek-fur": {
+        "title": "Pelito en la mejilla",
+        "instruction": "Haz una marca pequeña hacia afuera para sugerir pelo en la mejilla.",
+        "spoken": "Si quieres, una marca pequeña hacia afuera puede sugerir el pelo de la mejilla.",
+        "hint": "Un trazo corto hacia afuera basta para este detalle.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "resting-ground": {
+        "title": "El suelo",
+        "instruction": "Dibuja una curva suelta debajo del zorro para el suelo.",
+        "spoken": "Puedes dibujar una curva suelta debajo del zorro para darle un lugar donde descansar. Hacer todo un bosque es una opción.",
+        "hint": "Mantén esta curva del suelo debajo de la cola y las patitas.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "fallen-leaf": {
+        "title": "Una hoja caída",
+        "instruction": "Si quieres, agrega cerca una hoja caída pequeña y puntiaguda.",
+        "spoken": "Una hoja caída puede acompañar nuestra historia del bosque. Traza una curva hasta una punta y regresa con otra curva suave.",
+        "hint": "Dos curvas se unen en una punta para formar una hoja.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "small-stone": {
+        "title": "Una piedrita",
+        "instruction": "Si quieres, coloca una piedra pequeña y plana en el suelo.",
+        "spoken": "Puedes agregar una piedrita plana cerca. Hazla más pequeña que la patita del zorro para que sea un detalle del fondo.",
+        "hint": "Un óvalo bajito forma una piedra pequeña en el suelo.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "tail-fur": {
+        "title": "El pelo de la cola",
+        "instruction": "Sigue la curva de la cola con una pequeña curva para el pelo.",
+        "spoken": "Puedes hacer una última curva siguiendo el recorrido de la cola. Repetir esa dirección sugiere suavidad; también puedes dejar la cola como una forma sencilla.",
+        "hint": "Haz una curva suave en la dirección de la cola.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      },
+      "colour-choice": {
+        "title": "Colores del bosque",
+        "instruction": "Elige anaranjado cálido, marrón y un color para la hoja.",
+        "spoken": "Yo elijo anaranjado cálido para nuestro zorro y dejo claros el hocico y la punta de la cola. Tu zorro también puede tener otros colores.",
+        "hint": "Elige un color principal para el pelaje y deja un espacio claro.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-curled-body": {
+        "title": "Una forma cálida y acurrucada",
+        "instruction": "Agrega anaranjado con pequeños trazos curvos en el cuerpo.",
+        "spoken": "Coloreo una zona pequeña, levanto el creyón y comienzo en otra cercana. Estos movimientos suaves siguen la curva del cuerpo y dejan ver el contorno.",
+        "hint": "Colorea zonas pequeñas en vez de hacer un solo trazo largo por todo el dibujo.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-face-ears": {
+        "title": "Espacios pequeños de la cara",
+        "instruction": "Haz movimientos más cortos alrededor de la cara y las orejas puntiagudas.",
+        "spoken": "Voy a hacer movimientos más cortos alrededor de la cabeza y las orejas. Los detalles de la cara quedan despejados y el hocico puede quedar blanco.",
+        "hint": "Los espacios pequeños necesitan movimientos más pequeños y suaves.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-sweeping-tail": {
+        "title": "Sigue la curva de la cola",
+        "instruction": "Gira los movimientos del creyón siguiendo la cola ancha.",
+        "spoken": "Estos trazos anaranjados siguen la cola mientras se curva alrededor del cuerpo. Dejo clara la punta para distinguirla del pelaje más cálido.",
+        "hint": "Sigue la curva, levanta el creyón y deja clara la punta de la cola.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-woodland-layer": {
+        "title": "Una capa suave del bosque",
+        "instruction": "Prueba una capa suave en el pelaje y colorea la hoja si dibujaste una.",
+        "spoken": "Una capa suave de marrón intensifica algunas partes del pelaje. Si dibujaste una hoja, puedes darle un color cálido, o mantener tus colores más sencillos.",
+        "hint": "Agrega una capa ligera al pelaje y colorea la hoja solo si la dibujaste.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-reflect": {
+        "title": "Nuestro zorro descansando",
+        "instruction": "Fíjate en cómo la cola ayuda a que toda la postura parezca acurrucada.",
+        "spoken": "Mira las curvas grandes que rodean a nuestro zorro. Esas curvas cuentan la historia de su descanso; los detalles pequeños del pelo son opcionales.",
+        "hint": "Mira toda la forma acurrucada antes de agregar más detalles.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "explore": {
+        "title": "Un bosque a tu manera",
+        "instruction": "Sigue coloreando o inventa un lugar donde tu zorro pueda descansar.",
+        "spoken": "Tu zorro puede descansar junto a más hojas, un árbol o mucho espacio blanco. Puedes seguir dibujando o terminar aquí tu imagen del bosque.",
+        "hint": "Elige una idea pequeña para el bosque o disfruta tu zorro tal como está.",
+        "notice": "Con un dedo, sigue en el aire el recorrido de la cola sobre la imagen, sin tocar el trabajo del niño o niña. Si te lo pide, muestra una curva enrollada en otra hoja. Pregúntale qué partes quiere dejar visibles."
+      }
+    },
+    "sourceSha256": "8c96755b58e072e328cc4128cfd3aec5704f876dab1bdf76c669d8affbd92341"
+  }
+}

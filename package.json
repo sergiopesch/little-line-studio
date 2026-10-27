@@ -1,0 +1,30 @@
+{
+  "name": "little-line-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "node scripts/generate-preview-outlines.mjs --check",
+    "build": "vite build && node scripts/prepare-build.mjs",
+    "preview": "vite preview",
+    "test": "node --test --test-isolation=none tests/*.test.js tests/*.test.mjs",
+    "update:previews": "node scripts/generate-preview-outlines.mjs --write",
+    "check": "npm run build && npm test"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^5.3.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "@tldraw/assets": "^5.5.2",
+    "@vitejs/plugin-react": "5.0.4",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "tldraw": "^5.5.2",
+    "vite": "^6.4.5"
+  },
+  "description": "Parent-supervised drawing lessons that help children create on paper.",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "24.x"
+  }
+}

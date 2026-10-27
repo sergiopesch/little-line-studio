@@ -1,0 +1,3422 @@
+{
+  "cat": {
+    "id": "cat",
+    "title": "Curious cat face",
+    "level": "basic",
+    "objective": "combine a rounded outline with positioned features and attached lines.",
+    "prepare": "Find your paper and a drawing tool with your grown-up. Choose Next when you are ready.",
+    "observe": "Have a look at a cat picture together. Where do its ears join its head?",
+    "explore": "Would your cat like a hat, an imaginary home, or something you invent? You can explore or finish here.",
+    "parentNote": "point out left and right on the reference if useful. Demonstrate an ear on your own sheet if requested. Do not correct the child's expression or insist on matching whisker counts.",
+    "simplify": "",
+    "transfer": "another time, offer a different animal face without the same demonstration: What shapes could help you make a bear? Keep replay available if wanted.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one round shape for the head.",
+        "hint": "Bring a slow curve around towards where you started. A gap is fine.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Add one ear at the top left.",
+        "hint": "Try one pointy shape or a soft bend.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Add one ear at the top right.",
+        "hint": "This ear can be different from the first.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Put one eye inside the left side of the head.",
+        "hint": "A small dot can be an eye.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Put one eye inside the right side of the head.",
+        "hint": "A little curve could make a sleepy eye.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Add a little nose below the eyes.",
+        "hint": "Try a dot or a tiny triangle.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Add a curved mouth below the nose.",
+        "hint": "One little bend is enough.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one whisker out from the left cheek.",
+        "hint": "Start near the cheek and move outwards.",
+        "optional": true
+      },
+      {
+        "number": 9,
+        "instruction": "Add another whisker on the left.",
+        "hint": "Put one line beside the first.",
+        "optional": true
+      },
+      {
+        "number": 10,
+        "instruction": "Add one more left whisker, if you like.",
+        "hint": "It can be short, long, or curly.",
+        "optional": true
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one whisker out from the right cheek.",
+        "hint": "Move outwards from the other cheek.",
+        "optional": true
+      },
+      {
+        "number": 12,
+        "instruction": "Add another whisker on the right.",
+        "hint": "Leave a little room beside the first.",
+        "optional": true
+      },
+      {
+        "number": 13,
+        "instruction": "Add one more right whisker, if you like.",
+        "hint": "The sides do not need to match.",
+        "optional": true
+      }
+    ]
+  },
+  "sun": {
+    "id": "sun",
+    "title": "Friendly sun",
+    "level": "basic",
+    "objective": "place outward lines around a central shape.",
+    "prepare": "Settle your paper with your grown-up. Choose a drawing tool you like.",
+    "observe": "Look at the sun drawing on the screen. Notice how the rays go out from the middle.",
+    "explore": "Would you like a rainbow-coloured sun or something surprising beside it? You can choose your own idea or finish.",
+    "parentNote": "model one outward movement on a separate sheet. Rays need no even spacing, matching lengths, or set total. The face is an imaginative option, not an observation of the real sun.",
+    "simplify": "",
+    "transfer": "Could lines going out from a middle help you draw a spark or a dandelion?",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one round shape for the sun.",
+        "hint": "Make it a size that leaves some paper around it.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one ray upwards from the sun.",
+        "hint": "A ray can be one short straight line.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one ray downwards from the sun.",
+        "hint": "Start near the lower edge and move out.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one ray out to the left.",
+        "hint": "Your grown-up can point to the left on the example.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one ray out to the right.",
+        "hint": "Move away from the round shape.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Add one slanting ray in a gap.",
+        "hint": "Choose any empty space around the sun.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Add one more slanting ray.",
+        "hint": "It does not need to match the others.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Add another ray wherever you choose.",
+        "hint": "A wavy line can be a ray too.",
+        "optional": true
+      },
+      {
+        "number": 9,
+        "instruction": "Add one last ray, if you like.",
+        "hint": "Choose a gap or leave this detail out.",
+        "optional": true
+      },
+      {
+        "number": 10,
+        "instruction": "Give the sun one eye.",
+        "hint": "A dot can do the job.",
+        "optional": true
+      },
+      {
+        "number": 11,
+        "instruction": "Give the sun another eye.",
+        "hint": "Put it where you want the face to be.",
+        "optional": true
+      },
+      {
+        "number": 12,
+        "instruction": "Add a curved mouth.",
+        "hint": "Choose a smile, a sleepy mouth, or your own expression.",
+        "optional": true
+      }
+    ]
+  },
+  "rainbow": {
+    "id": "rainbow",
+    "title": "Rainbow",
+    "level": "basic",
+    "objective": "make neighbouring arches and notice inside/outside relationships.",
+    "prepare": "Put your paper somewhere comfortable. Choose a pencil or a colour with your grown-up.",
+    "observe": "Look at the rainbow example. Notice how one arch sits inside another.",
+    "explore": "What might be under your rainbow? Choose your own place, or finish here.",
+    "parentNote": "demonstrate an arch in the air. Offer a bigger first arch if the child requests more room. Seven colours, exact colour order, even spacing, and cloud symmetry are unnecessary for this movement activity; an imagined rainbow may use any colours.",
+    "simplify": "",
+    "transfer": "Could a big arch and a smaller arch make an entrance to a tunnel?",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one big arch.",
+        "hint": "Move up, curve over, and come down in one flowing line.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw a smaller arch inside it.",
+        "hint": "Leave a little space between the two lines.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Add another arch inside the last one.",
+        "hint": "You can follow the bend slowly.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Add one more inner arch.",
+        "hint": "Make the bend smaller if you need room.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Add another arch, if there is room.",
+        "hint": "You may choose a new colour before you start.",
+        "optional": true
+      },
+      {
+        "number": 6,
+        "instruction": "Add one more inner arch.",
+        "hint": "A wobbly bend is welcome.",
+        "optional": true
+      },
+      {
+        "number": 7,
+        "instruction": "Add another little inner arch, if you like.",
+        "hint": "You can skip this one if the space feels small.",
+        "optional": true
+      },
+      {
+        "number": 8,
+        "instruction": "Add a final inner arch, if you have room.",
+        "hint": "Leave a little opening below your smallest curve.",
+        "optional": true
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one fluffy cloud near an end.",
+        "hint": "Join some small bumps into one cloud outline.",
+        "optional": true
+      },
+      {
+        "number": 10,
+        "instruction": "Draw another cloud near the other end.",
+        "hint": "This cloud can have its own shape.",
+        "optional": true
+      }
+    ]
+  },
+  "balloon": {
+    "id": "balloon",
+    "title": "Floating balloon",
+    "level": "basic",
+    "objective": "connect a rounded outline, a small knot and a flowing line; colour with short strokes inside a boundary while leaving white space for shine.",
+    "prepare": "Settle paper, a pencil and the crayons you have, leaving room for a bending string.",
+    "observe": "Let's draw a balloon for a pretend paper celebration. Notice its big rounded shape, little knot and bending string.",
+    "explore": "What could join your paper celebration? Try another balloon or something you invent. Keep drawing as long as you like, or finish.",
+    "parentNote": "demonstrate a bending line on your own paper if help is wanted. Let the child choose the balloon's shape and pattern. The knot communicates attachment without requiring exact geometry. Pause, replay or use More time whenever helpful; the timing is an adjustable design estimate, not a learning deadline.",
+    "simplify": "",
+    "transfer": "Could a bending line become a kite's tail another day?",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one tall, rounded shape with room below.",
+        "hint": "A wide or wobbly balloon belongs in your picture too.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Join a tiny triangle to the bottom.",
+        "hint": "Let the triangle touch the bottom of your rounded shape.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Let a bending string travel down from the knot.",
+        "hint": "Look at the knot before beginning your long bending line.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Try a small bow loop beside the knot, if you like.",
+        "hint": "Bring one curved loop back to where it began.",
+        "optional": true
+      },
+      {
+        "number": 5,
+        "instruction": "Try a bow loop on the other side, if you like.",
+        "hint": "Each loop joins the knot; either loop can stand alone.",
+        "optional": true
+      },
+      {
+        "number": 6,
+        "instruction": "Add a little shine curve inside, if you like.",
+        "hint": "Keep this small curve inside your big rounded outline.",
+        "optional": true
+      },
+      {
+        "number": 7,
+        "instruction": "Add a dot inside your balloon, if you like.",
+        "hint": "Find a spot inside the outline, away from its edge.",
+        "optional": true
+      },
+      {
+        "number": 8,
+        "instruction": "Choose another place for a dot, if you like.",
+        "hint": "Leave a little room around each dot you choose.",
+        "optional": true
+      },
+      {
+        "number": 9,
+        "instruction": "Add a last dot, or keep your spaces.",
+        "hint": "Your pattern can have one dot, many dots or none.",
+        "optional": true
+      }
+    ]
+  },
+  "flower": {
+    "id": "flower",
+    "title": "Garden flower",
+    "level": "basic",
+    "objective": "arrange parts around a centre and connect a stem to a flower head.",
+    "prepare": "Set out your paper and drawing tool with your grown-up. Leave room below your flower.",
+    "observe": "Look at a flower picture together. Where do its petals meet?",
+    "explore": "What kind of garden would you invent? You could add your own plant, or finish here.",
+    "parentNote": "trace the centre-to-petal relationship on the reference with a finger. Demonstrate a loop separately if requested. Do not insist on radial symmetry, a fixed petal count, or matching a particular species.",
+    "simplify": "",
+    "transfer": "Could loops around a middle help you invent a different flower?",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one small round centre.",
+        "hint": "Leave some paper around it for petals.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one petal above the centre.",
+        "hint": "Make one curved loop that comes back to the middle.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one petal beside the centre.",
+        "hint": "Choose a side with some space.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Add one petal below the centre.",
+        "hint": "The petal can be short or long.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Add one petal on the other side.",
+        "hint": "Let its loop touch the centre if you want it joined.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Add another petal in a gap.",
+        "hint": "Choose a space that feels comfortable to draw in.",
+        "optional": true
+      },
+      {
+        "number": 7,
+        "instruction": "Add one more petal, if you like.",
+        "hint": "Flowers do not all have the same number.",
+        "optional": true
+      },
+      {
+        "number": 8,
+        "instruction": "Draw a stem down from the flower head.",
+        "hint": "One long line can be a stem.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Add one leaf touching the stem.",
+        "hint": "A pointed oval can make a leaf.",
+        "optional": true
+      },
+      {
+        "number": 10,
+        "instruction": "Add another leaf wherever you choose.",
+        "hint": "It can be bigger or smaller than the first.",
+        "optional": true
+      }
+    ]
+  },
+  "apple": {
+    "id": "apple",
+    "title": "Apple",
+    "level": "basic",
+    "objective": "build an uneven rounded outline from two curves and attach a small feature.",
+    "prepare": "Put your paper beside your grown-up. Choose a drawing tool you can move comfortably.",
+    "observe": "Look at an apple or a picture of one. Notice the little dip where its stalk starts.",
+    "explore": "Would you like a patterned apple, a different colour, or an idea of your own? You can also finish.",
+    "parentNote": "show the two sides on a real apple or reference, rather than correcting the child's outline. Offer a simpler single oval if combining curves feels unwelcome. A coloured or patterned invention is as acceptable as an observed version.",
+    "simplify": "",
+    "transfer": "How might those two curves change for a pear?",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw a curve for the left side of the apple.",
+        "hint": "Start near the top and curve outwards towards the bottom.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw a curve for the right side.",
+        "hint": "Bring it towards the ends of the first curve. Gaps are fine.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Add a little stalk at the top.",
+        "hint": "One short curved line can be a stalk.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Add one leaf touching the stalk.",
+        "hint": "Try a small pointed oval.",
+        "optional": true
+      },
+      {
+        "number": 5,
+        "instruction": "If you added a leaf, draw one line through it, or skip.",
+        "hint": "Follow from the leaf's base towards its tip. Without a leaf, you can leave this out.",
+        "optional": true
+      },
+      {
+        "number": 6,
+        "instruction": "Add one curved shine mark inside the apple.",
+        "hint": "Make a short bend near one side.",
+        "optional": true
+      },
+      {
+        "number": 7,
+        "instruction": "Add one little curve at the top for the dip.",
+        "hint": "Put a shallow bend near the stalk.",
+        "optional": true
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one ground line below the apple.",
+        "hint": "A short line can suggest a surface.",
+        "optional": true
+      }
+    ]
+  },
+  "fish": {
+    "id": "fish",
+    "title": "Little fish",
+    "level": "basic",
+    "objective": "join differently shaped parts and direct a line away from a body.",
+    "prepare": "Find your paper and a comfortable drawing tool with your grown-up.",
+    "observe": "Look at a fish picture. Notice how its tail joins its body.",
+    "explore": "What might live beside your fish? You could invent a neighbour, or finish here.",
+    "parentNote": "discuss the tail-body join using the reference. The eye position determines the facing direction; no correction is needed if the child invents another arrangement. Offer a simple tail shape separately if requested.",
+    "simplify": "",
+    "transfer": "Could an oval and a different tail make another swimming creature?",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one oval for the fish's body.",
+        "hint": "A wide round shape can work too.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Add one tail at an end of the body.",
+        "hint": "Try a triangle with its point meeting the body.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Put one eye near the other end.",
+        "hint": "A little dot can be an eye.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Add a small mouth near the eye.",
+        "hint": "Try one short curved line.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Add one fin above the body.",
+        "hint": "A little triangle can join the upper edge.",
+        "optional": true
+      },
+      {
+        "number": 6,
+        "instruction": "Add one fin below the body.",
+        "hint": "This fin can have a different shape.",
+        "optional": true
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one curved gill line behind the eye.",
+        "hint": "Make a short bend inside the body.",
+        "optional": true
+      },
+      {
+        "number": 8,
+        "instruction": "Add one curved scale mark inside the body.",
+        "hint": "A small curve is enough.",
+        "optional": true
+      },
+      {
+        "number": 9,
+        "instruction": "Add another scale mark.",
+        "hint": "Choose any space inside the body.",
+        "optional": true
+      },
+      {
+        "number": 10,
+        "instruction": "Add one more scale mark, if you like.",
+        "hint": "Your pattern does not need even rows.",
+        "optional": true
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one bubble beside the fish.",
+        "hint": "Use a small round shape.",
+        "optional": true
+      },
+      {
+        "number": 12,
+        "instruction": "Add another bubble wherever you choose.",
+        "hint": "It can be a different size.",
+        "optional": true
+      }
+    ]
+  },
+  "ladybird": {
+    "id": "ladybird",
+    "title": "Ladybird",
+    "level": "basic",
+    "objective": "divide an enclosed shape and attach short lines around it.",
+    "prepare": "Settle your paper with your grown-up. Leave a little room around your ladybird.",
+    "observe": "Look at a ladybird picture. Notice the line between the two wing covers.",
+    "explore": "Where could your ladybird be exploring? You could invent a place, or finish here.",
+    "parentNote": "the reference can show six legs without turning the child's drawing into a counting test. Skipped legs or imaginative features are not failures. Offer your own simple dividing-line demonstration if requested.",
+    "simplify": "",
+    "transfer": "Could a big body shape with parts around it help you invent a beetle?",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one oval for the body.",
+        "hint": "A round shape is welcome too.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Add one small head at the top.",
+        "hint": "Try a rounded bump touching the body.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one line down the middle of the body.",
+        "hint": "Start near the head and move towards the bottom.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Add one feeler from the head.",
+        "hint": "Draw a short bend outwards.",
+        "optional": true
+      },
+      {
+        "number": 5,
+        "instruction": "Add another feeler from the head.",
+        "hint": "It can curl a different way.",
+        "optional": true
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one spot inside the body.",
+        "hint": "Use a little round mark.",
+        "optional": true
+      },
+      {
+        "number": 7,
+        "instruction": "Add another spot wherever you choose.",
+        "hint": "Ladybird spots can have different sizes.",
+        "optional": true
+      },
+      {
+        "number": 8,
+        "instruction": "Add one more spot, if you like.",
+        "hint": "Choose a space inside the body.",
+        "optional": true
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one leg out from the left side.",
+        "hint": "A short line is enough for a leg.",
+        "optional": true
+      },
+      {
+        "number": 10,
+        "instruction": "Add another leg on the left.",
+        "hint": "Choose a space beside the first.",
+        "optional": true
+      },
+      {
+        "number": 11,
+        "instruction": "Add one more leg on the left.",
+        "hint": "It can point a different way.",
+        "optional": true
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one leg out from the right side.",
+        "hint": "Start near the body's edge.",
+        "optional": true
+      },
+      {
+        "number": 13,
+        "instruction": "Add another leg on the right.",
+        "hint": "Make one short line outwards.",
+        "optional": true
+      },
+      {
+        "number": 14,
+        "instruction": "Add one more leg on the right, if you like.",
+        "hint": "The lines do not need to match the other side.",
+        "optional": true
+      }
+    ]
+  },
+  "ice-cream": {
+    "id": "ice-cream",
+    "title": "Ice-cream cone",
+    "level": "basic",
+    "objective": "join a rounded top to a pointed base and place optional marks inside a boundary.",
+    "prepare": "Find your paper and drawing tool with your grown-up. Leave room for a scoop above the cone.",
+    "observe": "Look at the ice-cream drawing. Notice where the round scoop sits on the cone.",
+    "explore": "What imaginary flavour or topping would you invent? You can add your idea or finish.",
+    "parentNote": "explain the scoop-cone join on the reference. A wide V is an easier option when the cone feels cramped. The single continuous V is one action; demonstrate it separately on request rather than taking the child's tool.",
+    "simplify": "",
+    "transfer": "Could a pointed base and a rounded top help you invent a different object?",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw a big V for the cone.",
+        "hint": "Make one line down to a point and back up.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one rounded scoop across the top.",
+        "hint": "Join the upper ends of the V with a big curved bump.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one small cherry shape on the scoop.",
+        "hint": "A little circle can be a cherry.",
+        "optional": true
+      },
+      {
+        "number": 4,
+        "instruction": "If you added a cherry, give it one little stalk, or skip.",
+        "hint": "Use one short curved line. Without a cherry, you can leave this out.",
+        "optional": true
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one sprinkle inside the scoop.",
+        "hint": "A sprinkle can be a tiny dash.",
+        "optional": true
+      },
+      {
+        "number": 6,
+        "instruction": "Add another sprinkle.",
+        "hint": "Choose a different direction if you like.",
+        "optional": true
+      },
+      {
+        "number": 7,
+        "instruction": "Add one more sprinkle wherever you choose.",
+        "hint": "Leave it out if you prefer a plain scoop.",
+        "optional": true
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one slanting line inside the cone.",
+        "hint": "Stop near its edges. Going over an edge is fine too.",
+        "optional": true
+      },
+      {
+        "number": 9,
+        "instruction": "Add another slanting line inside the cone.",
+        "hint": "Leave a little space beside the first.",
+        "optional": true
+      },
+      {
+        "number": 10,
+        "instruction": "If you added slanting lines, draw one line across them, or skip.",
+        "hint": "Cross the slanting lines in another direction. Without those lines, you can leave this out.",
+        "optional": true
+      }
+    ]
+  },
+  "mushroom": {
+    "id": "mushroom",
+    "title": "Woodland mushroom",
+    "level": "basic",
+    "objective": "connect a broad cap to a narrower stalk and explore curved boundaries.",
+    "prepare": "Set out your paper with your grown-up. Leave some room below the mushroom cap.",
+    "observe": "Look at a mushroom picture. Notice how the cap is wider than the stalk.",
+    "explore": "Would your mushroom be tiny, enormous, or a home in an imaginary woodland? Explore your idea or finish.",
+    "parentNote": "show cap width and stalk width on the reference with your fingers. Offer a single-line stalk as a simpler alternative. Spots are an imaginative option, not a guide to identifying edible mushrooms.",
+    "simplify": "",
+    "transfer": "Could a wide curved top and a narrow part below help you draw an umbrella?",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one broad arch for the cap.",
+        "hint": "Move up, curve across, and come down.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Join the arch's ends with one shallow curve.",
+        "hint": "Make a gentle bend across the open bottom.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one side of the stalk down from the cap.",
+        "hint": "Start under the cap, a little away from its edge.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw the other side of the stalk.",
+        "hint": "Leave some space beside the first line.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Join the bottom of the stalk with a curve.",
+        "hint": "A small bend can connect the two sides.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Add one curved line inside the cap's lower edge.",
+        "hint": "Follow a little of the shallow bottom curve.",
+        "optional": true
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one spot on the cap.",
+        "hint": "A small round shape can be a spot.",
+        "optional": true
+      },
+      {
+        "number": 8,
+        "instruction": "Add another spot on the cap.",
+        "hint": "This one can be a different size.",
+        "optional": true
+      },
+      {
+        "number": 9,
+        "instruction": "Add another spot wherever you choose.",
+        "hint": "Leave room around it if you like.",
+        "optional": true
+      },
+      {
+        "number": 10,
+        "instruction": "Add one last spot, if you want.",
+        "hint": "An uneven shape can be a spot too.",
+        "optional": true
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one blade of grass near the stalk.",
+        "hint": "One short upward line can suggest grass.",
+        "optional": true
+      },
+      {
+        "number": 12,
+        "instruction": "Add another blade of grass.",
+        "hint": "Try a different direction or length.",
+        "optional": true
+      }
+    ]
+  },
+  "dog": {
+    "id": "dog",
+    "title": "Sitting dog",
+    "level": "intermediate",
+    "objective": "connect head, body and supporting limbs to suggest a sitting pose; place small facial features inside a larger shape.",
+    "prepare": "Put your paper somewhere comfortable beside your grown-up.",
+    "observe": "Look at the sitting dog in our example. Which part is higher: the head or the paws?",
+    "explore": "What might your resting dog be thinking about? Add your own idea, keep drawing quietly, or finish here.",
+    "parentNote": "if help is requested, point to how the example's chest sits above its front paws. Offer the requested hint or demonstrate on your own paper. Do not move the child's hand or require equal legs.",
+    "simplify": "",
+    "transfer": "on another day, invite a sitting rabbit using a head, body and paws, with different ears. Begin without the dog example; offer help if requested.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one round shape for the head near the top of your paper.",
+        "hint": "Leave room below for the body.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Add one hanging curve for an ear on the left.",
+        "hint": "Start beside the head and curl downwards.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Add one hanging curve for an ear on the right.",
+        "hint": "This ear can be a different length.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one tall oval below the head for the body.",
+        "hint": "Let the oval meet the bottom of the head.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one line down the left side of the chest for a front leg.",
+        "hint": "Start inside the body and move towards its bottom.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one line down the right side of the chest for another front leg.",
+        "hint": "Leave a little space between the legs.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Add one small curve at the bottom of the left leg for a paw.",
+        "hint": "Bend the line outwards and back.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Add one small curve at the bottom of the right leg for a paw.",
+        "hint": "A soft bump is enough.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one rounded bend beside the lower left body for a folded back leg.",
+        "hint": "Let the bend sit beside the front paw.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one rounded bend beside the lower right body for the other back leg.",
+        "hint": "It can be smaller than the first.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one tail curving out from the lower body.",
+        "hint": "Choose a side and curl the line outwards.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Put one eye inside the left side of the head.",
+        "hint": "A pencil dot can be an eye.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Put one eye inside the right side of the head.",
+        "hint": "Your eyes do not need to match.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one little nose below the eyes.",
+        "hint": "Try a small rounded triangle.",
+        "optional": false
+      },
+      {
+        "number": 15,
+        "instruction": "Draw one short line down from the nose.",
+        "hint": "Stop well before the bottom of the head.",
+        "optional": false
+      },
+      {
+        "number": 16,
+        "instruction": "Add one little mouth curve to the left of that line.",
+        "hint": "Start at the line's lower end.",
+        "optional": false
+      },
+      {
+        "number": 17,
+        "instruction": "Add one little mouth curve to the right of that line.",
+        "hint": "A gentle bend can suggest a smile.",
+        "optional": false
+      },
+      {
+        "number": 18,
+        "instruction": "draw one curved collar line across the neck.",
+        "hint": "A shallow curve can follow the bottom of the head.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "add one patch shape anywhere on the body.",
+        "hint": "Choose a shape your dog might have.",
+        "optional": true
+      }
+    ]
+  },
+  "turtle": {
+    "id": "turtle",
+    "title": "Turtle",
+    "level": "intermediate",
+    "objective": "attach a head, feet and tail to a large shell; explore how lines divide a surface into areas.",
+    "prepare": "Make some space for your paper and pencil beside your grown-up.",
+    "observe": "Look at our turtle. Which small parts stick out beyond its large shell?",
+    "explore": "Would your turtle like a pond, a path, or a place you invent? Explore on your paper, or finish here.",
+    "parentNote": "if the shell divisions become confusing, offer the simpler choice of a plain shell. At a requested pause, compare the middle shape's edge and the outer shell in the example. The many-sided centre need not have a fixed number of corners. Do not turn shell patterning into counting or correction.",
+    "simplify": "",
+    "transfer": "try a beetle another day: keep a large central body, but choose different parts around its edge. Invite the child to decide which turtle features no longer belong.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one wide oval for the shell.",
+        "hint": "Stretch the round shape sideways.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one small oval touching the shell's right side for the head.",
+        "hint": "Let the two outlines meet.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Add one rounded foot below the shell near the head.",
+        "hint": "A little U-shaped bend can be a foot.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Add one rounded foot below the shell near its left end.",
+        "hint": "Leave space between the feet.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one pointed bend outside the shell's left end for a tail.",
+        "hint": "Move out to a point and back to the shell.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Put one eye on the head.",
+        "hint": "A dot can be enough.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one little mouth curve on the head.",
+        "hint": "Keep it separate from the eye.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one shallow curve across the shell near its bottom.",
+        "hint": "Follow the shell's lower edge from inside it.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one small many-sided shape in the middle of the shell.",
+        "hint": "An uneven shape with several corners can work.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one line from its upper left side towards the shell's upper left edge.",
+        "hint": "Let the line meet the outer shell.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one line from its upper right side towards the shell's upper right edge.",
+        "hint": "Choose a different starting spot this time.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one line from its right side towards the shell's right edge.",
+        "hint": "Travel across the space beside the middle shape.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one line from its lower right side towards the shell's lower edge.",
+        "hint": "Stop at the lower shell curve if you meet it.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one line from its lower left side towards the shell's lower edge.",
+        "hint": "This area can be a different size.",
+        "optional": false
+      },
+      {
+        "number": 15,
+        "instruction": "Draw one line from its left side towards the shell's left edge.",
+        "hint": "There is no need for equal spaces.",
+        "optional": false
+      },
+      {
+        "number": 16,
+        "instruction": "add one short toe line on the front foot.",
+        "hint": "A tiny mark can divide the foot.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "add one short toe line on the back foot.",
+        "hint": "Keep the mark inside the foot.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "draw one ground line underneath the feet.",
+        "hint": "Leave the turtle above the line.",
+        "optional": true
+      }
+    ]
+  },
+  "butterfly": {
+    "id": "butterfly",
+    "title": "Butterfly",
+    "level": "intermediate",
+    "objective": "arrange wings around a central body; compare left and right without requiring exact symmetry.",
+    "prepare": "Place your paper where you and your grown-up can both see it.",
+    "observe": "Look at the butterfly in our example. Where do the wings join the narrow body?",
+    "explore": "Choose your butterfly's own wing pattern, imagine somewhere it could fly, or finish here.",
+    "parentNote": "if asked, point out the example's wing attachment points rather than comparing the child's wing sizes. Offer to draw a different wing shape on your own paper. Matching and non-matching patterns are equally available.",
+    "simplify": "",
+    "transfer": "draw a moth another day with the same idea of a central body and attached wings, but choose a different outline. The family may look at a parent-selected moth reference if desired.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one thin, upright oval for the body.",
+        "hint": "Leave space on both sides.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one small round head touching the top of the body.",
+        "hint": "The head can be wider than the body.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one large looping wing on the upper left.",
+        "hint": "Start beside the upper body and loop back to its middle.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one large looping wing on the upper right.",
+        "hint": "Leave room below it for another wing.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one smaller looping wing on the lower left.",
+        "hint": "Join the middle of the body to its lower end.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one smaller looping wing on the lower right.",
+        "hint": "The two sides can be different.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Add one antenna curving up from the left side of the head.",
+        "hint": "A light bend is enough.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Add one antenna curving up from the right side of the head.",
+        "hint": "It can curl a different way.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one line from the body into the upper left wing.",
+        "hint": "Stop inside the wing.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one line from the body into the upper right wing.",
+        "hint": "Let the line spread outwards.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one line from the body into the lower left wing.",
+        "hint": "Start near where this wing joins the body.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one line from the body into the lower right wing.",
+        "hint": "The lines need not be the same length.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "put one oval inside the upper left wing.",
+        "hint": "Leave some space around the oval.",
+        "optional": true
+      },
+      {
+        "number": 14,
+        "instruction": "put one shape of your choice inside the upper right wing.",
+        "hint": "If you added an oval on the other wing, this shape may match it or differ.",
+        "optional": true
+      },
+      {
+        "number": 15,
+        "instruction": "add one dot inside the lower left wing.",
+        "hint": "Choose any spot inside it.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "add one dot inside the lower right wing.",
+        "hint": "Choose any spot inside this wing.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "draw one short band across the body.",
+        "hint": "Stop when you reach its other side.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "if you added a body band, draw one more band, or skip.",
+        "hint": "Leave a gap beside an earlier band if you chose one.",
+        "optional": true
+      }
+    ]
+  },
+  "owl": {
+    "id": "owl",
+    "title": "Owl",
+    "level": "intermediate",
+    "objective": "place paired features inside a larger form and connect a creature to a supporting branch.",
+    "prepare": "Get comfortable with your paper beside your grown-up.",
+    "observe": "Look at our owl on its branch. Which parts help show where it is sitting?",
+    "explore": "What might be beside your owl's branch? Add an idea of your own, keep exploring, or finish here.",
+    "parentNote": "call the pointed shapes feather tufts, not ears. If support is requested, discuss the connection between legs, claws and branch. Keep pupil placement the child's choice; do not claim the owl or the child's picture expresses a particular feeling.",
+    "simplify": "",
+    "transfer": "try a different bird sitting on a fence. Explore which features can stay and which might change, without requiring the owl example.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one tall, rounded outline for the owl's body.",
+        "hint": "Leave room underneath for a branch.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Add one small pointed bend at the top left for a feather tuft.",
+        "hint": "Let the bend meet the outer outline.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Add one small pointed bend at the top right for another tuft.",
+        "hint": "This tuft can point a different way.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one round eye near the top left inside the body.",
+        "hint": "Leave space for another eye beside it.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one round eye near the top right inside the body.",
+        "hint": "The eyes may be different sizes.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Put one pupil inside the left eye.",
+        "hint": "A small dot can be a pupil.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Put one pupil inside the right eye.",
+        "hint": "Choose where this eye is looking.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one small beak between and below the eyes.",
+        "hint": "A downward-pointing triangle can work.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one long wing curve inside the body's left side.",
+        "hint": "Follow the outside edge with some space beside it.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one long wing curve inside the body's right side.",
+        "hint": "Bring the curve towards the lower body.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one branch line underneath the owl.",
+        "hint": "Let it reach beyond both sides of the body.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one more branch line below the first.",
+        "hint": "A wobbly line can make a natural branch.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one short leg line down from the lower left body.",
+        "hint": "Let it reach the branch.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one short leg line down from the lower right body.",
+        "hint": "Leave a gap between the legs.",
+        "optional": false
+      },
+      {
+        "number": 15,
+        "instruction": "Add one little claw curve where the left leg meets the branch.",
+        "hint": "Curl the line round the branch's upper edge.",
+        "optional": false
+      },
+      {
+        "number": 16,
+        "instruction": "Add one little claw curve where the right leg meets the branch.",
+        "hint": "A small bend can suggest a gripping claw.",
+        "optional": false
+      },
+      {
+        "number": 17,
+        "instruction": "draw one small V-shaped feather on the belly.",
+        "hint": "Keep the bend away from the eyes.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "if you added a belly feather, draw one more, or skip.",
+        "hint": "Leave space beside an earlier feather if you chose one.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "if you added belly feathers, draw one more, or skip.",
+        "hint": "Any feathers you choose may point different ways.",
+        "optional": true
+      },
+      {
+        "number": 20,
+        "instruction": "add one little leaf shape to the branch.",
+        "hint": "Join the leaf to a branch line.",
+        "optional": true
+      }
+    ]
+  },
+  "sailboat": {
+    "id": "sailboat",
+    "title": "Sailboat",
+    "level": "intermediate",
+    "objective": "use shared edges and attachment points to arrange a hull, mast and sails; distinguish the boat from the water around it.",
+    "prepare": "Place your paper sideways if you would like a wide sea.",
+    "observe": "Look at the sails in our example. Which edge sits beside the upright mast?",
+    "explore": "Where could your boat be going? Add your own idea to the sea or sky, or finish here.",
+    "parentNote": "if requested, trace an example sail's boundary in the air, showing that the mast supplies one edge. Do not require the child to redraw a sail that has a gap. Shared edges are the proposed learning focus; the numbered order is not a universal drawing rule.",
+    "simplify": "",
+    "transfer": "another day, invent a boat with one sail. Invite the child to decide what changes when one sail is removed.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one long line across the lower part of the paper for the deck.",
+        "hint": "Leave space below it for the hull.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one deep curve from the deck's left end to its right end for the hull.",
+        "hint": "Let the curve dip underneath the deck.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one upright mast line from the middle of the deck.",
+        "hint": "Leave room near the top of the paper.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one sloping line from the mast's top down towards the left.",
+        "hint": "Stop above the deck.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one line from that lower end back to the mast.",
+        "hint": "This closes one sail shape.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one sloping line from the mast's top down towards the right.",
+        "hint": "This sail can be smaller.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one line from that lower end back to the mast.",
+        "hint": "Stop when it meets the upright line.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one little round porthole inside the hull.",
+        "hint": "Leave the round shape below the deck.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one more porthole inside the hull.",
+        "hint": "Choose a different spot along the boat.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one short curved line inside the bow at the boat's right end.",
+        "hint": "Let it follow part of the hull's curve.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one wavy water line underneath the boat.",
+        "hint": "Keep the wave below the hull.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "draw one small flag outline beside the top of the mast.",
+        "hint": "A small pointed loop can meet the mast.",
+        "optional": true
+      },
+      {
+        "number": 13,
+        "instruction": "add one more wave near the first.",
+        "hint": "You can make a different-sized bend.",
+        "optional": true
+      },
+      {
+        "number": 14,
+        "instruction": "draw one sun shape above the sea.",
+        "hint": "Choose a space away from the sails.",
+        "optional": true
+      },
+      {
+        "number": 15,
+        "instruction": "draw one cloud outline above the sea.",
+        "hint": "A soft, bumpy loop can be a cloud.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "draw one small bird-wing curve in the sky.",
+        "hint": "A little upward bend is enough.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "if you added a bird-wing curve, add its other wing, or skip.",
+        "hint": "Join your first curve if you chose one.",
+        "optional": true
+      }
+    ]
+  },
+  "rocket": {
+    "id": "rocket",
+    "title": "Space rocket",
+    "level": "intermediate",
+    "objective": "organise a central body, paired fins and nested details; distinguish large outlines from smaller interior shapes.",
+    "prepare": "Turn your paper upright if you would like a tall rocket.",
+    "observe": "Look at our rocket. Which parts are inside its body, and which stick out?",
+    "explore": "What would your rocket find on its journey? Invent something on paper, keep drawing, or finish here.",
+    "parentNote": "if help is requested, compare the example's large body with its small window. Offer a larger window or fewer details as alternatives. Treat the journey as make-believe and do not present the stylised drawing as an engineering diagram.",
+    "simplify": "",
+    "transfer": "try a submarine another day, using a large body and small windows but changing its direction and the parts that stick out.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one tall rocket outline with a rounded point at the top.",
+        "hint": "Curve round the top and leave the base wider.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one curve across the body near the top for the nose section.",
+        "hint": "Let the curve meet both sides.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one round window inside the body.",
+        "hint": "Leave space around the window.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one smaller round outline inside the window for its rim.",
+        "hint": "A gap between the two outlines can show the rim.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Add one pointed fin outside the lower left body.",
+        "hint": "A small triangular loop can meet the body.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Add one pointed fin outside the lower right body.",
+        "hint": "The fins can be different shapes.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one shallow curve across the body near its base.",
+        "hint": "This marks a small engine section.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one flame outline below the base.",
+        "hint": "Start at one side of the base and curl back to the other.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one smaller flame curve inside it.",
+        "hint": "Let this curve echo part of the outer flame.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one long stripe line down the left side of the body.",
+        "hint": "Keep the line inside the rocket.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one long stripe line down the right side of the body.",
+        "hint": "Leave the window between the lines.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "add one little button shape below the window.",
+        "hint": "A small circle or square can work.",
+        "optional": true
+      },
+      {
+        "number": 13,
+        "instruction": "if you added a button, add one more button, or skip.",
+        "hint": "If you choose another button, it can be a different shape.",
+        "optional": true
+      },
+      {
+        "number": 14,
+        "instruction": "draw one planet outline beside the rocket.",
+        "hint": "Choose a space outside the rocket's body.",
+        "optional": true
+      },
+      {
+        "number": 15,
+        "instruction": "if you added a planet, draw one ring curve round it, or skip.",
+        "hint": "A wide bend can cross the planet's middle if you chose one.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "put one star dot in an empty part of the sky.",
+        "hint": "A pencil dot can stand for a distant star.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "if you added a star dot, put one more in the sky, or skip.",
+        "hint": "Choose another empty space if you want another star.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "draw one crescent-shaped moon outline.",
+        "hint": "A thin, curved loop can suggest a crescent.",
+        "optional": true
+      }
+    ]
+  },
+  "house": {
+    "id": "house",
+    "title": "House and garden",
+    "level": "intermediate",
+    "objective": "connect simple building shapes and place a pathway and plant in relation to the house.",
+    "prepare": "Leave some space around the middle of your paper for a garden.",
+    "observe": "Look at our imaginary house. Where does the path begin?",
+    "explore": "Who or what could enjoy this imaginary garden? Add your own idea, keep drawing, or finish here.",
+    "parentNote": "use an imaginary house; there is no need to identify the family's actual home. If the flower feels fiddly, offer a larger flower or a single round bloom. Discuss the path's attachment to the door only if requested. Do not require ruler-straight walls.",
+    "simplify": "",
+    "transfer": "invent a little shop or a shed on another day. Invite the child to reuse walls, an opening and a roof while choosing a different arrangement.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one rectangle for the house.",
+        "hint": "Leave room above for a roof and below for a path.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one sloping roof line from the top left corner towards a point above the middle.",
+        "hint": "Move upwards towards your chosen roof point.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one sloping roof line from that point to the top right corner.",
+        "hint": "Let it meet the wall's corner.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one door outline inside the lower part of the house.",
+        "hint": "Let the door meet the bottom of the wall.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Put one handle dot on the door.",
+        "hint": "Choose either side of the door.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one window shape to the left of the door.",
+        "hint": "Leave a little wall around it.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one window shape to the right of the door.",
+        "hint": "This window can be different.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one line down the middle of the left window.",
+        "hint": "Keep it within the window outline.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one line down the middle of the right window.",
+        "hint": "A slightly leaning line is welcome.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "add one narrow chimney outline on the roof.",
+        "hint": "Let the little outline touch a roof slope.",
+        "optional": true
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one path edge curving out from the door's left side.",
+        "hint": "Move down into the open garden space.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one path edge curving out from the door's right side.",
+        "hint": "Leave space between the two edges.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one flower stem beside the path.",
+        "hint": "Leave space above the stem for the flower.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one little flower centre at the top of the stem.",
+        "hint": "A small round loop can work.",
+        "optional": false
+      },
+      {
+        "number": 15,
+        "instruction": "Add one petal curve above the flower centre.",
+        "hint": "Loop out from the centre and back.",
+        "optional": false
+      },
+      {
+        "number": 16,
+        "instruction": "Add one petal curve to the left of the centre.",
+        "hint": "This petal can be a different size.",
+        "optional": false
+      },
+      {
+        "number": 17,
+        "instruction": "Add one petal curve below the centre.",
+        "hint": "Leave the stem visible if you like.",
+        "optional": false
+      },
+      {
+        "number": 18,
+        "instruction": "Add one petal curve to the right of the centre.",
+        "hint": "A soft loop can finish this side.",
+        "optional": false
+      },
+      {
+        "number": 19,
+        "instruction": "Add one leaf outline beside the stem.",
+        "hint": "Let the little loop touch the stem.",
+        "optional": false
+      },
+      {
+        "number": 20,
+        "instruction": "draw one gentle ground curve beside the house.",
+        "hint": "Keep it separate from the path if you like.",
+        "optional": true
+      },
+      {
+        "number": 21,
+        "instruction": "draw one little stone outline beside the path.",
+        "hint": "An uneven oval can be a stone.",
+        "optional": true
+      },
+      {
+        "number": 22,
+        "instruction": "add one cloud outline above the house.",
+        "hint": "Choose an empty piece of sky.",
+        "optional": true
+      }
+    ]
+  },
+  "train": {
+    "id": "train",
+    "title": "Toy locomotive",
+    "level": "intermediate",
+    "objective": "combine overlapping-looking body parts, circular wheels and a shared support line to suggest a toy vehicle.",
+    "prepare": "Place your paper sideways if you would like a long toy engine.",
+    "observe": "Look at our toy locomotive. Which parts sit above the wheels?",
+    "explore": "What could your toy engine carry? Add a carriage, invent another idea, or finish here.",
+    "parentNote": "if asked, compare the example's tall cab, long base and round wheels. Show a relationship on your own paper rather than naming every machine part as a memory task. This is a stylised toy locomotive; a puff is an optional storytelling detail.",
+    "simplify": "",
+    "transfer": "try a toy bus another day. Reuse wheels and a long body, then decide which locomotive parts to leave out.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one long, low rectangle for the engine's base.",
+        "hint": "Leave room underneath for wheels.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one cab rectangle above the base's left end.",
+        "hint": "This is the taller part of the engine.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one wide, rounded boiler outline beside the cab.",
+        "hint": "Let it rest above the base towards the right.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one round front wheel under the right side of the base.",
+        "hint": "Let the wheel meet the base.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one round back wheel under the cab.",
+        "hint": "The wheels can be different sizes.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Put one small hub circle inside the front wheel.",
+        "hint": "Choose a spot near its middle.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Put one small hub circle inside the back wheel.",
+        "hint": "Leave space around the hub.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one linking line between the two wheel hubs.",
+        "hint": "Let it cross the space between the wheels.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one window inside the cab.",
+        "hint": "Keep a little cab wall around the window.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one roof line across the top of the cab.",
+        "hint": "It may reach a little beyond the cab.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one narrow chimney outline on top of the boiler.",
+        "hint": "Let it touch the rounded boiler.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one line sloping down from the engine's front towards the right.",
+        "hint": "This begins a pointed front piece.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one line from its lower end back to the base.",
+        "hint": "Let it meet the front of the base.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one short curve inside the boiler near its right end.",
+        "hint": "Follow the outer end with a little space beside it.",
+        "optional": false
+      },
+      {
+        "number": 15,
+        "instruction": "Draw one small lamp shape at the front of the engine.",
+        "hint": "A little round loop can work.",
+        "optional": false
+      },
+      {
+        "number": 16,
+        "instruction": "draw one hook curve behind the cab end of the base.",
+        "hint": "A small curl can suggest a coupling.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "draw one soft puff outline above the chimney.",
+        "hint": "A bumpy loop can be an imaginary puff.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "if you added a puff, draw one more puff above it, or skip.",
+        "hint": "Leave a gap beside your first puff if you chose one.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "Draw one long track line underneath the wheels.",
+        "hint": "Let the wheels sit above the line.",
+        "optional": false
+      },
+      {
+        "number": 20,
+        "instruction": "Draw one more track line below the first.",
+        "hint": "Leave a narrow space between the rails.",
+        "optional": false
+      }
+    ]
+  },
+  "cactus": {
+    "id": "cactus",
+    "title": "Potted cactus",
+    "level": "intermediate",
+    "objective": "attach branching outlines to a central stem; place a plant inside a container and add sparse surface marks.",
+    "prepare": "Turn your paper upright if you would like a tall cactus.",
+    "observe": "Look at our cactus. Where do its arms join the main stem?",
+    "explore": "Would you like another plant beside your cactus, a different pot pattern, or to finish here?",
+    "parentNote": "point to the example's arm connection only when requested. The outline of the main stem may remain visible through an arm attachment; erasing is unnecessary. Offer one arm or a simpler round cactus as a valid alternative.",
+    "simplify": "",
+    "transfer": "another day, invent a branching tree. Explore how one central form can support branches while changing the plant's outline and surface marks.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one flattened oval for the pot's rim near the lower part of the paper.",
+        "hint": "Leave space underneath for the pot.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one deep U-shaped outline beneath the rim for the pot.",
+        "hint": "Join the rim's left and right ends.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one tall, rounded stem outline rising from the rim.",
+        "hint": "Go up one side, round the top and down the other.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one bent line out from the stem's left side and upwards.",
+        "hint": "Let the end point up like a reaching arm.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one returning bend from that arm's tip to the stem.",
+        "hint": "Follow beside the first bend with some space between.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one bent line out from the stem's right side and upwards.",
+        "hint": "Choose how high this arm reaches.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one returning bend from that arm's tip to the stem.",
+        "hint": "Let the bend meet the main stem.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one short spine line on the stem's left side.",
+        "hint": "A tiny line can stick out from the edge.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one short spine line on the stem's right side.",
+        "hint": "Choose a different spot.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one more short spine line higher on the left side.",
+        "hint": "Leave space between the little lines.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one more short spine line higher on the right side.",
+        "hint": "It can lean a different way.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one long, gentle texture curve inside the stem.",
+        "hint": "Keep the curve between its outer edges.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one decoration band across the pot.",
+        "hint": "Let the line follow the pot's rounded shape.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "draw one more decoration band across the pot.",
+        "hint": "Leave a gap beside the first band.",
+        "optional": true
+      },
+      {
+        "number": 15,
+        "instruction": "draw one little flower centre near the top of the cactus.",
+        "hint": "A small circle can be the centre.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "if you added a flower centre, add one petal loop on its left, or skip.",
+        "hint": "Loop out from the centre and back if you chose one.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "if you added a flower centre, add one petal loop on its right, or skip.",
+        "hint": "You can choose this petal's size even if you skipped the left petal.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "draw one little stone outline beside the pot.",
+        "hint": "A lumpy oval can suggest a stone.",
+        "optional": true
+      }
+    ]
+  },
+  "robot": {
+    "id": "robot",
+    "title": "Friendly robot",
+    "level": "intermediate",
+    "objective": "connect separate forms with short joining lines and organise small features inside a head and control panel.",
+    "prepare": "Leave some paper above and below the middle for your robot's head and feet.",
+    "observe": "Look at our robot. Which small lines join its bigger shapes?",
+    "explore": "What job could your imaginary robot do? Add something for that job, keep drawing your own ideas, or finish here.",
+    "parentNote": "if a joining line is difficult, invite the child to look at the corresponding gap in the example or to let the shapes touch instead. Treat the robot as an invented picture, not a real companion with authority or feelings. The child decides its fictional purpose.",
+    "simplify": "",
+    "transfer": "invent a different machine another day. Reuse connected forms and a panel, while choosing a new body shape and a different way to move.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one rectangle for the robot's body.",
+        "hint": "Leave room for a head above it.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one head outline above the body with a small gap between.",
+        "hint": "Try a square or a round outline.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one short neck line across the left side of the gap.",
+        "hint": "Join the head to the body.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one short neck line across the right side of the gap.",
+        "hint": "Leave space between the neck lines.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one eye shape inside the head's left side.",
+        "hint": "A round loop or a dot can work.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one eye shape inside the head's right side.",
+        "hint": "It can be different from the first.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one mouth line below the eyes.",
+        "hint": "Choose a straight line or a gentle bend.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one short antenna line above the head.",
+        "hint": "Start at the head's outline.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "put one round shape at the antenna's tip.",
+        "hint": "A small loop can touch the line's end.",
+        "optional": true
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one arm line out from the body's left side.",
+        "hint": "Choose where the arm points.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one arm line out from the body's right side.",
+        "hint": "This arm can point another way.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one hand shape at the end of the left arm.",
+        "hint": "A round loop can be a simple hand.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one hand shape at the end of the right arm.",
+        "hint": "Choose another loop or a different outline.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one leg line down from the body's lower left side.",
+        "hint": "Leave space underneath for a foot.",
+        "optional": false
+      },
+      {
+        "number": 15,
+        "instruction": "Draw one leg line down from the body's lower right side.",
+        "hint": "Keep a space between the legs.",
+        "optional": false
+      },
+      {
+        "number": 16,
+        "instruction": "Add one short foot line at the bottom of the left leg.",
+        "hint": "Point it outwards if you like.",
+        "optional": false
+      },
+      {
+        "number": 17,
+        "instruction": "Add one short foot line at the bottom of the right leg.",
+        "hint": "Your feet need not match.",
+        "optional": false
+      },
+      {
+        "number": 18,
+        "instruction": "Draw one panel outline inside the body.",
+        "hint": "Leave some body space around it.",
+        "optional": false
+      },
+      {
+        "number": 19,
+        "instruction": "Put one button dot inside the panel.",
+        "hint": "Choose any spot inside the outline.",
+        "optional": false
+      },
+      {
+        "number": 20,
+        "instruction": "put one more button dot inside the panel.",
+        "hint": "Leave a little space beside the first.",
+        "optional": true
+      }
+    ]
+  },
+  "bird": {
+    "id": "bird",
+    "title": "Bird on a branch",
+    "level": "expert",
+    "objective": "arrange joined body parts around a perch and explore which parts overlap.",
+    "prepare": "choose a spacious part of the paper with room below the bird for a branch.",
+    "observe": "look at a bird photograph, picture book, or the authored reference together. Notice where the feet meet the branch and how the wing sits inside the body. A picture is enough; observing a live bird is optional.",
+    "explore": "choose whether this bird is visiting, singing, sheltering, or doing something entirely different. Invent a feature or setting that changes its story.",
+    "parentNote": "if requested, point to the reference's body, wing, and perch in turn. Ask, Which part sits inside another? Demonstrate a perch on separate paper rather than repositioning the child's feet.",
+    "simplify": "one branch line, an oval, head, and beak can communicate the idea. Feet may be single lines; skip the wing interior and all optional details.",
+    "transfer": "another day, try a bird on a fence from a different reference, without replaying the original steps. Look again at the contact between feet and perch; copying the original bird is unnecessary.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one sloping line for the branch.",
+        "hint": "Leave room above it for your bird.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one line below it for the branch's lower edge.",
+        "hint": "Follow the first line loosely.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Join the branch edges at the left end with one curve.",
+        "hint": "A rounded end is enough.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Join the branch edges at the right end with one curve.",
+        "hint": "The ends can be different.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one oval above the branch for the body.",
+        "hint": "Leave a little space for legs.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one smaller circle touching the body's upper right for the head.",
+        "hint": "Let the shapes overlap if you like.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one pointed beak on the head's right side.",
+        "hint": "A little triangle can work.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Add one dot inside the head for an eye.",
+        "hint": "Choose a spot behind the beak.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one curved wing shape inside the body.",
+        "hint": "A sideways teardrop is one idea.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one long tail shape from the body's lower left.",
+        "hint": "A narrow leaf shape can work.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one leg from the body down to the branch.",
+        "hint": "A short line is enough.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one toe along the branch from that leg.",
+        "hint": "Try a small sideways line.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one second leg down to the branch.",
+        "hint": "It can start beside the first.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one toe along the branch from the second leg.",
+        "hint": "The toes can point towards the beak.",
+        "optional": false
+      },
+      {
+        "number": 15,
+        "instruction": "Add one short line inside the wing.",
+        "hint": "This can suggest a feather.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "Add one short line inside the tail.",
+        "hint": "Follow the tail's direction.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "Draw one twig from the branch.",
+        "hint": "Choose a gap away from the feet.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "If you added a twig, draw one leaf on it.",
+        "hint": "A pointed oval can work. Without a twig, you can leave this out.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "Draw one cloud above the bird.",
+        "hint": "Leave some sky between them.",
+        "optional": true
+      },
+      {
+        "number": 20,
+        "instruction": "Add one small patch on the bird's chest.",
+        "hint": "Choose its shape yourself.",
+        "optional": true
+      }
+    ]
+  },
+  "fox": {
+    "id": "fox",
+    "title": "Sleeping fox",
+    "level": "expert",
+    "objective": "use a large enclosing curve and smaller tucked shapes to suggest a curled pose.",
+    "prepare": "choose a broad space for the curled body and tail.",
+    "observe": "look at a photograph or drawing of a curled fox. Notice how the tail can lie in front of the body and how little of the legs is visible. This lesson uses a stylised side view; it is not an anatomy test.",
+    "explore": "decide where the fox rests and what makes that place comfortable. A blanket, snowy hollow, imaginary den, or different setting changes the picture meaningfully.",
+    "parentNote": "use a finger above the reference to trace the tail's route without touching the child's work. If asked, show a simple curl on separate paper. Ask which parts the child wants visible.",
+    "simplify": "make the fox from a body oval, head, one ear, closed eye, and one broad tail shape. Visible construction overlaps can stay; there is no requirement to erase them.",
+    "transfer": "try a curled cat or dog on another day. Look for the big outer curve and choose which limbs to hide, using a new reference if helpful.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one wide oval for the fox's curled body.",
+        "hint": "A low, broad shape gives room to curl.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one small rounded head shape at the oval's right end.",
+        "hint": "It can overlap the body.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one pointed muzzle from the head towards the left.",
+        "hint": "Think of a short rounded wedge.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Add one small nose at the muzzle's tip.",
+        "hint": "A dot is enough.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one pointed ear above the head.",
+        "hint": "A soft triangle can work.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one smaller ear just behind it.",
+        "hint": "Part of it can be hidden.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one closed-eye curve on the head.",
+        "hint": "A little downward bend suggests rest.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one curved cheek line inside the head.",
+        "hint": "Let it lead towards the muzzle.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one tucked paw shape below the muzzle.",
+        "hint": "A small oval can sit near the chin.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one long tail curve from the body's left side towards the paw.",
+        "hint": "Sweep around the body's lower edge.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one returning curve to give the tail its width.",
+        "hint": "Leave a broad middle and a narrow tip.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Add one curved boundary across the tail's tip.",
+        "hint": "This marks a possible pale tip.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one curved hind-leg line inside the body.",
+        "hint": "A short arc can suggest a tucked leg.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Add one short toe line on the paw.",
+        "hint": "A tiny mark is plenty.",
+        "optional": true
+      },
+      {
+        "number": 15,
+        "instruction": "Draw one small inner-ear shape.",
+        "hint": "Keep it inside the larger ear.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "Add one short fur mark on the cheek.",
+        "hint": "Choose a place near the outer edge.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "Draw one shallow ground curve below the fox.",
+        "hint": "Leave room around the curled shape.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "Draw one leaf beside the fox.",
+        "hint": "Let it rest somewhere of your choosing.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "Draw one small stone near the ground curve.",
+        "hint": "A rounded shape can work.",
+        "optional": true
+      },
+      {
+        "number": 20,
+        "instruction": "Add one short fur mark on the tail.",
+        "hint": "Follow the direction of the tail.",
+        "optional": true
+      }
+    ]
+  },
+  "elephant": {
+    "id": "elephant",
+    "title": "Side-view elephant",
+    "level": "expert",
+    "objective": "compare large and small parts and represent near and partly hidden legs.",
+    "prepare": "leave room at one side of the paper for a trunk. The proposed elephant faces right; the family may mirror the whole arrangement.",
+    "observe": "look at an elephant side view. Notice the head's size beside the body, where the trunk begins, and which legs overlap. This drawing uses simplified shapes rather than exact anatomy.",
+    "explore": "choose an elephant activity or destination. Change the trunk pose, surroundings, or a companion to support that story.",
+    "parentNote": "compare the body and head in the reference without prescribing a ratio. Use separate paper to show how a narrow leg can appear from behind another. Help choose a larger trunk movement if small curves are awkward.",
+    "simplify": "use two visible legs, one trunk line, and no tusk or toenails. A full four-leg arrangement is an optional challenge, not a correctness requirement.",
+    "transfer": "draw a rhinoceros or another large animal from the side on a different day. Look at body-to-head size and overlapping legs rather than reusing the elephant's parts unchanged.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one large oval for the body.",
+        "hint": "Make room underneath for legs.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one smaller rounded head at the body's right end.",
+        "hint": "Let it touch or overlap the body.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one large ear shape inside the head's left side.",
+        "hint": "A broad curved leaf is one idea.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one long trunk curve down from the face.",
+        "hint": "Turn the tip slightly if you like.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one returning curve beside it.",
+        "hint": "Give the trunk space between its edges.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Join the trunk edges with one small curve at the tip.",
+        "hint": "A rounded end is enough.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Add one eye above the trunk.",
+        "hint": "A little dot will do.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one near front-leg shape below the body.",
+        "hint": "A long rounded rectangle can work.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one near back-leg shape below the body's left side.",
+        "hint": "Leave a gap between the legs.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one partly hidden front-leg shape beside the near leg.",
+        "hint": "Let it start behind the first shape.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one partly hidden back-leg shape beside the near back leg.",
+        "hint": "A narrow visible part is enough.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one tail curve from the body's left end.",
+        "hint": "Let it hang or swing.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Add one small tuft shape at the tail's end.",
+        "hint": "A little leaf shape can work.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one small tusk curve beside the trunk.",
+        "hint": "A short pointed crescent is one option.",
+        "optional": true
+      },
+      {
+        "number": 15,
+        "instruction": "Add one curved crease across the trunk.",
+        "hint": "Keep it between the two edges.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "Add one small toenail curve on a foot.",
+        "hint": "One toenail is enough.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "Add one second toenail curve on that foot.",
+        "hint": "Leave a little space beside the first.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "Draw one ground line below the feet.",
+        "hint": "It can be gently uneven.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "Draw one grass blade near the ground.",
+        "hint": "A short bent line is enough.",
+        "optional": true
+      },
+      {
+        "number": 20,
+        "instruction": "Draw one puddle shape nearby.",
+        "hint": "A flat oval is one possibility.",
+        "optional": true
+      }
+    ]
+  },
+  "rabbit": {
+    "id": "rabbit",
+    "title": "Rabbit looking sideways",
+    "level": "expert",
+    "objective": "arrange a side-facing head, differently placed ears, and a large tucked hind leg.",
+    "prepare": "choose a space with room above the head for long ears.",
+    "observe": "look at a side-facing rabbit. Notice that one eye is usually prominent and the hind leg can make a large rounded shape beside the body. Decide which way this rabbit faces.",
+    "explore": "imagine what caught the rabbit's attention. A sound source, surprising object, or chosen expression can change the story.",
+    "parentNote": "invite the child to point out the large hind-leg shape in the reference. If requested, compare it with the front leg. Demonstrate an ear movement on separate paper; the child chooses the ear's direction.",
+    "simplify": "one ear and two simple feet are sufficient. Skip the inner ear, cheek, and optional features; a body, side-facing head, long ear, and tail can carry the idea.",
+    "transfer": "another day, try a hare facing the opposite way using a new reference. Choose which shape relationships remain useful and which need changing.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one broad oval for the body.",
+        "hint": "Leave space on the right for a head.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one smaller oval at the body's upper right for the head.",
+        "hint": "The ovals can touch.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one rounded muzzle shape at the head's right edge.",
+        "hint": "A small bump can work.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Add one nose at the muzzle's tip.",
+        "hint": "A dot or small oval is enough.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Add one eye inside the head.",
+        "hint": "Place it behind the nose.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one long ear shape above the head.",
+        "hint": "A narrow leaf can be an ear.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one second ear behind it.",
+        "hint": "It can lean in another direction.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one inner-ear shape inside the nearer ear.",
+        "hint": "Leave room between the two outlines.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one curved cheek line below the eye.",
+        "hint": "A short curve is enough.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one large hind-leg oval inside the body's lower left.",
+        "hint": "Make it broader than a front paw.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one long hind-foot shape beneath that oval.",
+        "hint": "A low rounded shape can point forwards.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one short front-leg shape below the body's right side.",
+        "hint": "Let it reach towards the ground.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one front-paw shape at its lower end.",
+        "hint": "A small flat oval can work.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one round tail at the body's left edge.",
+        "hint": "Let it touch the body.",
+        "optional": false
+      },
+      {
+        "number": 15,
+        "instruction": "Add one mouth curve below the nose.",
+        "hint": "Try a very short bend.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "Draw one whisker from the muzzle.",
+        "hint": "A single line is enough.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "Draw one second whisker from the muzzle.",
+        "hint": "Choose a different angle.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "Add one toe mark on the hind foot.",
+        "hint": "A tiny line will do.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "Draw one ground curve below the rabbit.",
+        "hint": "Let it pass beneath the feet.",
+        "optional": true
+      },
+      {
+        "number": 20,
+        "instruction": "Draw one leaf near the rabbit.",
+        "hint": "Choose where the rabbit might notice it.",
+        "optional": true
+      }
+    ]
+  },
+  "cup": {
+    "id": "cup",
+    "title": "Cup and saucer",
+    "level": "expert",
+    "objective": "notice open oval rims and how a handle and saucer sit around a container.",
+    "prepare": "a parent may place a safe, empty cup and saucer on a stable table, or use a photograph. Use neither hot liquid nor fragile objects within reach if unsuitable.",
+    "observe": "look slightly down at the cup. Notice the oval opening, the handle's empty space, and the saucer showing around the base. Observation is optional; an imagined cup is also welcome.",
+    "explore": "invent who uses this cup and for what imaginary occasion. Change its shape, handle, pattern, or setting to suit that person or creature.",
+    "parentNote": "if asked, point to the handle's hole rather than prescribing a perfect loop. Compare the real rim with a circle on separate paper. Avoid moving the observation object while the child wants to look at it.",
+    "simplify": "draw a cup with one handle curve and a smile-shaped saucer edge. The demonstration leaves hidden saucer edges undrawn from the start. If the child chooses complete shapes or overlapping construction lines, they can keep them; no erasing is required. Decorations, biscuits, steam, and table edges are optional.",
+    "transfer": "on another day, observe an empty jug or bowl. Try its opening and handle or base without the cup demonstration, choosing which parts are visible.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one wide smile-shaped curve low on the page for the saucer's front edge.",
+        "hint": "Leave the upper middle open for the cup; do not close an oval.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one smaller oval above it for the cup's rim.",
+        "hint": "Let the rim sit higher than the saucer.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one curve down from the rim's left side.",
+        "hint": "Stop near the saucer's middle.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one curve down from the rim's right side.",
+        "hint": "The cup may narrow towards its base.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Join the lower cup edges with one curve.",
+        "hint": "A shallow bend can make the base.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one handle loop beside the cup.",
+        "hint": "Begin near the rim and return lower down.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one smaller loop inside the handle.",
+        "hint": "Leave some empty space inside.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one inner-rim curve inside the top oval.",
+        "hint": "Follow the back edge loosely.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Extend the saucer's left end with one curve towards the cup.",
+        "hint": "Stop at the cup's left edge; the hidden part stays undrawn.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Extend the saucer's right end with one curve towards the cup.",
+        "hint": "Stop at the cup's right edge; leave the space behind the cup undrawn.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one small base arc below the cup.",
+        "hint": "Keep it close to the bottom curve.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one horizontal band across the cup.",
+        "hint": "A gently curved line can follow its roundness.",
+        "optional": true
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one second band below it.",
+        "hint": "Leave a gap of your choosing.",
+        "optional": true
+      },
+      {
+        "number": 14,
+        "instruction": "Add one decoration shape on the cup.",
+        "hint": "Choose a shape that matters to you.",
+        "optional": true
+      },
+      {
+        "number": 15,
+        "instruction": "Draw one steam curve above the cup.",
+        "hint": "This is drawn steam; the real cup stays empty.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "Draw one second steam curve.",
+        "hint": "It can bend another way.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "Draw one biscuit shape beside the saucer.",
+        "hint": "A round or square biscuit can work.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "If you added a biscuit, add one dot on it.",
+        "hint": "It could be a raisin. Without a biscuit, you can leave this out.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "Draw one short table-edge line left of the saucer.",
+        "hint": "Stop before the saucer's outline.",
+        "optional": true
+      },
+      {
+        "number": 20,
+        "instruction": "Draw one short table-edge line right of the saucer.",
+        "hint": "Imagine it continuing behind the saucer.",
+        "optional": true
+      }
+    ]
+  },
+  "fruit-bowl": {
+    "id": "fruit-bowl",
+    "title": "Bowl of fruit",
+    "level": "expert",
+    "objective": "place overlapping fruit shapes above a container and choose which edges are hidden.",
+    "prepare": "choose a broad space. A parent may arrange a safe bowl and fruit, or use a picture; handling or eating the fruit is not required.",
+    "observe": "notice which fruit is in front, where one outline disappears, and how the bowl holds the group together. This proposal puts fruit behind the bowl's front rim.",
+    "explore": "invent a fruit, redesign the container, or imagine a market stall. A chosen change can alter the arrangement rather than just its colours.",
+    "parentNote": "ask, Which fruit hides a little of another? Point to the actual arrangement if requested. Demonstrate a broken outline on separate paper; do not insist that construction lines be erased.",
+    "simplify": "choose just two fruits and one U-shaped bowl. Overlapping complete outlines are an acceptable exploratory version; partial contours can be revisited another day.",
+    "transfer": "another day, arrange two toys partly behind a box. Draw only the visible parts if that interests the child, using the new objects rather than the fruit sequence.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one shallow U shape for the bowl.",
+        "hint": "Leave space above the open top.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Join its upper ends with one shallow curve.",
+        "hint": "This can be the front rim.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one small base oval beneath the bowl.",
+        "hint": "Let it touch the bottom.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one rounded fruit outline rising above the left rim.",
+        "hint": "Stop each end at the rim.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one pear-shaped outline beside that fruit, stopping where the rim or neighbouring fruit hides it.",
+        "hint": "Make its top narrow; leave the hidden lower or side edges undrawn.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one small stem on the pear.",
+        "hint": "A little bent line is enough.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one orange-shaped outline on the right.",
+        "hint": "Stop where the bowl hides its bottom.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one short banana curve above the other fruit.",
+        "hint": "Leave room for a second edge.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one returning curve beside it to close the banana.",
+        "hint": "Join near the two tips.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Add one short banana-stalk shape at one tip.",
+        "hint": "A tiny narrow shape can work.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one partial fruit arc behind the pear.",
+        "hint": "Stop where the pear would hide it.",
+        "optional": true
+      },
+      {
+        "number": 12,
+        "instruction": "Add one short stem on the left fruit.",
+        "hint": "Put it near that fruit's top.",
+        "optional": true
+      },
+      {
+        "number": 13,
+        "instruction": "If you added the left fruit's stem, draw one leaf beside it.",
+        "hint": "A pointed oval can work. Without that stem, you can leave this out.",
+        "optional": true
+      },
+      {
+        "number": 14,
+        "instruction": "Add one small spot on the orange.",
+        "hint": "A dot is enough.",
+        "optional": true
+      },
+      {
+        "number": 15,
+        "instruction": "Add one second spot on the orange.",
+        "hint": "Choose a different position.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "Draw one small shine shape on the pear.",
+        "hint": "A little curved patch can suggest light.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "Draw one decorative band across the bowl.",
+        "hint": "Try a curve echoing the rim.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "If you added a band, add one decoration shape below it.",
+        "hint": "Invent a pattern shape. Without a band, you can leave this out.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "Draw one fallen fruit shape beside the bowl.",
+        "hint": "Leave a gap if it sits separately.",
+        "optional": true
+      },
+      {
+        "number": 20,
+        "instruction": "If you added fallen fruit, draw one leaf beside it.",
+        "hint": "Choose its direction. Without fallen fruit, you can leave this out.",
+        "optional": true
+      }
+    ]
+  },
+  "tree-path": {
+    "id": "tree-path",
+    "title": "Tree beside a winding path",
+    "level": "expert",
+    "objective": "explore how a path's edges can come closer together as it travels into a picture.",
+    "prepare": "choose which side will hold the tree and leave a broad area for the path. The proposed tree stands on the left.",
+    "observe": "look at a photograph of a path from the ground. Notice whether its visible edges are farther apart nearby and closer together farther away. This is one way to suggest distance, not a compulsory rule for imagined scenes.",
+    "explore": "decide where the path leads, whether it splits, or what season the tree suggests. Alter the route or destination to support that idea.",
+    "parentNote": "use two fingers above a reference to indicate the path's width at two places. Ask whether the child wants a close or far destination. Show a gentler winding movement separately if requested.",
+    "simplify": "use a straight path with two edges, a simple trunk, and one crown shape. Equal-width paths and imaginative views are welcome; skip all scene details.",
+    "transfer": "another day, try a river or railway disappearing into a different landscape. Explore changing the space between two edges without using the tree-path model.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one distant hill line across the upper part of the paper.",
+        "hint": "A low bend can leave room for the scene.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one winding path edge from the bottom towards the hill.",
+        "hint": "Let it turn gently.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one second path edge beside it.",
+        "hint": "Start farther apart below; come closer near the hill.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one trunk edge on the path's left.",
+        "hint": "Leave space above for branches.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one second trunk edge beside it.",
+        "hint": "The trunk can widen near the ground.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one branch line from the trunk towards the left.",
+        "hint": "Let it reach above the path.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one branch line from the trunk towards the right.",
+        "hint": "It can be shorter than the other branch.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one large leafy outline around the branch ends.",
+        "hint": "Bumps, waves, or an uneven oval can work.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one root curve from the trunk's left base.",
+        "hint": "Let it travel a little along the ground.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one root curve from the trunk's right base.",
+        "hint": "Choose another direction.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Add one short bark line inside the trunk.",
+        "hint": "Follow the trunk's length.",
+        "optional": true
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one leafy cluster inside the crown.",
+        "hint": "A wavy patch can suggest a clump.",
+        "optional": true
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one large stone beside the nearby path.",
+        "hint": "A low rounded shape can work.",
+        "optional": true
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one smaller stone farther along the path.",
+        "hint": "Place it nearer the hill.",
+        "optional": true
+      },
+      {
+        "number": 15,
+        "instruction": "Draw one grass blade near the tree.",
+        "hint": "A short bent line is enough.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "Draw one grass blade beside the path.",
+        "hint": "Leave the path open if you prefer.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "Draw one small bush near the distant hill.",
+        "hint": "A little bumpy shape can work.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "Draw one cloud above the hill.",
+        "hint": "Leave room around the tree's crown.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "Draw one fallen leaf near the trunk.",
+        "hint": "Its shape is up to you.",
+        "optional": true
+      },
+      {
+        "number": 20,
+        "instruction": "Draw one sun shape in the sky.",
+        "hint": "A partial sun at an edge can work too.",
+        "optional": true
+      }
+    ]
+  },
+  "castle": {
+    "id": "castle",
+    "title": "Castle with a drawbridge",
+    "level": "expert",
+    "objective": "arrange connected buildings and use a projecting bridge shape to explore depth.",
+    "prepare": "leave room below the castle for a bridge and moat. The castle can be imagined; a real castle reference is optional.",
+    "observe": "look at the meeting of a gate and bridge in the authored reference. Notice the bridge's far edge at the gate and wider near edge. Towers may differ; matching halves is not required.",
+    "explore": "invent the castle's inhabitants and a way they cross the moat. An unusual bridge, gate, or tower should be allowed to change the design.",
+    "parentNote": "compare the near and far bridge widths on the teacher's reference. A strip of paper can demonstrate a bridge on a separate surface if useful. Ask how the child's imagined gate works; do not impose engineering accuracy.",
+    "simplify": "draw one wall, one tower, an arch, and a rectangular bridge. Omit chains, moat, roofs, and decorative details as desired. A flat view still communicates a castle.",
+    "transfer": "on another day, draw a garden gate with a path leading towards it. Try a near and far edge in that new setting without the castle model.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one rectangle for the central castle wall.",
+        "hint": "Leave room on either side for towers.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one tall rectangle touching its left side.",
+        "hint": "This is one possible tower.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one tall rectangle touching its right side.",
+        "hint": "Choose its height yourself.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one pointed roof on the left tower.",
+        "hint": "A triangle can work.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one pointed roof on the right tower.",
+        "hint": "It can have a different shape.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one arch shape inside the wall for the gate.",
+        "hint": "Let its open ends reach the wall's base.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one bridge edge from the gate's lower left towards you.",
+        "hint": "Let it slope outwards on the paper.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one bridge edge from the gate's lower right towards you.",
+        "hint": "Leave a wider gap at the near end.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Join the near bridge ends with one line.",
+        "hint": "This closes the bridge's front edge.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one plank line across the bridge.",
+        "hint": "Keep it between the two sides.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one second plank line across the bridge.",
+        "hint": "Leave some space from the first.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one moat curve on the bridge's left.",
+        "hint": "Stop where the bridge hides the water.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one moat curve on the bridge's right.",
+        "hint": "Imagine the water continuing behind it.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one window on the left tower.",
+        "hint": "A small arch or square can work.",
+        "optional": true
+      },
+      {
+        "number": 15,
+        "instruction": "Draw one window on the right tower.",
+        "hint": "Choose another position.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "Draw one flagpole on a tower roof.",
+        "hint": "A short upright line is enough.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "If you added a flagpole, draw one flag shape attached to it.",
+        "hint": "Imagine a breeze. Without a pole, you can leave this out.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "Draw one lifting-chain line beside the bridge's left edge.",
+        "hint": "Join near the gate and the bridge's front corner.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "Draw one lifting-chain line beside the bridge's right edge.",
+        "hint": "Use the other corner if you like.",
+        "optional": true
+      },
+      {
+        "number": 20,
+        "instruction": "Add one small stone shape on the central wall.",
+        "hint": "One stone can suggest the material.",
+        "optional": true
+      }
+    ]
+  },
+  "lighthouse": {
+    "id": "lighthouse",
+    "title": "Lighthouse on the coast",
+    "level": "expert",
+    "objective": "combine a tapered tower with a coastline and distinguish foreground from distant sea.",
+    "prepare": "choose where the tower stands and leave a separate area for the sea.",
+    "observe": "look at a lighthouse picture. Notice its base compared with its top and where the land meets the water. Some towers are straight rather than tapered; either is welcome.",
+    "explore": "choose daylight, fog, night, or an invented kind of weather. Change the sky, light, or shoreline to express that choice rather than merely reproducing the teacher's scene.",
+    "parentNote": "invite the child to indicate land and sea in the reference. If asked, demonstrate two lines leaning towards each other on separate paper. Explain the light-beam lines as a drawing convention, not something that must appear in daylight.",
+    "simplify": "use a straight rectangular tower, a roof, and one coast curve. Leave out stripes, distant objects, beams, and the path; a lighthouse may be very simple.",
+    "transfer": "another day, try a water tower or windmill in a different landscape. Notice its base, top, and ground contact using a new picture or imagination.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one horizon line across the upper half of the page.",
+        "hint": "This suggests the far edge of the sea.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one coastline curve below it.",
+        "hint": "Leave land on one side of the curve.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one tower edge upwards from the land.",
+        "hint": "Lean it gently towards the tower's middle.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one second tower edge beside it.",
+        "hint": "Leave a wider space at the base if you like.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Join the tower edges at the base with one curve.",
+        "hint": "A shallow bend can suggest a round base.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one narrow platform shape across the tower's top.",
+        "hint": "Let it project a little on either side.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one lantern-room rectangle above the platform.",
+        "hint": "This is the room for the light.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one roof shape above that room.",
+        "hint": "A low triangle or curve can work.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one upright window divider inside the lantern room.",
+        "hint": "A short line is enough.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one door near the tower's base.",
+        "hint": "A small arch can work.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one curved stripe across the tower.",
+        "hint": "Keep it between the two tower edges.",
+        "optional": true
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one second curved stripe below it.",
+        "hint": "Leave a gap of your choosing.",
+        "optional": true
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one light-beam edge from the lantern towards the sea.",
+        "hint": "A sloping line can suggest its direction.",
+        "optional": true
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one second light-beam edge from the lantern.",
+        "hint": "Spread it apart from the first.",
+        "optional": true
+      },
+      {
+        "number": 15,
+        "instruction": "Draw one rock shape beside the coast.",
+        "hint": "A lumpy outline is enough.",
+        "optional": true
+      },
+      {
+        "number": 16,
+        "instruction": "Draw one wave curve on the sea.",
+        "hint": "Place it away from the land.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "Draw one second wave curve.",
+        "hint": "It can be shorter than the first.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "Draw one cloud in the sky.",
+        "hint": "Choose where it belongs.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "Draw one small distant-boat shape near the horizon.",
+        "hint": "A low crescent can suggest a hull.",
+        "optional": true
+      },
+      {
+        "number": 20,
+        "instruction": "Draw one path curve from the foreground towards the door.",
+        "hint": "Let it end near the tower's base.",
+        "optional": true
+      }
+    ]
+  },
+  "coral": {
+    "id": "coral",
+    "title": "Underwater coral scene",
+    "level": "expert",
+    "objective": "arrange branching and rounded forms at different positions, with optional overlap and open water between them.",
+    "prepare": "choose a broad area for the seabed and plenty of space above. This is a stylised scene; an aquarium photograph or picture-book reference is optional.",
+    "observe": "notice a branching coral beside a rounded coral or sponge in a reference. Look at gaps between branches and which forms stand in front. Corals have many real forms; these are two possibilities.",
+    "explore": "choose the scene's resident or invent a coral form. Alter its scale, shelter, or relationship with another creature to build a story; biological realism is optional in this imaginative drawing.",
+    "parentNote": "when asked, point to the spaces between coral branches and help choose a comfortable branch size. Demonstrate a single fork on separate paper. Avoid turning real coral variety into a requirement for one correct outline.",
+    "simplify": "keep one branch, one dome, and a fish made from an oval and tail. Skip partial outlines, ridges, bubbles, and shell. There is no need to fill the page.",
+    "transfer": "another day, draw a rock pool or small garden with both branching and rounded forms. Find a new arrangement and decide which empty spaces or overlaps to keep, without the underwater demonstration.",
+    "actions": [
+      {
+        "number": 1,
+        "instruction": "Draw one gently uneven seabed line low on the page.",
+        "hint": "Leave open water above it.",
+        "optional": false
+      },
+      {
+        "number": 2,
+        "instruction": "Draw one rock outline resting on the seabed.",
+        "hint": "Choose a low rounded shape.",
+        "optional": false
+      },
+      {
+        "number": 3,
+        "instruction": "Draw one upright coral branch from the seabed's left side.",
+        "hint": "A slightly bending line can work.",
+        "optional": false
+      },
+      {
+        "number": 4,
+        "instruction": "Draw one fork from that branch towards the left.",
+        "hint": "Let it join somewhere along the branch.",
+        "optional": false
+      },
+      {
+        "number": 5,
+        "instruction": "Draw one fork from that branch towards the right.",
+        "hint": "Leave a water gap between the forks.",
+        "optional": false
+      },
+      {
+        "number": 6,
+        "instruction": "Draw one smaller twig from the left fork.",
+        "hint": "A short line can suggest another branch.",
+        "optional": false
+      },
+      {
+        "number": 7,
+        "instruction": "Draw one smaller twig from the right fork.",
+        "hint": "Choose its direction.",
+        "optional": false
+      },
+      {
+        "number": 8,
+        "instruction": "Draw one rounded coral outline on the seabed's right side.",
+        "hint": "A lumpy dome is one idea.",
+        "optional": false
+      },
+      {
+        "number": 9,
+        "instruction": "Draw one curved ridge inside that dome.",
+        "hint": "Follow a little of its outer shape.",
+        "optional": false
+      },
+      {
+        "number": 10,
+        "instruction": "Draw one second curved ridge inside the dome.",
+        "hint": "Let a gap remain between the ridges.",
+        "optional": false
+      },
+      {
+        "number": 11,
+        "instruction": "Draw one tall seaweed blade behind the rock.",
+        "hint": "Stop its lower outline where the rock hides it.",
+        "optional": false
+      },
+      {
+        "number": 12,
+        "instruction": "Draw one second seaweed blade beside it.",
+        "hint": "It can bend another way.",
+        "optional": false
+      },
+      {
+        "number": 13,
+        "instruction": "Draw one fish-body oval in the open water.",
+        "hint": "Leave space around it to swim.",
+        "optional": false
+      },
+      {
+        "number": 14,
+        "instruction": "Draw one tail shape touching the fish's back end.",
+        "hint": "A triangle can work.",
+        "optional": false
+      },
+      {
+        "number": 15,
+        "instruction": "Add one eye inside the fish.",
+        "hint": "A dot is enough.",
+        "optional": false
+      },
+      {
+        "number": 16,
+        "instruction": "Draw one fin shape on the fish.",
+        "hint": "Choose a side or the top.",
+        "optional": true
+      },
+      {
+        "number": 17,
+        "instruction": "Draw one bubble above the fish.",
+        "hint": "A small circle can work.",
+        "optional": true
+      },
+      {
+        "number": 18,
+        "instruction": "Draw one second bubble higher up.",
+        "hint": "It can have a different size.",
+        "optional": true
+      },
+      {
+        "number": 19,
+        "instruction": "Draw one shell shape on the seabed.",
+        "hint": "A little fan outline is one possibility.",
+        "optional": true
+      },
+      {
+        "number": 20,
+        "instruction": "Add one stripe across the fish.",
+        "hint": "Keep it inside the body if you wish.",
+        "optional": true
+      }
+    ]
+  }
+}

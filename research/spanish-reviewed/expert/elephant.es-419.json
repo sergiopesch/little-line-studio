@@ -1,0 +1,231 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "elephant",
+  "lesson": {
+    "title": "Elefante de lado",
+    "invitation": "Formas grandes y patas parcialmente escondidas.",
+    "objective": "comparar partes grandes y pequeñas y representar patas cercanas y parcialmente escondidas.",
+    "parentNote": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa.",
+    "simplify": "Usen dos patas visibles, una línea para la trompa y ningún colmillo ni uña. Dibujar las cuatro patas es un reto opcional, no un requisito para que esté bien.",
+    "transfer": "Otro día, dibujen de lado un rinoceronte u otro animal grande. Observen el tamaño de la cabeza frente al cuerpo y las patas que se superponen, en vez de repetir sin cambios las partes del elefante.",
+    "colouringLabel": "Movimientos pequeños con creyón, tus propios colores",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un elefante y un charco",
+        "instruction": "Fíjate en el cuerpo grande, la oreja ancha y la trompa larga y curva.",
+        "spoken": "Nuestro elefante visita un charquito en un paisaje imaginario. Compararemos sus formas grandes antes de agregar la trompa y las patas más delgadas.",
+        "hint": "Busca la forma más grande y luego observa la cabeza más pequeña.",
+        "notice": "Miren un elefante de lado. Fíjense en el tamaño de la cabeza junto al cuerpo, dónde comienza la trompa y qué patas se superponen. Este dibujo usa formas simplificadas, no anatomía exacta."
+      },
+      "elephant-body": {
+        "title": "El cuerpo",
+        "instruction": "Dibuja los bordes visibles del cuerpo y levanta el lápiz donde irán la cabeza y las patas.",
+        "spoken": "Dibuja una forma ancha para el cuerpo. Levanta el lápiz donde se unirán la cabeza y las patas y deja esos espacios abiertos; después dibujaremos esas partes delante.",
+        "hint": "Sigue una forma ancha y redondeada, levantando el lápiz donde se unirán las partes de delante.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "elephant-head": {
+        "title": "La cabeza",
+        "instruction": "Dibuja los bordes de la cabeza y deja espacios para la oreja y la trompa.",
+        "spoken": "Dibuja una cabeza más pequeña a la derecha. Levanta el lápiz donde se unirán la oreja ancha y la trompa para no pasar la línea a través de ellas.",
+        "hint": "Haz la cabeza más pequeña que el óvalo grande del cuerpo.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "large-ear": {
+        "title": "La oreja grande",
+        "instruction": "Haz una oreja ancha y curva junto a la cabeza.",
+        "spoken": "La oreja es una forma ancha y curva junto a la cabeza. Sal hacia afuera, baja y regresa; deja espacio para colorearla después.",
+        "hint": "Redondea la oreja hacia afuera antes de regresar con la curva.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "trunk-outer-edge": {
+        "title": "El borde exterior de la trompa",
+        "instruction": "Curva la parte exterior de la trompa hacia abajo y alrededor.",
+        "spoken": "Empieza cerca de la cara y deja que una curva larga baje y luego gire suavemente hacia arriba. Este es el borde exterior de la trompa.",
+        "hint": "Sigue una curva larga hacia abajo que gire hacia arriba.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "trunk-inner-edge": {
+        "title": "El borde interior de la trompa",
+        "instruction": "Sigue con otra curva para darle grosor a la trompa.",
+        "spoken": "Dibuja el otro borde cerca del primero. Deja un pequeño espacio entre las curvas para que la trompa tenga grosor y no sea una sola línea.",
+        "hint": "Deja que la segunda curva siga a la primera sin tocarla.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "trunk-tip": {
+        "title": "La punta de la trompa",
+        "instruction": "Redondea la punta para unir los dos bordes de la trompa.",
+        "spoken": "Una pequeña curva redondeada une los dos bordes en la punta de la trompa.",
+        "hint": "Une los dos extremos abiertos con una curva pequeña.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "elephant-eye": {
+        "title": "El ojo",
+        "instruction": "Coloca un ojito encima de la mejilla.",
+        "spoken": "Un puntito encima de la mejilla se convierte en el ojo.",
+        "hint": "Haz el ojo pequeño dentro de la cabeza redondeada.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "near-front-leg": {
+        "title": "La pata delantera de adelante",
+        "instruction": "Dibuja una pata delantera ancha con un pie suavemente redondeado.",
+        "spoken": "Baja por los dos lados de la pata delantera más cercana y redondea el pie. La forma ancha hace que se vea fuerte debajo del elefante.",
+        "hint": "Baja, redondea el pie y vuelve a subir por el otro lado.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "near-back-leg": {
+        "title": "La pata trasera de adelante",
+        "instruction": "Agrega otra pata ancha debajo de la parte trasera del cuerpo.",
+        "spoken": "Agrega una pata trasera ancha de la misma manera. Antes de colocarla, fíjate en el espacio entre la pata delantera y la trasera.",
+        "hint": "Deja un espacio amplio entre las dos patas más cercanas.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "far-front-leg": {
+        "title": "La otra pata delantera",
+        "instruction": "Sugiere una pata más lejana justo detrás de la delantera.",
+        "spoken": "Una pequeña parte visible detrás de la pata delantera sugiere otra pata más lejos. No necesitamos mostrar la parte que está escondida.",
+        "hint": "Dibuja solo la parte pequeña que se ve detrás de la pata cercana.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "far-back-leg": {
+        "title": "La otra pata trasera",
+        "instruction": "Agrega una pequeña pata lejana detrás de la trasera.",
+        "spoken": "Repite la idea detrás de la pata trasera: muestra la parte visible y deja que la pata cercana esconda el resto.",
+        "hint": "Una pequeña forma incompleta basta para la pata lejana.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "elephant-tail": {
+        "title": "La cola",
+        "instruction": "Haz que una cola delgada se curve hacia abajo desde la parte trasera.",
+        "spoken": "Traza una cola delgada que baje desde la parte trasera. Esta línea suave contrasta con el cuerpo ancho y las patas fuertes.",
+        "hint": "Haz una curva suave en el extremo izquierdo del cuerpo.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "tail-tuft": {
+        "title": "El pelito de la cola",
+        "instruction": "Agrega un pequeño mechón redondeado al final de la cola.",
+        "spoken": "Un pequeño mechón redondeado termina la punta de la cola.",
+        "hint": "Cierra una forma pequeña alrededor del extremo de la cola.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "small-tusk": {
+        "title": "Un colmillo pequeño",
+        "instruction": "Dibuja un colmillo pequeño y puntiagudo junto a la trompa.",
+        "spoken": "Si quieres agregar un colmillo, une dos curvas pequeñas en una punta. Hazlo más pequeño que la trompa y déjalo claro.",
+        "hint": "Sal con una curva hasta una punta y regresa junto a la trompa.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "trunk-crease": {
+        "title": "Un pliegue en la trompa",
+        "instruction": "Agrega una pequeña curva sobre la trompa para mostrar un pliegue.",
+        "spoken": "Si quieres, una curva pequeña sobre la trompa puede sugerir un pliegue.",
+        "hint": "Mantén esta curva corta y dentro de la trompa.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "first-toenail": {
+        "title": "La primera uñita",
+        "instruction": "Haz una uñita pequeña y redondeada en el pie delantero.",
+        "spoken": "Si quieres agregar uñas, un arco redondeado pequeñito puede sugerir una.",
+        "hint": "Haz en el pie una forma pequeña como un cuenco boca abajo.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "second-toenail": {
+        "title": "Otra uñita",
+        "instruction": "Prueba una uñita dentro del pie delantero o sáltala.",
+        "spoken": "Si quieres, puedes agregar un arco pequeño dentro del pie delantero. Deja espacio alrededor de las otras uñas que hayas elegido.",
+        "hint": "Usa el borde inferior del pie para colocar este arco pequeño.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "elephant-ground": {
+        "title": "El suelo",
+        "instruction": "Dibuja una curva baja para el suelo debajo de los pies.",
+        "spoken": "Puedes agregar una curva baja debajo de los pies para el suelo. Deja espacio a la derecha si quieres dibujar un pequeño charco.",
+        "hint": "Mantén la línea del suelo debajo de los pies.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "grass-blade": {
+        "title": "Una hojita de pasto",
+        "instruction": "Agrega una pequeña hoja de pasto doblada.",
+        "spoken": "Puedes agregar una línea pequeña y doblada para el pasto o dejar este espacio vacío.",
+        "hint": "Deja que una línea pequeña suba desde el suelo y gire.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "nearby-puddle": {
+        "title": "Un charco cercano",
+        "instruction": "Si quieres, agrega a la derecha un charco bajo con forma de óvalo.",
+        "spoken": "Un óvalo plano forma el charco de nuestra historia. Su forma baja sugiere agua sobre el suelo, en vez de una pelota alta y redonda.",
+        "hint": "Haz el charco ancho y bajito junto al elefante.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      },
+      "colour-choice": {
+        "title": "Grises suaves y agua azul",
+        "instruction": "Elige un gris principal y un poco de azul para el agua.",
+        "spoken": "Yo usaré gris suave para nuestro elefante y un poco de azul para el charco. Si quieres, ten cerca un creyón más claro.",
+        "hint": "Un color principal para el cuerpo y otro pequeño para el agua son suficientes.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-large-body": {
+        "title": "Colorea la forma más grande",
+        "instruction": "Colorea con gris claro pequeñas zonas del cuerpo grande y redondeado.",
+        "spoken": "Empiezo por el espacio más grande con movimientos suaves de ida y vuelta. Levantar el creyón entre zonas mantiene el movimiento cómodo y deja ver la textura del papel.",
+        "hint": "Colorea una zona pequeña a la vez, presionando suavemente.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-head-trunk": {
+        "title": "Una cara y una trompa más pequeñas",
+        "instruction": "Haz movimientos más cortos dentro de la cabeza y la trompa estrecha.",
+        "spoken": "Acorto los movimientos para la cabeza y la trompa. Dejaré el ojo despejado y el colmillo con el color claro del papel.",
+        "hint": "Haz cada movimiento más pequeño cuando el contorno se estreche.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-ear-legs": {
+        "title": "Separa las formas que se superponen",
+        "instruction": "Dale a la oreja un gris más oscuro junto al cuerpo más claro.",
+        "spoken": "Un gris un poquito más oscuro ayuda a distinguir la oreja del cuerpo. Pequeñas zonas de color en las patas cercanas mantienen claras esas formas fuertes.",
+        "hint": "Una diferencia suave de color puede separar partes que se superponen.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-water-layer": {
+        "title": "Un poco de agua y sombra",
+        "instruction": "Si quieres, agrega azul al agua y una capa gris clara en la barriga.",
+        "spoken": "Si dibujaste un charco, puedes agregar azul dentro. También mostraré una capa gris suave y opcional debajo del cuerpo.",
+        "hint": "Una segunda capa ligera puede sugerir una parte inferior más oscura.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-reflect": {
+        "title": "Formas grandes y detalles pequeños",
+        "instruction": "Compara el cuerpo grande con la trompa y la cola más delgadas.",
+        "spoken": "Mira los diferentes tamaños: cuerpo ancho, cabeza más pequeña, trompa y cola delgadas. Esas comparaciones forman nuestro elefante sin necesitar muchos detalles.",
+        "hint": "Compara la forma más grande con uno de los detalles más pequeños.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "explore": {
+        "title": "Un paisaje para tu elefante",
+        "instruction": "Sigue coloreando o imagina más paisaje alrededor del charco.",
+        "spoken": "Puedes agregar pasto, un charco más grande o tu propio paisaje imaginario. Sigue coloreando a tu ritmo o termina aquí con tu elefante.",
+        "hint": "Prueba un detalle del paisaje o deja bastante espacio blanco.",
+        "notice": "Comparen el cuerpo y la cabeza en la imagen sin imponer una proporción. En otra hoja, muestra cómo una pata estrecha puede verse detrás de otra. Si las curvas pequeñas son difíciles, ayuda a elegir un movimiento más grande para la trompa."
+      }
+    },
+    "sourceSha256": "cf8b7358d503e4bb5629065aae6843d3c4310666f029798f224ab574bc21976c"
+  }
+}

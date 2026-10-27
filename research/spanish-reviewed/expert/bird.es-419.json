@@ -1,0 +1,231 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "bird",
+  "lesson": {
+    "title": "Pajarito en una rama",
+    "invitation": "Descubre dónde se apoyan las patitas en la rama.",
+    "objective": "ordenar las partes unidas del cuerpo alrededor de una rama y explorar qué partes se superponen.",
+    "parentNote": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña.",
+    "simplify": "Una línea para la rama, un óvalo, una cabeza y un pico pueden expresar la idea. Las patitas pueden ser líneas sencillas; se pueden omitir el interior del ala y todos los detalles opcionales.",
+    "transfer": "Otro día, prueben dibujar un pájaro sobre una cerca usando una imagen diferente, sin repetir los pasos originales. Observen de nuevo dónde las patitas tocan el apoyo; no hace falta copiar el primer pájaro.",
+    "colouringLabel": "Movimientos pequeños con creyón, tus propios colores",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Una pausa en la rama",
+        "instruction": "Fíjate en la cabeza pequeña, el cuerpo más grande y el ala doblada.",
+        "spoken": "Nuestro pajarito del jardín está descansando. Mira su cabeza pequeña sobre un cuerpo más grande e inclinado. Vamos a dibujar esas formas por separado.",
+        "hint": "Busca primero la forma más grande y luego la cabeza pequeña.",
+        "notice": "Miren juntos una foto de un pájaro, un libro ilustrado o el ejemplo de la clase. Observen dónde las patitas tocan la rama y cómo el ala está dentro del cuerpo. Una imagen es suficiente; ver un pájaro de verdad es opcional."
+      },
+      "branch-top": {
+        "title": "La parte de arriba de la rama",
+        "instruction": "Dibuja una rama larga que suba suavemente hacia la derecha.",
+        "spoken": "Empecemos por la parte de arriba de una rama que sube un poquito hacia la derecha. Deja bastante espacio arriba para nuestro pajarito.",
+        "hint": "Empieza abajo a la izquierda y sube suavemente.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "branch-bottom": {
+        "title": "La parte de abajo de la rama",
+        "instruction": "Agrega el borde de abajo siguiendo la misma inclinación.",
+        "spoken": "Sigue esa inclinación por debajo. El espacio entre las dos líneas le da grosor a la rama.",
+        "hint": "Deja un pequeño espacio entre los dos bordes de la rama.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "branch-left-end": {
+        "title": "El extremo izquierdo",
+        "instruction": "Une los extremos de la izquierda con una pequeña curva.",
+        "spoken": "Redondea este extremo de la rama con una pequeña curva.",
+        "hint": "Une los dos extremos de la izquierda con una curva pequeña.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "branch-right-end": {
+        "title": "El extremo derecho",
+        "instruction": "Cierra el otro extremo con otra curva corta y redondeada.",
+        "spoken": "Cierra también el otro extremo con una curva pequeña.",
+        "hint": "Una curva corta une los dos extremos de la derecha.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "bird-body": {
+        "title": "El cuerpo del pájaro",
+        "instruction": "Dibuja un cuerpo inclinado y deja una pequeña abertura para la cabeza.",
+        "spoken": "Haz una curva grande parecida a un óvalo y deja una abertura arriba a la derecha. Allí uniremos la cabeza más pequeña.",
+        "hint": "Sigue un óvalo inclinado y levanta el lápiz donde se unirá la cabeza.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "bird-head": {
+        "title": "La cabeza del pájaro",
+        "instruction": "Dibuja la cabeza más pequeña y deja una abertura para el pico.",
+        "spoken": "Dibuja una cabeza redonda más pequeña sobre el lado derecho del cuerpo. Deja una abertura pequeñita para el pico. Fíjate en la diferencia de tamaños.",
+        "hint": "Haz la cabeza más pequeña que el óvalo grande del cuerpo.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "bird-beak": {
+        "title": "El pico",
+        "instruction": "Haz un pico pequeño y puntiagudo a la derecha.",
+        "spoken": "Dos líneas cortas e inclinadas se unen en una punta para formar el pico. Hazlo mucho más pequeño que la cabeza.",
+        "hint": "Sal hacia una punta y luego regresa a la cabeza.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "bird-eye": {
+        "title": "El ojo",
+        "instruction": "Coloca un ojito oscuro dentro de la cabeza.",
+        "spoken": "Pon un ojito dentro de la cabeza, detrás del pico.",
+        "hint": "Un puntito basta para esta vista de lado.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "folded-wing": {
+        "title": "El ala doblada",
+        "instruction": "Dibuja un ala curva dentro del cuerpo grande.",
+        "spoken": "Pon el ala dentro del cuerpo, como una hoja redondeada. Su contorno curvo muestra una parte distinta sin cambiar la forma de afuera.",
+        "hint": "Mantén esta curva con forma de hoja dentro del óvalo grande del cuerpo.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "long-tail": {
+        "title": "La cola larga",
+        "instruction": "Traza dos curvas hacia abajo y a la izquierda para hacer la cola.",
+        "spoken": "La cola se esconde detrás del cuerpo, así que mostramos solo las curvas que se ven. Baja hacia la izquierda y luego regresa hacia el cuerpo.",
+        "hint": "Haz una forma larga y estrecha que apunte hacia abajo y a la izquierda.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "first-leg": {
+        "title": "La primera patita",
+        "instruction": "Dibuja una patita corta hacia abajo, en dirección a la rama.",
+        "spoken": "Traza una línea corta desde el cuerpo hacia abajo, en dirección a la rama.",
+        "hint": "Una sola línea delgada es suficiente para la patita.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "first-toe": {
+        "title": "El primer dedito",
+        "instruction": "Dibuja un dedito a lo largo de la rama.",
+        "spoken": "Haz un dedito sobre la parte de arriba de la rama.",
+        "hint": "Agrega una línea corta hacia un lado al final de la patita.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "second-leg": {
+        "title": "La segunda patita",
+        "instruction": "Agrega otra patita corta un poco más a la derecha.",
+        "spoken": "Agrega la otra patita cerca de la primera, siguiendo la misma dirección hacia abajo.",
+        "hint": "Deja un pequeño espacio entre las dos patitas delgadas.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "second-toe": {
+        "title": "El segundo dedito",
+        "instruction": "Dale un dedito a la segunda patita.",
+        "spoken": "Una línea corta hacia un lado termina la segunda patita.",
+        "hint": "Vuelve a trazar una línea pequeña a lo largo de la rama.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "wing-feather": {
+        "title": "Una pluma en el ala",
+        "instruction": "Sigue la dirección del ala con una curva suave por dentro.",
+        "spoken": "Si quieres agregar un detalle de plumas, sigue el ala con una curva suave por dentro. Puedes sugerir textura sin dibujar muchas líneas.",
+        "hint": "Traza una curva hacia la punta del ala.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "tail-feather": {
+        "title": "Una pluma en la cola",
+        "instruction": "Agrega una línea larga a lo largo de la cola.",
+        "spoken": "Puedes agregar una línea más larga siguiendo la cola. Repetir su dirección sugiere la textura de las plumas con pocas líneas; también puedes dejarla sin detalles.",
+        "hint": "Sigue el largo de la cola con una línea suave.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "branch-twig": {
+        "title": "Una ramita",
+        "instruction": "Haz que una ramita suba desde la rama.",
+        "spoken": "Si quieres una ramita, traza una curva que suba desde el lado derecho de la rama. También puedes dejar la rama sin ese detalle.",
+        "hint": "Empieza en la rama y lleva la ramita hacia arriba.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "twig-leaf": {
+        "title": "Una hoja",
+        "instruction": "Si quieres, cierra una hoja puntiaguda encima de la rama.",
+        "spoken": "Si quieres una hoja, dibuja dos curvas que formen puntas arriba del lado derecho de la rama. Puede estar allí con ramita o sin ella.",
+        "hint": "Haz dos curvas que se unan en ambos extremos.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "sky-cloud": {
+        "title": "Una nube",
+        "instruction": "Si quieres, agrega una nube suave en el espacio del cielo.",
+        "spoken": "Puedes agregar una nubecita en el espacio libre. Une varias curvas redondeadas y cierra la parte de abajo, que es más plana.",
+        "hint": "Varias curvas redondeadas pueden unirse para formar una nube.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "chest-patch": {
+        "title": "El pecho",
+        "instruction": "Si quieres, agrega un pequeño óvalo en el pecho para colorearlo.",
+        "spoken": "Un óvalo pequeño en el pecho nos deja un espacio para un color cálido. Mantenlo dentro de la forma grande del pájaro.",
+        "hint": "Un óvalo estrecho cabe cerca del lado derecho del cuerpo.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      },
+      "colour-choice": {
+        "title": "Colores del jardín",
+        "instruction": "Elige tonos azules, un color cálido para el pecho y marrón para la rama.",
+        "spoken": "Yo elijo plumas azul suave y un pecho anaranjado para nuestro pájaro imaginario del jardín. Tu pájaro puede tener otros colores.",
+        "hint": "Elige un color principal para las plumas y otro distinto para una parte pequeña.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-feathers": {
+        "title": "Plumas azul suave",
+        "instruction": "Colorea pequeñas zonas de plumas y levanta el creyón antes de empezar otra.",
+        "spoken": "Mira estos movimientos pequeños de ida y vuelta. Levanto el creyón antes de pasar a otra parte del cuerpo y dejo papel blanco y el ojito despejado.",
+        "hint": "Colorea una zona pequeña, levanta el creyón y empieza en otra cercana.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-wing": {
+        "title": "Sigue la forma del ala",
+        "instruction": "Haz movimientos cortos con el creyón siguiendo el ala doblada.",
+        "spoken": "Cambio la dirección de mis movimientos para seguir el ala. Así esta parte más pequeña se distingue del cuerpo.",
+        "hint": "Sigue la dirección larga del ala con movimientos cortos y suaves.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-perch": {
+        "title": "Una rama y una hoja",
+        "instruction": "Colorea la rama y la hoja, si dibujaste una.",
+        "spoken": "La rama es estrecha, así que hago movimientos mucho más pequeños con el creyón marrón. Si dibujaste una hoja, puedes agregarle un poquito de verde.",
+        "hint": "Haz movimientos más cortos cuando el espacio sea estrecho.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-breast": {
+        "title": "Un toque de color cálido",
+        "instruction": "Agrega color al pecho y, si quieres, una sombra en el ala.",
+        "spoken": "Si dibujaste el óvalo del pecho, puedes agregarle anaranjado. Yo también voy a oscurecer un poquito el azul del ala; esa capa extra es opcional.",
+        "hint": "Presiona suavemente; una segunda capa ligera puede intensificar el color.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-reflect": {
+        "title": "Mira todo el pájaro",
+        "instruction": "Fíjate en cómo las formas pequeñas están dentro de las grandes.",
+        "spoken": "Miremos el pájaro completo: cabeza pequeña, cuerpo más grande y ala doblada. Puedes seguir coloreando o dejar algunas plumas blancas.",
+        "hint": "Mira el pájaro completo y luego escoge un detalle que te guste.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "explore": {
+        "title": "¿Adónde podría volar tu pájaro?",
+        "instruction": "Sigue coloreando o inventa un lugar que pueda visitar tu pájaro.",
+        "spoken": "Nuestro pájaro puede descansar aquí o puedes imaginar su próximo vuelo. Sigue dibujando a tu ritmo o termina cuando quieras.",
+        "hint": "Prueba otra hoja, un color diferente para las plumas o un cielo abierto.",
+        "notice": "Si te lo pide, señala en la imagen el cuerpo, el ala y la rama. Pregunta: «¿Qué parte está dentro de otra?». Puedes dibujar una rama en otra hoja, sin mover las patitas del dibujo de tu niño o niña."
+      }
+    },
+    "sourceSha256": "45c4de957cf76d6b8c9bd24eab32014ca97fe5677423ca61f378cd3bdfb38049"
+  }
+}

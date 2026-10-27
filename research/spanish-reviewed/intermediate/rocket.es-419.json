@@ -1,0 +1,210 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "rocket",
+  "lesson": {
+    "title": "El cohete espacial",
+    "invitation": "Construye un cohete con formas conectadas.",
+    "objective": "Organizar un cuerpo central, dos aletas y detalles dentro de otros detalles; distinguir contornos grandes de formas interiores más pequeñas.",
+    "parentNote": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería.",
+    "simplify": "",
+    "transfer": "Otro día, prueben un submarino con un cuerpo grande y ventanas pequeñas, pero cambien su dirección y las partes que sobresalen.",
+    "colouringLabel": "Trazos pequeños y colores a tu manera",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un viaje imaginario de papel.",
+        "instruction": "Observa el cuerpo largo y las pequeñas aletas a sus lados.",
+        "spoken": "Nuestro cohete imaginario explora un cielo de papel inventado. Mira su cuerpo largo, su parte superior redondeada y las pequeñas aletas a los lados.",
+        "hint": "Busca el cuerpo grande antes de la ventanita y los botones.",
+        "notice": "Mira nuestro cohete. ¿Qué partes están dentro del cuerpo y cuáles sobresalen?"
+      },
+      "rocket-body": {
+        "title": "El cuerpo",
+        "instruction": "Dibuja un cuerpo alto con una punta redondeada.",
+        "spoken": "Sube por un lado, rodea la punta de arriba y baja por el otro lado. Una línea en la parte inferior cierra la forma larga del cohete.",
+        "hint": "Deja papel debajo del cuerpo para una llama imaginaria.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-nose-section": {
+        "title": "La punta",
+        "instruction": "Haz una curva corta que cruce cerca de la punta.",
+        "spoken": "Una curva poco profunda cruza cerca de la parte superior. Separa una punta pequeña del cuerpo mucho más largo que queda debajo.",
+        "hint": "Deja la mayor parte del cohete debajo de esta sección pequeña de arriba.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-window": {
+        "title": "La ventana",
+        "instruction": "Coloca una ventana redonda en la parte superior del cuerpo.",
+        "spoken": "Una ventana redonda cabe dentro de la parte superior del cuerpo. Dejo espacio a cada lado para que se vea el contorno largo del cohete.",
+        "hint": "Mantén el círculo dentro de los dos bordes largos del cuerpo.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-window-rim": {
+        "title": "El borde de la ventana",
+        "instruction": "Dibuja un círculo más pequeño dentro de la ventana.",
+        "spoken": "Un círculo más pequeño va dentro del primero. El espacio entre los dos forma un borde alrededor de la ventana.",
+        "hint": "Sigue el primer círculo desde un poquito más adentro.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-left-fin": {
+        "title": "La aleta izquierda",
+        "instruction": "Une los lados de una aleta puntiaguda junto a la parte inferior del cuerpo.",
+        "spoken": "Tres lados forman una aleta junto a la parte inferior del cuerpo. Observa que esta parte pequeña toca el cohete grande en vez de quedar flotando lejos.",
+        "hint": "Empieza y termina la aleta en el lado del cuerpo.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-right-fin": {
+        "title": "La aleta derecha",
+        "instruction": "Agrega una aleta pequeña al otro lado.",
+        "spoken": "Otra aleta sale del otro lado. Compara su altura en el cuerpo antes de unir las líneas cortas.",
+        "hint": "Coloca las dos aletas cerca de la parte inferior del cohete.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-engine-section": {
+        "title": "La parte del motor",
+        "instruction": "Haz una curva cerca de la parte inferior del cuerpo.",
+        "spoken": "Una curva poco profunda va cerca de la parte de abajo. El espacio estrecho debajo forma una pequeña sección para el motor del cohete.",
+        "hint": "Deja una franja pequeña entre esta curva y el borde de abajo.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-flame": {
+        "title": "La llama imaginaria",
+        "instruction": "Haz una curva para una llama imaginaria debajo del cohete.",
+        "spoken": "Nuestra llama imaginaria baja con una curva hasta una punta y vuelve a subir. Se une a la parte de abajo sin cubrir las aletas de los lados.",
+        "hint": "Deja espacio entre la llama larga y las aletas laterales.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-inner-flame": {
+        "title": "La llama interior",
+        "instruction": "Agrega una curva de llama más pequeña dentro de la primera.",
+        "spoken": "Una curva más pequeña con punta cabe dentro de la primera llama. Una forma dentro de otra deja espacio para usar dos colores después.",
+        "hint": "Mantén esta nueva curva bien dentro de la llama exterior.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-left-stripe": {
+        "title": "La línea izquierda",
+        "instruction": "Dibuja una línea larga por dentro de un borde del cuerpo.",
+        "spoken": "Una línea larga sigue un lado desde adentro. Me detengo antes de la línea inferior y dejo libre la ventana.",
+        "hint": "Sigue la dirección del cuerpo dejando un poco de espacio junto al borde.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-right-stripe": {
+        "title": "La línea derecha",
+        "instruction": "Agrega otra línea larga al otro lado del cuerpo.",
+        "spoken": "Una línea parecida sigue el otro lado. Estas dos marcas largas ayudan a que el cuerpo parezca alto junto a su ventanita redonda.",
+        "hint": "Mantén esta línea separada de la ventana y del contorno lateral.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-left-button": {
+        "title": "Un botón",
+        "instruction": "Prueba un botón pequeño debajo de la ventana.",
+        "spoken": "Un punto pequeño puede comenzar un panel de control. Este detalle adicional va debajo de la ventana, dentro del cuerpo largo.",
+        "hint": "Busca un espacio libre en el cuerpo debajo de la ventana redonda.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-right-button": {
+        "title": "Otro botón",
+        "instruction": "Si quieres, prueba un segundo botón pequeño.",
+        "spoken": "Otro punto puede ir cerca, o puedes dejar el panel sin detalles. Nuestro cohete imaginario no necesita controles exactos.",
+        "hint": "Deja un poco de papel alrededor de cada botón que elijas.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-planet": {
+        "title": "Un planeta",
+        "instruction": "Prueba un planeta pequeño en el cielo inventado.",
+        "spoken": "Un óvalo pequeño puede ser un planeta lejano en nuestra historia. Mantenlo separado del cohete para que se distingan ambas formas.",
+        "hint": "Elige un espacio vacío en el papel junto al cohete.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-planet-ring": {
+        "title": "El anillo del planeta",
+        "instruction": "Prueba un anillo inclinado alrededor de tu planeta.",
+        "spoken": "Un óvalo delgado e inclinado puede rodear el planeta, si dibujaste uno. Puedes omitir el planeta y esta decoración.",
+        "hint": "Un óvalo largo y estrecho puede inclinarse hacia un lado.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-upper-star": {
+        "title": "Una estrella arriba",
+        "instruction": "Prueba una pequeña marca de estrella en lo alto del cielo.",
+        "spoken": "Un puntito puede sugerir una luz lejana en nuestro cielo inventado. Una pequeña marca es suficiente.",
+        "hint": "Haz una marca pequeña en un espacio libre fuera del cohete.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-lower-star": {
+        "title": "Otra estrella",
+        "instruction": "Si quieres, prueba otra pequeña marca en el cielo.",
+        "spoken": "Otra marca pequeñita puede ir más lejos. Dejar bastante papel vacío ayuda a que se destaque cada lucecita.",
+        "hint": "Prueba otro espacio vacío o deja el papel libre.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "rocket-moon": {
+        "title": "Una luna",
+        "instruction": "Prueba dos curvas para una luna creciente inventada.",
+        "spoken": "Dos curvas se unen en extremos puntiagudos. Esta luna de papel opcional puede compartir nuestro cielo imaginario con las otras ideas que elijas.",
+        "hint": "Haz que una segunda curva vuelva a los extremos de la primera.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      },
+      "colour-choice": {
+        "title": "Colores para un cohete inventado.",
+        "instruction": "Elige colores para el cuerpo, la ventana y la llama imaginaria.",
+        "spoken": "Yo elijo gris y rojo para el cohete, azul para la ventana y colores cálidos para la llama. Es un dibujo imaginario, listo para tus propias elecciones.",
+        "hint": "Aparta un color claro para el cuerpo y algunos colores para detalles pequeños.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-rocket-body": {
+        "title": "El cohete largo toma color.",
+        "instruction": "Colorea el cuerpo dejando libre la ventana.",
+        "spoken": "Grupos de trazos gris claro bajan por el cuerpo largo. El rojo va cerca de la punta; levanto el creyón antes de llegar a la ventana y a los contornos estrechos.",
+        "hint": "Colorea un espacio pequeño, levanta el creyón y elige otro espacio libre.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-fins-and-window": {
+        "title": "Aletas pequeñas y ventana brillante.",
+        "instruction": "Colorea de rojo las aletas pequeñas y de azul claro la ventana.",
+        "spoken": "Las aletas pequeñas necesitan trazos rojos más cortos que el cuerpo. El azul claro va dentro de la ventana y los espacios blancos sugieren vidrio brillante.",
+        "hint": "Las formas pequeñas y cerradas necesitan movimientos cortos y presión suave.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-flame": {
+        "title": "Colores cálidos para llamas imaginarias.",
+        "instruction": "Agrega capas de colores cálidos dentro de la llama imaginaria.",
+        "spoken": "El naranja va cerca de la llama exterior y el amarillo más cerca del centro. Dejo que los colores se superpongan suavemente y mantengo visibles las zonas de cada color.",
+        "hint": "Prueba una capa suave antes de agregar otro color cálido.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-reflection": {
+        "title": "Formas grandes y detalles pequeños.",
+        "instruction": "Observa el cuerpo largo y las aletas mucho más pequeñas.",
+        "spoken": "Nuestro cohete grande tiene pequeñas aletas conectadas y una ventana redonda. Sus zonas de color están listas para un viaje imaginario de papel.",
+        "hint": "Mira una parte pequeña junto al cuerpo grande.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "explore": {
+        "title": "Un lugar para aterrizar que tú inventes.",
+        "instruction": "Inventa un lugar para aterrizar, agrega ideas o termina aquí.",
+        "spoken": "Puedes inventar un lugar donde aterrice tu cohete de papel o seguir coloreando su cuerpo. No hay necesidad de apresurar tu viaje.",
+        "hint": "Prueba unir una forma larga con pequeños triángulos conectados.",
+        "notice": "Si te pide ayuda, compara el cuerpo grande del ejemplo con su ventana pequeña. Ofrece como alternativas una ventana más grande o menos detalles. Traten el viaje como una historia imaginaria y no presenten el dibujo estilizado como un diagrama de ingeniería."
+      }
+    },
+    "sourceSha256": "ae03cf98a73ab3f47775c9c6d88c027e4371e9a2439643ee26e1e7d80a943438"
+  }
+}

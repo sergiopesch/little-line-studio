@@ -1,0 +1,217 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "dog",
+  "lesson": {
+    "title": "Un perrito sentado",
+    "invitation": "Une formas para dibujar un perrito sentado.",
+    "objective": "Unir la cabeza, el cuerpo y las patas que lo sostienen para representar una postura sentada; colocar pequeños detalles de la cara dentro de una forma más grande.",
+    "parentNote": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas.",
+    "simplify": "",
+    "transfer": "Otro día, invítale a dibujar un conejo sentado usando una cabeza, un cuerpo y unas patas, con orejas diferentes. Comiencen sin el ejemplo del perro; ofrece ayuda si te la pide.",
+    "colouringLabel": "Trazos pequeños y colores a tu manera",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un perrito en el parque.",
+        "instruction": "Observa la cabeza sobre las patitas del perrito sentado.",
+        "spoken": "Nuestro perrito de cuento espera en un parque de papel. Mira su cabeza ancha, sus orejas caídas y el cuerpo que está debajo.",
+        "hint": "Mira las formas grandes antes de fijarte en los detalles pequeños.",
+        "notice": "Mira el perrito sentado de nuestro ejemplo. ¿Qué está más arriba: la cabeza o las patitas?"
+      },
+      "dog-head": {
+        "title": "La cabeza del perrito",
+        "instruction": "Dibuja un óvalo ancho para la cabeza del perrito.",
+        "spoken": "Empieza con un óvalo ancho y deja más espacio en el papel debajo que arriba. Allí cabrá el cuerpo de nuestro perrito sentado.",
+        "hint": "Deja espacio debajo de la cabeza redondeada para el cuerpo.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-left-ear": {
+        "title": "La oreja izquierda",
+        "instruction": "Haz una oreja caída al lado izquierdo con una curva.",
+        "spoken": "Traza una curva hacia afuera, baja y vuelve hacia la cabeza. Esta oreja cuelga más abajo que la parte superior de la cara.",
+        "hint": "Lleva la curva de la oreja de vuelta al lado de la cabeza.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-right-ear": {
+        "title": "La oreja derecha",
+        "instruction": "Agrega la otra oreja caída al otro lado de la cabeza.",
+        "spoken": "Haz otra curva que cuelgue del otro lado. Observa su tamaño junto a la primera oreja; pueden ser diferentes.",
+        "hint": "Mira el lado opuesto de la cabeza para colocar la segunda oreja.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-body": {
+        "title": "El cuerpo",
+        "instruction": "Dibuja una curva para un cuerpo más alto debajo de la cabeza.",
+        "spoken": "El cuerpo comienza detrás de la cabeza. Dejo sin dibujar el borde superior que está escondido, para que la cabeza quede delante.",
+        "hint": "Comienza debajo de la cabeza y haz una curva alrededor de una forma más alta.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-left-leg": {
+        "title": "La pata delantera izquierda",
+        "instruction": "Dibuja una pata delantera hacia abajo, en dirección a las patitas.",
+        "spoken": "Una línea larga baja por dentro del cuerpo. Deja un poquito de espacio debajo para una patita redondeada.",
+        "hint": "Empieza dentro del cuerpo y baja hacia su parte inferior.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-right-leg": {
+        "title": "La pata delantera derecha",
+        "instruction": "Deja un espacio junto a la otra pata delantera.",
+        "spoken": "Dibuja la otra pata delantera al lado de la primera. El espacio entre las dos líneas ayuda a distinguir las patas.",
+        "hint": "Deja un poquito de papel entre las dos líneas de las patas.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-left-paw": {
+        "title": "La patita izquierda",
+        "instruction": "Coloca una patita pequeña y ancha debajo de una pata delantera.",
+        "spoken": "Un óvalo corto y ancho toca el extremo inferior de la primera pata. Su tamaño pequeño ayuda a que el cuerpo parezca más grande.",
+        "hint": "Haz que el óvalo pequeño toque el extremo de la pata.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-right-paw": {
+        "title": "La patita derecha",
+        "instruction": "Coloca otra patita pequeña al lado de la primera.",
+        "spoken": "Agrega la otra patita. Compara sus bordes de abajo, sin tratar de que tengan formas idénticas.",
+        "hint": "Mira la primera patita antes de colocar esta al lado.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-left-haunch": {
+        "title": "La pata trasera izquierda",
+        "instruction": "Haz una curva para una pata trasera doblada junto al cuerpo.",
+        "spoken": "Una curva sale hacia un lado del cuerpo y vuelve cerca del suelo. Así nuestro perrito parece estar sentado.",
+        "hint": "Haz una curva redondeada por fuera de la pata delantera.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-right-haunch": {
+        "title": "La pata trasera derecha",
+        "instruction": "Agrega una pata trasera redondeada al otro lado.",
+        "spoken": "Repite esa curva doblada al otro lado y deja libres las patas delanteras en el centro.",
+        "hint": "Las patas traseras quedan por fuera de las dos patas delanteras.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-tail": {
+        "title": "La cola",
+        "instruction": "Deja que una cola curva salga a un lado del perrito.",
+        "spoken": "La cola sale de un lado y se curva. Cambio de dirección suavemente, sin hacer una esquina puntiaguda.",
+        "hint": "Traza una curva que se aleje del cuerpo y luego vuelve a doblarla.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-left-eye": {
+        "title": "El ojo izquierdo",
+        "instruction": "Coloca un ojito dentro de la cabeza.",
+        "spoken": "Un ojito va dentro de la cabeza, por encima del espacio para la nariz. Una pequeña marca es suficiente.",
+        "hint": "Deja espacio debajo de este ojo para la nariz del perrito.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-right-eye": {
+        "title": "El ojo derecho",
+        "instruction": "Coloca el otro ojo al otro lado de la cara.",
+        "spoken": "Mira el otro lado de la cara para colocar el segundo ojo. Un poquito de espacio entre los ojos deja la cara despejada.",
+        "hint": "Usa el primer ojo para encontrar un lugar cómodo para el segundo.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-nose": {
+        "title": "La nariz",
+        "instruction": "Une tres líneas cortas para hacer una naricita.",
+        "spoken": "Un triángulo pequeño al revés cabe debajo de los ojos. Uno sus esquinas y lo hago más pequeño que la cabeza.",
+        "hint": "Tres lados cortos forman un triangulito que apunta hacia abajo.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-nose-line": {
+        "title": "La línea debajo de la nariz",
+        "instruction": "Traza una línea corta hacia abajo desde la nariz.",
+        "spoken": "Una línea corta baja desde la nariz. Detente antes de llegar al borde inferior de la cara.",
+        "hint": "Empieza en la nariz y haz una marca cortita.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-left-mouth": {
+        "title": "Un lado de la boca",
+        "instruction": "Haz una pequeña curva de la boca hacia un lado.",
+        "spoken": "Desde esa línea corta, haz una curva hacia un lado. La curva le da a nuestro perrito de cuento una expresión suave.",
+        "hint": "Comienza al final de la línea cortita que sale de la nariz.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-right-mouth": {
+        "title": "El otro lado de la boca",
+        "instruction": "Haz una curva para el otro lado de la boquita.",
+        "spoken": "Una segunda curva pequeña va hacia el otro lado. Deja un poco de papel entre la boca y el borde de la cabeza.",
+        "hint": "Desde el mismo punto del centro, haz una curva hacia el otro lado.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-collar": {
+        "title": "El collar",
+        "instruction": "Si quieres, prueba una curva para el collar debajo de la cabeza.",
+        "spoken": "Una curva poco profunda puede formar un collar debajo de la cabeza. Tú decides si quieres agregar este detalle.",
+        "hint": "Haz el collar cerca de donde se unen la cabeza y el cuerpo.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "dog-patch": {
+        "title": "Una mancha",
+        "instruction": "Prueba una mancha ovalada en el pelaje, o déjala fuera.",
+        "spoken": "Un óvalo pequeño puede ser una mancha en el pelaje. Tu perrito puede tener manchas o un pelaje sin manchas.",
+        "hint": "Busca un espacio libre dentro del cuerpo para tu mancha.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      },
+      "colour-choice": {
+        "title": "Colores para un perrito de papel.",
+        "instruction": "Elige un color para el pelaje de tu perrito de papel.",
+        "spoken": "Yo elijo tonos arena y marrón para el pelaje. Tu perrito también puede tener otros colores y pequeños espacios en blanco.",
+        "hint": "Escoge dos colores o usa un creyón con menos presión.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-coat": {
+        "title": "Trazos suaves para el pelaje.",
+        "instruction": "Colorea el pelaje en pequeños grupos de trazos suaves.",
+        "spoken": "Coloreo alrededor de la cara y luego por el cuerpo. Los trazos cortos y las pausas al levantar el creyón me ayudan a dejar libres los ojos y la nariz.",
+        "hint": "Usa movimientos más pequeños cuando te acerques a un borde.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-ears": {
+        "title": "Un poco más oscuro en las orejas.",
+        "instruction": "Dales a las orejas una capa un poco más oscura.",
+        "spoken": "Un marrón más oscuro distingue las orejas de la cara. Agrego un poquito al lado del cuerpo y dejo el centro más claro.",
+        "hint": "Una primera capa suave deja espacio para un segundo color más oscuro.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-patch": {
+        "title": "Una mancha, si quieres.",
+        "instruction": "Si dibujaste una mancha en el pelaje, coloréala.",
+        "spoken": "Si dibujaste una mancha, haz pequeños trazos marrones dentro de ella. Un pelaje sin manchas también está bien; puedes saltarte este color.",
+        "hint": "Procura que los trazos de la mancha queden dentro de su contorno.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-reflection": {
+        "title": "Mira tu perrito.",
+        "instruction": "Observa el cuerpo grande y las patitas más pequeñas.",
+        "spoken": "Nuestro perrito tiene formas grandes y detalles más pequeños. Mira cómo quedan las orejas caídas a los lados de la cara en nuestro parque de papel.",
+        "hint": "Disfruta tu dibujo sin tener que cambiarlo ni explicarlo.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "explore": {
+        "title": "Un parque para tu perrito.",
+        "instruction": "Dale a tu perrito un lugar donde sentarse, o termina aquí.",
+        "spoken": "Tu parque de papel puede tener un camino o algo que tú inventes. Sigue dibujando, sigue coloreando o termina cuando quieras.",
+        "hint": "Prueba otro animal sentado con una cabeza grande y patitas pequeñas.",
+        "notice": "Si te pide ayuda, señala cómo el pecho del ejemplo queda por encima de las patitas delanteras. Ofrécele la pista que pida o dibuja una muestra en tu propia hoja. No muevas su mano ni le exijas que las patas sean iguales. Este apoyo se centra en la relación entre las formas."
+      }
+    },
+    "sourceSha256": "6437439f284c786a49e02946a4d830c07c1becb65ff31dec453079a22bdd31bf"
+  }
+}

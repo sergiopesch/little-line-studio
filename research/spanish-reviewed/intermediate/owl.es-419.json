@@ -1,0 +1,224 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "owl",
+  "lesson": {
+    "title": "El búho",
+    "invitation": "Ojos grandes y una rama donde descansar.",
+    "objective": "Colocar detalles en pareja dentro de una forma más grande y unir un animal a una rama que lo sostiene.",
+    "parentNote": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular.",
+    "simplify": "",
+    "transfer": "Prueben otro día un pájaro diferente sentado en una cerca. Exploren qué detalles pueden quedarse y cuáles podrían cambiar, sin necesitar el ejemplo del búho.",
+    "colouringLabel": "Trazos pequeños y colores a tu manera",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Una rama tranquila de papel.",
+        "instruction": "Observa dos ojos grandes dentro de un cuerpo alto.",
+        "spoken": "Nuestro búho de cuento descansa en una rama de papel. Observa su forma alta y redondeada y sus dos ojos grandes con espacio entre ellos.",
+        "hint": "Busca el cuerpo grande antes de sus pequeñas marcas de plumas.",
+        "notice": "Mira nuestro búho en su rama. ¿Qué partes ayudan a mostrar dónde está sentado?"
+      },
+      "owl-body": {
+        "title": "El cuerpo",
+        "instruction": "Dibuja una forma alta y redondeada dejando espacio debajo.",
+        "spoken": "Un óvalo alto deja espacio para la cara y el cuerpo con plumas. Deja papel debajo para una rama.",
+        "hint": "Piensa primero en un óvalo grande y después en sus detalles pequeños.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-left-tuft": {
+        "title": "El mechón izquierdo",
+        "instruction": "Une dos líneas cortas para un pequeño mechón de plumas.",
+        "spoken": "Dos líneas cortas suben cerca de un lado de la cabeza. Nuestro búho de cuento tiene pequeños mechones de plumas puntiagudos.",
+        "hint": "Haz que el mechón toque la parte superior de un lado del óvalo.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-right-tuft": {
+        "title": "El mechón derecho",
+        "instruction": "Agrega otro mechón de plumas al otro lado de la cabeza.",
+        "spoken": "Un segundo mechón sube por el otro lado. Mira al otro lado de la cabeza para encontrar dónde colocarlo.",
+        "hint": "Compara su altura con la del primer mechoncito.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-left-eye": {
+        "title": "El ojo izquierdo",
+        "instruction": "Dibuja un ojo grande y redondo dentro del cuerpo.",
+        "spoken": "Pongo un ojo grande en la parte de arriba del óvalo. Hay espacio al lado para otro ojo y debajo para el pico.",
+        "hint": "Deja espacio al otro lado de la cara para el otro ojo grande.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-right-eye": {
+        "title": "El ojo derecho",
+        "instruction": "Deja un poquito de espacio antes del otro ojo.",
+        "spoken": "El otro ojo va al lado del primero. Mirar su tamaño y el espacio entre ellos me ayuda a colocarlo.",
+        "hint": "Mantén los dos círculos grandes dentro de la parte superior del cuerpo.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-left-pupil": {
+        "title": "La pupila izquierda",
+        "instruction": "Agrega una pupila pequeña dentro del primer ojo.",
+        "spoken": "Una pupila pequeña y oscura va dentro del primer círculo. El espacio blanco a su alrededor deja claro el ojo grande.",
+        "hint": "Haz que tu pupila sea más pequeña que el ojo redondo que la rodea.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-right-pupil": {
+        "title": "La pupila derecha",
+        "instruction": "Agrega una pupila pequeña dentro del segundo ojo.",
+        "spoken": "Otra pupila pequeña va dentro del otro ojo. Seguimos dejando bastante papel blanco a su alrededor.",
+        "hint": "Busca dentro del segundo ojo el lugar para esta marca pequeña.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-beak": {
+        "title": "El pico",
+        "instruction": "Une tres lados cortos debajo de los ojos.",
+        "spoken": "Un pico pequeño y puntiagudo cabe entre los ojos y debajo de ellos. Unir tres lados forma una figura mucho más pequeña que cada ojo.",
+        "hint": "Dibuja un triangulito que apunte hacia abajo, debajo de los círculos de los ojos.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-left-wing": {
+        "title": "El ala izquierda",
+        "instruction": "Haz una curva hacia abajo para un ala dentro de un lado.",
+        "spoken": "Una curva larga y suave baja dentro del cuerpo. Sugiere un ala doblada sin agregar otro óvalo entero.",
+        "hint": "Comienza al lado de la cara y haz una curva hacia la parte inferior del cuerpo.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-right-wing": {
+        "title": "El ala derecha",
+        "instruction": "Haz una curva hacia abajo para la otra ala, en el lado opuesto.",
+        "spoken": "La otra ala baja con una curva dentro del borde opuesto. Deja libre la barriga entre estas dos curvas largas.",
+        "hint": "Deja que las dos alas enmarquen un espacio libre en el centro.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-branch-top": {
+        "title": "La parte de arriba de la rama",
+        "instruction": "Dibuja una línea para la rama debajo del búho.",
+        "spoken": "Una línea larga queda debajo de nuestro búho. Le doy espacio para que sobresalga a ambos lados del cuerpo.",
+        "hint": "Deja un espacio corto debajo del cuerpo para las patas.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-branch-bottom": {
+        "title": "La parte de abajo de la rama",
+        "instruction": "Dibuja otra línea justo debajo de la primera.",
+        "spoken": "Una segunda línea va por debajo y deja un espacio estrecho. Ese espacio le da un poco de grosor a la rama.",
+        "hint": "Mantén las dos líneas de la rama cerca, con papel entre ellas.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-left-leg": {
+        "title": "La pata izquierda",
+        "instruction": "Une el búho a la rama con una pata corta.",
+        "spoken": "Una línea corta baja del cuerpo hasta la rama. Observa dónde llega la línea a la parte de arriba de la rama.",
+        "hint": "Conecta la parte inferior del cuerpo con la línea superior de la rama.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-right-leg": {
+        "title": "La pata derecha",
+        "instruction": "Agrega otra pata corta al lado de la primera.",
+        "spoken": "La otra pata corta baja a su lado. Deja un poquito de espacio entre las patas para que se distingan.",
+        "hint": "Haz otra conexión corta entre el cuerpo y la rama.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-left-claw": {
+        "title": "La garra izquierda",
+        "instruction": "Haz una curva para una patita sobre la rama.",
+        "spoken": "Una patita pequeña y curva toca la línea superior de la rama. Su tamaño pequeño ayuda a que el cuerpo del búho siga siendo la forma más grande.",
+        "hint": "Coloca la curva pequeña al final de una pata.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-right-claw": {
+        "title": "La garra derecha",
+        "instruction": "Agrega una patita curva en la otra pata.",
+        "spoken": "La otra patita se curva sobre la rama. Mantengo la curva pequeña junto a la rama larga.",
+        "hint": "Haz que esta curva toque el extremo de la segunda pata.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-upper-feather": {
+        "title": "Una pluma arriba",
+        "instruction": "Prueba una pequeña marca de pluma en la barriga.",
+        "spoken": "Dos líneas pequeñitas e inclinadas pueden sugerir una pluma. Esta marca opcional va en el espacio libre de la barriga, entre las alas.",
+        "hint": "Una pequeña forma en punta, como una letra, puede representar una pluma.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-middle-feather": {
+        "title": "Una pluma en el medio",
+        "instruction": "Si quieres, prueba otra marca de pluma cerca.",
+        "spoken": "Otra pequeña forma en punta puede ir al lado de la primera. Deja un poco de papel entre las marcas de plumas que elijas.",
+        "hint": "Mantén la nueva pluma lejos de los bordes de las alas.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-lower-feather": {
+        "title": "Una pluma abajo",
+        "instruction": "Prueba una pluma más abajo, o deja el espacio libre.",
+        "spoken": "Una pluma más abajo puede completar el pequeño diseño. Unas pocas marcas bastan, y una barriga sin marcas también está bien.",
+        "hint": "Coloca esta pequeña marca opcional debajo de las otras.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "owl-branch-leaf": {
+        "title": "Una hoja junto a la rama",
+        "instruction": "Prueba una hoja pequeña junto a la rama de papel.",
+        "spoken": "Dos curvas pueden unirse para formar una hoja junto a la rama. Es una idea adicional para el jardín que puedes omitir.",
+        "hint": "Haz que los dos lados curvos vuelvan a unirse en una punta.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      },
+      "colour-choice": {
+        "title": "Colores suaves para nuestro búho.",
+        "instruction": "Elige un color claro para la barriga y uno más oscuro para las alas.",
+        "spoken": "Yo elijo plumas color arena, una barriga clara y alas marrones. Estos colores parecidos nos ayudan a notar las distintas partes de nuestro búho de papel.",
+        "hint": "Un creyón puede hacer marcas más claras cuando presionas suavemente.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-feathers": {
+        "title": "Plumas alrededor de la cara.",
+        "instruction": "Colorea alrededor de los ojos y deja blanco el papel dentro de ellos.",
+        "spoken": "Hago trazos cortos color arena a los lados de la cara y uso crema en la barriga. Dejo blancos los círculos de los ojos para que se distingan.",
+        "hint": "Levanta el creyón antes de llegar a un ojo y comienza otro grupo de trazos.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-wings": {
+        "title": "Alas más oscuras y barriga más clara.",
+        "instruction": "Agrega plumas más oscuras cerca de las alas dobladas.",
+        "spoken": "Zonas marrones a los lados hacen que las alas se distingan de la barriga más clara. Formo el color con capas cortas y suaves.",
+        "hint": "Mantén el centro más claro que las zonas de color a sus lados.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-perch": {
+        "title": "Un poco de color para la rama.",
+        "instruction": "Usa trazos pequeñitos dentro de la rama estrecha.",
+        "spoken": "Una rama estrecha necesita trazos marrones pequeños. Levanto el creyón antes de llegar a las patas y después pongo una pequeña zona amarilla dentro del pico.",
+        "hint": "Los espacios pequeños necesitan movimientos más cortos o pueden quedarse blancos.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-reflection": {
+        "title": "Nuestro búho en su rama.",
+        "instruction": "Observa la barriga clara entre las alas más oscuras.",
+        "spoken": "Mira el centro claro y las alas más oscuras a su alrededor. Nuestro búho de cuento tiene una rama tranquila de papel y espacio para tus ideas.",
+        "hint": "Observa una diferencia entre una forma grande y una pequeña.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "explore": {
+        "title": "Un cielo para tu búho.",
+        "instruction": "Inventa un cielo, agrega tus propias marcas o termina aquí.",
+        "spoken": "Puedes darle a tu búho un cielo imaginario u otra rama. Tu rama de papel también puede quedarse tranquila y sencilla.",
+        "hint": "Prueba dejar un centro claro entre dos lados más oscuros.",
+        "notice": "Llama mechones de plumas a las formas puntiagudas, no orejas. Si te pide ayuda, conversen sobre cómo se unen las patas, las garras y la rama. Deja que elija dónde poner las pupilas; no afirmes que el búho o su dibujo expresan un sentimiento particular."
+      }
+    },
+    "sourceSha256": "e78f2390994f23c356d6731d73911f30560826dbd82c58bd36880e2b6ed25008"
+  }
+}

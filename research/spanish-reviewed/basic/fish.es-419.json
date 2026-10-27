@@ -1,0 +1,171 @@
+{
+  "locale": "es-419",
+  "status": "reviewed-internally-pending-native-review",
+  "lessonId": "fish",
+  "title": "Un pez pequeño",
+  "invitation": "Un cuerpo, una cola y una pequeña sonrisa.",
+  "objective": "Unir partes de distintas formas y dirigir una línea hacia afuera del cuerpo.",
+  "parentNote": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola.",
+  "simplify": "",
+  "transfer": "¿Podrían un óvalo y una cola diferente formar otra criatura que nade?",
+  "colouringLabel": "Zonas doradas para nuestro estanque de papel",
+  "parentNotes": {
+    "observe": "Miren una imagen de un pez. Fíjense cómo se une su cola al cuerpo.",
+    "draw": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola.",
+    "colour": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+  },
+  "stages": {
+    "notice": {
+      "title": "Un pequeño estanque de papel.",
+      "instruction": "Fíjate en el óvalo alargado y en la cola que está en un extremo.",
+      "spoken": "Imaginemos un pez pequeño nadando por nuestra hoja. Su cuerpo redondeado tiene una cola en un extremo y una cara en el otro.",
+      "hint": "Deja espacio al lado del óvalo para la cola y la cara.",
+      "notice": "Miren una imagen de un pez. Fíjense cómo se une su cola al cuerpo."
+    },
+    "fish-body": {
+      "title": "El cuerpo del pez",
+      "instruction": "Dibuja un óvalo ancho con espacio en ambos extremos.",
+      "spoken": "Un óvalo ancho es el comienzo de nuestro pez. Haz una curva alrededor y vuelve al inicio, dejando espacio para la cola.",
+      "hint": "Haz tu óvalo más ancho que alto.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "fish-tail": {
+      "title": "La cola del pez",
+      "instruction": "Agrega una cola triangular que toque un extremo del óvalo.",
+      "spoken": "Desde el extremo izquierdo del óvalo, ve hacia afuera, baja y vuelve al mismo punto. Un triángulo se convierte en la cola de nuestro pez.",
+      "hint": "Deja que la punta del triángulo toque el extremo de tu óvalo.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "fish-eye": {
+      "title": "El ojo del pez",
+      "instruction": "Pon un ojo pequeño cerca del otro extremo.",
+      "spoken": "Un ojito redondo va dentro del extremo opuesto. Dejo espacio entre el ojo y el borde exterior.",
+      "hint": "La cara va en el extremo que está lejos de la cola.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "fish-mouth": {
+      "title": "La boca del pez",
+      "instruction": "Haz una pequeña curva para la boca cerca del borde de adelante.",
+      "spoken": "Una curva pequeña cerca del frente se convierte en la boca de nuestro pez de cuento.",
+      "hint": "Haz la boca mucho más pequeña que el óvalo de tu pez.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "upper-fin": {
+      "title": "La aleta de arriba",
+      "instruction": "Si quieres, prueba una aleta puntiaguda arriba del cuerpo.",
+      "spoken": "Dos líneas inclinadas pueden subir por encima del cuerpo y regresar. Tú decides si quieres agregar esta aleta de arriba.",
+      "hint": "Empieza y termina donde la aleta se une al óvalo.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "lower-fin": {
+      "title": "La aleta de abajo",
+      "instruction": "Prueba una aleta pequeña debajo del cuerpo o déjala fuera.",
+      "spoken": "Una segunda punta puede mirar hacia abajo, debajo del óvalo. Puede tener otro tamaño.",
+      "hint": "Deja visible el contorno del cuerpo entre los dos extremos.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "gill-curve": {
+      "title": "La curva de la branquia",
+      "instruction": "Si quieres, prueba una curva para la branquia detrás de la cara.",
+      "spoken": "Una línea curva detrás de la cara representa una branquia. Dejo espacio alrededor del ojo.",
+      "hint": "Mantén esta curva dentro del cuerpo, cerca de la cara.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "upper-scale": {
+      "title": "Una escama arriba",
+      "instruction": "Si quieres, agrega una curva pequeña para una escama por dentro.",
+      "spoken": "Una pequeña curva de lado puede ser el comienzo de un diseño de escamas dentro del cuerpo.",
+      "hint": "Una curva corta es suficiente para comenzar un diseño.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "middle-scale": {
+      "title": "Una escama en el centro",
+      "instruction": "Prueba otra curva pequeña para una escama o deja el espacio libre.",
+      "spoken": "Otra curva corta va cerca. Levanto el lápiz antes de elegir su lugar.",
+      "hint": "Deja un pequeño espacio entre estas marcas curvas.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "lower-scale": {
+      "title": "Una escama abajo",
+      "instruction": "Elige una escama más o deja el espacio libre.",
+      "spoken": "Una curva más puede terminar nuestro pequeño diseño. Puedes parar con menos escamas.",
+      "hint": "Tu pez puede tener unas pocas marcas o ninguna.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "near-bubble": {
+      "title": "Una burbuja cerca",
+      "instruction": "Si quieres, prueba una burbuja redonda al lado de tu pez.",
+      "spoken": "Un círculo fuera del pez puede convertirse en una burbuja de nuestro estanque imaginario.",
+      "hint": "Busca un espacio libre en la hoja delante de la cara del pez.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "higher-bubble": {
+      "title": "Una burbuja más arriba",
+      "instruction": "Prueba una burbuja más pequeña arriba o déjala fuera.",
+      "spoken": "Un círculo más pequeño arriba hace que nuestras burbujas tengan tamaños diferentes.",
+      "hint": "Deja espacio alrededor de cada círculo en vez de unirlos.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    },
+    "colour-choice": {
+      "title": "Colores dorados y cálidos.",
+      "instruction": "Elige naranja y amarillo o inventa los colores de tu pez.",
+      "spoken": "Yo elijo naranja suave para nuestro pez y amarillo para su cola. Tu estanque de papel puede tener un pez de otro color.",
+      "hint": "Dos colores son suficientes; uno solo también sirve.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-fish-middle": {
+      "title": "Zonas suaves dentro del óvalo.",
+      "instruction": "Colorea pequeñas zonas de naranja dentro del centro del cuerpo.",
+      "spoken": "Con trazos suaves de naranja coloreo el centro ancho. Levanto el creyón entre las zonas pequeñas para que todavía se vea un poco de papel.",
+      "hint": "Empieza en el centro, donde hay más espacio, antes de acercarte a un borde.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-fish-face": {
+      "title": "Movimientos pequeños cerca de la cara.",
+      "instruction": "Usa trazos más pequeños de naranja alrededor de la cara del pez.",
+      "spoken": "Cerca de la cara hago movimientos más pequeños. El ojo oscuro y las pequeñas curvas pueden seguir viéndose junto al color.",
+      "hint": "Mueve el creyón más despacio cuando te acerques al contorno.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-fish-tail": {
+      "title": "Una pequeña cola dorada.",
+      "instruction": "Colorea dentro de la cola triangular con trazos cortos de amarillo.",
+      "spoken": "Los trazos cortos de amarillo caben dentro de la cola. Dejo blancas las aletas para que nuestro pez tenga algunas zonas más claras.",
+      "hint": "La punta estrecha necesita un movimiento pequeñito o puede quedarse blanca.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-reflection": {
+      "title": "Nadando por nuestra hoja.",
+      "instruction": "Mira el óvalo, la cola y las pequeñas zonas de color.",
+      "spoken": "Nuestro óvalo y triángulo ahora parecen un pez nadando en un estanque imaginario. Los pequeños espacios blancos pueden quedarse así.",
+      "hint": "Fíjate cómo la cola pequeña toca el cuerpo grande.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "explore": {
+      "title": "Tu estanque, tu idea.",
+      "instruction": "Inventa un compañero para el estanque, sigue coloreando o termina aquí.",
+      "spoken": "En nuestro estanque de papel puede haber otro pez, una planta que se mueva o una idea tuya. Sigue dibujando o termina con este pequeño pez.",
+      "hint": "Prueba un óvalo más corto para otro pez imaginario.",
+      "notice": "Conversen sobre cómo se une la cola al cuerpo usando el ejemplo. La posición del ojo indica hacia dónde mira el pez; no hace falta corregir si el niño inventa otra disposición. Si te lo pide, muestra por separado una forma sencilla para la cola."
+    }
+  },
+  "sourceTextSha256": "a931949b993bbfe4860b499f006692071fd21b1bdbb41cbb93771f9d82ba6469",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Mira"
+    },
+    {
+      "id": "draw",
+      "label": "Dibuja"
+    },
+    {
+      "id": "colour",
+      "label": "Colorea"
+    },
+    {
+      "id": "explore",
+      "label": "Tus propias ideas"
+    }
+  ]
+}

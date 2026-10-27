@@ -1,0 +1,231 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "rabbit",
+  "lesson": {
+    "title": "Conejo mirando de lado",
+    "invitation": "Explora una vista de lado.",
+    "objective": "organizar una cabeza de perfil, orejas en distintas posiciones y una pata trasera grande y recogida.",
+    "parentNote": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya.",
+    "simplify": "Una oreja y dos pies sencillos son suficientes. Se pueden omitir el interior de la oreja, la mejilla y los detalles opcionales; un cuerpo, una cabeza de perfil, una oreja larga y una cola pueden expresar la idea.",
+    "transfer": "Otro día, prueben dibujar una liebre mirando hacia el lado contrario con una imagen nueva. Elijan qué relaciones entre las formas siguen siendo útiles y cuáles necesitan cambiar.",
+    "colouringLabel": "Movimientos pequeños con creyón, tus propios colores",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Una pausa en el jardín",
+        "instruction": "Fíjate en las orejas largas y la pata trasera redonda y recogida.",
+        "spoken": "Vamos a dibujar un conejo descansando en un jardín imaginario. Sus orejas largas y su pata trasera redonda nos ayudarán a mostrarlo agachado y de lado.",
+        "hint": "Compara las orejas altas con el cuerpo bajo y redondeado.",
+        "notice": "Miren un conejo de lado. Fíjense en que normalmente se ve sobre todo un ojo y en que la pata trasera puede formar una figura grande y redonda junto al cuerpo. Decidan hacia dónde mira este conejo."
+      },
+      "rabbit-body": {
+        "title": "El cuerpo",
+        "instruction": "Traza las curvas del cuerpo y levanta el lápiz donde se unirán la cabeza y los pies.",
+        "spoken": "Empieza con las curvas del lomo y los bordes del cuerpo. Levanta el lápiz donde se unirán la cabeza y los pies; esas partes de adelante cerrarán las pequeñas aberturas.",
+        "hint": "Sigue el cuerpo redondeado y levanta el lápiz en las aberturas para las partes de adelante.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "sideways-head": {
+        "title": "La cabeza de lado",
+        "instruction": "Dibuja una cabeza más pequeña e inclinada y deja una abertura para el hocico.",
+        "spoken": "Dibuja la cabeza más pequeña a la derecha y deja una pequeña abertura delante. Allí uniremos el hocico redondeado.",
+        "hint": "Haz la cabeza más pequeña que el cuerpo y un poquito inclinada.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "rabbit-muzzle": {
+        "title": "El hocico",
+        "instruction": "Traza un hocico pequeño y redondeado hacia la derecha.",
+        "spoken": "Una curva pequeña sale de la cabeza para formar el hocico. Este cambio en la forma de afuera ayuda a mostrar la cara.",
+        "hint": "Deja que una curva pequeña y redondeada salga de la cabeza.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "rabbit-nose": {
+        "title": "La nariz",
+        "instruction": "Pon una naricita en la punta del hocico.",
+        "spoken": "Un puntito delante se convierte en la nariz de nuestro conejo.",
+        "hint": "Pon un puntito en el extremo derecho del hocico.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "rabbit-eye": {
+        "title": "El ojo",
+        "instruction": "Agrega un ojo pequeño dentro de la cabeza.",
+        "spoken": "Coloca un ojo pequeño dentro de la cabeza, detrás del hocico.",
+        "hint": "Haz el ojo pequeño y deja papel alrededor.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "long-near-ear": {
+        "title": "La oreja larga de adelante",
+        "instruction": "Curva una oreja larga hacia arriba, redondea la punta y regresa.",
+        "spoken": "Deja que una oreja larga suba sobre la cabeza, gire alrededor de una punta redondeada y vuelva a bajar. Deja espacio entre sus dos lados.",
+        "hint": "Piensa en una hoja alta y estrecha con la punta redondeada.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "long-far-ear": {
+        "title": "La otra oreja larga",
+        "instruction": "Agrega otra oreja larga inclinada un poco más hacia la derecha.",
+        "spoken": "La segunda oreja se inclina un poco más a la derecha. Cambiar el ángulo nos ayuda a ver dos orejas separadas en vez de una forma gruesa.",
+        "hint": "Deja un pequeño espacio entre las dos orejas largas.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "inner-near-ear": {
+        "title": "Dentro de la oreja",
+        "instruction": "Dibuja una curva más pequeña dentro de la oreja de adelante.",
+        "spoken": "Una forma curva más pequeña dentro de esta oreja nos deja espacio para rosado claro después. Deja un borde alrededor dentro de la oreja grande.",
+        "hint": "Repite la forma larga de la oreja en un tamaño más pequeño por dentro.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "rabbit-cheek": {
+        "title": "La mejilla",
+        "instruction": "Haz una curva corta hacia abajo para la mejilla, debajo del ojo.",
+        "spoken": "Una curva corta gira debajo de la cara. Los detalles curvos pequeños pueden mostrar un cambio de forma sin muchas líneas.",
+        "hint": "Baja con la curva y regresa debajo del ojo.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "large-hind-leg": {
+        "title": "La pata trasera grande",
+        "instruction": "Coloca una pata trasera grande y redondeada dentro del cuerpo.",
+        "spoken": "Esta forma redondeada dentro de la parte trasera del cuerpo sugiere la pata recogida. Fíjate en cuánto más grande es que una patita delantera.",
+        "hint": "Mantén esta pata redonda dentro de la parte inferior izquierda del cuerpo.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "long-hind-foot": {
+        "title": "El pie trasero largo",
+        "instruction": "Dibuja un pie largo y plano debajo de la pata redonda.",
+        "spoken": "Un óvalo largo y plano debajo de la pata redonda se convierte en el pie trasero. Comparar formas redondas y planas ayuda a mostrar esta postura de descanso.",
+        "hint": "Haz el pie mucho más plano que la pata redonda.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "short-front-leg": {
+        "title": "La pata delantera corta",
+        "instruction": "Baja con una pata delantera corta debajo del pecho.",
+        "spoken": "Dibuja una pata delantera corta bajo el pecho y redondea el giro de abajo. Hazla más corta y estrecha que la pata trasera grande.",
+        "hint": "Baja, redondea un pie pequeño y vuelve a subir.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "front-paw": {
+        "title": "La patita delantera",
+        "instruction": "Agrega una patita pequeña y plana junto a la pata delantera.",
+        "spoken": "Una patita pequeña y plana queda junto a la pata delantera.",
+        "hint": "Un óvalo pequeño y bajito basta para esta patita delantera.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "round-tail": {
+        "title": "La cola redonda",
+        "instruction": "Traza una cola pequeña y redondeada en la parte trasera.",
+        "spoken": "Dibuja una colita redondeada detrás del cuerpo. Podemos dejarla blanca para distinguirla del pelaje.",
+        "hint": "Redondea una curva pequeña que salga del lado izquierdo del cuerpo.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "rabbit-mouth": {
+        "title": "La boca",
+        "instruction": "Haz una curva pequeña y suave para la boca debajo de la nariz.",
+        "spoken": "Puedes agregar una curva pequeña y suave para la boca debajo de la nariz, o dejarla fuera.",
+        "hint": "Mantén la boca cerca del hocico pequeño.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "first-whisker": {
+        "title": "El primer bigote",
+        "instruction": "Deja que un bigote delgado salga del hocico.",
+        "spoken": "Si quieres bigotes, una línea suave puede salir del hocico.",
+        "hint": "Una línea fina hacia afuera basta para este bigote.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "second-whisker": {
+        "title": "Otro bigote",
+        "instruction": "Prueba otro bigote fino desde el hocico o sáltalo.",
+        "spoken": "Si quieres, prueba dibujar otro bigote fino desde el hocico. Deja espacio alrededor de los otros bigotes que hayas elegido.",
+        "hint": "Empieza cerca del hocico y deja espacio alrededor de las otras marcas.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "hind-foot-toe": {
+        "title": "Un dedito del pie trasero",
+        "instruction": "Haz una marca diminuta para un dedito en el pie trasero largo.",
+        "spoken": "Si quieres, una línea diminuta en el pie trasero puede sugerir un dedito.",
+        "hint": "Haz esta marca mucho más corta que el pie.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "rabbit-ground": {
+        "title": "El suelo",
+        "instruction": "Traza una pequeña curva para el suelo debajo del conejo.",
+        "spoken": "Puedes dibujar una curva suelta debajo del conejo para representar el suelo del jardín. También puedes dejar el fondo vacío.",
+        "hint": "Mantén la curva del suelo debajo de las patitas y la cola.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "rabbit-leaf": {
+        "title": "Una hoja del jardín",
+        "instruction": "Si quieres, coloca cerca una hoja puntiaguda.",
+        "spoken": "Una hoja cercana puede formar parte de la historia de nuestro jardín. Dos curvas se unen en una punta para formar esta hoja pequeña.",
+        "hint": "Curva hasta una punta y regresa con otra curva.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      },
+      "colour-choice": {
+        "title": "Colores suaves del jardín",
+        "instruction": "Elige un color suave para el pelaje y verde para la hoja.",
+        "spoken": "Yo usaré marrón claro y cálido para nuestro conejo, con rosado claro dentro de una oreja. Tu conejo puede tener otras manchas o colores.",
+        "hint": "Elige un color principal para el pelaje y deja algo del papel blanco.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-soft-fur": {
+        "title": "Pequeñas zonas de pelaje",
+        "instruction": "Colorea suavemente pequeñas zonas del cuerpo y la cabeza.",
+        "spoken": "Estas zonas claras siguen el cuerpo redondeado. Levanto el creyón antes de pasar a otra zona y dejo despejados el ojo y los detalles de la cara.",
+        "hint": "Presiona suavemente y haz movimientos pequeños alrededor de cada forma redonda.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-long-ears": {
+        "title": "Espacios altos y estrechos",
+        "instruction": "Haz movimientos más cortos con el creyón dentro de las orejas largas.",
+        "spoken": "Las orejas son estrechas, así que hago movimientos más cortos. Dejo un poco de espacio claro dentro de la oreja de adelante para otro color.",
+        "hint": "Acorta los movimientos en lugar de empujar contra un borde estrecho.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-feet": {
+        "title": "Pata redonda y pies planos",
+        "instruction": "Sigue la pata trasera redonda y los pies más planos.",
+        "spoken": "Sigo la pata trasera redonda y luego giro mis movimientos a lo largo de los pies planos. La dirección cambia con cada forma.",
+        "hint": "Las formas redondas y las planas pueden usar movimientos en distintas direcciones.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-garden-layer": {
+        "title": "Una oreja rosada y una hoja",
+        "instruction": "Prueba rosado claro, colorea la hoja si la hiciste o agrega una sombra suave.",
+        "spoken": "Un poco de rosado claro puede colorear el interior de la oreja. Si agregaste una hoja, prueba verde allí; una segunda capa en el pelaje es opcional.",
+        "hint": "Haz trazos diminutos en la oreja y colorea la hoja solo si la agregaste.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-reflect": {
+        "title": "Un conejo tranquilo en el jardín",
+        "instruction": "Fíjate en las orejas largas sobre el cuerpo bajito y agachado.",
+        "spoken": "Mira las orejas altas y el cuerpo bajo que está debajo. Sus diferentes tamaños cuentan la historia de nuestro conejo, aunque dibujemos pocas marcas de pelo.",
+        "hint": "Compara la forma más larga con una patita pequeña y corta.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "explore": {
+        "title": "Tu propio jardín",
+        "instruction": "Sigue coloreando o imagina un jardín alrededor de tu conejo.",
+        "spoken": "Tu conejo puede quedarse como está o puedes inventar un pequeño jardín. Continúa cuando quieras o termina tu dibujo aquí.",
+        "hint": "Prueba dibujar una hoja o tu flor favorita junto al conejo.",
+        "notice": "Invita al niño o niña a señalar la forma grande de la pata trasera en la imagen. Si te lo pide, compárenla con la pata delantera. Muestra el movimiento de una oreja en otra hoja; el niño o niña elige hacia dónde va la suya."
+      }
+    },
+    "sourceSha256": "ff8c10ff53fcff417381f0358c28dd8aad6e53764ac26a537dedee1c21c17571"
+  }
+}

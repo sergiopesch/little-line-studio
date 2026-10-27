@@ -1,0 +1,21 @@
+# Optional prepared instrumental music
+
+Thirty-three original 90-second instrumental beds were generated with ElevenLabs `music_v2_5` on 26 October 2026 using the owner’s paid account. Requests used authored prompts, `force_instrumental: true`, and no named artist, song, album, lyrics or requested imitation. Source manifests retain the full prompts, generation settings, measured durations and SHA256 hashes. The assets are not recordings of a child.
+
+- Thirty drawing-specific compositions: individually authored arrangements for each story, including a separate new Cat composition; exact prompts and level assignments are in the source manifest.
+- Basic fallback: sparse soft piano and warm sustained tones.
+- Intermediate fallback: soft marimba and warm acoustic plucked textures.
+- Expert fallback: delicate soft piano and warm ambient strings.
+- Friendly sun: a distinct warm celesta and light acoustic plucked brief for a peaceful sunny-morning story.
+- Rainbow: warm felt piano, rounded marimba and soft airy sustained tones for a pretend garden after a shower.
+- Floating balloon: gentle fingerpicked guitar, rounded pizzicato strings and felt piano for a pretend paper celebration.
+
+The original verified 90-second sources remain unchanged in the generation cache and receipts. The website serves locally prepared **72-second looping derivatives**; preparing these edits makes no additional paid request. The default edit uses source seconds 8–76 followed by a four-second equal-power crossfade from seconds 76–80 into seconds 4–8, cycling back to source second 8. Reviewed source-bound crops shift this same edit four seconds later for Flower and six seconds later for Cactus. Two-pass measured loudness normalisation targets -20 LUFS and a -2 dB true-peak ceiling, with a 7 LU loudness-range target. Ladybird uses an explicitly recorded dynamic mode and a decoded range limit of 7.5 LU; the other sources use linear normalisation. All retain the same decoded loudness, peak and continuity checks; the MP3s use 44,100 Hz stereo/128 kbit/s. Decoded loudness, peak and boundary-continuity measurements and the full processing recipe are retained with the manifest. All thirty drawings select their own distinct prepared composition. The three level beds remain available as fallbacks.
+
+The music manifest marks the library `verified-api-sources-with-local-loop-processing` and each prepared bed `verified-local-derivative`. The source records preserve the ElevenLabs model, authored request, cache identity, hash and raw-receipt linkage. Separate processing records identify the local recipe, filter graph, ffmpeg version, processing key, receipt digest and measured verification. ElevenLabs generated the original source, not the final cyclic edit.
+
+Music is enabled by default, but page load and drawing selection do not start it. The supervising adult's Begin gesture unlocks lesson playback, and the adult can opt out beforehand or mute it during the lesson. An explicit sound-check gesture may preview it before beginning. One HTML music element continues and loops across ordinary teaching, practice and exploration steps. It lowers to 32% of the selected gain during teaching/speech, using a 200 ms attack and 1,200 ms recovery rather than stopping and restarting at every step. Pause, mute, help, dialogs, safety interruptions and hidden tabs still silence it immediately. It stops and resets when leaving the lesson. Silence is always available. These gain settings are not calibrated sound-pressure limits.
+
+These restrained arrangements and loop edits are design choices intended to avoid competing with instructions, not a scientifically established optimal learning soundtrack or a therapeutic intervention. Music can distract some learners. Neither an instrumental API parameter nor automated file checks establish the suitability of every audible detail or perceptually seamless playback in every browser and codec. Physical audition remains unqualified; family listening on the intended device remains important.
+
+Prepared audio is served with the website; no music-generation request occurs during a lesson. Rights remain subject to the applicable [ElevenLabs Music terms](https://elevenlabs.io/music-terms). No provider or performer endorsement is implied.

@@ -1,0 +1,238 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "fruit-bowl",
+  "lesson": {
+    "title": "Tazón de frutas",
+    "invitation": "Frutas delante y frutas detrás.",
+    "objective": "colocar frutas superpuestas sobre un recipiente y elegir qué bordes quedan escondidos.",
+    "parentNote": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción.",
+    "simplify": "Elijan solo dos frutas y un tazón con forma de U. Las formas completas superpuestas también son una manera válida de explorar; pueden volver a probar contornos parciales otro día.",
+    "transfer": "Otro día, coloquen dos juguetes parcialmente detrás de una caja. Si le interesa al niño o niña, dibujen solo las partes visibles usando los nuevos objetos en vez de la secuencia de frutas.",
+    "colouringLabel": "Movimientos pequeños con creyón, tus propios colores",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Una naturaleza muerta sobre la mesa",
+        "instruction": "Fíjate en cómo el tazón queda delante de la fruta.",
+        "spoken": "Vamos a organizar un tazón de frutas imaginario en el papel. Algunas frutas quedan detrás de otras formas, así que dibujaremos las partes que se ven.",
+        "hint": "Busca una fruta cuya forma desaparezca detrás del tazón.",
+        "notice": "Observen qué fruta está delante, dónde desaparece un contorno y cómo el tazón reúne las formas. En este ejemplo, las frutas quedan detrás del borde delantero del tazón."
+      },
+      "bowl-body": {
+        "title": "El cuerpo del tazón",
+        "instruction": "Traza una forma ancha y redondeada para el tazón en la parte baja de la hoja.",
+        "spoken": "Empieza con un tazón ancho: baja con una curva y vuelve a subir. Deja bastante espacio arriba para frutas de distintas formas.",
+        "hint": "Haz una curva ancha y profunda con los dos extremos a una altura parecida.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "bowl-front-rim": {
+        "title": "El borde delantero del tazón",
+        "instruction": "Une los extremos con una curva suave para el borde delantero.",
+        "spoken": "Traza una curva a lo largo del borde delantero del tazón. Este borde quedará delante de las frutas y nos ayudará a mostrar qué formas están más cerca.",
+        "hint": "Une los extremos del tazón con una curva poco profunda hacia abajo.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "bowl-foot": {
+        "title": "La base del tazón",
+        "instruction": "Pon un óvalo pequeño y plano debajo del tazón.",
+        "spoken": "Un óvalo pequeño y plano forma la base debajo del tazón. Hazlo mucho más pequeño que el tazón ancho de arriba.",
+        "hint": "Coloca un óvalo bajito debajo del centro del tazón.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "left-apple": {
+        "title": "La manzana de la izquierda",
+        "instruction": "Traza una manzana que suba desde el lado izquierdo del tazón.",
+        "spoken": "Dibuja una manzana que salga del lado izquierdo del tazón. Haz que los lados visibles se detengan donde el borde esconde la parte de abajo.",
+        "hint": "Dibuja la parte que está sobre el borde; el tazón esconde el resto.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "middle-pear": {
+        "title": "La pera del centro",
+        "instruction": "Agrega una pera estrecha arriba y más ancha abajo.",
+        "spoken": "Nuestra pera es estrecha cerca de la parte superior y más ancha abajo. Deja que la manzana y el tazón escondan las partes que quedan detrás.",
+        "hint": "Empieza estrecho y deja que las curvas se ensanchen hacia el tazón.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "pear-stem": {
+        "title": "El tallo de la pera",
+        "instruction": "Haz un tallito que suba desde la pera.",
+        "spoken": "Un tallito curvo sube desde la parte estrecha de arriba de la pera.",
+        "hint": "Haz el tallo mucho más corto que la pera.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "right-orange": {
+        "title": "La naranja de la derecha",
+        "instruction": "Haz una naranja redonda que suba por encima del borde derecho.",
+        "spoken": "Una naranja redonda cabe a la derecha. Su curva visible se detiene en el borde del tazón, en vez de atravesarlo.",
+        "hint": "Deja que el borde esconda la parte de abajo de esta fruta redonda.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "banana-upper-edge": {
+        "title": "El borde superior de la banana",
+        "instruction": "Traza un arco para el borde visible de la banana detrás de las otras frutas.",
+        "spoken": "La banana está detrás de las otras frutas. Traza un arco para su borde visible y levanta el lápiz donde la pera o la naranja escondan una parte.",
+        "hint": "Sigue un arco largo y levanta el lápiz donde lo esconda una fruta de adelante.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "banana-lower-edge": {
+        "title": "El borde inferior de la banana",
+        "instruction": "Regresa por el borde inferior visible de la banana estrecha.",
+        "spoken": "Regresa por el borde de abajo y levanta el lápiz donde otras frutas queden delante. Los dos bordes forman una banana estrecha junto a las frutas redondas.",
+        "hint": "Deja un espacio delgado entre los bordes visibles de la banana.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "banana-stalk": {
+        "title": "El tallito de la banana",
+        "instruction": "Agrega un tallito doblado en el extremo izquierdo de la banana.",
+        "spoken": "Un tallito doblado termina este extremo de la banana.",
+        "hint": "Mantén el tallo corto cerca de la punta de la banana.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "hidden-fruit-arc": {
+        "title": "Una fruta escondida",
+        "instruction": "Sugiere otra fruta con un pequeño arco redondeado visible.",
+        "spoken": "Si quieres, un arco pequeño puede sugerir otra fruta detrás de las demás. Solo necesitamos la parte que se ve; también puedes dejarla fuera.",
+        "hint": "Una curva incompleta puede mostrar algo parcialmente escondido.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "apple-stem": {
+        "title": "El tallo de la manzana",
+        "instruction": "Agrega un pequeño tallo curvo arriba de la manzana.",
+        "spoken": "Si quieres, un tallito puede subir desde la hendidura de arriba de la manzana.",
+        "hint": "Empieza en la hendidura de arriba y curva hacia arriba.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "apple-leaf": {
+        "title": "Una hoja de manzana",
+        "instruction": "Si quieres, une dos curvas para hacer una hoja pequeña.",
+        "spoken": "Dos curvas pequeñas pueden unirse en una punta para formar una hoja opcional. Colócala justo encima de la manzana, con tallo o sin él.",
+        "hint": "Curva desde arriba de la manzana hasta una punta y regresa.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "orange-first-spot": {
+        "title": "Un puntito en la naranja",
+        "instruction": "Agrega un puntito para sugerir la textura de la naranja.",
+        "spoken": "Puedes empezar a sugerir la textura de la naranja con un puntito o dejarla lisa.",
+        "hint": "Haz este punto pequeño dentro de la naranja redonda.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "orange-second-spot": {
+        "title": "Otro puntito",
+        "instruction": "Coloca otro puntito de la naranja un poco más abajo.",
+        "spoken": "Puedes agregar otro puntito; no necesitamos dibujar cada relieve ni agregar textura si no quieres.",
+        "hint": "Haz un segundo punto pequeño y deja espacio alrededor.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "pear-shine": {
+        "title": "El brillo de la pera",
+        "instruction": "Si quieres, deja un óvalo pequeño para el brillo de la pera.",
+        "spoken": "Un óvalo pequeño y claro puede sugerir brillo en la pera. Allí dejaremos ver el papel en vez de colorear toda la superficie.",
+        "hint": "Mantén un óvalo pequeño y estrecho dentro de la forma grande de la pera.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "bowl-band": {
+        "title": "Una franja en el tazón",
+        "instruction": "Rodea el tazón con una franja curva de adorno.",
+        "spoken": "Una franja opcional puede curvarse con el tazón. Su curva suave sigue la superficie redonda; también puedes dejar el tazón sin adornos.",
+        "hint": "Deja que la franja baje un poco en el centro.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "bowl-decoration": {
+        "title": "Un adorno en el tazón",
+        "instruction": "Si quieres, coloca un adorno redondo pequeño en el tazón.",
+        "spoken": "Puedes agregar un adorno redondo pequeño al tazón o elegir otro diseño sencillo.",
+        "hint": "Mantén el adorno pequeño dentro de la parte baja del tazón.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "fallen-fruit": {
+        "title": "Una fruta fuera del tazón",
+        "instruction": "Si quieres, coloca una fruta redonda pequeña junto al tazón.",
+        "spoken": "Una fruta pequeña junto al tazón crea otra forma sobre la mesa. Deja un poco de espacio blanco entre la fruta y el tazón.",
+        "hint": "Coloca una forma redonda pequeña junto al tazón, sin tocarlo.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "fallen-fruit-leaf": {
+        "title": "Una hoja para la fruta",
+        "instruction": "Si quieres, agrega una hoja puntiaguda a la fruta separada.",
+        "spoken": "Si agregaste esa fruta, puedes darle una hojita. Si no, puedes dejar este detalle fuera.",
+        "hint": "Dos curvas pueden unirse en punta justo encima de la fruta extra.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      },
+      "colour-choice": {
+        "title": "Colores para las frutas",
+        "instruction": "Elige colores conocidos para las frutas y otro color para el tazón.",
+        "spoken": "Yo elijo manzana roja, pera verde, banana amarilla y naranja para la fruta redonda, con un tazón azul. Tus frutas imaginarias pueden tener otros colores.",
+        "hint": "Elige colores diferentes para distinguir las formas superpuestas.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-apple-pear": {
+        "title": "Separa la manzana y la pera",
+        "instruction": "Colorea pequeñas zonas rojas en la manzana y verdes en la pera.",
+        "spoken": "Coloreo una fruta a la vez con movimientos pequeños y suaves. Los colores diferentes nos ayudan a ver dónde se encuentran la manzana y la pera superpuestas.",
+        "hint": "Termina una zona pequeña, levanta el creyón y pasa a la siguiente fruta.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-banana": {
+        "title": "Una curva amarilla y estrecha",
+        "instruction": "Haz movimientos amarillos diminutos a lo largo de la curva de la banana.",
+        "spoken": "La banana es estrecha, así que hago movimientos diminutos a lo largo. Está bien dejar espacios blancos; no necesitamos presionar en cada rincón.",
+        "hint": "Haz movimientos cortos dentro de esta forma estrecha y curva.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-oranges": {
+        "title": "Frutas redondas anaranjadas",
+        "instruction": "Colorea con movimientos pequeños y cálidos las naranjas que dibujaste.",
+        "spoken": "Hago movimientos pequeños anaranjados siguiendo la forma de cada fruta que agregaste. Puedes dejar despejados los puntos de textura y conservar un poco del papel blanco.",
+        "hint": "Haz movimientos suaves y redondeados dentro de cada fruta que elegiste dibujar.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-bowl": {
+        "title": "Un tazón delante",
+        "instruction": "Colorea zonas azules alrededor de la superficie curva del tazón.",
+        "spoken": "Ahora el tazón recibe sus propias zonas azules. Un color distinto al de las frutas ayuda a distinguir su borde delantero.",
+        "hint": "Sigue la curva del tazón con movimientos pequeños y levanta el creyón entre ellos.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-still-life-layer": {
+        "title": "Una hoja y un poco de sombra",
+        "instruction": "Prueba una capa suave en el tazón y colorea la hoja de la manzana si la dibujaste.",
+        "spoken": "Una capa adicional y suave en el tazón es opcional. Si dibujaste la hoja de la manzana, unos trazos verdes pequeños pueden colorearla.",
+        "hint": "Haz trazos pequeños en la hoja; una capa suave en el tazón es opcional.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-reflect": {
+        "title": "¿Qué forma está delante?",
+        "instruction": "Fíjate en cómo el borde del tazón esconde la parte baja de las frutas.",
+        "spoken": "Mira otra vez el borde delantero. Al dejar que esconda una parte de las frutas, nuestro papel plano muestra una disposición sencilla de formas cercanas y lejanas.",
+        "hint": "Sigue el borde delantero y observa dónde se detienen las frutas detrás.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "explore": {
+        "title": "Organiza tu propia naturaleza muerta",
+        "instruction": "Sigue coloreando o imagina otra fruta junto al tazón.",
+        "spoken": "Puedes cambiar el color de una fruta, inventar un diseño para el tazón o agregar otra fruta pequeña. Sigue explorando o termina aquí tu dibujo sobre la mesa.",
+        "hint": "Prueba una forma nueva de fruta o un diseño curvo diferente para el tazón.",
+        "notice": "Pregunta: «¿Qué fruta esconde un poquito de otra?». Si te lo pide, señala la disposición de las frutas. Muestra un contorno interrumpido en otra hoja; no insistas en borrar las líneas de construcción."
+      }
+    },
+    "sourceSha256": "c17fd87f58a6ca2a3855e2b6158b29745a4c19afe2a5af0eee469d2a2b1c9a88"
+  }
+}

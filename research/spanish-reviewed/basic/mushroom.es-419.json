@@ -1,0 +1,171 @@
+{
+  "locale": "es-419",
+  "status": "reviewed-internally-pending-native-review",
+  "lessonId": "mushroom",
+  "title": "Hongo del bosque",
+  "invitation": "Un sombrero ancho y un pequeño tallo.",
+  "objective": "Unir un sombrero ancho a un tallo más angosto y explorar contornos curvos.",
+  "parentNote": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles.",
+  "simplify": "",
+  "transfer": "¿Podrían una parte superior ancha y curva y otra más estrecha debajo ayudarte a dibujar un paraguas?",
+  "colouringLabel": "Un sombrero marrón y un pequeño tallo claro",
+  "parentNotes": {
+    "observe": "Miren la imagen de un hongo. Fíjense cómo el sombrero es más ancho que el tallo.",
+    "draw": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles.",
+    "colour": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+  },
+  "stages": {
+    "notice": {
+      "title": "Un bosque de cuento.",
+      "instruction": "Observa el sombrero ancho sobre el tallo más estrecho.",
+      "spoken": "Vamos a dibujar un hongo de cuento, como un pequeño paraguas del bosque. Su sombrero ancho está sobre un tallo más estrecho, todo en nuestra hoja.",
+      "hint": "Compara el ancho del sombrero con el tallo que está debajo.",
+      "notice": "Miren la imagen de un hongo. Fíjense cómo el sombrero es más ancho que el tallo."
+    },
+    "mushroom-cap": {
+      "title": "El sombrero del hongo",
+      "instruction": "Dibuja un arco ancho y deja espacio debajo.",
+      "spoken": "Sube y pasa por arriba haciendo un arco ancho. Dejo bastante espacio debajo para un tallo pequeño.",
+      "hint": "Empieza abajo en un lado y termina abajo en el otro.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "cap-lower-edge": {
+      "title": "El borde de abajo del sombrero",
+      "instruction": "Une los extremos del arco con una curva suave y poco profunda.",
+      "spoken": "Una curva poco profunda une los dos extremos. Así cerramos el sombrero de nuestro hongo, como si fuera un pequeño paraguas.",
+      "hint": "Deja que esta curva de abajo baje menos que el arco alto de arriba.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "stalk-left-side": {
+      "title": "El lado izquierdo del tallo",
+      "instruction": "Empieza debajo del sombrero y baja con una curva para un lado del tallo.",
+      "spoken": "Una línea suavemente curva baja desde debajo del sombrero. Nuestro tallo queda más angosto que el sombrero de arriba.",
+      "hint": "Empieza dentro del ancho del sombrero, lejos de su extremo exterior.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "stalk-right-side": {
+      "title": "El lado derecho del tallo",
+      "instruction": "Dibuja el otro lado del tallo y deja espacio entre los dos.",
+      "spoken": "El otro lado baja con una curva cercana. Dejo un espacio amplio entre los dos lados.",
+      "hint": "Mira el espacio mientras colocas tu segunda línea.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "stalk-base": {
+      "title": "La base del tallo",
+      "instruction": "Une los dos extremos del tallo con una curva baja.",
+      "spoken": "Una curva baja une los extremos de abajo. Nuestro pequeño tallo ahora es una figura cerrada debajo del sombrero.",
+      "hint": "Lleva la curva desde un extremo de abajo hasta el otro.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "cap-inner-edge": {
+      "title": "El borde interior del sombrero",
+      "instruction": "Prueba una curva suave dentro del borde inferior del sombrero o déjala fuera.",
+      "spoken": "Una curva suave puede seguir el borde de abajo por dentro del sombrero. Esta línea extra sugiere un pequeño borde.",
+      "hint": "Deja un pequeño espacio entre los dos bordes curvos.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "cap-left-spot": {
+      "title": "Una mancha a la izquierda",
+      "instruction": "Si quieres, prueba una mancha pequeña en el sombrero.",
+      "spoken": "Un óvalo pequeño puede ser el comienzo de un diseño en nuestro sombrero de cuento. Tú decides si quieres agregar esta decoración.",
+      "hint": "Elige un espacio dentro del sombrero, lejos del borde.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "cap-high-spot": {
+      "title": "Una mancha arriba",
+      "instruction": "Prueba una mancha más arriba o deja blanco este espacio.",
+      "spoken": "Otro óvalo pequeño puede ir más arriba en el sombrero.",
+      "hint": "Deja un poco de espacio de papel entre tus manchas pequeñas.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "cap-right-spot": {
+      "title": "Una mancha a la derecha",
+      "instruction": "Si quieres, pon otra mancha dentro del sombrero.",
+      "spoken": "Una mancha al otro lado puede tener un tamaño diferente.",
+      "hint": "Cada óvalo pequeño puede inclinarse hacia una dirección diferente.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "cap-low-spot": {
+      "title": "Una mancha abajo",
+      "instruction": "Elige una última mancha pequeña o déjala fuera.",
+      "spoken": "Una última mancha pequeña puede ir más abajo. También está bien hacer menos manchas.",
+      "hint": "Mantén este detalle extra dentro del contorno del sombrero.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "left-grass": {
+      "title": "Una hierbita a la izquierda",
+      "instruction": "Si quieres, prueba una pequeña hierba curva junto al tallo.",
+      "spoken": "Una línea corta y curva puede convertirse en hierba junto a nuestro hongo de papel.",
+      "hint": "Empieza cerca del suelo y haz una curva hacia el espacio libre de la hoja.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "right-grass": {
+      "title": "Una hierbita a la derecha",
+      "instruction": "Prueba otra hierba o termina tu contorno.",
+      "spoken": "Otra hierbita puede curvarse al otro lado. Puedes dejar el suelo sin dibujar.",
+      "hint": "Tu dibujo del bosque puede tener solo unas pocas marcas.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    },
+    "colour-choice": {
+      "title": "Colores suaves del bosque.",
+      "instruction": "Elige marrón y crema o tus propios colores de cuento.",
+      "spoken": "Yo elijo un sombrero marrón suave y un tallo de color crema claro. Tu bosque de cuento puede usar los creyones que ya tengas.",
+      "hint": "Un marrón claro o amarillo puede servir en lugar del crema.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-mushroom-cap": {
+      "title": "Pequeñas zonas marrones.",
+      "instruction": "Colorea pequeñas zonas marrones dentro del sombrero ancho.",
+      "spoken": "Las pequeñas zonas marrones colorean el sombrero. Dejo espacio alrededor de las manchas opcionales y mantengo algo de papel blanco junto al color.",
+      "hint": "Al presionar suavemente, pueden quedar visibles pequeños espacios blancos.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-mushroom-edge": {
+      "title": "Sigue el borde curvo y ancho.",
+      "instruction": "Agrega trazos marrones más cortos cerca del borde inferior del sombrero.",
+      "spoken": "Cerca del borde de abajo hago trazos más cortos y levanto el creyón antes de llegar al contorno. Nuestro pequeño borde sigue viéndose.",
+      "hint": "Prueba un movimiento pequeñito cuando estés cerca del borde.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-mushroom-stalk": {
+      "title": "Un pequeño tallo claro.",
+      "instruction": "Usa trazos suaves de color crema dentro del tallo.",
+      "spoken": "Las zonas de crema claro colorean el tallo de abajo. Unos pocos trazos suaves son suficientes; el papel puede conservar parte de su blanco.",
+      "hint": "Empieza en el centro y deja espacio junto al contorno.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-reflection": {
+      "title": "Nuestro paraguas del bosque.",
+      "instruction": "Observa el sombrero ancho que cubre el tallo estrecho.",
+      "spoken": "Nuestro sombrero ancho está sobre un tallo más angosto, como un pequeño paraguas de cuento. Tanto el color como los espacios de papel forman parte de este dibujo del bosque.",
+      "hint": "Compara una forma ancha con una estrecha en tu dibujo.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "explore": {
+      "title": "Un lugar en tu cuento.",
+      "instruction": "Inventa un lugar en el bosque, sigue coloreando o termina aquí.",
+      "spoken": "¿Quién podría refugiarse debajo de este paraguas imaginario? Agrega un visitante inventado, más hierba o tu propia idea. También puedes terminar aquí.",
+      "hint": "Un arco más pequeño podría ser el comienzo de otro hongo de cuento.",
+      "notice": "Señala con los dedos en el ejemplo el ancho del sombrero y del tallo. Ofrece un tallo de una sola línea como alternativa más sencilla. Las manchas son una opción imaginaria, no sirven para identificar hongos comestibles."
+    }
+  },
+  "sourceTextSha256": "114478971c624fdbfbeacb2580f784fe0920595da8c6f54ecce6d3eaba95fc6a",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Mira"
+    },
+    {
+      "id": "draw",
+      "label": "Dibuja"
+    },
+    {
+      "id": "colour",
+      "label": "Colorea"
+    },
+    {
+      "id": "explore",
+      "label": "Tus propias ideas"
+    }
+  ]
+}

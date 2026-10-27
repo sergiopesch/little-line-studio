@@ -1,0 +1,210 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "cactus",
+  "lesson": {
+    "title": "Cactus en una maceta",
+    "invitation": "Brazos que salen de un solo tallo.",
+    "objective": "Unir contornos de brazos a un tallo central; colocar una planta dentro de una maceta y agregar pocas marcas en la superficie.",
+    "parentNote": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo.",
+    "simplify": "",
+    "transfer": "Otro día, inventen un árbol con ramas. Exploren cómo una forma central puede sostener ramas mientras cambian el contorno de la planta y las marcas de su superficie.",
+    "colouringLabel": "Trazos pequeños y colores a tu manera",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un pequeño jardín en la ventana.",
+        "instruction": "Observa el tallo alto que sale de una maceta ancha.",
+        "spoken": "Un cactus de papel crece en nuestro alféizar imaginario. Observa su centro alto, los brazos más pequeños a los lados y la maceta ancha de abajo.",
+        "hint": "Mira dónde se une la planta alta con su maceta pequeña.",
+        "notice": "Mira nuestro cactus. ¿Dónde se unen los brazos al tallo principal?"
+      },
+      "cactus-pot-rim": {
+        "title": "El borde de la maceta",
+        "instruction": "Dibuja un óvalo ancho y estrecho para el borde de la maceta.",
+        "spoken": "Un óvalo ancho comienza nuestra maceta. Su poca altura sugiere que miramos la abertura un poquito desde arriba.",
+        "hint": "Haz que este óvalo sea mucho más ancho que alto.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-pot": {
+        "title": "La maceta",
+        "instruction": "Haz curvas hacia abajo desde los dos lados del borde.",
+        "spoken": "La maceta se estrecha mientras las curvas bajan desde el borde. Una parte inferior redondeada une los lados para formar una maceta ancha.",
+        "hint": "Haz la parte de abajo un poco más estrecha que el borde ancho.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-main-stem": {
+        "title": "El tallo principal",
+        "instruction": "Haz crecer un tallo alto con la punta redondeada.",
+        "spoken": "Una línea alta sube desde la maceta, hace una curva en la punta y vuelve. Mantengo su ancho más pequeño que la abertura ancha de la maceta.",
+        "hint": "Empieza dentro del borde de la maceta y deja espacio para los brazos laterales.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-left-arm-out": {
+        "title": "El comienzo del brazo izquierdo",
+        "instruction": "Deja que un brazo salga hacia un lado y luego suba.",
+        "spoken": "Una línea corta sale de un lado y gira hacia arriba. Observa que la curva nace del tallo alto del centro.",
+        "hint": "Empieza en el tallo antes de salir hacia un lado y subir.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-left-arm-back": {
+        "title": "El regreso del brazo izquierdo",
+        "instruction": "Redondea la punta del brazo y vuelve al tallo.",
+        "spoken": "Una punta pequeña y redondeada vuelve hacia abajo y después hacia el tallo. Este regreso le da un poco de grosor al brazo.",
+        "hint": "Deja un espacio pequeño entre los dos lados del brazo.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-right-arm-out": {
+        "title": "El comienzo del brazo derecho",
+        "instruction": "Empieza otro brazo más arriba, en el otro lado.",
+        "spoken": "Un segundo brazo sale hacia un lado y gira hacia arriba. Lo coloco más arriba para que los dos brazos tengan alturas diferentes.",
+        "hint": "Mira al otro lado del tallo antes de elegir un punto de partida más alto.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-right-arm-back": {
+        "title": "El regreso del brazo derecho",
+        "instruction": "Redondea el otro brazo y llévalo de vuelta.",
+        "spoken": "Haz una curva alrededor de la punta de este brazo y vuelve al tallo. Las líneas unidas forman una figura más pequeña junto al centro alto.",
+        "hint": "Sigue una línea cercana de vuelta hacia el tallo principal.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-left-spine": {
+        "title": "Una espina a la izquierda",
+        "instruction": "Agrega una marca corta de espina junto a la parte baja del tallo.",
+        "spoken": "Una línea corta sale de un lado. Dibujamos nuestro cactus en papel; no necesitamos tocar una planta real.",
+        "hint": "Empieza en el borde del tallo y haz una marca pequeña.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-right-spine": {
+        "title": "Una espina a la derecha",
+        "instruction": "Agrega una espina pequeña en el lado opuesto.",
+        "spoken": "Otra línea pequeña sale del lado opuesto. Unas pocas marcas pueden sugerir un borde con espinas sin cubrir todo el dibujo.",
+        "hint": "Haz esta línea mucho más corta que un brazo.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-upper-left-spine": {
+        "title": "Una espina arriba a la izquierda",
+        "instruction": "Coloca otra espina corta más arriba.",
+        "spoken": "Una marca corta va más arriba en este lado. Dejo un espacio entre las marcas para que se vea el contorno del tallo.",
+        "hint": "Elige un lugar libre en el borde superior del tallo.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-upper-right-spine": {
+        "title": "Una espina arriba a la derecha",
+        "instruction": "Agrega una espina pequeña arriba, al otro lado del tallo.",
+        "spoken": "Una última espina pequeña sale del otro borde superior. Nuestra planta de papel tiene solo unos pocos detalles pequeños.",
+        "hint": "Haz una marca corta junto a la parte redondeada de arriba del tallo.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-stem-texture": {
+        "title": "Una curva en el tallo",
+        "instruction": "Dibuja una curva suave dentro del tallo alto.",
+        "spoken": "Una curva larga y suave sigue el tallo por dentro. Sugiere una superficie redondeada sin atravesar los bordes exteriores.",
+        "hint": "Mantén esta curva dentro del tallo principal y deja espacio a su lado.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-upper-pot-band": {
+        "title": "Una línea en la maceta",
+        "instruction": "Haz una curva por la parte redondeada de delante de la maceta.",
+        "spoken": "Una curva poco profunda cruza la maceta. Su forma sigue la parte redondeada de delante, en vez de cruzar recta como una caja plana.",
+        "hint": "Mantén los extremos de esta curva dentro de los bordes de la maceta.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-lower-pot-band": {
+        "title": "Otra línea en la maceta",
+        "instruction": "Si quieres, prueba otra línea curva en la maceta.",
+        "spoken": "Otra curva poco profunda puede ir debajo de la primera. El espacio entre ellas le da a la maceta un pequeño diseño opcional.",
+        "hint": "Sigue la primera curva desde un poco más abajo.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-flower-centre": {
+        "title": "El centro de una flor",
+        "instruction": "Prueba un centro pequeño de flor sobre el tallo.",
+        "spoken": "Un círculo pequeño puede comenzar una flor imaginaria sobre nuestro cactus. Tú decides si quieres esta decoración adicional.",
+        "hint": "Deja un poquito de espacio sobre el tallo redondeado.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-left-petal": {
+        "title": "Un pétalo",
+        "instruction": "Prueba un pétalo al lado del centro de la flor.",
+        "spoken": "Un pétalo pequeño y redondeado puede unirse al centro de la flor, si agregaste uno. También puedes dejar fuera toda la flor.",
+        "hint": "Haz una curva hacia afuera y vuelve junto al centro pequeño de la flor.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-right-petal": {
+        "title": "Otro pétalo",
+        "instruction": "Si agregaste un centro de flor, prueba otro pétalo.",
+        "spoken": "Si agregaste un centro de flor, otro pétalo puede curvarse a su lado. También puedes dejar fuera esta flor imaginaria.",
+        "hint": "Si dibujaste un centro, haz que un pétalo redondeado toque el otro lado.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "cactus-stone": {
+        "title": "Una piedra",
+        "instruction": "Prueba una piedra ovalada pequeña junto a la maceta.",
+        "spoken": "Un óvalo pequeño y bajo puede descansar junto a nuestra maceta. Es un detalle opcional para el alféizar imaginario que estás creando.",
+        "hint": "Busca un espacio vacío junto a la parte inferior de la maceta.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      },
+      "colour-choice": {
+        "title": "Verdes para la planta y colores cálidos para la maceta.",
+        "instruction": "Elige verdes para la planta y un color cálido para la maceta.",
+        "spoken": "Yo elijo verde para nuestro cactus de papel y naranja para su maceta. Un verde más oscuro ayudará a que un lado parezca redondeado.",
+        "hint": "Elige una marca más clara y otra más oscura, incluso si usas un solo creyón.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-cactus": {
+        "title": "Una planta verde toma forma.",
+        "instruction": "Usa trazos verdes pequeños dentro del tallo y los brazos.",
+        "spoken": "Pequeños grupos de trazos verdes recorren el tallo. Los brazos estrechos necesitan movimientos pequeñitos y levantar el creyón antes de pasar a otro lugar.",
+        "hint": "Cuanto más pequeño sea el espacio, más pequeño puede ser el movimiento del creyón.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-pot": {
+        "title": "Un color cálido para la maceta.",
+        "instruction": "Agrega color cálido dentro de la maceta redondeada.",
+        "spoken": "Trazos naranjas cortos colorean la maceta ancha. Un borde marrón distingue su abertura y deja visibles las líneas curvas del diseño.",
+        "hint": "Deja que se vean pequeños espacios blancos y las líneas que dibujaste en la maceta.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-cactus-shade": {
+        "title": "Un poco de sombra en un lado.",
+        "instruction": "Agrega una capa de verde más oscuro a lo largo de un lado del tallo.",
+        "spoken": "Un poco de verde oscuro en un lado sugiere un tallo redondeado. Dejo el centro más claro para que se siga viendo el primer color.",
+        "hint": "Agrega una segunda capa suave cerca de un solo lado.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-reflection": {
+        "title": "Una planta alta en su maceta.",
+        "instruction": "Observa la planta alta y la maceta ancha y redondeada.",
+        "spoken": "Nuestro cactus tiene un centro alto, brazos más pequeños y una maceta que se estrecha abajo. Puede crecer en tu alféizar imaginario de papel.",
+        "hint": "Observa que la maceta y la planta tienen anchos diferentes.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "explore": {
+        "title": "Haz espacio para tu cactus.",
+        "instruction": "Inventa tu ventana, sigue coloreando o termina aquí.",
+        "spoken": "Puedes agregar una ventana imaginaria u otra planta de papel. Sigue haciendo crecer tu dibujo o termina cuando te sientas listo.",
+        "hint": "Prueba otra planta diferente que crezca en una maceta de óvalo ancho.",
+        "notice": "Señala dónde se une un brazo en el ejemplo solo si te lo pide. El contorno del tallo principal puede seguir viéndose a través de la unión con un brazo; no es necesario borrar. Ofrece como alternativas válidas un solo brazo o un cactus redondo más sencillo."
+      }
+    },
+    "sourceSha256": "8d9e5d64beeaaf8a956762d27576a1b207b67360ed77dbc115a01433a9b0a84e"
+  }
+}

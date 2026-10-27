@@ -1,0 +1,224 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "robot",
+  "lesson": {
+    "title": "Un robot amistoso",
+    "invitation": "Une formas para una tarea que tú inventes.",
+    "objective": "Conectar formas separadas con líneas cortas y organizar detalles pequeños dentro de una cabeza y un panel de control.",
+    "parentNote": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria.",
+    "simplify": "",
+    "transfer": "Otro día, inventen una máquina diferente. Reutilicen formas conectadas y un panel, eligiendo otra forma para el cuerpo y otra manera de moverse.",
+    "colouringLabel": "Trazos pequeños y colores a tu manera",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un robot para una tarea que tú inventes.",
+        "instruction": "Observa las cajas grandes unidas por líneas pequeñas.",
+        "spoken": "Nuestro robot amistoso de papel se prepara para una tarea que tú inventes. Observa las cajas grandes unidas por líneas mucho más pequeñas para el cuello, los brazos y las piernas.",
+        "hint": "Compara las cajas grandes antes de mirar los botones pequeñitos.",
+        "notice": "Mira nuestro robot. ¿Qué líneas pequeñas unen sus formas más grandes?"
+      },
+      "robot-body": {
+        "title": "El cuerpo",
+        "instruction": "Une cuatro lados para hacer un cuerpo ancho de robot.",
+        "spoken": "Un rectángulo ancho forma el cuerpo. Dejo papel arriba para una cabeza más pequeña y a los lados para los brazos.",
+        "hint": "Deja suficiente papel alrededor de la caja grande para las partes pequeñas que la conectan.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-head": {
+        "title": "La cabeza",
+        "instruction": "Coloca una caja más pequeña sobre el cuerpo.",
+        "spoken": "Un rectángulo más pequeño va encima del cuerpo y deja un espacio entre ambos. En ese espacio irá un cuello corto.",
+        "hint": "Compara el ancho de la cabeza con el cuerpo más ancho de abajo.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-left-neck": {
+        "title": "Una línea del cuello",
+        "instruction": "Conecta un lado de un cuello corto.",
+        "spoken": "Una línea corta une la cabeza con el cuerpo. Las uniones pequeñas ayudan a que nuestras formas grandes y separadas se conviertan en un robot de papel.",
+        "hint": "Une la parte inferior de la cabeza con la parte superior del cuerpo.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-right-neck": {
+        "title": "La otra línea del cuello",
+        "instruction": "Deja un poquito de espacio junto a la otra línea del cuello.",
+        "spoken": "Una segunda línea corta une las mismas dos cajas. El espacio estrecho entre ellas le da un poco de ancho al cuello.",
+        "hint": "Mantén juntas estas líneas cortas del cuello.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-left-eye": {
+        "title": "El primer ojo",
+        "instruction": "Dibuja un ojo pequeño y redondo dentro de la cabeza.",
+        "spoken": "Un círculo pequeño va dentro de la cabeza. Deja espacio al otro lado de la cara para otro ojo y debajo para una boca.",
+        "hint": "Mantén el ojo bien dentro de la caja más pequeña.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-right-eye": {
+        "title": "El otro ojo",
+        "instruction": "Coloca otro ojo redondo al otro lado de la cara.",
+        "spoken": "El otro ojo va al lado del primero. Miro el espacio entre los dos en vez de intentar hacer círculos exactos.",
+        "hint": "Deja un espacio cómodo entre los dos ojitos.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-mouth": {
+        "title": "La boca",
+        "instruction": "Haz una curva para una boca pequeña en la parte inferior de la cara.",
+        "spoken": "Una curva poco profunda va debajo de los ojos. Le da a nuestro robot inventado una expresión amistosa sin llenar toda la cara.",
+        "hint": "Usa el espacio libre en la parte inferior de la cabeza.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-antenna": {
+        "title": "La antena",
+        "instruction": "Traza una línea corta para la antena sobre la cabeza.",
+        "spoken": "Una línea corta sube desde el centro de la cabeza. Es mucho más estrecha que las cajas grandes con las que comenzamos.",
+        "hint": "Empieza en la parte de arriba de la cabeza y sube.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-antenna-tip": {
+        "title": "La punta de la antena",
+        "instruction": "Si quieres, prueba una punta redonda y pequeña para la antena.",
+        "spoken": "Un círculo pequeño puede ir al final de la antena. Este detalle opcional le da otra forma redonda y pequeña a nuestro robot.",
+        "hint": "Haz que el círculo pequeño toque el extremo de la antena.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-left-arm": {
+        "title": "El primer brazo",
+        "instruction": "Deja que un brazo salga de un lado del cuerpo.",
+        "spoken": "Una línea sale del cuerpo hacia un lado y hacia abajo. Dejo espacio en su extremo para una manita redonda.",
+        "hint": "Empieza en el borde del cuerpo y avanza hacia el espacio de al lado.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-right-arm": {
+        "title": "El otro brazo",
+        "instruction": "Haz que el otro brazo suba con un ángulo diferente.",
+        "spoken": "El otro brazo sube un poco. Las direcciones diferentes le dan una postura a nuestro robot inventado, en vez de dos brazos rectos idénticos.",
+        "hint": "Prueba una dirección diferente a la del primer brazo.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-left-hand": {
+        "title": "La primera mano",
+        "instruction": "Coloca una manita redonda al final de un brazo.",
+        "spoken": "Un círculo pequeño toca el extremo del brazo que está más abajo. Deja que la línea lo toque para que la mano quede unida a nuestro robot.",
+        "hint": "Haz que el círculo pequeño de la mano toque la línea del brazo.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-right-hand": {
+        "title": "La otra mano",
+        "instruction": "Agrega una mano redonda al otro brazo.",
+        "spoken": "Otra mano pequeña se une al otro brazo. Compara el tamaño de las dos manos con la cabeza y el cuerpo, que son mucho más grandes.",
+        "hint": "Mantén este círculo pequeño unido al segundo brazo.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-left-leg": {
+        "title": "La primera pierna",
+        "instruction": "Dibuja una pierna hacia abajo desde el cuerpo.",
+        "spoken": "Una línea recta baja desde el cuerpo. Dejo papel debajo para una línea corta que será el pie.",
+        "hint": "Empieza en el borde inferior del cuerpo y baja.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-right-leg": {
+        "title": "La otra pierna",
+        "instruction": "Deja un espacio antes de dibujar la segunda pierna.",
+        "spoken": "Otra pierna baja al lado de la primera. El espacio entre las líneas nos permite ver dos piernas separadas.",
+        "hint": "Deja un poco de papel entre las dos líneas largas de las piernas.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-left-foot": {
+        "title": "El primer pie",
+        "instruction": "Haz que una línea corta para el pie salga a un lado desde una pierna.",
+        "spoken": "Una línea corta gira hacia un lado al final de una pierna. La esquina ayuda a que nuestro pequeño robot parezca estar de pie sobre el papel.",
+        "hint": "Empieza donde termina la pierna y avanza un poquito hacia un lado.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-right-foot": {
+        "title": "El otro pie",
+        "instruction": "Haz que el otro pie pequeño gire hacia el lado contrario.",
+        "spoken": "El otro pie gira hacia afuera, en dirección contraria. Compara las posiciones de abajo para que nuestro robot tenga una postura estable de pie.",
+        "hint": "Usa una línea corta desde el extremo de la segunda pierna.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-panel": {
+        "title": "El panel",
+        "instruction": "Coloca un panel de control pequeño dentro del cuerpo.",
+        "spoken": "Un rectángulo más pequeño va dentro del cuerpo grande. Deja un borde alrededor para que podamos ver las dos formas de caja.",
+        "hint": "Busca el centro del cuerpo y deja espacio alrededor de la caja pequeña.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-left-button": {
+        "title": "Un botón",
+        "instruction": "Coloca un botón pequeñito dentro del panel.",
+        "spoken": "Un punto pequeño va dentro del panel. Una pequeña marca basta; no necesita controlar una máquina real.",
+        "hint": "Mantén esta marca pequeña dentro del rectángulo más pequeño.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "robot-right-button": {
+        "title": "Otro botón",
+        "instruction": "Si quieres, prueba otro botón pequeño.",
+        "spoken": "Un segundo punto puede ir al otro lado del panel. Un botón, varios botones o un panel sin detalles pueden servir para tu robot inventado.",
+        "hint": "Deja un poquito de papel entre los botones que elijas.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      },
+      "colour-choice": {
+        "title": "Colores de metal y detalles brillantes.",
+        "instruction": "Elige un color claro para el cuerpo y colores brillantes para detalles pequeños.",
+        "spoken": "Yo elijo metal gris claro, un panel azul y manos amarillas. Este robot es inventado; tus colores pueden sugerir la tarea que le imagines.",
+        "hint": "Elige un color para un espacio grande y otro para detalles más pequeños.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-metal": {
+        "title": "Trazos suaves sobre el metal.",
+        "instruction": "Agrega color claro alrededor de la cara y el panel.",
+        "spoken": "Pequeños grupos de trazos grises dejan libres los ojos, la boca y el panel. Levanto el creyón entre un lugar y otro, sin pasarlo de una sola vez por todas las cajas.",
+        "hint": "Los trazos cortos caben junto a las formas más pequeñas dentro de las cajas grandes.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-control-panel": {
+        "title": "Manitas y panel de control.",
+        "instruction": "Colorea por separado el panel pequeño y las manos redondas.",
+        "spoken": "El azul cabe dentro del panel y el amarillo dentro de cada mano. Hago trazos mucho más pequeños para estas formas que para el cuerpo.",
+        "hint": "Levanta el creyón antes de cambiar de forma o de color y comienza un nuevo grupo de trazos.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-metal-shade": {
+        "title": "Un borde de metal más oscuro.",
+        "instruction": "Agrega una franja más oscura junto al borde de una caja.",
+        "spoken": "Un poco de gris azulado más oscuro cerca de un lado sugiere un borde con sombra. Dejar claro el centro ayuda a distinguir nuestras cajas planas.",
+        "hint": "Prueba una segunda capa suave cerca del lado que elijas.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-reflection": {
+        "title": "Cajas grandes y conexiones pequeñas.",
+        "instruction": "Observa las cajas grandes unidas por pequeñas líneas de conexión.",
+        "spoken": "Las cajas grandes de nuestro robot tienen conexiones y detalles pequeños. Su brazo levantado le da una postura, listo para una tarea que tú inventes.",
+        "hint": "Observa cómo cambia la postura al cambiar la dirección de un brazo.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "explore": {
+        "title": "Una tarea para tu robot de papel.",
+        "instruction": "Elige una tarea para el robot, agrega ideas o termina aquí.",
+        "spoken": "Quizás tu robot plante flores de papel o lleve libros imaginarios. Agrega tu propia idea, sigue coloreando o termina sin elegir una tarea.",
+        "hint": "Prueba cambiar la dirección de una forma unida para inventar otra postura.",
+        "notice": "Si una línea de unión resulta difícil, invita a tu niña o niño a mirar el espacio correspondiente en el ejemplo o a dejar que las formas se toquen. Presenten el robot como un dibujo inventado, no como un compañero real con autoridad o sentimientos. La niña o el niño decide su tarea imaginaria."
+      }
+    },
+    "sourceSha256": "6e402e53d5029a774f83c46fe38cf69b12abb0d6c3edeccd60c67169e22078ee"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "locale": "es-419",
+  "status": "reviewed-internally-pending-native-review",
+  "lessonId": "ice-cream",
+  "title": "Cono de helado",
+  "invitation": "Una bola de helado sobre un cono puntiagudo.",
+  "objective": "Unir una parte superior redondeada a una base puntiaguda y colocar marcas opcionales dentro de un contorno.",
+  "parentNote": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño.",
+  "simplify": "",
+  "transfer": "¿Podrían una base puntiaguda y una parte superior redondeada ayudarte a inventar otro objeto?",
+  "colouringLabel": "Una bola de fresa y un cono dorado",
+  "parentNotes": {
+    "observe": "Miren el dibujo del helado. Fíjense dónde se apoya la bola redonda sobre el cono.",
+    "draw": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño.",
+    "colour": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+  },
+  "stages": {
+    "notice": {
+      "title": "Una tienda imaginaria en papel.",
+      "instruction": "Observa la bola redondeada sobre la punta estrecha del cono.",
+      "spoken": "Vamos a abrir una heladería imaginaria en papel. Una bola redondeada se apoya sobre un cono que se estrecha hasta llegar a una punta.",
+      "hint": "Busca la parte ancha de arriba y la parte estrecha de abajo del cono.",
+      "notice": "Miren el dibujo del helado. Fíjense dónde se apoya la bola redonda sobre el cono."
+    },
+    "pointed-cone": {
+      "title": "El cono puntiagudo",
+      "instruction": "Dibuja una V grande con una punta abajo.",
+      "spoken": "Dos líneas inclinadas se encuentran en una punta abajo y forman una V. Deja espacio arriba para nuestra bola redondeada de helado.",
+      "hint": "Baja hasta la punta y después sube por el otro lado.",
+      "notice": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño."
+    },
+    "rounded-scoop": {
+      "title": "La bola redondeada",
+      "instruction": "Haz una bola redondeada sobre la V y une su parte de abajo.",
+      "spoken": "Haz una curva hacia arriba y por encima, desde una esquina superior hasta la otra. Une la parte de abajo para que la bola se apoye sobre el cono.",
+      "hint": "Los dos extremos de la bola se unen a las esquinas superiores de la V.",
+      "notice": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño."
+    },
+    "cherry": {
+      "title": "La cereza",
+      "instruction": "Si quieres, prueba una pequeña cereza redonda encima.",
+      "spoken": "Un círculo pequeño puede ir sobre la bola como una cereza. En nuestra tienda imaginaria también podemos dejarla fuera.",
+      "hint": "Haz este círculo mucho más pequeño que la bola de abajo.",
+      "notice": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño."
+    },
+    "cherry-stalk": {
+      "title": "El tallito de la cereza",
+      "instruction": "Si agregaste una cereza, ponle un pequeño tallo.",
+      "spoken": "Si agregaste una cereza, un tallito corto y curvo puede salir hacia arriba. Si no, deja este detalle fuera.",
+      "hint": "Empieza en la parte de arriba del pequeño círculo de la cereza.",
+      "notice": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño."
+    },
+    "left-sprinkle": {
+      "title": "Una chispa a la izquierda",
+      "instruction": "Si quieres, prueba una pequeña chispa dentro de la bola.",
+      "spoken": "Una línea pequeñita e inclinada puede convertirse en una chispa dentro de nuestra bola de helado.",
+      "hint": "Mantén la pequeña chispa dentro de la bola redondeada.",
+      "notice": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño."
+    },
+    "upper-sprinkle": {
+      "title": "Una chispa arriba",
+      "instruction": "Agrega otra chispa pequeña o deja el espacio libre.",
+      "spoken": "Otra línea corta puede inclinarse hacia otro lado. Levanto el lápiz antes de moverlo.",
+      "hint": "Elige un lugar nuevo en vez de unir las chispas.",
+      "notice": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño."
+    },
+    "right-sprinkle": {
+      "title": "Una chispa a la derecha",
+      "instruction": "Elige una última chispa o deja este detalle fuera.",
+      "spoken": "Una pequeña marca más puede terminar mi diseño de chispas. El tuyo puede tener menos.",
+      "hint": "Unas pocas marcas pequeñas dejan espacio para el color después.",
+      "notice": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño."
+    },
+    "upper-cone-diagonal": {
+      "title": "Una línea inclinada arriba del cono",
+      "instruction": "Prueba una línea suave e inclinada dentro del cono o déjala fuera.",
+      "spoken": "Una línea suave e inclinada puede ser el comienzo de un diseño de barquillo dentro del cono. Me detengo antes de llegar a los bordes exteriores.",
+      "hint": "Mantén ambos extremos de esta línea dentro del cono.",
+      "notice": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño."
+    },
+    "lower-cone-diagonal": {
+      "title": "Una línea inclinada abajo del cono",
+      "instruction": "Prueba una línea inclinada más corta abajo o déjala fuera.",
+      "spoken": "Más abajo el cono es más angosto, así que esta pequeña línea inclinada es más corta.",
+      "hint": "Fíjate cómo hay menos espacio cerca de la punta.",
+      "notice": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño."
+    },
+    "crossing-cone-line": {
+      "title": "Una línea cruzada en el cono",
+      "instruction": "Si quieres, prueba una línea inclinada hacia el otro lado.",
+      "spoken": "Una línea inclinada hacia el otro lado puede sugerir un diseño de barquillo. Puede ir sola si omitiste las líneas anteriores.",
+      "hint": "Detén tu línea dentro de los bordes inclinados del cono.",
+      "notice": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño."
+    },
+    "colour-choice": {
+      "title": "Un sabor imaginario.",
+      "instruction": "Elige rosado y marrón dorado o inventa tu propio sabor.",
+      "spoken": "Yo elijo rosado para una bola imaginaria de fresa y marrón dorado para el cono. Tú puedes inventar un color para otro sabor.",
+      "hint": "En tu tienda imaginaria puedes elegir cualquiera de los creyones que tengas.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-strawberry-scoop": {
+      "title": "Una bola suave de fresa.",
+      "instruction": "Usa trazos cortos de rosado dentro de la bola redondeada.",
+      "spoken": "Los pequeños trazos rosados colorean nuestra bola de helado. Levanto el creyón entre zonas y dejo visibles las marcas de las chispas a través del color suave.",
+      "hint": "Los trazos suaves dejan que se vean el papel y los pequeños detalles.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-golden-cone": {
+      "title": "Ancho arriba y estrecho en la punta.",
+      "instruction": "Colorea el cono con trazos más pequeños cerca de la punta.",
+      "spoken": "Las zonas doradas empiezan en la parte ancha. Cerca de la punta, mis movimientos se vuelven pequeñitos y dejo parte del papel blanco.",
+      "hint": "Los espacios pequeños pueden quedarse blancos; no necesitan un trazo grande.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-cherry": {
+      "title": "Un poco de color para la cereza.",
+      "instruction": "Si agregaste una cereza, coloréala de rojo.",
+      "spoken": "Si agregaste una cereza, unos pequeños trazos rojos caben dentro. También puedes dejar la cereza blanca.",
+      "hint": "No necesitas una cereza; puedes saltarte este color si prefieres.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-reflection": {
+      "title": "Listo para nuestra tienda de papel.",
+      "instruction": "Observa la bola redondeada sobre su cono puntiagudo.",
+      "spoken": "Nuestra bola redondeada y nuestro cono puntiagudo tienen formas diferentes. Sus colores suaves forman un dibujo para nuestra tienda imaginaria de papel.",
+      "hint": "Fíjate dónde tu forma ancha se convierte en una punta estrecha.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "explore": {
+      "title": "La próxima idea de tu tienda.",
+      "instruction": "Inventa otro sabor, sigue coloreando o termina aquí.",
+      "spoken": "En tu tienda imaginaria podrías dibujar otro sabor, un tazón pequeño o tu propio letrero. Sigue creando o termina con este cono de papel.",
+      "hint": "Una nueva bola de helado puede usar el mismo movimiento curvo.",
+      "notice": "Explica con el ejemplo cómo se unen la bola de helado y el cono. Si el cono se siente muy estrecho, una V ancha es una opción más sencilla. La V continua se hace en un solo movimiento; si te lo pide, muéstrala por separado en vez de tomar la herramienta del niño."
+    }
+  },
+  "sourceTextSha256": "0e4ccf69217e42c5f4f487188c7fd1d9116d7d6024c871215137ba3bdf36934a",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Mira"
+    },
+    {
+      "id": "draw",
+      "label": "Dibuja"
+    },
+    {
+      "id": "colour",
+      "label": "Colorea"
+    },
+    {
+      "id": "explore",
+      "label": "Tus propias ideas"
+    }
+  ]
+}

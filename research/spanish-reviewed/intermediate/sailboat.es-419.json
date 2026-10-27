@@ -1,0 +1,203 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "sailboat",
+  "lesson": {
+    "title": "El velero",
+    "invitation": "Un casco, un mástil y velas desplegadas.",
+    "objective": "Usar bordes compartidos y puntos de unión para formar el casco, el mástil y las velas; distinguir el barco del agua que lo rodea.",
+    "parentNote": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar.",
+    "simplify": "",
+    "transfer": "Otro día, inventen un barco con una sola vela. Invita a tu niña o niño a decidir qué cambia cuando se quita una vela.",
+    "colouringLabel": "Trazos pequeños y colores a tu manera",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un barco para nuestra bahía.",
+        "instruction": "Observa las velas altas sobre un barco ancho y bajo.",
+        "spoken": "Nuestro velero de papel sale a navegar por una bahía tranquila e inventada. Observa las velas altas sobre un casco ancho y bajo.",
+        "hint": "Compara las formas altas con el barco ancho que está debajo.",
+        "notice": "Mira las velas de nuestro ejemplo. ¿Qué borde queda junto al mástil vertical?"
+      },
+      "boat-deck": {
+        "title": "La parte superior del barco",
+        "instruction": "Dibuja una línea larga para la parte de arriba del barco.",
+        "spoken": "Una línea larga forma la parte superior del casco. Dejo bastante papel por encima para las velas.",
+        "hint": "Deja más espacio arriba de la línea que debajo de ella.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-hull": {
+        "title": "El casco",
+        "instruction": "Haz una curva hacia abajo y vuelve al otro extremo.",
+        "spoken": "Una curva ancha une los extremos por debajo. La parte superior recta y la curva de abajo forman un casco cerrado, listo para colorear.",
+        "hint": "Haz que la curva vuelva al otro extremo de la línea.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-mast": {
+        "title": "El mástil",
+        "instruction": "Dibuja un mástil alto que suba desde el casco.",
+        "spoken": "Una línea alta sube desde cerca del centro del casco. Su altura deja espacio para desplegar las velas.",
+        "hint": "Empieza en la parte superior del barco y sube hacia el espacio de arriba.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-left-sail-edge": {
+        "title": "El borde de la vela izquierda",
+        "instruction": "Traza una línea inclinada desde el mástil hacia abajo y a la izquierda.",
+        "spoken": "Desde la punta del mástil, una línea baja inclinada hacia la izquierda. Detente un poquito por encima del casco para que la vela quede separada.",
+        "hint": "Deja un poco de papel entre esta esquina de la vela y el barco.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-left-sail-base": {
+        "title": "La base de la vela izquierda",
+        "instruction": "Une la esquina de abajo de la vela con el mástil.",
+        "spoken": "Una línea corta vuelve al mástil y cierra un triángulo. Tres lados unidos le dan a esta vela su propio espacio.",
+        "hint": "Une la esquina exterior de la vela con la línea alta del centro.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-right-sail-edge": {
+        "title": "El borde de la vela derecha",
+        "instruction": "Traza una línea inclinada hacia abajo al otro lado del mástil.",
+        "spoken": "Otra línea baja desde la punta hacia la derecha. Compara hasta dónde llega esta vela con respecto a la primera.",
+        "hint": "Empieza en la punta del mástil y dirígete hacia el otro lado.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-right-sail-base": {
+        "title": "La base de la vela derecha",
+        "instruction": "Cierra la segunda vela con una línea corta.",
+        "spoken": "Una línea corta vuelve a tocar el mástil. Las dos velas comparten la línea del centro y tienen espacios separados a cada lado.",
+        "hint": "Une la esquina de la vela de vuelta al mástil.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-left-porthole": {
+        "title": "La primera ventanita",
+        "instruction": "Dibuja una ventanita redonda dentro del casco.",
+        "spoken": "Un círculo pequeño va dentro del barco. Dejo espacio alrededor para que se vea el contorno del casco.",
+        "hint": "Busca un espacio debajo de la línea recta de arriba del casco.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-right-porthole": {
+        "title": "La otra ventanita",
+        "instruction": "Coloca otra ventanita a lo largo del casco.",
+        "spoken": "Un segundo círculo pequeño va más adelante. El espacio entre las ventanas me ayuda a elegir dónde colocarlas.",
+        "hint": "Mira a lo largo del casco, no hacia las velas.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-bow-detail": {
+        "title": "Un detalle en la proa",
+        "instruction": "Agrega una curva corta cerca de la parte delantera del barco.",
+        "spoken": "Una curva corta sigue el casco cerca de uno de sus extremos. Al mantenerla dentro, agrego un detalle pequeño sin cambiar la forma grande.",
+        "hint": "Sigue un poquito del borde curvo del casco desde adentro.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-water": {
+        "title": "El agua",
+        "instruction": "Haz una línea ondulada y suave debajo del barco.",
+        "spoken": "Una ola sube y baja debajo de nuestro barco. Repito una curva suave en vez de hacer muchas puntas.",
+        "hint": "Deja que la línea ondulada sobresalga por ambos lados del casco.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-flag": {
+        "title": "Una banderita",
+        "instruction": "Prueba una banderita en la punta del mástil.",
+        "spoken": "Una banderita con punta puede unirse a la parte superior del mástil. Tu barco de papel también puede navegar sin ella.",
+        "hint": "Haz esta bandera opcional pequeña junto a las velas grandes.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-second-wave": {
+        "title": "Otra ola",
+        "instruction": "Si quieres, prueba otra ola más abajo.",
+        "spoken": "Otra ola puede curvarse debajo de la primera. Dejar espacio entre ellas mantiene abierta y tranquila nuestra agua imaginaria.",
+        "hint": "Haz una curva suave debajo de la primera ola.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-sun": {
+        "title": "Un sol",
+        "instruction": "Prueba un pequeño sol en tu cielo inventado.",
+        "spoken": "Un círculo pequeño puede convertirse en el sol de nuestra bahía imaginaria. Es un símbolo de papel; no miramos al Sol real.",
+        "hint": "Usa tu papel o nuestra imagen para este círculo opcional.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-cloud": {
+        "title": "Una nube",
+        "instruction": "Prueba una forma de nube suave en un espacio libre.",
+        "spoken": "Unas curvas redondeadas pueden unirse para formar una nube. Busca un espacio libre en el cielo donde no cruce las velas altas.",
+        "hint": "Une pequeñas curvas redondeadas alrededor de una forma en el cielo.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-bird-left-wing": {
+        "title": "La primera ala del pajarito",
+        "instruction": "Prueba una forma de ala pequeña en el cielo.",
+        "spoken": "Una pequeña línea curva puede comenzar un pájaro de papel que está lejos. Puede quedar pequeñito junto a las velas grandes.",
+        "hint": "Mantén esta curva pequeña en un espacio libre del cielo.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "boat-bird-right-wing": {
+        "title": "La otra ala del pajarito",
+        "instruction": "Prueba otra ala pequeña junto a la primera.",
+        "spoken": "Otra curva pequeña puede formar una marca con forma de pájaro. Si dejaste fuera la primera, recuerda que las dos curvas son opcionales.",
+        "hint": "Une dos curvitas o deja el cielo vacío.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      },
+      "colour-choice": {
+        "title": "Colores para un viaje de papel.",
+        "instruction": "Elige un color para el casco y colores suaves para las velas.",
+        "spoken": "Yo elijo un casco rojo, una vela crema y otra azul claro. Tu barco inventado puede tener sus propios colores.",
+        "hint": "Elige colores que te ayuden a ver las diferentes partes del barco.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-hull": {
+        "title": "Un casco rojo y cálido.",
+        "instruction": "Colorea dentro del casco curvo con trazos cortos.",
+        "spoken": "Pequeños grupos de trazos rojos siguen el casco ancho. Levanto el creyón antes de llegar a las ventanas y hago trazos más pequeños cerca de los extremos puntiagudos.",
+        "hint": "Detente antes de llegar al borde y comienza otro grupo de trazos.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-sails": {
+        "title": "Colores claros en las velas.",
+        "instruction": "Agrega colores claros dentro de los triángulos de las velas.",
+        "spoken": "El crema claro y el azul hacen que las velas se vean ligeras. Coloreo pequeños espacios dentro de cada triángulo y dejo el mástil visible.",
+        "hint": "Los trazos pequeños caben más fácilmente cerca de una esquina estrecha de la vela.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-hull-shade": {
+        "title": "El lado redondeado del barco.",
+        "instruction": "Agrega una capa de color más oscuro en la parte inferior del casco.",
+        "spoken": "Un poco de marrón sobre el rojo de abajo sugiere la parte inferior redondeada del barco. Dejo el rojo de arriba más claro junto a las ventanas.",
+        "hint": "Usa una capa suave para que se siga viendo algo del rojo.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-reflection": {
+        "title": "Velas altas y un casco ancho.",
+        "instruction": "Observa las velas altas sobre un casco ancho.",
+        "spoken": "Nuestros triángulos altos están sobre un barco ancho y curvo. Imagina este pequeño velero moviéndose por tu propia bahía de papel.",
+        "hint": "Mira cómo se unen tus formas altas y anchas.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "explore": {
+        "title": "¿Adónde navegará tu barco?",
+        "instruction": "Inventa un destino, sigue coloreando o termina aquí.",
+        "spoken": "¿Adónde podría ir tu barco de papel? Agrega una isla o inventa otro destino; no necesitas decirnos una respuesta.",
+        "hint": "Prueba una forma alta sobre otra ancha y baja.",
+        "notice": "Si te lo pide, traza en el aire el contorno de una vela del ejemplo y muestra que el mástil forma uno de sus lados. No le exijas volver a dibujar una vela que tenga una abertura. La propuesta es observar los bordes compartidos; el orden numerado no es una regla universal para dibujar."
+      }
+    },
+    "sourceSha256": "65c3ce7d45c8447274ea258cbb4a960a8de619f7c8d654be84766c75a67609bb"
+  }
+}

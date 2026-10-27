@@ -1,0 +1,238 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "coral",
+  "lesson": {
+    "title": "Un arrecife bajo el agua",
+    "invitation": "Formas ramificadas y espacios bajo el agua.",
+    "objective": "organizar formas ramificadas y redondeadas en distintas posiciones, con superposiciones opcionales y agua libre entre ellas.",
+    "parentNote": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto.",
+    "simplify": "Usen una rama, una forma redondeada y un pez hecho con un óvalo y una cola. Pueden omitir contornos parciales, relieves, burbujas y concha. No hace falta llenar la página.",
+    "transfer": "Otro día, dibujen una poza de marea o un jardín pequeño con formas ramificadas y redondeadas. Busquen una disposición nueva y decidan qué espacios vacíos o superposiciones conservar, sin la demostración del arrecife.",
+    "colouringLabel": "Movimientos pequeños con creyón, tus propios colores",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un jardín imaginario en el arrecife",
+        "instruction": "Fíjate en las líneas ramificadas, el coral redondeado y el pececito que nada.",
+        "spoken": "Vamos a inventar un jardín tranquilo en el arrecife para un pececito. Usaremos líneas ramificadas y formas redondeadas, con algunas plantas parcialmente escondidas detrás de una roca.",
+        "hint": "Compara las ramas delgadas con la forma ancha y redondeada del coral.",
+        "notice": "En una imagen, observen un coral ramificado junto a un coral redondeado o una esponja. Miren los espacios entre las ramas y qué formas quedan delante. Los corales reales tienen muchas formas; estas son dos posibilidades."
+      },
+      "seabed": {
+        "title": "El fondo del mar",
+        "instruction": "Deja que una curva suelta cruce la parte baja de la hoja.",
+        "spoken": "Una curva suelta forma el fondo del mar en nuestro arrecife imaginario. Deja espacio arriba para distintas formas que crecen y para un pececito.",
+        "hint": "Deja que la curva de abajo suba y baje suavemente por la hoja.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "seabed-rock": {
+        "title": "Una roca en el fondo",
+        "instruction": "Cierra una roca baja y redondeada cerca del centro.",
+        "spoken": "Una roca redondeada queda cerca del centro. Después dejaremos que esconda los extremos de algunas plantas para mostrar qué formas están delante.",
+        "hint": "Une curvas suaves e irregulares para formar una roca baja y cerrada.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "coral-main-branch": {
+        "title": "La rama principal del coral",
+        "instruction": "Curva una rama alta de coral hacia arriba desde la izquierda.",
+        "spoken": "Empieza con una línea larga a la izquierda. Deja que suba con una curva y deja espacio a cada lado para ramitas más pequeñas.",
+        "hint": "Empieza cerca del fondo y deja que la línea suba.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "coral-left-fork": {
+        "title": "Una rama hacia la izquierda",
+        "instruction": "Deja que una rama más pequeña se curve hacia la izquierda.",
+        "spoken": "Una línea más pequeña sale hacia la izquierda. Empieza en la rama principal para que las líneas se vean conectadas.",
+        "hint": "Empieza en la línea principal y curva hacia afuera y arriba.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "coral-right-fork": {
+        "title": "Una rama hacia la derecha",
+        "instruction": "Agrega otra rama que se extienda hacia la derecha.",
+        "spoken": "Otra rama se extiende a la derecha. Cambiar de dirección crea una estructura abierta sin dibujar una forma completamente nueva para cada rama.",
+        "hint": "Deja que esta rama se extienda en una dirección diferente.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "coral-left-twig": {
+        "title": "Una ramita a la izquierda",
+        "instruction": "Agrega una ramita lateral desde la rama izquierda.",
+        "spoken": "Una ramita pequeña sale de esa rama izquierda.",
+        "hint": "Empieza en la rama y haz una línea corta que gire.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "coral-right-twig": {
+        "title": "Una ramita a la derecha",
+        "instruction": "Haz que otra ramita corta salga de la rama derecha.",
+        "spoken": "Una ramita pequeña que gira termina la otra rama.",
+        "hint": "Haz esta ramita más pequeña que la rama a la que se une.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "rounded-coral": {
+        "title": "El coral redondeado",
+        "instruction": "Forma un coral ancho y redondeado a la derecha.",
+        "spoken": "Ahora contrasta las ramas delgadas con una forma ancha y redondeada. Une curvas grandes en un contorno cerrado y deja espacio dentro para pequeños relieves curvos.",
+        "hint": "Une varias curvas redondeadas alrededor de una forma ancha.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "coral-first-ridge": {
+        "title": "El primer relieve",
+        "instruction": "Traza un relieve curvo hacia arriba dentro del coral redondeado.",
+        "spoken": "Una curva interior sugiere textura. Deja que siga la forma de afuera en vez de atravesar el coral en línea recta.",
+        "hint": "Mantén la curva dentro y sigue la dirección redondeada.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "coral-second-ridge": {
+        "title": "Otro relieve",
+        "instruction": "Repite un relieve curvo cerca del primero y deja espacio entre ellos.",
+        "spoken": "Un segundo relieve repite esa dirección curva. Unas pocas marcas repetidas pueden sugerir textura sin cubrir toda la forma.",
+        "hint": "Deja un espacio claro entre las dos curvas interiores.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "hidden-seaweed": {
+        "title": "Una planta detrás de la roca",
+        "instruction": "Deja que una planta ondulada suba desde detrás de la roca.",
+        "spoken": "Esta planta ondulada empieza encima de la roca, donde podemos verla. La roca esconde su extremo inferior, así que dejamos esa parte sin dibujar.",
+        "hint": "Curva hacia arriba desde la parte superior de la roca y regresa por el lado.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "second-seaweed": {
+        "title": "Otra planta ondulada",
+        "instruction": "Agrega otra planta estrecha y ondulada junto a la roca.",
+        "spoken": "Otra planta estrecha se mueve en una dirección diferente. Dos bordes ondulados y cercanos forman una figura como una cinta, en vez de una sola línea.",
+        "hint": "Deja un espacio delgado entre los dos bordes ondulados de la planta.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "swimming-fish": {
+        "title": "Un pez nadando",
+        "instruction": "Coloca un pez ovalado e inclinado encima del arrecife.",
+        "spoken": "Un óvalo inclinado forma el cuerpo sencillo de nuestro pez sobre el arrecife. Deja espacio a la izquierda para la cola y a la derecha para la cara.",
+        "hint": "Un óvalo ancho puede inclinarse un poco como si estuviera nadando.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "fish-tail": {
+        "title": "La cola del pez",
+        "instruction": "Haz una cola pequeña que se abra hacia la izquierda.",
+        "spoken": "La cola se abre detrás del pez. Usa líneas cortas e inclinadas que se separen del cuerpo y luego regresen hacia él.",
+        "hint": "Haz la cola más ancha en su extremo exterior.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "fish-eye": {
+        "title": "El ojo del pez",
+        "instruction": "Agrega un ojito cerca del extremo derecho.",
+        "spoken": "Un puntito oscuro cerca del extremo derecho se convierte en el ojo.",
+        "hint": "Mantén el ojo dentro del óvalo y deja papel alrededor.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "fish-fin": {
+        "title": "La aleta",
+        "instruction": "Cierra una pequeña aleta curva dentro del pez.",
+        "spoken": "Si quieres una aleta, una forma curva pequeña cabe dentro del cuerpo. Podemos colorearla de otro color o dejar el pez más sencillo.",
+        "hint": "Mantén un triángulo curvo pequeño dentro del óvalo grande.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "first-bubble": {
+        "title": "Una burbuja",
+        "instruction": "Si quieres, agrega una burbuja redonda pequeña sobre el pez.",
+        "spoken": "Una burbuja pequeña puede acompañar nuestra historia inventada bajo el agua.",
+        "hint": "Deja un poco de papel alrededor de esta forma redonda pequeña.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "second-bubble": {
+        "title": "Otra burbuja",
+        "instruction": "Si quieres, coloca una burbuja un poco más grande más arriba.",
+        "spoken": "Otra burbuja puede ser un poco más grande y estar más arriba.",
+        "hint": "Deja espacio entre las dos burbujas redondas.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "seabed-shell": {
+        "title": "Una concha en el fondo",
+        "instruction": "Si quieres, une pequeñas curvas para formar una concha en el fondo del mar.",
+        "spoken": "Una concha pequeña puede descansar en el fondo. Une varias puntas redondeadas arriba y luego cierra el borde de abajo.",
+        "hint": "Varias curvas pequeñas unidas pueden formar el contorno de una concha.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "fish-stripe": {
+        "title": "Una raya en el pez",
+        "instruction": "Deja que una raya curva siga el cuerpo redondeado del pez.",
+        "spoken": "Una raya curva opcional sigue el cuerpo redondeado del pez. Puede ayudar a que parezca más lleno o puedes dejarlo sin diseño.",
+        "hint": "Deja que la raya se curve suavemente en vez de cruzar completamente recta.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      },
+      "colour-choice": {
+        "title": "Colores suaves del arrecife",
+        "instruction": "Elige rosado para el coral, verde para las plantas y dorado para el pez.",
+        "spoken": "Yo elijo rosado suave para el coral, verde para las plantas y dorado para el pez de nuestro arrecife inventado. Tu arrecife puede tener sus propios colores.",
+        "hint": "Elige colores diferentes para el coral redondeado y el pez.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-rounded-coral": {
+        "title": "Zonas del coral redondo",
+        "instruction": "Gira pequeños movimientos rosados alrededor de la forma redonda del coral.",
+        "spoken": "Estas pequeñas zonas rosadas siguen la forma ancha y redondeada. Dejo visibles los relieves curvos; el coral de ramas delgadas puede quedarse como líneas sencillas.",
+        "hint": "Haz movimientos pequeños y curvos alrededor del coral redondeado.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-seaweed": {
+        "title": "Plantas onduladas y estrechas",
+        "instruction": "Acorta los movimientos verdes dentro de las plantas delgadas.",
+        "spoken": "Las plantas son estrechas, así que hago movimientos verdes diminutos. Levanto el creyón antes de seguir cada curva y me detengo en la roca que esconde su base.",
+        "hint": "Los movimientos pequeños caben mejor que los trazos largos en una curva estrecha.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-reef-fish": {
+        "title": "Un nadador dorado",
+        "instruction": "Colorea con dorado suave y dale un color cálido a la colita.",
+        "spoken": "Pequeñas zonas doradas siguen el cuerpo ovalado del pez. Dejo despejados el ojo y la aleta y luego agrego un poco de anaranjado cálido a la cola.",
+        "hint": "Mantén visibles los detalles pequeños de la cara y la aleta.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-shell-fin": {
+        "title": "Pequeños detalles del arrecife",
+        "instruction": "Colorea la concha, la aleta pequeña y una raya curva del pez.",
+        "spoken": "Si agregaste una concha, una aleta o una raya, puedes colorearlas. Yo usaré rosado y anaranjado con movimientos más cortos y suaves.",
+        "hint": "Haz movimientos más pequeños cuando el espacio se estreche.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-reef-layer": {
+        "title": "Una roca y una capa suave",
+        "instruction": "Si quieres, colorea la roca y oscurece una pequeña zona del coral.",
+        "spoken": "Una roca gris ayuda a distinguir las plantas verdes. Una zona de coral un poco más oscura es una capa extra opcional, no un espacio que debamos llenar.",
+        "hint": "Una segunda capa pequeña puede cambiar una parte del color.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-reflect": {
+        "title": "Formas y texturas diferentes",
+        "instruction": "Compara las ramas delgadas con los relieves del coral redondeado.",
+        "spoken": "Mira las líneas delgadas ramificadas junto al coral ancho y redondo. Unos pocos tipos de marcas pueden sugerir diferentes texturas en el mismo dibujo.",
+        "hint": "Elige una marca ramificada y otra redondeada para observarlas.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "explore": {
+        "title": "Tu propia historia bajo el agua",
+        "instruction": "Sigue coloreando o inventa otro pequeño ser del arrecife.",
+        "spoken": "Tu pececito puede explorar otra planta, una concha o un ser que inventes. Sigue agregando al arrecife o termina aquí tu dibujo bajo el agua.",
+        "hint": "Prueba otra forma pequeña y deja espacio alrededor de tu pez.",
+        "notice": "Cuando te lo pida, señala los espacios entre las ramas del coral y ayuda a elegir un tamaño cómodo. Muestra una sola bifurcación en otra hoja. Evita convertir la variedad de los corales reales en la exigencia de un único contorno correcto."
+      }
+    },
+    "sourceSha256": "00e4261d176908d5a1151f0e14f19cf2bbb72dc4b33f63420c6c2ae0f934548a"
+  }
+}

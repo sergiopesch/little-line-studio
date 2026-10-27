@@ -1,0 +1,220 @@
+.studio.cat-pilot {
+  grid-template-rows: 64px auto minmax(0, 1fr) 36px;
+}
+.cat-pilot .cat-timeline { padding: 0 8px 3px; }
+.cat-pilot .music-label { font-size: 12px; white-space: nowrap; }
+.cat-music-setup { border-top: 1px solid var(--line); padding-top: 14px; margin-bottom: 16px; }
+.cat-music-choice { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.cat-music-choice span { display: grid; gap: 3px; }
+.cat-music-choice input { width: 24px; height: 24px; accent-color: var(--selection); flex-shrink: 0; }
+.cat-music-choice small, .cat-music-setup > small { color: var(--muted); font-size: 12px; }
+.cat-music-setup > small { display: block; line-height: 1.4; }
+.cat-music-controls { display: flex; align-items: center; gap: 18px; margin: 8px 0; }
+.cat-volume { display: grid; gap: 3px; flex: 1; min-width: 70px; font-size: 12px; color: var(--muted); }
+.cat-volume input { width: 100%; min-height: 32px; accent-color: var(--selection); }
+.cat-setup.setup-sound .sound-guidance { margin-block: 8px 12px; }
+.cat-setup.setup-sound { padding-block: 22px; }
+.cat-setup.setup-sound .setup-progress { margin-bottom: 14px; }
+.cat-setup.setup-sound .voice-choice { margin-block: 14px 8px; padding-block: 10px; }
+.cat-setup.setup-sound .sample-button { min-height: 42px; }
+.cat-setup.setup-sound .supervision-check { margin-block: 12px; padding-block: 10px; }
+.cat-setup.setup-sound .setup-actions { margin-top: 12px; }
+.cat-setup .cat-music-controls > .sample-button { flex: 1; width: auto; }
+.cat-setup .cat-volume { flex: 0 1 145px; }
+@media (max-width: 620px) {
+  .studio.cat-pilot { grid-template-rows: 56px auto minmax(0, 1fr) 44px; }
+  .cat-pilot .brand { min-height: 44px; }
+  .cat-pilot .header-button { gap: 4px; padding-inline: 5px; }
+  .cat-pilot .cat-timeline { padding: 0 2px 2px; }
+  .cat-pilot .session-strip button { min-height: 44px; }
+  .cat-music-controls { gap: 8px; }
+  .cat-music-controls .sample-button { font-size: 12px; padding: 7px; gap: 5px; }
+  .cat-setup.setup-sound .supervision-check { margin-top: 10px; }
+}
+@media (max-height: 680px) and (max-width: 620px) {
+  .cat-pilot .instruction { padding-block: 6px; }
+  .cat-pilot .instruction h1 { font-size: 23px; }
+  .cat-pilot .instruction-text { font-size: 14px; line-height: 1.35; }
+  .cat-pilot .reference { display: none; }
+  .cat-setup.setup-sound { padding-block: 12px; }
+  .cat-setup.setup-sound h1 { font-size: 26px; }
+  .cat-setup.setup-sound .setup-progress { margin-bottom: 10px; }
+  .cat-setup.setup-sound .voice-choice { margin-bottom: 5px; }
+  .cat-music-setup { padding-top: 8px; margin-bottom: 8px; }
+  .cat-setup.setup-sound .voice-choice small { display: none; }
+  .cat-setup.setup-sound .sound-guidance { font-size: 11px; margin-block: 4px 8px; }
+  .cat-setup.setup-sound .cat-music-setup > small { display: none; }
+  .cat-setup.setup-sound .cat-music-choice small { font-size: 11px; }
+  .cat-setup.setup-sound .setup-actions { margin-top: 6px; }
+}
+@media (max-height: 500px) and (min-width: 400px) and (orientation: landscape) {
+  .studio.cat-pilot {
+    height: auto;
+    min-height: 100dvh;
+    grid-template-rows: 48px auto minmax(min-content, 1fr) 44px;
+    gap: 2px;
+    padding-bottom: 2px;
+  }
+  .cat-pilot .brand-pencil { width: 64px; height: 40px; }
+  .cat-pilot .wordmark { font-size: 24px; }
+  .cat-pilot .cat-timeline {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-rows: auto 5px auto;
+    column-gap: 8px;
+    row-gap: 2px;
+    padding: 0 6px;
+    font-size: 11px;
+    line-height: 1.2;
+  }
+  .cat-pilot .cat-timeline-summary { display: contents; }
+  .cat-pilot .cat-timeline-phase { grid-area: 1 / 1; }
+  .cat-pilot .cat-timeline-time { grid-area: 1 / 3; gap: 2px 6px; }
+  .cat-pilot .cat-timeline-note {
+    grid-area: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    margin: 0;
+    font-size: 10px;
+    text-align: center;
+  }
+  .cat-pilot .cat-timeline-track { grid-row: 2; grid-column: 1 / -1; }
+  .cat-pilot .cat-timeline-labels { grid-row: 3; grid-column: 1 / -1; margin: 0; font-size: 10px; }
+  .cat-pilot .lesson-shell { grid-template-rows: minmax(min-content, 1fr) auto; }
+  .cat-pilot .instruction-meta { gap: 4px; }
+  .cat-pilot .instruction-meta .eyebrow { min-width: 0; }
+  .cat-pilot .listen-button { flex-shrink: 0; }
+  .cat-pilot .workspace {
+    min-height: 174px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, auto);
+    grid-template-rows: auto minmax(0, 1fr);
+  }
+  .cat-pilot .board-caption { grid-column: 1; grid-row: 1; min-width: 0; padding: 2px 8px; }
+  .cat-pilot .board-surface { grid-column: 1 / -1; grid-row: 2; }
+  .cat-pilot .board-status { grid-column: 2; grid-row: 1; min-width: 0; gap: 4px; padding: 2px 8px; font-size: 10px; }
+  .cat-pilot .patience-note { display: none; }
+  .cat-pilot .status-symbol { width: 20px; height: 20px; }
+  .cat-pilot .session-strip button { min-height: 44px; }
+}
+@media (max-height: 500px) and (min-width: 400px) and (max-width: 800px) and (orientation: landscape) {
+  .cat-pilot .lesson-toolbar { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 6px; padding: 6px; }
+  .cat-pilot .secondary-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; }
+  .cat-pilot .secondary-actions .lesson-button { white-space: normal; padding: 4px; font-size: 12px; line-height: 1.1; gap: 3px; }
+  .cat-pilot .secondary-actions .lesson-button svg { flex-shrink: 0; width: 18px; height: 18px; }
+  .cat-pilot .guided-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; }
+  .cat-pilot .guided-actions .next-button { min-width: 0; min-height: 44px; padding: 5px 4px; font-size: 12px; line-height: 1.1; }
+  .cat-pilot .guided-actions .next-button svg { flex-shrink: 0; width: 18px; height: 18px; }
+  .cat-pilot .guided-actions .ready-button { min-width: 0; max-width: none; min-height: 44px; padding: 4px; line-height: 1.1; white-space: normal; }
+}
+/* Very short landscape phones need a scrollable lesson and a real board row. */
+@media (max-height: 500px) and (min-width: 400px) and (width < 621px) and (orientation: landscape) {
+  .cat-pilot .lesson-shell {
+    grid-template-columns: minmax(170px, 42%) minmax(0, 1fr);
+    grid-template-rows: minmax(min-content, 1fr) auto;
+  }
+  .cat-pilot .instruction { grid-column: 1; grid-row: 1; align-self: start; padding: 8px; }
+  .cat-pilot .instruction h1 { font-size: 21px; }
+  .cat-pilot .reference { display: none; }
+  .cat-pilot .workspace {
+    grid-column: 2;
+    grid-row: 1;
+    border-left: 1px solid var(--line);
+    border-top: 0;
+    border-bottom: 0;
+  }
+  .cat-pilot .lesson-toolbar { grid-column: 1 / -1; grid-row: 2; border-top: 1px solid var(--line); }
+}
+@media (max-height: 500px) and (orientation: landscape) {
+  .cat-pilot .listen-button { width: 44px; min-width: 44px; min-height: 44px; padding: 0; flex-shrink: 0; }
+  .cat-pilot .listen-button > span { display: none; }
+}
+@media (max-height: 500px) and (min-width: 400px) and (width < 500px) and (orientation: landscape) {
+  .cat-pilot .workspace { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(120px, 1fr) auto; }
+  .cat-pilot .board-caption { grid-column: 1; grid-row: 1; }
+  .cat-pilot .board-surface { grid-column: 1; grid-row: 2; }
+  .cat-pilot .board-status { grid-column: 1; grid-row: 3; }
+}
+@media (max-width: 350px) {
+  .cat-pilot .topbar { gap: 4px; }
+  .cat-pilot .brand { gap: 4px; }
+  .cat-pilot .wordmark { font-size: 16px; }
+  .cat-pilot .brand-pencil { width: 22px; height: 22px; }
+  .cat-pilot .music-label { display: none; }
+}
+
+@media (max-width: 480px) {
+  html[lang="es-419"] .cat-pilot .music-label { display: none; }
+}
+
+/* Short phones keep the teaching canvas ahead of repeated helper labels. */
+@media (max-width: 480px) and (max-height: 650px) and (orientation: portrait) {
+  .studio.cat-pilot {
+    grid-template-rows: 48px auto minmax(0, 1fr) 44px;
+    gap: 3px;
+    padding-bottom: 4px;
+  }
+  .studio.cat-pilot .brand-pencil { width: 26px; height: 30px; }
+  .cat-pilot .music-label { display: none; }
+  .cat-pilot .cat-timeline { font-size: 11px; line-height: 1.2; padding-bottom: 2px; }
+  .cat-pilot .cat-timeline-summary { gap: 6px; margin-bottom: 4px; }
+  .cat-pilot .cat-timeline-time { gap: 0 6px; }
+  .cat-pilot .cat-timeline-labels,
+  .cat-pilot .cat-timeline-note { display: none; }
+
+  .cat-pilot .instruction { padding: 6px 10px; }
+  .cat-pilot .instruction-copy { position: relative; }
+  .cat-pilot .instruction-meta {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-height: 44px;
+    margin: 0;
+  }
+  .cat-pilot .instruction .eyebrow { display: none; }
+  .cat-pilot .listen-button { width: 44px; min-width: 44px; min-height: 44px; padding: 0; }
+  .cat-pilot .listen-button > span { display: none; }
+  .cat-pilot .instruction h1 {
+    min-height: 44px;
+    padding-right: 52px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .cat-pilot .instruction-text { font-size: 14px; line-height: 1.35; }
+
+  .cat-pilot .workspace { grid-template-rows: 26px minmax(0, 1fr) 28px; }
+  .cat-pilot .board-caption { padding: 1px 6px; font-size: 10px; line-height: 1.2; }
+  .cat-pilot .optional-note { display: none; }
+  .cat-pilot .board-status { gap: 5px; padding: 2px 6px; font-size: 11px; line-height: 1.15; }
+  .cat-pilot .status-symbol { width: 22px; height: 22px; }
+
+  .cat-pilot .lesson-toolbar { gap: 4px; padding: 6px; }
+  .cat-pilot .secondary-actions { padding: 1px; gap: 1px; }
+  .cat-pilot .lesson-button { min-height: 44px; padding: 5px; gap: 4px; font-size: 12px; }
+  .cat-pilot .guided-actions { gap: 4px; }
+  .cat-pilot .guided-actions .next-button {
+    min-height: 44px;
+    padding: 5px 8px;
+    gap: 6px;
+    font-size: 14px;
+    line-height: 1.15;
+  }
+  .cat-pilot .guided-actions .ready-button { min-height: 44px; padding: 5px; }
+  .cat-pilot .session-strip button { min-height: 44px; }
+}
+
+/* Extremely narrow landscape windows can scroll through a stacked lesson. */
+@media (width < 400px) and (max-height: 500px) and (orientation: landscape) {
+  .studio.cat-pilot {
+    height: auto;
+    min-height: 100dvh;
+    grid-template-rows: 48px auto auto 44px;
+    gap: 3px;
+  }
+  .cat-pilot .lesson-shell { grid-template-rows: auto auto auto; }
+  .cat-pilot .workspace { min-height: 174px; grid-template-rows: 26px minmax(120px, 1fr) 28px; }
+  .cat-pilot .lesson-toolbar { grid-template-columns: 1fr; gap: 4px; padding: 6px; }
+  .cat-pilot .lesson-button { min-height: 44px; padding: 4px; }
+  .cat-pilot .guided-actions .next-button,
+  .cat-pilot .guided-actions .ready-button { min-height: 44px; }
+}

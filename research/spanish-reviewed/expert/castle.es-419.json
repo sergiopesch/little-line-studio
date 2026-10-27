@@ -1,0 +1,231 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "castle",
+  "lesson": {
+    "title": "Castillo con puente levadizo",
+    "invitation": "Torres, una puerta y un puente.",
+    "objective": "Organizar construcciones conectadas y usar la forma de un puente que se acerca para explorar la profundidad.",
+    "parentNote": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería.",
+    "simplify": "Dibujen una pared, una torre, un arco y un puente rectangular. Si quieren, dejen fuera las cadenas, el foso, los techos y los detalles decorativos. Una vista plana también puede mostrar un castillo.",
+    "transfer": "Otro día, dibujen una puerta de jardín con un camino que lleve hacia ella. Prueben un borde cercano y otro lejano en ese nuevo dibujo, sin el modelo del castillo.",
+    "colouringLabel": "Movimientos pequeños de creyón, tus propios colores",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Al otro lado del puente de cuento.",
+        "instruction": "Observa las dos torres altas y el puente que se ensancha hacia nosotros.",
+        "spoken": "Nuestro castillo de cuento tiene dos torres y un puente acogedor. Repetiremos algunas formas y después haremos que el puente sea más ancho hacia nosotros.",
+        "hint": "Mira las torres parecidas y el extremo cercano más ancho del puente.",
+        "notice": "Miren en el ejemplo cómo se encuentran la puerta y el puente. Fíjense en el extremo lejano del puente junto a la puerta y en el extremo cercano más ancho. Las torres pueden ser diferentes; no hace falta que los dos lados sean iguales."
+      },
+      "central-wall": {
+        "title": "La pared central",
+        "instruction": "Dibuja una pared rectangular ancha en el centro.",
+        "spoken": "Empieza con una pared ancha en el centro. Deja espacio a ambos lados para torres más altas y abajo para nuestro puente de madera.",
+        "hint": "Cuatro lados unidos forman la pared central.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "left-tower": {
+        "title": "La torre izquierda",
+        "instruction": "Agrega una torre más alta y angosta junto al lado izquierdo de la pared.",
+        "spoken": "Pon un rectángulo más alto y angosto junto al lado izquierdo de la pared. Comparar su altura con la pared ayuda a que la silueta del castillo se vea clara.",
+        "hint": "Haz esta torre más alta y angosta que la pared del medio.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "right-tower": {
+        "title": "La torre derecha",
+        "instruction": "Repite una torre alta en el lado derecho.",
+        "spoken": "Agrega la torre al otro lado. Compara su altura con la primera; en un castillo de cuento dibujado a mano, las pequeñas diferencias están bien.",
+        "hint": "Usa la primera torre como una guía aproximada de altura.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "left-tower-roof": {
+        "title": "El techo de la torre izquierda",
+        "instruction": "Dibuja un techo puntiagudo sobre la torre izquierda.",
+        "spoken": "Dos líneas inclinadas se encuentran arriba de la torre izquierda para formar un techo puntiagudo. Deja que sus extremos inferiores sobresalgan un poco de los lados de la torre.",
+        "hint": "Sube hasta una punta y baja inclinándote hacia el otro lado.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "right-tower-roof": {
+        "title": "El techo de la torre derecha",
+        "instruction": "Agrega otro techo puntiagudo sobre la torre derecha.",
+        "spoken": "Repite un techo puntiagudo sobre la torre derecha con el mismo movimiento sencillo de subir y bajar.",
+        "hint": "Deja que ambos extremos del techo sobresalgan de los lados de la torre.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "arched-gate": {
+        "title": "La puerta con arco",
+        "instruction": "Haz una puerta con arco dentro de la pared central.",
+        "spoken": "Una puerta con arco comienza con un lado recto, rodea una parte superior redondeada y vuelve a bajar. Deja espacio a su alrededor dentro de la pared.",
+        "hint": "Sube, rodea la parte superior y baja hasta el suelo.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "bridge-left-edge": {
+        "title": "El borde izquierdo del puente",
+        "instruction": "Inclina un borde del puente hacia afuera y hacia abajo.",
+        "spoken": "Deja que el borde izquierdo del puente se incline hacia afuera, en dirección a nosotros. El extremo cercano será más ancho que el extremo que se une al castillo.",
+        "hint": "Empieza en la puerta y baja inclinado hacia la izquierda.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "bridge-right-edge": {
+        "title": "El borde derecho del puente",
+        "instruction": "Deja que el otro borde del puente se incline hacia afuera y a la derecha.",
+        "spoken": "El otro lado se inclina hacia afuera en la dirección opuesta. Estos bordes que se separan ayudan a que el puente parezca acercarse sobre nuestra hoja plana.",
+        "hint": "Deja un espacio más ancho entre los bordes cerca de la parte de abajo.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "bridge-near-edge": {
+        "title": "El extremo cercano del puente",
+        "instruction": "Une el extremo ancho y cercano del puente.",
+        "spoken": "Une el extremo ancho por la parte de abajo para cerrar nuestro puente.",
+        "hint": "Conecta los dos extremos inferiores del puente con una línea.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "first-bridge-plank": {
+        "title": "La primera tabla del puente",
+        "instruction": "Agrega una línea corta para una tabla cerca del extremo del castillo.",
+        "spoken": "Una línea corta que cruza la parte más angosta empieza a mostrar las tablas de madera.",
+        "hint": "Mantén esta línea dentro de los dos bordes laterales del puente.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "second-bridge-plank": {
+        "title": "La segunda tabla del puente",
+        "instruction": "Haz una línea más larga para una tabla más cercana a nosotros.",
+        "spoken": "Esta tabla cercana es más larga porque aquí el puente es más ancho. La línea repetida sigue el cambio de forma del puente.",
+        "hint": "Compara esta tabla más larga con la más corta que está más lejos.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "moat-left": {
+        "title": "El foso a la izquierda",
+        "instruction": "Haz una curva para el agua junto al lado izquierdo del puente.",
+        "spoken": "Una curva suave de agua junto al puente sugiere un foso de cuento. Detente antes de dibujar sobre la forma de madera del puente.",
+        "hint": "Deja que la curva del agua llegue hasta el lado izquierdo del puente.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "moat-right": {
+        "title": "El foso a la derecha",
+        "instruction": "Agrega una curva de agua también al lado derecho.",
+        "spoken": "Otra curva de agua aparece al otro lado. Nuestro puente está delante y esconde el agua justo debajo.",
+        "hint": "Deja el puente libre entre las dos curvas de agua.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "left-tower-window": {
+        "title": "La ventana de la torre izquierda",
+        "instruction": "Si quieres, agrega una ventana pequeña con arco en la torre izquierda.",
+        "spoken": "Un arco pequeño forma una ventana en la torre izquierda. Usa la idea de la parte redondeada de la puerta, pero mucho más pequeña.",
+        "hint": "Haz un arco pequeño con lados cortos dentro de la torre.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "right-tower-window": {
+        "title": "La ventana de la torre derecha",
+        "instruction": "Si quieres, repite una ventana pequeña en la torre derecha.",
+        "spoken": "Puedes repetir la pequeña ventana con arco en la torre derecha o dejar la torre sin ventana.",
+        "hint": "Compara la pequeña ventana con el espacio que la rodea.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "castle-flagpole": {
+        "title": "El asta del castillo",
+        "instruction": "Si quieres, dibuja un asta delgada sobre el techo izquierdo.",
+        "spoken": "Si quieres una bandera, un asta delgada puede subir desde el techo izquierdo.",
+        "hint": "Empieza en la punta del techo y dibuja una línea corta hacia arriba.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "castle-flag": {
+        "title": "La bandera del castillo",
+        "instruction": "Si quieres, agrega una bandera pequeña y puntiaguda sobre el techo izquierdo.",
+        "spoken": "Si agregaste un asta, dos líneas inclinadas pueden formar una banderita junto a ella. Si no, deja esta decoración extra fuera.",
+        "hint": "Ve hacia afuera hasta una punta y después vuelve al asta.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "left-lifting-chain": {
+        "title": "La cadena izquierda",
+        "instruction": "Si quieres, dibuja una línea delgada para una cadena junto al puente.",
+        "spoken": "Puedes agregar una línea delgada desde la puerta hacia la esquina del puente. En nuestro cuento representa una cadena para levantar el puente.",
+        "hint": "Une el lado izquierdo de la puerta con la esquina izquierda del puente.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "right-lifting-chain": {
+        "title": "La cadena derecha",
+        "instruction": "Si quieres, agrega la segunda línea delgada junto al otro borde del puente.",
+        "spoken": "Una segunda línea opcional para una cadena puede seguir el otro lado. También puedes dejar ambas fuera y mantener un puente de madera sencillo.",
+        "hint": "Une el lado derecho de la puerta con la esquina derecha del puente.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "castle-stone": {
+        "title": "Una piedra del castillo",
+        "instruction": "Si quieres, agrega una piedra rectangular dentro de la pared.",
+        "spoken": "Un rectángulo pequeño representa una piedra de la pared. No necesitamos dibujar todas las piedras para mostrar que la pared está hecha de piezas.",
+        "hint": "Mantén un rectángulo pequeño dentro de la forma grande de la pared.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      },
+      "colour-choice": {
+        "title": "Colores de un castillo de cuento.",
+        "instruction": "Elige gris para la piedra, colores cálidos para los techos y un color de madera para el puente.",
+        "spoken": "Yo usaré gris suave para la piedra, rojo cálido para los techos y marrón para la madera. Tu castillo de cuento puede tener sus propios colores y una banderita brillante.",
+        "hint": "Elige un color para la pared y otro diferente para el techo.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "colour-stone-walls": {
+        "title": "Pequeñas zonas de piedra.",
+        "instruction": "Colorea pequeñas zonas grises en las paredes y las torres.",
+        "spoken": "Hago zonas de gris claro, una zona pequeña a la vez. Dejo espacio alrededor de la puerta y las ventanas para que esas aberturas sigan visibles.",
+        "hint": "Rodea las pequeñas aberturas y levanta el creyón antes de empezar cerca de ellas.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "colour-pointed-roofs": {
+        "title": "Los espacios de los techos puntiagudos.",
+        "instruction": "Haz movimientos más cortos con tu creyón de color cálido hacia cada punta del techo.",
+        "spoken": "Mis movimientos de rojo cálido se hacen más cortos cerca de las puntas de los techos. Me detengo antes del borde en vez de intentar empujar el color hasta la punta.",
+        "hint": "Los movimientos más pequeños caben en la parte del techo que se estrecha.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "colour-wooden-bridge": {
+        "title": "La madera que viene hacia nosotros.",
+        "instruction": "Usa pequeñas zonas marrones en la puerta y el puente.",
+        "spoken": "Coloreo la puerta y el puente en pequeñas zonas de marrón cálido. Las líneas de las tablas siguen visibles y ayudan a mostrar el extremo cercano más ancho del puente.",
+        "hint": "Mantén las zonas marrones dentro del puente y entre sus bordes.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "colour-castle-light": {
+        "title": "Ventanas pequeñas y sombra.",
+        "instruction": "Si quieres, agrega ventanas azules, una bandera amarilla y una sombra suave.",
+        "spoken": "Si dibujaste ventanas o una bandera, puedes darles pequeños toques azules y amarillos. Una capa ligera junto al borde de una torre también puede sugerir sombra; es opcional.",
+        "hint": "Colorea las ventanas que hayas dibujado o prueba una capa suave junto al borde de una torre.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "colour-reflect": {
+        "title": "Un puente con profundidad.",
+        "instruction": "Compara el extremo angosto del puente junto al castillo con su extremo cercano y ancho.",
+        "spoken": "Mira desde la puerta hacia el extremo ancho del puente. Esos lados que se separan y la tabla cercana más larga ayudan a que el puente de cuento parezca acercarse sobre el papel.",
+        "hint": "Compara los largos de las dos tablas o sigue los bordes que se separan.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "explore": {
+        "title": "Una historia más allá de la puerta.",
+        "instruction": "Sigue coloreando o imagina una visita para tu castillo.",
+        "spoken": "Puedes diseñar otra bandera, agregar un pequeño visitante o imaginar un jardín más allá de la puerta. Continúa tu historia o termina tu castillo aquí.",
+        "hint": "Prueba un pequeño detalle de tu historia sin cubrir el puente.",
+        "notice": "Compara en el ejemplo de la maestra el ancho del puente cerca y lejos. Si ayuda, una tira de papel puede mostrar un puente sobre otra superficie. Pregunta cómo funciona la puerta que imaginó el niño o la niña; no exijas precisión de ingeniería."
+      }
+    },
+    "sourceSha256": "beb58b48ff05085cffb8c1e0ba3d4cdd1736c114a90077e49e99b8cdd2f7b028"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "train",
+  "lesson": {
+    "title": "Locomotora de juguete",
+    "invitation": "Ruedas y formas que trabajan juntas.",
+    "objective": "Combinar partes que parecen superponerse, ruedas circulares y una línea de apoyo compartida para representar un vehículo de juguete.",
+    "parentNote": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia.",
+    "simplify": "",
+    "transfer": "Otro día, prueben un autobús de juguete. Reutilicen las ruedas y un cuerpo largo y decidan qué partes de la locomotora dejar fuera.",
+    "colouringLabel": "Trazos pequeños y colores a tu manera",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un viaje imaginario en tren.",
+        "instruction": "Observa las ruedas redondas debajo de las formas largas y cuadradas.",
+        "spoken": "Nuestra locomotora de papel está lista para un viaje inventado en tren. Observa la cabina cuadrada, la caldera larga y redondeada y las ruedas de abajo.",
+        "hint": "Compara las formas largas de la locomotora con sus ruedas redondas.",
+        "notice": "Mira nuestra locomotora de juguete. ¿Qué partes quedan encima de las ruedas?"
+      },
+      "train-base": {
+        "title": "La base",
+        "instruction": "Dibuja un rectángulo largo y bajo para la base de la locomotora.",
+        "spoken": "Un rectángulo largo forma nuestra base. Deja espacio arriba para la locomotora y abajo para dos ruedas redondas.",
+        "hint": "Haz que este rectángulo sea mucho más ancho que alto.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-cab": {
+        "title": "La cabina",
+        "instruction": "Construye una cabina cuadrada sobre un extremo.",
+        "spoken": "La cabina alta sube sobre un extremo de la base. Detengo su borde más alejado donde se encontrará con la caldera redondeada.",
+        "hint": "Coloca esta caja alta sobre un extremo de la base larga.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-boiler": {
+        "title": "La caldera",
+        "instruction": "Coloca una caldera larga y redondeada junto a la cabina.",
+        "spoken": "Un óvalo largo se extiende sobre la base junto a la cabina. Su borde redondeado queda delante de la esquina inferior de la cabina.",
+        "hint": "Compara este óvalo largo y bajo con la cabina más alta.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-front-wheel": {
+        "title": "La rueda delantera",
+        "instruction": "Coloca una rueda redonda debajo de la parte delantera.",
+        "spoken": "Una rueda redonda toca la parte de abajo de la base. Su borde superior entra un poquito en la base para que se vea unida, en vez de ser un círculo flotante.",
+        "hint": "Haz que el borde superior de la rueda toque la base de la locomotora.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-back-wheel": {
+        "title": "La rueda trasera",
+        "instruction": "Agrega una rueda parecida debajo de la cabina.",
+        "spoken": "La otra rueda va debajo de la cabina. Compara los bordes de abajo de las dos para que nuestra locomotora pueda descansar sobre una vía nivelada.",
+        "hint": "Mira el borde inferior de la primera rueda antes de colocar esta.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-front-hub": {
+        "title": "El centro de la rueda delantera",
+        "instruction": "Pon un círculo pequeño dentro de la rueda delantera.",
+        "spoken": "Un círculo más pequeño va cerca del centro de la rueda delantera. Dejar espacio a su alrededor permite ver el borde de la rueda.",
+        "hint": "Haz este círculo mucho más pequeño que la rueda que lo rodea.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-back-hub": {
+        "title": "El centro de la rueda trasera",
+        "instruction": "Agrega un centro pequeño dentro de la otra rueda.",
+        "spoken": "Otro círculo pequeño va dentro de la rueda trasera. La rueda grande y el centro pequeño repiten una idea que ya conocemos.",
+        "hint": "Busca el centro del segundo círculo grande de la rueda.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-wheel-link": {
+        "title": "La unión de las ruedas",
+        "instruction": "Une los centros de las ruedas con una línea larga.",
+        "spoken": "Una línea conecta los dos centros pequeños. Mirar de una rueda a la otra me ayuda a elegir su dirección.",
+        "hint": "Empieza en un centro pequeño y dirígete hacia el otro.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-window": {
+        "title": "La ventana de la cabina",
+        "instruction": "Dibuja una ventanita dentro de la cabina.",
+        "spoken": "Un rectángulo pequeño cabe en la parte alta de la cabina. Deja un borde de papel alrededor para que se vea bien la caja.",
+        "hint": "Mantén esta ventanita por encima de la caldera redondeada.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-cab-roof": {
+        "title": "El techo de la cabina",
+        "instruction": "Extiende una línea corta de techo sobre la cabina.",
+        "spoken": "Una línea sobresale un poquito de la cabina por ambos lados. Esos pequeños salientes distinguen el techo de la ventana de abajo.",
+        "hint": "Sigue la parte superior de la cabina y extiende la línea un poco más allá.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-chimney": {
+        "title": "La chimenea",
+        "instruction": "Coloca una chimenea estrecha encima de la caldera.",
+        "spoken": "Un rectángulo alto y estrecho toca la parte de arriba de la caldera. Su ancho pequeño nos ayuda a notar lo larga y ancha que es la caldera.",
+        "hint": "Haz la chimenea estrecha junto a las formas grandes de la locomotora.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-front-slope": {
+        "title": "La punta delantera",
+        "instruction": "Traza una línea corta inclinada hacia abajo desde la parte delantera.",
+        "spoken": "Una línea corta e inclinada baja más allá de la parte delantera de la locomotora. Al colocarla, deja libre la rueda cercana.",
+        "hint": "Empieza en el extremo delantero de la base larga.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-front-base": {
+        "title": "La parte de abajo de la punta",
+        "instruction": "Une esa línea inclinada de vuelta a la base.",
+        "spoken": "Otra línea corta vuelve a la base. Las dos líneas forman una pieza pequeña y puntiaguda en la parte delantera.",
+        "hint": "Lleva la punta exterior de vuelta al borde inferior de la locomotora.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-boiler-face": {
+        "title": "Un detalle en la caldera",
+        "instruction": "Haz una curva corta cerca de la parte delantera de la caldera.",
+        "spoken": "Una curva corta sigue la caldera cerca de la parte delantera. Sugiere un extremo redondo sin agregar otro óvalo largo completo.",
+        "hint": "Mantén esta curva dentro de la forma redondeada de la caldera.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-front-lamp": {
+        "title": "La lámpara",
+        "instruction": "Coloca una lámpara redonda y pequeña cerca de la parte delantera.",
+        "spoken": "Un círculo pequeño va cerca de la parte delantera. Su tamaño ayuda a que las piezas grandes de la locomotora sigan siendo las formas principales del dibujo.",
+        "hint": "Deja un poco de papel alrededor del círculo pequeño de la lámpara.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-coupling": {
+        "title": "Un gancho",
+        "instruction": "Prueba un gancho pequeño de unión en la parte trasera.",
+        "spoken": "Una curva pequeña puede salir de la parte trasera de la base. Nuestra locomotora imaginaria puede viajar con este gancho adicional o sin él.",
+        "hint": "Empieza en el borde trasero y dobla la línea cerca de allí.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-first-puff": {
+        "title": "Una nubecita",
+        "instruction": "Prueba una nubecita de cuento sobre la chimenea.",
+        "spoken": "Unas curvas redondeadas pueden formar una nubecita imaginaria en el cielo de nuestro cuento. Deja un poco de papel entre ella y la chimenea.",
+        "hint": "Une curvas suaves alrededor de un espacio pequeño sobre la chimenea.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-second-puff": {
+        "title": "Otra nubecita",
+        "instruction": "Si quieres, prueba una nubecita más arriba.",
+        "spoken": "Otra nubecita suave puede flotar más arriba de la chimenea. Puedes dibujar una, varias o ninguna en nuestro viaje imaginario.",
+        "hint": "Mantén esta forma opcional en el cielo por encima de la chimenea.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-upper-rail": {
+        "title": "La primera línea de la vía",
+        "instruction": "Dibuja una línea larga para la vía debajo de las ruedas.",
+        "spoken": "Una línea larga va justo debajo de las dos ruedas. Comparar sus bordes inferiores me ayuda a colocar la vía debajo de nuestra locomotora.",
+        "hint": "Dirígete por debajo de las dos ruedas, sin atravesar sus centros.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "train-lower-rail": {
+        "title": "La segunda línea de la vía",
+        "instruction": "Agrega otra línea de la vía un poquito más abajo.",
+        "spoken": "Una segunda línea va debajo de la primera. Mantengo un espacio estrecho entre las líneas mientras cruzan nuestro papel.",
+        "hint": "Deja que estas líneas largas vayan en la misma dirección.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      },
+      "colour-choice": {
+        "title": "Colores para nuestra locomotora.",
+        "instruction": "Elige colores para la locomotora y una capa más oscura para abajo.",
+        "spoken": "Yo elijo una locomotora verde, una base roja y ruedas grises. Un verde más oscuro puede formar una pequeña zona de sombra en la caldera redondeada.",
+        "hint": "Aparta un color claro para la locomotora y otro tono más oscuro.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-engine": {
+        "title": "Verde en las formas de la locomotora.",
+        "instruction": "Colorea la locomotora sin cubrir la ventana de la cabina.",
+        "spoken": "Los grupos de trazos verdes van alrededor de la ventana y por la caldera. Levanto el creyón antes de llegar a la ventana y comienzo de nuevo en un espacio libre.",
+        "hint": "Los trazos cortos ayudan a que se vea el borde de la ventanita.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-base-and-wheels": {
+        "title": "Rojo abajo y ruedas redondas grises.",
+        "instruction": "Colorea la base y cada rueda por separado.",
+        "spoken": "El rojo va dentro de la base larga y el gris en las ruedas. Levanto el creyón entre las formas para que se distingan estas partes.",
+        "hint": "Una rueda redonda puede tener pequeños grupos de trazos curvos en su interior.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-glass-and-shadow": {
+        "title": "Un poco de vidrio y sombra.",
+        "instruction": "Agrega vidrio claro y una parte inferior más oscura en la caldera.",
+        "spoken": "Un poco de azul sugiere el vidrio de la ventana. Una capa verde más oscura cerca del borde inferior de la caldera ayuda a que su forma larga parezca redondeada.",
+        "hint": "Deja visibles un poco del primer color y del papel junto a la zona más oscura.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "colour-reflection": {
+        "title": "Nuestra locomotora en la vía.",
+        "instruction": "Observa las ruedas alineadas debajo de las formas conectadas de la locomotora.",
+        "spoken": "Nuestras ruedas redondas sostienen las formas largas y cuadradas de la locomotora. Este pequeño tren de papel puede seguir un viaje que tú inventes.",
+        "hint": "Observa la diferencia entre una rueda y la base larga.",
+        "notice": "Tus colores y los espacios blancos son bienvenidos. Más tiempo mantiene abierto cualquier paso; la maestra no puede ver ni juzgar tu papel."
+      },
+      "explore": {
+        "title": "¿Adónde podría viajar tu tren?",
+        "instruction": "Inventa una estación, agrega un vagón o termina aquí.",
+        "spoken": "Tu locomotora podría visitar una estación inventada o llevar otro vagón de papel. Sigue dibujando, sigue coloreando o termina aquí tu viaje.",
+        "hint": "Prueba unir ruedas redondas debajo de otra forma larga.",
+        "notice": "Si te lo pide, comparen la cabina alta, la base larga y las ruedas redondas del ejemplo. Muestra una relación en tu propia hoja en vez de convertir los nombres de las piezas en un ejercicio de memoria. Esta es una locomotora de juguete estilizada; la nubecita es un detalle opcional para la historia."
+      }
+    },
+    "sourceSha256": "6344db8fc18f0d752f2e779123cbd35c8cdcdf1d467b5d76caedd2daa6c76465"
+  }
+}

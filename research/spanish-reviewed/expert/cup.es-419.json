@@ -1,0 +1,231 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "cup",
+  "lesson": {
+    "title": "Taza y platillo",
+    "invitation": "Aberturas ovaladas y bordes escondidos.",
+    "objective": "observar bordes ovalados abiertos y cómo el asa y el platillo rodean una taza.",
+    "parentNote": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo.",
+    "simplify": "Dibujen una taza con una sola curva para el asa y un borde de platillo con forma de sonrisa. La demostración deja sin dibujar desde el principio los bordes escondidos. Si el niño o niña elige formas completas o líneas de construcción que se cruzan, puede conservarlas; no hace falta borrar. Los adornos, las galletas, el vapor y los bordes de la mesa son opcionales.",
+    "transfer": "Otro día, observen una jarra vacía o un tazón. Prueben dibujar la abertura y el asa o la base sin la demostración de la taza, eligiendo qué partes se ven.",
+    "colouringLabel": "Movimientos pequeños con creyón, tus propios colores",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Un pequeño café de papel",
+        "instruction": "Fíjate en el borde ovalado y aplanado y en los lados curvos de la taza.",
+        "spoken": "Vamos a hacer un café de papel imaginario, con una taza decorada y una galleta. Un óvalo aplanado nos ayudará a que la taza parezca redonda.",
+        "hint": "Fíjate en que la parte de arriba es ancha y baja, no completamente redonda.",
+        "notice": "Miren la taza un poco desde arriba. Fíjense en la abertura ovalada, el espacio vacío del asa y el platillo que se ve alrededor de la base. Observar una taza es opcional; también pueden imaginarla."
+      },
+      "saucer-front-edge": {
+        "title": "El borde delantero del platillo",
+        "instruction": "Empieza con un borde de platillo ancho y curvo cerca de la parte de abajo.",
+        "spoken": "Comienza con la curva ancha de adelante del platillo. Deja espacio arriba para una taza y un asa a la derecha.",
+        "hint": "Haz esta primera curva ancha y baja en el papel.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "cup-rim": {
+        "title": "El borde de la taza",
+        "instruction": "Dibuja un óvalo aplanado encima del platillo.",
+        "spoken": "Un óvalo aplanado forma el borde de la taza. Como la miramos un poco desde arriba, podemos ver esta abertura ovalada.",
+        "hint": "Dibuja un óvalo mucho más ancho que alto.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "cup-left-edge": {
+        "title": "El lado izquierdo de la taza",
+        "instruction": "Haz que el lado izquierdo de la taza baje con una curva suave.",
+        "spoken": "Baja desde el extremo izquierdo del borde con una curva suave. Deja que gire un poco hacia adentro cerca de la parte de abajo.",
+        "hint": "Empieza en el extremo izquierdo del borde y curva hacia abajo.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "cup-right-edge": {
+        "title": "El lado derecho de la taza",
+        "instruction": "Repite una curva suave hacia adentro en el lado derecho.",
+        "spoken": "Baja por el otro lado de manera parecida. Comparar las alturas ayuda a que la taza parezca apoyada en el platillo.",
+        "hint": "Termina este lado cerca de la altura del extremo inferior del primero.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "cup-bottom": {
+        "title": "La parte de abajo de la taza",
+        "instruction": "Une los extremos inferiores con una base suavemente redondeada.",
+        "spoken": "Une los dos lados inferiores con una curva suave. Una base curva acompaña los lados redondeados y la parte superior ovalada.",
+        "hint": "Redondea suavemente el espacio entre los lados debajo de la taza.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "handle-outer-loop": {
+        "title": "El borde exterior del asa",
+        "instruction": "Dibuja un asa ancha que salga del lado derecho y regrese.",
+        "spoken": "El asa sale hacia la derecha y luego se curva de regreso a la taza. Deja suficiente espacio adentro para una curva más pequeña.",
+        "hint": "Curva hacia afuera desde el lado y vuelve a la taza.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "handle-inner-loop": {
+        "title": "El interior del asa",
+        "instruction": "Haz una curva más pequeña dentro del asa.",
+        "spoken": "Una curva más pequeña por dentro le da grosor al asa. El espacio blanco del centro también es parte de su forma.",
+        "hint": "Sigue la curva exterior y deja un borde entre las dos curvas.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "inner-rim": {
+        "title": "El borde interior",
+        "instruction": "Agrega una pequeña curva justo dentro del borde de la taza.",
+        "spoken": "Una curva interior pequeña sugiere el grosor del borde. Mantenla cerca del óvalo aplanado, no muy abajo en la taza.",
+        "hint": "Sigue parte del óvalo con una curva cercana por dentro.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "saucer-left-return": {
+        "title": "El lado izquierdo del platillo",
+        "instruction": "Curva el platillo de regreso hacia la taza por la izquierda.",
+        "spoken": "Curva el borde izquierdo del platillo de regreso hacia la taza. Mostramos la parte visible y dejamos que la taza esconda el centro.",
+        "hint": "Lleva el extremo izquierdo del platillo hacia la parte baja de la taza.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "saucer-right-return": {
+        "title": "El lado derecho del platillo",
+        "instruction": "Agrega la curva visible del platillo a la derecha.",
+        "spoken": "Repite esa curva de regreso a la derecha. La taza está delante, así que no necesitamos una línea del platillo que la atraviese.",
+        "hint": "Curva desde el extremo derecho del platillo hacia la taza.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "cup-base-arc": {
+        "title": "La base curva de la taza",
+        "instruction": "Agrega una pequeña base curva justo encima del platillo.",
+        "spoken": "Una base curva pequeña ayuda a que la taza parezca apoyada en el platillo. Sigue la dirección de la parte redondeada de abajo.",
+        "hint": "Mantén esta curva pequeña debajo de la forma principal de la taza.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "cup-upper-band": {
+        "title": "La línea superior de la franja",
+        "instruction": "Rodea la taza con una línea de adorno suavemente curva.",
+        "spoken": "Si quieres una franja, haz una curva alrededor de la taza. Esa pequeña curva ayuda a que el adorno siga una superficie redonda.",
+        "hint": "Deja que la línea baje suavemente en el centro.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "cup-lower-band": {
+        "title": "La línea inferior de la franja",
+        "instruction": "Si dibujaste la curva superior, prueba hacer un borde inferior.",
+        "spoken": "Si agregaste la curva superior, dibuja otra debajo para formar una franja. Si no, puedes dejar este adorno fuera.",
+        "hint": "Si hiciste la curva superior, deja un espacio pequeño debajo.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "cup-decoration": {
+        "title": "Un adorno en la taza",
+        "instruction": "Si quieres, agrega un corazón pequeño en la parte baja de la taza.",
+        "spoken": "Tu taza puede tener un corazoncito u otro adorno sencillo. Colócalo en la parte baja de la taza, con franja o sin ella.",
+        "hint": "Dos curvas redondeadas pueden unirse en una punta pequeña abajo.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "first-steam": {
+        "title": "Una línea de vapor",
+        "instruction": "Agrega una línea suelta y curva de vapor sobre la taza.",
+        "spoken": "Si quieres, una curva suelta puede sugerir vapor en nuestro café imaginario. Es solo un dibujo; no necesitamos una bebida caliente de verdad cerca.",
+        "hint": "Deja que una línea suave se mueva sobre la taza.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "second-steam": {
+        "title": "Otra línea de vapor",
+        "instruction": "Prueba otra curva suelta sobre la taza o sáltala.",
+        "spoken": "Puedes agregar otra curva suelta sobre la taza. Si dibujaste otra línea de vapor, deja un poco de espacio entre las dos.",
+        "hint": "Coloca las curvas sobre la taza con espacio alrededor de cada una.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "biscuit": {
+        "title": "Una galleta",
+        "instruction": "Si quieres, coloca una galleta ovalada pequeña junto al platillo.",
+        "spoken": "Un óvalo pequeño e inclinado puede convertirse en nuestra galleta de papel. Hazlo más pequeño que el platillo para que la taza siga siendo la forma principal.",
+        "hint": "Pon un óvalo pequeño y bajo junto al platillo más grande.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "biscuit-dot": {
+        "title": "Un detalle de la galleta",
+        "instruction": "Si quieres, agrega un puntito o adorno a la galleta.",
+        "spoken": "Si dibujaste una galleta, puedes decorarla con un puntito.",
+        "hint": "Mantén este puntito opcional dentro de la galleta.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "table-left": {
+        "title": "La mesa a la izquierda",
+        "instruction": "Dibuja una línea pequeña de mesa a la izquierda.",
+        "spoken": "Si quieres, una línea corta a la izquierda sugiere una mesa debajo de nuestro café.",
+        "hint": "Detén la línea de la mesa antes de que llegue al platillo.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "table-right": {
+        "title": "La mesa a la derecha",
+        "instruction": "Agrega otra línea de mesa al otro lado del platillo, a la derecha.",
+        "spoken": "Puedes agregar otra línea de mesa a la derecha o dejar el fondo en blanco.",
+        "hint": "Deja que el platillo quede delante de la línea de la mesa.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      },
+      "colour-choice": {
+        "title": "Elige los colores de tu café",
+        "instruction": "Elige un color para la taza y, si quieres, otro para el adorno.",
+        "spoken": "Yo usaré verde azulado suave para la taza y amarillo cálido para la franja. Nuestro café imaginario puede tener los colores que te gusten.",
+        "hint": "Elige un color para la taza y otro diferente para un adorno pequeño.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-cup": {
+        "title": "Movimientos redondos con el creyón",
+        "instruction": "Colorea pequeñas zonas alrededor del cuerpo curvo de la taza.",
+        "spoken": "Uso movimientos pequeños alrededor de la taza y levanto el creyón entre zonas. Dejar algo del papel claro puede sugerir una superficie de cerámica brillante sin dibujar cada reflejo.",
+        "hint": "Deja un poquito de papel blanco entre las zonas de color.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-band-handle": {
+        "title": "Una franja y un asa",
+        "instruction": "Haz movimientos pequeños en el asa; colorea la franja si dibujaste una.",
+        "spoken": "Si agregaste una franja, puedes seguirla con movimientos pequeños de un color cálido. Acortaré mis movimientos para el asa y dejaré blanco el espacio vacío del centro.",
+        "hint": "Deja sin colorear el espacio vacío del centro del asa.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-saucer": {
+        "title": "El platillo debajo",
+        "instruction": "Sigue la curva baja del platillo con zonas azules.",
+        "spoken": "Estas pequeñas zonas azules siguen la curva baja del platillo. Mantengo despejada la base de la taza para que las dos formas sigan separadas.",
+        "hint": "Sigue la dirección ancha y baja del platillo con movimientos pequeños.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-table-layer": {
+        "title": "Una galleta cálida y un poco de sombra",
+        "instruction": "Si quieres, colorea la galleta y oscurece un borde de la taza.",
+        "spoken": "Si dibujaste una galleta, puedes darle un color cálido. Yo también oscureceré suavemente un borde de la taza; esa capa extra es opcional.",
+        "hint": "Un borde un poco más oscuro puede quedar junto a una zona clara de la taza.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "colour-reflect": {
+        "title": "Formas redondas en papel",
+        "instruction": "Fíjate en cómo el borde ovalado y los lados curvos sugieren una taza redonda.",
+        "spoken": "Mira el borde aplanado y los lados curvos de la taza. Estas formas sencillas ayudan a que el papel plano sugiera una taza redonda; una franja curva puede reforzar esa idea.",
+        "hint": "Sigue la forma del borde en el aire y luego observa los lados curvos.",
+        "notice": "Usen los creyones que tengan y movimientos cómodos. Está bien dejar espacios blancos o elegir otros colores. Más tiempo permite quedarse en cualquier etapa sin apuro."
+      },
+      "explore": {
+        "title": "Tu café de papel",
+        "instruction": "Sigue coloreando o diseña otra taza para tu café de papel.",
+        "spoken": "Puedes diseñar otra taza, cambiar el adorno o agregar una merienda de papel. Continúa a tu ritmo o cierra aquí nuestro pequeño café.",
+        "hint": "Prueba otra franja, un adorno de flor u otro platillo.",
+        "notice": "Si te lo pide, señala el espacio vacío del asa sin exigir una curva perfecta. En otra hoja, compara el borde de una taza real con un círculo. Evita mover el objeto mientras el niño o niña quiera observarlo."
+      }
+    },
+    "sourceSha256": "17c2ae255eba6f0b9d7d4fd9548e1cfaf4da4df81ac55faca05806697682c152"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "locale": "es-419",
+  "status": "reviewed-internally-pending-native-review",
+  "lessonId": "ladybird",
+  "title": "Mariquita",
+  "invitation": "Pequeñas manchas y patas alrededor de un óvalo.",
+  "objective": "Dividir una figura cerrada y agregar líneas cortas a su alrededor.",
+  "parentNote": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja.",
+  "simplify": "",
+  "transfer": "¿Podrían una forma grande para el cuerpo y partes a su alrededor ayudarte a inventar un escarabajo?",
+  "colouringLabel": "Alas rojas y pequeñas zonas oscuras",
+  "parentNotes": {
+    "observe": "Miren una imagen de una mariquita. Fíjense en la línea entre las dos cubiertas de sus alas.",
+    "draw": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja.",
+    "colour": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+  },
+  "stages": {
+    "notice": {
+      "title": "Una visitante del jardín.",
+      "instruction": "Observa el cuerpo ovalado, la cabeza pequeña y la línea del medio.",
+      "spoken": "Vamos a dibujar una mariquita junto a un camino de jardín imaginario. Su óvalo grande tiene una cabeza pequeña arriba y una línea por el medio.",
+      "hint": "Compara la cabeza pequeña con el cuerpo ovalado más grande.",
+      "notice": "Miren una imagen de una mariquita. Fíjense en la línea entre las dos cubiertas de sus alas."
+    },
+    "ladybird-body": {
+      "title": "El cuerpo de la mariquita",
+      "instruction": "Dibuja un óvalo alto y deja espacio a los lados.",
+      "spoken": "Un óvalo alto es el comienzo de nuestra mariquita. Deja espacio a su alrededor para la cabeza y las pequeñas patas.",
+      "hint": "Haz la curva alrededor de todo el óvalo y vuelve a donde comenzaste.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "ladybird-head": {
+      "title": "La cabeza de la mariquita",
+      "instruction": "Haz una cabeza pequeña y redondeada sobre el óvalo.",
+      "spoken": "Un arco pequeño se une al óvalo cerca de la parte de arriba. Hago esta cabeza más angosta que el cuerpo.",
+      "hint": "Deja que cada extremo de la cabeza se una al cuerpo.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "wing-division": {
+      "title": "La división de las alas",
+      "instruction": "Dibuja una línea por el medio del óvalo, de arriba hacia abajo.",
+      "spoken": "Una línea va desde arriba hasta abajo del óvalo y muestra las dos cubiertas de las alas, una junto a la otra.",
+      "hint": "Fíjate en el espacio a cada lado de tu línea.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "left-feeler": {
+      "title": "Una antena a la izquierda",
+      "instruction": "Si quieres, prueba una antena corta sobre la cabeza.",
+      "spoken": "Una pequeña antena curva puede salir por encima de la cabeza. Tú decides si quieres agregar este detalle.",
+      "hint": "Empieza en la cabeza y haz una curva hacia el espacio libre de la hoja.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "right-feeler": {
+      "title": "Una antena a la derecha",
+      "instruction": "Prueba otra antena al otro lado o déjala fuera.",
+      "spoken": "Otra antena puede curvarse hacia el otro lado. Sus curvas pueden ser diferentes.",
+      "hint": "Haz las dos antenas más pequeñas que el cuerpo ovalado.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "left-upper-spot": {
+      "title": "Una mancha arriba a la izquierda",
+      "instruction": "Si quieres, pon una mancha redonda dentro de un lado.",
+      "spoken": "Una mancha pequeña y redonda va dentro de una de las cubiertas de las alas, lejos del borde.",
+      "hint": "Elige un lugar dentro del óvalo para tu mancha.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "right-spot": {
+      "title": "Una mancha a la derecha",
+      "instruction": "Si quieres, prueba una mancha en el otro lado.",
+      "spoken": "Si quieres, una segunda mancha puede ir en la otra cubierta del ala. Tú eliges dónde ponerla.",
+      "hint": "Deja espacio alrededor de cada mancha que decidas dibujar.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "left-lower-spot": {
+      "title": "Una mancha abajo a la izquierda",
+      "instruction": "Prueba una mancha más abajo o deja el espacio libre.",
+      "spoken": "Otra mancha puede ir más abajo. El diseño de tu mariquita puede tener menos manchas.",
+      "hint": "El diseño no tiene que ser igual al de mi ejemplo.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "left-upper-leg": {
+      "title": "Una pata arriba a la izquierda",
+      "instruction": "Si quieres, prueba una patita doblada a un lado.",
+      "spoken": "Una línea corta sale hacia afuera y después se dobla. Así pueden empezar las pequeñas patas de nuestra mariquita.",
+      "hint": "Empieza cerca del borde del cuerpo y haz la pata corta.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "left-middle-leg": {
+      "title": "Una pata en el medio a la izquierda",
+      "instruction": "Agrega una pata en el medio de este lado o déjala fuera.",
+      "spoken": "Otra pequeña línea doblada sale desde el medio de este lado.",
+      "hint": "Pon esta pata corta junto al medio del cuerpo.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "left-lower-leg": {
+      "title": "Una pata abajo a la izquierda",
+      "instruction": "Si quieres, prueba una pata abajo que apunte hacia afuera.",
+      "spoken": "Una pata de abajo apunta hacia afuera y se dobla hacia la parte inferior.",
+      "hint": "Cada patita puede doblarse a su manera.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "right-upper-leg": {
+      "title": "Una pata arriba a la derecha",
+      "instruction": "Prueba una pata al otro lado o déjala fuera.",
+      "spoken": "Del otro lado, una línea corta y doblada sale hacia afuera.",
+      "hint": "Busca un espacio libre junto al óvalo.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "right-middle-leg": {
+      "title": "Una pata en el medio a la derecha",
+      "instruction": "Si quieres, prueba otra patita junto al medio.",
+      "spoken": "Si quieres, otra pata corta puede doblarse junto al medio.",
+      "hint": "Levanta el lápiz antes de moverlo a este lugar nuevo.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "right-lower-leg": {
+      "title": "Una pata abajo a la derecha",
+      "instruction": "Elige una última pata abajo o termina tu contorno.",
+      "spoken": "Una pata de abajo puede completar mi ejemplo. Tu dibujo puede tener menos detalles.",
+      "hint": "Deja un poco de espacio de papel alrededor de las patas.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    },
+    "colour-choice": {
+      "title": "Una visitante roja del jardín.",
+      "instruction": "Elige rojo y un creyón oscuro, o tus propios colores.",
+      "spoken": "Yo elijo rojo para las cubiertas de las alas y gris oscuro suave para los detalles. Tú puedes elegir los colores de tu visitante del jardín.",
+      "hint": "Reserva el creyón más oscuro para las partes pequeñas.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-left-wing": {
+      "title": "Un lado a la vez.",
+      "instruction": "Colorea un lado de rojo con trazos cortos, levantando el creyón.",
+      "spoken": "Coloreo un lado con pequeñas zonas rojas y dejo espacio cerca de las manchas. La línea del medio me ayuda a ver dónde detenerme.",
+      "hint": "Los trazos más pequeños ayudan cerca de una mancha o de la línea divisoria.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-right-wing": {
+      "title": "Rojo en el otro lado.",
+      "instruction": "Haz pequeñas zonas rojas dentro de la otra cubierta del ala.",
+      "spoken": "Ahora coloreo de rojo pequeñas zonas del otro lado. Levanto el creyón entre una zona y otra y dejo espacios blancos sin apurarme a cubrirlos.",
+      "hint": "Puedes dejar espacios blancos entre tus trazos suaves de creyón.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-ladybird-head": {
+      "title": "Una pequeña cabeza oscura.",
+      "instruction": "Haz trazos oscuros muy pequeños dentro de la cabeza.",
+      "spoken": "La cabeza es un espacio pequeño, así que hago movimientos oscuros muy pequeños. Las antenas y patas delgadas quedan como líneas de lápiz.",
+      "hint": "Haz el movimiento más corto cuando el espacio sea más angosto.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-ladybird-spots": {
+      "title": "Pequeñas manchas oscuras.",
+      "instruction": "Si decidiste agregar manchas, coloréalas.",
+      "spoken": "Si dibujaste manchas, pequeñas zonas oscuras caben dentro de ellas. Puedes dejar algunas manchas blancas o saltarte este color.",
+      "hint": "Usa las formas de tus propias manchas como espacios para colorear.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "colour-reflection": {
+      "title": "Descansando junto al camino.",
+      "instruction": "Observa el óvalo grande y sus pequeños detalles.",
+      "spoken": "Mira cómo el óvalo grande contiene las marcas más pequeñas. Nuestra mariquita puede descansar aquí junto a su camino de jardín imaginario.",
+      "hint": "Fíjate en un lugar donde una pequeña marca cambie tu dibujo.",
+      "notice": "Ofrece los creyones que ya tengan. La maestra muestra trazos dentro del contorno; los colores, espacios blancos y marcas del niño pueden ser diferentes. Más tiempo mantiene abierto cualquier momento sin apuro."
+    },
+    "explore": {
+      "title": "Un lugar para descansar.",
+      "instruction": "Inventa un camino de jardín, sigue coloreando o termina aquí.",
+      "spoken": "Tu visitante del jardín podría descansar sobre una hoja o junto a un camino que inventes. Sigue dibujando todo el tiempo que quieras o termina aquí.",
+      "hint": "Una curva larga y suave podría convertirse en un camino de jardín.",
+      "notice": "El ejemplo puede mostrar seis patas sin convertir el dibujo del niño en una prueba de contar. Omitir patas o agregar detalles imaginarios no es un error. Si te lo pide, muestra una línea divisoria sencilla en tu propia hoja."
+    }
+  },
+  "sourceTextSha256": "fbb0b5b0ca9c15f5eaf42c4863af38d4538b4603f074548cc8837a5b35af970b",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Mira"
+    },
+    {
+      "id": "draw",
+      "label": "Dibuja"
+    },
+    {
+      "id": "colour",
+      "label": "Colorea"
+    },
+    {
+      "id": "explore",
+      "label": "Tus propias ideas"
+    }
+  ]
+}

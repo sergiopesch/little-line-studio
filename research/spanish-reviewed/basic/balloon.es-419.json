@@ -1,0 +1,150 @@
+{
+  "locale": "es-419",
+  "status": "reviewed-internally-pending-native-review",
+  "lessonId": "balloon",
+  "title": "Globo flotante",
+  "invitation": "Una forma redonda y un hilo ondulado.",
+  "objective": "Unir un contorno redondeado, un nudo pequeño y una línea ondulada; colorear con trazos cortos dentro del contorno y dejar un espacio blanco para el brillo.",
+  "parentNote": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender.",
+  "simplify": "",
+  "transfer": "¿Podría una línea curva convertirse en la cola de una cometa otro día?",
+  "colouringLabel": "Un poco de color y un poco de brillo",
+  "parentNotes": {
+    "observe": "Vamos a dibujar un globo para una celebración imaginaria en papel. Fíjense en su forma grande y redondeada, su pequeño nudo y su hilo curvo.",
+    "draw": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender.",
+    "colour": "Usen los creyones que tengan. Pueden dejar espacios blancos y elegir sus propios colores. Más tiempo mantiene abierto cualquier momento todo el tiempo que necesiten."
+  },
+  "stages": {
+    "notice": {
+      "title": "Una pequeña celebración en papel.",
+      "instruction": "Fíjate en la gran forma redondeada que está sobre el pequeño nudo.",
+      "spoken": "Vamos a dibujar un globo para una celebración imaginaria en papel. Fíjate en su forma grande y redondeada, su pequeño nudo y su hilo curvo.",
+      "hint": "Solo necesitamos el dibujo, papel, lápiz y colores.",
+      "notice": "Vamos a dibujar un globo para una celebración imaginaria en papel. Fíjense en su forma grande y redondeada, su pequeño nudo y su hilo curvo."
+    },
+    "balloon-outline": {
+      "title": "La forma del globo",
+      "instruction": "Dibuja una figura alta y redondeada, dejando espacio abajo.",
+      "spoken": "Haz una curva alrededor de una figura grande y redondeada hasta volver al comienzo. Dejo espacio debajo para el nudo y el hilo.",
+      "hint": "Un globo ancho o con curvas irregulares también queda bien en tu dibujo.",
+      "notice": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender."
+    },
+    "balloon-knot": {
+      "title": "El nudo del globo",
+      "instruction": "Une un triángulo pequeñito a la parte de abajo.",
+      "spoken": "Un triángulo pequeñito toca la parte de abajo del globo. Bajo, cruzo y vuelvo al mismo punto para hacer nuestro nudo.",
+      "hint": "Deja que el triángulo toque la parte de abajo de tu figura redondeada.",
+      "notice": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender."
+    },
+    "flowing-string": {
+      "title": "El hilo ondulado",
+      "instruction": "Deja que un hilo curvo baje desde el nudo.",
+      "spoken": "Empiezo en el nudo y dejo que una línea vaya bajando. Cambio de dirección suavemente para formar un hilo ondulado.",
+      "hint": "Mira el nudo antes de empezar tu línea larga y curva.",
+      "notice": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender."
+    },
+    "left-bow-loop": {
+      "title": "Un lado del lazo",
+      "instruction": "Si quieres, prueba una pequeña lazada al lado del nudo.",
+      "spoken": "Una curva sale al lado del nudo, da la vuelta y regresa. Tú decides si quieres agregar este lazo.",
+      "hint": "Haz que la curva vuelva al lugar donde comenzó.",
+      "notice": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender."
+    },
+    "right-bow-loop": {
+      "title": "El otro lado del lazo",
+      "instruction": "Si quieres, prueba una lazada al otro lado.",
+      "spoken": "Otra curva puede salir hacia la derecha y volver al nudo. Las lazadas pueden tener tamaños diferentes.",
+      "hint": "Cada lazada se une al nudo; puedes dibujar solo una si quieres.",
+      "notice": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender."
+    },
+    "balloon-shine": {
+      "title": "El brillo del globo",
+      "instruction": "Si quieres, agrega una curva pequeña por dentro para el brillo.",
+      "spoken": "Una curva pequeña sigue parte del borde de arriba. Después dejaré el papel blanco aquí para mostrar un poquito de brillo.",
+      "hint": "Mantén esta curva pequeña dentro del contorno grande y redondeado.",
+      "notice": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender."
+    },
+    "upper-dot": {
+      "title": "Un punto arriba",
+      "instruction": "Si quieres, agrega un punto dentro de tu globo.",
+      "spoken": "Un puntito puede ser el comienzo de un diseño dentro del globo. También puedes dejar el globo sin diseño.",
+      "hint": "Busca un lugar dentro del contorno, lejos del borde.",
+      "notice": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender."
+    },
+    "middle-dot": {
+      "title": "Un punto en el centro",
+      "instruction": "Si quieres, elige otro lugar para hacer un punto.",
+      "spoken": "Otro puntito puede ir en el centro. Levanto el lápiz antes de moverlo a un lugar nuevo.",
+      "hint": "Deja un poquito de espacio alrededor de cada punto que elijas.",
+      "notice": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender."
+    },
+    "lower-dot": {
+      "title": "Un punto abajo",
+      "instruction": "Agrega un último punto o deja los espacios como están.",
+      "spoken": "Un último puntito puede ir más abajo. Unas pocas marcas son suficientes para nuestra celebración en papel.",
+      "hint": "Tu diseño puede tener un punto, muchos puntos o ninguno.",
+      "notice": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender."
+    },
+    "colour-choice": {
+      "title": "Un color alegre.",
+      "instruction": "Elige rojo o un color que te guste.",
+      "spoken": "Yo elijo un rojo cálido para nuestro globo y amarillo para el lazo. En tu celebración puedes usar tus propios colores.",
+      "hint": "Elige los creyones que ya tengas a mano.",
+      "notice": "Usen los creyones que tengan. Pueden dejar espacios blancos y elegir sus propios colores. Más tiempo mantiene abierto cualquier momento todo el tiempo que necesiten."
+    },
+    "colour-body-left": {
+      "title": "Pequeñas zonas rojas.",
+      "instruction": "Colorea un lado con trazos cortos y suaves.",
+      "spoken": "Con trazos cortos de rojo coloreo un lado. Levanto el creyón entre una zona y otra y dejo blanco el pequeño brillo. Los trazos suaves dejan que se vea el papel.",
+      "hint": "Al acercarte al borde, usa trazos más pequeños y suaves.",
+      "notice": "Usen los creyones que tengan. Pueden dejar espacios blancos y elegir sus propios colores. Más tiempo mantiene abierto cualquier momento todo el tiempo que necesiten."
+    },
+    "colour-body-right": {
+      "title": "Por toda la forma redondeada.",
+      "instruction": "Continúa por el globo, manteniéndote dentro del contorno.",
+      "spoken": "Ahora coloreo el otro lado. Voy más despacio cerca del borde y levanto el creyón antes de salir. Los pequeños espacios blancos entre los trazos pueden quedarse así.",
+      "hint": "El contorno te ayuda a ver dónde detenerte y levantar el creyón.",
+      "notice": "Usen los creyones que tengan. Pueden dejar espacios blancos y elegir sus propios colores. Más tiempo mantiene abierto cualquier momento todo el tiempo que necesiten."
+    },
+    "colour-bow": {
+      "title": "Un pequeño lazo amarillo.",
+      "instruction": "Si dibujaste un lazo, colorea sus lazadas de amarillo.",
+      "spoken": "Si agregaste un lazo, prueba unos trazos amarillos pequeñitos dentro de las lazadas. El nudo puede quedarse blanco. También puedes saltarte este color.",
+      "hint": "Los espacios pequeños necesitan trazos pequeños; también puedes dejarlos blancos.",
+      "notice": "Usen los creyones que tengan. Pueden dejar espacios blancos y elegir sus propios colores. Más tiempo mantiene abierto cualquier momento todo el tiempo que necesiten."
+    },
+    "colour-reflection": {
+      "title": "Mira tu pequeña celebración.",
+      "instruction": "Mira la forma redonda, el hilo curvo y el color.",
+      "spoken": "Mira cómo nuestra gran figura redondeada se une a un nudo pequeño y a una línea curva. Tus colores y espacios blancos hacen que este globo sea tuyo.",
+      "hint": "Puedes disfrutar tu dibujo sin cambiarlo ni explicarlo.",
+      "notice": "Usen los creyones que tengan. Pueden dejar espacios blancos y elegir sus propios colores. Más tiempo mantiene abierto cualquier momento todo el tiempo que necesiten."
+    },
+    "explore": {
+      "title": "Tu celebración, tu idea.",
+      "instruction": "Agrega tus propias ideas, sigue coloreando o termina aquí.",
+      "spoken": "¿Qué podrías agregar a tu celebración en papel? Prueba con otro globo o algo que tú inventes. Sigue dibujando todo el tiempo que quieras o termina aquí.",
+      "hint": "¿Podría una línea curva convertirse en la cola de una cometa otro día?",
+      "notice": "Si necesita ayuda, muestra una línea curva en tu propia hoja. Deja que el niño elija la forma y el diseño del globo. El nudo muestra cómo se une el hilo, sin exigir una forma exacta. Usa Pausa, Repetir o Más tiempo cuando ayude; la duración es una estimación ajustable, no un plazo para aprender."
+    }
+  },
+  "sourceTextSha256": "86c73977c6dcb0a9db42e6342bfaf273b70527abe30c609f10254d4e6557850e",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Mira"
+    },
+    {
+      "id": "draw",
+      "label": "Dibuja"
+    },
+    {
+      "id": "colour",
+      "label": "Colorea"
+    },
+    {
+      "id": "explore",
+      "label": "Tus propias ideas"
+    }
+  ]
+}

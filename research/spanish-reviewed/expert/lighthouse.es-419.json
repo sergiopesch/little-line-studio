@@ -1,0 +1,231 @@
+{
+  "locale": "es-419",
+  "reviewStatus": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "lighthouse",
+  "lesson": {
+    "title": "Faro en la costa",
+    "invitation": "Una torre alta junto a un mar ancho.",
+    "objective": "Combinar una torre que se estrecha hacia arriba con una costa y distinguir el primer plano del mar lejano.",
+    "parentNote": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día.",
+    "simplify": "Usen una torre rectangular recta, un techo y una curva para la costa. Dejen fuera las franjas, los objetos lejanos, los haces de luz y el camino; un faro puede ser muy sencillo.",
+    "transfer": "Otro día, prueben una torre de agua o un molino de viento en otro paisaje. Fíjense en su base, su parte superior y dónde toca el suelo usando otra imagen o la imaginación.",
+    "colouringLabel": "Movimientos pequeños de creyón, tus propios colores",
+    "pilotPhases": [
+      {
+        "id": "observe",
+        "label": "Mira"
+      },
+      {
+        "id": "draw",
+        "label": "Dibuja"
+      },
+      {
+        "id": "colour",
+        "label": "Colorea"
+      },
+      {
+        "id": "explore",
+        "label": "Tus propias ideas"
+      }
+    ],
+    "steps": {
+      "notice": {
+        "title": "Una luz sobre una costa tranquila.",
+        "instruction": "Observa la base ancha de la torre y la pequeña linterna que está arriba.",
+        "spoken": "Nuestro faro de papel está junto a un mar tranquilo e imaginario. Fíjate en su base ancha, la parte de arriba más angosta y la pequeña sala de la linterna.",
+        "hint": "Compara el ancho de la parte de abajo con la parte más estrecha de arriba.",
+        "notice": "Miren una imagen de un faro. Comparen su base con la parte de arriba y fíjense dónde se unen la tierra y el agua. Algunas torres son rectas en vez de estrecharse; ambas opciones están bien."
+      },
+      "sea-horizon": {
+        "title": "El horizonte del mar",
+        "instruction": "Dibuja una línea para el mar lejano a través del lado derecho.",
+        "spoken": "Una línea larga para el mar lejano comienza nuestra costa. Deja libre el lado izquierdo para un faro alto, con bastante espacio arriba.",
+        "hint": "Mantén la línea del mar cerca de la parte superior central de la hoja.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "coastline": {
+        "title": "La línea de la costa",
+        "instruction": "Dibuja la costa con una curva y levanta el lápiz para dejar un pequeño espacio para una roca.",
+        "spoken": "Haz una curva para la costa por la parte de abajo del dibujo. Levanta el lápiz y deja un pequeño espacio donde puede ir una roca opcional en primer plano, en vez de dibujar a través de ella.",
+        "hint": "Deja que una curva suelta cambie de dirección por la parte inferior de la hoja.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "tower-left-edge": {
+        "title": "El borde izquierdo de la torre",
+        "instruction": "Inclina el lado izquierdo de la torre suavemente hacia adentro al subir.",
+        "spoken": "Empieza con el borde izquierdo de la torre. Deja que se incline un poco hacia adentro al subir, para que el faro sea más ancho cerca del suelo.",
+        "hint": "Empieza abajo y deja que la línea se incline un poco hacia la derecha.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "tower-right-edge": {
+        "title": "El borde derecho de la torre",
+        "instruction": "Inclina el otro lado hacia adentro, hacia la parte superior angosta.",
+        "spoken": "El otro lado se inclina en la dirección opuesta. Compara el espacio estrecho de arriba con el espacio más ancho de abajo.",
+        "hint": "Deja que el borde derecho se incline un poco hacia la izquierda al subir.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "tower-base": {
+        "title": "La base de la torre",
+        "instruction": "Haz una curva suave a lo largo del borde inferior de la torre.",
+        "spoken": "Una pequeña base curva une los lados de abajo. Esta curva suave ayuda a que la torre parezca redondeada en vez de un triángulo plano.",
+        "hint": "Une los extremos inferiores de la torre con una curva poco profunda.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "lantern-platform": {
+        "title": "La plataforma de la linterna",
+        "instruction": "Agrega una plataforma pequeña y ancha sobre la parte superior de la torre.",
+        "spoken": "Una plataforma pequeña y plana cruza la parte de arriba de la torre. Deja que sus extremos sobresalgan un poco de los bordes angostos de la torre.",
+        "hint": "Usa un rectángulo ancho y delgado sobre la torre.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "lantern-room": {
+        "title": "La sala de la linterna",
+        "instruction": "Pon una pequeña sala rectangular para la linterna sobre la plataforma.",
+        "spoken": "Una pequeña sala para la linterna va sobre la plataforma. Hazla mucho más pequeña que la torre para que se siga viendo la forma alta.",
+        "hint": "Cuatro lados cortos forman la pequeña sala sobre la plataforma.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "lantern-roof": {
+        "title": "El techo de la linterna",
+        "instruction": "Dibuja un techo de punta baja sobre la sala de la linterna.",
+        "spoken": "Dos líneas inclinadas forman un techo de punta baja. Sus extremos inferiores sobresalen un poco a los lados de la sala de la linterna.",
+        "hint": "Sube hasta una punta y después baja inclinado.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "lantern-divider": {
+        "title": "La división de la linterna",
+        "instruction": "Divide la sala de la linterna con una línea vertical delgada.",
+        "spoken": "Una línea vertical delgada representa dos paneles de ventana en la sala de la linterna.",
+        "hint": "Mantén esta línea pequeña dentro de la pequeña sala de arriba.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "lighthouse-door": {
+        "title": "La puerta del faro",
+        "instruction": "Haz una puerta con arco dentro de la base de la torre.",
+        "spoken": "Una puerta pequeña con arco va cerca de la base. Deja espacio entre la puerta y los lados inclinados de la torre.",
+        "hint": "Sube con la línea, rodea un pequeño arco y vuelve a bajar.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "tower-upper-stripe": {
+        "title": "El borde superior de la franja",
+        "instruction": "Si quieres, curva suavemente un borde de la franja alrededor de la torre.",
+        "spoken": "Si quieres una franja, curva suavemente su borde alrededor de la torre. La curva sigue su superficie redondeada; una torre sin franja también está bien.",
+        "hint": "Deja que la franja baje un poco en el medio.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "tower-lower-stripe": {
+        "title": "El borde inferior de la franja",
+        "instruction": "Si agregaste un borde superior para la franja, prueba otro debajo.",
+        "spoken": "Si agregaste el borde superior de la franja, haz otra curva debajo. Deja espacio entre las dos para el color o deja tu torre sin franja.",
+        "hint": "Sigue por debajo del borde superior solo si lo agregaste.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "light-beam-upper": {
+        "title": "El borde superior del haz de luz",
+        "instruction": "Si quieres, deja que una línea larga del haz salga desde la linterna.",
+        "spoken": "Una línea larga opcional desde la linterna representa un haz de luz imaginario. Podemos mostrar su dirección en el dibujo o dejar el cielo libre.",
+        "hint": "Empieza en la linterna y lleva una línea larga hacia la derecha.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "light-beam-lower": {
+        "title": "El borde inferior del haz de luz",
+        "instruction": "Si dibujaste el borde superior del haz, prueba otro debajo.",
+        "spoken": "Si dibujaste el borde superior del haz, una segunda línea puede abrirse por debajo. Si no, deja el haz fuera o mantén el cielo libre.",
+        "hint": "Si agregaste el borde superior del haz, haz que el espacio se ensanche hacia la derecha.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "coastal-rock": {
+        "title": "Una roca en la costa",
+        "instruction": "Si quieres, cierra una roca pequeña e irregular cerca de la costa.",
+        "spoken": "Unos pocos lados cortos y desiguales forman una roca costera. Al hacer los lados un poco diferentes, la roca se ve distinta de nuestra torre cuidadosamente dibujada.",
+        "hint": "Une unos pocos lados cortos y desiguales y después redondea el borde de abajo.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "near-wave": {
+        "title": "Una ola cercana",
+        "instruction": "Si quieres, haz una curva para una pequeña ola cercana a la derecha.",
+        "spoken": "Una pequeña curva que sube y baja puede representar una ola cercana, si quieres.",
+        "hint": "Deja que una curva pequeña suba y vuelva a bajar suavemente.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "far-wave": {
+        "title": "Una ola lejana",
+        "instruction": "Usa una curva más corta para una ola más lejana, si quieres.",
+        "spoken": "Puedes agregar una ola más pequeña cerca del mar lejano o dejar el agua tranquila.",
+        "hint": "Haz una curva corta y baja más arriba en el dibujo.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "coastal-cloud": {
+        "title": "Una nube en la costa",
+        "instruction": "Si quieres, agrega una nube pequeña y suave en el cielo libre.",
+        "spoken": "Una nube suave puede estar en el cielo libre. Unas pocas curvas redondeadas son suficientes; podemos dejar mucho cielo como papel blanco.",
+        "hint": "Une las curvas redondeadas y cierra el borde inferior de la nube.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "distant-boat": {
+        "title": "Un barco lejano",
+        "instruction": "Si quieres, coloca un pequeño barco curvo cerca del horizonte.",
+        "spoken": "Un pequeño barco curvo está lejos, cerca del horizonte. Hazlo pequeño para que parezca lejano junto a nuestro faro mucho más grande.",
+        "hint": "Usa un casco pequeño y curvo debajo de la línea del mar lejano.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "lighthouse-path": {
+        "title": "El camino al faro",
+        "instruction": "Si quieres, deja que un camino de curvas suaves vaya hacia la puerta del faro.",
+        "spoken": "Un camino opcional de curvas suaves puede conducir hacia la puerta. Deja que se curve por la zona de tierra o deja el faro sobre el papel sin camino.",
+        "hint": "Haz una curva desde la parte de abajo de la hoja hacia la pequeña puerta.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      },
+      "colour-choice": {
+        "title": "Una costa con franjas de color.",
+        "instruction": "Elige rojo cálido, amarillo para la linterna y un poco de gris frío.",
+        "spoken": "Dejaré la mayor parte de la torre como papel blanco, agregaré una franja roja cálida y daré a la linterna un brillo amarillo suave.",
+        "hint": "El papel blanco puede ser uno de los colores principales de tu dibujo.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "colour-tower-band": {
+        "title": "Una franja alrededor de la torre.",
+        "instruction": "Colorea entre los bordes de tu franja o deja la torre blanca.",
+        "spoken": "Si dibujaste los dos bordes de la franja, colorea entre ellos con pequeñas zonas rojas. También puedes dejar la torre blanca.",
+        "hint": "Si dibujaste ambos bordes, usa trazos cortos entre ellos.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "colour-lantern": {
+        "title": "Una pequeña linterna cálida.",
+        "instruction": "Colorea los pequeños paneles de amarillo y el techo de rojo cálido.",
+        "spoken": "Los espacios de la linterna son pequeños, así que acorto cada movimiento. Un poco de amarillo y un techo rojo son suficientes para distinguirlos.",
+        "hint": "Los espacios pequeñitos necesitan movimientos pequeños y una presión suave.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "colour-coastal-details": {
+        "title": "Una roca, una puerta y un barco lejano.",
+        "instruction": "Usa pequeñas zonas de colores naturales para los detalles de la costa.",
+        "spoken": "Puedes colorear los detalles costeros que hayas incluido: la roca gris, la puerta marrón o el pequeño barco. El barco lejano solo necesita un toque pequeño.",
+        "hint": "Deja que el tamaño de cada espacio guíe el tamaño del movimiento.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "colour-tower-shadow": {
+        "title": "Un toque ligero de sombra.",
+        "instruction": "Si quieres, oscurece un poco una franja estrecha a un lado de la torre.",
+        "spoken": "Una franja de gris claro en un lado puede sugerir sombra junto al papel blanco. Es una pequeña idea extra y puedes dejarla fuera.",
+        "hint": "Usa una capa suave; la torre puede seguir siendo mayormente blanca.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "colour-reflect": {
+        "title": "Una torre que parece redondeada.",
+        "instruction": "Observa la base curva y cualquier franja o sombra que hayas agregado.",
+        "spoken": "Mira la base curva de la torre. La franja curva o el lado gris claro que hayas agregado también pueden ayudar a que este dibujo plano sugiera una torre redondeada.",
+        "hint": "Observa la base curva o un pequeño cambio de color que hayas elegido.",
+        "notice": "Usen los creyones disponibles y movimientos cómodos. Pueden dejar espacios blancos y elegir otros colores. Más tiempo mantiene abierto cualquier momento sin apuro."
+      },
+      "explore": {
+        "title": "Tu costa imaginaria.",
+        "instruction": "Sigue coloreando o agrega algo pequeño a lo largo de la costa que dibujaste.",
+        "spoken": "Puedes agregar otro barco lejano, cambiar el color de la franja o dejar el mar tranquilo y libre. Continúa o termina tu dibujo del faro aquí.",
+        "hint": "Mantén pequeños los detalles lejanos para que el faro siga siendo la forma principal.",
+        "notice": "Invita al niño o a la niña a señalar la tierra y el mar en el ejemplo. Si te lo pide, muestra en otra hoja dos líneas inclinadas una hacia la otra. Explica que las líneas del haz de luz son una manera de dibujarlo, no algo que tenga que verse de día."
+      }
+    },
+    "sourceSha256": "f3857c864a5f87cea052dcb583c7ec553445583a1131605f94b8d9d3a99620f2"
+  }
+}

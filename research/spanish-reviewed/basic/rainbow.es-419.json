@@ -1,0 +1,185 @@
+{
+  "locale": "es-419",
+  "status": "reviewed-internally-pending-native-review",
+  "lessonId": "rainbow",
+  "title": "Arcoíris",
+  "invitation": "Curvas, colores y espacio para imaginar.",
+  "objective": "Dibujar arcos uno junto a otro y observar cuáles están dentro o fuera.",
+  "parentNote": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color.",
+  "simplify": "",
+  "transfer": "¿Podrían un arco grande y otro más pequeño formar la entrada de un túnel?",
+  "colouringLabel": "Una franja curva de color a la vez",
+  "parentNotes": {
+    "observe": "Miren el ejemplo del arcoíris. Fíjense cómo un arco está dentro de otro.",
+    "draw": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color.",
+    "colour": "Muestra cómo usar los colores que estén disponibles en la hoja del niño. Puede hacer menos franjas, inventar colores o dejar espacios blancos. Más tiempo mantiene abierto cualquier momento."
+  },
+  "stages": {
+    "notice": {
+      "title": "Colores después de la lluvia.",
+      "instruction": "Fíjate cómo un arco está dentro de otro.",
+      "spoken": "Vamos a dibujar un arcoíris sobre nuestro jardín imaginario. La luz del sol, al pasar por pequeñas gotas de agua, puede mostrar muchos colores. Fíjate cómo unas curvas están dentro de otras.",
+      "hint": "Podemos aprender con este dibujo de la pantalla.",
+      "notice": "Miren el ejemplo del arcoíris. Fíjense cómo un arco está dentro de otro."
+    },
+    "outer-arch": {
+      "title": "El arco de afuera",
+      "instruction": "Haz un arco grande: sube, pasa por arriba y baja.",
+      "spoken": "Empieza abajo a la izquierda, sube con una curva, pasa por arriba y baja. Un arco amplio deja espacio para las curvas más pequeñas.",
+      "hint": "Prueba el movimiento por encima de la hoja antes de hacer tu trazo.",
+      "notice": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color."
+    },
+    "second-arch": {
+      "title": "El segundo arco",
+      "instruction": "Dibuja un arco más pequeño por dentro y deja un poco de espacio.",
+      "spoken": "Otro arco va por dentro. Sigue la misma curva y deja un espacio pequeño entre las líneas. En ese espacio irá el color.",
+      "hint": "Mira el espacio mientras sigues la curva.",
+      "notice": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color."
+    },
+    "third-arch": {
+      "title": "El tercer arco",
+      "instruction": "Agrega una curva dentro de la anterior.",
+      "spoken": "Agrega un arco más pequeño y deja otra franja para el color. Me fijo en el espacio mientras dibujo la curva.",
+      "hint": "Una franja puede ser más ancha en una parte que en otra.",
+      "notice": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color."
+    },
+    "fourth-arch": {
+      "title": "El cuarto arco",
+      "instruction": "Sigue la forma con otra curva más pequeña.",
+      "spoken": "Y ahora una curva más por dentro. Mueve la mano despacio al pasar por arriba y después deja que la línea baje.",
+      "hint": "Mueve toda la mano suavemente alrededor de la parte curva de arriba.",
+      "notice": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color."
+    },
+    "fifth-arch": {
+      "title": "El quinto arco",
+      "instruction": "Si tienes espacio, prueba otro arco por dentro.",
+      "spoken": "Ahora viene una curva más pequeña. Deja una abertura en el medio o deja de agregar arcos cuando quieras.",
+      "hint": "Si sientes que hay poco espacio, puedes dejar esta curva fuera.",
+      "notice": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color."
+    },
+    "sixth-arch": {
+      "title": "El sexto arco",
+      "instruction": "Si quieres, agrega otra curva más pequeña.",
+      "spoken": "Sigue la curva una vez más. Las líneas pueden salir un poco temblorosas; no tienen que ser iguales.",
+      "hint": "Una curva un poquito temblorosa puede quedarse así.",
+      "notice": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color."
+    },
+    "seventh-arch": {
+      "title": "El séptimo arco",
+      "instruction": "Si hay espacio, haz otra franja pequeña.",
+      "spoken": "Un arco pequeño forma otra franja de color. Si sientes que ya hay poco espacio en el centro, puedes dejarlo fuera.",
+      "hint": "Tu dibujo puede tener menos franjas que nuestro ejemplo.",
+      "notice": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color."
+    },
+    "inner-arch": {
+      "title": "El arco de adentro",
+      "instruction": "Agrega un último arco pequeño o deja la abertura.",
+      "spoken": "Nuestra última curva pequeña deja una abertura debajo. En el ejemplo, ocho líneas forman siete espacios para colorear.",
+      "hint": "Si quieres, deja una abertura debajo de tu curva más pequeña.",
+      "notice": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color."
+    },
+    "left-cloud": {
+      "title": "La nube de la izquierda",
+      "instruction": "Si quieres, une curvas suaves alrededor de los extremos de la izquierda.",
+      "spoken": "Vamos a agregar una nube alrededor de estos extremos. Une unas curvas suaves y después haz una curva por debajo. En nuestro dibujo, el arcoíris queda detrás de la nube.",
+      "hint": "Lleva las curvas de la nube hasta los extremos de tus arcos.",
+      "notice": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color."
+    },
+    "right-cloud": {
+      "title": "La nube de la derecha",
+      "instruction": "Si quieres, agrega una nube alrededor de los otros extremos.",
+      "spoken": "Otra nube puede rodear los extremos del otro lado. Une sus curvas con una curva por debajo o deja esta nube fuera.",
+      "hint": "Cada nube puede tener su propio tamaño y sus propias curvas.",
+      "notice": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color."
+    },
+    "colour-choice": {
+      "title": "Elige tus creyones.",
+      "instruction": "Reúne los colores que tengas; unos pocos son suficientes.",
+      "spoken": "Nuestro dibujo usa siete colores con nombre. En los arcoíris de verdad, los colores se mezclan entre sí. Usa los creyones que tengas; también puedes usar menos colores.",
+      "hint": "Elige los colores que tengas a mano. Puedes dejar algunas franjas blancas.",
+      "notice": "Muestra cómo usar los colores que estén disponibles en la hoja del niño. Puede hacer menos franjas, inventar colores o dejar espacios blancos. Más tiempo mantiene abierto cualquier momento."
+    },
+    "colour-red": {
+      "title": "Rojo por fuera.",
+      "instruction": "Sigue la franja de afuera con curvas cortas de color rojo.",
+      "spoken": "Empiezo con rojo por fuera. Los trazos cortos y curvos siguen el arco. Levanto el creyón, avanzo un poquito y coloreo la siguiente zona.",
+      "hint": "Sigue la curva suavemente. Puedes dejar pequeños espacios blancos.",
+      "notice": "Muestra cómo usar los colores que estén disponibles en la hoja del niño. Puede hacer menos franjas, inventar colores o dejar espacios blancos. Más tiempo mantiene abierto cualquier momento."
+    },
+    "colour-orange": {
+      "title": "Naranja junto al rojo.",
+      "instruction": "Colorea de naranja la siguiente franja, una zona a la vez.",
+      "spoken": "El naranja va justo por dentro del rojo. Cambio la dirección para colorear la siguiente zona pequeña y levanto el creyón entre movimientos.",
+      "hint": "Prueba unos trazos, levanta el creyón y avanza un poco.",
+      "notice": "Muestra cómo usar los colores que estén disponibles en la hoja del niño. Puede hacer menos franjas, inventar colores o dejar espacios blancos. Más tiempo mantiene abierto cualquier momento."
+    },
+    "colour-yellow": {
+      "title": "Una franja amarilla.",
+      "instruction": "Sigue la próxima franja curva con amarillo.",
+      "spoken": "Ahora viene el amarillo, siguiendo la misma curva. Al colorear suavemente, el color queda claro y podemos ver el papel a través de él.",
+      "hint": "Puedes girar la hoja para alcanzar la curva.",
+      "notice": "Muestra cómo usar los colores que estén disponibles en la hoja del niño. Puede hacer menos franjas, inventar colores o dejar espacios blancos. Más tiempo mantiene abierto cualquier momento."
+    },
+    "colour-green": {
+      "title": "El verde sigue la curva.",
+      "instruction": "Agrega verde por dentro de la franja amarilla.",
+      "spoken": "El verde va por dentro del amarillo. Sigo una parte pequeña de la curva, levanto el creyón y empiezo de nuevo. Cada zona coloreada se une a nuestro arcoíris.",
+      "hint": "Fíjate dónde termina un color antes de comenzar el siguiente.",
+      "notice": "Muestra cómo usar los colores que estén disponibles en la hoja del niño. Puede hacer menos franjas, inventar colores o dejar espacios blancos. Más tiempo mantiene abierto cualquier momento."
+    },
+    "colour-blue": {
+      "title": "Un poquito de azul.",
+      "instruction": "Sigue la próxima franja interior con azul.",
+      "spoken": "Ahora el azul se curva por dentro del verde. Estas franjas son más pequeñas, así que hago movimientos más cortos con mi creyón. Puedes dejar pequeños espacios.",
+      "hint": "Haz trazos más cortos donde la curva sea más pequeña.",
+      "notice": "Muestra cómo usar los colores que estén disponibles en la hoja del niño. Puede hacer menos franjas, inventar colores o dejar espacios blancos. Más tiempo mantiene abierto cualquier momento."
+    },
+    "colour-indigo": {
+      "title": "Una franja azul oscuro.",
+      "instruction": "Si tienes azul oscuro, pruébalo en la siguiente franja.",
+      "spoken": "Este azul oscuro se llama índigo. Lo uso en la siguiente franja. También puedes usar otro azul o el color que tú elijas.",
+      "hint": "Usa el azul que tengas; no necesitas un creyón especial.",
+      "notice": "Muestra cómo usar los colores que estén disponibles en la hoja del niño. Puede hacer menos franjas, inventar colores o dejar espacios blancos. Más tiempo mantiene abierto cualquier momento."
+    },
+    "colour-violet": {
+      "title": "Violeta por dentro.",
+      "instruction": "Colorea la franja más cercana al centro de violeta o morado.",
+      "spoken": "El violeta, que es un tono morado, sigue nuestra franja de más adentro. Los trazos cortos y suaves dejan el centro abierto. Yo dejo las nubes blancas como el papel.",
+      "hint": "Puedes dejar las nubes blancas o elegir tus propios colores.",
+      "notice": "Muestra cómo usar los colores que estén disponibles en la hoja del niño. Puede hacer menos franjas, inventar colores o dejar espacios blancos. Más tiempo mantiene abierto cualquier momento."
+    },
+    "colour-reflection": {
+      "title": "Mira tus curvas de colores.",
+      "instruction": "Fíjate cómo tus colores siguen los arcos.",
+      "spoken": "Mira las curvas y los colores juntos. Cada arco más pequeño está dentro de otro. ¿Qué color te gustaría volver a usar?",
+      "hint": "No necesitas cambiar ni explicar tu dibujo.",
+      "notice": "Muestra cómo usar los colores que estén disponibles en la hoja del niño. Puede hacer menos franjas, inventar colores o dejar espacios blancos. Más tiempo mantiene abierto cualquier momento."
+    },
+    "explore": {
+      "title": "Tu jardín, tu idea.",
+      "instruction": "Agrega tu propio mundo, sigue coloreando o termina aquí.",
+      "spoken": "¿Qué podría crecer debajo de tu arcoíris? Agrega un jardín, un camino o algo que tú inventes. Sigue dibujando todo el tiempo que quieras o termina aquí.",
+      "hint": "¿Podrían dos de estos arcos formar un túnel otro día?",
+      "notice": "Muestra cómo hacer un arco en el aire. Si el niño pide más espacio, sugiere hacer el primer arco más grande. En esta actividad de movimiento no hacen falta siete colores, un orden exacto, espacios iguales ni nubes simétricas; un arcoíris imaginario puede tener cualquier color."
+    }
+  },
+  "sourceTextSha256": "901ea475f90232900935635835794d64d7824418962aa74c4d437430b85fc5a2",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Mira"
+    },
+    {
+      "id": "draw",
+      "label": "Dibuja"
+    },
+    {
+      "id": "colour",
+      "label": "Colorea"
+    },
+    {
+      "id": "explore",
+      "label": "Tus propias ideas"
+    }
+  ]
+}
