@@ -7,7 +7,7 @@ dist/
 .openai/
 output/
 .playwright-cli/
-media/
+/media/
 /media/elevenlabs/
 __pycache__/
 *.log
