@@ -57,6 +57,15 @@
       ]
     },
     {
+      "source": "/brand/social-card.png",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
       "source": "/assets/(.*)",
       "headers": [
         {

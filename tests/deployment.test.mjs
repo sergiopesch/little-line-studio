@@ -18,6 +18,30 @@ test("Vercel enforces the same headers as the preview", async () => {
   }
 });
 
+test("sharing metadata points to a real preview while search indexing stays disabled", async () => {
+  const document = await readFile(new URL("../dist/client/index.html", import.meta.url), "utf8");
+  const robots = await readFile(new URL("../dist/client/robots.txt", import.meta.url), "utf8");
+  const vercel = JSON.parse(await readFile(new URL("../vercel.json", import.meta.url), "utf8"));
+  const meta = (key) => document.match(new RegExp(`<meta (?:name|property)="${key}" content="([^"]+)"`))?.[1];
+  const site = "https://little-line-studio.vercel.app/";
+  assert.match(meta("robots"), /\bnoindex\b/);
+  assert.equal(meta("og:url"), site);
+  assert.equal(meta("og:title"), meta("twitter:title"));
+  assert.equal(meta("og:description"), meta("twitter:description"));
+  assert.equal(meta("og:image"), `${site}brand/social-card.png`);
+  assert.equal(meta("twitter:image"), meta("og:image"));
+  assert.ok(meta("og:image:alt"));
+  assert.match(robots, /^Disallow: \/$/m);
+  assert.match(robots, /^Allow: \/\$$/m);
+  assert.match(robots, /^Allow: \/brand\/social-card\.png\$$/m);
+  const card = await readFile(new URL("../dist/client/brand/social-card.png", import.meta.url));
+  assert.equal(card.subarray(0, 8).toString("hex"), "89504e470d0a1a0a");
+  assert.equal(card.readUInt32BE(16), Number(meta("og:image:width")));
+  assert.equal(card.readUInt32BE(20), Number(meta("og:image:height")));
+  const imageHeaders = vercel.headers.find(({ source }) => source === "/brand/social-card.png").headers;
+  assert.ok(imageHeaders.some(({ key, value }) => key === "X-Robots-Tag" && value === "noindex"));
+});
+
 test("hosted builds without a key select review entry; local and keyed builds retain tldraw", () => {
   const previous = process.env.VITE_TLDRAW_LICENSE_KEY;
   try {

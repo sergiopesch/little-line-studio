@@ -18,6 +18,8 @@ Import `sergiopesch/little-line-studio` into the intended Vercel account/team. U
 
 The host applies the same restrictive Content Security Policy as local preview. Microphone, camera, geolocation and related browser capabilities are disabled. Content-addressed media and bundled assets are cacheable; the entry document is revalidated. The policy blocks tldraw's optional external diagnostics while leaving local licence validation unchanged.
 
+The homepage and social preview use the production URL in `index.html`. If the production domain changes, update the canonical, Open Graph and Twitter image URLs together. The branded social card is `public/brand/social-card.png` (1200 × 630). Search indexing is disabled: the homepage declares `noindex, nofollow`, and Vercel sends `X-Robots-Tag: noindex` for the social card. `robots.txt` allows crawlers to fetch those resources so they can see the indexing rules and sharing services can read the preview; it disallows other paths. Crawling and indexing are separate, and search services may take time to reflect changes.
+
 ## Production licence
 
 Set `VITE_TLDRAW_LICENSE_KEY` in Vercel's Production and Preview environment settings before deploying the active lesson. This is a browser-readable SDK licence by design, not a private AI-provider credential. Keep it out of Git and documentation. Confirm the signature, expiry and allowed domains; preview deployments may need additional domain coverage.
