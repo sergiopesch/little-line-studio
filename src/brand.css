@@ -49,6 +49,9 @@ h2,
   gap: 24px;
   align-items: center;
 }
+.mobile-how-link {
+  display: none;
+}
 .home-nav .quiet-button {
   font-size: 17px;
   min-height: 44px;
@@ -523,6 +526,18 @@ button.drawing-choice:not(:disabled):active {
   }
   .home-nav .quiet-button:first-child {
     display: none;
+  }
+  .home-intro .mobile-how-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 4px 6px;
+    color: var(--ink);
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
   .home-intro {
     padding: 5px 0 0;

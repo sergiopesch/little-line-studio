@@ -58,6 +58,9 @@ export function Home({ onExplore, onPrivacy, onHow }) {
         <p className="together-note">
           <HeartIcon size={21} weight="bold" /> {t("Draw on paper. Make it yours.")}
         </p>
+        <button className="mobile-how-link" onClick={onHow}>
+          {t("How it works")}
+        </button>
       </section>
       <section className="level-choices" aria-label={t("Choose a drawing level")}>
         {LEVELS.map((level) => (

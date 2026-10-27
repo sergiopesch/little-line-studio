@@ -6,22 +6,31 @@ export function regionContains(point, boundary) {
   let winding = 0;
   for (let i = 0; i < boundary.length; i++) {
     const a = boundary[i], b = boundary[(i + 1) % boundary.length];
+    const crossesUp = a.y <= point.y && b.y > point.y;
+    const crossesDown = a.y > point.y && b.y <= point.y;
+    if (!crossesUp && !crossesDown) continue;
     const side = (b.x - a.x) * (point.y - a.y) - (point.x - a.x) * (b.y - a.y);
-    if (a.y <= point.y && b.y > point.y && side > 0) winding++;
-    else if (a.y > point.y && b.y <= point.y && side < 0) winding--;
+    if (crossesUp && side > 0) winding++;
+    else if (crossesDown && side < 0) winding--;
   }
   return winding !== 0;
 }
 
-function edgeDistance(point, boundary) {
-  let distance = Infinity;
+function hasEdgeClearance(point, boundary, margin) {
+  const minimumSquared = margin * margin;
   for (let i = 0; i < boundary.length; i++) {
     const a = boundary[i], b = boundary[(i + 1) % boundary.length];
+    // A segment whose bounding box is already outside the clearance circle
+    // cannot be the nearest unsafe edge. Most contour segments end here.
+    const xGap = Math.max(0, Math.min(a.x, b.x) - point.x, point.x - Math.max(a.x, b.x));
+    const yGap = Math.max(0, Math.min(a.y, b.y) - point.y, point.y - Math.max(a.y, b.y));
+    if (xGap * xGap + yGap * yGap >= minimumSquared) continue;
     const dx = b.x - a.x, dy = b.y - a.y;
     const t = Math.max(0, Math.min(1, ((point.x - a.x) * dx + (point.y - a.y) * dy) / (dx * dx + dy * dy || 1)));
-    distance = Math.min(distance, Math.hypot(point.x - a.x - dx * t, point.y - a.y - dy * t));
+    const x = point.x - a.x - dx * t, y = point.y - a.y - dy * t;
+    if (x * x + y * y < minimumSquared) return false;
   }
-  return distance;
+  return true;
 }
 
 /**
@@ -83,7 +92,7 @@ export function regionPatch({ id, boundary, colour, cx, cy, rx, ry, angle = 0, w
       segment = [];
     };
     for (const point of sampleEvenly(curve, 0.75)) {
-      if (regionContains(point, boundary) && edgeDistance(point, boundary) >= margin) segment.push(point);
+      if (regionContains(point, boundary) && hasEdgeClearance(point, boundary, margin)) segment.push(point);
       else finish();
     }
     finish();

@@ -165,6 +165,7 @@ const SPANISH = {
   "Stop hint": "Detener la pista",
   "Hear the hint": "Escuchar la pista",
   "Try it together": "Intenten hacerlo juntos",
+  "For this drawing": "Para este dibujo",
   "Try a larger shape or leave out a detail. Your version is welcome.": "Prueben una forma más grande u omitan un detalle. Tu versión es bienvenida.",
   "Back to this step": "Volver a este paso",
   "A little step. Then your turn.": "Un pequeño paso. Luego te toca a ti.",

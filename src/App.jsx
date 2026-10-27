@@ -915,7 +915,7 @@ export function App() {
             {t(speaking ? "Stop hint" : "Hear the hint")}
           </button>
           <div className="gentle-note">
-            <strong>{t("Try it together")}</strong>
+            <strong>{t(step.notice === selectedLesson.parentNote ? "For this drawing" : "Try it together")}</strong>
             <p>{step.notice.replace(/^\p{L}/u, (letter) => letter.toLocaleUpperCase(languageId))}</p>
           </div>
           <p className="settings-note">
