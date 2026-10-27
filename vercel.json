@@ -96,16 +96,44 @@
       ],
       "status": 405,
       "headers": {
-        "Allow": "GET, HEAD"
+        "Content-Security-Policy": "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; media-src 'self' blob:; connect-src 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; worker-src 'none'",
+        "Permissions-Policy": "microphone=(), camera=(), geolocation=(), display-capture=(), payment=(), usb=()",
+        "Referrer-Policy": "no-referrer",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "DENY",
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "Cross-Origin-Resource-Policy": "same-origin",
+        "Allow": "GET, HEAD",
+        "Cache-Control": "no-store"
       }
     },
     {
       "src": "/(?:[^/]+/)*\\.[^/]*(?:/.*)?",
-      "status": 404
+      "status": 404,
+      "headers": {
+        "Content-Security-Policy": "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; media-src 'self' blob:; connect-src 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; worker-src 'none'",
+        "Permissions-Policy": "microphone=(), camera=(), geolocation=(), display-capture=(), payment=(), usb=()",
+        "Referrer-Policy": "no-referrer",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "DENY",
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "Cross-Origin-Resource-Policy": "same-origin",
+        "Cache-Control": "no-store"
+      }
     },
     {
       "src": "/(?:api|src|config|worker|scripts|tests|research|node_modules)(?:/.*)?",
-      "status": 404
+      "status": 404,
+      "headers": {
+        "Content-Security-Policy": "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; media-src 'self' blob:; connect-src 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; worker-src 'none'",
+        "Permissions-Policy": "microphone=(), camera=(), geolocation=(), display-capture=(), payment=(), usb=()",
+        "Referrer-Policy": "no-referrer",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "DENY",
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "Cross-Origin-Resource-Policy": "same-origin",
+        "Cache-Control": "no-store"
+      }
     }
   ]
 }

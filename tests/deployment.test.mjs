@@ -12,6 +12,10 @@ test("Vercel enforces the same headers as the preview", async () => {
   assert.equal(vercel.outputDirectory, "dist/client");
   assert.equal(vercel.buildCommand, "npm run check");
   assert.ok(vercel.routes.some((route) => route.status === 405 && route.methods.includes("POST")));
+  for (const route of vercel.routes.filter((route) => route.status >= 400)) {
+    for (const [name, value] of Object.entries(securityHeaders)) assert.equal(route.headers[name], value, `${route.src}: ${name}`);
+    assert.equal(route.headers["Cache-Control"], "no-store");
+  }
 });
 
 test("hosted builds without a key select review entry; local and keyed builds retain tldraw", () => {

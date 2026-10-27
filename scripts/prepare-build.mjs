@@ -118,6 +118,10 @@ const globalHeaders = Object.fromEntries(
 );
 for (const [name, value] of Object.entries(securityHeaders)) {
   if (globalHeaders[name] !== value) throw new Error(`Vercel security header mismatch: ${name}`);
+  for (const route of vercel.routes ?? []) {
+    if (route.status >= 400 && route.headers?.[name] !== value)
+      throw new Error(`Vercel rejection header mismatch: ${route.src}: ${name}`);
+  }
 }
 
 // A completion receipt makes failed validation distinguishable from a usable build.
