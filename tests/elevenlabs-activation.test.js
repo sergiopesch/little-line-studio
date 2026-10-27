@@ -12,6 +12,7 @@ spec = importlib.util.spec_from_file_location('activation', 'scripts/activate-el
 a = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(a)
 real_root, real_probe, real_which = a.ROOT, a.probe_mp3, shutil.which
+real_check_output = subprocess.check_output
 TEXTS = {'sample':'Hello.', 'cat/head/instruction':'Draw a circle.', 'cat/head/hint':'Try one soft curve.'}
 SPEECH = b'ID3' + b'stage-speech' * 200
 MUSIC = b'ID3' + b'stage-music' * 200
@@ -32,6 +33,14 @@ class ActivationTests(unittest.TestCase):
         self.music_catalogue_patch.start()
         self.tools_patch = patch.object(a.shutil, 'which', return_value='/fixture/ffprobe')
         self.tools_patch.start()
+        # These activation fixtures already mock encoding and probing. Keep the
+        # encoder-version query independent of the host's optional ffmpeg install.
+        def tool_output(command, *args, **kwargs):
+            if command == ['ffmpeg', '-version']:
+                return 'ffmpeg version activation-fixture\n'
+            return real_check_output(command, *args, **kwargs)
+        self.version_patch = patch.object(a.subprocess, 'check_output', side_effect=tool_output)
+        self.version_patch.start()
         (self.root / '.gitignore').write_text('/media/elevenlabs/\n')
         self.bundle = self.root / 'media/elevenlabs/bundles' / PLAN
         self.bundle.mkdir(parents=True)
@@ -51,6 +60,7 @@ class ActivationTests(unittest.TestCase):
         self.notice.write_text('Existing voice notice remains the owner responsibility.\n')
 
     def tearDown(self):
+        self.version_patch.stop()
         self.music_catalogue_patch.stop()
         self.tools_patch.stop()
         self.catalogue_patch.stop()
@@ -352,6 +362,14 @@ class ActivationTests(unittest.TestCase):
         self.music_bundle()
         with patch.object(a,'derive_music_loop',side_effect=a.SafeError('injected local loop failure')):
             with self.assertRaises(a.SafeError): a.activate(self.bundle,reviewed=True,loop_music=True)
+        self.assert_originals(); self.assertFalse(self.activation_records())
+
+    def test_invalid_encoder_version_cannot_activate_or_modify_media(self):
+        self.music_bundle()
+        with patch.object(a.subprocess, 'check_output', return_value='unrecognised encoder'), \
+             patch.object(a, 'derive_music_loop') as derive:
+            with self.assertRaises(a.SafeError): a.activate(self.bundle,reviewed=True,loop_music=True)
+            derive.assert_not_called()
         self.assert_originals(); self.assertFalse(self.activation_records())
 
     def test_multiple_overrides_and_all_three_fallbacks_activate_with_complete_loop_provenance(self):
