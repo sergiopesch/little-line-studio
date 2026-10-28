@@ -8,6 +8,9 @@ import manifest from "../src/narration-manifest.json" with { type: "json" };
 import narrationIndex from "../src/narration-index.json" with { type: "json" };
 import narrationDurations from "../src/narration-durations.json" with { type: "json" };
 import spanishIndex from "../src/narration-index.es-419.json" with { type: "json" };
+import frenchIndex from "../src/narration-index.fr-FR.json" with { type: "json" };
+import irishIndex from "../src/narration-index.en-IE.json" with { type: "json" };
+import scottishIndex from "../src/narration-index.en-GB-x-scotland.json" with { type: "json" };
 
 const [SOURCE, OTHER_SOURCE] = [
   ...new Set(Object.values(manifest.clips).map((clip) => clip.src)),
@@ -367,8 +370,8 @@ test("all thirty lessons ship matching instruction/hint transcripts and intact r
   }
   assert.deepEqual(
     new Set(packaged),
-    new Set([...unique.keys(), ...Object.values(spanishIndex)].map((src) => src.split("/").at(-1))),
-    "The public narration directory must contain only indexed English and Spanish clips",
+    new Set([...unique.keys(), ...[spanishIndex, frenchIndex, irishIndex, scottishIndex].flatMap(Object.values)].map((src) => src.split("/").at(-1))),
+    "The public narration directory must contain only indexed locale clips",
   );
   assert.equal(unique.size, generationSources.size,
     "The current individually scripted requests retain their own matching audio assets");

@@ -23,8 +23,9 @@ export const languageAvailableForLevel = (id, levelId) =>
 export function languageAvailabilityCopy(
   spanishReady = getLanguage("es-419")?.ready === true,
   partial = spanishReady && spanishCount > 0 && spanishCount < LESSONS.length,
+  otherReady = ready("fr-FR") || ready("en-IE") || ready("en-GB-x-scotland"),
 ) {
-  if (ready("fr-FR") || ready("en-IE") || ready("en-GB-x-scotland")) return {
+  if (otherReady) return {
     banner: "Choose a language for your drawing",
     note: "Choose an available language. More languages are in preparation.",
   };

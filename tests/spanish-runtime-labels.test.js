@@ -6,12 +6,13 @@ import { LESSONS } from "../src/lesson-catalogue.js";
 import { localizeLesson } from "../src/spanish-lessons.js";
 
 test("language availability copy reflects whether Spanish is ready", () => {
-  assert.match(languageAvailabilityCopy(false).banner, /^English ready/);
-  assert.match(languageAvailabilityCopy(false).note, /^British English is ready/);
-  assert.match(languageAvailabilityCopy(true, false).banner, /^English and Spanish ready/);
-  assert.match(languageAvailabilityCopy(true, false).note, /Latin American Spanish are ready/);
-  assert.match(languageAvailabilityCopy(true, true).banner, /some Spanish lessons/);
-  assert.match(languageAvailabilityCopy(true, true).note, /other Spanish drawings are being prepared/);
+  assert.match(languageAvailabilityCopy(false, false, false).banner, /^English ready/);
+  assert.match(languageAvailabilityCopy(false, false, false).note, /^British English is ready/);
+  assert.match(languageAvailabilityCopy(true, false, false).banner, /^English and Spanish ready/);
+  assert.match(languageAvailabilityCopy(true, false, false).note, /Latin American Spanish are ready/);
+  assert.match(languageAvailabilityCopy(true, true, false).banner, /some Spanish lessons/);
+  assert.match(languageAvailabilityCopy(true, true, false).note, /other Spanish drawings are being prepared/);
+  assert.equal(languageAvailabilityCopy(true, false, true).banner, "Choose a language for your drawing");
 });
 
 test("every demonstration has a localized, accurate screen-reader label", () => {

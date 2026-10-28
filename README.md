@@ -37,15 +37,16 @@ We are building toward accessible, multilingual drawing practice with clear adul
 | Feature | Current release |
 | --- | --- |
 | Drawing collection | 30 authored lessons: 10 Basic, 10 Intermediate, 10 Expert |
-| British English | All 30 lessons, prepared narration and hints |
+| British, Irish and Scottish English | All 30 lessons, with separate prepared voices and hints |
 | Latin American Spanish | All 30 lessons, with Venezuelan-accented Carito narration and hints |
-| Other languages | French, German, Italian and Dutch shown as preparing |
+| French | All 30 lessons, with prepared narration and hints |
+| Other languages | German, Italian and Dutch shown as preparing |
 | Teaching | Stories, observation, native tldraw demonstrations, colouring and open exploration |
 | Sound | Prepared voice recordings and optional instrumental music, served with the site |
 | Family controls | Adult setup, unlimited pause/replay/more time, mute and interruption handling |
 | Accessibility | Large labelled controls, keyboard focus, reduced motion and text instructions |
 
-Spanish editorial and technical checks are complete for the enabled set; independent native-speaker review and full human listening remain pending. Levels describe drawing complexity, not age, ability or an assessment of a child.
+The new French, Irish and Scottish catalogues and the Spanish catalogue have passed automated preparation checks. Independent native-speaker review and full human listening remain pending; French text has received assistant editorial review. Levels describe drawing complexity, not age, ability or an assessment of a child.
 
 ## Paper first, parent supervised
 
@@ -90,7 +91,7 @@ docs/         Development, deployment and README media
 vercel.json   Hosting configuration; deploys only dist/client
 ```
 
-Vercel runs `npm run check` before publishing. Failed tests or inconsistent Spanish audio stop the deployment. See [deployment and rollback](docs/deployment.md).
+Vercel runs `npm run check` before publishing. Failed tests or inconsistent released narration stop the deployment. See [deployment and rollback](docs/deployment.md).
 
 ## Project status and rights
 

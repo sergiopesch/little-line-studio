@@ -6,7 +6,7 @@ The Basic lessons and intermediate Dog, Turtle, Butterfly, Owl and Sailboat were
 
 Two source-geometry ambiguities were identified independently and require visual integration review. The robot antenna circle is about one source-coordinate unit away from the line: French describes it as near the tip rather than requiring contact. The fruit bowl's upper banana stroke is continuous, though the English text describes lifting when hidden: French describes a continuous upper curve. English, Spanish and geometry were not changed. The lower banana edge retains its separate hidden-section instruction.
 
-The approved audition is Gaëlle (`tKaoyJLW05zqV0tIH9FD`); no French catalogue audio has been generated here. The exact sample text is included in `scripts/plan-french-narration.py`. The plan binds `fr` and the voice ID in every v4 dialogue request. The central coordinator owns quota reconciliation, account-wide spending controls, production integration and deployment.
+The approved voice is Gaëlle (`tKaoyJLW05zqV0tIH9FD`); the full catalogue was subsequently generated and verified through the shared guarded workflow. The exact sample text is included in `scripts/plan-french-narration.py`. The plan binds `fr` and the voice ID in every v4 dialogue request. The central coordinator owns quota reconciliation, account-wide spending controls, production integration and deployment.
 
 ## Offline bundle and staging
 

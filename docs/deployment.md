@@ -14,7 +14,7 @@ Import `sergiopesch/little-line-studio` into the intended Vercel account/team. U
 | Output | `dist/client` |
 | Production branch | `main` |
 
-`npm run check` builds the app, verifies Spanish narration metadata and asset hashes, checks hosting-header consistency, then runs all tests. Only `dist/client` is published; source, research, local environment files and build receipts remain outside it. The interface uses local state at `/`, so there is no catch-all rewrite that could disguise missing assets as successful HTML responses.
+`npm run check` builds the app, verifies released narration metadata and asset hashes for each locale, checks hosting-header consistency, then runs all tests. Only `dist/client` is published; source, research, local environment files and build receipts remain outside it. The interface uses local state at `/`, so there is no catch-all rewrite that could disguise missing assets as successful HTML responses.
 
 The host applies the same restrictive Content Security Policy as local preview. Microphone, camera, geolocation and related browser capabilities are disabled. Content-addressed media and bundled assets are cacheable; the entry document is revalidated. The policy blocks tldraw's optional external diagnostics while leaving local licence validation unchanged.
 
