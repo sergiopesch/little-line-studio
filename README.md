@@ -38,7 +38,7 @@ We are building toward accessible, multilingual drawing practice with clear adul
 | --- | --- |
 | Drawing collection | 30 authored lessons: 10 Basic, 10 Intermediate, 10 Expert |
 | British English | All 30 lessons, prepared narration and hints |
-| Latin American Spanish | 19 lessons with complete narration; 11 still being prepared |
+| Latin American Spanish | All 30 lessons, with Venezuelan-accented Carito narration and hints |
 | Other languages | French, German, Italian and Dutch shown as preparing |
 | Teaching | Stories, observation, native tldraw demonstrations, colouring and open exploration |
 | Sound | Prepared voice recordings and optional instrumental music, served with the site |
@@ -94,7 +94,7 @@ Vercel runs `npm run check` before publishing. Failed tests or inconsistent Span
 
 ## Project status and rights
 
-This is an evolving family drawing project. Automated checks do not establish educational efficacy, legal compliance, comprehensive accessibility or safeguarding approval. Our next steps are educator/family evaluation, native-language listening review, completing Spanish narration and carefully reviewing additional languages.
+This is an evolving family drawing project. Automated checks do not establish educational efficacy, legal compliance, comprehensive accessibility or safeguarding approval. Our next steps are educator/family evaluation, native-language listening review and carefully reviewing additional languages.
 
 The initial hosted release uses a tldraw evaluation licence that expires **8 November 2026**. A replacement production licence is required before it expires. Keys are excluded from this repository, and the SDK's licence enforcement is unchanged. See the [tldraw licensing documentation](https://tldraw.dev/community/license).
 

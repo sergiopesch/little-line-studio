@@ -34,7 +34,7 @@ No `ELEVENLABS_API_KEY`, OpenAI key or generation credentials belong in Vercel. 
 2. Check the preview on desktop and mobile: collection, language, drawing, adult acknowledgement, Begin, narration, demonstration, Pause, More time, Replay and mute.
 3. Confirm the actual production URL is accessible without a Vercel login. Keep preview protection enabled as appropriate.
 4. Check `/`, a JS asset, an MP3 range request, and a missing asset. Verify security headers and confirm private paths such as `/.env.local` and `/src/main.jsx` return 404.
-5. Check an English lesson and an enabled Spanish lesson. Confirm unavailable Spanish drawings remain disabled.
+5. Check an English lesson and a Spanish lesson, including one of the newly completed drawings.
 
 With Git integration, pushes to `main` trigger production builds, and other branches create previews. The build includes the test gate. Native listening, family acceptance and educational review remain separate from automated checks.
 

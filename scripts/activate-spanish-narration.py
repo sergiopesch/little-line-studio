@@ -3,11 +3,14 @@
 
 This command does not contact a provider, create speech, select a voice, or
 review translations/audio. It requires an explicitly selected voice ID and
-either --reviewed or --partial-release-approved. Staged metadata must declare
-locale es-419 and that voice ID.
+one of --reviewed, --partial-release-approved, or
+--full-catalogue-review-pending. Staged metadata must declare locale es-419
+and that voice ID.
 The reviewed mode requires the complete catalogue. A user-approved partial
 mode requires an explicit proper subset of complete lessons and does not
-assert native-speaker or full human listening review. Audio is content-addressed
+assert native-speaker or full human listening review. The full-catalogue
+review-pending mode requires every lesson and records the same review limits.
+Audio is content-addressed
 and added only; English metadata and assets are never replaced or retired.
 """
 import argparse
@@ -167,7 +170,7 @@ def prepare_bundle(bundle, expected_texts, voice_id):
             DURATIONS: durations, MANIFEST: manifest}, assets
 
 
-def prepare_release_metadata(bundle, expected_texts, voice_id, coverage, partial):
+def prepare_release_metadata(bundle, expected_texts, voice_id, coverage, partial, review_pending=False):
     """Build verified release metadata in memory; this does not activate it."""
     if not isinstance(coverage, list) or coverage != sorted(lesson_keys(expected_texts)):
         raise SafeError("Release coverage must match the complete selected lesson keys.")
@@ -184,6 +187,14 @@ def prepare_release_metadata(bundle, expected_texts, voice_id, coverage, partial
             "fullHumanListeningReview": "pending",
             "automatedChecks": automated_checks,
             "assertion": "The user approved releasing these completed lessons while independent language and full listening review remain pending.",
+        })
+    elif review_pending:
+        manifest.update(reviewStatus="full-catalogue-review-pending", review={
+            "operatorConfirmedReviewed": False,
+            "nativeSpeakerReview": "pending",
+            "fullHumanListeningReview": "pending",
+            "automatedChecks": ["source-linked runtime translation agreement", "exact lesson and sample key coverage",
+                                "plan, request and cache receipt identities", "audio hashes, encoding and durations"],
         })
     # The descriptor is inserted last so activation writes it last.
     metadata[AVAILABILITY] = {"schemaVersion": 1, "locale": LOCALE, "lessons": coverage}
@@ -268,9 +279,10 @@ def require_clean_journals():
             raise SafeError("A previous Spanish activation requires recovery before another activation.")
 
 
-def activate(selected, voice_id, reviewed=False, *, partial_release_approved=False, lesson_ids=None):
-    if (reviewed is True) == (partial_release_approved is True):
-        raise SafeError("Choose either --reviewed or --partial-release-approved, not both.")
+def activate(selected, voice_id, reviewed=False, *, partial_release_approved=False, lesson_ids=None,
+             full_catalogue_review_pending=False):
+    if sum(value is True for value in (reviewed, partial_release_approved, full_catalogue_review_pending)) != 1:
+        raise SafeError("Choose exactly one activation review mode.")
     if not isinstance(voice_id, str) or not VOICE.fullmatch(voice_id):
         raise SafeError("Supply the explicitly selected Spanish voice ID.")
     if not shutil.which("ffprobe"):
@@ -283,7 +295,8 @@ def activate(selected, voice_id, reviewed=False, *, partial_release_approved=Fal
         previous_keys = existing_release(all_texts)
         if not previous_keys <= set(expected_texts):
             raise SafeError("Activation cannot withdraw previously available Spanish narration keys.")
-        metadata, assets = prepare_release_metadata(bundle, expected_texts, voice_id, coverage, partial_release_approved)
+        metadata, assets = prepare_release_metadata(bundle, expected_texts, voice_id, coverage, partial_release_approved,
+                                                    full_catalogue_review_pending)
         snapshots = {}
         for relative in metadata:
             path = base.ROOT / relative
@@ -306,6 +319,9 @@ def activate(selected, voice_id, reviewed=False, *, partial_release_approved=Fal
                   "metadata": {}, "newAssets": []}
         if partial_release_approved is True:
             record.update(nativeSpeakerReview="pending", fullHumanListeningReview="pending",
+                          automatedChecks=metadata[MANIFEST]["review"]["automatedChecks"])
+        if full_catalogue_review_pending is True:
+            record.update(fullCatalogueReviewPending=True, nativeSpeakerReview="pending", fullHumanListeningReview="pending",
                           automatedChecks=metadata[MANIFEST]["review"]["automatedChecks"])
         for relative, data in snapshots.items():
             record["metadata"][relative] = {"existed": data is not None, "sha256": base.sha(data) if data is not None else None}
@@ -369,6 +385,8 @@ def activate(selected, voice_id, reviewed=False, *, partial_release_approved=Fal
                 "uniqueAssets": len(assets), "backup": backup.relative_to(base.ROOT).as_posix(),
                 "review": ("The user approved this partial release; native-speaker and full human listening review remain pending."
                            if partial_release_approved is True else
+                           "Full catalogue prepared; native-speaker and full human listening review remain pending."
+                           if full_catalogue_review_pending is True else
                            "Operator asserted --reviewed; automated validation did not listen to audio or review translations.")}
 
 
@@ -379,11 +397,14 @@ def main():
     approval = parser.add_mutually_exclusive_group(required=True)
     approval.add_argument("--reviewed", action="store_true")
     approval.add_argument("--partial-release-approved", action="store_true")
+    approval.add_argument("--full-catalogue-review-pending", action="store_true")
     parser.add_argument("--lessons", help="Explicit comma-separated complete lesson IDs for an approved partial release.")
     args = parser.parse_args()
     lesson_ids = args.lessons.split(",") if args.lessons is not None else None
-    print(json.dumps(activate(args.bundle, args.voice_id, args.reviewed,
-                              partial_release_approved=args.partial_release_approved, lesson_ids=lesson_ids), indent=2))
+    options = {"partial_release_approved": args.partial_release_approved, "lesson_ids": lesson_ids}
+    if args.full_catalogue_review_pending:
+        options["full_catalogue_review_pending"] = True
+    print(json.dumps(activate(args.bundle, args.voice_id, args.reviewed, **options), indent=2))
 
 
 if __name__ == "__main__":

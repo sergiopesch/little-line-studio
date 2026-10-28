@@ -129,6 +129,31 @@ class SpanishActivationTests(unittest.TestCase):
                          {'schemaVersion': 1, 'locale': a.LOCALE, 'lessons': ['cat', 'fish', 'sun']})
         self.assert_english_untouched()
 
+    def test_complete_catalogue_can_record_pending_human_review(self):
+        result = a.activate(self.bundle, VOICE, full_catalogue_review_pending=True)
+        self.assertEqual(result['coveredLessons'], ['cat', 'fish', 'sun'])
+        self.assertFalse(result['partialCatalogue'])
+        manifest = json.loads((self.root / a.MANIFEST).read_text())
+        self.assertEqual(manifest['reviewStatus'], 'full-catalogue-review-pending')
+        self.assertFalse(manifest['review']['operatorConfirmedReviewed'])
+        self.assertEqual(manifest['review']['nativeSpeakerReview'], 'pending')
+        self.assertEqual(manifest['review']['fullHumanListeningReview'], 'pending')
+        journal = json.loads((self.root / result['backup'] / 'activation.json').read_text())
+        self.assertTrue(journal['fullCatalogueReviewPending'])
+        self.assertFalse(journal['operatorConfirmedReviewed'])
+        self.assert_english_untouched()
+
+    def test_pending_full_catalogue_rejects_partial_or_conflicting_modes(self):
+        self.make_bundle_for(['cat'])
+        before = self.spanish_metadata()
+        with self.assertRaises(a.SafeError):
+            a.activate(self.bundle, VOICE, full_catalogue_review_pending=True)
+        with self.assertRaises(a.SafeError):
+            a.activate(self.bundle, VOICE, full_catalogue_review_pending=True, lesson_ids=['cat'])
+        with self.assertRaises(a.SafeError):
+            a.activate(self.bundle, VOICE, True, full_catalogue_review_pending=True)
+        self.assertEqual(self.spanish_metadata(), before)
+
     def test_approved_partial_records_exact_coverage_without_claiming_human_review(self):
         self.make_bundle_for(['cat'])
         cache_before = {p.relative_to(self.root): p.read_bytes()
