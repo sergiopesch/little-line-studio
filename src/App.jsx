@@ -116,18 +116,22 @@ export function App() {
     (!selectedUnavailable && ["settings", "help"].includes(overlay)) ||
     (!selectedUnavailable && lesson.phase === "gate" && !overlay);
 
-  const quiet = useCallback(() => {
+  const stopNarration = useCallback(() => {
     setMusicPreview(false);
     speechVersion.current++;
-    audioRef.current?.setBlocked(true);
     audioRef.current?.stopSpeech();
     audioRef.current?.cancelPreparedClip();
     setSpeaking(false);
   }, []);
+  const quiet = useCallback(() => {
+    audioRef.current?.setBlocked(true);
+    stopNarration();
+  }, [stopNarration]);
   const closeOverlay = useCallback(() => {
-    quiet();
+    if (overlay === "help") stopNarration();
+    else quiet();
     setOverlay(null);
-  }, [quiet]);
+  }, [overlay, quiet, stopNarration]);
 
   useEffect(() => {
     mounted.current = true;
@@ -222,7 +226,8 @@ export function App() {
     else void narrate("sample", true);
   }
   function openOverlay(value) {
-    quiet();
+    if (value === "help" && active) stopNarration();
+    else quiet();
     setOverlay(value);
   }
   async function enableMusic() {
@@ -427,9 +432,10 @@ export function App() {
     active: active && (boardReady || boardUnavailable),
   });
   const previewAllowed = musicPreview && lesson.phase === "gate" && !overlay;
+  const helpMusicAllowed = lesson.phase === "drawing" && !selectedUnavailable && overlay === "help";
   useEffect(() => {
     audioRef.current?.setBlocked(
-      !previewAllowed && !active,
+      !previewAllowed && !active && !helpMusicAllowed,
     );
     audioRef.current?.setTeaching(
       speaking || (!previewAllowed && (playback.state?.stage !== "practice" || demoPlaying)),
@@ -437,6 +443,7 @@ export function App() {
     if (!audioAllowed) quiet();
   }, [
     active,
+    helpMusicAllowed,
     playback.state?.stage,
     demoPlaying,
     speaking,
@@ -905,7 +912,7 @@ export function App() {
             disabled={!voiceAvailable}
             onClick={() =>
               speaking
-                ? quiet()
+                ? stopNarration()
                 : void narrate(
                     narrationKey(selectedLesson, lesson.step, "hint"),
                     true,

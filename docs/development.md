@@ -22,7 +22,7 @@ Generated caches and provider receipts belong in ignored `media/`; provider cred
 
 The child draws on paper. Preserve the read-only teaching board, local adult acknowledgement, deterministic sequence, quiet practice and open exploration. Keep Pause, Replay and More time available; do not catch up after interruptions. Media completion is a prerequisite for the trusted controller, not authority delegated to an AI model.
 
-Retain the default-on music choice and adult Begin gesture, opt-out, mute, immediate interruption silence, keyboard focus and reduced-motion handling. Do not add capture, uploads, accounts, tracking or stored child profiles as incidental implementation changes.
+Retain the default-on music choice and adult Begin gesture, opt-out, mute, immediate safety-interruption silence, keyboard focus and reduced-motion handling. Help preserves the music position and ducks beneath spoken hints; pauses, leaving the lesson, other dialogs and hidden tabs silence playback. Do not add capture, uploads, accounts, tracking or stored child profiles as incidental implementation changes.
 
 ## README media
 
