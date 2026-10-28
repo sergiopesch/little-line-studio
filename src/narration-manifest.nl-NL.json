@@ -21774,16 +21774,16 @@
       "voiceId": "DiUBVrSFwkMaPz4XqWvR"
     },
     "house/house-flower-stem/hint": {
-      "src": "/narration/clip-ab244e5d8578cac13992ccd2c894a87a58120bbde93924b9016a9e83e536e7e4.mp3",
-      "sha256": "ab244e5d8578cac13992ccd2c894a87a58120bbde93924b9016a9e83e536e7e4",
+      "src": "/narration/clip-6b4e4d039d9a406249475a078cdee0434858622e67e84a5f16f8b786c67b0676.mp3",
+      "sha256": "6b4e4d039d9a406249475a078cdee0434858622e67e84a5f16f8b786c67b0676",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "bfc8e649549dcbbac248de0f2dafbf175efd086003c98d5308cde73c78c6aed2",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-19.290:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -21800,7 +21800,76 @@
         "language_code": "nl"
       },
       "text": "Kies een vrije plek in de tuin, weg van het pad.",
-      "voiceId": "DiUBVrSFwkMaPz4XqWvR"
+      "voiceId": "DiUBVrSFwkMaPz4XqWvR",
+      "source": {
+        "src": "/narration/clip-ab244e5d8578cac13992ccd2c894a87a58120bbde93924b9016a9e83e536e7e4.mp3",
+        "sha256": "ab244e5d8578cac13992ccd2c894a87a58120bbde93924b9016a9e83e536e7e4",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "bfc8e649549dcbbac248de0f2dafbf175efd086003c98d5308cde73c78c6aed2",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Kies een vrije plek in de tuin, weg van het pad.",
+              "voice_id": "DiUBVrSFwkMaPz4XqWvR"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "nl"
+        },
+        "text": "Kies een vrije plek in de tuin, weg van het pad.",
+        "voiceId": "DiUBVrSFwkMaPz4XqWvR"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "ab244e5d8578cac13992ccd2c894a87a58120bbde93924b9016a9e83e536e7e4",
+        "rawSourceSha256": "dd4d34a340e1f733113de58119fab32574412d3fe8c3260fa550850a96950daa",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-19.290:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "c796db18cdd4b2b9cfe2759f2675218fb26a349bb03526438c328400de9d483b",
+        "before": {
+          "integratedLufs": -23.51,
+          "truePeakDbtp": -2.47
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.22,
+          "truePeakDbtp": -2.86
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.71,
+            "truePeakDbtp": -2.88
+          },
+          {
+            "targetLufs": -19.29,
+            "integratedLufs": -20.22,
+            "truePeakDbtp": -2.86
+          }
+        ]
+      }
     },
     "house/house-flower-stem/instruction": {
       "src": "/narration/clip-b1234c0307a176743288496e86b7aec4528a0ebb6ee0cc403a57c34da0ac15bf.mp3",
@@ -22760,16 +22829,16 @@
       "voiceId": "DiUBVrSFwkMaPz4XqWvR"
     },
     "ice-cream/cherry-stalk/hint": {
-      "src": "/narration/clip-65f665d2753d9aef92b0528f132d1ba24cc18ddd0646281e7a6d874af8db7576.mp3",
-      "sha256": "65f665d2753d9aef92b0528f132d1ba24cc18ddd0646281e7a6d874af8db7576",
+      "src": "/narration/clip-3e6fd551a2b0bd8e67c95b84a93dca3d52a6b446750db9fe412b8b60f515df97.mp3",
+      "sha256": "3e6fd551a2b0bd8e67c95b84a93dca3d52a6b446750db9fe412b8b60f515df97",
       "bytes": 46018,
       "duration": 2.8,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "1d373087b9bee3e02a8ce5886160c673d464a872bbaf3f34e39722fbeb87d663",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -22786,7 +22855,71 @@
         "language_code": "nl"
       },
       "text": "Begin boven aan je kleine kersencirkel.",
-      "voiceId": "DiUBVrSFwkMaPz4XqWvR"
+      "voiceId": "DiUBVrSFwkMaPz4XqWvR",
+      "source": {
+        "src": "/narration/clip-65f665d2753d9aef92b0528f132d1ba24cc18ddd0646281e7a6d874af8db7576.mp3",
+        "sha256": "65f665d2753d9aef92b0528f132d1ba24cc18ddd0646281e7a6d874af8db7576",
+        "bytes": 46018,
+        "duration": 2.8,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "1d373087b9bee3e02a8ce5886160c673d464a872bbaf3f34e39722fbeb87d663",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Begin boven aan je kleine kersencirkel.",
+              "voice_id": "DiUBVrSFwkMaPz4XqWvR"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "nl"
+        },
+        "text": "Begin boven aan je kleine kersencirkel.",
+        "voiceId": "DiUBVrSFwkMaPz4XqWvR"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "65f665d2753d9aef92b0528f132d1ba24cc18ddd0646281e7a6d874af8db7576",
+        "rawSourceSha256": "1b1bb91a8f9bfda6b5ad15419ab5f27e48de37bd78f6a170a7299c5412413f4f",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "56a2a1c00c84221a22cca1e45929613d2893f29cfdf9f66a25ff5b0b50a568e1",
+        "before": {
+          "integratedLufs": -23.21,
+          "truePeakDbtp": -2.46
+        },
+        "decodedVerification": {
+          "integratedLufs": -19.72,
+          "truePeakDbtp": -2.94
+        },
+        "decodedSamples": 123480,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -19.72,
+            "truePeakDbtp": -2.94
+          }
+        ]
+      }
     },
     "ice-cream/cherry-stalk/instruction": {
       "src": "/narration/clip-70402c822bb9f4e8996d0375d86a67a0e20f3df02e7c53492f28bc557c063647.mp3",
@@ -24326,16 +24459,16 @@
       "voiceId": "DiUBVrSFwkMaPz4XqWvR"
     },
     "ladybird/left-lower-leg/hint": {
-      "src": "/narration/clip-95a0305da5f07a156c2bbbd068703ffe636fa667d305212921490655012fd769.mp3",
-      "sha256": "95a0305da5f07a156c2bbbd068703ffe636fa667d305212921490655012fd769",
+      "src": "/narration/clip-2cb4e08750cc0b10fdee16b4efc006e0ca7452a589ca2fcc85e1614e166cc8dd.mp3",
+      "sha256": "2cb4e08750cc0b10fdee16b4efc006e0ca7452a589ca2fcc85e1614e166cc8dd",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "a43f736968c9e3bcc2b29feeeceff20c100ee1333e6d4192fdcbe2c2beb5dfba",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-19.080:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -24352,7 +24485,76 @@
         "language_code": "nl"
       },
       "text": "Elk pootje mag op zijn eigen manier buigen.",
-      "voiceId": "DiUBVrSFwkMaPz4XqWvR"
+      "voiceId": "DiUBVrSFwkMaPz4XqWvR",
+      "source": {
+        "src": "/narration/clip-95a0305da5f07a156c2bbbd068703ffe636fa667d305212921490655012fd769.mp3",
+        "sha256": "95a0305da5f07a156c2bbbd068703ffe636fa667d305212921490655012fd769",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "a43f736968c9e3bcc2b29feeeceff20c100ee1333e6d4192fdcbe2c2beb5dfba",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Elk pootje mag op zijn eigen manier buigen.",
+              "voice_id": "DiUBVrSFwkMaPz4XqWvR"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "nl"
+        },
+        "text": "Elk pootje mag op zijn eigen manier buigen.",
+        "voiceId": "DiUBVrSFwkMaPz4XqWvR"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "95a0305da5f07a156c2bbbd068703ffe636fa667d305212921490655012fd769",
+        "rawSourceSha256": "ae7e01793f945cdca070ee7a50dbc14f777f32ebd5b15b89bfae138c24005bf7",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-19.080:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "a145ec2ada0658a7ea3f7e5d8a3501d66a21bbc1f3c863682cbfebaa8f1767b3",
+        "before": {
+          "integratedLufs": -23.51,
+          "truePeakDbtp": -2.44
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.14,
+          "truePeakDbtp": -2.93
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.92,
+            "truePeakDbtp": -2.92
+          },
+          {
+            "targetLufs": -19.08,
+            "integratedLufs": -20.14,
+            "truePeakDbtp": -2.93
+          }
+        ]
+      }
     },
     "ladybird/left-lower-leg/instruction": {
       "src": "/narration/clip-e08c8eb39830f6a8c5d25a4a211fcb441b5fc9a11933cefc9e370399539de4dc.mp3",
@@ -35172,16 +35374,16 @@
       "voiceId": "DiUBVrSFwkMaPz4XqWvR"
     },
     "sailboat/boat-bird-left-wing/hint": {
-      "src": "/narration/clip-e0a3deb6f3bc09edbf09552a444aba3f652b137fbd349af0615862ab61cc8bb1.mp3",
-      "sha256": "e0a3deb6f3bc09edbf09552a444aba3f652b137fbd349af0615862ab61cc8bb1",
+      "src": "/narration/clip-cbd9870fb13c1fac9ad23f3d9d6ac60c36583ebae31a9463109ca9f711f745b7.mp3",
+      "sha256": "cbd9870fb13c1fac9ad23f3d9d6ac60c36583ebae31a9463109ca9f711f745b7",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "3c1171a3c8972540381264c6ac85d10ced9d6ce08529314a1249e9d3f67731b6",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -35198,7 +35400,71 @@
         "language_code": "nl"
       },
       "text": "Houd dit boogje op een vrije plek in de lucht.",
-      "voiceId": "DiUBVrSFwkMaPz4XqWvR"
+      "voiceId": "DiUBVrSFwkMaPz4XqWvR",
+      "source": {
+        "src": "/narration/clip-e0a3deb6f3bc09edbf09552a444aba3f652b137fbd349af0615862ab61cc8bb1.mp3",
+        "sha256": "e0a3deb6f3bc09edbf09552a444aba3f652b137fbd349af0615862ab61cc8bb1",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "3c1171a3c8972540381264c6ac85d10ced9d6ce08529314a1249e9d3f67731b6",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Houd dit boogje op een vrije plek in de lucht.",
+              "voice_id": "DiUBVrSFwkMaPz4XqWvR"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "nl"
+        },
+        "text": "Houd dit boogje op een vrije plek in de lucht.",
+        "voiceId": "DiUBVrSFwkMaPz4XqWvR"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "e0a3deb6f3bc09edbf09552a444aba3f652b137fbd349af0615862ab61cc8bb1",
+        "rawSourceSha256": "43c7827ab310c1d3e5412a5b57e75096ce15895f682b3bd10ac1ec5a1f689c44",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "4fd4c0340960c84ee0e42172fbd586731a354801a3da86267fd7d21e3fad9d9c",
+        "before": {
+          "integratedLufs": -23.39,
+          "truePeakDbtp": -2.45
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.48,
+          "truePeakDbtp": -2.92
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.48,
+            "truePeakDbtp": -2.92
+          }
+        ]
+      }
     },
     "sailboat/boat-bird-left-wing/instruction": {
       "src": "/narration/clip-df83724a5f1b31ce567324ada7d5c0533d02d47eaeaadd23479ea344663476f7.mp3",
@@ -40711,16 +40977,16 @@
       "voiceId": "DiUBVrSFwkMaPz4XqWvR"
     },
     "tree-path/tree-grass/hint": {
-      "src": "/narration/clip-eee8fb5e6597b6adad070f86d398463b3c4ca5e9908995d38468c27af639396f.mp3",
-      "sha256": "eee8fb5e6597b6adad070f86d398463b3c4ca5e9908995d38468c27af639396f",
+      "src": "/narration/clip-e430bbdfa7af1d77ab85934afb6707111c9bdcdccdd7cc86384a188c9edc9b4c.mp3",
+      "sha256": "e430bbdfa7af1d77ab85934afb6707111c9bdcdccdd7cc86384a188c9edc9b4c",
       "bytes": 43510,
       "duration": 2.64,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "9d9e52b194be0fb5d0bbe14efb9b6b518cfcb0463ad541e6e80f33561edac66c",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=116424",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -40737,7 +41003,71 @@
         "language_code": "nl"
       },
       "text": "Houd dit kleine grasstreepje bij de grond.",
-      "voiceId": "DiUBVrSFwkMaPz4XqWvR"
+      "voiceId": "DiUBVrSFwkMaPz4XqWvR",
+      "source": {
+        "src": "/narration/clip-eee8fb5e6597b6adad070f86d398463b3c4ca5e9908995d38468c27af639396f.mp3",
+        "sha256": "eee8fb5e6597b6adad070f86d398463b3c4ca5e9908995d38468c27af639396f",
+        "bytes": 43510,
+        "duration": 2.64,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "9d9e52b194be0fb5d0bbe14efb9b6b518cfcb0463ad541e6e80f33561edac66c",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Houd dit kleine grasstreepje bij de grond.",
+              "voice_id": "DiUBVrSFwkMaPz4XqWvR"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "nl"
+        },
+        "text": "Houd dit kleine grasstreepje bij de grond.",
+        "voiceId": "DiUBVrSFwkMaPz4XqWvR"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "eee8fb5e6597b6adad070f86d398463b3c4ca5e9908995d38468c27af639396f",
+        "rawSourceSha256": "8b309ffeab5cb287c616a2d30e9fbd60f2008681f09a5580fc67cbd680312cc8",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=116424",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "cd3f4bb8f8a437258fbf5eb50171c3c90082cec5e351a2b385be44159b8d4e0e",
+        "before": {
+          "integratedLufs": -24.35,
+          "truePeakDbtp": -2.47
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.48,
+          "truePeakDbtp": -2.92
+        },
+        "decodedSamples": 116424,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.48,
+            "truePeakDbtp": -2.92
+          }
+        ]
+      }
     },
     "tree-path/tree-grass/instruction": {
       "src": "/narration/clip-5d56c55bad4cfeedc074f300f68e115e218e9be07c4494eed6147d00aa216841.mp3",
@@ -42427,5 +42757,21 @@
     "tree-path",
     "turtle"
   ],
-  "partialCatalogue": false
+  "partialCatalogue": false,
+  "localProcessing": {
+    "recipe": {
+      "version": 1,
+      "name": "short-speech-loudness",
+      "maximumSeconds": 3,
+      "correctionBelowLufs": -23,
+      "targetLufs": -20,
+      "maximumDecodedTruePeakDbtp": -2,
+      "paddingSeconds": 4,
+      "maximumPasses": 3,
+      "loudnessToleranceLu": 0.5,
+      "preserveDecodedSampleCount": true
+    },
+    "correctedAssets": 5,
+    "review": "automated loudness, true-peak and sample-count verification; human listening pending"
+  }
 }

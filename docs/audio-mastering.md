@@ -10,6 +10,8 @@ The staged manifest keeps the original clip under `source` and records the local
 
 The release retains 25 of these offline French corrections. One castle bridge hint was also rewritten as two clearer sentences and recorded again in the same approved voice: “Pars de la porte. Trace un trait en biais, vers le bas et vers la gauche.” The replacement lasts 4.4 seconds and measured −20.87 LUFS with a −2.39 dBTP peak. Local speech recognition reproduced the drawing directions; its `Part`/`Pars` difference is an inaudible spelling distinction. The written imperative remains `Pars`. The other short-clip recognition differences were spelling choices such as `ses`/`ces` and `patte`/`pâte`, also present when checking the original audio.
 
+The completed Dutch catalogue contained 77 short recordings, of which five required the same correction. Their encoded results measured −20.48 to −19.72 LUFS, with true peaks no higher than −2.86 dBTP. Local speech recognition matched four exactly; the fifth joined `boven aan` as `bovenaan`, a spacing difference with the same spoken sequence. The Italian catalogue's 18 short recordings needed no correction. All nine locale catalogues have now undergone the short-recording screen. These results remain automated evidence, not independent native-speaker or full human listening approval.
+
 To prepare a correction in an isolated checkout:
 
 ```sh
