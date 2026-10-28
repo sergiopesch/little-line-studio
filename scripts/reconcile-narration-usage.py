@@ -114,6 +114,24 @@ def closed_cohorts(directory, voices, rate):
     return groups, day
 
 
+def voice_catalogue(client):
+    # Shared library voices can be omitted from the default account listing.
+    # Include them explicitly, matching the generation preflight's scope.
+    voices, seen, token = [], set(), None
+    while True:
+        query = {'page_size': 100, 'include_live_moderated': 'true'}
+        if token: query['next_page_token'] = token
+        page = client._call_once('/v2/voices?' + urlencode(query))
+        if not isinstance(page, dict) or not isinstance(page.get('voices'), list):
+            raise ValueError('Unexpected authenticated voice catalogue.')
+        voices.extend(page['voices'])
+        if not page.get('has_more'): return voices
+        token = page.get('next_page_token')
+        if not isinstance(token, str) or not token or token in seen or len(seen) >= 100:
+            raise ValueError('Voice catalogue pagination did not terminate safely.')
+        seen.add(token)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--shared-root', type=Path, required=True)
@@ -134,7 +152,7 @@ def main():
         client = audio.APIClient(shared_audio.load_key(args.shared_root / '.env.elevenlabs.local'))
         # The metrics API labels voices by name. Refuse ambiguous or changed
         # labels using the current authenticated account catalogue.
-        available = client.voices()
+        available = voice_catalogue(client)
         names = {}
         for voice in args.voice:
             matches = [v for v in available if v.get('voice_id') == voice]

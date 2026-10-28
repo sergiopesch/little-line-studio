@@ -7,6 +7,17 @@ test('usage reconciliation requires matched closed cohorts and cannot replay or 
 import importlib.util,copy
 s=importlib.util.spec_from_file_location('usage','scripts/reconcile-narration-usage.py')
 m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+from unittest.mock import Mock
+client=Mock()
+client._call_once.side_effect=[{'voices':[{'voice_id':'saved'}],'has_more':True,'next_page_token':'next'}, {'voices':[{'voice_id':'shared'}],'has_more':False}]
+assert len(m.voice_catalogue(client))==2
+assert all('include_live_moderated=true' in call.args[0] for call in client._call_once.call_args_list)
+assert 'next_page_token=next' in client._call_once.call_args_list[1].args[0]
+client._call_once.side_effect=None
+client._call_once.return_value={'voices':[],'has_more':True,'next_page_token':'loop'}
+try:m.voice_catalogue(client)
+except ValueError:pass
+else:raise AssertionError('Repeated cursor must stop')
 ledger={'pending':None,'blocked':False,'starting':{'used':0},'last':{'used':100},'committedReservations':300,'cap':1000,'minimum':100,'creditCeiling':'1','spent':300}
 cohort={'voiceId':'voice','requestIds':['a','b'],'characters':200,'reserved':200,'providerRequests':2.0,'providerCharacters':200.0000000001,'providerCredits':100.0}
 result=m.reconcile(ledger,[cohort],120,'proof')
