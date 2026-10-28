@@ -12,5 +12,6 @@ This source snapshot records complete authored lesson audio included in the rele
 | es-ES | 30 | 1461 |
 | de-DE | 30 | 1461 |
 | it-IT | 30 | 1461 |
+| nl-NL | 30 | 1461 |
 
-Dutch remains in preparation. Music is shared by lesson; Help retains soft music and Pause stops both tracks.
+All nine demo locales include the complete catalogue. Music is shared by lesson; Help retains soft music and Pause stops both tracks.
