@@ -6,6 +6,7 @@ import {
 } from "node:fs";
 import path from "node:path";
 import { createHash } from "node:crypto";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { securityHeaders } from "../config/security.js";
 import { LESSONS } from "../src/lesson-catalogue.js";
@@ -109,6 +110,96 @@ for (const [key, expectedText] of expectedTexts) {
     throw new Error(`Inconsistent Spanish narration asset length: ${key}`);
 }
 
+// Additional languages must be complete and source-matched before they can
+// become selectable. Empty descriptors remain unavailable during preparation.
+async function validateAdditionalLocale(locale, voice, sampleFile, translateLesson) {
+  const descriptorFile = `narration-availability.${locale}.json`;
+  if (!existsSync(path.join(root, "src", descriptorFile))) return { lessons: 0, assets: 0 };
+  const descriptor = readSpanishMetadata(descriptorFile);
+  const clipIndex = readSpanishMetadata(`narration-index.${locale}.json`);
+  const durations = readSpanishMetadata(`narration-durations.${locale}.json`);
+  if (!isRecord(descriptor) || descriptor.schemaVersion !== 1 || descriptor.locale !== locale ||
+      !Array.isArray(descriptor.lessons) || !isRecord(clipIndex) || !isRecord(durations) ||
+      descriptor.lessons.some((id, index, ids) => typeof id !== "string" || !byId.has(id) ||
+        (index > 0 && ids[index - 1] >= id))) throw new Error(`Invalid ${locale} availability`);
+  if (descriptor.lessons.length && descriptor.lessons.length !== LESSONS.length)
+    throw new Error(`${locale} must include the complete catalogue`);
+  if (locale === "fr-FR" && descriptor.lessons.length) {
+    let source, runtime;
+    try {
+      source = JSON.parse(execFileSync(process.execPath, [path.join(root, "scripts", "export-reviewed-french.mjs")],
+        { cwd: root, encoding: "utf8", maxBuffer: 8 * 1024 * 1024 }));
+      runtime = readSpanishMetadata("french-lessons.fr-FR.json");
+    } catch {
+      throw new Error("French source-linked editorial export could not be verified");
+    }
+    if (source.locale !== locale || source.count !== LESSONS.length ||
+        source.reviewStatus !== "assistant-reviewed-awaiting-native-human-review" ||
+        runtime.locale !== locale || runtime.reviewStatus !== source.reviewStatus ||
+        JSON.stringify(runtime.lessons) !== JSON.stringify(source.lessons))
+      throw new Error("French runtime text does not match the current source-linked export");
+  }
+  const texts = new Map();
+  if (descriptor.lessons.length) {
+    const sample = readFileSync(path.join(root, "src", sampleFile), "utf8").trim();
+    if (!sample) throw new Error(`Missing ${locale} narration sample`);
+    texts.set("sample", sample);
+  }
+  for (const id of descriptor.lessons) {
+    const lesson = await translateLesson(byId.get(id), locale);
+    const original = byId.get(id);
+    if (!Array.isArray(lesson?.steps) || !lesson.steps.length ||
+        JSON.stringify(lesson.steps.map((step) => step.id)) !== JSON.stringify(original.steps.map((step) => step.id)) ||
+        lesson.steps.some((step) => typeof step.id !== "string" || !step.id || step.id.includes("/")))
+      throw new Error(`Invalid ${locale} stage identities: ${id}`);
+    for (const step of lesson.steps) {
+      for (const [kind, text] of [["instruction", step.spoken], ["hint", step.hint]]) {
+        const key = `${id}/${step.id}/${kind}`;
+        if (texts.has(key) || typeof text !== "string" || !text.trim()) throw new Error(`Invalid ${locale} text: ${key}`);
+        texts.set(key, text);
+      }
+    }
+  }
+  const matches = (value) => isRecord(value) && Object.keys(value).length === texts.size &&
+    [...texts.keys()].every((key) => Object.hasOwn(value, key));
+  if (!matches(clipIndex) || !matches(durations)) throw new Error(`Incomplete ${locale} narration metadata`);
+  if (!texts.size) return { lessons: 0, assets: 0 };
+  const manifest = readSpanishMetadata(`narration-manifest.${locale}.json`);
+  if (!isRecord(manifest) || manifest.schemaVersion !== 3 || manifest.locale !== locale ||
+      manifest.provider !== "ElevenLabs" || manifest.selectedVoiceId !== voice ||
+      JSON.stringify(manifest.coveredLessons) !== JSON.stringify(descriptor.lessons) || !matches(manifest.clips))
+    throw new Error(`Invalid ${locale} narration manifest`);
+  const assets = new Map();
+  for (const [key, expected] of texts) {
+    const source = clipIndex[key], clip = manifest.clips[key], ms = durations[key];
+    const match = typeof source === "string" && /^\/narration\/clip-([a-f0-9]{64})\.mp3$/.exec(source);
+    if (!match || !isRecord(clip) || clip.src !== source || clip.sha256 !== match[1] ||
+        clip.provider !== manifest.provider || clip.voiceId !== voice || clip.text !== expected ||
+        !Number.isSafeInteger(clip.bytes) || clip.bytes <= 0 || !Number.isSafeInteger(ms) || ms <= 0 ||
+        typeof clip.duration !== "number" || !Number.isFinite(clip.duration) || clip.duration <= 0 ||
+        Math.floor(clip.duration * 1000 + 0.5) !== ms) throw new Error(`Invalid ${locale} audio metadata: ${key}`);
+    if (!assets.has(source)) {
+      const bytes = readFileSync(path.join(dist, "client", source.slice(1)));
+      if (createHash("sha256").update(bytes).digest("hex") !== match[1]) throw new Error(`Mismatched ${locale} audio: ${key}`);
+      assets.set(source, bytes.length);
+    }
+    if (assets.get(source) !== clip.bytes) throw new Error(`Invalid ${locale} audio length: ${key}`);
+  }
+  return { lessons: descriptor.lessons.length, assets: assets.size };
+}
+
+const additionalLocales = {};
+for (const [locale, voice, sample] of [
+  ["en-IE", "t6WJWTYTryhcQnrBHdCr", "narration-sample.en.txt"],
+  ["en-GB-x-scotland", "M6KCOw7VXEJAZwuYFLuz", "narration-sample.en.txt"],
+  ["fr-FR", "tKaoyJLW05zqV0tIH9FD", "narration-sample.fr-FR.txt"],
+]) {
+  const translator = locale === "fr-FR"
+    ? async (lesson, id) => (await import("../src/french-lessons.js")).localizeLesson(lesson, id)
+    : (lesson) => lesson;
+  additionalLocales[locale] = await validateAdditionalLocale(locale, voice, sample, translator);
+}
+
 if (!existsSync(index)) throw new Error("Missing Vite document: " + index);
 
 // Fail the build if host-level headers drift from the local preview policy.
@@ -130,5 +221,6 @@ writeFileSync(path.join(dist, "validated.json"), JSON.stringify({
   schemaVersion: 1,
   spanishLessons: availability.lessons.length,
   verifiedSpanishAssets: checkedAssets.size,
+  additionalLocales,
 }) + "\n");
 console.log(`Validated Vercel build: ${availability.lessons.length} Spanish lessons, ${checkedAssets.size} verified audio assets`);

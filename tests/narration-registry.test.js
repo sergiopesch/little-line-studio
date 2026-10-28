@@ -4,6 +4,7 @@ import { StudioAudio } from "../src/audio.js";
 import { createLatestLanguageRequest, loadSpanishLanguage } from "../src/language-loading.js";
 import {
   authorizeSpanishNarration,
+  createNarrationRegistry,
   createSpanishNarrationRegistry,
   isSpanishAuthoredClip,
   loadSpanishNarration,
@@ -11,6 +12,21 @@ import {
 
 const SAMPLE = `/narration/clip-${"a".repeat(64)}.mp3`;
 const UNRELATED = `/narration/clip-${"b".repeat(64)}.mp3`;
+
+test("overlapping same-locale loads do not invalidate a newer verified result", async () => {
+  const callbacks = [];
+  const registry = createNarrationRegistry(() => new Promise((resolve) => callbacks.push(resolve)));
+  const old = registry.load();
+  const current = registry.load();
+  const selected = { index: { sample: SAMPLE }, durations: {} };
+  callbacks[1](selected);
+  assert.equal(await current, selected);
+  callbacks[0]({ index: { sample: UNRELATED }, durations: {} });
+  await old;
+  assert.equal(registry.authorize(selected), true);
+  assert.equal(registry.contains(SAMPLE), true);
+  assert.equal(registry.contains(UNRELATED), false);
+});
 
 test("failed and superseded Spanish loads cannot authorize clips", async () => {
   const module = { index: { sample: SAMPLE, invalid: "https://example.com/voice.mp3" }, durations: {} };

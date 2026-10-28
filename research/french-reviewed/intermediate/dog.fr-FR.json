@@ -1,0 +1,216 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "dog",
+  "sourceTextSha256": "eaa887d56f9c3aeb83b1d2bc8c0e06f3ef68073a0855063f617fd8e157bc2798",
+  "title": "Un chien assis",
+  "invitation": "Relie des formes pour dessiner un chiot assis.",
+  "objective": "Relier la tête, le corps et les pattes pour suggérer une position assise ; placer de petits traits du visage dans une forme plus grande.",
+  "parentNote": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques.",
+  "simplify": "",
+  "transfer": "Un autre jour, proposez un lapin assis avec une tête, un corps et des pattes, mais des oreilles différentes. Commencez sans le modèle du chien et proposez de l’aide si votre enfant le demande.",
+  "colouringLabel": "De petits traits et des couleurs choisies",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons le chiot.",
+      "instruction": "Regarde la tête au-dessus des pattes du chiot assis.",
+      "spoken": "Notre chiot imaginaire attend dans un parc sur papier. Regarde sa tête large, ses oreilles tombantes et son corps en dessous.",
+      "hint": "Regarde les grandes formes avant les petits détails.",
+      "notice": "Regardez le chien assis de notre exemple. Quelle partie est la plus haute : la tête ou les pattes ?"
+    },
+    "dog-head": {
+      "title": "La tête",
+      "instruction": "Dessine un ovale large pour la tête du chiot.",
+      "spoken": "Commence par un ovale large en laissant plus de papier en dessous qu’au-dessus. Cet espace accueillera le corps de notre chiot assis.",
+      "hint": "Une tête arrondie a besoin de place en dessous pour le corps.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-left-ear": {
+      "title": "L’oreille gauche",
+      "instruction": "Trace une oreille tombante à côté du côté gauche.",
+      "spoken": "Pars en courbe vers l’extérieur, descends, puis reviens à côté de la tête. Cette oreille descend plus bas que le sommet du visage.",
+      "hint": "Ramène la courbe de ton oreille vers le côté de la tête.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-right-ear": {
+      "title": "L’oreille droite",
+      "instruction": "Ajoute l’autre oreille tombante de l’autre côté de la tête.",
+      "spoken": "Ajoute une autre courbe tombante de l’autre côté. Regarde sa taille à côté de la première oreille ; elles peuvent être différentes.",
+      "hint": "Regarde de l’autre côté de la tête pour placer ta deuxième oreille.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-body": {
+      "title": "Le corps",
+      "instruction": "Trace un corps plus haut que large sous la tête.",
+      "spoken": "Le corps commence derrière la tête. Je ne dessine pas son bord supérieur caché, pour que la tête soit devant.",
+      "hint": "Commence sous la tête et trace une courbe autour d’une forme plus haute.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-left-leg": {
+      "title": "Une patte avant",
+      "instruction": "Trace une patte avant qui descend vers le bas.",
+      "spoken": "Un long trait descend dans le corps. Laisse un peu de place en bas pour un pied arrondi.",
+      "hint": "Commence dans le corps et dirige-toi vers le bas.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-right-leg": {
+      "title": "L’autre patte avant",
+      "instruction": "Laisse un espace à côté de l’autre patte avant.",
+      "spoken": "Dessine l’autre patte avant en face de la première. L’espace entre ces deux traits aide à séparer les pattes.",
+      "hint": "Garde un peu de papier entre les deux traits des pattes.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-left-paw": {
+      "title": "Un petit pied",
+      "instruction": "Place un petit pied large sous une patte.",
+      "spoken": "Un ovale court et large touche le bas de la première patte. Sa petite taille aide à donner une impression de corps plus grand.",
+      "hint": "Fais rejoindre ton petit ovale à l’extrémité d’une patte.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-right-paw": {
+      "title": "L’autre petit pied",
+      "instruction": "Place un autre petit pied à côté du premier.",
+      "spoken": "Ajoute l’autre petit pied. Compare leurs bords du bas, sans chercher à faire des formes identiques.",
+      "hint": "Regarde le premier pied avant de placer celui-ci.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-left-haunch": {
+      "title": "Une patte arrière pliée",
+      "instruction": "Trace une patte arrière pliée à côté du corps.",
+      "spoken": "Une courbe s’arrondit vers l’extérieur à côté du corps et revient près du sol. Cela donne l’impression que notre chiot est assis.",
+      "hint": "Place une courbe arrondie à l’extérieur de la patte avant.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-right-haunch": {
+      "title": "L’autre patte arrière",
+      "instruction": "Ajoute une patte arrondie de l’autre côté pour montrer qu’il est assis.",
+      "spoken": "Refais cette courbe pliée de l’autre côté, en laissant les pattes avant bien visibles au milieu.",
+      "hint": "Les pattes arrière se trouvent à l’extérieur des deux pattes avant.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-tail": {
+      "title": "La queue",
+      "instruction": "Laisse une queue s’enrouler à côté du chiot.",
+      "spoken": "Une queue s’enroule depuis un côté. Je change doucement de direction plutôt que de faire un angle vif.",
+      "hint": "Suis une courbe qui s’éloigne du corps, puis revient.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-left-eye": {
+      "title": "Un petit œil",
+      "instruction": "Place un petit œil dans la tête.",
+      "spoken": "Un petit œil se place dans la tête, au-dessus de l’espace pour le nez. Une petite marque suffit.",
+      "hint": "Laisse de la place sous cet œil pour le nez du chiot.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-right-eye": {
+      "title": "L’autre œil",
+      "instruction": "Place l’autre œil de l’autre côté du visage.",
+      "spoken": "Regarde de l’autre côté du visage pour placer le deuxième œil. Un peu d’espace entre les yeux laisse le visage dégagé.",
+      "hint": "Utilise le premier œil pour trouver une place qui te convient pour le deuxième.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-nose": {
+      "title": "Le petit nez",
+      "instruction": "Relie trois petits traits pour faire un nez.",
+      "spoken": "Un petit triangle à l’envers se place sous les yeux. Je relie les coins et je le garde plus petit que la tête.",
+      "hint": "Trois petits côtés font un triangle dont la pointe regarde vers le bas.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-nose-line": {
+      "title": "Un trait sous le nez",
+      "instruction": "Trace un petit trait qui descend du nez.",
+      "spoken": "Un petit trait descend du nez. Arrête-toi avant d’atteindre le bas du visage.",
+      "hint": "Commence au nez et fais juste un petit trait.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-left-mouth": {
+      "title": "Un côté de la bouche",
+      "instruction": "Trace une petite courbe de bouche vers un côté.",
+      "spoken": "Depuis ce petit trait, trace une courbe vers un côté. Cette courbe donne une expression douce à notre chiot imaginaire.",
+      "hint": "Commence à l’extrémité du petit trait sous le nez.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-right-mouth": {
+      "title": "L’autre côté de la bouche",
+      "instruction": "Trace l’autre côté de la petite bouche en courbe.",
+      "spoken": "Une deuxième petite courbe va dans l’autre sens. Laisse un peu de papier entre la bouche et le bord de la tête.",
+      "hint": "Pars du même point au milieu et trace vers l’autre côté.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-collar": {
+      "title": "Le collier",
+      "instruction": "Essaie un collier courbé sous la tête, si tu veux.",
+      "spoken": "Une courbe peu profonde peut suggérer un collier sous la tête. Ce détail supplémentaire est ton choix.",
+      "hint": "Garde le collier près de l’endroit où la tête et le corps se rejoignent.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "dog-patch": {
+      "title": "Une tache sur le pelage",
+      "instruction": "Essaie une tache ovale sur le pelage ou passe ce détail.",
+      "spoken": "Un petit ovale peut faire une tache sur le pelage. Ton chiot peut avoir des taches ou un pelage uni.",
+      "hint": "Cherche un espace libre dans le corps pour ta tache.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis une couleur de pelage pour ton chiot sur papier.",
+      "spoken": "Je choisis du beige et du brun, comme un pelage couleur sable. D’autres couleurs et de petits espaces blancs ont aussi leur place sur ton chiot.",
+      "hint": "Choisis deux couleurs ou utilise un seul crayon plus légèrement.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-coat": {
+      "title": "Le pelage",
+      "instruction": "Colorie le pelage par petites zones légères.",
+      "spoken": "Je colorie autour du visage, puis sur le corps. De petits traits et de petits arrêts m’aident à garder les yeux et le nez bien visibles.",
+      "hint": "Fais de plus petits mouvements quand tu approches d’un contour.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-ears": {
+      "title": "Les oreilles colorées",
+      "instruction": "Ajoute une couche un peu plus foncée aux oreilles.",
+      "spoken": "Un brun plus foncé distingue les oreilles du visage. J’en ajoute un peu à côté du corps et je laisse le milieu plus clair.",
+      "hint": "Une première couche légère laisse de la place pour une deuxième couleur plus foncée.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-patch": {
+      "title": "La tache colorée",
+      "instruction": "Colorie la tache du pelage si tu en as dessiné une.",
+      "spoken": "Si tu as dessiné une tache, fais de petits traits bruns à l’intérieur. Un pelage uni convient aussi ; tu peux passer cette couleur.",
+      "hint": "Garde tes traits dans le contour de ta tache.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-reflection": {
+      "title": "Regarde ton chiot.",
+      "instruction": "Observe le grand corps et les petits pieds.",
+      "spoken": "Notre chiot a de grandes formes et de petits détails. Regarde comment les oreilles tombantes se placent à côté du visage dans notre parc sur papier.",
+      "hint": "Apprécie ton dessin sans avoir besoin de le changer ni de l’expliquer.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "explore": {
+      "title": "Un endroit pour ton chiot.",
+      "instruction": "Donne à ton chiot un endroit où s’asseoir ou termine ici.",
+      "spoken": "Ton parc sur papier peut avoir un chemin ou quelque chose que tu inventes. Continue à dessiner, continue à colorier ou termine quand tu veux.",
+      "hint": "Essaie un autre animal assis avec une grande tête et de petites pattes.",
+      "notice": "Si votre enfant demande de l’aide, montrez comment le poitrail du modèle se trouve au-dessus de ses pattes avant. Donnez l’indice demandé ou montrez le geste sur votre propre feuille. Ne déplacez pas sa main et n’exigez pas des pattes identiques."
+    }
+  },
+  "sourceLessonSha256": "be87cb26bfecf09fc5b5f37618e73b3a5791f98567edde3ae653e3f701263ffe"
+}

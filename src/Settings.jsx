@@ -106,7 +106,7 @@ export function Settings({
             {speaking ? <StopIcon size={20} /> : <SpeakerHighIcon size={21} />}{" "}
             {t(speaking ? "Stop voice check" : "Check the voice")}
           </button>
-          {!voiceAvailable && <p className="sound-guidance">{t("Spanish voice is being prepared. Read the steps together for now.")}</p>}
+          {!voiceAvailable && <p className="sound-guidance">{t("The selected voice is being prepared. Read the steps together for now.")}</p>}
           {voiceUnavailable && (
             <p className="sound-guidance" role="status">
               {t("Sound couldn’t play. Check your device volume or try again.")}

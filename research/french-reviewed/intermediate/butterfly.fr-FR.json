@@ -1,0 +1,209 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "butterfly",
+  "sourceTextSha256": "84686d6530bc8db5b8a902b6bf35f8b45a4790f2c8eb1cf0e4a9111e37889863",
+  "title": "Un papillon",
+  "invitation": "Des ailes et des motifs à toi.",
+  "objective": "Disposer des ailes autour d’un corps central ; comparer la gauche et la droite sans exiger une symétrie exacte.",
+  "parentNote": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles.",
+  "simplify": "",
+  "transfer": "Un autre jour, dessinez un papillon de nuit avec la même idée d’un corps central et d’ailes attachées, mais choisissez un contour différent. Si vous le souhaitez, vous pouvez regarder un modèle de papillon de nuit choisi par un adulte.",
+  "colouringLabel": "De petits traits et des couleurs choisies",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons le papillon.",
+      "instruction": "Regarde les grandes ailes à côté du milieu étroit.",
+      "spoken": "Un papillon sur papier visite notre jardin de fleurs imaginaire. Regarde son milieu étroit, avec de grandes ailes qui partent des deux côtés.",
+      "hint": "Compare une grande aile avec le corps étroit.",
+      "notice": "Regardez le papillon de notre exemple. Où les ailes rejoignent-elles le corps étroit ?"
+    },
+    "butterfly-body": {
+      "title": "Le corps",
+      "instruction": "Dessine un long ovale étroit au milieu.",
+      "spoken": "Ce long ovale laisse beaucoup de papier des deux côtés. Il donne à nos ailes un endroit au milieu où se rejoindre.",
+      "hint": "Laisse beaucoup plus de place à côté du corps qu’à l’intérieur.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-head": {
+      "title": "La tête",
+      "instruction": "Place une petite tête ronde au-dessus du corps.",
+      "spoken": "Une petite tête ronde se place au-dessus du corps étroit. Je la garde bien plus courte que ce long ovale.",
+      "hint": "Laisse de la place au-dessus du corps pour une petite tête.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-upper-left": {
+      "title": "La grande aile gauche",
+      "instruction": "Trace une grande aile supérieure en courbe vers la gauche.",
+      "spoken": "Pars loin vers l’extérieur, arrondis le bord et reviens vers le corps. Un grand mouvement laisse de la place pour la couleur dans cette aile.",
+      "hint": "Laisse la grande courbe revenir vers le milieu étroit.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-upper-right": {
+      "title": "La grande aile droite",
+      "instruction": "Ajoute une grande aile supérieure de l’autre côté.",
+      "spoken": "Regarde de l’autre côté du milieu pour placer une autre grande aile. Je compare sa hauteur et sa largeur à celles de la première.",
+      "hint": "La deuxième aile part de l’autre côté du corps.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-lower-left": {
+      "title": "La petite aile gauche",
+      "instruction": "Trace une aile plus petite en courbe sous la première.",
+      "spoken": "L’aile du bas commence sous celle du haut. Je fais une courbe plus petite pour voir deux tailles d’ailes différentes.",
+      "hint": "Garde cette aile arrondie sous la grande aile du haut.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-lower-right": {
+      "title": "La petite aile droite",
+      "instruction": "Ajoute une autre aile du bas de l’autre côté du corps.",
+      "spoken": "Une autre aile plus petite se courbe vers la droite. Comparer les deux côtés m’aide à choisir où revenir vers le milieu.",
+      "hint": "Regarde de l’autre côté pour trouver la place et la taille de l’aile du bas.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-left-antenna": {
+      "title": "Une antenne",
+      "instruction": "Trace une fine antenne courbée au-dessus de la tête.",
+      "spoken": "Un trait fin monte en courbe depuis la tête. Une courbe douce à l’extrémité le distingue d’un bâton droit.",
+      "hint": "Commence à la tête et trace une courbe dans l’espace au-dessus.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-right-antenna": {
+      "title": "Une autre antenne",
+      "instruction": "Trace une autre fine antenne courbée vers l’autre côté.",
+      "spoken": "Un deuxième trait se courbe vers l’autre côté. Laisse un peu d’espace entre les extrémités des deux antennes.",
+      "hint": "Essaie une courte courbe qui s’éloigne de la première.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-left-upper-vein": {
+      "title": "Un trait dans l’aile gauche",
+      "instruction": "Trace un trait qui part dans l’aile gauche.",
+      "spoken": "Un trait part de près du corps vers l’aile du haut. Je m’arrête bien avant le bord extérieur.",
+      "hint": "Garde l’extrémité de ton trait à l’intérieur de l’aile.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-right-upper-vein": {
+      "title": "Un trait dans l’aile droite",
+      "instruction": "Trace un trait semblable dans l’aile droite.",
+      "spoken": "Je reprends cette idée dans l’autre aile du haut. Regarde une direction semblable, sans avoir besoin d’une copie exacte.",
+      "hint": "Compare ce trait avec celui de l’autre côté du corps.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-left-lower-vein": {
+      "title": "Un trait dans une petite aile",
+      "instruction": "Fais partir un petit trait dans une aile du bas.",
+      "spoken": "Un trait plus court entre dans l’aile du bas. Les petites ailes ont besoin de traits plus courts que nos grandes ailes du haut.",
+      "hint": "Commence près du corps et arrête-toi dans l’aile du bas.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-right-lower-vein": {
+      "title": "Un trait dans l’autre petite aile",
+      "instruction": "Ajoute un petit trait dans l’autre aile du bas.",
+      "spoken": "Un autre petit trait entre dans cette aile du bas. Chaque trait reste dans la courbe qui l’entoure.",
+      "hint": "Garde un peu d’espace entre ton trait et le bord de l’aile.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-left-oval": {
+      "title": "Un motif ovale",
+      "instruction": "Essaie un motif ovale dans une aile, si tu veux.",
+      "spoken": "Un petit ovale penché peut décorer cette aile. Les motifs sont ton choix ; les tiens peuvent être différents ou absents.",
+      "hint": "Laisse de l’espace autour du motif dans ton aile.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-right-diamond": {
+      "title": "Un motif pointu",
+      "instruction": "Essaie un motif pointu dans l’autre aile.",
+      "spoken": "Quatre côtés reliés peuvent former un motif en losange. Une forme différente ici donne à notre papillon imaginaire son propre dessin.",
+      "hint": "Relie quatre petits côtés dans une partie libre de l’aile.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-left-spot": {
+      "title": "Un petit point",
+      "instruction": "Essaie un petit point sur une aile du bas.",
+      "spoken": "Un petit point peut se placer sur l’aile du bas. Arrête-toi après un point ou laisse l’aile unie.",
+      "hint": "Cherche un espace dans l’aile du bas pour une marque.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-right-spot": {
+      "title": "Un autre point",
+      "instruction": "Essaie un autre petit point, si tu veux.",
+      "spoken": "Un autre point peut se placer de l’autre côté du corps. Notre motif n’a pas besoin d’être identique des deux côtés.",
+      "hint": "Un point, une autre marque ou aucune marque conviennent.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-upper-band": {
+      "title": "Une bande sur le corps",
+      "instruction": "Essaie une petite bande en travers du corps étroit.",
+      "spoken": "Un petit trait peut traverser le corps étroit. Je m’arrête à ses bords pour que la bande reste à l’intérieur.",
+      "hint": "Utilise seulement la largeur du petit ovale du milieu.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "butterfly-lower-band": {
+      "title": "Une bande plus bas",
+      "instruction": "Essaie une bande plus bas sur le corps ou passe ce détail.",
+      "spoken": "Une petite bande peut se placer plus bas dans le corps. Laisse du papier autour des autres bandes que tu choisis.",
+      "hint": "Cette ligne facultative se place dans la moitié inférieure du corps.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis les couleurs de ta visiteuse imaginaire du jardin.",
+      "spoken": "Je choisis des ailes orange en haut et jaunes en bas. Un papillon sur papier peut porter les couleurs et les motifs de ton imagination.",
+      "hint": "Choisis une couleur pour une grande zone et une autre pour les détails.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-upper-wings": {
+      "title": "Les grandes ailes colorées",
+      "instruction": "Colorie les grandes ailes par petites zones courbées.",
+      "spoken": "Je colorie une petite zone, je soulève mon crayon puis je recommence. L’orange clair laisse visibles nos motifs dessinés et les espaces blancs.",
+      "hint": "Fais de plus petits mouvements de crayon près du bord de chaque aile.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-lower-wings": {
+      "title": "Les petites ailes colorées",
+      "instruction": "Utilise du jaune sur les petites ailes du bas.",
+      "spoken": "Le jaune donne une autre couleur aux petites ailes. Je fais de petits traits, puis une zone brune étroite dans le corps.",
+      "hint": "Une petite aile demande une zone plus petite qu’une grande aile.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-wing-edges": {
+      "title": "Les bords des ailes",
+      "instruction": "Essaie un peu de couleur plus foncée près de l’extérieur des ailes.",
+      "spoken": "Un peu de rouge sur l’orange change sa nuance près du bord. Des couches légères permettent de voir les deux couleurs ensemble.",
+      "hint": "Appuie légèrement pour que la première couleur reste visible.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-reflection": {
+      "title": "Regarde ton papillon.",
+      "instruction": "Observe les grandes ailes et le milieu étroit.",
+      "spoken": "Nos grandes ailes partent d’un milieu étroit. Leurs couleurs peuvent aller ensemble sans être identiques, prêtes pour un jardin de fleurs imaginaire.",
+      "hint": "Regarde une couleur que tu as choisie sans avoir besoin de la nommer.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "explore": {
+      "title": "Ton jardin à toi.",
+      "instruction": "Ajoute une fleur, invente un motif ou termine.",
+      "spoken": "Ta visiteuse du jardin aimerait peut-être une fleur inventée ou un motif à toi. Tu peux continuer à colorier ou terminer ici.",
+      "hint": "Essaie de grandes formes de chaque côté d’un milieu étroit.",
+      "notice": "Si votre enfant le demande, montrez où les ailes du modèle rejoignent le corps, plutôt que de comparer la taille de ses ailes. Proposez de dessiner une autre forme d’aile sur votre propre feuille. Des motifs identiques ou différents sont tout aussi possibles."
+    }
+  },
+  "sourceLessonSha256": "6cb483d14e0bab04fd76151c74c33a6d174a1f985243a4acf9b4ecdabd5a8c2d"
+}

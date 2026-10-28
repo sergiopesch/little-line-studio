@@ -1,0 +1,223 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "robot",
+  "sourceTextSha256": "5a02997428ef9e1e413da655cc38a2998b3450a05b02aa691a74edf36d6c5d35",
+  "title": "Un robot sympathique",
+  "invitation": "Relie des formes pour inventer son travail.",
+  "objective": "Relier des formes séparées par de petits traits et organiser de petits détails dans une tête et un panneau de commande.",
+  "parentNote": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire.",
+  "simplify": "",
+  "transfer": "Un autre jour, inventez une autre machine. Réutilisez des formes reliées et un panneau, en choisissant une nouvelle forme de corps et une autre façon de se déplacer.",
+  "colouringLabel": "De petits traits, des couleurs choisies",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Un robot pour un travail que tu inventes.",
+      "instruction": "Observe les grandes formes reliées par de petits traits.",
+      "spoken": "Notre sympathique robot en papier se prépare pour un travail que tu inventes. Regarde les grandes formes rectangulaires reliées par des traits bien plus petits pour le cou et les membres.",
+      "hint": "Compare les grandes formes avant de regarder les petits boutons.",
+      "notice": "Regardez ensemble le robot. Quels petits traits relient ses grandes formes ?"
+    },
+    "robot-body": {
+      "title": "Le corps du robot",
+      "instruction": "Relie quatre côtés pour faire un grand corps de robot.",
+      "spoken": "Un grand rectangle forme le corps. Je laisse du papier au-dessus pour une tête plus petite et sur les côtés pour les bras.",
+      "hint": "Laisse assez de place autour de ton grand rectangle pour les petits traits qui relient les formes.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-head": {
+      "title": "La tête du robot",
+      "instruction": "Place un rectangle plus petit au-dessus du corps.",
+      "spoken": "Un rectangle plus petit se trouve au-dessus du corps, avec un petit espace entre les deux. Il y aura un cou court dans cet espace.",
+      "hint": "Compare la largeur de la tête avec celle du corps plus large en dessous.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-left-neck": {
+      "title": "Un côté du cou",
+      "instruction": "Relie un côté du cou court.",
+      "spoken": "Un petit trait relie la tête au corps. Ces petites liaisons réunissent nos grandes formes pour créer un robot en papier.",
+      "hint": "Relie le bas de la tête au haut du corps.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-right-neck": {
+      "title": "L’autre côté du cou",
+      "instruction": "Laisse un petit espace à côté du premier trait du cou.",
+      "spoken": "Un deuxième petit trait relie les deux mêmes rectangles. L’espace étroit entre les deux donne de la largeur au cou.",
+      "hint": "Garde ces deux petits traits rapprochés.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-left-eye": {
+      "title": "L’œil gauche",
+      "instruction": "Dessine un petit œil rond dans la tête.",
+      "spoken": "Un petit cercle se trouve dans la tête. Je laisse de la place en face pour l’autre œil et en dessous pour la bouche.",
+      "hint": "Garde ton œil bien à l’intérieur du petit rectangle.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-right-eye": {
+      "title": "L’œil droit",
+      "instruction": "Place un autre œil rond de l’autre côté du visage.",
+      "spoken": "L’autre œil se trouve en face du premier. Je regarde l’espace entre les deux au lieu d’essayer de faire des cercles parfaits.",
+      "hint": "Laisse un peu d’espace entre les deux petits yeux.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-mouth": {
+      "title": "La bouche",
+      "instruction": "Trace une petite bouche courbée en bas du visage.",
+      "spoken": "Une courbe légère se trouve sous les yeux. Elle donne une expression sympathique à notre robot inventé sans remplir tout le visage.",
+      "hint": "Utilise l’espace libre dans la partie basse de la tête.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-antenna": {
+      "title": "L’antenne",
+      "instruction": "Trace un petit trait d’antenne au-dessus de la tête.",
+      "spoken": "Un petit trait monte du milieu de la tête. Il est beaucoup plus étroit que les grands rectangles du début.",
+      "hint": "Commence en haut de la tête et monte.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-antenna-tip": {
+      "title": "Le bout de l’antenne",
+      "instruction": "Essaie un petit rond près du bout de l’antenne, si tu veux.",
+      "spoken": "Un petit cercle peut se placer près du bout de l’antenne. Ce détail facultatif ajoute une autre petite forme ronde à notre robot.",
+      "hint": "Place ton petit cercle près du bout de l’antenne.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-left-arm": {
+      "title": "Le bras gauche",
+      "instruction": "Trace un bras qui part d’un côté du corps.",
+      "spoken": "Un trait part du corps vers l’extérieur et descend. Je laisse de la place au bout pour une petite main ronde.",
+      "hint": "Pars du bord du corps et va dans l’espace à côté.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-right-arm": {
+      "title": "Le bras droit",
+      "instruction": "Trace l’autre bras vers le haut, dans une autre direction.",
+      "spoken": "L’autre bras monte un peu. Ces directions différentes donnent une pose à notre robot inventé, au lieu de deux bras droits identiques.",
+      "hint": "Essaie une direction différente de celle du premier bras.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-left-hand": {
+      "title": "La main gauche",
+      "instruction": "Place une petite main ronde au bout d’un bras.",
+      "spoken": "Un petit cercle rejoint le bout du bras qui descend. Je laisse le trait toucher le cercle pour relier la main au robot.",
+      "hint": "Laisse le petit cercle de la main toucher le trait du bras.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-right-hand": {
+      "title": "La main droite",
+      "instruction": "Ajoute une main ronde à l’autre bras.",
+      "spoken": "Une autre petite main rejoint l’autre bras. Compare la taille des deux mains avec la tête et le corps, beaucoup plus grands.",
+      "hint": "Laisse ce petit cercle relié au deuxième bras.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-left-leg": {
+      "title": "La jambe gauche",
+      "instruction": "Dessine une jambe qui descend du corps.",
+      "spoken": "Un trait droit descend du corps. Je laisse du papier en dessous pour un petit trait qui fera le pied.",
+      "hint": "Pars du bord inférieur du corps et descends.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-right-leg": {
+      "title": "La jambe droite",
+      "instruction": "Laisse un espace avant de dessiner la deuxième jambe.",
+      "spoken": "Une autre jambe descend en face de la première. L’espace entre les traits nous permet de voir deux jambes séparées.",
+      "hint": "Laisse un peu de papier entre tes deux longs traits de jambes.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-left-foot": {
+      "title": "Le pied gauche",
+      "instruction": "Au bout d’une jambe, trace un petit pied vers l’extérieur.",
+      "spoken": "Un petit trait part vers l’extérieur au bout d’une jambe. L’angle aide notre petit robot à tenir debout sur le papier.",
+      "hint": "Pars du bout de la jambe et va un peu sur le côté.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-right-foot": {
+      "title": "Le pied droit",
+      "instruction": "Tourne l’autre petit pied vers l’autre côté.",
+      "spoken": "L’autre pied part dans la direction opposée. Compare leur position en bas pour donner au robot une pose bien stable.",
+      "hint": "Trace un petit trait à partir du bout de la deuxième jambe.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-panel": {
+      "title": "Le panneau du robot",
+      "instruction": "Dessine un petit panneau de commande à l’intérieur du corps.",
+      "spoken": "Un rectangle plus petit se trouve dans le grand corps. Je laisse une bordure autour pour bien voir les deux rectangles.",
+      "hint": "Cherche le milieu du corps et laisse de la place autour de ton petit rectangle.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-left-button": {
+      "title": "Un bouton à gauche",
+      "instruction": "Place un tout petit bouton dans le panneau.",
+      "spoken": "Un petit point se trouve dans le panneau. Une petite marque suffit ; elle n’a pas besoin de commander une vraie machine.",
+      "hint": "Garde cette petite marque à l’intérieur du plus petit rectangle.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "robot-right-button": {
+      "title": "Un bouton à droite",
+      "instruction": "Essaie un autre petit bouton, si tu veux.",
+      "spoken": "Un deuxième point peut se placer de l’autre côté du panneau. Un bouton, plusieurs boutons ou un panneau sans bouton peuvent convenir à ton robot inventé.",
+      "hint": "Laisse un peu de papier entre les boutons que tu choisis.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    },
+    "colour-choice": {
+      "title": "Des couleurs de métal et des détails lumineux.",
+      "instruction": "Choisis une couleur claire pour le corps et des couleurs vives pour les petits détails.",
+      "spoken": "Je choisis du gris clair pour le métal, du bleu pour le panneau et du jaune pour les mains. C’est un robot inventé ; tes couleurs peuvent évoquer son travail.",
+      "hint": "Choisis une couleur pour la grande surface et une autre pour les petits détails.",
+      "notice": "Tes crayons et les espaces blancs sont les bienvenus. « Plus de temps » permet de rester à chaque étape aussi longtemps que tu le souhaites ; l’enseignante ne peut ni voir ni juger ta feuille."
+    },
+    "colour-metal": {
+      "title": "Des touches douces sur le métal.",
+      "instruction": "Ajoute une couleur claire autour du visage et du panneau.",
+      "spoken": "De petites touches grises laissent les yeux, la bouche et le panneau bien visibles. Je lève le crayon entre les endroits au lieu de passer partout d’un seul geste.",
+      "hint": "De petits traits trouvent leur place près des petites formes à l’intérieur des grands rectangles.",
+      "notice": "Tes crayons et les espaces blancs sont les bienvenus. « Plus de temps » permet de rester à chaque étape aussi longtemps que tu le souhaites ; l’enseignante ne peut ni voir ni juger ta feuille."
+    },
+    "colour-control-panel": {
+      "title": "Les petites mains et le panneau.",
+      "instruction": "Colorie séparément le petit panneau et les mains rondes.",
+      "spoken": "Je place du bleu dans le panneau et du jaune dans chaque main. Je fais des traits bien plus petits pour ces petites formes que pour le corps.",
+      "hint": "Lève le crayon avant de changer de forme ou de couleur, puis commence une petite zone.",
+      "notice": "Tes crayons et les espaces blancs sont les bienvenus. « Plus de temps » permet de rester à chaque étape aussi longtemps que tu le souhaites ; l’enseignante ne peut ni voir ni juger ta feuille."
+    },
+    "colour-metal-shade": {
+      "title": "Un bord de métal plus foncé.",
+      "instruction": "Ajoute une bande plus foncée près du bord d’un rectangle.",
+      "spoken": "Un peu de bleu-gris plus foncé près d’un côté suggère un bord à l’ombre. Le milieu plus clair permet de bien distinguer nos rectangles plats.",
+      "hint": "Essaie une légère deuxième couche près du côté de ton choix.",
+      "notice": "Tes crayons et les espaces blancs sont les bienvenus. « Plus de temps » permet de rester à chaque étape aussi longtemps que tu le souhaites ; l’enseignante ne peut ni voir ni juger ta feuille."
+    },
+    "colour-reflection": {
+      "title": "De grandes formes et de petits liens.",
+      "instruction": "Observe les grands rectangles reliés par de petits traits.",
+      "spoken": "Les grands rectangles de notre robot ont de petits liens et des détails. Son bras levé lui donne une pose, prêt pour un travail que tu inventes.",
+      "hint": "Regarde comment la direction d’un bras change la pose.",
+      "notice": "Tes crayons et les espaces blancs sont les bienvenus. « Plus de temps » permet de rester à chaque étape aussi longtemps que tu le souhaites ; l’enseignante ne peut ni voir ni juger ta feuille."
+    },
+    "explore": {
+      "title": "Un travail pour ton robot en papier.",
+      "instruction": "Choisis un travail pour ton robot, ajoute des idées ou termine ici.",
+      "spoken": "Ton robot pourrait planter des fleurs en papier ou porter des livres imaginaires. Ajoute ton idée, continue à colorier ou termine sans choisir de travail.",
+      "hint": "Essaie de changer la direction d’une forme reliée pour inventer une autre pose.",
+      "notice": "Si un trait de liaison est difficile, invitez votre enfant à regarder l’espace correspondant sur le modèle ou à faire simplement toucher les formes. Le robot est un dessin inventé, pas un véritable compagnon doté d’autorité ou de sentiments. Votre enfant décide de son rôle imaginaire."
+    }
+  },
+  "sourceLessonSha256": "33e324d6b23268acee520d1bd465d8039f643ab9146095c740344591eda07cb2"
+}

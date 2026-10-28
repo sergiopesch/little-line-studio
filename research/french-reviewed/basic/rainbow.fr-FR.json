@@ -1,0 +1,181 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "rainbow",
+  "sourceTextSha256": "901ea475f90232900935635835794d64d7824418962aa74c4d437430b85fc5a2",
+  "title": "Arc-en-ciel",
+  "invitation": "Des courbes, des couleurs et de la place pour imaginer.",
+  "objective": "Tracer des arches voisines et observer ce qui se trouve à l’intérieur ou à l’extérieur.",
+  "parentNote": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs.",
+  "simplify": "",
+  "transfer": "Une grande arche et une plus petite pourraient-elles faire l’entrée d’un tunnel ?",
+  "colouringLabel": "Une bande de couleur courbée à la fois",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons les arches.",
+      "instruction": "Remarque une arche placée à l’intérieur d’une autre.",
+      "spoken": "Dessinons un arc-en-ciel au-dessus de notre jardin imaginaire. La lumière du soleil qui traverse de minuscules gouttes d’eau peut montrer de nombreuses couleurs. Regarde les courbes placées les unes dans les autres.",
+      "hint": "Nous pouvons observer cet exemple sur notre écran.",
+      "notice": "Regardez l’exemple d’arc-en-ciel. Remarquez comment une arche se place à l’intérieur d’une autre."
+    },
+    "outer-arch": {
+      "title": "La grande arche",
+      "instruction": "Trace une grande arche qui monte, passe au-dessus puis redescend.",
+      "spoken": "Commence en bas à gauche, monte, passe au-dessus, puis redescends. Une arche assez grande laisse de la place pour nos courbes plus petites.",
+      "hint": "Essaie le mouvement au-dessus de ta feuille avant de tracer.",
+      "notice": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs."
+    },
+    "second-arch": {
+      "title": "La deuxième arche",
+      "instruction": "Dessine une arche plus petite à l’intérieur, en laissant un peu d’espace.",
+      "spoken": "Une autre arche se place à l’intérieur. Suis la même courbe en gardant un petit espace entre les traits. Cet espace accueillera une couleur.",
+      "hint": "Regarde l’espace pendant que tu suis la courbe.",
+      "notice": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs."
+    },
+    "third-arch": {
+      "title": "La troisième arche",
+      "instruction": "Ajoute une courbe à l’intérieur de la précédente.",
+      "spoken": "Ajoute une arche plus petite, en laissant une autre bande pour une couleur. Je regarde l’espace pendant que je trace la courbe.",
+      "hint": "Une bande peut être plus large à certains endroits.",
+      "notice": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs."
+    },
+    "fourth-arch": {
+      "title": "La quatrième arche",
+      "instruction": "Suis la courbe avec une autre arche plus petite.",
+      "spoken": "Et encore une courbe à l’intérieur. Ralentis ta main en passant par le haut, puis laisse le trait redescendre.",
+      "hint": "Fais doucement bouger toute ta main autour du sommet arrondi.",
+      "notice": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs."
+    },
+    "fifth-arch": {
+      "title": "Une autre arche",
+      "instruction": "Essaie une autre arche intérieure si tu as de la place.",
+      "spoken": "Voici une courbe plus petite. Garde une petite ouverture au milieu ou arrête d’ajouter des arches quand tu veux.",
+      "hint": "Tu peux passer une courbe si tu manques de place.",
+      "notice": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs."
+    },
+    "sixth-arch": {
+      "title": "Une courbe plus petite",
+      "instruction": "Ajoute une courbe plus petite, si tu veux.",
+      "spoken": "Suis la courbe encore une fois. Les traits voisins peuvent être irréguliers ; ils n’ont pas besoin d’être parfaitement identiques.",
+      "hint": "Une petite irrégularité peut rester comme elle est.",
+      "notice": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs."
+    },
+    "seventh-arch": {
+      "title": "Une petite bande",
+      "instruction": "Fais une autre petite bande s’il reste de la place.",
+      "spoken": "Une petite arche crée une autre bande de couleur. Si ton milieu est trop rempli, tu peux passer celle-ci.",
+      "hint": "Ton dessin peut avoir moins de bandes que notre exemple.",
+      "notice": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs."
+    },
+    "inner-arch": {
+      "title": "La dernière arche",
+      "instruction": "Ajoute une dernière petite arche ou garde l’ouverture.",
+      "spoken": "Notre dernière petite courbe laisse une ouverture en dessous. Avec huit traits, notre exemple a sept espaces pour les couleurs.",
+      "hint": "Garde une ouverture sous ta plus petite courbe, si tu veux.",
+      "notice": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs."
+    },
+    "left-cloud": {
+      "title": "Le nuage de gauche",
+      "instruction": "Relie des petites bosses douces autour des extrémités à gauche.",
+      "spoken": "Ajoutons un nuage autour de ces extrémités. Relie quelques petites bosses, puis trace une courbe en dessous. Dans notre dessin, l’arc-en-ciel se glisse derrière le nuage.",
+      "hint": "Amène les bosses du nuage jusqu’aux extrémités de tes arches.",
+      "notice": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs."
+    },
+    "right-cloud": {
+      "title": "Le nuage de droite",
+      "instruction": "Ajoute un nuage autour des autres extrémités, si tu veux.",
+      "spoken": "Un nuage peut aussi entourer les autres extrémités. Relie ses bosses avec une courbe en dessous, ou passe ce nuage.",
+      "hint": "Chaque nuage peut avoir sa propre taille et ses propres bosses.",
+      "notice": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Rassemble les couleurs que tu as ; quelques-unes suffisent.",
+      "spoken": "Notre dessin utilise sept couleurs nommées. Dans les vrais arcs-en-ciel, les couleurs se fondent les unes dans les autres. Utilise les crayons que tu as ; moins de couleurs conviennent aussi.",
+      "hint": "Choisis des couleurs à portée de main. Tu peux laisser certaines bandes blanches.",
+      "notice": "Montrez les couleurs disponibles sur une feuille. Moins de bandes, des couleurs imaginaires et des espaces blancs sont bienvenus. Plus de temps permet de rester à chaque étape."
+    },
+    "colour-red": {
+      "title": "La bande rouge",
+      "instruction": "Suis la bande extérieure avec de petits traits rouges courbés.",
+      "spoken": "Je commence par du rouge à l’extérieur. De petits traits courbés suivent l’arche. Soulève ton crayon, avance un peu, puis colorie la zone suivante.",
+      "hint": "Suis doucement la courbe. De petits espaces de papier peuvent rester visibles.",
+      "notice": "Montrez les couleurs disponibles sur une feuille. Moins de bandes, des couleurs imaginaires et des espaces blancs sont bienvenus. Plus de temps permet de rester à chaque étape."
+    },
+    "colour-orange": {
+      "title": "La bande orange",
+      "instruction": "Colorie la bande suivante en orange, une petite zone à la fois.",
+      "spoken": "L’orange se place juste à l’intérieur du rouge. Je change de direction pour la petite zone suivante, en soulevant mon crayon entre les mouvements.",
+      "hint": "Essaie quelques traits, puis soulève ton crayon et avance.",
+      "notice": "Montrez les couleurs disponibles sur une feuille. Moins de bandes, des couleurs imaginaires et des espaces blancs sont bienvenus. Plus de temps permet de rester à chaque étape."
+    },
+    "colour-yellow": {
+      "title": "La bande jaune",
+      "instruction": "Laisse le jaune suivre la bande courbée suivante.",
+      "spoken": "Voici le jaune, qui suit la même courbe. Une main légère donne une couleur douce. On peut voir le papier à travers.",
+      "hint": "Tu peux tourner ta feuille pour atteindre la courbe.",
+      "notice": "Montrez les couleurs disponibles sur une feuille. Moins de bandes, des couleurs imaginaires et des espaces blancs sont bienvenus. Plus de temps permet de rester à chaque étape."
+    },
+    "colour-green": {
+      "title": "La bande verte",
+      "instruction": "Ajoute du vert à l’intérieur de la bande jaune.",
+      "spoken": "Le vert se place à l’intérieur du jaune. Je suis une petite partie de la courbe, je soulève mon crayon, puis je recommence. Chaque petite zone rejoint notre arc-en-ciel.",
+      "hint": "Regarde où une couleur se termine avant de commencer la suivante.",
+      "notice": "Montrez les couleurs disponibles sur une feuille. Moins de bandes, des couleurs imaginaires et des espaces blancs sont bienvenus. Plus de temps permet de rester à chaque étape."
+    },
+    "colour-blue": {
+      "title": "La bande bleue",
+      "instruction": "Suis la bande intérieure suivante avec du bleu.",
+      "spoken": "Le bleu se courbe maintenant à l’intérieur du vert. Les bandes deviennent plus petites, alors mon crayon fait des mouvements plus courts. De petits espaces sont les bienvenus.",
+      "hint": "Fais des traits plus courts là où la courbe est petite.",
+      "notice": "Montrez les couleurs disponibles sur une feuille. Moins de bandes, des couleurs imaginaires et des espaces blancs sont bienvenus. Plus de temps permet de rester à chaque étape."
+    },
+    "colour-indigo": {
+      "title": "La bande indigo",
+      "instruction": "Essaie du bleu foncé dans la bande suivante, si tu en as.",
+      "spoken": "Ce bleu foncé s’appelle indigo. Je l’utilise dans la bande suivante. Un autre bleu, ou une couleur de ton choix, convient aussi.",
+      "hint": "Utilise un bleu que tu as ; aucun crayon particulier n’est nécessaire.",
+      "notice": "Montrez les couleurs disponibles sur une feuille. Moins de bandes, des couleurs imaginaires et des espaces blancs sont bienvenus. Plus de temps permet de rester à chaque étape."
+    },
+    "colour-violet": {
+      "title": "La bande violette",
+      "instruction": "Colorie la bande la plus à l’intérieur en violet.",
+      "spoken": "Le violet suit notre bande la plus à l’intérieur. De petits traits doux laissent le milieu ouvert. Je laisse les nuages blancs comme notre papier.",
+      "hint": "Laisse les nuages blancs ou choisis tes propres couleurs.",
+      "notice": "Montrez les couleurs disponibles sur une feuille. Moins de bandes, des couleurs imaginaires et des espaces blancs sont bienvenus. Plus de temps permet de rester à chaque étape."
+    },
+    "colour-reflection": {
+      "title": "Regarde ton arc-en-ciel.",
+      "instruction": "Remarque comment tes couleurs suivent les arches.",
+      "spoken": "Regarde ensemble les courbes et les couleurs. Chaque arche plus petite se trouve à l’intérieur d’une autre. Quelle couleur aimerais-tu utiliser à nouveau ?",
+      "hint": "Tu n’as pas besoin de changer ni d’expliquer ton dessin.",
+      "notice": "Montrez les couleurs disponibles sur une feuille. Moins de bandes, des couleurs imaginaires et des espaces blancs sont bienvenus. Plus de temps permet de rester à chaque étape."
+    },
+    "explore": {
+      "title": "Ton propre monde.",
+      "instruction": "Ajoute ton propre monde, continue à colorier ou termine ici.",
+      "spoken": "Que pourrait-il pousser sous ton arc-en-ciel ? Ajoute un jardin, un chemin ou quelque chose que tu inventes. Continue à dessiner aussi longtemps que tu veux, ou termine ici.",
+      "hint": "Deux de ces arches pourraient-elles faire un tunnel une autre fois ?",
+      "notice": "Montrez une arche dans l’air. Proposez une première arche plus grande si votre enfant demande plus de place. Sept couleurs, un ordre précis, des espaces réguliers et des nuages symétriques ne sont pas nécessaires pour ce mouvement : un arc-en-ciel imaginaire peut avoir toutes les couleurs."
+    }
+  },
+  "sourceLessonSha256": "37cdf3f38104908042c73221b128e68df0419ab19d577bc852e9350debbd0ffa"
+}

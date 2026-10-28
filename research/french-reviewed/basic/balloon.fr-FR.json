@@ -1,0 +1,146 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "balloon",
+  "sourceTextSha256": "86c73977c6dcb0a9db42e6342bfaf273b70527abe30c609f10254d4e6557850e",
+  "title": "Un ballon qui flotte",
+  "invitation": "Une forme ronde et une ficelle ondulée.",
+  "objective": "Relier un contour arrondi, un petit nœud et une ligne souple ; colorier par petits traits à l’intérieur d’un contour en laissant du blanc pour le reflet.",
+  "parentNote": "Si votre enfant le souhaite, montrez une ligne courbée sur votre propre feuille. Laissez-le choisir la forme et les motifs du ballon. Le nœud montre que la ficelle est attachée, sans nécessiter de forme exacte. Utilisez Pause, Réécouter ou Plus de temps quand cela aide ; la durée est une estimation ajustable, pas une limite pour apprendre.",
+  "simplify": "",
+  "transfer": "Une ligne courbée pourrait-elle devenir la queue d’un cerf-volant une autre fois ?",
+  "colouringLabel": "Un peu de couleur, un peu de lumière",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons le ballon.",
+      "instruction": "Regarde la grande forme arrondie au-dessus de son petit nœud.",
+      "spoken": "Dessinons un ballon pour une fête imaginaire sur papier. Regarde sa grande forme arrondie, son petit nœud et sa ficelle courbée.",
+      "hint": "Il nous faut seulement un modèle, du papier, un crayon et des couleurs.",
+      "notice": "Dessinons un ballon pour une fête imaginaire sur papier. Observez sa grande forme arrondie, son petit nœud et sa ficelle courbée."
+    },
+    "balloon-outline": {
+      "title": "Le contour du ballon",
+      "instruction": "Dessine une grande forme arrondie et haute, en laissant de la place en dessous.",
+      "spoken": "Trace une grande forme arrondie et reviens au point de départ. Je laisse de la place en dessous pour le nœud et la ficelle.",
+      "hint": "Un ballon large ou irrégulier a aussi sa place dans ton dessin.",
+      "notice": "Si votre enfant le souhaite, montrez une ligne courbée sur votre propre feuille. Laissez-le choisir la forme et les motifs du ballon. Le nœud montre que la ficelle est attachée, sans nécessiter de forme exacte. Utilisez Pause, Réécouter ou Plus de temps quand cela aide ; la durée est une estimation ajustable, pas une limite pour apprendre."
+    },
+    "balloon-knot": {
+      "title": "Le petit nœud",
+      "instruction": "Relie un tout petit triangle au bas du ballon.",
+      "spoken": "Un tout petit triangle touche le bas de notre ballon. Descends, trace un trait de côté, puis reviens au même point pour faire notre petit nœud.",
+      "hint": "Fais toucher le triangle au bas de ta forme arrondie.",
+      "notice": "Si votre enfant le souhaite, montrez une ligne courbée sur votre propre feuille. Laissez-le choisir la forme et les motifs du ballon. Le nœud montre que la ficelle est attachée, sans nécessiter de forme exacte. Utilisez Pause, Réécouter ou Plus de temps quand cela aide ; la durée est une estimation ajustable, pas une limite pour apprendre."
+    },
+    "flowing-string": {
+      "title": "La ficelle souple",
+      "instruction": "Laisse une ficelle courbée descendre depuis le nœud.",
+      "spoken": "Commence au nœud et laisse un trait descendre librement. Je change doucement de direction pour faire une ficelle souple.",
+      "hint": "Regarde le nœud avant de commencer ta longue ligne courbée.",
+      "notice": "Si votre enfant le souhaite, montrez une ligne courbée sur votre propre feuille. Laissez-le choisir la forme et les motifs du ballon. Le nœud montre que la ficelle est attachée, sans nécessiter de forme exacte. Utilisez Pause, Réécouter ou Plus de temps quand cela aide ; la durée est une estimation ajustable, pas une limite pour apprendre."
+    },
+    "left-bow-loop": {
+      "title": "Une boucle à gauche",
+      "instruction": "Essaie une petite boucle à côté du nœud, si tu veux.",
+      "spoken": "Une courbe forme une boucle à côté du nœud et revient à son point de départ. Ce petit ruban est ton choix.",
+      "hint": "Ramène une boucle courbée là où elle a commencé.",
+      "notice": "Si votre enfant le souhaite, montrez une ligne courbée sur votre propre feuille. Laissez-le choisir la forme et les motifs du ballon. Le nœud montre que la ficelle est attachée, sans nécessiter de forme exacte. Utilisez Pause, Réécouter ou Plus de temps quand cela aide ; la durée est une estimation ajustable, pas une limite pour apprendre."
+    },
+    "right-bow-loop": {
+      "title": "Une boucle à droite",
+      "instruction": "Essaie une boucle de l’autre côté, si tu veux.",
+      "spoken": "Une autre boucle peut partir vers la droite et revenir au nœud. Les boucles peuvent être de tailles différentes.",
+      "hint": "Chaque boucle rejoint le nœud ; tu peux aussi en dessiner une seule.",
+      "notice": "Si votre enfant le souhaite, montrez une ligne courbée sur votre propre feuille. Laissez-le choisir la forme et les motifs du ballon. Le nœud montre que la ficelle est attachée, sans nécessiter de forme exacte. Utilisez Pause, Réécouter ou Plus de temps quand cela aide ; la durée est une estimation ajustable, pas une limite pour apprendre."
+    },
+    "balloon-shine": {
+      "title": "Un petit reflet",
+      "instruction": "Ajoute une petite courbe à l’intérieur pour le reflet, si tu veux.",
+      "spoken": "Une petite courbe suit une partie du bord supérieur. Plus tard, je laisserai le papier blanc ici pour montrer un petit reflet.",
+      "hint": "Garde cette petite courbe à l’intérieur de ton grand contour arrondi.",
+      "notice": "Si votre enfant le souhaite, montrez une ligne courbée sur votre propre feuille. Laissez-le choisir la forme et les motifs du ballon. Le nœud montre que la ficelle est attachée, sans nécessiter de forme exacte. Utilisez Pause, Réécouter ou Plus de temps quand cela aide ; la durée est une estimation ajustable, pas une limite pour apprendre."
+    },
+    "upper-dot": {
+      "title": "Un point en haut",
+      "instruction": "Ajoute un point dans ton ballon, si tu veux.",
+      "spoken": "Un petit point peut commencer un motif à l’intérieur du ballon. Tu peux aussi ne pas faire de motif.",
+      "hint": "Cherche un endroit à l’intérieur du contour, loin du bord.",
+      "notice": "Si votre enfant le souhaite, montrez une ligne courbée sur votre propre feuille. Laissez-le choisir la forme et les motifs du ballon. Le nœud montre que la ficelle est attachée, sans nécessiter de forme exacte. Utilisez Pause, Réécouter ou Plus de temps quand cela aide ; la durée est une estimation ajustable, pas une limite pour apprendre."
+    },
+    "middle-dot": {
+      "title": "Un point au milieu",
+      "instruction": "Choisis un autre endroit pour un point, si tu veux.",
+      "spoken": "Un autre point peut se placer au milieu. Je soulève mon crayon avant de changer d’endroit.",
+      "hint": "Laisse un peu d’espace autour de chaque point que tu choisis.",
+      "notice": "Si votre enfant le souhaite, montrez une ligne courbée sur votre propre feuille. Laissez-le choisir la forme et les motifs du ballon. Le nœud montre que la ficelle est attachée, sans nécessiter de forme exacte. Utilisez Pause, Réécouter ou Plus de temps quand cela aide ; la durée est une estimation ajustable, pas une limite pour apprendre."
+    },
+    "lower-dot": {
+      "title": "Un point en bas",
+      "instruction": "Ajoute un dernier point ou garde tes espaces.",
+      "spoken": "Un dernier point peut se placer plus bas. Quelques marques suffisent pour notre fête sur papier.",
+      "hint": "Ton motif peut avoir un point, beaucoup de points ou aucun.",
+      "notice": "Si votre enfant le souhaite, montrez une ligne courbée sur votre propre feuille. Laissez-le choisir la forme et les motifs du ballon. Le nœud montre que la ficelle est attachée, sans nécessiter de forme exacte. Utilisez Pause, Réécouter ou Plus de temps quand cela aide ; la durée est une estimation ajustable, pas une limite pour apprendre."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis du rouge ou une couleur qui te plaît.",
+      "spoken": "Je choisis un rouge chaud pour notre ballon et du jaune pour son ruban. Ta fête peut avoir tes propres couleurs.",
+      "hint": "Choisis les crayons que tu as déjà à portée de main.",
+      "notice": "Utilisez les crayons que vous avez. Les espaces blancs et vos propres couleurs ont leur place ici. Plus de temps permet de rester à chaque étape sans limite de durée."
+    },
+    "colour-body-left": {
+      "title": "Colorie un côté.",
+      "instruction": "Colorie un côté avec de petits traits doux.",
+      "spoken": "De petits traits rouges colorient un côté. Je soulève mon crayon entre les zones et je laisse le petit reflet blanc. Les traits légers laissent voir le papier.",
+      "hint": "Près du bord, fais des traits plus petits et plus doux.",
+      "notice": "Utilisez les crayons que vous avez. Les espaces blancs et vos propres couleurs ont leur place ici. Plus de temps permet de rester à chaque étape sans limite de durée."
+    },
+    "colour-body-right": {
+      "title": "Colorie l’autre côté.",
+      "instruction": "Continue à colorier le ballon en restant à l’intérieur du contour.",
+      "spoken": "Maintenant, l’autre côté. Je ralentis près du bord et je soulève mon crayon avant de sortir. De petits espaces blancs peuvent rester entre nos traits.",
+      "hint": "Ton contour t’aide à voir où t’arrêter et soulever ton crayon.",
+      "notice": "Utilisez les crayons que vous avez. Les espaces blancs et vos propres couleurs ont leur place ici. Plus de temps permet de rester à chaque étape sans limite de durée."
+    },
+    "colour-bow": {
+      "title": "Colorie le ruban.",
+      "instruction": "Colorie les boucles du ruban en jaune, si tu les as ajoutées.",
+      "spoken": "Si tu as ajouté un ruban, essaie de tout petits traits jaunes dans ses boucles. Le petit nœud peut rester blanc. Tu peux passer cette couleur.",
+      "hint": "Les petits espaces demandent de petits traits ; tu peux aussi les laisser blancs.",
+      "notice": "Utilisez les crayons que vous avez. Les espaces blancs et vos propres couleurs ont leur place ici. Plus de temps permet de rester à chaque étape sans limite de durée."
+    },
+    "colour-reflection": {
+      "title": "Regarde ton ballon.",
+      "instruction": "Regarde la forme ronde, la ficelle courbée et la couleur.",
+      "spoken": "Regarde comment notre grande forme arrondie rejoint un tout petit nœud et une ligne courbée. Tes couleurs et tes espaces blancs rendent ce ballon unique.",
+      "hint": "Tu peux apprécier ton dessin sans le changer ni l’expliquer.",
+      "notice": "Utilisez les crayons que vous avez. Les espaces blancs et vos propres couleurs ont leur place ici. Plus de temps permet de rester à chaque étape sans limite de durée."
+    },
+    "explore": {
+      "title": "À toi d’imaginer.",
+      "instruction": "Ajoute tes idées, continue à colorier ou termine ici.",
+      "spoken": "Que pourrait-on ajouter à ta fête sur papier ? Essaie un autre ballon ou quelque chose que tu inventes. Continue à dessiner aussi longtemps que tu veux, ou termine ici.",
+      "hint": "Une ligne courbée pourrait-elle devenir la queue d’un cerf-volant une autre fois ?",
+      "notice": "Si votre enfant le souhaite, montrez une ligne courbée sur votre propre feuille. Laissez-le choisir la forme et les motifs du ballon. Le nœud montre que la ficelle est attachée, sans nécessiter de forme exacte. Utilisez Pause, Réécouter ou Plus de temps quand cela aide ; la durée est une estimation ajustable, pas une limite pour apprendre."
+    }
+  },
+  "sourceLessonSha256": "e08680013835bf8efe4a6922a6207a87b60092ebf08c208305b8596edf7d705d"
+}

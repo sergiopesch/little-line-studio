@@ -1,0 +1,167 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "fish",
+  "sourceTextSha256": "a931949b993bbfe4860b499f006692071fd21b1bdbb41cbb93771f9d82ba6469",
+  "title": "Un petit poisson",
+  "invitation": "Un corps, une queue et un petit sourire.",
+  "objective": "Relier des parties de formes différentes et diriger un trait loin du corps.",
+  "parentNote": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile.",
+  "simplify": "",
+  "transfer": "Un ovale et une queue différente pourraient-ils former une autre créature qui nage ?",
+  "colouringLabel": "Des couleurs dorées pour notre étang de papier",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons le poisson.",
+      "instruction": "Regarde le long ovale et la queue à une extrémité.",
+      "spoken": "Imaginons un petit poisson qui nage sur notre feuille. Son corps arrondi a une queue à une extrémité et un visage à l’autre.",
+      "hint": "Laisse de la place à côté de l’ovale pour sa queue et son visage.",
+      "notice": "Regardez une image de poisson. Remarquez comment sa queue rejoint son corps."
+    },
+    "fish-body": {
+      "title": "Le corps",
+      "instruction": "Dessine un ovale large en laissant de la place aux deux extrémités.",
+      "spoken": "Un ovale large commence notre poisson. Trace une courbe autour de ses côtés et reviens au point de départ, en laissant de la place pour une queue.",
+      "hint": "Fais ton ovale plus large que haut.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "fish-tail": {
+      "title": "La queue",
+      "instruction": "Ajoute une queue triangulaire qui touche une extrémité de l’ovale.",
+      "spoken": "Depuis l’extrémité gauche de l’ovale, trace vers l’extérieur, descends, puis reviens au même point. Un triangle devient la queue de notre poisson.",
+      "hint": "Fais toucher la pointe du triangle à l’extrémité de ton ovale.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "fish-eye": {
+      "title": "L’œil",
+      "instruction": "Place un petit œil près de l’autre extrémité.",
+      "spoken": "Un tout petit œil rond se place dans l’extrémité opposée. Je laisse de l’espace entre l’œil et le bord extérieur.",
+      "hint": "Le visage se trouve à l’extrémité éloignée de la queue.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "fish-mouth": {
+      "title": "La bouche",
+      "instruction": "Trace une toute petite bouche courbée près du bord avant.",
+      "spoken": "Une petite courbe près de l’avant devient la bouche de notre poisson imaginaire.",
+      "hint": "Garde la bouche bien plus petite que l’ovale de ton poisson.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "upper-fin": {
+      "title": "La nageoire du haut",
+      "instruction": "Essaie une nageoire pointue au-dessus du corps, si tu veux.",
+      "spoken": "Deux traits penchés peuvent monter au-dessus du corps et revenir. Cette nageoire du haut est ton choix.",
+      "hint": "Commence et termine là où la nageoire rejoint l’ovale.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "lower-fin": {
+      "title": "La nageoire du bas",
+      "instruction": "Essaie une petite nageoire sous le corps ou passe cette étape.",
+      "spoken": "Une deuxième pointe peut être dirigée vers le bas, sous l’ovale. Elle peut être de taille différente.",
+      "hint": "Laisse le contour du corps visible entre les deux extrémités.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "gill-curve": {
+      "title": "La courbe de la branchie",
+      "instruction": "Essaie une courbe pour la branchie derrière le visage, si tu veux.",
+      "spoken": "Une ligne courbée derrière le visage suggère une branchie. Je laisse de l’espace autour de l’œil.",
+      "hint": "Garde cette courbe dans le corps, près du visage.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "upper-scale": {
+      "title": "Une première écaille",
+      "instruction": "Ajoute une petite courbe pour une écaille à l’intérieur, si tu veux.",
+      "spoken": "Une petite courbe sur le côté peut commencer un motif d’écailles dans le corps.",
+      "hint": "Une seule petite courbe suffit pour commencer un motif.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "middle-scale": {
+      "title": "Une autre écaille",
+      "instruction": "Essaie une autre petite courbe d’écaille ou laisse de l’espace.",
+      "spoken": "Une autre petite courbe se place à proximité. Je soulève mon crayon avant de choisir sa place.",
+      "hint": "Laisse un petit espace entre ces traits courbés.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "lower-scale": {
+      "title": "Une dernière écaille",
+      "instruction": "Choisis une autre écaille ou garde ton espace libre.",
+      "spoken": "Une dernière courbe peut terminer notre petit motif. Tu peux t’arrêter avec moins d’écailles.",
+      "hint": "Ton poisson peut avoir quelques marques ou aucune.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "near-bubble": {
+      "title": "Une bulle",
+      "instruction": "Essaie une bulle ronde à côté de ton poisson, si tu veux.",
+      "spoken": "Un cercle à l’extérieur du poisson peut devenir une bulle dans notre étang imaginaire.",
+      "hint": "Cherche un espace vide sur la feuille devant le visage du poisson.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "higher-bubble": {
+      "title": "Une autre bulle",
+      "instruction": "Essaie une bulle plus petite en hauteur ou passe cette étape.",
+      "spoken": "Un cercle plus petit en hauteur donne différentes tailles à nos bulles.",
+      "hint": "Laisse de l’espace autour de chaque cercle au lieu de les relier.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis de l’orange et du jaune, ou invente les couleurs de ton poisson.",
+      "spoken": "Je choisis un orange doux pour notre poisson et du jaune pour sa queue. Ton étang sur papier peut accueillir un poisson d’une autre couleur.",
+      "hint": "Deux couleurs suffisent ; une seule convient aussi.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-fish-middle": {
+      "title": "Le milieu du poisson",
+      "instruction": "Crée des zones orange à l’intérieur du milieu du corps.",
+      "spoken": "Des traits orange doux colorient le large milieu. Je soulève mon crayon entre les petites zones pour laisser apparaître un peu de papier.",
+      "hint": "Commence dans le milieu où il y a de la place, avant de t’approcher d’un bord.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-fish-face": {
+      "title": "Le visage du poisson",
+      "instruction": "Utilise de plus petits traits orange autour du visage du poisson.",
+      "spoken": "Près du visage, je fais des mouvements plus petits. L’œil foncé et les petites courbes peuvent rester bien visibles à côté de la couleur.",
+      "hint": "Ralentis ton crayon quand tu approches du contour.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-fish-tail": {
+      "title": "La queue colorée",
+      "instruction": "Colorie l’intérieur de la queue triangulaire avec de petits traits jaunes.",
+      "spoken": "De petits traits jaunes tiennent dans la queue. Je laisse les nageoires blanches pour donner à notre poisson quelques zones plus claires.",
+      "hint": "La pointe étroite demande un tout petit mouvement, ou peut rester blanche.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-reflection": {
+      "title": "Regarde ton poisson.",
+      "instruction": "Regarde l’ovale, la queue et les petites zones de couleur.",
+      "spoken": "Notre ovale et notre triangle évoquent maintenant un poisson qui nage dans un étang imaginaire. Les petits espaces blancs peuvent rester.",
+      "hint": "Regarde comment la petite queue touche le grand corps.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "explore": {
+      "title": "Ton étang à toi.",
+      "instruction": "Invente un voisin pour l’étang, continue à colorier ou termine ici.",
+      "spoken": "Notre étang sur papier peut accueillir un autre poisson, une plante qui ondule ou ton idée à toi. Continue à dessiner ou termine avec ce petit poisson.",
+      "hint": "Essaie un ovale plus court pour un autre poisson imaginaire.",
+      "notice": "Parlez de la jonction entre la queue et le corps à l’aide du modèle. La position de l’œil indique la direction du poisson ; aucune correction n’est nécessaire si votre enfant invente une autre disposition. Proposez une forme simple de queue à part si cela lui est utile."
+    }
+  },
+  "sourceLessonSha256": "cde7b8ce7a20a9f21a215c20a966a9614b64333cea1019c0dbcb624c1175d025"
+}

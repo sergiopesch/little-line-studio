@@ -1,0 +1,209 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "turtle",
+  "sourceTextSha256": "4697fc416202a9129d61c2465a8fc49c65ef2518f890611f810d6892d1a12566",
+  "title": "Une tortue",
+  "invitation": "Une grande carapace et de petites parties.",
+  "objective": "Attacher une tête, des pattes et une queue à une grande carapace ; explorer comment des lignes divisent une surface en zones.",
+  "parentNote": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction.",
+  "simplify": "",
+  "transfer": "Essayez un scarabée un autre jour : gardez un grand corps central, mais choisissez d’autres parties autour du bord. Invitez votre enfant à décider quels éléments de la tortue ne vont plus avec ce nouvel animal.",
+  "colouringLabel": "De petits traits et des couleurs choisies",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons la tortue.",
+      "instruction": "Regarde la grande carapace et les petites parties autour.",
+      "spoken": "Notre tortue sur papier part pour un voyage imaginaire dans le jardin. Regarde comment sa petite tête et ses pattes rejoignent une carapace bien plus grande.",
+      "hint": "Cherche la plus grande forme avant les petites formes autour.",
+      "notice": "Regardez notre tortue. Quelles petites parties dépassent de sa grande carapace ?"
+    },
+    "turtle-shell": {
+      "title": "La carapace",
+      "instruction": "Dessine un ovale large pour la carapace de la tortue.",
+      "spoken": "Un ovale large forme notre carapace. Je laisse de la place d’un côté pour une tête et en dessous pour les petites pattes.",
+      "hint": "Laisse du papier autour de la carapace pour les petites parties.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-head": {
+      "title": "La tête",
+      "instruction": "Ajoute un ovale bien plus petit à côté de la carapace.",
+      "spoken": "Un ovale plus petit touche un côté. Comparer la tête à la carapace m’aide à choisir la place dont elle a besoin.",
+      "hint": "Fais rejoindre la petite tête au côté de ta carapace.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-front-foot": {
+      "title": "La patte avant",
+      "instruction": "Trace une petite patte courbée sous l’avant.",
+      "spoken": "Une courbe descend depuis la carapace et revient à proximité. La plus grande partie de notre tortue reste dans la grande forme de la carapace.",
+      "hint": "Fais cette patte petite à côté du grand ovale.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-back-foot": {
+      "title": "La patte arrière",
+      "instruction": "Ajoute une autre petite patte sous l’arrière.",
+      "spoken": "Une deuxième patte courbée sort plus bas à l’arrière. Laisse la grande forme de la carapace bien visible.",
+      "hint": "Regarde de l’autre côté sous la carapace pour placer ta deuxième patte.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-tail": {
+      "title": "La queue",
+      "instruction": "Relie deux petits traits pour une toute petite queue.",
+      "spoken": "Deux petits traits se rejoignent en une pointe derrière la carapace. La toute petite queue équilibre notre tête bien plus grande de l’autre côté.",
+      "hint": "Garde cette petite pointe plus petite que la tête.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-eye": {
+      "title": "L’œil",
+      "instruction": "Place un petit œil dans la tête.",
+      "spoken": "Un tout petit œil se place dans la tête, loin du bord. Je m’arrête après une petite marque.",
+      "hint": "Cherche une place dans le petit ovale de la tête.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-mouth": {
+      "title": "La bouche",
+      "instruction": "Trace une petite bouche courbée près du bord de la tête.",
+      "spoken": "Une petite bouche courbée donne une expression à notre tortue imaginaire. Laisse de l’espace sous l’œil.",
+      "hint": "Utilise une petite courbe dans le bas de la tête.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-shell-rim": {
+      "title": "Le rebord de la carapace",
+      "instruction": "Trace un rebord courbé le long du bas de la carapace.",
+      "spoken": "Cette courbe suit le bord inférieur de la carapace, un peu à l’intérieur. L’espace crée un rebord étroit autour de la carapace.",
+      "hint": "Suis l’ovale sans dessiner directement sur son bord.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-centre-pattern": {
+      "title": "Le motif du centre",
+      "instruction": "Relie de petits côtés pour un motif sur la carapace.",
+      "spoken": "Je relie de petits côtés au milieu de la carapace. C’est le motif de notre dessin, avec de la place autour pour d’autres traits.",
+      "hint": "Commence avec quelques côtés reliés dans le grand ovale.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-upper-left": {
+      "title": "Un trait en haut à gauche",
+      "instruction": "Relie le motif central vers le haut à gauche.",
+      "spoken": "Un trait part d’un coin supérieur vers la carapace. Arrête-toi quand il rejoint le bord extérieur.",
+      "hint": "Commence au motif et dirige-toi vers le bord de la carapace.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-upper-right": {
+      "title": "Un trait en haut à droite",
+      "instruction": "Relie un autre coin supérieur à la carapace.",
+      "spoken": "Un autre trait part de l’autre coin supérieur. Regarde comment les espaces changent de forme entre les traits.",
+      "hint": "Regarde le bord proche de la carapace avant de tracer.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-right-pattern": {
+      "title": "Un trait à droite",
+      "instruction": "Trace un trait vers la droite.",
+      "spoken": "Le trait suivant va du motif au bord droit. Chaque trait reste à l’intérieur de notre grande carapace.",
+      "hint": "Arrête-toi quand ce trait atteint l’ovale extérieur.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-lower-right": {
+      "title": "Un trait en bas à droite",
+      "instruction": "Relie un coin inférieur vers le rebord.",
+      "spoken": "Un trait descend en biais depuis le motif vers le rebord. Je m’arrête au rebord au lieu de le traverser.",
+      "hint": "Dirige-toi vers le rebord intérieur près du bas de la carapace.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-lower-left": {
+      "title": "Un trait en bas à gauche",
+      "instruction": "Relie l’autre coin inférieur au rebord.",
+      "spoken": "Relie maintenant l’autre coin inférieur. Les espaces du motif peuvent être différents et avoir leur place sur ta tortue.",
+      "hint": "Relie le motif au rebord de ce côté.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-left-pattern": {
+      "title": "Un trait à gauche",
+      "instruction": "Termine par un trait sur le côté gauche.",
+      "spoken": "Un trait relie le milieu au bord gauche. Notre petit motif de carapace a maintenant des espaces prêts à recevoir la couleur.",
+      "hint": "Utilise un petit trait entre le motif et la carapace.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-front-toe": {
+      "title": "Un petit orteil",
+      "instruction": "Essaie une toute petite marque pour un orteil, si tu veux.",
+      "spoken": "Un tout petit trait peut donner un orteil à la patte avant. C’est une marque supplémentaire que tu peux passer.",
+      "hint": "Cherche la patte avant de faire ce petit détail.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-back-toe": {
+      "title": "Un autre orteil",
+      "instruction": "Essaie un autre petit orteil ou garde ton dessin simple.",
+      "spoken": "Un petit orteil peut aussi se placer sur l’autre patte. Un seul petit trait suffit pour ce détail facultatif.",
+      "hint": "Garde cette petite marque à l’intérieur de la patte que tu as dessinée.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "turtle-ground": {
+      "title": "Une ligne au sol",
+      "instruction": "Essaie un petit trait au sol sous la tortue.",
+      "spoken": "Un trait en dessous peut donner un lieu à notre voyage imaginaire. Ta tortue peut aussi rester sur du papier uni.",
+      "hint": "Place le sol sous les pattes plutôt qu’à travers elles.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis des verts ou tes propres couleurs pour la tortue.",
+      "spoken": "Je choisis du vert pour la carapace et du crème clair pour la tête. Ta tortue sur papier peut utiliser les couleurs que tu as.",
+      "hint": "Un vert plus foncé et un vert plus clair peuvent former une paire simple.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-shell": {
+      "title": "La carapace colorée",
+      "instruction": "Colorie la carapace par petites zones.",
+      "spoken": "De petits traits verts traversent la carapace. Je soulève mon crayon entre les zones et je garde les traits de notre motif bien visibles.",
+      "hint": "Laisse de petits espaces de papier entre les traits de crayon proches.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-small-parts": {
+      "title": "Les petites parties",
+      "instruction": "Fais de plus petits traits pour la tête et les pattes.",
+      "spoken": "La tête et les pattes demandent des mouvements plus petits que la carapace. Je ralentis près de chaque bord et je soulève mon crayon avant d’aller ailleurs.",
+      "hint": "Les petites parties demandent de petits traits plutôt qu’un long mouvement.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-shell-shadow": {
+      "title": "Une couleur plus foncée",
+      "instruction": "Ajoute une couche plus foncée près du bas de la carapace.",
+      "spoken": "Un peu de vert plus foncé près du bord inférieur suggère une carapace arrondie. Je laisse le haut plus clair pour voir les deux couleurs.",
+      "hint": "Ajoute légèrement au début ; tu peux choisir une autre couche plus tard.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-reflection": {
+      "title": "Regarde ta tortue.",
+      "instruction": "Observe la grande carapace et les petites parties qui y sont reliées.",
+      "spoken": "Notre carapace reste la plus grande forme, avec de petites parties qui dépassent. Imagine où ta tortue sur papier pourrait aller pendant son voyage dans le jardin.",
+      "hint": "Ton dessin peut rester exactement comme il est.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "explore": {
+      "title": "Ton jardin imaginaire.",
+      "instruction": "Invente un endroit dans le jardin, continue à colorier ou termine.",
+      "spoken": "Tu pourrais donner à ta tortue une feuille ou un chemin de jardin imaginaire. Il y a du temps pour tes idées, ou tu peux terminer ici.",
+      "hint": "Essaie une autre créature avec une grande forme et de petites parties.",
+      "notice": "Si les divisions de la carapace deviennent difficiles à suivre, proposez de laisser une carapace unie. Si votre enfant demande une pause, comparez le bord de la forme du milieu et le contour extérieur sur le modèle. Le centre à plusieurs côtés n’a pas besoin d’un nombre précis de coins. Ne transformez pas le motif en exercice de comptage ou de correction."
+    }
+  },
+  "sourceLessonSha256": "01f6d0ba16228bd1dddd7647770e562bd49656e67ac3288b491e44dc3610984b"
+}

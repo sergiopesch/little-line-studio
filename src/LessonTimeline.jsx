@@ -1,5 +1,6 @@
 import { useLocale } from "./i18n.jsx";
 import { formatTogetherTime, getLessonProgress } from "./lesson-progress.js";
+import { FRENCH_DYNAMIC, timelineEstimate } from "./french-dynamic.fr-FR.js";
 import "./cat-timeline.css";
 
 export default function LessonTimeline(props) {
@@ -8,7 +9,7 @@ export default function LessonTimeline(props) {
     ...props,
     narrationDurations: props.narrationDurations || {},
   });
-  const estimate = locale === "es-419" && /^About \d+ min left$/.test(progress.estimateLabel)
+  const estimate = locale === "fr-FR" ? timelineEstimate(progress, t) : locale === "es-419" && /^About \d+ min left$/.test(progress.estimateLabel)
     ? `Quedan unos ${Math.ceil(progress.remainingMs / 60000)} min` : t(progress.estimateLabel);
   return (
     <section className="cat-timeline" aria-label={t("Lesson timeline")}>
@@ -16,7 +17,7 @@ export default function LessonTimeline(props) {
         <span className="cat-timeline-phase">{t(progress.phaseLabel)}</span>
         <span className="cat-timeline-time">
           <span aria-live="off">
-            {formatTogetherTime(progress.elapsedMs)} {locale === "es-419" ? "juntos" : "together"}
+            {locale === "fr-FR" ? FRENCH_DYNAMIC.together(formatTogetherTime(progress.elapsedMs)) : `${formatTogetherTime(progress.elapsedMs)} ${locale === "es-419" ? "juntos" : "together"}`}
           </span>
           <span className="cat-timeline-estimate">{estimate}</span>
         </span>

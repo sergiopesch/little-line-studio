@@ -37,10 +37,11 @@ import { DEFAULT_LANGUAGE, getLanguage, languageAvailableForLevel } from "./lang
 import { Settings } from "./Settings.jsx";
 import { Privacy } from "./Privacy.jsx";
 import { isLessonAvailable, narrationForLocale, releasedLessons } from "./narration-locales.js";
-import { createLatestLanguageRequest, loadSpanishLanguage } from "./language-loading.js";
-import { authorizeSpanishNarration } from "./narration-registry.js";
+import { createLatestLanguageRequest, loadLocaleLanguage } from "./language-loading.js";
+import { authorizeLocaleNarration } from "./narration-registry.js";
 import { useScriptedPlayback } from "./useScriptedPlayback.js";
 import { useLessonClock } from "./useLessonClock.js";
+import { FRENCH_DYNAMIC, stageLabel as frenchStageLabel } from "./french-dynamic.fr-FR.js";
 import LessonTimeline from "./LessonTimeline.jsx";
 import "./cat-pilot.css";
 
@@ -63,7 +64,7 @@ export function App() {
   const [languageId, setLanguageId] = useState(DEFAULT_LANGUAGE);
   const [localizeLesson, setLocalizeLesson] = useState(() => identityLesson);
   const [localizedTitle, setLocalizedTitle] = useState(() => identityTitle);
-  const [spanishNarration, setSpanishNarration] = useState(null);
+  const [localeNarration, setLocaleNarration] = useState(null);
   const [languagePending, setLanguagePending] = useState(null);
   const [languageError, setLanguageError] = useState(false);
   const [languageLoad] = useState(createLatestLanguageRequest);
@@ -95,15 +96,15 @@ export function App() {
   const standardMusicVolume = useRef(0.35);
   const languageLessons = useMemo(() => releasedLessons(languageId), [languageId]);
   const selectedSource = getLesson(lesson.lessonId);
-  const selectedUnavailable = Boolean(lesson.lessonId && !isLessonAvailable(languageId, selectedSource, spanishNarration));
+  const selectedUnavailable = Boolean(lesson.lessonId && !isLessonAvailable(languageId, selectedSource, localeNarration));
   const displaySource = !selectedUnavailable && selectedSource ? selectedSource :
-    languageLessons.find((item) => isLessonAvailable(languageId, item, spanishNarration)) || LESSONS[0];
+    languageLessons.find((item) => isLessonAvailable(languageId, item, localeNarration)) || LESSONS[0];
   const selectedLesson = useMemo(() =>
-    isLessonAvailable(languageId, displaySource, spanishNarration) ? localizeLesson(displaySource, languageId) : displaySource,
-  [displaySource, languageId, localizeLesson, spanishNarration]);
+    isLessonAvailable(languageId, displaySource, localeNarration) ? localizeLesson(displaySource, languageId) : displaySource,
+  [displaySource, languageId, localizeLesson, localeNarration]);
   const narration = useMemo(() => narrationForLocale(languageId,
-    !selectedUnavailable && selectedSource ? [selectedSource] : languageLessons, spanishNarration),
-  [languageId, languageLessons, selectedSource, selectedUnavailable, spanishNarration]);
+    !selectedUnavailable && selectedSource ? [selectedSource] : languageLessons, localeNarration),
+  [languageId, languageLessons, selectedSource, selectedUnavailable, localeNarration]);
   const voiceAvailable = narration.ready && getLanguage(languageId)?.ready === true;
   const voicePreferences = useRef({ "en-GB": true, "es-419": true });
   const language = getLanguage(languageId);
@@ -176,7 +177,7 @@ export function App() {
 
   useEffect(() => {
     document.documentElement.lang = language.id;
-    document.title = language.id === "es-419"
+    document.title = language.id === "fr-FR" ? FRENCH_DYNAMIC.documentTitle : language.id === "es-419"
       ? "Little Line Studio — Todo dibujo comienza con una pequeña línea"
       : "Little Line Studio — Every drawing starts with a little line";
   }, [language.id]);
@@ -266,12 +267,12 @@ export function App() {
     if (!getLevel(languageLevel) || !languageAvailableForLevel(id, languageLevel)) return;
     const level = languageLevel;
     await languageLoad.run(
-      () => id === "es-419" ? loadSpanishLanguage(releasedLessons(id)) :
+      () => id !== "en-GB" ? loadLocaleLanguage(id, releasedLessons(id)) :
         Promise.resolve({ localizeLesson: identityLesson, localizedTitle: identityTitle, narration: null }),
       {
-        onStart: () => { setLanguagePending(id === "es-419" ? id : null); setLanguageError(false); },
+        onStart: () => { setLanguagePending(id !== "en-GB" ? id : null); setLanguageError(false); },
         onSuccess: ({ localizeLesson: localizer, localizedTitle: title, narration: nextNarration }) => {
-          if (id === "es-419" && !authorizeSpanishNarration(nextNarration)) {
+          if (id !== "en-GB" && !authorizeLocaleNarration(id, nextNarration)) {
             setLanguagePending(null);
             setLanguageError(true);
             return;
@@ -280,7 +281,7 @@ export function App() {
           voicePreferences.current[languageId] = voiceOn;
           setLocalizeLesson(() => localizer);
           setLocalizedTitle(() => title);
-          setSpanishNarration(nextNarration);
+          setLocaleNarration(nextNarration);
           setLanguageId(id);
           setVoiceOn(voicePreferences.current[id] ?? true);
           setVoiceUnavailable(false);
@@ -302,7 +303,7 @@ export function App() {
   function selectLesson(lessonId) {
     const candidate = getLesson(lessonId);
     if (lesson.phase !== "catalogue" || candidate?.level !== lesson.level ||
-        !isLessonAvailable(languageId, candidate, spanishNarration)) return;
+        !isLessonAvailable(languageId, candidate, localeNarration)) return;
     void loadDemonstrationBoard().catch(() => {});
     quiet();
     audioRef.current?.stopAll();
@@ -330,7 +331,7 @@ export function App() {
     dispatch({ type: "OPEN_CATALOGUE", level });
   }
   function start() {
-    if (!supervised || lesson.phase !== "gate" || !isLessonAvailable(languageId, getLesson(lesson.lessonId), spanishNarration)) return;
+    if (!supervised || lesson.phase !== "gate" || !isLessonAvailable(languageId, getLesson(lesson.lessonId), localeNarration)) return;
     quiet();
     if (voiceAvailable && voiceOn)
       audioRef.current?.prepareClip(narration.index[narrationKey(selectedLesson, 0)]);
@@ -378,7 +379,7 @@ export function App() {
     setReplayKey((n) => n + 1);
   }
   function reset(toSetup = false) {
-    if (toSetup && !isLessonAvailable(languageId, getLesson(lesson.lessonId), spanishNarration)) return;
+    if (toSetup && !isLessonAvailable(languageId, getLesson(lesson.lessonId), localeNarration)) return;
     languageLoad.cancel();
     setLanguagePending(null);
     setLanguageError(false);
@@ -519,13 +520,13 @@ export function App() {
           language={language}
           localizeLesson={localizeLesson}
           localizedTitle={localizedTitle}
-          spanishNarration={spanishNarration}
+          localeNarration={localeNarration}
           onLanguage={() => openCatalogue(lesson.level)}
         />
       ) : selectedUnavailable ? (
         <main className="setup-page entry-confirmation">
           <section className="entry-confirmation-card">
-            <h1>{t("This Spanish lesson is being prepared.")}</h1>
+            <h1>{t(languageId === "es-419" ? "This Spanish lesson is being prepared." : "This lesson is being prepared.")}</h1>
             <button className="primary" onClick={cancelSetup}>{t("Drawings")}</button>
           </section>
         </main>
@@ -612,7 +613,7 @@ export function App() {
                   <p className="eyebrow">
                     {selectedLesson.title}{" "}
                     <span className="step-label">
-                      {languageId === "es-419" ? spanishStepLabel : stepLabel}
+                      {languageId === "fr-FR" ? frenchStageLabel(selectedLesson, lesson.step) : languageId === "es-419" ? spanishStepLabel : stepLabel}
                     </span>
                   </p>
                   <button

@@ -1,0 +1,230 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "lighthouse",
+  "sourceTextSha256": "af90462dd9f8e2f54d2b3abed0bdd09419399ecdb712edce8248c4c70e321f8c",
+  "title": "Un phare sur la côte",
+  "invitation": "Une grande tour au bord d’une mer étendue.",
+  "objective": "Associer une tour qui se rétrécit vers le haut à une côte, et distinguer le premier plan de la mer lointaine.",
+  "parentNote": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour.",
+  "simplify": "Utilisez une tour rectangulaire droite, un toit et une courbe pour la côte. Laissez de côté les bandes, les objets lointains, les rayons et le chemin : un phare peut être très simple.",
+  "transfer": "Un autre jour, essayez de dessiner un château d’eau ou un moulin à vent dans un autre paysage. Observez sa base, son sommet et l’endroit où il touche le sol, à partir d’une nouvelle image ou de votre imagination.",
+  "colouringLabel": "De petits gestes au crayon, tes couleurs à toi",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Une lumière sur une côte paisible.",
+      "instruction": "Observe la base large de la tour et la petite lanterne au-dessus.",
+      "spoken": "Notre phare de papier se dresse au bord d’une mer paisible et imaginaire. Regarde sa base large, son sommet plus étroit et la petite lanterne tout en haut.",
+      "hint": "Compare la largeur près de la base avec celle du sommet, plus étroit.",
+      "notice": "Regardez ensemble une image de phare. Comparez sa base à son sommet et observez où la terre rejoint l’eau. Certaines tours sont droites plutôt que plus étroites en haut : les deux sont les bienvenues."
+    },
+    "sea-horizon": {
+      "title": "L’horizon de la mer",
+      "instruction": "Trace la ligne de la mer lointaine sur le côté droit.",
+      "spoken": "Une longue ligne pour la mer lointaine marque le début de notre côte. Laisse de la place à gauche pour un grand phare, et beaucoup d’espace au-dessus.",
+      "hint": "Place la ligne de mer un peu au-dessus du milieu de la feuille.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "coastline": {
+      "title": "La côte",
+      "instruction": "Trace la courbe de la côte en levant le crayon pour laisser une place à un rocher, si tu veux.",
+      "spoken": "Trace une courbe pour la côte dans le bas de notre image. Lève le crayon pour laisser un petit espace où un rocher pourra se poser au premier plan, si tu le souhaites.",
+      "hint": "Laisse une courbe libre changer de direction dans le bas de la feuille.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "tower-left-edge": {
+      "title": "Le côté gauche de la tour",
+      "instruction": "Trace le côté gauche en l’inclinant doucement vers l’intérieur en montant.",
+      "spoken": "Commençons par le bord gauche de la tour. Incline-le un peu vers l’intérieur en montant : le phare sera plus large près du sol.",
+      "hint": "Pars du bas et laisse ton trait pencher légèrement vers la droite.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "tower-right-edge": {
+      "title": "Le côté droit de la tour",
+      "instruction": "Incline l’autre côté vers l’intérieur, vers le sommet étroit.",
+      "spoken": "L’autre côté penche dans l’autre sens. Compare l’espace étroit en haut avec l’espace plus large en bas.",
+      "hint": "En montant, laisse le bord droit pencher légèrement vers la gauche.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "tower-base": {
+      "title": "La base de la tour",
+      "instruction": "Relie le bas de la tour par une courbe douce.",
+      "spoken": "Une petite courbe relie les côtés en bas. Elle aide la tour à paraître arrondie plutôt que plate comme un triangle.",
+      "hint": "Relie les extrémités du bas par une courbe peu creusée.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "lantern-platform": {
+      "title": "La plateforme de la lanterne",
+      "instruction": "Ajoute une petite plateforme large en haut de la tour.",
+      "spoken": "Une petite plateforme plate traverse le haut de la tour. Ses extrémités dépassent un peu des côtés étroits.",
+      "hint": "Trace un rectangle fin et large en haut de la tour.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "lantern-room": {
+      "title": "La lanterne",
+      "instruction": "Place une petite lanterne rectangulaire au-dessus de la plateforme.",
+      "spoken": "Une petite lanterne se pose au-dessus de la plateforme. Elle est bien plus petite que la tour, pour laisser voir sa grande forme.",
+      "hint": "Quatre petits côtés forment la lanterne au-dessus de la plateforme.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "lantern-roof": {
+      "title": "Le toit de la lanterne",
+      "instruction": "Ajoute un toit peu haut et pointu au-dessus de la lanterne.",
+      "spoken": "Deux lignes inclinées forment un toit peu haut avec une pointe. En bas, elles dépassent un peu de chaque côté de la lanterne.",
+      "hint": "Monte jusqu’à une pointe, puis redescends de l’autre côté.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "lantern-divider": {
+      "title": "Les vitres de la lanterne",
+      "instruction": "Sépare la lanterne avec un fin trait vertical.",
+      "spoken": "Un petit trait vertical suggère deux vitres dans la lanterne.",
+      "hint": "Garde ce petit trait à l’intérieur de la lanterne.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "lighthouse-door": {
+      "title": "La porte du phare",
+      "instruction": "Dessine une petite porte arrondie en haut, dans la base de la tour.",
+      "spoken": "Une petite porte en forme d’arche se trouve près de la base. Laisse de l’espace entre la porte et les côtés inclinés de la tour.",
+      "hint": "Monte, arrondis le haut en petite arche, puis redescends.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "tower-upper-stripe": {
+      "title": "Le haut de la bande",
+      "instruction": "Courbe doucement le bord supérieur d’une bande autour de la tour.",
+      "spoken": "Si tu souhaites ajouter une bande, courbe doucement son bord autour de la tour. La courbe suit sa surface arrondie ; tu peux aussi laisser la tour unie.",
+      "hint": "Laisse la courbe descendre légèrement au milieu.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "tower-lower-stripe": {
+      "title": "Le bas de la bande",
+      "instruction": "Si tu as tracé le bord supérieur de la bande, essaie d’en ajouter un en dessous.",
+      "spoken": "Si tu as ajouté le haut de la bande, trace une autre courbe en dessous. Laisse de la place entre les deux pour la couleur, ou garde ta tour unie.",
+      "hint": "Trace ce bord sous le premier seulement si tu as ajouté celui du haut.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "light-beam-upper": {
+      "title": "Le haut du faisceau lumineux",
+      "instruction": "Fais partir une longue ligne de la lanterne pour suggérer un rayon.",
+      "spoken": "Si tu veux, une longue ligne qui part de la lanterne peut suggérer un faisceau lumineux imaginaire. Nous pouvons montrer sa direction, ou laisser le ciel vide.",
+      "hint": "Pars de la lanterne et trace une longue ligne vers la droite.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "light-beam-lower": {
+      "title": "Le bas du faisceau lumineux",
+      "instruction": "Si tu as tracé le bord supérieur du faisceau, essaie d’en ajouter un en dessous.",
+      "spoken": "Si tu as tracé le haut du faisceau, une deuxième ligne peut s’écarter en dessous. Sinon, tu peux laisser le faisceau de côté et garder le ciel vide.",
+      "hint": "Si tu as ajouté le premier bord du faisceau, élargis l’espace vers la droite.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "coastal-rock": {
+      "title": "Un rocher sur la côte",
+      "instruction": "Si tu le souhaites, ferme la forme d’un petit rocher irrégulier près de la côte.",
+      "spoken": "Quelques petits côtés irréguliers forment un rocher au bord de la mer. Leurs formes variées le rendent différent de notre tour.",
+      "hint": "Relie quelques petits côtés irréguliers, puis arrondis le bas du rocher.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "near-wave": {
+      "title": "Une vague proche",
+      "instruction": "Trace une petite vague sur la droite.",
+      "spoken": "Si tu veux, une petite courbe qui monte et redescend peut suggérer une vague proche.",
+      "hint": "Laisse une petite courbe monter, puis redescendre.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "far-wave": {
+      "title": "Une vague lointaine",
+      "instruction": "Utilise une courbe plus courte pour une vague plus éloignée.",
+      "spoken": "Tu peux ajouter une petite vague près de la mer lointaine, ou laisser l’eau tranquille.",
+      "hint": "Trace une petite courbe basse plus haut dans l’image.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "coastal-cloud": {
+      "title": "Un nuage au-dessus de la côte",
+      "instruction": "Si tu le souhaites, ajoute un petit nuage tout doux dans le ciel.",
+      "spoken": "Un nuage tout doux peut se trouver dans le ciel. Quelques bosses arrondies suffisent ; nous pouvons laisser beaucoup de ciel blanc.",
+      "hint": "Relie quelques bosses arrondies et ferme le bas du nuage.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "distant-boat": {
+      "title": "Un bateau au loin",
+      "instruction": "Si tu veux, place un tout petit bateau courbé près de l’horizon.",
+      "spoken": "Un petit bateau courbé se trouve au loin, près de l’horizon. Garde-le petit : il semblera éloigné à côté de notre grand phare.",
+      "hint": "Trace une toute petite coque courbée sous la ligne de mer lointaine.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "lighthouse-path": {
+      "title": "Le chemin vers le phare",
+      "instruction": "Trace une courbe libre pour le chemin vers la porte du phare.",
+      "spoken": "Si tu le souhaites, un chemin peut mener vers la porte. Fais-le courber sur la terre, ou laisse le phare sur la feuille sans chemin.",
+      "hint": "Trace une courbe depuis le bas de la feuille vers la petite porte.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    },
+    "colour-choice": {
+      "title": "Des couleurs pour le phare.",
+      "instruction": "Choisis un rouge chaud, du jaune pour la lanterne et un peu de gris froid.",
+      "spoken": "Je vais laisser la plus grande partie de la tour en papier blanc, ajouter une bande rouge chaud et donner à la lanterne une douce lueur jaune.",
+      "hint": "Le blanc du papier peut être l’une des couleurs principales de ton image.",
+      "notice": "Utilisez les crayons disponibles et des gestes confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à une étape sans échéance."
+    },
+    "colour-tower-band": {
+      "title": "Une bande autour de la tour.",
+      "instruction": "Colorie entre les bords de ta bande, ou laisse la tour blanche.",
+      "spoken": "Si tu as tracé les deux bords de la bande, colorie entre eux avec de petites touches rouges. Tu peux aussi laisser la tour blanche.",
+      "hint": "Si tu as tracé les deux bords, fais de petits traits entre eux.",
+      "notice": "Utilisez les crayons disponibles et des gestes confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à une étape sans échéance."
+    },
+    "colour-lantern": {
+      "title": "Une petite lanterne chaleureuse.",
+      "instruction": "Colorie les petites vitres en jaune et le toit en rouge chaud.",
+      "spoken": "Les espaces de la lanterne sont petits, alors je fais des gestes plus courts. Un peu de jaune et un toit rouge suffisent pour les distinguer.",
+      "hint": "Dans les tout petits espaces, fais de tout petits gestes en appuyant doucement.",
+      "notice": "Utilisez les crayons disponibles et des gestes confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à une étape sans échéance."
+    },
+    "colour-coastal-details": {
+      "title": "Un rocher, une porte et un bateau au loin.",
+      "instruction": "Ajoute de petites touches de couleurs naturelles aux détails de la côte.",
+      "spoken": "Tu peux colorier les détails que tu as ajoutés : un rocher gris, une porte marron ou un petit bateau. Une toute petite touche suffit pour le bateau au loin.",
+      "hint": "Adapte la taille de ton geste à celle de chaque espace.",
+      "notice": "Utilisez les crayons disponibles et des gestes confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à une étape sans échéance."
+    },
+    "colour-tower-shadow": {
+      "title": "Une légère touche d’ombre.",
+      "instruction": "Si tu le souhaites, ajoute une bande un peu plus foncée sur un côté de la tour.",
+      "spoken": "Une bande gris clair sur un côté peut suggérer de l’ombre à côté du papier blanc. C’est une petite idée en plus : tu peux aussi ne pas l’ajouter.",
+      "hint": "Colorie légèrement ; la tour peut rester presque entièrement blanche.",
+      "notice": "Utilisez les crayons disponibles et des gestes confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à une étape sans échéance."
+    },
+    "colour-reflect": {
+      "title": "Une tour qui paraît arrondie.",
+      "instruction": "Observe la base courbée et les bandes ou ombres que tu as ajoutées.",
+      "spoken": "Regarde la base courbée de la tour. Une bande courbée ou un côté gris clair, si tu en as ajouté, peut aussi aider ce dessin plat à suggérer une tour arrondie.",
+      "hint": "Observe la base courbée ou une petite touche de couleur que tu as choisie.",
+      "notice": "Utilisez les crayons disponibles et des gestes confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à une étape sans échéance."
+    },
+    "explore": {
+      "title": "Ta côte imaginaire.",
+      "instruction": "Continue de colorier ou ajoute un petit détail le long de ta côte.",
+      "spoken": "Tu peux ajouter un autre bateau au loin, changer la couleur de la bande ou laisser la mer calme et dégagée. Continue ton dessin, ou termine ton phare ici.",
+      "hint": "Les petits détails au loin peuvent laisser le phare comme forme principale de ton image.",
+      "notice": "Invitez votre enfant à montrer la terre et la mer sur le modèle. Si votre enfant le demande, montrez sur une autre feuille deux lignes qui penchent l’une vers l’autre. Expliquez que les traits du faisceau lumineux sont une convention de dessin : ils ne sont pas forcément visibles en plein jour."
+    }
+  },
+  "sourceLessonSha256": "8fc20927501cf5d0f1ddcbe1bc9de4efed7c0610c7f30e401d24cc03805738d3"
+}

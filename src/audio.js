@@ -1,6 +1,6 @@
 import narrationIndex from "./narration-index.json" with { type: "json" };
 import { isNarrationPath } from "./narration-locales.js";
-import { isSpanishAuthoredClip } from "./narration-registry.js";
+import { isLocalizedAuthoredClip } from "./narration-registry.js";
 import musicIndex from "./music-index.json" with { type: "json" };
 import lessonMusicIndex from "./lesson-music-index.json" with { type: "json" };
 import lessonMusicCatalogue from "./lesson-music-catalogue.json" with { type: "json" };
@@ -9,7 +9,7 @@ import { NARRATION_PLAYBACK_RATE } from "./narration-policy.js";
 // Exact authored assets only: a plausible same-origin filename is insufficient.
 const AUTHORED_CLIPS = new Set(Object.values(narrationIndex).filter(isNarrationPath));
 const isAuthoredClip = (source) => typeof source === "string" &&
-  (AUTHORED_CLIPS.has(source) || isSpanishAuthoredClip(source));
+  (AUTHORED_CLIPS.has(source) || isLocalizedAuthoredClip(source));
 
 // An original, sparse pentatonic motif synthesized on this device. Music is an
 // optional preference, not a teaching intervention or a claim about wellbeing.

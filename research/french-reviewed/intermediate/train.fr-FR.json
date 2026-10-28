@@ -1,0 +1,223 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "train",
+  "sourceTextSha256": "e303c86b42e6b44c9978501aae3872724cd7c902e965afba042e3711c60af66b",
+  "title": "Une locomotive jouet",
+  "invitation": "Des roues et des formes qui vont ensemble.",
+  "objective": "Associer des parties qui semblent se superposer, des roues rondes et une ligne de support commune pour évoquer un véhicule jouet.",
+  "parentNote": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire.",
+  "simplify": "",
+  "transfer": "Un autre jour, essayez un autobus jouet. Réutilisez les roues et un long corps, puis décidez quelles parties de la locomotive laisser de côté.",
+  "colouringLabel": "De petits traits et des couleurs choisies",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Un voyage imaginaire en train.",
+      "instruction": "Observe les roues rondes sous les formes longues et rectangulaires.",
+      "spoken": "Notre locomotive en papier est prête pour un voyage en train inventé. Regarde la cabine aux formes carrées, la longue chaudière arrondie et les roues en dessous.",
+      "hint": "Compare les longues formes de la locomotive à ses roues rondes.",
+      "notice": "Regardez ensemble notre locomotive jouet. Quelles parties se trouvent au-dessus des roues ?"
+    },
+    "train-base": {
+      "title": "La base du train",
+      "instruction": "Dessine un rectangle long et bas pour la base de la locomotive.",
+      "spoken": "Un long rectangle forme notre base. Laisse de la place au-dessus pour la locomotive et en dessous pour deux roues rondes.",
+      "hint": "Fais ce rectangle beaucoup plus large que haut.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-cab": {
+      "title": "La cabine",
+      "instruction": "Construis une cabine aux formes carrées au-dessus d’une extrémité.",
+      "spoken": "La cabine haute monte au-dessus d’une extrémité de la base. J’arrête son bord éloigné là où la chaudière arrondie la rejoindra.",
+      "hint": "Place cette forme haute au-dessus d’une extrémité de la longue base.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-boiler": {
+      "title": "La chaudière",
+      "instruction": "Place une longue chaudière arrondie à côté de la cabine.",
+      "spoken": "Un long ovale s’étire le long de la base, à côté de la cabine. Son bord arrondi se place devant le coin inférieur de la cabine.",
+      "hint": "Compare ce long ovale bas avec la cabine plus haute.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-front-wheel": {
+      "title": "La roue avant",
+      "instruction": "Place une roue ronde sous l’avant.",
+      "spoken": "Une roue ronde touche le dessous de la base. Son haut se glisse dans la base : elle est ainsi reliée au train au lieu de flotter.",
+      "hint": "Laisse le bord supérieur de la roue toucher la base de la locomotive.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-back-wheel": {
+      "title": "La roue arrière",
+      "instruction": "Ajoute une roue semblable sous la cabine.",
+      "spoken": "L’autre roue se place sous la cabine. Compare le bas des deux roues pour que notre locomotive puisse reposer sur une voie horizontale.",
+      "hint": "Regarde le bas de la première roue avant de placer celle-ci.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-front-hub": {
+      "title": "Le centre de la roue avant",
+      "instruction": "Place un petit cercle dans la roue avant.",
+      "spoken": "Un cercle plus petit se place près du milieu de la roue avant. L’espace autour laisse un bord bien visible à la roue.",
+      "hint": "Garde ce cercle beaucoup plus petit que la roue qui l’entoure.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-back-hub": {
+      "title": "Le centre de la roue arrière",
+      "instruction": "Ajoute un petit cercle au centre de l’autre roue.",
+      "spoken": "Un autre petit cercle se place dans la roue arrière. La grande roue et son petit centre reprennent une idée que nous connaissons déjà.",
+      "hint": "Cherche le milieu de ton deuxième grand cercle.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-wheel-link": {
+      "title": "La barre entre les roues",
+      "instruction": "Relie les milieux des roues avec un long trait.",
+      "spoken": "Un trait relie les deux petits centres. Je regarde d’une roue à l’autre pour choisir sa direction.",
+      "hint": "Commence à un petit centre et vise l’autre.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-window": {
+      "title": "La fenêtre de la cabine",
+      "instruction": "Dessine une petite fenêtre à l’intérieur de la cabine.",
+      "spoken": "Un petit rectangle trouve sa place en haut de la cabine. Laisse une bordure de papier autour pour que la forme de la cabine reste facile à voir.",
+      "hint": "Garde cette petite fenêtre au-dessus de la chaudière arrondie.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-cab-roof": {
+      "title": "Le toit de la cabine",
+      "instruction": "Prolonge un petit trait de toit au-dessus de la cabine.",
+      "spoken": "Un trait dépasse un peu de chaque côté de la cabine. Ces petits débords rendent le toit différent de la fenêtre en dessous.",
+      "hint": "Suis le haut de la cabine et dépasse un peu de chaque côté.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-chimney": {
+      "title": "La cheminée",
+      "instruction": "Place une cheminée étroite au-dessus de la chaudière.",
+      "spoken": "Un rectangle haut et étroit rejoint le haut de la chaudière. Sa petite largeur nous aide à voir combien la chaudière est longue et large.",
+      "hint": "Garde la cheminée étroite à côté des grandes formes du train.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-front-slope": {
+      "title": "La pente à l’avant",
+      "instruction": "Trace un petit trait oblique qui descend de l’avant.",
+      "spoken": "Un petit trait oblique descend au-delà de l’avant de la locomotive. Laisse la roue voisine dégagée en le plaçant.",
+      "hint": "Commence à l’extrémité avant de la longue base.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-front-base": {
+      "title": "La pointe à l’avant",
+      "instruction": "Relie cette petite pente à la base.",
+      "spoken": "Un autre petit trait revient vers la base. Les deux traits forment une petite pointe à l’avant.",
+      "hint": "Ramène la pointe extérieure vers le bord inférieur de la locomotive.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-boiler-face": {
+      "title": "Le devant de la chaudière",
+      "instruction": "Trace une petite courbe près de l’avant de la chaudière.",
+      "spoken": "Une petite courbe suit la chaudière près de son avant. Elle évoque une extrémité ronde sans ajouter un autre grand ovale.",
+      "hint": "Garde cette courbe à l’intérieur de la chaudière arrondie.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-front-lamp": {
+      "title": "La lampe avant",
+      "instruction": "Place une toute petite lampe ronde près de l’avant.",
+      "spoken": "Un petit cercle se place près de l’avant. Sa petite taille laisse les grandes parties de la locomotive au premier plan.",
+      "hint": "Laisse un peu de papier autour du petit cercle de la lampe.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-coupling": {
+      "title": "Le crochet arrière",
+      "instruction": "Essaie un petit crochet de raccordement à l’arrière.",
+      "spoken": "Une petite courbe peut partir de l’arrière de la base et s’enrouler. Notre locomotive imaginaire peut voyager avec ou sans ce crochet supplémentaire.",
+      "hint": "Commence au bord arrière et courbe le trait tout près.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-first-puff": {
+      "title": "Le premier petit nuage",
+      "instruction": "Essaie un petit nuage de conte au-dessus de la cheminée.",
+      "spoken": "Des bosses arrondies peuvent former un nuage imaginaire dans le ciel de notre histoire. Laisse un peu de papier entre lui et la cheminée.",
+      "hint": "Relie des courbes douces autour d’un petit espace au-dessus de la cheminée.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-second-puff": {
+      "title": "Le deuxième petit nuage",
+      "instruction": "Essaie un autre nuage de conte plus haut, si tu veux.",
+      "spoken": "Un autre petit nuage doux peut flotter plus haut au-dessus de la cheminée. Tu peux en dessiner un, plusieurs ou aucun dans notre voyage imaginaire.",
+      "hint": "Garde cette forme facultative dans le ciel au-dessus de la cheminée.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-upper-rail": {
+      "title": "Le rail du haut",
+      "instruction": "Trace une longue ligne de chemin de fer sous les roues.",
+      "spoken": "Une longue ligne se place juste sous les deux roues. Comparer le bas des roues m’aide à placer la voie sous notre locomotive.",
+      "hint": "Vise sous les deux roues plutôt qu’à travers leur milieu.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "train-lower-rail": {
+      "title": "Le rail du bas",
+      "instruction": "Ajoute une autre ligne de chemin de fer un peu plus bas.",
+      "spoken": "Une deuxième ligne suit la première en dessous. Je garde un espace étroit entre les rails qui traversent notre feuille.",
+      "hint": "Laisse ces longues lignes aller dans la même direction.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    },
+    "colour-choice": {
+      "title": "Des couleurs pour notre petite locomotive.",
+      "instruction": "Choisis les couleurs de la locomotive et une couche plus foncée en dessous.",
+      "spoken": "Je choisis une locomotive verte, une base rouge et des roues grises. Un vert plus foncé peut créer une petite zone d’ombre sur la chaudière arrondie.",
+      "hint": "Prépare une couleur claire pour la locomotive et une nuance plus foncée.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-engine": {
+      "title": "Du vert sur la locomotive.",
+      "instruction": "Colorie la locomotive sans couvrir la fenêtre de la cabine.",
+      "spoken": "Des zones vertes se placent autour de la fenêtre et sur la chaudière. Je lève mon crayon avant une fenêtre et je reprends dans un espace libre.",
+      "hint": "De petits traits aident à garder visible le bord de la fenêtre.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-base-and-wheels": {
+      "title": "Une base rouge et des roues grises.",
+      "instruction": "Colorie la base et chaque roue séparément.",
+      "spoken": "Le rouge se place dans la longue base et le gris sur les roues. Je lève mon crayon entre les formes pour que les différentes parties restent faciles à voir.",
+      "hint": "Une roue ronde peut contenir de petites zones de couleur arrondies.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-glass-and-shadow": {
+      "title": "Un peu de verre et d’ombre.",
+      "instruction": "Ajoute une vitre claire et une zone plus foncée sous la chaudière.",
+      "spoken": "Un peu de bleu évoque la vitre. Une couche de vert plus foncé près du bord inférieur de la chaudière donne un aspect arrondi à sa longue forme.",
+      "hint": "Laisse une partie de la première couleur et du papier visibles à côté de la zone plus foncée.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-reflection": {
+      "title": "Notre locomotive sur sa voie.",
+      "instruction": "Observe les roues alignées sous les formes reliées de la locomotive.",
+      "spoken": "Nos roues rondes soutiennent les formes longues et carrées de la locomotive. Ce petit train en papier peut suivre un voyage que tu inventes.",
+      "hint": "Observe la différence entre une roue et la longue base.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "explore": {
+      "title": "Où ton train pourrait-il voyager ?",
+      "instruction": "Invente une gare, ajoute un wagon ou termine ici.",
+      "spoken": "Ta locomotive pourrait visiter une gare inventée ou tirer un autre wagon en papier. Continue à dessiner, à colorier ou termine ton voyage ici.",
+      "hint": "Essaie de relier des roues rondes sous une autre forme longue.",
+      "notice": "Si votre enfant le demande, comparez la cabine haute, la longue base et les roues rondes de l’exemple. Montrez une relation sur votre propre feuille plutôt que de faire mémoriser le nom de chaque pièce. Il s’agit d’une locomotive jouet stylisée ; le petit nuage est un détail facultatif pour l’histoire."
+    }
+  },
+  "sourceLessonSha256": "c7fc86087e70dd347dd83fff5d392f7e859d9a67a511874ca68385fc15ef8764"
+}

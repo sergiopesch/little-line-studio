@@ -1,0 +1,223 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "owl",
+  "sourceTextSha256": "2710114de4f7a529e373e67bb22711936f523dd856b0283cb19374663a97271e",
+  "title": "Un hibou",
+  "invitation": "De grands yeux et une branche pour se poser.",
+  "objective": "Placer des éléments par paires dans une grande forme et relier un animal à une branche qui le soutient.",
+  "parentNote": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière.",
+  "simplify": "",
+  "transfer": "Essayez un autre oiseau posé sur une clôture. Explorez les détails qui peuvent rester et ceux qui pourraient changer, sans imposer le modèle du hibou.",
+  "colouringLabel": "De petits traits et des couleurs choisies",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons le hibou.",
+      "instruction": "Regarde deux grands yeux dans un seul corps haut.",
+      "spoken": "Notre hibou imaginaire se repose sur un perchoir de papier. Regarde sa forme haute et arrondie et ses deux grands yeux avec de l’espace entre eux.",
+      "hint": "Cherche le grand corps avant les petites marques de plumes.",
+      "notice": "Regardez notre hibou sur sa branche. Quelles parties montrent où il est posé ?"
+    },
+    "owl-body": {
+      "title": "Le corps",
+      "instruction": "Dessine une forme haute et arrondie en laissant de la place en dessous.",
+      "spoken": "Un ovale haut laisse de la place pour le visage et le corps à plumes ensemble. Laisse du papier en dessous pour une branche.",
+      "hint": "Pense à un grand ovale avant ses petits détails.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-left-tuft": {
+      "title": "Une aigrette de plumes",
+      "instruction": "Relie deux petits traits pour une petite aigrette de plumes.",
+      "spoken": "Deux petits traits montent près d’un côté de la tête. Notre hibou imaginaire a de petites aigrettes de plumes pointues.",
+      "hint": "Fais toucher l’aigrette au côté supérieur de l’ovale.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-right-tuft": {
+      "title": "Une autre aigrette",
+      "instruction": "Ajoute une autre aigrette de plumes de l’autre côté de la tête.",
+      "spoken": "Une deuxième aigrette monte de l’autre côté. Regarde de l’autre côté de la tête pour trouver sa place.",
+      "hint": "Compare sa hauteur à celle de la première petite aigrette.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-left-eye": {
+      "title": "Un grand œil",
+      "instruction": "Dessine un grand œil rond dans le corps.",
+      "spoken": "Je place un grand œil en haut de l’ovale. Il reste de la place à côté pour un autre œil et en dessous pour un bec.",
+      "hint": "Laisse de la place de l’autre côté du visage pour l’autre grand œil.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-right-eye": {
+      "title": "L’autre grand œil",
+      "instruction": "Laisse un petit espace avant l’autre œil.",
+      "spoken": "L’autre œil se place en face du premier. Regarder leur taille et l’espace entre eux m’aide à le placer.",
+      "hint": "Garde les deux grands cercles dans le haut du corps.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-left-pupil": {
+      "title": "Une petite pupille",
+      "instruction": "Ajoute une petite pupille dans le premier œil.",
+      "spoken": "Une petite pupille foncée se place dans le premier cercle. L’espace blanc autour garde le grand œil bien visible.",
+      "hint": "Fais ta pupille plus petite que l’œil rond qui l’entoure.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-right-pupil": {
+      "title": "L’autre pupille",
+      "instruction": "Ajoute une petite pupille dans le deuxième œil.",
+      "spoken": "Une autre petite pupille se place dans l’autre œil. Nous laissons encore beaucoup de papier blanc autour.",
+      "hint": "Cherche l’intérieur du deuxième œil pour cette petite marque.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-beak": {
+      "title": "Le bec",
+      "instruction": "Relie trois petits côtés sous les yeux.",
+      "spoken": "Un petit bec pointu tient entre les yeux et en dessous. Trois côtés reliés forment une forme bien plus petite que chaque œil.",
+      "hint": "Dessine un petit triangle pointé vers le bas sous les cercles des yeux.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-left-wing": {
+      "title": "Une aile repliée",
+      "instruction": "Trace une aile courbée vers le bas à l’intérieur d’un côté.",
+      "spoken": "Une longue courbe douce descend dans le corps. Elle suggère une aile repliée sans ajouter un autre ovale entier.",
+      "hint": "Commence à côté du visage et courbe vers le bas du corps.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-right-wing": {
+      "title": "L’autre aile",
+      "instruction": "Trace l’autre aile en courbe vers le bas du côté opposé.",
+      "spoken": "L’autre aile descend en courbe à l’intérieur du bord opposé. Laisse le ventre libre entre ces deux longues courbes.",
+      "hint": "Laisse les deux ailes encadrer un espace libre au milieu.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-branch-top": {
+      "title": "Le haut de la branche",
+      "instruction": "Trace une ligne de branche sous le hibou.",
+      "spoken": "Une longue ligne se trouve sous notre hibou. Je lui laisse de la place pour dépasser des deux côtés du corps.",
+      "hint": "Laisse un petit espace sous le corps pour les pattes.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-branch-bottom": {
+      "title": "Le bas de la branche",
+      "instruction": "Trace une autre ligne juste sous la première.",
+      "spoken": "Une deuxième ligne suit en dessous, en laissant un espace étroit. Cet espace donne un peu d’épaisseur à la branche.",
+      "hint": "Garde les deux lignes de la branche proches, avec du papier entre elles.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-left-leg": {
+      "title": "Une patte",
+      "instruction": "Relie le hibou à son perchoir par une petite patte.",
+      "spoken": "Un petit trait descend du corps jusqu’à la branche. Regarde où le trait atteint le haut du perchoir.",
+      "hint": "Relie le bas du corps à la ligne supérieure de la branche.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-right-leg": {
+      "title": "Une autre patte",
+      "instruction": "Ajoute une autre petite patte en face de la première.",
+      "spoken": "L’autre petite patte descend à côté. Laisse un peu d’espace entre les pattes pour bien voir chacune.",
+      "hint": "Fais une autre petite liaison entre le corps et la branche.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-left-claw": {
+      "title": "Un petit pied",
+      "instruction": "Trace un petit pied courbé sur la branche.",
+      "spoken": "Un petit pied courbé rejoint la ligne du haut de la branche. Sa petite taille aide le corps du hibou à rester la plus grande forme.",
+      "hint": "Place la petite courbe au bas d’une patte.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-right-claw": {
+      "title": "L’autre petit pied",
+      "instruction": "Ajoute un petit pied courbé sur l’autre patte.",
+      "spoken": "L’autre pied se courbe sur le perchoir. Je garde la courbe petite à côté de la longue branche.",
+      "hint": "Fais rejoindre cette courbe à l’extrémité de ta deuxième patte.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-upper-feather": {
+      "title": "Une petite plume",
+      "instruction": "Essaie une petite marque de plume sur le ventre.",
+      "spoken": "Deux tout petits traits penchés peuvent suggérer une plume. Cette marque facultative se place dans le ventre libre entre les ailes.",
+      "hint": "Un petit creux qui ressemble à une lettre peut faire une marque de plume.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-middle-feather": {
+      "title": "Une autre plume",
+      "instruction": "Essaie une autre marque de plume à côté, si tu veux.",
+      "spoken": "Un autre petit creux peut se placer à côté du premier. Laisse un peu de papier entre les marques de plumes que tu choisis.",
+      "hint": "Garde la nouvelle plume loin des bords des ailes.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-lower-feather": {
+      "title": "Une plume plus bas",
+      "instruction": "Essaie une plume plus bas ou garde ton espace libre.",
+      "spoken": "Une plume plus bas peut terminer le petit motif. Quelques marques suffisent et un ventre uni est bienvenu.",
+      "hint": "Place cette petite marque facultative sous les autres.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "owl-branch-leaf": {
+      "title": "Une feuille sur la branche",
+      "instruction": "Essaie une petite feuille à côté du perchoir sur papier.",
+      "spoken": "Deux courbes peuvent se rejoindre pour former une feuille près de notre perchoir. C’est une idée de jardin supplémentaire que tu peux passer.",
+      "hint": "Fais se rejoindre les deux côtés courbés en une pointe.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis une couleur claire pour le ventre et une plus foncée pour les ailes.",
+      "spoken": "Je choisis des plumes couleur sable, un ventre clair et des ailes brunes. Ces couleurs proches nous aident à remarquer les différentes parties de notre hibou sur papier.",
+      "hint": "Un seul crayon peut faire des marques plus claires quand tu appuies doucement.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-feathers": {
+      "title": "Les plumes",
+      "instruction": "Colorie autour des yeux en laissant le papier blanc à l’intérieur.",
+      "spoken": "De petits traits beige vont à côté du visage, avec du crème sur le ventre. Je laisse les cercles des yeux blancs pour qu’ils restent bien visibles.",
+      "hint": "Soulève ton crayon avant d’atteindre un œil, puis commence une nouvelle zone.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-wings": {
+      "title": "Les ailes colorées",
+      "instruction": "Ajoute des plumes plus foncées près des ailes repliées.",
+      "spoken": "Des zones brunes près de chaque côté distinguent les ailes du ventre plus clair. Je construis la couleur avec de petites couches légères.",
+      "hint": "Garde le milieu plus clair que les zones à côté.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-perch": {
+      "title": "Le perchoir coloré",
+      "instruction": "Fais de tout petits traits dans la branche étroite.",
+      "spoken": "Une branche étroite demande de petits traits bruns. Je soulève mon crayon avant les pattes, puis je place une toute petite zone jaune dans le bec.",
+      "hint": "Les petits espaces demandent des mouvements plus petits ou peuvent rester blancs.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-reflection": {
+      "title": "Regarde ton hibou.",
+      "instruction": "Observe le ventre clair entre les ailes plus foncées.",
+      "spoken": "Regarde le milieu clair et les ailes plus foncées autour. Notre hibou imaginaire a un perchoir tranquille sur papier et de la place pour tes idées.",
+      "hint": "Remarque une différence entre une grande et une petite forme.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "explore": {
+      "title": "Ton ciel imaginaire.",
+      "instruction": "Invente un ciel, ajoute tes propres marques ou termine.",
+      "spoken": "Tu pourrais donner à ton hibou un ciel imaginaire ou une autre branche. Ton perchoir sur papier peut aussi rester tranquille et simple.",
+      "hint": "Essaie de laisser un milieu clair entre deux côtés plus foncés.",
+      "notice": "Appelez les formes pointues des aigrettes de plumes, pas des oreilles. Si votre enfant demande de l’aide, parlez de la façon dont les pattes, les griffes et la branche se rejoignent. Laissez votre enfant choisir où placer les pupilles ; ne prétendez pas que le hibou ou son dessin exprime une émotion particulière."
+    }
+  },
+  "sourceLessonSha256": "c6b2ebd71b8e3f9c05fdc763351a49a9b2deb29006b5ab562e53c7952bc2bc0b"
+}

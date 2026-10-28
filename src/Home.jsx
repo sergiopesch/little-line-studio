@@ -9,6 +9,7 @@ import { LEVELS, LESSONS, getLevel } from "./lesson-catalogue.js";
 import { LessonPreview } from "./LessonPreview.jsx";
 import { LanguageCarousel, LanguageFlag } from "./LanguagePicker.jsx";
 import { isLessonAvailable } from "./narration-locales.js";
+import { FRENCH_DYNAMIC } from "./french-dynamic.fr-FR.js";
 
 export function Brand({ onClick }) {
   const { t } = useLocale();
@@ -68,7 +69,7 @@ export function Home({ onExplore, onPrivacy, onHow }) {
             key={level.id}
             className="level-choice"
             onClick={() => onExplore(level.id)}
-            aria-label={locale === "es-419" ? `Explorar ${t(level.name)}: 10 dibujos` : `Explore ${t(level.name)}: 10 drawings`}
+            aria-label={locale === "fr-FR" ? FRENCH_DYNAMIC.levelExplore(t(level.name)) : locale === "es-419" ? `Explorar ${t(level.name)}: 10 dibujos` : `Explore ${t(level.name)}: 10 drawings`}
           >
             <span className="level-picture">
               <img
@@ -112,13 +113,13 @@ export function Catalogue({
   language,
   localizeLesson,
   localizedTitle,
-  spanishNarration,
+  localeNarration,
   onLanguage,
 }) {
   const { t, locale } = useLocale();
   const level = getLevel(levelId);
   const lessons = LESSONS.filter((lesson) => lesson.level === levelId);
-  const hasAvailableLesson = lessons.some((lesson) => isLessonAvailable(locale, lesson, spanishNarration));
+  const hasAvailableLesson = lessons.some((lesson) => isLessonAvailable(locale, lesson, localeNarration));
   const pageSize = 4,
     pages = Math.ceil(lessons.length / pageSize);
   const visible = lessons.slice(page * pageSize, (page + 1) * pageSize);
@@ -142,7 +143,7 @@ export function Catalogue({
             {t("What shall we draw?")}
           </h1>
           <p>{t(level.description)} {t("Your own version is welcome.")}</p>
-          {!hasAvailableLesson && <p className="catalogue-unavailable">{t("Spanish lessons in this level are being prepared. Choose another level or language.")}</p>}
+          {!hasAvailableLesson && <p className="catalogue-unavailable">{t(locale === "es-419" ? "Spanish lessons in this level are being prepared. Choose another level or language." : "Lessons in this level are being prepared. Choose another level or language.")}</p>}
         </div>
         <div
           className="level-tabs"
@@ -162,10 +163,10 @@ export function Catalogue({
       </section>
       <section
         className="drawing-grid"
-        aria-label={locale === "es-419" ? `${t(level.name)}, dibujos ${page * pageSize + 1} a ${Math.min((page + 1) * pageSize, 10)} de 10` : `${level.name}, drawings ${page * pageSize + 1} to ${Math.min((page + 1) * pageSize, 10)} of 10`}
+        aria-label={locale === "fr-FR" ? FRENCH_DYNAMIC.catalogueRange(t(level.name), page * pageSize + 1, Math.min((page + 1) * pageSize, 10)) : locale === "es-419" ? `${t(level.name)}, dibujos ${page * pageSize + 1} a ${Math.min((page + 1) * pageSize, 10)} de 10` : `${level.name}, drawings ${page * pageSize + 1} to ${Math.min((page + 1) * pageSize, 10)} of 10`}
       >
         {visible.map((original) => {
-          const available = isLessonAvailable(locale, original, spanishNarration);
+          const available = isLessonAvailable(locale, original, localeNarration);
           const lesson = available ? localizeLesson(original, locale) : original;
           const title = available ? lesson.title : localizedTitle(original, locale) || t("Drawing being prepared");
           const content = <>
@@ -174,19 +175,19 @@ export function Catalogue({
             </div>
             <span className="drawing-choice-copy">
               <strong>{title}</strong>
-              <span>{available ? lesson.invitation : t("This Spanish lesson is being prepared.")}</span>
+              <span>{available ? lesson.invitation : t(locale === "es-419" ? "This Spanish lesson is being prepared." : "This lesson is being prepared.")}</span>
             </span>
             {available && <ArrowRightIcon className="drawing-choice-arrow" size={22} />}
           </>;
           return available ? (
             <button className="drawing-choice" key={original.id}
               onClick={() => onSelect(original.id)}
-              aria-label={locale === "es-419" ? `Dibujar ${title}` : `Draw ${title}`}>
+              aria-label={locale === "fr-FR" ? FRENCH_DYNAMIC.drawTitle(title) : locale === "es-419" ? `Dibujar ${title}` : `Draw ${title}`}>
               {content}
             </button>
           ) : (
             <article className="drawing-choice drawing-choice--preparing" key={original.id}
-              aria-label={`${title}. ${t("This Spanish lesson is being prepared.")}`}>
+              aria-label={`${title}. ${t(locale === "es-419" ? "This Spanish lesson is being prepared." : "This lesson is being prepared.")}`}>
               {content}
             </article>
           );
@@ -206,7 +207,7 @@ export function Catalogue({
             <CaretLeftIcon size={20} />
           </button>
           <span>
-            {page + 1} {locale === "es-419" ? "de" : "of"} {pages}
+            {locale === "fr-FR" ? FRENCH_DYNAMIC.pageCount(page + 1, pages) : `${page + 1} ${locale === "es-419" ? "de" : "of"} ${pages}`}
           </span>
           <button
             className="quiet-button"

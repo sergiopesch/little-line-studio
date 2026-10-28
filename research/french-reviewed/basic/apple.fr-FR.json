@@ -1,0 +1,139 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "apple",
+  "sourceTextSha256": "099ae9baacbdfff6a0bcc7df9ec236fdd5e072eebc00a0b1a44a00ab81c226bb",
+  "title": "Une pomme",
+  "invitation": "Deux courbes deviennent un fruit familier.",
+  "objective": "Construire un contour arrondi et irrégulier avec deux courbes, puis y ajouter un petit détail.",
+  "parentNote": "Montrez les deux côtés d’une vraie pomme ou d’un modèle, sans corriger le contour de votre enfant. Proposez un simple ovale si assembler les courbes ne lui convient pas. Une pomme imaginée, colorée ou décorée de motifs est aussi bienvenue qu’une pomme observée.",
+  "simplify": "",
+  "transfer": "Comment ces deux courbes pourraient-elles changer pour dessiner une poire ?",
+  "colouringLabel": "Des courbes rouges et un petit reflet",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Une pomme pour le pique-nique.",
+      "instruction": "Observe les deux côtés courbés de la pomme et le petit creux en haut.",
+      "spoken": "Dessinons une pomme pour un pique-nique imaginaire. Deux grandes courbes se rencontrent près d’un petit creux, avec une tige au-dessus.",
+      "hint": "Suis un côté du haut vers le bas.",
+      "notice": "Regardez une pomme ou une image de pomme. Remarquez le petit creux où commence sa tige."
+    },
+    "apple-left-side": {
+      "title": "Le côté gauche",
+      "instruction": "Pars du haut en courbe vers l’extérieur et arrondis le bas de la pomme.",
+      "spoken": "Commence près du haut. Trace une courbe vers la gauche, arrondis le côté, puis tourne vers l’intérieur en bas.",
+      "hint": "Laisse le côté sortir vers l’extérieur avant de revenir en courbe.",
+      "notice": "Montrez les deux côtés d’une vraie pomme ou d’un modèle, sans corriger le contour de votre enfant. Proposez un simple ovale si assembler les courbes ne lui convient pas. Une pomme imaginée, colorée ou décorée de motifs est aussi bienvenue qu’une pomme observée."
+    },
+    "apple-right-side": {
+      "title": "Le côté droit",
+      "instruction": "Arrondis l’autre côté pour rejoindre le haut.",
+      "spoken": "Depuis le bas, trace une courbe vers l’extérieur puis vers le haut de l’autre côté. Les deux courbes se rejoignent pour fermer notre pomme.",
+      "hint": "Suis l’extérieur avec un grand mouvement arrondi.",
+      "notice": "Montrez les deux côtés d’une vraie pomme ou d’un modèle, sans corriger le contour de votre enfant. Proposez un simple ovale si assembler les courbes ne lui convient pas. Une pomme imaginée, colorée ou décorée de motifs est aussi bienvenue qu’une pomme observée."
+    },
+    "apple-stalk": {
+      "title": "La tige",
+      "instruction": "Fais partir une courte tige courbée du creux en haut.",
+      "spoken": "Un petit trait courbé monte depuis le creux. Je le garde bien plus petit que la pomme.",
+      "hint": "Commence là où les deux grandes courbes de ta pomme se rejoignent.",
+      "notice": "Montrez les deux côtés d’une vraie pomme ou d’un modèle, sans corriger le contour de votre enfant. Proposez un simple ovale si assembler les courbes ne lui convient pas. Une pomme imaginée, colorée ou décorée de motifs est aussi bienvenue qu’une pomme observée."
+    },
+    "apple-leaf": {
+      "title": "La feuille",
+      "instruction": "Essaie une feuille pointue à côté de la tige, si tu veux.",
+      "spoken": "Deux courbes se rejoignent en une pointe pour former une feuille. Elle touche la petite tige.",
+      "hint": "Trace une courbe jusqu’à une pointe, puis reviens vers la tige.",
+      "notice": "Montrez les deux côtés d’une vraie pomme ou d’un modèle, sans corriger le contour de votre enfant. Proposez un simple ovale si assembler les courbes ne lui convient pas. Une pomme imaginée, colorée ou décorée de motifs est aussi bienvenue qu’une pomme observée."
+    },
+    "leaf-vein": {
+      "title": "Une ligne dans la feuille",
+      "instruction": "Ajoute une ligne à l’intérieur de ta feuille, si tu en as dessiné une.",
+      "spoken": "Si tu as ajouté une feuille, un trait léger peut passer par son milieu. Sinon, tu peux passer ce détail.",
+      "hint": "Garde le petit trait à l’intérieur des bords courbés de la feuille.",
+      "notice": "Montrez les deux côtés d’une vraie pomme ou d’un modèle, sans corriger le contour de votre enfant. Proposez un simple ovale si assembler les courbes ne lui convient pas. Une pomme imaginée, colorée ou décorée de motifs est aussi bienvenue qu’une pomme observée."
+    },
+    "apple-shine": {
+      "title": "Un petit reflet",
+      "instruction": "Essaie une petite courbe à l’intérieur de la pomme pour le reflet.",
+      "spoken": "Une petite courbe suit le côté gauche de la pomme. Je laisserai le papier blanc ici pour montrer un reflet.",
+      "hint": "Laisse de l’espace entre ta courbe de reflet et le bord extérieur.",
+      "notice": "Montrez les deux côtés d’une vraie pomme ou d’un modèle, sans corriger le contour de votre enfant. Proposez un simple ovale si assembler les courbes ne lui convient pas. Une pomme imaginée, colorée ou décorée de motifs est aussi bienvenue qu’une pomme observée."
+    },
+    "apple-dip": {
+      "title": "Le petit creux",
+      "instruction": "Montre le creux du haut avec une toute petite courbe, si tu veux.",
+      "spoken": "Une toute petite courbe près de la tige peut montrer le creux plus clairement. C’est un détail supplémentaire.",
+      "hint": "Ce petit creux se trouve près du haut de la pomme.",
+      "notice": "Montrez les deux côtés d’une vraie pomme ou d’un modèle, sans corriger le contour de votre enfant. Proposez un simple ovale si assembler les courbes ne lui convient pas. Une pomme imaginée, colorée ou décorée de motifs est aussi bienvenue qu’une pomme observée."
+    },
+    "apple-ground": {
+      "title": "Une ligne en dessous",
+      "instruction": "Essaie une ligne sous ta pomme ou passe cette étape.",
+      "spoken": "Une courbe basse sous la pomme peut devenir notre nappe de pique-nique imaginaire. Laisse un petit espace sous le fruit.",
+      "hint": "La ligne reste sous le contour de ta pomme.",
+      "notice": "Montrez les deux côtés d’une vraie pomme ou d’un modèle, sans corriger le contour de votre enfant. Proposez un simple ovale si assembler les courbes ne lui convient pas. Une pomme imaginée, colorée ou décorée de motifs est aussi bienvenue qu’une pomme observée."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis du rouge et du vert, ou une autre couleur pour ta pomme.",
+      "spoken": "Je choisis du rouge pour la pomme et du vert pour sa feuille. Des pommes jaunes ou vertes peuvent aussi rejoindre un pique-nique sur papier.",
+      "hint": "Choisis la couleur de pomme que tu veux explorer aujourd’hui.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-apple-left": {
+      "title": "Laisse un petit reflet.",
+      "instruction": "Colorie de petites zones en rouge en laissant un espace blanc pour le reflet.",
+      "spoken": "Je crée de petites zones rouges d’un côté. Le petit espace blanc reste sans couleur : le papier peut nous aider à montrer le reflet.",
+      "hint": "Garde de petits espaces plutôt que d’appuyer plus fort pour tout couvrir.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-apple-right": {
+      "title": "Colorie l’autre côté.",
+      "instruction": "Continue les petites zones rouges vers le bord arrondi de la pomme.",
+      "spoken": "Maintenant, passons à l’autre côté. Je fais des mouvements plus courts près du bord et je soulève mon crayon avant de passer à la zone suivante.",
+      "hint": "Suis ton contour courbé avec de petits mouvements doux.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-apple-leaf": {
+      "title": "La feuille verte",
+      "instruction": "Colorie ta feuille en vert si tu en as ajouté une.",
+      "spoken": "Quelques petits traits verts tiennent dans la feuille. Garde sa fine ligne centrale visible ou laisse ta feuille blanche.",
+      "hint": "La feuille n’est pas obligatoire ; tu peux passer cette couleur.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-reflection": {
+      "title": "Regarde ta pomme.",
+      "instruction": "Observe comment l’espace blanc se trouve à côté de ta couleur.",
+      "spoken": "Deux grandes courbes sont devenues une pomme arrondie. Regarde comment les zones colorées et le papier blanc se côtoient dans notre dessin de pique-nique.",
+      "hint": "Ta pomme peut être plus ronde, plus haute ou d’une autre couleur.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "explore": {
+      "title": "Ton pique-nique imaginaire.",
+      "instruction": "Invente un autre dessin de pique-nique, continue à colorier ou termine ici.",
+      "spoken": "Que pourrait-il y avoir d’autre dans ton pique-nique imaginaire ? Essaie un autre fruit, une tasse ou ta propre idée. Tu peux terminer quand tu veux.",
+      "hint": "Une autre forme arrondie pourrait devenir une poire ou une pêche.",
+      "notice": "Montrez les deux côtés d’une vraie pomme ou d’un modèle, sans corriger le contour de votre enfant. Proposez un simple ovale si assembler les courbes ne lui convient pas. Une pomme imaginée, colorée ou décorée de motifs est aussi bienvenue qu’une pomme observée."
+    }
+  },
+  "sourceLessonSha256": "c9c8b4371bd9fd41dda57e0484134a29464d670a4182d0df7009c16718c30742"
+}

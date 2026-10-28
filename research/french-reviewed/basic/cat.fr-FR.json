@@ -1,0 +1,181 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "cat",
+  "sourceTextSha256": "96e666b4c153d80e786a50f969db26863f9bc44ce1ad172eef1ee5a14dbb28d8",
+  "title": "Une tête de chat curieux",
+  "invitation": "Un visage rond avec son expression à lui.",
+  "objective": "Associer un contour arrondi à des traits placés à l’intérieur et à des lignes qui y sont reliées.",
+  "parentNote": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches.",
+  "simplify": "",
+  "transfer": "Une autre fois, proposez un autre visage d’animal sans refaire la même démonstration : quelles formes pourraient aider à dessiner un ours ? Laissez la possibilité de revoir la démonstration si votre enfant le souhaite.",
+  "colouringLabel": "Colorie ton chat",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons un instant.",
+      "instruction": "Cherche une tête ronde, deux oreilles et de petits traits à l’intérieur.",
+      "spoken": "Regardons notre chat. Une grande forme ronde accueille son visage, et deux petites oreilles sont posées dessus. Nous allons construire le dessin avec ces formes simples, une à la fois.",
+      "hint": "Regarde où les oreilles rejoignent la tête, puis cherche les petits yeux à l’intérieur.",
+      "notice": "Regardez ensemble une image de chat. Où ses oreilles rejoignent-elles sa tête ?"
+    },
+    "round-head": {
+      "title": "La tête ronde",
+      "instruction": "Dessine une tête large et ronde. Laisse de la place pour le visage à l’intérieur.",
+      "spoken": "Commençons par une tête large et ronde. Regarde mon trait faire le tour et revenir vers son point de départ. Cette grande forme laisse de la place pour le petit visage à l’intérieur.",
+      "hint": "Fais bouger toute ta main autour de la courbe. Un petit espace est très bien aussi.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "left-ear": {
+      "title": "L’oreille gauche",
+      "instruction": "Ajoute un petit triangle pour l’oreille gauche.",
+      "spoken": "Un petit triangle forme notre première oreille. Monte jusqu’à une pointe, puis redescends vers la tête. Les chats peuvent tourner leurs oreilles vers les sons. Notre oreille dessinée reste immobile.",
+      "hint": "Cherche le haut à gauche de la tête. Donne une pointe douce à ton triangle.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "right-ear": {
+      "title": "L’oreille droite",
+      "instruction": "Ajoute l’autre triangle en haut à droite.",
+      "spoken": "Ajoute maintenant un triangle de l’autre côté. Laisse un peu d’espace entre les oreilles.",
+      "hint": "Tes oreilles peuvent être de tailles différentes. Regarde où chacune rejoint la tête.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "left-eye": {
+      "title": "L’œil gauche",
+      "instruction": "Place un petit œil foncé à l’intérieur de la tête.",
+      "spoken": "Place un petit œil foncé dans la tête, un peu au-dessus du milieu. Un tout petit ovale suffit. Regarde l’espace que nous laissons autour.",
+      "hint": "Fais un petit point ou un ovale. Garde de la place en dessous pour le nez.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "right-eye": {
+      "title": "L’œil droit",
+      "instruction": "Ajoute le deuxième œil en laissant un peu d’espace entre les deux.",
+      "spoken": "Ajoute l’autre petit œil en face du premier. Laisse de la place entre les deux.",
+      "hint": "Regarde en face de ton premier œil. Les deux yeux n’ont pas besoin d’être identiques.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "little-nose": {
+      "title": "Le petit nez",
+      "instruction": "Dessine un tout petit triangle sous les yeux pour le nez.",
+      "spoken": "Sous les yeux, dessine un tout petit triangle dont la pointe regarde vers le bas. Voici notre nez. Une petite forme laisse de la place autour, dans le visage rond.",
+      "hint": "Un tout petit triangle ou un point peut se placer entre les yeux, un peu plus bas.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "curved-mouth": {
+      "title": "La bouche arrondie",
+      "instruction": "Relie deux petites courbes sous le nez pour faire la bouche.",
+      "spoken": "Regarde deux petites courbes se rejoindre sous le nez, comme un W tout doux. Ces courbes font la bouche amicale de notre dessin. Tu peux donner une autre expression à ton chat.",
+      "hint": "Essaie une courbe, puis une autre à côté. Une seule courbe convient aussi.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "left-whisker-upper": {
+      "title": "La moustache en haut à gauche",
+      "instruction": "Fais partir une moustache de la joue gauche.",
+      "spoken": "Un trait léger part de la joue gauche vers l’extérieur. C’est une moustache. Les vrais chats utilisent leurs moustaches pour sentir les objets proches. Nos traits représentent ces poils particuliers.",
+      "hint": "Commence près de la joue et laisse ton trait aller vers l’extérieur.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "left-whisker-middle": {
+      "title": "La moustache du milieu à gauche",
+      "instruction": "Ajoute une autre moustache à gauche en laissant un peu d’espace.",
+      "spoken": "Un autre trait léger sous le premier. Laisse un peu d’espace.",
+      "hint": "Laisse un petit espace entre tes traits. Cette moustache supplémentaire est facultative.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "left-whisker-lower": {
+      "title": "La moustache en bas à gauche",
+      "instruction": "Essaie une troisième moustache à gauche qui descend doucement.",
+      "spoken": "Un autre trait peut descendre, comme un petit éventail. Tu peux aussi le laisser de côté.",
+      "hint": "Un trait court convient aussi. Tu peux laisser cette moustache supplémentaire de côté.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "right-whisker-upper": {
+      "title": "La moustache en haut à droite",
+      "instruction": "Fais partir une moustache de la joue droite.",
+      "spoken": "Allons voir l’autre joue. Commence près du visage et trace une ligne vers la droite. Regarde comme les moustaches rendent notre chat plus large que sa tête ronde.",
+      "hint": "Éloigne ton trait de la joue droite. Il peut être courbe ou droit.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "right-whisker-middle": {
+      "title": "La moustache du milieu à droite",
+      "instruction": "Ajoute une autre moustache à droite en laissant un peu d’espace.",
+      "spoken": "Ajoute une autre moustache légère, en laissant un peu d’espace. Elle est facultative.",
+      "hint": "Laisse un peu d’espace entre chaque trait. Tu peux passer ce détail.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "right-whisker-lower": {
+      "title": "La moustache en bas à droite",
+      "instruction": "Termine par une autre moustache à droite, si tu veux.",
+      "spoken": "Une dernière moustache peut descendre. Les deux côtés peuvent être différents.",
+      "hint": "Les deux côtés peuvent être différents. Garde autant de moustaches que tu veux.",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis les couleurs de ton chat. Notre exemple sera roux, rose et crème.",
+      "spoken": "Ajoutons maintenant de la couleur à notre chat. Je choisis du roux, du rose et du crème, comme dans un livre d’histoires. Choisis les couleurs qui te plaisent. Tu peux aussi laisser du papier blanc.",
+      "hint": "Si tu veux voir ce que donne une couleur, essaie-la d’abord sur une feuille à part.",
+      "notice": "Laissez votre enfant choisir ses couleurs et décider s’il veut en ajouter. Plus de temps permet de rester ici aussi longtemps que nécessaire."
+    },
+    "colour-fur": {
+      "title": "Une couleur douce d’un côté.",
+      "instruction": "Colorie la moitié gauche du pelage avec des petits traits doux qui se superposent.",
+      "spoken": "Regarde les petits traits doux ajouter de la couleur sur la joue et l’oreille gauches. De petits traits qui se superposent créent une zone de pelage toute douce. Je laisse les yeux et la bouche dégagés pour qu’on puisse les voir.",
+      "hint": "Les traits légers peuvent se placer à côté et les uns sur les autres. Plus de temps te laisse tout le temps que tu veux.",
+      "notice": "Laissez votre enfant choisir ses couleurs et décider s’il veut en ajouter. Plus de temps permet de rester ici aussi longtemps que nécessaire."
+    },
+    "colour-fur-right": {
+      "title": "Colorie l’autre côté.",
+      "instruction": "Continue à colorier l’autre moitié du visage et de l’oreille.",
+      "spoken": "Continue la couleur sur l’autre joue et l’autre oreille. Travailler sur une petite zone à la fois nous aide à choisir où placer chaque trait. Les espaces blancs peuvent faire partie du pelage.",
+      "hint": "Tourne ta feuille si c’est plus confortable. Ta couleur peut être claire, foncée ou en taches.",
+      "notice": "Laissez votre enfant choisir ses couleurs et décider s’il veut en ajouter. Plus de temps permet de rester ici aussi longtemps que nécessaire."
+    },
+    "colour-details": {
+      "title": "Colorie les petits détails.",
+      "instruction": "Essaie du crème autour de la bouche et du rose à l’intérieur des oreilles et sur le nez.",
+      "spoken": "J’ajoute du crème autour de la bouche, puis un peu de rose à l’intérieur des oreilles et sur le nez. Quelques petits traits suffisent dans les petits espaces. Regarde comme ces zones plus claires ressortent.",
+      "hint": "Quelques traits doux suffisent pour une toute petite zone. Choisis tes couleurs ou laisse ton dessin comme il est.",
+      "notice": "Laissez votre enfant choisir ses couleurs et décider s’il veut en ajouter. Plus de temps permet de rester ici aussi longtemps que nécessaire."
+    },
+    "colour-patterns": {
+      "title": "Quelques motifs pour finir.",
+      "instruction": "Ajoute quelques rayures plus foncées ou des marques sur les joues, si tu veux.",
+      "spoken": "Quelques traits roux plus foncés créent un motif sur le front et les joues de mon chat. Ces petites rayures suivent la forme ronde du visage. Essaie ton propre motif ou garde ton chat comme il est.",
+      "hint": "Une seule rayure ou une tache peut suffire. Ton chat n’a pas besoin de motif.",
+      "notice": "Laissez votre enfant choisir ses couleurs et décider s’il veut en ajouter. Plus de temps permet de rester ici aussi longtemps que nécessaire."
+    },
+    "colour-reflection": {
+      "title": "Observons un instant.",
+      "instruction": "Regarde tout le dessin. Quel petit trait ou quelle couleur te plaît ?",
+      "spoken": "Regarde tout le dessin. Nous avons utilisé de grandes formes, de petits détails et des couches de couleur. Quel trait te plaît ? Tu peux continuer à colorier, ajouter une idée ou terminer ici.",
+      "hint": "Tu n’as rien à expliquer ni à changer. Rien ne presse.",
+      "notice": "Laissez votre enfant choisir ses couleurs et décider s’il veut en ajouter. Plus de temps permet de rester ici aussi longtemps que nécessaire."
+    },
+    "explore": {
+      "title": "Fais-le à ta façon.",
+      "instruction": "Continue à colorier, invente une maison pour ton chat ou termine ici.",
+      "spoken": "Notre chat est prêt pour tes propres idées. Peut-être un chapeau, une maison douillette ou plus de couleur. Tu peux continuer à créer aussi longtemps que tu veux, ou terminer ici.",
+      "hint": "Un petit détail peut raconter une histoire. Qu’aimerais-tu ajouter ?",
+      "notice": "Si cela aide, montrez la gauche et la droite sur le modèle. Dessinez une oreille sur votre propre feuille si votre enfant le demande. Ne corrigez pas son expression et n’insistez pas pour obtenir le même nombre de moustaches."
+    }
+  },
+  "sourceLessonSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1"
+}

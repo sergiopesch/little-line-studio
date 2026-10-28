@@ -1,0 +1,230 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "castle",
+  "sourceTextSha256": "2fed63ef4f30411d47dc072696f2b26621b929ea69fe6958fc0721f910327f6b",
+  "title": "Un château avec un pont-levis",
+  "invitation": "Des tours, une porte et un pont.",
+  "objective": "Assembler des bâtiments reliés et explorer la profondeur avec un pont qui avance vers nous.",
+  "parentNote": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique.",
+  "simplify": "Dessinez un mur, une tour, une arche et un pont rectangulaire. Laissez de côté les chaînes, les douves, les toits et les détails décoratifs selon vos envies. Une vue à plat représente aussi un château.",
+  "transfer": "Un autre jour, dessinez une porte de jardin avec un chemin qui y mène. Essayez un bord proche et un bord lointain dans ce nouveau décor, sans utiliser le modèle du château.",
+  "colouringLabel": "Petits mouvements de crayon, tes propres couleurs",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Regarde"
+    },
+    {
+      "id": "draw",
+      "label": "Dessine"
+    },
+    {
+      "id": "colour",
+      "label": "Colorie"
+    },
+    {
+      "id": "explore",
+      "label": "Tes propres idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "De l’autre côté du pont",
+      "instruction": "Observe les deux grandes tours et le pont qui s’élargit vers nous.",
+      "spoken": "Notre château de conte a deux tours et un pont accueillant. Nous allons répéter quelques formes, puis laisser le pont s’élargir vers nous.",
+      "hint": "Regarde les tours semblables et le bout du pont plus large près de nous.",
+      "notice": "Observez la rencontre de la porte et du pont dans le modèle proposé. Remarquez le bord lointain du pont à la porte et son bord proche plus large. Les tours peuvent être différentes ; les deux moitiés n'ont pas besoin de se ressembler."
+    },
+    "central-wall": {
+      "title": "Le mur central",
+      "instruction": "Dessine un large mur rectangulaire au milieu.",
+      "spoken": "Commence par un large mur au milieu. Laisse de la place de chaque côté pour les tours plus hautes et en dessous pour notre pont en bois.",
+      "hint": "Quatre côtés reliés forment le mur central.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "left-tower": {
+      "title": "La tour de gauche",
+      "instruction": "Ajoute une tour haute et étroite à gauche du mur.",
+      "spoken": "Place un rectangle plus haut et plus étroit à gauche du mur. Comparer sa hauteur avec celle du mur donne une silhouette bien visible à notre château.",
+      "hint": "Fais cette tour plus haute et plus étroite que le mur du milieu.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "right-tower": {
+      "title": "La tour de droite",
+      "instruction": "Dessine une autre grande tour à droite.",
+      "spoken": "Ajoute la tour de l’autre côté. Compare sa hauteur avec la première ; de petites différences ont tout à fait leur place dans un château de conte dessiné à la main.",
+      "hint": "Sers-toi de la première tour comme repère approximatif pour la hauteur.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "left-tower-roof": {
+      "title": "Le toit de gauche",
+      "instruction": "Trace un toit pointu au-dessus de la tour de gauche.",
+      "spoken": "Deux lignes penchées se rejoignent au-dessus de la tour de gauche pour former un toit pointu. Laisse leurs extrémités du bas dépasser un peu des côtés de la tour.",
+      "hint": "Monte jusqu’à une pointe, puis redescends de l’autre côté.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "right-tower-roof": {
+      "title": "Le toit de droite",
+      "instruction": "Ajoute un autre toit pointu au-dessus de la tour de droite.",
+      "spoken": "Dessine un autre toit pointu au-dessus de la tour de droite, avec le même mouvement simple qui monte et qui descend.",
+      "hint": "Laisse les deux extrémités du toit dépasser des côtés de la tour.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "arched-gate": {
+      "title": "La porte en arche",
+      "instruction": "Dessine une porte arrondie dans le mur central.",
+      "spoken": "Une porte en arche commence par un côté droit, tourne autour d’un sommet arrondi, puis redescend. Laisse de la place autour, à l’intérieur du mur.",
+      "hint": "Monte, arrondis le haut, puis redescends jusqu’au sol.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "bridge-left-edge": {
+      "title": "Le bord gauche du pont",
+      "instruction": "Incline un bord du pont vers l’extérieur et vers le bas.",
+      "spoken": "Laisse le bord gauche du pont s’incliner vers nous. Le bout du pont près de nous sera plus large que celui qui rejoint le château.",
+      "hint": "Pars de la porte et descends en biais vers la gauche.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "bridge-right-edge": {
+      "title": "Le bord droit du pont",
+      "instruction": "Incline l’autre bord du pont vers la droite.",
+      "spoken": "L’autre côté s’incline dans la direction opposée. Ces bords qui s’écartent donnent l’impression que le pont avance sur notre feuille plate.",
+      "hint": "Laisse un espace plus large entre les bords vers le bas.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "bridge-near-edge": {
+      "title": "Le bout du pont près de nous",
+      "instruction": "Relie les deux côtés au bout large du pont.",
+      "spoken": "Relie les deux côtés en bas pour fermer le bout large de notre pont.",
+      "hint": "Relie les deux extrémités du bas avec une ligne.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "first-bridge-plank": {
+      "title": "La première planche",
+      "instruction": "Ajoute une courte ligne de planche près du château.",
+      "spoken": "Une courte ligne à travers la partie étroite commence les planches en bois.",
+      "hint": "Garde cette ligne entre les deux bords du pont.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "second-bridge-plank": {
+      "title": "La deuxième planche",
+      "instruction": "Trace une ligne de planche plus longue près de nous.",
+      "spoken": "Cette planche plus proche est plus longue parce que le pont est plus large ici. Cette ligne répétée suit le changement de forme du pont.",
+      "hint": "Compare cette planche plus longue avec la plus courte, au loin.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "moat-left": {
+      "title": "Les douves à gauche",
+      "instruction": "Trace une ligne d’eau en courbe à gauche du pont.",
+      "spoken": "Une douce courbe d’eau à côté du pont suggère des douves de conte. Arrête-toi avant de traverser la forme en bois du pont.",
+      "hint": "Laisse la courbe d’eau rejoindre le côté gauche du pont.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "moat-right": {
+      "title": "Les douves à droite",
+      "instruction": "Ajoute aussi une courbe d’eau à droite.",
+      "spoken": "Une autre courbe d’eau apparaît de l’autre côté. Notre pont est devant et cache l’eau juste en dessous.",
+      "hint": "Laisse le pont libre entre les deux courbes d’eau.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "left-tower-window": {
+      "title": "La fenêtre de gauche",
+      "instruction": "Si tu veux, ajoute une petite fenêtre en arche dans la tour de gauche.",
+      "spoken": "Une petite arche forme une fenêtre dans la tour de gauche. Reprends l’idée du sommet arrondi de la porte, en beaucoup plus petit.",
+      "hint": "Dessine une petite arche aux côtés courts à l’intérieur de la tour.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "right-tower-window": {
+      "title": "La fenêtre de droite",
+      "instruction": "Si tu veux, répète une petite fenêtre dans la tour de droite.",
+      "spoken": "Tu peux refaire une petite fenêtre en arche dans la tour de droite, ou laisser cette tour sans fenêtre.",
+      "hint": "Compare la petite fenêtre avec l’espace autour.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "castle-flagpole": {
+      "title": "Le mât du drapeau",
+      "instruction": "Fais monter un mât fin au-dessus du toit de gauche.",
+      "spoken": "Si tu veux un drapeau, un mât fin peut monter au-dessus du toit de gauche.",
+      "hint": "Pars de la pointe du toit et trace une petite ligne vers le haut.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "castle-flag": {
+      "title": "Le drapeau du château",
+      "instruction": "Si tu veux, ajoute un petit drapeau pointu au-dessus du toit de gauche.",
+      "spoken": "Si tu as ajouté un mât, deux lignes penchées peuvent former un petit drapeau à côté. Sinon, tu peux laisser cette décoration de côté.",
+      "hint": "Va jusqu’à une pointe, puis reviens vers le mât.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "left-lifting-chain": {
+      "title": "La chaîne de gauche",
+      "instruction": "Trace une fine ligne de chaîne à côté du pont.",
+      "spoken": "Tu peux ajouter une ligne fine de la porte vers le coin du pont. Dans notre histoire, elle suggère une chaîne pour lever le pont.",
+      "hint": "Relie le côté gauche de la porte au coin gauche du pont.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "right-lifting-chain": {
+      "title": "La chaîne de droite",
+      "instruction": "Ajoute une deuxième ligne fine près de l’autre bord du pont.",
+      "spoken": "Une deuxième ligne de chaîne peut suivre l’autre côté, si tu veux. Tu peux aussi laisser les deux de côté et garder un simple pont en bois.",
+      "hint": "Relie le côté droit de la porte au coin droit du pont.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "castle-stone": {
+      "title": "Une pierre du château",
+      "instruction": "Si tu veux, suggère une pierre rectangulaire dans le mur.",
+      "spoken": "Un petit rectangle suggère une pierre dans le mur. Nous n’avons pas besoin de dessiner toutes les pierres pour montrer que le mur est fait de morceaux.",
+      "hint": "Garde un petit rectangle à l’intérieur de la grande forme du mur.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    },
+    "colour-choice": {
+      "title": "Les couleurs du château de conte",
+      "instruction": "Choisis du gris pour la pierre, une couleur chaude pour les toits et une couleur de bois pour le pont.",
+      "spoken": "Je vais utiliser du gris doux pour les pierres, du rouge chaud pour les toits et du brun pour le bois. Ton château de conte peut avoir ses propres couleurs et un petit drapeau éclatant.",
+      "hint": "Choisis une couleur pour les murs et une autre pour les toits.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-stone-walls": {
+      "title": "De petites touches de pierre",
+      "instruction": "Colorie les murs et les tours par petites touches grises.",
+      "spoken": "J’ajoute de petites touches gris clair, une zone à la fois. Je laisse de la place autour de la porte et des fenêtres pour que ces ouvertures restent visibles.",
+      "hint": "Contourne les petites ouvertures, puis lève ton crayon avant de recommencer à côté.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-pointed-roofs": {
+      "title": "Les toits pointus",
+      "instruction": "Raccourcis tes mouvements de crayon vers la pointe de chaque toit.",
+      "spoken": "Mes mouvements rouge chaud deviennent plus courts près des pointes des toits. Je m’arrête à l’intérieur du bord au lieu d’essayer de pousser la couleur jusqu’à la pointe.",
+      "hint": "De petits mouvements conviennent à la forme du toit qui se rétrécit.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-wooden-bridge": {
+      "title": "Le pont en bois vers nous",
+      "instruction": "Fais de petites touches brunes sur la porte et le pont.",
+      "spoken": "Je colorie la porte et le pont avec de petites touches brun chaud. Les lignes des planches restent visibles et montrent bien le bout plus large du pont près de nous.",
+      "hint": "Garde les touches brunes à l’intérieur du pont, entre ses bords.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-castle-light": {
+      "title": "Les fenêtres et l’ombre",
+      "instruction": "Si tu veux, ajoute des fenêtres bleues, un drapeau jaune et une ombre légère.",
+      "spoken": "Si tu as dessiné des fenêtres ou un drapeau, de petites touches bleues et jaunes peuvent les terminer. Une légère couche au bord d’une tour peut aussi suggérer une ombre, si tu veux.",
+      "hint": "Colorie les fenêtres que tu as dessinées, ou essaie une légère couche au bord d’une tour.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-reflect": {
+      "title": "Un pont avec de la profondeur",
+      "instruction": "Compare le bout étroit du pont près du château avec son bout large près de nous.",
+      "spoken": "Regarde de la porte vers le bout large du pont. Les côtés qui s’écartent et la planche plus longue près de nous aident notre pont de conte à sembler avancer sur le papier.",
+      "hint": "Compare les longueurs des deux planches, ou suis les bords qui s’écartent.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "explore": {
+      "title": "Une histoire derrière la porte",
+      "instruction": "Continue à colorier ou imagine un visiteur pour ton château.",
+      "spoken": "Tu pourrais inventer un autre drapeau, ajouter un petit visiteur ou imaginer un jardin derrière la porte. Continue ton histoire, ou termine ton château ici.",
+      "hint": "Essaie un petit détail pour ton histoire sans cacher le pont.",
+      "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
+    }
+  },
+  "sourceLessonSha256": "1ce332b344819f05637dd02e757b865cf669cb8be5d31be2b01faae5c04d1589"
+}

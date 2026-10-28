@@ -37,7 +37,7 @@ test("partial Spanish catalogue offers released drawings and labels unavailable 
   const props = {
     levelId: "basic", page: 0, language: { name: "Castellano", region: "Venezuela", flag: "🇻🇪" },
     localizeLesson: (lesson) => lesson, localizedTitle: (lesson) => lesson.title,
-    spanishNarration: { index, durations },
+    localeNarration: { index, durations },
   };
   const spanish = render("es-419", React.createElement(Catalogue, props));
   assert.equal((spanish.match(/<button class="drawing-choice"/g) || []).length, 1);
@@ -50,7 +50,7 @@ test("partial Spanish catalogue offers released drawings and labels unavailable 
   assert.equal((emptyLevel.match(/<button class="drawing-choice"/g) || []).length, 0);
   assert.match(emptyLevel, /preparación/);
   const pending = render("en-GB", React.createElement(LanguagePicker, { level: getLevel("basic"), pending: "es-419", error: true }));
-  assert.match(pending, /role="status"[^>]*>Loading Spanish lessons/);
-  assert.match(pending, /role="alert"[^>]*>Spanish lessons could not load/);
+  assert.match(pending, /role="status"[^>]*>Loading lessons/);
+  assert.match(pending, /role="alert"[^>]*>The selected language could not load/);
   assert.match(pending, /disabled="" aria-busy="true"/);
 });

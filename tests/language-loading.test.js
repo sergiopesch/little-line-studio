@@ -1,6 +1,20 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { createLatestLanguageRequest, loadSpanishLanguage } from "../src/language-loading.js";
+import { createLatestLanguageRequest, loadSpanishLanguage, loadLocaleLanguage } from "../src/language-loading.js";
+
+test("additional locales require their own complete narration before selection", async () => {
+  const lesson = { id: "cat", steps: [{ id: "head" }] };
+  const text = { localizeLesson: (value) => value, localizedLessonTitle: (value) => value.id };
+  const narration = { index: {}, durations: {} };
+  for (const locale of ["fr-FR", "en-IE", "en-GB-x-scotland"]) {
+    const options = { loadText: async () => text, loadNarration: async () => narration };
+    await assert.rejects(loadLocaleLanguage(locale, [lesson], options), /could not be verified/);
+    const result = await loadLocaleLanguage(locale, [lesson], { ...options, validate: () => ({ ready: true }) });
+    assert.equal(result.narration, narration);
+    assert.equal(result.localizedTitle(lesson, locale), "cat");
+  }
+  await assert.rejects(loadLocaleLanguage("unknown", [lesson]), /Unknown language/);
+});
 
 test("Spanish text and narration load together, reject incomplete data, and can be retried", async () => {
   const lesson = { id: "cat" };

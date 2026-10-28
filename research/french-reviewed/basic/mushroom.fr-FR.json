@@ -1,0 +1,167 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "mushroom",
+  "sourceTextSha256": "114478971c624fdbfbeacb2580f784fe0920595da8c6f54ecce6d3eaba95fc6a",
+  "title": "Un champignon des bois",
+  "invitation": "Un large chapeau et un petit pied.",
+  "objective": "Relier un large chapeau à un pied plus étroit et explorer des contours courbés.",
+  "parentNote": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles.",
+  "simplify": "",
+  "transfer": "Un large sommet courbé et une partie étroite en dessous pourraient-ils t’aider à dessiner un parapluie ?",
+  "colouringLabel": "Un chapeau brun et un petit pied clair",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons le champignon.",
+      "instruction": "Regarde le large chapeau au-dessus du petit pied plus étroit.",
+      "spoken": "Dessinons un champignon imaginaire comme un tout petit parapluie des bois. Son large chapeau repose sur un pied plus étroit, sur notre feuille.",
+      "hint": "Compare la largeur du chapeau avec celle du pied en dessous.",
+      "notice": "Regardez une image de champignon. Remarquez que le chapeau est plus large que le pied."
+    },
+    "mushroom-cap": {
+      "title": "Le chapeau",
+      "instruction": "Dessine une large arche en laissant de la place en dessous.",
+      "spoken": "Monte et passe par-dessus en une grande arche. Je laisse beaucoup de place en dessous pour un petit pied.",
+      "hint": "Commence en bas d’un côté et termine en bas de l’autre.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "cap-lower-edge": {
+      "title": "Le bord du chapeau",
+      "instruction": "Relie les extrémités de l’arche par une courbe peu profonde.",
+      "spoken": "Une courbe peu profonde relie les deux extrémités. Elle ferme notre chapeau de champignon, comme un petit parapluie.",
+      "hint": "Fais descendre cette courbe du bas moins que la grande arche du haut.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "stalk-left-side": {
+      "title": "Un côté du pied",
+      "instruction": "Commence sous le chapeau et fais descendre un côté courbé du pied.",
+      "spoken": "Une ligne légèrement courbée descend depuis le dessous du chapeau. Notre pied reste plus étroit que le chapeau au-dessus.",
+      "hint": "Commence à l’intérieur de la largeur du chapeau, loin de son extrémité extérieure.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "stalk-right-side": {
+      "title": "L’autre côté du pied",
+      "instruction": "Dessine l’autre côté du pied en laissant de l’espace entre les deux.",
+      "spoken": "L’autre côté descend en courbe à proximité. Je laisse un grand espace entre les deux côtés.",
+      "hint": "Regarde l’espace pendant que tu places ton deuxième trait.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "stalk-base": {
+      "title": "Le bas du pied",
+      "instruction": "Relie les deux extrémités du pied par une courbe en bas.",
+      "spoken": "Une courbe en bas relie les deux extrémités. Notre petit pied est maintenant une forme fermée sous le chapeau.",
+      "hint": "Trace ta courbe d’une extrémité du bas à l’autre.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "cap-inner-edge": {
+      "title": "Le bord intérieur",
+      "instruction": "Essaie une courbe légère dans le bas du chapeau, ou passe cette étape.",
+      "spoken": "Une courbe légère peut suivre le bord inférieur à l’intérieur du chapeau. Ce trait supplémentaire suggère un petit rebord.",
+      "hint": "Laisse un petit espace entre les deux bords courbés.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "cap-left-spot": {
+      "title": "Un premier point",
+      "instruction": "Essaie un petit point sur le chapeau, si tu veux.",
+      "spoken": "Un petit ovale peut commencer un motif sur notre chapeau imaginaire. Cette décoration est ton choix.",
+      "hint": "Choisis un espace dans le chapeau, loin de son bord.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "cap-high-spot": {
+      "title": "Un point plus haut",
+      "instruction": "Essaie un point plus haut ou laisse cet espace blanc.",
+      "spoken": "Un autre petit ovale peut se placer plus haut sur le chapeau.",
+      "hint": "Laisse un peu d’espace de papier entre tes petits points.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "cap-right-spot": {
+      "title": "Un point de l’autre côté",
+      "instruction": "Place un autre point dans le chapeau, si tu veux.",
+      "spoken": "Un point de l’autre côté peut être d’une taille différente.",
+      "hint": "Chaque petit ovale peut pencher dans une direction différente.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "cap-low-spot": {
+      "title": "Un dernier point",
+      "instruction": "Choisis un dernier petit point ou passe cette étape.",
+      "spoken": "Un dernier petit point peut se placer plus bas. Moins de points conviennent aussi.",
+      "hint": "Garde ce détail supplémentaire à l’intérieur du contour du chapeau.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "left-grass": {
+      "title": "Un brin d’herbe",
+      "instruction": "Essaie un petit brin d’herbe courbé à côté du pied.",
+      "spoken": "Une petite ligne courbée peut devenir de l’herbe à côté de notre champignon sur papier.",
+      "hint": "Commence près du sol et trace une courbe vers le papier vide.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "right-grass": {
+      "title": "Un autre brin d’herbe",
+      "instruction": "Essaie un autre brin d’herbe ou termine ton contour.",
+      "spoken": "Un autre petit brin peut se courber de l’autre côté. Tu peux laisser le sol vide.",
+      "hint": "Ton dessin des bois peut n’avoir que quelques marques.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis du brun et du crème, ou tes propres couleurs imaginaires.",
+      "spoken": "Je choisis un chapeau brun doux et un pied crème clair. Tes bois imaginaires peuvent utiliser les crayons que tu as déjà.",
+      "hint": "Un brun clair ou du jaune peut remplacer le crème.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-mushroom-cap": {
+      "title": "Le chapeau brun",
+      "instruction": "Crée de petites zones brunes à l’intérieur du large chapeau.",
+      "spoken": "De petites zones brunes colorient le chapeau. Je laisse de l’espace autour des points facultatifs et garde du papier blanc à côté de la couleur.",
+      "hint": "Une pression légère laisse apparaître de petits espaces blancs.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-mushroom-edge": {
+      "title": "Le bord du chapeau",
+      "instruction": "Ajoute de petits traits bruns près du bord inférieur du chapeau.",
+      "spoken": "Près du bord inférieur, je fais des traits plus courts et je soulève mon crayon avant le contour. Notre petit rebord reste bien visible.",
+      "hint": "Essaie un tout petit mouvement quand le bord est proche.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-mushroom-stalk": {
+      "title": "Le pied clair",
+      "instruction": "Fais des traits crème doux à l’intérieur du pied.",
+      "spoken": "Des petites zones crème clair colorient le pied en dessous. Quelques traits légers suffisent ; notre papier peut garder un peu de son blanc.",
+      "hint": "Commence au milieu et laisse de l’espace à côté du contour.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-reflection": {
+      "title": "Regarde ton champignon.",
+      "instruction": "Regarde le large chapeau au-dessus du pied étroit.",
+      "spoken": "Notre large chapeau repose sur un pied plus étroit comme un tout petit parapluie imaginaire. La couleur et les espaces de papier ont tous leur place dans ce dessin des bois.",
+      "hint": "Compare une forme large avec une forme étroite dans ton dessin.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "explore": {
+      "title": "Tes bois imaginaires.",
+      "instruction": "Invente un lieu dans les bois, continue à colorier ou termine ici.",
+      "spoken": "Qui pourrait s’abriter sous ce parapluie imaginaire ? Ajoute un visiteur inventé, plus d’herbe ou ta propre idée. Tu peux aussi terminer ici.",
+      "hint": "Une arche plus petite pourrait commencer un autre champignon imaginaire.",
+      "notice": "Montrez avec vos doigts la largeur du chapeau et celle du pied sur le modèle. Proposez un pied représenté par un seul trait si c’est plus simple. Les points sont un détail imaginaire : ils ne permettent pas de reconnaître les champignons comestibles."
+    }
+  },
+  "sourceLessonSha256": "7de34b6736ffc09330bf4b7e2f72e581887719e9ac1a5a57b36cb6a506b29024"
+}

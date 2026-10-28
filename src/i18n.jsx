@@ -1,4 +1,5 @@
 import { createContext, useContext } from "react";
+import { FRENCH_UI } from "./french-ui.fr-FR.js";
 
 export const LocaleContext = createContext("en-GB");
 export function useLocale() {
@@ -7,6 +8,12 @@ export function useLocale() {
 }
 
 const SPANISH = {
+  "Loading lessons…": "Cargando las clases…",
+  "The selected voice is being prepared. Read the steps together for now.": "La voz elegida está en preparación. Por ahora, lean los pasos juntos.",
+  "Choose a language for your drawing": "Elige un idioma para tu dibujo",
+  "Choose an available language. More languages are in preparation.": "Elige un idioma disponible. Estamos preparando más idiomas.",
+  "Irish": "Irlandés",
+  "Scottish": "Escocés",
   "Spanish voice is being prepared. Read the steps together for now.": "La voz en español está en preparación. Por ahora, lean los pasos juntos.",
   "The selected language could not load. Please try again.": "No se pudo cargar el idioma elegido. Inténtalo de nuevo.",
   "Loading Spanish lessons…": "Cargando las clases en español…",
@@ -205,4 +212,7 @@ const SPANISH = {
   "Estimates are a guide. More time is always yours.": "Los tiempos son orientativos. Siempre puedes tomar más tiempo."
 };
 
-export function translate(locale, text) { return locale === "es-419" ? (SPANISH[text] ?? text) : text; }
+export function translate(locale, text) {
+  const dictionary = locale === "es-419" ? SPANISH : locale === "fr-FR" ? FRENCH_UI : null;
+  return dictionary?.[text] ?? text;
+}

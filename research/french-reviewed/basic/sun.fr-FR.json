@@ -1,0 +1,174 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "sun",
+  "sourceTextSha256": "54ea4b368e217df573d6924b2fd96e0d9ed3164553610f1ab2b5fdf10f23b30b",
+  "title": "Un soleil souriant",
+  "invitation": "Des traits qui rayonnent autour d’un cercle.",
+  "objective": "Placer des traits qui partent vers l’extérieur autour d’une forme centrale.",
+  "parentNote": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil.",
+  "simplify": "",
+  "transfer": "Des traits partant d’un centre pourraient-ils aider à dessiner une étincelle ou un pissenlit ?",
+  "colouringLabel": "Colorie ton soleil",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Un peu de soleil.",
+      "instruction": "Regarde le centre rond de notre dessin et les rayons qui partent vers l’extérieur.",
+      "spoken": "Dessinons un soleil souriant pour notre jardin imaginaire. Le vrai Soleil est une étoile qui apporte à la Terre lumière et chaleur. Regarde les rayons de notre dessin.",
+      "hint": "Nous regardons le dessin sur l’écran. Ne regarde jamais directement le vrai Soleil.",
+      "notice": "Regardez le dessin du soleil sur l’écran. Remarquez comment ses rayons partent du centre."
+    },
+    "round-sun": {
+      "title": "Le soleil rond",
+      "instruction": "Dessine un centre rond en laissant de la place tout autour.",
+      "spoken": "Commence par une forme ronde au milieu. Trace une courbe lente qui revient vers son point de départ. Laisse de la place à l’extérieur pour nos rayons.",
+      "hint": "Un cercle peut être un peu irrégulier. Laisse du papier tout autour.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "upward-ray": {
+      "title": "Le rayon du haut",
+      "instruction": "Ajoute un petit rayon au-dessus du cercle.",
+      "spoken": "Ajoute un petit trait au-dessus du cercle, en laissant un petit espace. Dans notre dessin, ces rayons montrent la lumière qui se répand.",
+      "hint": "Un petit espace peut séparer le centre rond de son rayon.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "downward-ray": {
+      "title": "Le rayon du bas",
+      "instruction": "Ajoute un rayon sous le cercle.",
+      "spoken": "Maintenant, un trait sous le cercle, dirigé vers le bas. Regarde comment ces deux rayons vont dans des directions opposées.",
+      "hint": "Commence juste à l’extérieur du bord inférieur, puis descends.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "left-ray": {
+      "title": "Le rayon de gauche",
+      "instruction": "Fais partir un rayon vers la gauche.",
+      "spoken": "Fais partir un trait vers la gauche. Garde un peu d’espace autour du centre rond.",
+      "hint": "Cherche le côté gauche de notre dessin. Éloigne ton trait du cercle.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "right-ray": {
+      "title": "Le rayon de droite",
+      "instruction": "Fais partir un rayon vers la droite.",
+      "spoken": "Et un à droite. Nos rayons se répandent tout autour du centre.",
+      "hint": "Commence juste à l’extérieur du cercle et trace vers le dehors.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "upper-left-ray": {
+      "title": "Le rayon en haut à gauche",
+      "instruction": "Place un rayon penché dans l’espace en haut à gauche.",
+      "spoken": "Voici un espace entre deux rayons. Un trait penché peut s’y placer. Je cherche d’abord la place, puis je trace.",
+      "hint": "Cherche un espace entre le rayon du haut et celui de gauche.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "upper-right-ray": {
+      "title": "Le rayon en haut à droite",
+      "instruction": "Ajoute un autre rayon penché dans l’espace en haut à droite.",
+      "spoken": "Un autre trait penché peut remplir cet espace. Il n’a pas besoin d’être identique au premier.",
+      "hint": "Tes rayons peuvent être de longueurs différentes et avoir leur place dans ton dessin.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "lower-left-ray": {
+      "title": "Le rayon en bas à gauche",
+      "instruction": "Essaie un rayon légèrement courbé en bas, si tu veux.",
+      "spoken": "Un rayon légèrement courbé peut se placer ici. Les traits droits ou courbés ont tous leur place dans notre dessin imaginaire. Tu peux aussi passer ce rayon.",
+      "hint": "Une petite courbe suffit. Ce rayon supplémentaire est facultatif.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "lower-right-ray": {
+      "title": "Le rayon en bas à droite",
+      "instruction": "Ajoute un dernier rayon dans un espace, si tu veux.",
+      "spoken": "Un dernier rayon peut aller dans cet espace. Choisis ton propre trait ou laisse l’espace comme il est.",
+      "hint": "Ton soleil n’a pas besoin d’un rayon dans chaque espace.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "sun-left-eye": {
+      "title": "L’œil gauche du soleil",
+      "instruction": "Ajoute un petit œil à notre soleil imaginaire, si tu veux.",
+      "spoken": "Le vrai Soleil n’a pas de visage, mais notre soleil imaginaire peut en avoir un. Si tu veux, un petit point foncé peut former un œil dans le cercle.",
+      "hint": "Un point ou un petit ovale convient. Tu peux aussi ne pas faire de visage.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "sun-right-eye": {
+      "title": "L’œil droit du soleil",
+      "instruction": "Ajoute un petit œil à droite, si tu veux.",
+      "spoken": "Un petit œil peut se placer à l’intérieur du cercle, du côté droit. Essaie un point ou un petit ovale, si tu veux.",
+      "hint": "Garde ton petit œil dans le cercle, avec de l’espace autour.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "sun-smile": {
+      "title": "Le sourire du soleil",
+      "instruction": "Essaie une courbe douce pour faire un sourire, si tu veux.",
+      "spoken": "Une courbe douce peut faire sourire notre soleil imaginaire. Place-la dans la moitié inférieure du cercle ou laisse le visage sans bouche.",
+      "hint": "Une petite courbe suffit. Le sourire est ton choix.",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    },
+    "colour-choice": {
+      "title": "Choisis un peu de chaleur.",
+      "instruction": "Choisis du jaune et de l’orange, ou les couleurs qui te plaisent.",
+      "spoken": "Donnons à notre soleil imaginaire une douce lumière jaune. Je vais utiliser du jaune et un peu d’orange. Ton soleil peut avoir ses propres couleurs.",
+      "hint": "Essaie un petit trait doux sur une feuille à part pour voir la couleur de ton crayon.",
+      "notice": "Laissez votre enfant choisir les couleurs, garder des espaces blancs ou passer des détails. Plus de temps permet de rester à chaque étape sans limite de durée."
+    },
+    "colour-centre-left": {
+      "title": "Un peu de couleur au crayon.",
+      "instruction": "Colorie un côté avec des petits traits de crayon doux.",
+      "spoken": "Regarde les petits traits lents colorier un côté. Va et viens, puis soulève ton crayon avant de passer à la zone suivante. Les petits espaces laissent briller le papier.",
+      "hint": "Les traits peuvent se superposer légèrement. Arrête-toi et soulève ton crayon entre les petites zones.",
+      "notice": "Laissez votre enfant choisir les couleurs, garder des espaces blancs ou passer des détails. Plus de temps permet de rester à chaque étape sans limite de durée."
+    },
+    "colour-centre-right": {
+      "title": "De l’autre côté du soleil.",
+      "instruction": "Continue sur l’autre côté en laissant le visage bien visible.",
+      "spoken": "Passe maintenant à l’autre côté avec des traits de crayon légers. Je laisse les yeux et le sourire dégagés pour que notre visage reste visible.",
+      "hint": "Tourne ta feuille si cela t’aide. Tu peux garder des espaces blancs.",
+      "notice": "Laissez votre enfant choisir les couleurs, garder des espaces blancs ou passer des détails. Plus de temps permet de rester à chaque étape sans limite de durée."
+    },
+    "colour-rays": {
+      "title": "De petits rayons chaleureux.",
+      "instruction": "Colorie quelques rayons avec des traits orange lents.",
+      "spoken": "Un peu d’orange donne de la chaleur aux rayons de notre dessin. Suis chaque rayon avec un trait de crayon lent, puis soulève ton crayon. Colorie quelques rayons ou tous.",
+      "hint": "Soulève ton crayon entre les rayons. Choisis ceux que tu veux.",
+      "notice": "Laissez votre enfant choisir les couleurs, garder des espaces blancs ou passer des détails. Plus de temps permet de rester à chaque étape sans limite de durée."
+    },
+    "colour-warmth": {
+      "title": "Une deuxième couche douce.",
+      "instruction": "Essaie une légère couche d’orange près du bord, si tu veux.",
+      "spoken": "J’ajoute de l’orange doux près du bord, par-dessus le jaune. Une deuxième couche légère change notre couleur. Essaie ou garde ton soleil jaune.",
+      "hint": "Quelques traits doux suffisent. Ton soleil peut rester jaune.",
+      "notice": "Laissez votre enfant choisir les couleurs, garder des espaces blancs ou passer des détails. Plus de temps permet de rester à chaque étape sans limite de durée."
+    },
+    "colour-reflection": {
+      "title": "Regarde ton soleil.",
+      "instruction": "Observe les formes et les couleurs de tout ton dessin.",
+      "spoken": "Regarde ensemble ta forme ronde, tes rayons et tes traits de crayon. Quelle partie te fait penser au soleil ? Notre dessin peut apporter du soleil à ce jardin imaginaire.",
+      "hint": "Tu n’as rien à changer ni à expliquer aujourd’hui.",
+      "notice": "Laissez votre enfant choisir les couleurs, garder des espaces blancs ou passer des détails. Plus de temps permet de rester à chaque étape sans limite de durée."
+    },
+    "explore": {
+      "title": "Ton propre monde ensoleillé.",
+      "instruction": "Ajoute ton propre monde ensoleillé, continue à colorier ou termine ici.",
+      "spoken": "Ton soleil brillera-t-il sur des fleurs, une maison ou un monde que tu inventes ? Continue à dessiner ou à colorier aussi longtemps que tu veux, ou termine ici.",
+      "hint": "Des traits qui partent d’un centre pourraient-ils t’aider à dessiner une fleur une autre fois ?",
+      "notice": "Montrez un mouvement vers l’extérieur sur une autre feuille. Les rayons n’ont pas besoin d’être régulièrement espacés, de même longueur ou d’un nombre précis. Le visage est une idée imaginaire : il ne représente pas le vrai Soleil."
+    }
+  },
+  "sourceLessonSha256": "64a5d4992ca8c3fb589bba3c50477556d6a34b72fae086bbc4471a3cc45cdea0"
+}

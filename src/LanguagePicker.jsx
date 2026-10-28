@@ -59,8 +59,8 @@ export function LanguagePicker({ level, onSelect, onClose, pending = null, error
         })}
       </div>
       <p className="language-modal-note">{t(languageAvailabilityCopy().note)}</p>
-      {pending && <p className="language-modal-note" role="status">{t("Loading Spanish lessons…")}</p>}
-      {error && <p className="language-modal-note" role="alert">{t("Spanish lessons could not load. Please try again.")}</p>}
+      {pending && <p className="language-modal-note" role="status">{t("Loading lessons…")}</p>}
+      {error && <p className="language-modal-note" role="alert">{t("The selected language could not load. Please try again.")}</p>}
       {LANGUAGES.find((language) => language.id === "es-419")?.ready &&
         !languageAvailableForLevel("es-419", level.id) && (
           <p className="language-modal-note">{t("Spanish lessons in this level are being prepared. Choose another level or language.")}</p>

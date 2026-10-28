@@ -8,6 +8,7 @@ import "@fontsource/nunito/latin-800.css";
 import "@fontsource/nunito/latin-900.css";
 import "./styles.css";
 import "./brand.css";
+import { FRENCH_DYNAMIC } from "./french-dynamic.fr-FR.js";
 
 class LessonBoundary extends React.Component {
   state = { failed: false };
@@ -25,15 +26,16 @@ class LessonBoundary extends React.Component {
   render() {
     if (this.state.failed) {
       const spanish = document.documentElement.lang === "es-419";
+      const french = document.documentElement.lang === "fr-FR";
       return (
         <main className="error-page">
-          <h1>{spanish ? "Tomemos una pequeña pausa." : "Let’s take a little pause."}</h1>
+          <h1>{french ? FRENCH_DYNAMIC.errorTitle : spanish ? "Tomemos una pequeña pausa." : "Let’s take a little pause."}</h1>
           <p>
-            {spanish
+            {french ? FRENCH_DYNAMIC.errorBody : spanish
               ? "No se pudo abrir la clase. Tu dibujo en papel es tuyo. Pídele a la persona adulta que vuelva a cargar la página cuando estén listos."
               : "The lesson could not open. Your paper drawing is yours to keep. Ask your grown-up to reload when you’re ready."}
           </p>
-          <a href="/">{spanish ? "Volver a cargar la clase" : "Reload the lesson"}</a>
+          <a href="/">{french ? FRENCH_DYNAMIC.errorReload : spanish ? "Volver a cargar la clase" : "Reload the lesson"}</a>
         </main>
       );
     }

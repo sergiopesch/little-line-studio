@@ -1,0 +1,202 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "sailboat",
+  "sourceTextSha256": "e4f12a54aa2baf4ea4b3a00c239c2b23acaa65392af2d24e620bba8c5263fc35",
+  "title": "Un voilier",
+  "invitation": "Une coque, un mât et des voiles gonflées.",
+  "objective": "Utiliser des bords communs et des points de jonction pour disposer une coque, un mât et des voiles ; distinguer le bateau de l’eau qui l’entoure.",
+  "parentNote": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin.",
+  "simplify": "",
+  "transfer": "Un autre jour, inventez un bateau avec une seule voile. Invitez votre enfant à décider ce qui change quand on retire une voile.",
+  "colouringLabel": "De petits traits et des couleurs choisies",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons le voilier.",
+      "instruction": "Regarde les hautes voiles au-dessus d’un bateau large et bas.",
+      "spoken": "Notre voilier sur papier part sur une baie calme inventée. Regarde les hautes voiles au-dessus d’une coque large et basse.",
+      "hint": "Compare les formes hautes avec le bateau large en dessous.",
+      "notice": "Regardez les voiles de notre exemple. Quel bord se trouve à côté du mât vertical ?"
+    },
+    "boat-deck": {
+      "title": "Le haut du bateau",
+      "instruction": "Trace un long trait pour le haut du bateau.",
+      "spoken": "Un long trait forme le haut de notre coque. Je laisse beaucoup de papier au-dessus pour les voiles.",
+      "hint": "Laisse plus de place au-dessus de ton trait qu’en dessous.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-hull": {
+      "title": "La coque",
+      "instruction": "Trace une courbe vers le bas et reviens à l’autre extrémité.",
+      "spoken": "Une grande courbe relie les extrémités en dessous. Le haut droit et le bas courbé forment une coque fermée, prête à recevoir de la couleur.",
+      "hint": "Laisse la courbe revenir à l’autre extrémité du trait.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-mast": {
+      "title": "Le mât",
+      "instruction": "Trace un grand mât qui monte depuis la coque.",
+      "spoken": "Un grand trait monte depuis près du milieu de la coque. Sa hauteur laisse de la place aux voiles pour se déployer.",
+      "hint": "Commence au sommet du bateau et monte dans l’espace au-dessus.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-left-sail-edge": {
+      "title": "Le bord de la voile gauche",
+      "instruction": "Descends en biais depuis le mât vers la gauche.",
+      "spoken": "Depuis le haut du mât, un trait descend en biais vers la gauche. Arrête-toi un peu au-dessus de la coque pour que la voile reste séparée.",
+      "hint": "Garde un peu de papier entre ce coin de la voile et le bateau.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-left-sail-base": {
+      "title": "Le bas de la voile gauche",
+      "instruction": "Relie le coin inférieur de la voile au mât.",
+      "spoken": "Un petit trait revient au mât et ferme un triangle. Trois bords reliés donnent à cette voile son propre espace.",
+      "hint": "Relie le coin extérieur de la voile à la grande ligne du milieu.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-right-sail-edge": {
+      "title": "Le bord de la voile droite",
+      "instruction": "Descends en biais de l’autre côté du mât.",
+      "spoken": "Un autre trait descend en biais depuis le haut vers la droite. Compare jusqu’où cette voile s’étend à côté de la première.",
+      "hint": "Commence en haut du mât et dirige-toi vers l’autre côté.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-right-sail-base": {
+      "title": "Le bas de la voile droite",
+      "instruction": "Ferme la deuxième voile avec un petit trait.",
+      "spoken": "Un petit trait rejoint à nouveau le mât. Les deux voiles partagent la ligne du milieu, avec des espaces séparés de chaque côté.",
+      "hint": "Relie le coin de la voile au mât.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-left-porthole": {
+      "title": "Un petit hublot",
+      "instruction": "Dessine une petite fenêtre ronde dans la coque.",
+      "spoken": "Un petit cercle se place dans le bateau. Je laisse de la place autour pour que le contour de la coque reste bien visible.",
+      "hint": "Cherche un espace sous la ligne droite du haut de la coque.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-right-porthole": {
+      "title": "Un autre hublot",
+      "instruction": "Place une autre petite fenêtre le long de la coque.",
+      "spoken": "Un deuxième petit cercle se place plus loin. L’espace entre ces fenêtres m’aide à choisir leur position.",
+      "hint": "Regarde le long de la coque plutôt que vers les voiles.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-bow-detail": {
+      "title": "Un détail à l’avant",
+      "instruction": "Ajoute une petite courbe près de l’avant du bateau.",
+      "spoken": "Une petite courbe suit la coque près d’une extrémité. La garder à l’intérieur ajoute un petit détail sans changer la grande forme.",
+      "hint": "Suis un petit morceau du bord courbé de la coque depuis l’intérieur.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-water": {
+      "title": "Une vague",
+      "instruction": "Laisse une ligne doucement ondulée passer sous le bateau.",
+      "spoken": "Une vague monte et descend en courbe sous notre bateau. Je répète une courbe douce plutôt que beaucoup de pointes vives.",
+      "hint": "Laisse la ligne ondulée dépasser des deux côtés de la coque.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-flag": {
+      "title": "Un petit drapeau",
+      "instruction": "Essaie un tout petit drapeau en haut du mât.",
+      "spoken": "Un petit drapeau pointu peut rejoindre le haut du mât. Ton bateau sur papier peut aussi naviguer sans lui.",
+      "hint": "Garde ce drapeau facultatif petit à côté des grandes voiles.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-second-wave": {
+      "title": "Une autre vague",
+      "instruction": "Essaie une autre vague plus bas, si tu veux.",
+      "spoken": "Une autre vague peut se courber sous la première. Laisser de l’espace entre elles garde notre eau imaginaire ouverte et calme.",
+      "hint": "Fais une courbe douce sous la première vague.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-sun": {
+      "title": "Un petit soleil",
+      "instruction": "Essaie un petit soleil dans ton ciel inventé.",
+      "spoken": "Un petit cercle peut devenir un soleil dans notre baie imaginaire. C’est un symbole sur papier ; nous ne regardons pas le vrai Soleil.",
+      "hint": "Utilise ta feuille ou notre image pour ce cercle facultatif.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-cloud": {
+      "title": "Un nuage",
+      "instruction": "Essaie une forme de nuage douce dans un espace libre.",
+      "spoken": "Quelques courbes arrondies peuvent se rejoindre pour former un nuage. Cherche un espace libre dans le ciel où il ne traversera pas les hautes voiles.",
+      "hint": "Relie des bosses douces autour d’une petite forme dans le ciel.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-bird-left-wing": {
+      "title": "Une petite aile dans le ciel",
+      "instruction": "Essaie une petite forme d’aile dans le ciel.",
+      "spoken": "Une petite ligne courbée peut commencer un oiseau de papier au loin. Il peut rester tout petit à côté des grandes voiles.",
+      "hint": "Garde cette petite courbe dans une zone libre du ciel.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "boat-bird-right-wing": {
+      "title": "Une autre petite aile",
+      "instruction": "Essaie une autre petite aile à côté de la première.",
+      "spoken": "Une autre petite courbe peut former une marque en forme d’oiseau. Si tu as passé la première, les deux courbes sont facultatives.",
+      "hint": "Relie deux petites courbes ou laisse ton ciel vide.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis une couleur pour la coque et des couleurs douces pour les voiles.",
+      "spoken": "Je choisis une coque rouge, une voile crème et une voile bleu clair. Ton bateau inventé peut avoir ses propres couleurs.",
+      "hint": "Choisis des couleurs qui t’aident à voir les différentes parties du bateau.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-hull": {
+      "title": "La coque colorée",
+      "instruction": "Colorie l’intérieur de la coque courbée avec de petits traits.",
+      "spoken": "De petites zones rouges suivent la grande coque. Je soulève mon crayon avant les fenêtres et je fais de plus petits traits près des extrémités pointues.",
+      "hint": "Arrête-toi avant le bord et commence une nouvelle zone.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-sails": {
+      "title": "Les voiles colorées",
+      "instruction": "Ajoute des couleurs claires dans les triangles des voiles.",
+      "spoken": "Du crème clair et du bleu donnent de la légèreté aux voiles. Je colorie de petites zones dans chaque triangle et je garde le mât bien visible.",
+      "hint": "Les petits traits tiennent plus facilement près d’un coin étroit de voile.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-hull-shade": {
+      "title": "Une couche plus foncée",
+      "instruction": "Ajoute une couche de couleur plus foncée le long du bas de la coque.",
+      "spoken": "Un peu de brun sur le rouge en bas suggère le dessous arrondi du bateau. Je laisse le rouge du haut plus clair près de nos fenêtres.",
+      "hint": "Utilise une couche légère pour que du rouge reste visible à travers.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "colour-reflection": {
+      "title": "Regarde ton voilier.",
+      "instruction": "Observe les hautes voiles posées sur une large coque.",
+      "spoken": "Nos grands triangles se trouvent au-dessus d’un bateau large et courbé. Imagine ce petit voilier avançant sur ta propre baie de papier.",
+      "hint": "Regarde comment tes formes hautes et larges se rejoignent.",
+      "notice": "Vos crayons et les espaces blancs sont les bienvenus. Plus de temps permet de rester à chaque étape ; la maîtresse ne peut ni voir ni juger votre feuille."
+    },
+    "explore": {
+      "title": "Ta destination imaginaire.",
+      "instruction": "Invente une destination, continue à colorier ou termine.",
+      "spoken": "Où ton bateau sur papier pourrait-il aller ? Ajoute une île ou invente une autre destination, sans avoir besoin de nous donner une réponse.",
+      "hint": "Essaie une forme haute au-dessus d’une forme large et basse.",
+      "notice": "Si votre enfant le demande, tracez dans l’air le contour d’une voile du modèle, en montrant que le mât en forme un côté. Ne lui demandez pas de recommencer une voile qui présente un espace. Les bords communs sont le point d’apprentissage proposé ; l’ordre numéroté n’est pas une règle universelle du dessin."
+    }
+  },
+  "sourceLessonSha256": "d12bae439685861cacc60c810baff05d72cfcc775c648fa9c375c9fc7785bbae"
+}

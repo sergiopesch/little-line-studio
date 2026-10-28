@@ -1,6 +1,9 @@
 import englishIndex from "./narration-index.json" with { type: "json" };
 import englishDurations from "./narration-durations.json" with { type: "json" };
 import spanishAvailability from "./narration-availability.es-419.json" with { type: "json" };
+import frenchAvailability from "./narration-availability.fr-FR.json" with { type: "json" };
+import irishAvailability from "./narration-availability.en-IE.json" with { type: "json" };
+import scottishAvailability from "./narration-availability.en-GB-x-scotland.json" with { type: "json" };
 import { LESSONS, getLesson } from "./lesson-catalogue.js";
 
 export const isNarrationPath = (value) =>
@@ -19,13 +22,20 @@ export function hasCompleteNarration(lessons, index, durations) {
     Number.isFinite(durations?.[key]) && durations[key] > 0);
 }
 
-export function validSpanishAvailability(descriptor, knownLessons = LESSONS) {
-  if (descriptor?.schemaVersion !== 1 || descriptor.locale !== "es-419" ||
+export function validAvailability(descriptor, locale, knownLessons = LESSONS) {
+  if (descriptor?.schemaVersion !== 1 || descriptor.locale !== locale ||
       !Array.isArray(descriptor.lessons) || !Array.isArray(knownLessons)) return false;
   const known = new Set(knownLessons.map((lesson) => lesson.id));
   return descriptor.lessons.every((id, index, ids) =>
     typeof id === "string" && known.has(id) && (index === 0 || ids[index - 1] < id));
 }
+
+export function validSpanishAvailability(descriptor, knownLessons = LESSONS) {
+  return validAvailability(descriptor, "es-419", knownLessons);
+}
+
+const availability = Object.freeze({ "es-419": spanishAvailability, "fr-FR": frenchAvailability,
+  "en-IE": irishAvailability, "en-GB-x-scotland": scottishAvailability });
 
 export function spanishLessonReleased(lesson, {
   descriptor = spanishAvailability,
@@ -49,24 +59,26 @@ export function spanishLessonAvailable(lesson, {
 
 export function isLessonReleased(locale, lesson) {
   if (locale === "en-GB") return Boolean(getLesson(lesson?.id));
-  if (locale === "es-419") return spanishLessonReleased(lesson);
-  return false;
+  const descriptor = availability[locale];
+  return Boolean(validAvailability(descriptor, locale) && getLesson(lesson?.id) && descriptor.lessons.includes(lesson.id));
 }
 
 export function releasedLessons(locale, lessons = LESSONS) {
   return lessons.filter((lesson) => isLessonReleased(locale, lesson));
 }
 
-export function isLessonAvailable(locale, lesson, spanishNarration = null) {
+export function isLessonAvailable(locale, lesson, localeNarration = null) {
   if (locale === "en-GB") return isLessonReleased(locale, lesson);
-  if (locale === "es-419") return spanishLessonAvailable(lesson, spanishNarration ?? {});
-  return false;
+  if (locale === "es-419") return spanishLessonAvailable(lesson, localeNarration ?? {});
+  const authored = getLesson(lesson?.id);
+  return Boolean(authored && isLessonReleased(locale, authored) &&
+    hasCompleteNarration([authored], localeNarration?.index, localeNarration?.durations));
 }
 
-export function narrationForLocale(locale, lessons, spanishNarration = null) {
+export function narrationForLocale(locale, lessons, localeNarration = null) {
   if (locale === "en-GB") return { ready: true, index: englishIndex, durations: englishDurations };
-  if (locale === "es-419" && Array.isArray(lessons) && lessons.length > 0 &&
-      lessons.every((lesson) => isLessonAvailable(locale, lesson, spanishNarration)))
-    return { ready: true, index: spanishNarration.index, durations: spanishNarration.durations };
+  if (availability[locale] && Array.isArray(lessons) && lessons.length > 0 &&
+      lessons.every((lesson) => isLessonAvailable(locale, lesson, localeNarration)))
+    return { ready: true, index: localeNarration.index, durations: localeNarration.durations };
   return { ready: false, index: {}, durations: {} };
 }

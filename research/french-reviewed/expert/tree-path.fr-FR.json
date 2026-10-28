@@ -1,0 +1,230 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "tree-path",
+  "sourceTextSha256": "137d2bbb2219b366045db561b9c6ca0251ede61e785d2dec76f5cdac7b8dcb46",
+  "title": "Un arbre près d'un chemin sinueux",
+  "invitation": "Un chemin qui serpente au loin.",
+  "objective": "Explorer comment les bords d'un chemin peuvent se rapprocher à mesure qu'il s'éloigne dans l'image.",
+  "parentNote": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux.",
+  "simplify": "Utilisez un chemin droit à deux bords, un tronc simple et une seule forme pour le feuillage. Un chemin de largeur égale ou une vue imaginaire conviennent aussi ; laissez de côté les détails du paysage.",
+  "transfer": "Un autre jour, essayez de dessiner une rivière ou une voie ferrée qui disparaît dans un autre paysage. Explorez la variation de l'espace entre deux bords sans utiliser le modèle de l'arbre et du chemin.",
+  "colouringLabel": "Petits mouvements de crayon, tes propres couleurs",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Regarde"
+    },
+    {
+      "id": "draw",
+      "label": "Dessine"
+    },
+    {
+      "id": "colour",
+      "label": "Colorie"
+    },
+    {
+      "id": "explore",
+      "label": "Tes propres idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Un chemin vers un lieu imaginé",
+      "instruction": "Observe le chemin large près de toi et étroit au loin.",
+      "spoken": "Notre chemin sinueux mène vers un endroit que tu peux imaginer. Regarde comme il est large près de nous et beaucoup plus étroit au loin.",
+      "hint": "Compare le bas du chemin, bien large, avec sa toute petite extrémité au loin.",
+      "notice": "Regardez une photographie de chemin prise depuis le sol. Observez si ses bords visibles sont plus espacés près de vous et plus rapprochés au loin. C'est une façon de suggérer la distance, pas une règle obligatoire pour les scènes imaginaires."
+    },
+    "distant-hill": {
+      "title": "Une colline au loin",
+      "instruction": "Dessine une colline basse en courbe en haut du paysage.",
+      "spoken": "Commence par une colline basse au loin. Laisse beaucoup de place en dessous pour le chemin sinueux et un arbre tout près.",
+      "hint": "Garde cette colline lointaine vers le haut de la feuille.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "path-left-edge": {
+      "title": "Le bord gauche du chemin",
+      "instruction": "Trace un bord sinueux du chemin vers la colline.",
+      "spoken": "Commence en bas et laisse ce bord serpenter vers la colline. Une longue courbe confortable peut changer de direction sans former de coin pointu.",
+      "hint": "Laisse une courbe souple serpenter du bas de la feuille vers la colline.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "path-right-edge": {
+      "title": "Le bord droit du chemin",
+      "instruction": "Garde le chemin plus large près de toi et plus étroit au loin.",
+      "spoken": "Ajoute l’autre bord. Laisse un espace plus large en bas et plus étroit au loin ; ce changement aide à suggérer la distance.",
+      "hint": "Compare l’espace en bas avec celui près de la colline.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "trunk-left-edge": {
+      "title": "Le bord gauche du tronc",
+      "instruction": "Dessine à gauche un tronc qui monte en courbe douce.",
+      "spoken": "Fais monter un tronc à gauche du chemin. Une courbe qui change doucement peut lui donner une forme moins droite qu’un poteau.",
+      "hint": "Commence près du sol et laisse le tronc monter en courbe.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "trunk-right-edge": {
+      "title": "Le bord droit du tronc",
+      "instruction": "Ajoute l’autre côté du tronc tout près.",
+      "spoken": "Dessine l’autre côté en laissant de la place entre les bords. Laisse le tronc devenir un peu plus large près du sol.",
+      "hint": "Laisse un espace plus large vers le bas du tronc.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "left-branch": {
+      "title": "La branche de gauche",
+      "instruction": "Fais partir une branche en courbe vers le haut à gauche.",
+      "spoken": "Une branche part du tronc et monte en courbe. Laisse de la place autour de sa pointe pour le feuillage que nous dessinerons ensuite.",
+      "hint": "Laisse la branche s’écarter du tronc avant de remonter.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "right-branch": {
+      "title": "La branche de droite",
+      "instruction": "Trace une autre branche en courbe vers le haut à droite.",
+      "spoken": "Une autre branche part vers la droite. Ces directions différentes aident l’arbre à s’étaler au lieu de pencher toutes ses feuilles du même côté.",
+      "hint": "Fais tourner cette branche dans une autre direction.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "leafy-crown": {
+      "title": "Le feuillage",
+      "instruction": "Relie de grandes bosses arrondies autour des branches.",
+      "spoken": "Construis le feuillage avec de grandes bosses arrondies. Pense d’abord à toute la forme : nous n’avons pas besoin d’une ligne pour chaque feuille.",
+      "hint": "Relie quelques grandes bosses arrondies autour des pointes des branches.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "left-root": {
+      "title": "La racine de gauche",
+      "instruction": "Fais partir une petite racine le long du sol.",
+      "spoken": "Une petite racine part vers la gauche le long du sol.",
+      "hint": "Laisse cette petite courbe s’éloigner du tronc.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "right-root": {
+      "title": "La racine de droite",
+      "instruction": "Ajoute une petite racine qui s’étale de l’autre côté.",
+      "spoken": "Une racine de l’autre côté aide l’arbre à se poser dans le paysage.",
+      "hint": "Trace une petite racine en courbe vers la droite.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "trunk-bark": {
+      "title": "L’écorce du tronc",
+      "instruction": "Suis la hauteur du tronc avec une ligne ondulée.",
+      "spoken": "Si tu veux ajouter de l’écorce, une ligne ondulée peut suivre le tronc vers le haut. Tu n’as pas besoin de couvrir tout l’arbre de traits.",
+      "hint": "Une seule ligne ondulée légère suffit pour suggérer l’écorce.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "leafy-cluster": {
+      "title": "Un groupe de feuilles",
+      "instruction": "Si tu veux, ajoute un petit groupe de feuilles dans le feuillage.",
+      "spoken": "Un petit groupe arrondi à l’intérieur peut suggérer des feuilles. Garde le contour extérieur bien visible pour que l’arbre forme toujours un ensemble.",
+      "hint": "Répète quelques petites bosses à l’intérieur de la grande forme du feuillage.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "near-path-stone": {
+      "title": "Une pierre tout près",
+      "instruction": "Place une pierre plate plus grande près du bas.",
+      "spoken": "Tu peux placer une pierre plate près de nous. Mets-la à côté du chemin pour laisser libre notre trajet imaginaire.",
+      "hint": "Dessine un ovale aplati près du bas du paysage.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "far-path-stone": {
+      "title": "Une pierre au loin",
+      "instruction": "Si tu veux, dessine une toute petite pierre à côté du haut du chemin.",
+      "spoken": "Tu peux ajouter une toute petite pierre au loin. Si tu as dessiné une pierre tout près, comparer leurs tailles donne une autre façon de suggérer la distance.",
+      "hint": "Place un tout petit ovale près du haut du chemin.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "tree-grass": {
+      "title": "De l’herbe près de l’arbre",
+      "instruction": "Ajoute un tout petit brin d’herbe courbé près de l’arbre.",
+      "spoken": "Si tu veux, un petit brin d’herbe courbé peut se trouver près des racines.",
+      "hint": "Garde ce petit brin d’herbe près du sol.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "path-grass": {
+      "title": "De l’herbe près du chemin",
+      "instruction": "Ajoute un autre petit brin d’herbe près du chemin.",
+      "spoken": "Tu peux ajouter un autre petit brin d’herbe près du chemin, ou laisser cet espace libre.",
+      "hint": "Une petite courbe vers le haut suffit pour suggérer de l’herbe.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "distant-bush": {
+      "title": "Un buisson au loin",
+      "instruction": "Si tu veux, dessine un tout petit buisson arrondi près de la colline.",
+      "spoken": "Un petit buisson arrondi près de la colline reste tout petit dans notre paysage. Comme le chemin qui se rétrécit, ces petites formes au loin suggèrent la profondeur.",
+      "hint": "Utilise quelques petites bosses pour ce buisson lointain.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "landscape-cloud": {
+      "title": "Un nuage dans le paysage",
+      "instruction": "Si tu veux, ajoute un nuage doux dans le ciel.",
+      "spoken": "Un petit nuage peut se poser dans le ciel. Relie des bosses arrondies et ferme-les avec une ligne douce en dessous.",
+      "hint": "Laisse un peu de ciel libre autour de ce petit nuage.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "fallen-tree-leaf": {
+      "title": "Une feuille tombée",
+      "instruction": "Si tu veux, place une petite feuille près de l’arbre.",
+      "spoken": "Une feuille tombée peut se trouver près de l’arbre. Deux petites courbes qui se rejoignent en pointe forment ce détail du paysage.",
+      "hint": "Utilise deux petites courbes qui se rejoignent à leurs deux extrémités.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "landscape-sun": {
+      "title": "Un soleil dans le paysage",
+      "instruction": "Si tu veux, dessine un petit soleil dans le ciel.",
+      "spoken": "Tu peux ajouter un petit soleil à ce paysage imaginé. Regarde notre dessin sur papier pour t’aider, jamais le vrai Soleil.",
+      "hint": "Une petite forme ronde peut se placer dans un coin libre du ciel.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    },
+    "colour-choice": {
+      "title": "Les couleurs du paysage",
+      "instruction": "Choisis du vert pour les feuilles, du brun pour le tronc et une couleur chaude pour le chemin.",
+      "spoken": "Je vais choisir des feuilles vertes, un tronc brun et un chemin couleur sable. Ton paysage imaginé peut avoir d’autres couleurs, une autre saison ou un autre temps.",
+      "hint": "Choisis une couleur pour les feuilles et une autre pour le chemin.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-leafy-crown": {
+      "title": "De petites touches de feuilles",
+      "instruction": "Ajoute de petites touches vertes dans le feuillage arrondi.",
+      "spoken": "Je colorie de petites zones dans le grand feuillage, en levant le crayon avant de passer à une autre. Les espaces blancs gardent une texture légère et aérée.",
+      "hint": "Fais de petites touches à l’intérieur de la grande forme arrondie du feuillage.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-tree-trunk": {
+      "title": "Un tronc brun et étroit",
+      "instruction": "Fais de petits mouvements dans le sens de la hauteur du tronc.",
+      "spoken": "Le tronc est bien plus étroit que le feuillage, alors mes mouvements deviennent plus petits. Je suis sa hauteur et je laisse visible la ligne d’écorce.",
+      "hint": "Raccourcis tes mouvements et suis le tronc vers le haut.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-winding-path": {
+      "title": "Colorier vers le lointain",
+      "instruction": "Fais des touches plus petites là où le chemin se rétrécit.",
+      "spoken": "Regarde : les mouvements deviennent plus petits vers le bout du chemin au loin. Le coloriage suit la même idée de largeur et de rétrécissement que les deux bords du chemin.",
+      "hint": "Les grands espaces proches et les petits espaces lointains demandent des mouvements de tailles différentes.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-landscape-layer": {
+      "title": "Un peu d’ombre dans les feuilles",
+      "instruction": "Essaie une couche plus foncée sur les feuilles et colorie les détails ajoutés.",
+      "spoken": "Une légère couche de vert peut foncer une partie du feuillage. Si tu as dessiné une pierre ou un soleil sur le papier, tu peux les colorier en gris et en jaune.",
+      "hint": "Ajoute une couche légère dans le feuillage ; colorie les autres formes seulement si tu les as dessinées.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-reflect": {
+      "title": "Un paysage avec de la profondeur",
+      "instruction": "Observe le chemin qui se rétrécit et les pierres de différentes tailles que tu as peut-être ajoutées.",
+      "spoken": "Suis des yeux le chemin qui se rétrécit. Si tu as dessiné des pierres de tailles différentes, elles aident aussi à montrer un paysage qui s’éloigne.",
+      "hint": "Compare une forme proche avec une forme plus petite au loin.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "explore": {
+      "title": "Où mène ton chemin ?",
+      "instruction": "Continue à colorier ou imagine ce qui se trouve derrière la colline.",
+      "spoken": "Ton chemin pourrait mener à un jardin, à une petite maison ou à un endroit entièrement imaginé. Continue à explorer le paysage, ou termine quand tu veux.",
+      "hint": "Ajoute une idée au loin, avec une forme plus petite que les objets proches.",
+      "notice": "Utilisez deux doigts au-dessus d'une image de référence pour montrer la largeur du chemin à deux endroits. Demandez à l'enfant s'il souhaite une destination proche ou lointaine. Si l'enfant le demande, montrez séparément un mouvement sinueux plus doux."
+    }
+  },
+  "sourceLessonSha256": "dc8249c5a08809a015ec305e1795812d96621f99577eca073076cac9a3b700b7"
+}

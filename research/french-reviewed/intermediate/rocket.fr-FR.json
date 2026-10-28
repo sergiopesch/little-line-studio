@@ -1,0 +1,209 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "rocket",
+  "sourceTextSha256": "257404ccc4a761766e876e8f470e48fa0a81d3307762313a8549762eb81a532b",
+  "title": "Une fusée spatiale",
+  "invitation": "Construis une fusée avec des formes reliées entre elles.",
+  "objective": "Organiser un corps central, deux ailerons et des détails les uns dans les autres ; distinguer les grands contours des petites formes intérieures.",
+  "parentNote": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique.",
+  "simplify": "",
+  "transfer": "Un autre jour, essayez un sous-marin avec un grand corps et de petites fenêtres, en changeant sa direction et les parties qui dépassent.",
+  "colouringLabel": "De petits traits et des couleurs choisies",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Un voyage imaginaire sur papier.",
+      "instruction": "Observe le long corps et les petits ailerons sur les côtés.",
+      "spoken": "Notre fusée imaginaire explore un ciel de papier inventé. Regarde son long corps, son sommet arrondi et les petits ailerons sur les côtés.",
+      "hint": "Cherche le grand corps avant la petite fenêtre et les boutons.",
+      "notice": "Regardez ensemble la fusée. Quelles parties sont à l’intérieur de son corps et lesquelles dépassent ?"
+    },
+    "rocket-body": {
+      "title": "Le corps de la fusée",
+      "instruction": "Dessine un corps haut avec une pointe arrondie.",
+      "spoken": "Monte d’un côté, fais le tour du sommet pointu et redescends de l’autre côté. Un trait en bas ferme la forme allongée de notre fusée.",
+      "hint": "Laisse de la place sous le corps pour une flamme imaginaire.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-nose-section": {
+      "title": "La pointe de la fusée",
+      "instruction": "Trace une petite courbe en travers près du sommet pointu.",
+      "spoken": "Une courbe légère traverse la fusée près du sommet. Elle sépare une petite pointe du corps beaucoup plus long en dessous.",
+      "hint": "Garde la plus grande partie de la fusée sous cette petite section.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-window": {
+      "title": "Le hublot",
+      "instruction": "Place un hublot rond dans le haut du corps.",
+      "spoken": "Un hublot rond trouve sa place dans le haut du corps. Je laisse de l’espace de chaque côté pour que le long contour reste bien visible.",
+      "hint": "Garde ton cercle entre les deux longs bords du corps.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-window-rim": {
+      "title": "Le bord du hublot",
+      "instruction": "Dessine un cercle plus petit dans le hublot.",
+      "spoken": "Un cercle plus petit se place dans le premier. Le petit espace entre les deux forme le bord de notre hublot.",
+      "hint": "Suis le premier cercle en restant un peu à l’intérieur.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-left-fin": {
+      "title": "L’aileron gauche",
+      "instruction": "Relie un aileron pointu au bas d’un côté du corps.",
+      "spoken": "Trois côtés forment un aileron près du bas du corps. Regarde : cette petite partie touche la grande fusée au lieu de flotter à côté.",
+      "hint": "Commence et termine ton aileron sur le côté du corps.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-right-fin": {
+      "title": "L’aileron droit",
+      "instruction": "Ajoute un petit aileron de l’autre côté.",
+      "spoken": "Un autre aileron s’étend de l’autre côté. Compare leur hauteur sur le corps avant de relier les petits traits.",
+      "hint": "Place les deux ailerons près du bas de la fusée.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-engine-section": {
+      "title": "La partie du moteur",
+      "instruction": "Trace une courbe près du bas du corps.",
+      "spoken": "Une courbe légère passe près du bas. L’espace étroit en dessous donne à notre fusée une petite partie pour le moteur.",
+      "hint": "Laisse une petite bande entre cette courbe et le bas.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-flame": {
+      "title": "La flamme",
+      "instruction": "Dessine une flamme imaginaire en courbe sous la fusée.",
+      "spoken": "Notre flamme imaginaire descend en courbe jusqu’à une pointe, puis remonte. Elle rejoint le bas sans couvrir les ailerons sur les côtés.",
+      "hint": "Laisse de l’espace entre la longue flamme et les ailerons.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-inner-flame": {
+      "title": "L’intérieur de la flamme",
+      "instruction": "Ajoute une courbe de flamme plus petite dans la première.",
+      "spoken": "Une plus petite courbe pointue trouve sa place dans la première flamme. Une forme dans l’autre nous laisse de la place pour deux couleurs plus tard.",
+      "hint": "Garde cette nouvelle courbe bien à l’intérieur de la flamme.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-left-stripe": {
+      "title": "La bande de gauche",
+      "instruction": "Trace une longue ligne à l’intérieur d’un bord du corps.",
+      "spoken": "Une longue ligne suit un côté à l’intérieur. Je m’arrête avant la courbe du bas et je laisse le hublot dégagé.",
+      "hint": "Suis la direction du corps en laissant un peu d’espace près du bord.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-right-stripe": {
+      "title": "La bande de droite",
+      "instruction": "Ajoute une autre longue ligne dans le corps.",
+      "spoken": "Une ligne semblable suit l’autre côté. Ces deux longs traits font paraître le corps très haut à côté de son petit hublot rond.",
+      "hint": "Garde cette ligne à distance du hublot et du contour.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-left-button": {
+      "title": "Le bouton de gauche",
+      "instruction": "Essaie un petit bouton sous le hublot.",
+      "spoken": "Un petit point peut commencer un panneau de commande. Ce détail supplémentaire se place sous le hublot, à l’intérieur du long corps.",
+      "hint": "Cherche un espace libre sous le hublot rond.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-right-button": {
+      "title": "Le bouton de droite",
+      "instruction": "Essaie un deuxième petit bouton, si tu veux.",
+      "spoken": "Un autre point peut se placer à côté, ou tu peux laisser le panneau vide. Notre fusée imaginaire n’a pas besoin de commandes précises.",
+      "hint": "Laisse un peu de papier autour de chaque bouton que tu choisis.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-planet": {
+      "title": "La planète",
+      "instruction": "Essaie une petite planète dans le ciel inventé.",
+      "spoken": "Un petit ovale peut être une planète lointaine dans notre histoire. Garde-la séparée de la fusée pour bien voir les deux formes.",
+      "hint": "Choisis un espace vide sur le papier à côté de la fusée.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-planet-ring": {
+      "title": "L’anneau de la planète",
+      "instruction": "Essaie un anneau incliné autour de ta planète.",
+      "spoken": "Un ovale fin et incliné peut entourer la planète, si tu en as dessiné une. Tu peux aussi ne pas dessiner la planète et son anneau.",
+      "hint": "Un ovale long et étroit peut pencher d’un côté.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-upper-star": {
+      "title": "L’étoile du haut",
+      "instruction": "Essaie une toute petite étoile en haut du ciel.",
+      "spoken": "Un tout petit point peut suggérer une lumière lointaine dans notre ciel inventé. Un petit trait suffit.",
+      "hint": "Fais un petit point dans un espace libre en dehors de la fusée.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-lower-star": {
+      "title": "L’étoile du bas",
+      "instruction": "Essaie un autre petit point dans le ciel, si tu veux.",
+      "spoken": "Un autre tout petit point peut se placer plus loin. Beaucoup de papier vide aide chaque petite lumière à ressortir.",
+      "hint": "Essaie un autre espace vide ou laisse le papier tel quel.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "rocket-moon": {
+      "title": "La lune",
+      "instruction": "Essaie deux courbes pour un croissant de lune inventé.",
+      "spoken": "Deux courbes se rejoignent à leurs extrémités pointues. Cette lune en papier est facultative et peut partager notre ciel imaginaire avec tes autres idées.",
+      "hint": "Laisse une deuxième courbe revenir aux extrémités de la première.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    },
+    "colour-choice": {
+      "title": "Des couleurs pour une fusée inventée.",
+      "instruction": "Choisis les couleurs du corps, du hublot et de la flamme imaginaire.",
+      "spoken": "Je choisis du gris et du rouge pour la fusée, du bleu pour la vitre et des couleurs chaudes pour la flamme. C’est une image imaginaire : à toi de choisir tes couleurs.",
+      "hint": "Prépare une couleur claire pour le corps et quelques couleurs pour les petits détails.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-rocket-body": {
+      "title": "Le long corps prend des couleurs.",
+      "instruction": "Colorie le corps en laissant le hublot dégagé.",
+      "spoken": "Des zones gris clair descendent le long du corps. Je mets du rouge près du sommet et je lève mon crayon avant le hublot et les contours étroits.",
+      "hint": "Colorie une petite zone, lève ton crayon, puis choisis un autre espace libre.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-fins-and-window": {
+      "title": "De petits ailerons et un hublot lumineux.",
+      "instruction": "Colorie les petits ailerons en rouge et le hublot en bleu clair.",
+      "spoken": "Les petits ailerons demandent des traits rouges plus courts que le corps. Du bleu pâle se place dans le hublot, avec des espaces blancs qui évoquent une vitre brillante.",
+      "hint": "Dans les petites formes fermées, fais de petits mouvements et appuie doucement.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-flame": {
+      "title": "Des couleurs chaudes pour la flamme imaginaire.",
+      "instruction": "Superpose des couleurs chaudes dans la flamme imaginaire.",
+      "spoken": "Je mets de l’orange vers l’extérieur de la flamme et du jaune plus près du milieu. Je laisse les couleurs se superposer légèrement, tout en gardant leurs zones visibles.",
+      "hint": "Essaie une couche légère avant d’ajouter une autre couleur chaude.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-reflection": {
+      "title": "De grandes formes et de petits détails.",
+      "instruction": "Observe le long corps et les ailerons beaucoup plus petits.",
+      "spoken": "Notre grande fusée a de petits ailerons reliés au corps et un hublot rond. Ses couleurs sont prêtes pour un voyage imaginaire sur papier.",
+      "hint": "Regarde une petite partie à côté du grand corps.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "explore": {
+      "title": "Un lieu d’atterrissage à inventer.",
+      "instruction": "Invente un lieu d’atterrissage, ajoute des idées ou termine ici.",
+      "spoken": "Tu peux inventer un lieu où ta fusée en papier atterrit ou continuer à colorier son corps. Rien ne presse pour ton voyage.",
+      "hint": "Essaie de relier de petits triangles à une forme allongée.",
+      "notice": "Si votre enfant demande de l’aide, comparez le grand corps de l’exemple à sa petite fenêtre. Proposez une fenêtre plus grande ou moins de détails. Présentez le voyage comme une histoire imaginaire : ce dessin stylisé n’est pas un schéma technique."
+    }
+  },
+  "sourceLessonSha256": "2abc7e9ddfdeba3c3d07ee4d3427daa2e1651d3231db86b57e6d0f686b3991ae"
+}

@@ -1,5 +1,5 @@
 import { narrationForLocale } from "./narration-locales.js";
-import { loadSpanishNarration } from "./narration-registry.js";
+import { loadSpanishNarration, loadLocaleNarration } from "./narration-registry.js";
 
 export async function loadSpanishLanguage(lessons, {
   loadText = () => import("./spanish-lessons.js"),
@@ -12,6 +12,23 @@ export async function loadSpanishLanguage(lessons, {
       typeof text.localizeLesson !== "function" || typeof text.localizedLessonTitle !== "function")
     throw new TypeError("The Spanish lessons could not be verified.");
   for (const lesson of lessons) text.localizeLesson(lesson, "es-419");
+  return { localizeLesson: text.localizeLesson, localizedTitle: text.localizedLessonTitle, narration };
+}
+
+const identityText = { localizeLesson: (lesson) => lesson, localizedLessonTitle: (lesson) => lesson?.title ?? null };
+
+export async function loadLocaleLanguage(locale, lessons, {
+  loadText = () => locale === "fr-FR" ? import("./french-lessons.js") : Promise.resolve(identityText),
+  loadNarration = () => loadLocaleNarration(locale),
+  validate = narrationForLocale,
+} = {}) {
+  if (locale === "es-419") return loadSpanishLanguage(lessons);
+  if (!["fr-FR", "en-IE", "en-GB-x-scotland"].includes(locale)) throw new TypeError("Unknown language.");
+  const [text, narration] = await Promise.all([loadText(), loadNarration()]);
+  if (!Array.isArray(lessons) || !lessons.length || !validate(locale, lessons, narration).ready ||
+      typeof text.localizeLesson !== "function" || typeof text.localizedLessonTitle !== "function")
+    throw new TypeError("The selected lessons could not be verified.");
+  for (const lesson of lessons) text.localizeLesson(lesson, locale);
   return { localizeLesson: text.localizeLesson, localizedTitle: text.localizedLessonTitle, narration };
 }
 

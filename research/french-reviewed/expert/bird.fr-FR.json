@@ -1,0 +1,230 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "bird",
+  "sourceTextSha256": "b242d2730e0dcd6976adcc716891fc8e5a9afe27fe9505c6cb03f5031c6cf7f5",
+  "title": "Un oiseau sur une branche",
+  "invitation": "Observe où les pattes touchent la branche.",
+  "objective": "Assembler les parties du corps autour d’une branche et observer celles qui se chevauchent.",
+  "parentNote": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant.",
+  "simplify": "Une ligne pour la branche, un ovale, une tête et un bec peuvent suffire. Les pattes peuvent être de simples traits ; laissez de côté l’intérieur de l’aile et les détails facultatifs.",
+  "transfer": "Un autre jour, essayez de dessiner un oiseau sur une clôture à partir d’un autre modèle, sans rejouer les étapes initiales. Regardez à nouveau où les pattes touchent leur support ; il n’est pas nécessaire de recopier le premier oiseau.",
+  "colouringLabel": "De petits mouvements de crayon, tes propres couleurs",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Une pause sur une branche",
+      "instruction": "Observe la petite tête, le grand corps et l’aile repliée.",
+      "spoken": "Notre oiseau du jardin fait une pause tranquille. Regarde sa petite tête au-dessus de son corps plus grand et incliné ; nous allons dessiner ces formes séparément.",
+      "hint": "Cherche d’abord la plus grande forme, puis la petite tête.",
+      "notice": "Regardez ensemble une photographie d’oiseau, un livre d’images ou le modèle proposé. Observez où les pattes touchent la branche et comment l’aile se place dans le corps. Une image suffit ; observer un oiseau vivant est facultatif."
+    },
+    "branch-top": {
+      "title": "Le haut de la branche",
+      "instruction": "Trace une longue branche qui monte doucement vers la droite.",
+      "spoken": "Commençons par le haut d’une branche qui monte un peu vers la droite. Laisse beaucoup de place au-dessus pour notre oiseau.",
+      "hint": "Pars du bas à gauche et monte doucement.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "branch-bottom": {
+      "title": "Le bas de la branche",
+      "instruction": "Ajoute le bord inférieur en suivant la même pente douce.",
+      "spoken": "Suis la même pente en dessous. L’espace entre nos deux traits donne de l’épaisseur à la branche, au lieu d’un simple bâton.",
+      "hint": "Garde un petit espace entre les deux bords de la branche.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "branch-left-end": {
+      "title": "Le bout gauche de la branche",
+      "instruction": "Relie les extrémités de gauche par un petit arrondi.",
+      "spoken": "Arrondis ce bout de la branche avec un petit tournant.",
+      "hint": "Relie les deux bouts de gauche par une petite courbe.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "branch-right-end": {
+      "title": "Le bout droit de la branche",
+      "instruction": "Ferme l’autre bout avec une petite courbe arrondie.",
+      "spoken": "Ferme aussi l’autre bout avec une petite courbe.",
+      "hint": "Une courte courbe rejoint les deux bouts de droite.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "bird-body": {
+      "title": "Le corps de l’oiseau",
+      "instruction": "Dessine un corps incliné en laissant une petite ouverture pour la tête.",
+      "spoken": "Trace un grand corps presque ovale. Laisse une petite ouverture en haut à droite : nous y ajouterons la tête, plus petite.",
+      "hint": "Suis une forme ovale inclinée et lève ton crayon là où la tête rejoindra le corps.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "bird-head": {
+      "title": "La tête de l’oiseau",
+      "instruction": "Arrondis une petite tête en laissant une ouverture pour le bec.",
+      "spoken": "Dessine une tête plus petite au-dessus du côté droit du corps. Laisse une petite ouverture pour le bec et observe la différence de taille.",
+      "hint": "Fais une tête plus petite que le grand ovale du corps.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "bird-beak": {
+      "title": "Le bec",
+      "instruction": "Dessine un petit bec pointu à droite.",
+      "spoken": "Deux petits traits inclinés se rejoignent en pointe pour former le bec. Il est bien plus petit que la tête.",
+      "hint": "Va jusqu’à une pointe, puis reviens vers la tête.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "bird-eye": {
+      "title": "L’œil",
+      "instruction": "Place un petit œil sombre dans la tête.",
+      "spoken": "Place un petit œil à l’intérieur de la tête, derrière le bec.",
+      "hint": "Un petit point suffit pour cette vue de côté.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "folded-wing": {
+      "title": "L’aile repliée",
+      "instruction": "Trace une aile repliée à l’intérieur du grand corps.",
+      "spoken": "L’aile se place dans le corps, comme une feuille arrondie. Son contour courbé la distingue sans changer la forme extérieure.",
+      "hint": "Garde cette courbe en forme de feuille dans le grand ovale du corps.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "long-tail": {
+      "title": "La longue queue",
+      "instruction": "Trace deux courbes vers le bas et la gauche pour la queue.",
+      "spoken": "La queue passe derrière le corps ; nous ne dessinons que ses courbes visibles. Descends vers la gauche, puis reviens vers le corps.",
+      "hint": "Fais une forme longue et étroite dirigée vers le bas à gauche.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "first-leg": {
+      "title": "La première patte",
+      "instruction": "Trace une petite patte vers la branche.",
+      "spoken": "Descends du corps vers la branche avec un petit trait.",
+      "hint": "Garde la patte fine : un seul trait suffit.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "first-toe": {
+      "title": "Le premier doigt",
+      "instruction": "Tourne un petit doigt le long de la branche.",
+      "spoken": "Trace un petit doigt qui longe le haut de la branche.",
+      "hint": "Ajoute un court trait sur le côté, au bout de la patte.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "second-leg": {
+      "title": "La deuxième patte",
+      "instruction": "Ajoute une autre petite patte un peu plus à droite.",
+      "spoken": "Ajoute l’autre patte à côté, en descendant dans la même direction.",
+      "hint": "Laisse un petit espace entre les deux pattes fines.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "second-toe": {
+      "title": "Le deuxième doigt",
+      "instruction": "Ajoute un petit doigt à la deuxième patte.",
+      "spoken": "Un petit trait sur le côté termine cette deuxième patte.",
+      "hint": "Tourne encore un petit trait le long de la branche.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "wing-feather": {
+      "title": "Une plume sur l’aile",
+      "instruction": "Suis l’aile avec une douce courbe à l’intérieur.",
+      "spoken": "Si tu veux montrer une plume, suis l’aile avec une légère courbe à l’intérieur. Quelques traits peuvent suggérer une texture, sans en dessiner beaucoup.",
+      "hint": "Laisse une courbe aller vers le bout de l’aile.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "tail-feather": {
+      "title": "Une plume sur la queue",
+      "instruction": "Ajoute un long trait le long de la queue.",
+      "spoken": "Tu peux ajouter un long trait le long de la queue. Suivre sa direction suggère les plumes avec peu de traits ; tu peux aussi la laisser toute simple.",
+      "hint": "Suis la longueur de la queue avec un trait léger.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "branch-twig": {
+      "title": "Une petit rameau",
+      "instruction": "Fais monter une petit rameau depuis la branche.",
+      "spoken": "Si tu veux une petit rameau, fais-la monter en courbe du côté droit de la branche. Tu peux aussi garder une branche toute simple.",
+      "hint": "Pars de la branche et laisse le rameau monter.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "twig-leaf": {
+      "title": "Une feuille",
+      "instruction": "Si tu veux, ferme une feuille pointue au-dessus de la branche.",
+      "spoken": "Si tu veux une feuille, dessine deux courbes pointues au-dessus du côté droit de la branche. Elle peut être là avec ou sans petit rameau.",
+      "hint": "Fais deux courbes qui se rejoignent aux deux bouts.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "sky-cloud": {
+      "title": "Un nuage",
+      "instruction": "Si tu veux, ajoute un doux nuage dans le ciel.",
+      "spoken": "Tu peux ajouter un petit nuage dans l’espace libre. Relie quelques bosses arrondies, puis ferme son bas plus plat.",
+      "hint": "De petites bosses arrondies peuvent former un nuage.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "chest-patch": {
+      "title": "Une tache sur la poitrine",
+      "instruction": "Si tu veux, ajoute un petit ovale sur la poitrine pour la couleur.",
+      "spoken": "Un petit ovale sur la poitrine nous laisse une place pour une couleur chaude. Garde-le à l’intérieur de la grande forme de l’oiseau.",
+      "hint": "Un ovale étroit tient près du côté droit du corps.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    },
+    "colour-choice": {
+      "title": "Les couleurs du jardin",
+      "instruction": "Choisis du bleu, une couleur chaude pour la poitrine et du marron pour la branche.",
+      "spoken": "Je choisis du bleu doux pour les plumes et un orange chaud pour la poitrine de notre oiseau imaginaire. Ton oiseau peut avoir d’autres couleurs.",
+      "hint": "Choisis une couleur principale pour les plumes et une autre pour un petit contraste.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-feathers": {
+      "title": "De douces plumes bleues",
+      "instruction": "Colorie par petites zones en levant le crayon avant chaque nouvelle zone.",
+      "spoken": "Regarde ces petits allers-retours. Je lève mon crayon avant de changer de zone sur le corps ; je laisse du papier blanc et garde le petit œil visible.",
+      "hint": "Colorie une petite zone, lève ton crayon, puis recommence à côté.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-wing": {
+      "title": "Suis l’aile",
+      "instruction": "Suis l’aile repliée avec de petits mouvements de crayon.",
+      "spoken": "Je tourne mes mouvements pour suivre l’aile. Changer de direction avec la forme aide à distinguer cette petite partie du corps.",
+      "hint": "Suis la longueur de l’aile avec de petits mouvements légers.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-perch": {
+      "title": "Une branche et une feuille",
+      "instruction": "Colorie la branche et la feuille si tu en as ajouté une.",
+      "spoken": "La branche est étroite, alors mes mouvements marron deviennent plus petits. Si tu as ajouté une feuille, tu peux y mettre un peu de vert.",
+      "hint": "Raccourcis chaque mouvement quand l’espace devient étroit.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-breast": {
+      "title": "Une touche de chaleur",
+      "instruction": "Ajoute une couleur chaude sur la poitrine et, si tu veux, une nuance sur l’aile.",
+      "spoken": "Si tu as dessiné une tache sur la poitrine, tu peux y ajouter de l’orange chaud. Je vais aussi foncer un peu le bleu de l’aile ; cette couche est facultative.",
+      "hint": "Appuie doucement ; une deuxième couche légère peut rendre la couleur plus foncée.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-reflect": {
+      "title": "Regarde tout l’oiseau",
+      "instruction": "Observe comment les petites formes se placent dans les grandes.",
+      "spoken": "Regarde notre oiseau en entier : une petite tête, un grand corps, une aile repliée. Tu peux continuer à colorier ou laisser du papier blanc pour certaines plumes.",
+      "hint": "Regarde l’oiseau en entier, puis un détail que tu aimes.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "explore": {
+      "title": "Où ton oiseau pourrait-il voler ?",
+      "instruction": "Continue à colorier ou invente un endroit où ton oiseau pourrait aller.",
+      "spoken": "Notre oiseau peut rester ici, ou tu peux imaginer son prochain vol. Continue à dessiner à ton rythme, ou termine quand tu le souhaites.",
+      "hint": "Essaie une autre feuille, une autre couleur de plume ou un ciel ouvert.",
+      "notice": "Si votre enfant le demande, montrez tour à tour le corps, l’aile et la branche sur le modèle. Demandez : « Quelle partie est à l’intérieur d’une autre ? » Montrez comment dessiner une branche sur une feuille à part plutôt que de replacer les pieds de votre enfant."
+    }
+  },
+  "sourceLessonSha256": "26f25af9950b5d49b878e4fdb959c3b86a4663a4322a9a11197971c1c2ae0674"
+}

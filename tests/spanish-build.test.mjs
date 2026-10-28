@@ -100,6 +100,57 @@ test("Static packaging accepts complete partial Spanish metadata and shared asse
   assert.ok(existsSync(f.file(`dist/client${source}`)));
 });
 
+test("Additional locales validate voice, source text and complete audio independently", (t) => {
+  const f = fixture(t, ["cat", "dog"]);
+  f.save();
+  const locale = "en-IE", voice = "t6WJWTYTryhcQnrBHdCr";
+  writeFileSync(f.file("src/narration-sample.en.txt"), `${sample}\n`);
+  const files = {
+    [`narration-availability.${locale}.json`]: { schemaVersion: 1, locale, lessons: ["cat", "dog"] },
+    [`narration-index.${locale}.json`]: f.index,
+    [`narration-durations.${locale}.json`]: f.durations,
+    [`narration-manifest.${locale}.json`]: { ...f.manifest, locale, selectedVoiceId: voice,
+      clips: Object.fromEntries(Object.entries(f.manifest.clips).map(([key, clip]) => [key, { ...clip, voiceId: voice }])) },
+  };
+  const save = () => Object.entries(files).forEach(([name, value]) => writeFileSync(f.file(`src/${name}`), JSON.stringify(value)));
+  save();
+  assert.equal(f.run().status, 0);
+  files[`narration-availability.${locale}.json`].lessons = ["cat"]; save();
+  assert.notEqual(f.run().status, 0, "a partial catalogue must not be released");
+  files[`narration-availability.${locale}.json`].lessons = ["cat", "dog"];
+  const manifest = files[`narration-manifest.${locale}.json`];
+  manifest.clips["cat/head/instruction"].voiceId = "other-voice"; save();
+  assert.notEqual(f.run().status, 0, "wrong locale voice must fail the build");
+  manifest.clips["cat/head/instruction"].voiceId = voice;
+  manifest.clips["cat/head/instruction"].text = "stale text"; save();
+  assert.notEqual(f.run().status, 0, "stale transcript must fail the build");
+  manifest.clips["cat/head/instruction"].text = lessons[0].steps[0].spoken;
+  delete files[`narration-index.${locale}.json`]["cat/head/hint"]; save();
+  assert.notEqual(f.run().status, 0, "missing clips must fail the build");
+});
+
+test("French release requires the current source-linked editorial export", (t) => {
+  const f = fixture(t, ["cat", "dog"]);
+  f.save();
+  const locale = "fr-FR", voice = "tKaoyJLW05zqV0tIH9FD", reviewStatus = "assistant-reviewed-awaiting-native-human-review";
+  const reviewed = { cat: { title: "Chat" }, dog: { title: "Chien" } };
+  writeFileSync(f.file("src/narration-sample.fr-FR.txt"), `${sample}\n`);
+  writeFileSync(f.file("src/french-lessons.js"), "export const localizeLesson = (lesson) => lesson;\n");
+  writeFileSync(f.file("src/french-lessons.fr-FR.json"), JSON.stringify({ locale, reviewStatus, lessons: reviewed }));
+  writeFileSync(f.file("scripts/export-reviewed-french.mjs"), `console.log(${JSON.stringify(JSON.stringify({locale, count:2, reviewStatus, lessons:reviewed}))});\n`);
+  const files = {
+    [`narration-availability.${locale}.json`]: { schemaVersion: 1, locale, lessons: ["cat", "dog"] },
+    [`narration-index.${locale}.json`]: f.index,
+    [`narration-durations.${locale}.json`]: f.durations,
+    [`narration-manifest.${locale}.json`]: { ...f.manifest, locale, selectedVoiceId: voice,
+      clips: Object.fromEntries(Object.entries(f.manifest.clips).map(([key, clip]) => [key, { ...clip, voiceId: voice }])) },
+  };
+  for (const [name, value] of Object.entries(files)) writeFileSync(f.file(`src/${name}`), JSON.stringify(value));
+  assert.equal(f.run().status, 0);
+  writeFileSync(f.file("src/french-lessons.fr-FR.json"), JSON.stringify({ locale, reviewStatus, lessons: {} }));
+  assert.notEqual(f.run().status, 0, "stale French source must fail the build");
+});
+
 const failures = [
   ["unknown lesson", (f) => { f.availability.lessons = ["cat", "unknown"]; }],
   ["duplicate lesson", (f) => { f.availability.lessons = ["cat", "cat"]; }],

@@ -1,0 +1,153 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "ice-cream",
+  "sourceTextSha256": "0e4ccf69217e42c5f4f487188c7fd1d9116d7d6024c871215137ba3bdf36934a",
+  "title": "Un cornet de glace",
+  "invitation": "Une boule de glace sur un cornet pointu.",
+  "objective": "Relier un sommet arrondi à une base pointue et placer des marques facultatives à l’intérieur d’un contour.",
+  "parentNote": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon.",
+  "simplify": "",
+  "transfer": "Une base pointue et un sommet arrondi pourraient-ils t’aider à inventer un autre objet ?",
+  "colouringLabel": "Une boule à la fraise et un cornet doré",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons la glace.",
+      "instruction": "Regarde la boule arrondie au-dessus de la pointe étroite du cornet.",
+      "spoken": "Ouvrons un marchand de glaces imaginaire sur papier. Une boule arrondie est posée sur un cornet qui se rétrécit jusqu’à une pointe.",
+      "hint": "Cherche le haut large et le bas étroit du cornet.",
+      "notice": "Regardez le dessin de la glace. Remarquez où la boule ronde repose sur le cornet."
+    },
+    "pointed-cone": {
+      "title": "Le cornet pointu",
+      "instruction": "Dessine un grand V avec une pointe en bas.",
+      "spoken": "Deux traits penchés se rejoignent en bas pour faire un V. Laisse de la place au-dessus pour notre boule arrondie.",
+      "hint": "Descends jusqu’à la pointe, puis remonte de l’autre côté.",
+      "notice": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon."
+    },
+    "rounded-scoop": {
+      "title": "La boule arrondie",
+      "instruction": "Arrondis une boule au-dessus du V et relie-la en bas.",
+      "spoken": "Trace une courbe qui monte et passe par-dessus, d’un coin supérieur à l’autre. Relie les deux côtés en bas pour que notre boule repose sur le cornet.",
+      "hint": "Les deux extrémités de la boule rejoignent les coins supérieurs du V.",
+      "notice": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon."
+    },
+    "cherry": {
+      "title": "Une cerise",
+      "instruction": "Essaie une petite cerise ronde au-dessus, si tu veux.",
+      "spoken": "Un petit cercle peut se poser sur la boule comme une cerise. Notre boutique imaginaire peut aussi s’en passer.",
+      "hint": "Garde ce cercle bien plus petit que la boule en dessous.",
+      "notice": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon."
+    },
+    "cherry-stalk": {
+      "title": "La queue de la cerise",
+      "instruction": "Ajoute une petite queue à ta cerise, si tu en as dessiné une.",
+      "spoken": "Si tu as ajouté une cerise, une courte tige courbée peut monter depuis celle-ci. Sinon, passe ce détail.",
+      "hint": "Commence en haut du petit cercle de ta cerise.",
+      "notice": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon."
+    },
+    "left-sprinkle": {
+      "title": "Une petite décoration",
+      "instruction": "Essaie une petite décoration dans la boule, si tu veux.",
+      "spoken": "Un tout petit trait penché peut devenir une décoration à l’intérieur de notre boule.",
+      "hint": "Garde la petite décoration à l’intérieur de la boule arrondie.",
+      "notice": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon."
+    },
+    "upper-sprinkle": {
+      "title": "Une autre décoration",
+      "instruction": "Ajoute une autre petite décoration ou garde ton espace libre.",
+      "spoken": "Un autre petit trait peut pencher dans une autre direction. Je soulève mon crayon avant de changer de place.",
+      "hint": "Choisis un nouvel endroit plutôt que de relier les décorations entre elles.",
+      "notice": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon."
+    },
+    "right-sprinkle": {
+      "title": "Une dernière décoration",
+      "instruction": "Choisis une dernière décoration ou passe ce détail.",
+      "spoken": "Une autre petite marque peut terminer mon motif de décorations. Le tien peut en avoir moins.",
+      "hint": "Quelques petites marques laissent de la place pour la couleur plus tard.",
+      "notice": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon."
+    },
+    "upper-cone-diagonal": {
+      "title": "Un trait dans le cornet",
+      "instruction": "Essaie un trait léger et penché dans le cornet, ou passe cette étape.",
+      "spoken": "Un trait léger et penché peut commencer un motif de gaufrette dans le cornet. Je m’arrête avant les bords extérieurs.",
+      "hint": "Garde les deux extrémités de ce trait à l’intérieur du cornet.",
+      "notice": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon."
+    },
+    "lower-cone-diagonal": {
+      "title": "Un trait plus bas",
+      "instruction": "Essaie un trait penché plus court plus bas, ou passe cette étape.",
+      "spoken": "Plus bas, le cornet est plus étroit, alors ce petit trait penché est plus court.",
+      "hint": "Regarde comme il y a moins de place près de la pointe.",
+      "notice": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon."
+    },
+    "crossing-cone-line": {
+      "title": "Un trait dans l’autre sens",
+      "instruction": "Essaie un trait penché dans l’autre sens, si tu veux.",
+      "spoken": "Un trait penché dans l’autre sens peut suggérer un motif de gaufrette. Il peut rester seul si tu as passé les traits précédents.",
+      "hint": "Arrête ton trait à l’intérieur des bords penchés du cornet.",
+      "notice": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis du rose et du brun doré, ou invente ton propre parfum.",
+      "spoken": "Je choisis du rose pour une boule à la fraise imaginaire et du brun doré pour le cornet. Tu peux inventer la couleur d’un autre parfum.",
+      "hint": "Ta boutique imaginaire peut utiliser les crayons que tu as.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-strawberry-scoop": {
+      "title": "La boule à la fraise",
+      "instruction": "Fais de petits traits roses dans la boule arrondie.",
+      "spoken": "De petits traits roses colorient notre boule. Je soulève mon crayon entre les zones et je garde les décorations visibles à travers la couleur légère.",
+      "hint": "Les traits légers laissent apparaître le papier et les petits détails.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-golden-cone": {
+      "title": "Le cornet doré",
+      "instruction": "Colorie le cornet avec des traits plus petits près de sa pointe.",
+      "spoken": "Des zones dorées commencent dans la partie large. Près de la pointe, mes mouvements deviennent tout petits et un peu de papier blanc reste visible.",
+      "hint": "Les petits espaces peuvent rester blancs, sans avoir besoin d’un grand trait.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-cherry": {
+      "title": "La cerise colorée",
+      "instruction": "Colorie ta cerise en rouge si tu en as ajouté une.",
+      "spoken": "Si tu as ajouté une cerise, quelques tout petits traits rouges tiennent à l’intérieur. Tu peux aussi laisser la cerise blanche.",
+      "hint": "La cerise n’est pas obligatoire ; passe cette couleur si tu préfères.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-reflection": {
+      "title": "Regarde ta glace.",
+      "instruction": "Observe la boule arrondie au-dessus de son cornet pointu.",
+      "spoken": "Notre boule arrondie et notre cornet pointu ont des formes différentes. Leurs couleurs douces composent un dessin pour notre boutique imaginaire sur papier.",
+      "hint": "Regarde où ta forme large devient une pointe étroite.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "explore": {
+      "title": "Ta boutique imaginaire.",
+      "instruction": "Invente un autre parfum, continue à colorier ou termine ici.",
+      "spoken": "Ta boutique imaginaire pourrait dessiner un autre parfum, un petit bol ou sa propre enseigne. Continue à créer ou termine avec ce cornet sur papier.",
+      "hint": "Une nouvelle boule peut utiliser le même mouvement courbé.",
+      "notice": "Montrez sur le modèle où la boule rejoint le cornet. Un V large est plus facile si le cornet semble trop étroit. Le V continu se trace en un seul geste ; montrez-le à part si votre enfant le demande, sans prendre son crayon."
+    }
+  },
+  "sourceLessonSha256": "751cee83114e06bee4b352b27859b65bdec53643d02d30eb1471f2300aae354d"
+}

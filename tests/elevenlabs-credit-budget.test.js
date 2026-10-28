@@ -128,12 +128,15 @@ class Tests(unittest.TestCase):
         for item in invalid:
             with self.assertRaises(b.CreditBudgetError): self.guard.before(endpoint,item)
         with self.assertRaises(b.CreditBudgetError): self.guard.before(endpoint+'&extra=true',payload)
-    def test_spanish_v4_reserves_exact_language_without_weakening_contract(self):
+    def test_v4_reserves_supported_languages_without_weakening_contract(self):
         endpoint='/v1/text-to-dialogue?output_format=mp3_44100_128'
         payload={'model_id':'eleven_v4','inputs':[{'text':'Hola, dibujemos.','voice_id':'carito_voice'}], 'language_code':'es'}
         self.assertEqual(self.guard.before(endpoint,payload)['reserved'],8)
         self.guard.after()
-        for invalid in ('en', 'es-VE', '', None, 1):
+        for language in ('en', 'fr'):
+            self.assertEqual(self.guard.before(endpoint,dict(payload,language_code=language))['reserved'],8)
+            self.guard.after()
+        for invalid in ('de', 'es-VE', '', None, 1):
             with self.assertRaises(b.CreditBudgetError): self.guard.before(endpoint,dict(payload,language_code=invalid))
         with self.assertRaises(b.CreditBudgetError): self.guard.before(endpoint,dict(payload,extra=True))
     def test_music_fixed_ceiling_on_supported_paid_tier(self):

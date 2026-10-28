@@ -1,0 +1,230 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "cup",
+  "sourceTextSha256": "331f7b47a6cc02ca69a816cfc2e96fa470102e9c54a42dba1b71236ea1ff63c0",
+  "title": "Tasse et soucoupe",
+  "invitation": "Des ouvertures ovales et des bords cachés.",
+  "objective": "Observer des bords ovales ouverts et la façon dont une anse et une soucoupe se placent autour d’un récipient.",
+  "parentNote": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder.",
+  "simplify": "Dessinez une tasse avec une seule courbe pour l’anse et un bord de soucoupe en forme de sourire. Dans la démonstration, les bords cachés de la soucoupe ne sont pas dessinés dès le départ. Si votre enfant choisit des formes complètes ou des lignes de construction qui se chevauchent, il peut les garder : il n’est pas nécessaire de gommer. Les décorations, les biscuits, la vapeur et les bords de table sont facultatifs.",
+  "transfer": "Un autre jour, observez une cruche ou un bol vide. Essayez de dessiner son ouverture et son anse ou sa base sans la démonstration de la tasse, en choisissant quelles parties sont visibles.",
+  "colouringLabel": "De petits mouvements de crayon, tes propres couleurs",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Un petit café en papier.",
+      "instruction": "Observe le bord ovale aplati et les côtés arrondis de la tasse.",
+      "spoken": "Créons un café imaginaire en papier, avec une tasse décorée et un biscuit. Un ovale aplati donnera une impression de rondeur à la tasse.",
+      "hint": "Regarde comme le haut est large et peu haut, plutôt que rond.",
+      "notice": "Regardez la tasse un peu d’en haut. Observez son ouverture ovale, l’espace vide de l’anse et la soucoupe visible autour de la base. L’observation est facultative ; une tasse imaginée convient aussi."
+    },
+    "saucer-front-edge": {
+      "title": "Le bord avant de la soucoupe",
+      "instruction": "Commence par une large courbe pour le bord de la soucoupe, près du bas de la feuille.",
+      "spoken": "Commençons par la large courbe du devant de la soucoupe. Je laisse de la place au-dessus pour une tasse et une anse à droite.",
+      "hint": "Trace cette première courbe large et basse sur la feuille.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "cup-rim": {
+      "title": "Le bord de la tasse",
+      "instruction": "Dessine un ovale aplati au-dessus de la soucoupe.",
+      "spoken": "Un ovale aplati forme le bord de la tasse. Comme nous regardons un peu la tasse d’en haut, nous voyons cette ouverture ovale.",
+      "hint": "Dessine un ovale beaucoup plus large que haut.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "cup-left-edge": {
+      "title": "Le côté gauche de la tasse",
+      "instruction": "Laisse le côté gauche de la tasse descendre en une courbe douce.",
+      "spoken": "Je descends depuis le bord gauche avec une courbe douce. Près du bas, elle tourne un peu vers l’intérieur.",
+      "hint": "Pars de l’extrémité gauche du bord et descends en courbe.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "cup-right-edge": {
+      "title": "Le côté droit de la tasse",
+      "instruction": "Trace une courbe douce vers l’intérieur à droite.",
+      "spoken": "Je descends l’autre côté de la même façon. Comparer leurs hauteurs aide la tasse à bien se poser sur sa soucoupe.",
+      "hint": "Essaie de finir ce côté près de la hauteur du bas du premier côté.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "cup-bottom": {
+      "title": "Le fond de la tasse",
+      "instruction": "Relie les deux extrémités du bas par un fond doucement arrondi.",
+      "spoken": "Je relie les deux côtés en bas avec une courbe douce. Ce fond arrondi accompagne les côtés courbes et le haut ovale.",
+      "hint": "Trace une courbe douce dans l’espace sous la tasse.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "handle-outer-loop": {
+      "title": "L’extérieur de l’anse",
+      "instruction": "Trace une grande boucle d’anse qui part du côté droit.",
+      "spoken": "L’anse forme une boucle vers la droite, puis revient vers la tasse. Je laisse assez d’espace à l’intérieur pour une courbe plus petite.",
+      "hint": "Pars du côté en courbe, puis reviens vers la tasse.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "handle-inner-loop": {
+      "title": "L’intérieur de l’anse",
+      "instruction": "Trace une boucle plus petite à l’intérieur de l’anse.",
+      "spoken": "Une courbe plus petite à l’intérieur donne de l’épaisseur à l’anse. L’espace blanc au milieu fait aussi partie de sa forme.",
+      "hint": "Suis la boucle extérieure en laissant une bordure entre les courbes.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "inner-rim": {
+      "title": "Le bord intérieur",
+      "instruction": "Ajoute une petite courbe juste à l’intérieur du bord.",
+      "spoken": "Une petite courbe intérieure suggère l’épaisseur du bord. Je la garde près de l’ovale aplati, plutôt que loin en bas de la tasse.",
+      "hint": "Suis une partie de l’ovale avec une courbe tout près, à l’intérieur.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "saucer-left-return": {
+      "title": "Le retour gauche de la soucoupe",
+      "instruction": "Ramène en courbe le bord gauche de la soucoupe vers la tasse.",
+      "spoken": "Je ramène le bord gauche de la soucoupe vers la tasse. Nous montrons la partie visible et laissons la tasse cacher le milieu.",
+      "hint": "Pars du bout gauche de la soucoupe et va vers le bas de la tasse.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "saucer-right-return": {
+      "title": "Le retour droit de la soucoupe",
+      "instruction": "Ajoute la courbe visible de la soucoupe à droite.",
+      "spoken": "Je fais la même courbe de retour à droite. La tasse est devant, donc la soucoupe n’a pas besoin d’un trait qui la traverse.",
+      "hint": "Pars du bout droit de la soucoupe et reviens en courbe vers la tasse.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "cup-base-arc": {
+      "title": "La base de la tasse",
+      "instruction": "Ajoute une petite base courbée juste au-dessus de la soucoupe.",
+      "spoken": "Une petite base courbée aide la tasse à rejoindre la soucoupe. Je suis la direction du fond arrondi de la tasse.",
+      "hint": "Garde cette petite courbe sous la forme principale de la tasse.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "cup-upper-band": {
+      "title": "Le haut de la bande",
+      "instruction": "Trace une courbe décorative sur la tasse.",
+      "spoken": "Si tu veux une bande, trace une courbe autour de la tasse. Cette petite courbe aide la décoration à suivre une surface arrondie plutôt que plate.",
+      "hint": "Laisse la courbe descendre doucement au milieu.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "cup-lower-band": {
+      "title": "Le bas de la bande",
+      "instruction": "Si tu as ajouté une courbe en haut, essaie un bord en bas.",
+      "spoken": "Si tu as dessiné la courbe du haut, suis-la un peu plus bas pour former une bande. Sinon, tu peux laisser cette décoration de côté.",
+      "hint": "Si tu as tracé une courbe en haut, laisse un petit espace en dessous.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "cup-decoration": {
+      "title": "Une décoration sur la tasse",
+      "instruction": "Ajoute un petit cœur en bas de la tasse, si tu veux.",
+      "spoken": "Ta tasse peut avoir un petit cœur ou une autre décoration simple. Place-le en bas de la tasse, avec ou sans bande.",
+      "hint": "Deux bosses arrondies peuvent se rejoindre en une petite pointe en bas.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "first-steam": {
+      "title": "Un premier trait de vapeur",
+      "instruction": "Ajoute une courbe libre au-dessus de la tasse pour la vapeur.",
+      "spoken": "Une courbe libre facultative peut représenter de la vapeur dans notre café imaginaire. Ce n’est qu’un dessin ; nous n’avons pas besoin d’une vraie boisson chaude à côté.",
+      "hint": "Laisse un trait léger onduler doucement au-dessus de la tasse.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "second-steam": {
+      "title": "Un autre trait de vapeur",
+      "instruction": "Essaie une autre courbe libre au-dessus de la tasse, ou passe cette étape.",
+      "spoken": "Tu peux ajouter une courbe libre au-dessus de la tasse. Si tu as dessiné un autre trait de vapeur, laisse un peu d’espace entre les deux.",
+      "hint": "Place tes courbes au-dessus de la tasse, avec de l’espace autour de chacune.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "biscuit": {
+      "title": "Un biscuit",
+      "instruction": "Place un petit biscuit ovale à côté de la soucoupe, si tu veux.",
+      "spoken": "Un petit ovale incliné peut devenir notre biscuit en papier. Je le garde plus petit que la soucoupe pour que la tasse reste la forme principale.",
+      "hint": "Place un petit ovale bas à côté de la grande soucoupe.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "biscuit-dot": {
+      "title": "Un point sur le biscuit",
+      "instruction": "Ajoute un tout petit point ou une décoration sur le biscuit, si tu veux.",
+      "spoken": "Un petit point peut décorer le biscuit, si tu en as dessiné un.",
+      "hint": "Garde ce point facultatif à l’intérieur du biscuit.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "table-left": {
+      "title": "La table à gauche",
+      "instruction": "Dessine un petit trait de table à gauche.",
+      "spoken": "Un petit trait facultatif à gauche suggère une table sous notre scène de café.",
+      "hint": "Arrête ce trait de table avant qu’il n’atteigne la soucoupe.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "table-right": {
+      "title": "La table à droite",
+      "instruction": "Ajoute un autre trait de table à droite, après la soucoupe.",
+      "spoken": "Tu peux ajouter un autre trait de table à droite, ou laisser le papier blanc en arrière-plan.",
+      "hint": "Laisse la soucoupe devant le trait de table.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    },
+    "colour-choice": {
+      "title": "Choisis les couleurs de ton café.",
+      "instruction": "Choisis une couleur pour la tasse et, si tu veux, une couleur pour la décoration.",
+      "spoken": "Je vais utiliser un bleu-vert doux pour la tasse et un jaune chaud pour sa bande. Notre café imaginaire peut avoir toutes les couleurs qui te plaisent.",
+      "hint": "Choisis une couleur pour la tasse et une couleur différente pour la petite décoration.",
+      "notice": "Utilise les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-cup": {
+      "title": "Des mouvements arrondis.",
+      "instruction": "Ajoute de petites touches de couleur sur le corps arrondi de la tasse.",
+      "spoken": "Je fais de petites touches autour de la tasse, en levant le crayon entre chacune. Un peu de papier clair peut évoquer une céramique brillante sans dessiner tous les reflets.",
+      "hint": "Laisse un peu de papier blanc entre les touches de couleur.",
+      "notice": "Utilise les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-band-handle": {
+      "title": "Une bande et une anse.",
+      "instruction": "Fais de petits mouvements pour l’anse ; colorie une bande si tu en as ajouté une.",
+      "spoken": "Si tu as ajouté une bande, de petits mouvements de couleur chaude peuvent la suivre. Je fais des mouvements plus courts pour l’anse et je laisse son milieu ouvert en blanc.",
+      "hint": "Laisse le milieu vide de l’anse en papier non colorié.",
+      "notice": "Utilise les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-saucer": {
+      "title": "Une soucoupe en dessous.",
+      "instruction": "Suis la courbe basse de la soucoupe avec des touches bleues.",
+      "spoken": "Ces petites touches bleues suivent la courbe basse de la soucoupe. Je laisse la base de la tasse dégagée pour bien distinguer les deux formes.",
+      "hint": "Suis la direction large et basse de la soucoupe avec de petits mouvements.",
+      "notice": "Utilise les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-table-layer": {
+      "title": "Un biscuit aux couleurs chaudes, un peu d’ombre.",
+      "instruction": "Si tu veux, colorie le biscuit et fonce un bord de la tasse.",
+      "spoken": "Si tu as dessiné un biscuit, tu peux lui donner une couleur chaude. Je vais aussi foncer légèrement un bord de la tasse ; cette couche en plus est facultative.",
+      "hint": "Un petit bord plus foncé peut se placer à côté d’une zone plus claire de la tasse.",
+      "notice": "Utilise les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-reflect": {
+      "title": "Des formes arrondies sur le papier.",
+      "instruction": "Observe comment le bord ovale et les côtés courbés suggèrent une tasse arrondie.",
+      "spoken": "Regarde le bord aplati et les côtés courbés de la tasse. Ces formes simples donnent l’impression d’une tasse arrondie sur le papier plat ; une bande courbée peut renforcer cette idée.",
+      "hint": "Trace la forme du bord dans l’air, puis observe les côtés courbés.",
+      "notice": "Utilise les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "explore": {
+      "title": "Ton café en papier.",
+      "instruction": "Continue à colorier ou crée une autre tasse pour ton café en papier.",
+      "spoken": "Tu peux créer une autre tasse, changer la décoration ou ajouter un goûter en papier. Continue à ton rythme, ou ferme notre petit café ici.",
+      "hint": "Essaie une autre bande, une décoration en fleur ou une autre soucoupe.",
+      "notice": "Si votre enfant le demande, montrez l’espace vide de l’anse plutôt que de demander une boucle parfaite. Comparez le vrai bord de la tasse avec un cercle dessiné sur une autre feuille. Évitez de déplacer l’objet observé tant que votre enfant souhaite le regarder."
+    }
+  },
+  "sourceLessonSha256": "03ba732b093c60f8894f92993efd4284ea0f75ea01a547a57f784d0d337f5083"
+}

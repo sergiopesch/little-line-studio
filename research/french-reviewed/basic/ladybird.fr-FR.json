@@ -1,0 +1,188 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "ladybird",
+  "sourceTextSha256": "fbb0b5b0ca9c15f5eaf42c4863af38d4538b4603f074548cc8837a5b35af970b",
+  "title": "Une coccinelle",
+  "invitation": "De petits points et des pattes autour d’un ovale.",
+  "objective": "Diviser une forme fermée et y attacher de petits traits tout autour.",
+  "parentNote": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande.",
+  "simplify": "",
+  "transfer": "Une grande forme pour le corps avec des éléments autour pourrait-elle t’aider à inventer un scarabée ?",
+  "colouringLabel": "Des ailes rouges et de petites zones foncées",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons la coccinelle.",
+      "instruction": "Regarde le corps ovale, la petite tête et la ligne au milieu.",
+      "spoken": "Dessinons une coccinelle près d’un chemin de jardin imaginaire. Son grand ovale a une petite tête au-dessus et une ligne au milieu.",
+      "hint": "Compare la petite tête avec le corps ovale plus grand.",
+      "notice": "Regardez une image de coccinelle. Remarquez la ligne entre les deux élytres."
+    },
+    "ladybird-body": {
+      "title": "Le corps",
+      "instruction": "Dessine un ovale haut en laissant de la place sur les côtés.",
+      "spoken": "Un ovale haut commence notre coccinelle. Laisse de l’espace autour pour une tête et de petites pattes.",
+      "hint": "Trace une courbe autour de tout l’ovale et reviens au départ.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "ladybird-head": {
+      "title": "La tête",
+      "instruction": "Arrondis une petite tête au-dessus du haut de l’ovale.",
+      "spoken": "Une petite arche rejoint l’ovale près du haut. Je fais cette tête plus étroite que le corps.",
+      "hint": "Fais rejoindre les deux extrémités de la tête au corps.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "wing-division": {
+      "title": "La séparation des ailes",
+      "instruction": "Trace une ligne au milieu de l’ovale, de haut en bas.",
+      "spoken": "Une ligne va du haut de l’ovale jusqu’en bas et montre deux élytres côte à côte.",
+      "hint": "Regarde l’espace des deux côtés de ta ligne.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "left-feeler": {
+      "title": "Une antenne",
+      "instruction": "Essaie une petite antenne au-dessus de la tête, si tu veux.",
+      "spoken": "Une petite antenne courbée peut monter au-dessus de la tête. Ce détail est ton choix.",
+      "hint": "Commence sur la tête et trace une courbe vers l’espace vide.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "right-feeler": {
+      "title": "Une autre antenne",
+      "instruction": "Essaie une autre antenne de l’autre côté ou passe cette étape.",
+      "spoken": "Une autre antenne peut se courber dans l’autre sens. Les deux courbes peuvent être différentes.",
+      "hint": "Garde les deux antennes plus petites que le corps ovale.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "left-upper-spot": {
+      "title": "Un premier point",
+      "instruction": "Place un point rond à l’intérieur d’un côté, si tu veux.",
+      "spoken": "Un petit point rond se place dans un élytre, loin de son bord.",
+      "hint": "Choisis une place dans l’ovale pour ton point.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "right-spot": {
+      "title": "Un point de l’autre côté",
+      "instruction": "Essaie un point de l’autre côté, si tu veux.",
+      "spoken": "Si tu veux, un deuxième point peut se placer sur l’autre élytre. Tu choisis sa place.",
+      "hint": "Laisse de l’espace autour de chaque point que tu décides de dessiner.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "left-lower-spot": {
+      "title": "Un point plus bas",
+      "instruction": "Essaie un point plus bas ou garde ton espace libre.",
+      "spoken": "Un autre point peut se placer plus bas. Le motif de ta coccinelle peut avoir moins de points.",
+      "hint": "Le motif n’a pas besoin de ressembler à mon exemple.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "left-upper-leg": {
+      "title": "Une première patte",
+      "instruction": "Essaie une petite patte pliée sur le côté, si tu veux.",
+      "spoken": "Un petit trait part vers l’extérieur, puis se plie. Il peut commencer les petites pattes de notre coccinelle.",
+      "hint": "Commence près du bord du corps et garde la patte courte.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "left-middle-leg": {
+      "title": "Une patte au milieu",
+      "instruction": "Ajoute une patte au milieu de ce côté ou passe cette étape.",
+      "spoken": "Un autre petit trait plié part du milieu de ce côté.",
+      "hint": "Place cette petite patte à côté du milieu du corps.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "left-lower-leg": {
+      "title": "Une patte plus bas",
+      "instruction": "Essaie une patte en bas qui part vers l’extérieur, si tu veux.",
+      "spoken": "Une patte plus basse part vers l’extérieur et se plie vers le bas.",
+      "hint": "Chaque petite patte peut se plier à sa façon.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "right-upper-leg": {
+      "title": "Une patte de l’autre côté",
+      "instruction": "Essaie une patte de l’autre côté ou passe cette étape.",
+      "spoken": "De l’autre côté, un petit trait plié part vers l’extérieur.",
+      "hint": "Cherche un espace vide à côté de l’ovale.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "right-middle-leg": {
+      "title": "Une autre petite patte",
+      "instruction": "Essaie une autre petite patte à côté du milieu, si tu veux.",
+      "spoken": "Une autre petite patte peut se plier à côté du milieu, si tu veux.",
+      "hint": "Soulève ton crayon avant de passer à ce nouvel endroit.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "right-lower-leg": {
+      "title": "Une dernière patte",
+      "instruction": "Choisis une dernière patte en bas ou termine ton contour.",
+      "spoken": "Une patte en bas peut terminer mon exemple. Ton dessin peut avoir moins de détails.",
+      "hint": "Garde un peu d’espace de papier autour des pattes.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis du rouge et un crayon foncé, ou tes propres couleurs.",
+      "spoken": "Je choisis des élytres rouges et des détails gris foncé tout doux. Tu peux choisir les couleurs de ta visiteuse du jardin.",
+      "hint": "Garde le crayon plus foncé pour les petites parties.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-left-wing": {
+      "title": "Le premier côté",
+      "instruction": "Colorie un côté en rouge avec de petits traits, en soulevant ton crayon.",
+      "spoken": "Je colorie un côté par petites zones rouges en laissant de l’espace près des points. La ligne du milieu m’aide à voir où m’arrêter.",
+      "hint": "De petits traits aident près d’un point ou de la ligne de séparation.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-right-wing": {
+      "title": "L’autre côté",
+      "instruction": "Fais de petites zones rouges dans l’autre élytre.",
+      "spoken": "Maintenant, l’autre côté reçoit ses zones rouges. Je soulève mon crayon entre les endroits et je garde de petits espaces blancs plutôt que de me dépêcher de tout couvrir.",
+      "hint": "Des espaces blancs peuvent rester entre tes traits de crayon doux.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-ladybird-head": {
+      "title": "La petite tête",
+      "instruction": "Fais de tout petits traits foncés dans la petite tête.",
+      "spoken": "La tête est un petit espace, alors je fais de tout petits mouvements foncés. Les fines antennes et les pattes restent des traits de crayon.",
+      "hint": "Raccourcis le mouvement quand l’espace devient plus étroit.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-ladybird-spots": {
+      "title": "Les points",
+      "instruction": "Colorie tes points si tu as choisi d’en ajouter.",
+      "spoken": "Si tu as dessiné des points, de petites zones foncées tiennent à l’intérieur. Tu peux laisser certains points blancs ou passer cette couleur.",
+      "hint": "Utilise les formes de tes propres points comme espaces à colorier.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-reflection": {
+      "title": "Regarde ta coccinelle.",
+      "instruction": "Observe le grand ovale et ses tout petits détails.",
+      "spoken": "Regarde comment un grand ovale accueille les plus petits traits. Notre coccinelle peut se reposer ici, près de son chemin de jardin imaginaire.",
+      "hint": "Remarque un endroit où une petite marque change ton dessin.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "explore": {
+      "title": "Ton jardin à toi.",
+      "instruction": "Invente un chemin de jardin, continue à colorier ou termine ici.",
+      "spoken": "Ta visiteuse du jardin pourrait se reposer sur une feuille ou près d’un chemin que tu inventes. Continue à dessiner aussi longtemps que tu veux ou termine ici.",
+      "hint": "Une longue courbe douce pourrait devenir un chemin de jardin.",
+      "notice": "Le modèle peut montrer six pattes sans transformer le dessin de votre enfant en exercice de comptage. Des pattes omises ou des détails imaginaires ne sont pas des erreurs. Montrez une ligne de séparation simple sur votre propre feuille si votre enfant le demande."
+    }
+  },
+  "sourceLessonSha256": "29f1c16e76eeced2c2d731100e65384a5e4e1ef5079818558cb94884b34c2092"
+}

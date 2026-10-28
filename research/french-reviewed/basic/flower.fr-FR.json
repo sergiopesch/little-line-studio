@@ -1,0 +1,160 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "flower",
+  "sourceTextSha256": "98dae376cf0a5800ab95a38364c6db346665250225614898460ad0437fcf8aeb",
+  "title": "Une fleur du jardin",
+  "invitation": "Des pétales, des feuilles et une petite tige.",
+  "objective": "Disposer des éléments autour d’un centre et relier une tige à la fleur.",
+  "parentNote": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière.",
+  "simplify": "",
+  "transfer": "Des boucles autour d’un centre pourraient-elles aider à inventer une autre fleur ?",
+  "colouringLabel": "Des pétales colorés et un centre doré",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Observons la fleur.",
+      "instruction": "Regarde comment chaque pétale touche le petit centre rond.",
+      "spoken": "Commençons un jardin imaginaire avec une fleur. Un petit cercle réunit les pétales, avec une tige courbée en dessous.",
+      "hint": "Cherche le petit centre avant de suivre les pétales autour.",
+      "notice": "Regardez une image de fleur ensemble. Où ses pétales se rejoignent-ils ?"
+    },
+    "flower-centre": {
+      "title": "Le centre",
+      "instruction": "Dessine un petit cercle avec de l’espace autour.",
+      "spoken": "Un petit cercle commence notre fleur. Je laisse de la place autour pour que les pétales puissent y pousser.",
+      "hint": "Ramène ton trait courbé vers son point de départ.",
+      "notice": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière."
+    },
+    "upper-petal": {
+      "title": "Le pétale du haut",
+      "instruction": "Trace une courbe qui monte depuis le centre puis revient.",
+      "spoken": "Commence à côté du cercle. Monte en courbe, arrondis la pointe douce, puis reviens près de ton point de départ : voici un long pétale.",
+      "hint": "Les deux extrémités touchent des endroits différents du cercle.",
+      "notice": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière."
+    },
+    "left-petal": {
+      "title": "Le pétale de gauche",
+      "instruction": "Fais partir un autre pétale arrondi vers la gauche.",
+      "spoken": "Ce pétale part sur le côté. Va vers l’extérieur, arrondis son extrémité et reviens au cercle.",
+      "hint": "Fais le même mouvement d’aller-retour vers la gauche.",
+      "notice": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière."
+    },
+    "lower-petal": {
+      "title": "Le pétale du bas",
+      "instruction": "Arrondis un pétale sous le centre en laissant de la place en dessous.",
+      "spoken": "Notre prochain pétale descend en courbe et revient. Je laisse de la place dessous pour une tige.",
+      "hint": "Garde un peu d’espace entre ta fleur et le bas de la feuille.",
+      "notice": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière."
+    },
+    "right-petal": {
+      "title": "Le pétale de droite",
+      "instruction": "Ajoute un pétale qui part vers l’autre côté.",
+      "spoken": "Pars vers la droite et reviens. Des pétales de tailles différentes peuvent appartenir à la même fleur.",
+      "hint": "Cherche le bord droit du cercle avant de tracer ta courbe.",
+      "notice": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière."
+    },
+    "upper-right-petal": {
+      "title": "Un petit pétale en haut",
+      "instruction": "Essaie un pétale plus petit dans un espace, si tu veux.",
+      "spoken": "Un pétale plus petit peut se placer dans cet espace en haut. Tu peux aussi laisser l’espace ouvert.",
+      "hint": "Commence et termine au niveau du cercle, même dans un espace.",
+      "notice": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière."
+    },
+    "lower-left-petal": {
+      "title": "Un petit pétale en bas",
+      "instruction": "Choisis un autre espace pour un pétale supplémentaire, ou passe cette étape.",
+      "spoken": "Un autre pétale peut se courber dans l’espace du bas. Une fleur avec moins de pétales convient aussi.",
+      "hint": "Choisis les pétales que tu veux dans ton jardin sur papier.",
+      "notice": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière."
+    },
+    "flower-stem": {
+      "title": "La tige",
+      "instruction": "Dessine une tige légèrement courbée sous la fleur.",
+      "spoken": "Depuis le pétale du bas, laisse un trait descendre en courbe. Cette tige fine relie notre fleur à son jardin imaginaire.",
+      "hint": "Une tige droite ou courbée convient.",
+      "notice": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière."
+    },
+    "left-leaf": {
+      "title": "La feuille de gauche",
+      "instruction": "Trace une feuille en boucle depuis la tige, si tu veux.",
+      "spoken": "Une feuille part de la tige en courbe jusqu’à une pointe, puis revient au même endroit.",
+      "hint": "Fais toucher les deux extrémités de ta feuille à la tige.",
+      "notice": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière."
+    },
+    "right-leaf": {
+      "title": "La feuille de droite",
+      "instruction": "Essaie une feuille de l’autre côté ou laisse de l’espace.",
+      "spoken": "Une autre feuille peut pointer dans l’autre direction. Elle peut être plus haute, plus basse ou de taille différente.",
+      "hint": "Choisis un nouveau point de départ le long de ta tige.",
+      "notice": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière."
+    },
+    "colour-choice": {
+      "title": "Choisis tes couleurs.",
+      "instruction": "Choisis du rose, du jaune et du vert, ou tes propres couleurs.",
+      "spoken": "Je choisis des pétales roses, un centre jaune et des feuilles vertes. Ton jardin imaginaire peut avoir d’autres couleurs.",
+      "hint": "Place quelques crayons à proximité ; tu peux changer d’avis.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-first-petals": {
+      "title": "Les premiers pétales",
+      "instruction": "Colorie les pétales du haut et de gauche avec de petits traits.",
+      "spoken": "De petits traits roses créent des zones colorées dans deux pétales. Je soulève mon crayon et j’avance en ralentissant près des bords courbés.",
+      "hint": "Quelques petits traits sont plus faciles à arrêter qu’un long trait.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-other-petals": {
+      "title": "Les autres pétales",
+      "instruction": "Continue autour des pétales du bas et de droite.",
+      "spoken": "Les pétales suivants reçoivent les mêmes petites zones de couleur. Je laisse les pétales supplémentaires blancs pour un autre effet.",
+      "hint": "Des espaces blancs peuvent rester à côté des pétales colorés de ta fleur.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-centre": {
+      "title": "Le centre doré",
+      "instruction": "Fais de tout petits traits jaunes à l’intérieur du centre rond.",
+      "spoken": "De tout petits mouvements jaunes tiennent dans notre petit centre. Regarde comme je soulève mon crayon avant le bord, pour garder les couleurs des pétales séparées.",
+      "hint": "Essaie un mouvement plus court quand l’espace devient petit.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-leaves": {
+      "title": "Les feuilles",
+      "instruction": "Colorie les feuilles que tu as ajoutées avec de petits traits verts.",
+      "spoken": "Si tu as dessiné des feuilles, essaie du vert à l’intérieur. Dans mon exemple, la tige fine est déjà verte ; les feuilles peuvent rester blanches.",
+      "hint": "Tu peux passer cette couleur si tu n’as pas dessiné de feuilles.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "colour-reflection": {
+      "title": "Regarde ta fleur.",
+      "instruction": "Observe le centre, les pétales qui rayonnent et la tige courbée.",
+      "spoken": "Notre petit jardin a commencé par un cercle. Regarde comme les pétales partent autour de lui, chacun avec de la place pour sa couleur.",
+      "hint": "Regarde toute la fleur sans avoir besoin de la changer.",
+      "notice": "Proposez les crayons déjà disponibles. La maîtresse montre des traits à l’intérieur des contours ; les couleurs, espaces blancs et marques de votre enfant peuvent être différents. Plus de temps permet d’attendre sans limite."
+    },
+    "explore": {
+      "title": "Ton jardin à toi.",
+      "instruction": "Ajoute une autre fleur, continue à colorier ou termine ton jardin ici.",
+      "spoken": "Ton jardin peut accueillir une autre fleur, un chemin ou quelque chose que tu inventes. Continue à dessiner ou termine avec cette seule fleur.",
+      "hint": "Essaie une toute petite fleur à côté de celle-ci une autre fois.",
+      "notice": "Montrez du doigt, sur le modèle, comment les pétales rejoignent le centre. Dessinez une boucle à part si votre enfant le demande. N’insistez pas sur la symétrie, un nombre précis de pétales ou la ressemblance avec une espèce particulière."
+    }
+  },
+  "sourceLessonSha256": "384b0921cb8c504432199b09f0b1e3ceb23ed5b80df8c47f9bc92674bea7d4b9"
+}

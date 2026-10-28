@@ -1,0 +1,230 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "rabbit",
+  "sourceTextSha256": "bb375fb0005f69e38bc85775fb7f514eed7b73267a9af41e6f654a57b52afe4d",
+  "title": "Un lapin de profil",
+  "invitation": "Explore une vue de côté.",
+  "objective": "disposer une tête de profil, des oreilles orientées différemment et une grande patte arrière repliée.",
+  "parentNote": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille.",
+  "simplify": "Une oreille et deux pattes simples suffisent. Vous pouvez laisser de côté l’intérieur de l’oreille, la joue et les détails facultatifs ; un corps, une tête de profil, une longue oreille et une queue peuvent suffire à évoquer le lapin.",
+  "transfer": "Un autre jour, essayez de dessiner un lièvre tourné dans l’autre sens à partir d’une nouvelle image de référence. Choisissez les rapports entre les formes qui restent utiles et ceux qui doivent changer.",
+  "colouringLabel": "Petits mouvements de crayon, tes propres couleurs",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Regarde"
+    },
+    {
+      "id": "draw",
+      "label": "Dessine"
+    },
+    {
+      "id": "colour",
+      "label": "Colorie"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Une pause au jardin",
+      "instruction": "Observe les longues oreilles et la patte arrière arrondie et repliée.",
+      "spoken": "Dessinons un lapin qui fait une pause dans un jardin imaginaire. Ses longues oreilles et sa patte arrière arrondie nous aideront à montrer un lapin accroupi, vu de côté.",
+      "hint": "Compare les grandes oreilles avec le corps arrondi, tout près du sol.",
+      "notice": "Regarde un lapin de profil. Remarque qu’on voit généralement surtout un œil et que la patte arrière peut former une grande forme arrondie à côté du corps. Décide dans quel sens regarde ce lapin."
+    },
+    "rabbit-body": {
+      "title": "Le corps du lapin",
+      "instruction": "Trace les courbes du corps en levant ton crayon là où la tête et les pattes vont se rejoindre.",
+      "spoken": "Commence par les courbes du dos et du corps. Lève ton crayon là où la tête et les pattes vont se rejoindre ; ces formes à l’avant fermeront les petites ouvertures.",
+      "hint": "Suis le corps arrondi et lève ton crayon aux ouvertures pour les parties avant.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "sideways-head": {
+      "title": "La tête de profil",
+      "instruction": "Trace une tête plus petite et légèrement inclinée, en laissant une petite ouverture pour le museau.",
+      "spoken": "Trace la petite tête à droite, en laissant une ouverture à l’avant. Le museau arrondi rejoindra cet espace juste après.",
+      "hint": "Fais une tête plus petite que le corps et légèrement inclinée.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "rabbit-muzzle": {
+      "title": "Le museau du lapin",
+      "instruction": "Trace un petit museau arrondi vers la droite.",
+      "spoken": "Une petite courbe part de la tête pour former le museau. Ce petit changement dans le contour aide à suggérer le visage.",
+      "hint": "Laisse une petite courbe arrondie sortir de la tête.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "rabbit-nose": {
+      "title": "Le nez du lapin",
+      "instruction": "Place un petit nez au bout du museau.",
+      "spoken": "Un petit point à l’avant devient le nez de notre lapin.",
+      "hint": "Fais un petit point tout à droite du museau.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "rabbit-eye": {
+      "title": "L’œil du lapin",
+      "instruction": "Ajoute un petit œil à l’intérieur de la tête.",
+      "spoken": "Place un petit œil dans la tête, derrière le museau.",
+      "hint": "Garde l’œil petit et laisse du papier autour.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "long-near-ear": {
+      "title": "La longue oreille devant",
+      "instruction": "Trace une longue oreille vers le haut, arrondis son bout et redescends.",
+      "spoken": "Une longue oreille monte au-dessus de la tête, tourne autour d’un bout arrondi, puis redescend. Laisse de l’espace entre ses deux côtés.",
+      "hint": "Imagine une grande feuille étroite au bout arrondi.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "long-far-ear": {
+      "title": "La longue oreille derrière",
+      "instruction": "Ajoute une autre longue oreille, davantage inclinée vers la droite.",
+      "spoken": "La deuxième oreille penche un peu plus vers la droite. Cet angle différent nous aide à voir deux oreilles séparées plutôt qu’une seule forme épaisse.",
+      "hint": "Laisse un peu d’espace entre les deux longues oreilles.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "inner-near-ear": {
+      "title": "L’intérieur de l’oreille devant",
+      "instruction": "Dessine une petite forme courbe à l’intérieur de l’oreille devant.",
+      "spoken": "Une petite forme courbe dans cette oreille nous laisse de la place pour du rose pâle plus tard. Garde une petite bordure autour, à l’intérieur de la grande oreille.",
+      "hint": "Reprends la forme allongée de l’oreille en plus petit à l’intérieur.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "rabbit-cheek": {
+      "title": "La joue du lapin",
+      "instruction": "Trace une courte courbe pour la joue sous l’œil.",
+      "spoken": "Une courte courbe pour la joue tourne sous le visage. De petits détails courbes peuvent montrer un changement de forme sans beaucoup de traits.",
+      "hint": "Courbe vers le bas et vers l’arrière, sous l’œil.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "large-hind-leg": {
+      "title": "La grande patte arrière",
+      "instruction": "Place une grande patte arrière arrondie à l’intérieur du corps.",
+      "spoken": "Cette forme arrondie à l’arrière du corps suggère la patte arrière repliée. Regarde comme elle est plus grande qu’une patte avant.",
+      "hint": "Garde cette patte ronde dans la partie inférieure gauche du corps.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "long-hind-foot": {
+      "title": "Le long pied arrière",
+      "instruction": "Dessine un long pied plat sous la patte arrondie.",
+      "spoken": "Un long ovale plat sous cette patte ronde devient le pied arrière. Comparer les formes rondes et plates nous aide à montrer cette position au repos.",
+      "hint": "Fais le pied bien plus plat que la patte ronde.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "short-front-leg": {
+      "title": "La petite patte avant",
+      "instruction": "Descends une courte patte avant sous la poitrine.",
+      "spoken": "Dessine une courte patte avant sous la poitrine, en arrondissant le bas. Garde-la plus courte et plus étroite que la grande patte arrière.",
+      "hint": "Descends, arrondis un petit pied, puis remonte.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "front-paw": {
+      "title": "Le pied avant",
+      "instruction": "Ajoute un petit pied plat à côté de la patte avant.",
+      "spoken": "Un petit pied plat se trouve à côté de cette patte avant.",
+      "hint": "Un petit ovale aplati suffit pour ce pied avant.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "round-tail": {
+      "title": "La queue ronde",
+      "instruction": "Trace une petite queue arrondie à l’arrière.",
+      "spoken": "Trace une petite queue arrondie à l’arrière du corps. Nous pouvons la laisser blanche pour qu’elle se distingue de la fourrure.",
+      "hint": "Fais une petite courbe arrondie qui sort du côté gauche du corps.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "rabbit-mouth": {
+      "title": "La bouche du lapin",
+      "instruction": "Fais une petite courbe douce pour la bouche sous le nez.",
+      "spoken": "Tu peux ajouter une petite courbe douce pour la bouche sous le nez, ou choisir de ne pas la dessiner.",
+      "hint": "Garde la bouche près du petit museau.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "first-whisker": {
+      "title": "La première moustache",
+      "instruction": "Fais partir une fine moustache du museau.",
+      "spoken": "Si tu veux des moustaches, un trait léger peut partir du museau.",
+      "hint": "Un fin trait vers l’extérieur suffit pour cette moustache.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "second-whisker": {
+      "title": "La deuxième moustache",
+      "instruction": "Essaie une autre fine moustache partant du museau, ou passe cette étape.",
+      "spoken": "Essaie une fine moustache qui part du museau, si tu veux. Laisse de la place autour des autres moustaches que tu as choisies.",
+      "hint": "Commence près du museau et laisse de l’espace autour des autres traits.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "hind-foot-toe": {
+      "title": "Un doigt du pied arrière",
+      "instruction": "Fais une toute petite marque pour un doigt sur le long pied arrière.",
+      "spoken": "Un tout petit trait sur le pied arrière peut suggérer un doigt, si tu veux.",
+      "hint": "Fais cette marque bien plus courte que le pied.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "rabbit-ground": {
+      "title": "Le sol sous le lapin",
+      "instruction": "Trace une petite ligne courbe sous le lapin pour le sol.",
+      "spoken": "Tu peux dessiner une courbe libre sous le lapin pour représenter un peu du sol du jardin. Tu peux aussi choisir de laisser le fond vide.",
+      "hint": "Garde cette courbe sous les pattes et la queue.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "rabbit-leaf": {
+      "title": "Une feuille du jardin",
+      "instruction": "Si tu veux, place une feuille pointue du jardin à proximité.",
+      "spoken": "Une feuille à côté peut faire partie de notre histoire de jardin. Deux courbes se rejoignent en une pointe pour former cette petite feuille.",
+      "hint": "Trace une courbe jusqu’à une pointe, puis reviens avec une autre courbe.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    },
+    "colour-choice": {
+      "title": "Les couleurs douces du jardin",
+      "instruction": "Choisis une couleur douce pour la fourrure et du vert pour la feuille.",
+      "spoken": "Je vais utiliser du brun clair et chaud pour notre lapin de jardin, avec du rose pâle à l’intérieur d’une oreille. Ton lapin peut avoir des taches ou des couleurs différentes.",
+      "hint": "Choisis une couleur principale pour la fourrure et laisse un peu de papier blanc.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. Vous pouvez prolonger chaque étape sans limite de temps."
+    },
+    "colour-soft-fur": {
+      "title": "De petites touches de fourrure",
+      "instruction": "Dépose de douces touches de crayon sur le corps et la tête.",
+      "spoken": "Ces touches légères suivent le corps arrondi. Je lève mon crayon avant de passer à une nouvelle touche, et je laisse l’œil et les détails du visage bien visibles.",
+      "hint": "Appuie légèrement et fais de petits mouvements autour de chaque forme arrondie.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. Vous pouvez prolonger chaque étape sans limite de temps."
+    },
+    "colour-long-ears": {
+      "title": "De grands espaces étroits",
+      "instruction": "Fais des mouvements de crayon plus courts à l’intérieur des longues oreilles.",
+      "spoken": "Les oreilles sont étroites, alors mes mouvements deviennent plus courts. Je laisse un petit espace clair dans l’oreille de devant pour une autre couleur.",
+      "hint": "Raccourcis tes mouvements plutôt que de pousser contre un bord étroit.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. Vous pouvez prolonger chaque étape sans limite de temps."
+    },
+    "colour-feet": {
+      "title": "Patte ronde, pieds plats",
+      "instruction": "Suis la patte arrière ronde et les pieds plus plats.",
+      "spoken": "Je suis la patte arrière ronde, puis je tourne mes mouvements le long des pieds plats. La direction change avec chaque forme.",
+      "hint": "Pour les formes rondes et plates, tu peux changer la direction de tes mouvements.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. Vous pouvez prolonger chaque étape sans limite de temps."
+    },
+    "colour-garden-layer": {
+      "title": "Une oreille rose et une feuille du jardin",
+      "instruction": "Essaie le rose pâle, colorie la feuille si tu en as une, ou ajoute une ombre légère.",
+      "spoken": "Un peu de rose pâle peut colorier l’intérieur de l’oreille. Si tu as ajouté une feuille, essaie le vert dessus ; une deuxième couche de couleur pour la fourrure est facultative.",
+      "hint": "Fais de tout petits traits dans l’oreille ; colorie une feuille seulement si tu en as dessiné une.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. Vous pouvez prolonger chaque étape sans limite de temps."
+    },
+    "colour-reflect": {
+      "title": "Un lapin tranquille au jardin",
+      "instruction": "Observe les longues oreilles au-dessus du corps bas et accroupi.",
+      "spoken": "Regarde les grandes oreilles et le corps bas en dessous. Ces proportions différentes racontent notre histoire de lapin, même avec très peu de traits pour la fourrure.",
+      "hint": "Compare la forme la plus longue avec une petite patte courte.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. Vous pouvez prolonger chaque étape sans limite de temps."
+    },
+    "explore": {
+      "title": "Ton propre jardin",
+      "instruction": "Continue à colorier ou imagine un jardin autour de ton lapin.",
+      "spoken": "Ton lapin peut rester tel qu’il est, ou tu peux inventer un petit jardin. Continue quand tu veux, ou termine ton dessin ici.",
+      "hint": "Essaie une feuille ou une fleur que tu aimes à côté de ton lapin.",
+      "notice": "Invitez l’enfant à montrer la grande forme de la patte arrière sur l’image de référence. Si l’enfant le demande, comparez-la à la patte avant. Montrez le mouvement pour dessiner une oreille sur une feuille séparée ; l’enfant choisit la direction de son oreille."
+    }
+  },
+  "sourceLessonSha256": "7ed8a5d63e2c169c5864aee2b774a82941651f144973478cc9aac1a6b1fe5589"
+}

@@ -1,21 +1,23 @@
 import { Component, createElement } from "react";
+import { FRENCH_UI } from "./french-ui.fr-FR.js";
 
 export function DemonstrationFailure({ onRetry, locale = "en-GB" }) {
   const spanish = locale === "es-419";
+  const translate = (text) => locale === "fr-FR" ? (FRENCH_UI[text] ?? text) : text;
   return createElement(
     "div",
     { className: "demonstration-unavailable", role: "alert" },
-    createElement("p", null, spanish ? "La demostración de dibujo no está disponible." : "The drawing demonstration is unavailable."),
+    createElement("p", null, spanish ? "La demostración de dibujo no está disponible." : translate("The drawing demonstration is unavailable.")),
     createElement(
       "p",
       null,
-      spanish ? "Pueden continuar juntos con las instrucciones escritas. Su dibujo queda en el papel." : "You can keep using the written instructions together. Your drawing stays on paper.",
+      spanish ? "Pueden continuar juntos con las instrucciones escritas. Su dibujo queda en el papel." : translate("You can keep using the written instructions together. Your drawing stays on paper."),
     ),
     typeof onRetry === "function"
       ? createElement(
           "button",
           { type: "button", onClick: onRetry },
-          spanish ? "Intentar cargar la demostración de nuevo" : "Try loading the demonstration again",
+          spanish ? "Intentar cargar la demostración de nuevo" : translate("Try loading the demonstration again"),
         )
       : null,
   );

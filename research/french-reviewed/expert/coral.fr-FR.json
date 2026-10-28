@@ -1,0 +1,237 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "coral",
+  "sourceTextSha256": "ea1083b32ecc0acc69562bbbd45dfcd887ff48ad971716a49e074677ab2ecc1e",
+  "title": "Un paysage de corail sous l’eau",
+  "invitation": "Des formes ramifiées et des espaces sous l’eau.",
+  "objective": "Disposer des formes ramifiées et arrondies à différents endroits, avec des chevauchements facultatifs et de l’espace libre entre elles.",
+  "parentNote": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire.",
+  "simplify": "Gardez une branche, une forme arrondie et un poisson composé d’un ovale et d’une queue. Laissez de côté les contours partiels, les reliefs, les bulles et le coquillage. Il n’est pas nécessaire de remplir la feuille.",
+  "transfer": "Un autre jour, dessinez une mare au bord de la mer ou un petit jardin avec des formes ramifiées et arrondies. Inventez une nouvelle disposition et choisissez les espaces vides ou les chevauchements à garder, sans la démonstration sous-marine.",
+  "colouringLabel": "De petits mouvements de crayon, tes propres couleurs",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Un jardin de récif imaginaire",
+      "instruction": "Observe les branches, le corail arrondi et le petit poisson.",
+      "spoken": "Inventons un jardin de récif tranquille pour un petit poisson. Nous allons dessiner des branches et des formes arrondies, avec quelques plantes en partie cachées derrière un rocher.",
+      "hint": "Compare les branches fines avec la grande forme arrondie du corail.",
+      "notice": "Sur un modèle, observez un corail ramifié à côté d’un corail arrondi ou d’une éponge. Regardez les espaces entre les branches et les formes placées devant. Les coraux ont de nombreuses formes ; celles-ci sont deux possibilités."
+    },
+    "seabed": {
+      "title": "Le fond de la mer",
+      "instruction": "Trace une courbe libre en bas de la feuille.",
+      "spoken": "Une courbe libre forme le fond de notre récif imaginaire. Laisse de la place au-dessus pour des formes qui poussent et un petit poisson.",
+      "hint": "Laisse la courbe monter et descendre doucement en bas de la feuille.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "seabed-rock": {
+      "title": "Un rocher",
+      "instruction": "Ferme une forme de rocher basse et arrondie près du milieu.",
+      "spoken": "Un rocher arrondi se trouve près du milieu. Il cachera plus tard le bout de quelques plantes, pour montrer que certaines formes sont devant d’autres.",
+      "hint": "Relie des courbes douces et irrégulières pour fermer une forme de rocher basse.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "coral-main-branch": {
+      "title": "La grande branche du corail",
+      "instruction": "Fais monter une grande branche courbée à gauche.",
+      "spoken": "Commence à gauche par un long trait ramifié. Laisse-le monter en courbe et garde de la place de chaque côté pour les petites branches.",
+      "hint": "Pars près du fond de la mer et laisse monter le trait.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "coral-left-fork": {
+      "title": "Une branche à gauche",
+      "instruction": "Fais partir une petite branche courbe vers la gauche.",
+      "spoken": "Un trait plus petit part vers la gauche. Commence sur la grande branche pour que les traits restent reliés.",
+      "hint": "Pars du trait principal, puis courbe vers l’extérieur et vers le haut.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "coral-right-fork": {
+      "title": "Une branche à droite",
+      "instruction": "Ajoute une autre branche vers la droite.",
+      "spoken": "Une autre branche part vers la droite. Changer de direction crée une forme qui s’étale sans dessiner une nouvelle forme entière pour chaque branche.",
+      "hint": "Laisse cette branche aller dans une autre direction.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "coral-left-twig": {
+      "title": "Un petit rameau à gauche",
+      "instruction": "Ajoute un petit rameau sur la branche de gauche.",
+      "spoken": "Un petit rameau pousse à partir de cette branche de gauche.",
+      "hint": "Pars de la branche et fais un petit trait courbé.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "coral-right-twig": {
+      "title": "Un petit rameau à droite",
+      "instruction": "Fais partir un autre petit rameau de la branche de droite.",
+      "spoken": "Un petit rameau courbé termine l’autre branche.",
+      "hint": "Fais ce rameau plus petit que la branche à laquelle il est relié.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "rounded-coral": {
+      "title": "Le corail arrondi",
+      "instruction": "Dessine une grande forme de corail arrondie à droite.",
+      "spoken": "À côté des branches fines, dessinons une grande forme arrondie. Relie de grosses bosses pour fermer le contour et laisse de la place à l’intérieur pour de petits reliefs courbés.",
+      "hint": "Relie quelques bosses arrondies pour faire une grande forme.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "coral-first-ridge": {
+      "title": "Un premier relief",
+      "instruction": "Trace un relief courbé qui monte dans le corail arrondi.",
+      "spoken": "Une courbe à l’intérieur suggère le relief. Laisse-la suivre la forme extérieure au lieu de traverser le corail tout droit.",
+      "hint": "Garde la courbe à l’intérieur et suis la forme arrondie.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "coral-second-ridge": {
+      "title": "Un autre relief",
+      "instruction": "Ajoute une courbe de relief à côté en laissant de l’espace.",
+      "spoken": "Un deuxième relief reprend la même direction courbe. Quelques traits répétés peuvent suggérer une texture sans couvrir toute la forme.",
+      "hint": "Laisse un espace visible entre les deux courbes intérieures.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "hidden-seaweed": {
+      "title": "Une algue cachée",
+      "instruction": "Fais monter une plante ondulée de derrière le rocher.",
+      "spoken": "Cette plante ondulée commence au-dessus du rocher, là où on la voit. Le rocher cache son extrémité basse ; nous ne dessinons donc pas cette partie.",
+      "hint": "Monte en courbe depuis le haut du rocher, puis redescends à côté.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "second-seaweed": {
+      "title": "Une autre algue",
+      "instruction": "Ajoute une plante étroite et ondulée à côté du rocher.",
+      "spoken": "Une autre plante fine ondule dans une direction différente. Deux bords ondulés proches créent une forme de ruban plutôt qu’un seul trait.",
+      "hint": "Garde un espace étroit entre les deux bords ondulés de la plante.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "swimming-fish": {
+      "title": "Le poisson qui nage",
+      "instruction": "Place un poisson ovale et incliné au-dessus du récif.",
+      "spoken": "Un ovale incliné forme le corps de notre poisson au-dessus du récif. Laisse de la place à gauche pour la queue et à droite pour le visage.",
+      "hint": "Un ovale large peut pencher un peu, comme s’il nageait.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "fish-tail": {
+      "title": "La queue du poisson",
+      "instruction": "Fais une petite queue en éventail à gauche.",
+      "spoken": "La queue s’ouvre en éventail derrière le poisson. Fais de petits traits inclinés qui s’écartent du corps, puis reviennent vers lui.",
+      "hint": "Élargis la queue à son extrémité extérieure.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "fish-eye": {
+      "title": "L’œil du poisson",
+      "instruction": "Ajoute un petit œil près du bout droit.",
+      "spoken": "Un petit point sombre près du bout droit devient l’œil.",
+      "hint": "Garde l’œil à l’intérieur de l’ovale, avec du papier autour.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "fish-fin": {
+      "title": "La nageoire",
+      "instruction": "Ferme une petite nageoire courbée à l’intérieur du poisson.",
+      "spoken": "Si tu veux une nageoire, une petite forme courbée tient à l’intérieur du corps. Tu peux la colorier autrement ou garder un poisson plus simple.",
+      "hint": "Garde un petit triangle courbé à l’intérieur du grand ovale.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "first-bubble": {
+      "title": "Une première bulle",
+      "instruction": "Si tu veux, ajoute une petite bulle ronde au-dessus du poisson.",
+      "spoken": "Une petite bulle peut rejoindre notre histoire sous l’eau.",
+      "hint": "Laisse un peu de papier autour de cette petite forme ronde.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "second-bubble": {
+      "title": "Une autre bulle",
+      "instruction": "Si tu veux, place une bulle un peu plus grande plus haut.",
+      "spoken": "Une autre bulle peut être un peu plus grande et plus haut.",
+      "hint": "Laisse de l’espace entre les deux bulles rondes.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "seabed-shell": {
+      "title": "Un coquillage",
+      "instruction": "Si tu veux, relie de petites bosses pour former un coquillage sur le fond.",
+      "spoken": "Un petit coquillage peut reposer au fond de la mer. Relie quelques bosses arrondies en haut, puis ferme le bord inférieur.",
+      "hint": "De petites bosses reliées peuvent former le contour d’un coquillage.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "fish-stripe": {
+      "title": "Une rayure sur le poisson",
+      "instruction": "Suis le corps arrondi du poisson avec une rayure courbée.",
+      "spoken": "Si tu veux, une rayure courbée peut suivre le corps arrondi du poisson. Elle lui donne un motif, mais tu peux aussi le laisser sans rayure.",
+      "hint": "Laisse la rayure se courber doucement plutôt que de la tracer toute droite.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    },
+    "colour-choice": {
+      "title": "Les couleurs du récif",
+      "instruction": "Choisis du rose corail, du vert pour les plantes et du doré pour le poisson.",
+      "spoken": "Je choisis un rose corail doux, des plantes vertes et un poisson doré pour notre récif imaginaire. Ton récif peut avoir ses propres couleurs tranquilles.",
+      "hint": "Choisis des couleurs différentes pour le corail arrondi et le poisson.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-rounded-coral": {
+      "title": "Le corail arrondi",
+      "instruction": "Suis la forme arrondie du corail avec de petits mouvements roses.",
+      "spoken": "Ces petites zones roses suivent la grande forme arrondie. Je laisse les reliefs courbés visibles ; le corail ramifié peut rester fait de simples traits.",
+      "hint": "Fais de petites zones courbes autour de la forme arrondie du corail.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-seaweed": {
+      "title": "Les plantes ondulées",
+      "instruction": "Fais de petits mouvements verts dans les algues étroites.",
+      "spoken": "Les algues sont étroites, alors je fais de tout petits mouvements verts. Je lève mon crayon avant de suivre chaque tournant et je m’arrête au rocher qui cache leur base.",
+      "hint": "De tout petits mouvements tiennent mieux que de longs traits dans une courbe étroite.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-reef-fish": {
+      "title": "Un poisson doré",
+      "instruction": "Colorie légèrement le poisson en doré et sa petite queue d’une couleur chaude.",
+      "spoken": "De petites zones dorées suivent le corps ovale du poisson. Je garde l’œil et la nageoire visibles, puis j’ajoute un peu d’orange chaud à la queue.",
+      "hint": "Garde les petits détails du visage et de la nageoire visibles.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-shell-fin": {
+      "title": "De petits détails du récif",
+      "instruction": "Colorie le coquillage, la petite nageoire et la rayure courbée du poisson.",
+      "spoken": "Si tu as dessiné un coquillage, une nageoire ou une rayure, tu peux colorier ces détails. Je vais utiliser du rose et de l’orange avec des mouvements plus courts et plus doux.",
+      "hint": "Rends ton mouvement plus petit quand l’espace se rétrécit.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-reef-layer": {
+      "title": "Un rocher et une couche légère",
+      "instruction": "Si tu veux, colorie le rocher et fonce une petite zone de corail.",
+      "spoken": "Un rocher gris aide à distinguer les plantes vertes. Une petite zone de corail plus foncée est une couche supplémentaire facultative, pas un espace qu’il faut remplir.",
+      "hint": "Une petite deuxième couche peut modifier une partie de la couleur.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "colour-reflect": {
+      "title": "Des formes et des textures différentes",
+      "instruction": "Compare les branches fines et les reliefs du corail arrondi.",
+      "spoken": "Regarde les fins traits ramifiés à côté du grand corail arrondi. Quelques types de marques différents peuvent suggérer plusieurs textures dans le même dessin.",
+      "hint": "Choisis un trait ramifié et un trait arrondi à observer.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les autres couleurs sont les bienvenus. « Plus de temps » permet de rester à chaque étape sans limite de temps."
+    },
+    "explore": {
+      "title": "Ton histoire sous l’eau",
+      "instruction": "Continue à colorier ou invente une autre petite créature du récif.",
+      "spoken": "Ton petit poisson peut explorer une autre plante, un coquillage ou une créature que tu inventes. Continue ton récif ou termine ton dessin sous l’eau ici.",
+      "hint": "Essaie une autre petite forme en laissant de l’espace autour du poisson.",
+      "notice": "À sa demande, montrez à votre enfant les espaces entre les branches du corail et aidez-le à choisir une taille confortable. Montrez une seule bifurcation sur une feuille à part. Le corail prend de nombreuses formes : aucune forme unique n’est obligatoire."
+    }
+  },
+  "sourceLessonSha256": "e5f6b1eb00a18a59e32ce2da56e64995d76873a73f936edb27b999eeb19e4446"
+}

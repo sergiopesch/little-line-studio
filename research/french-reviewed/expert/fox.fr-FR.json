@@ -1,0 +1,230 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "fox",
+  "sourceTextSha256": "602fea51bdf3b8de370a2d1771be617538df5939067bdb88e383a6972af6a652",
+  "title": "Le renard endormi",
+  "invitation": "Des courbes qui s’enroulent les unes autour des autres.",
+  "objective": "utiliser une grande courbe enveloppante et de petites formes repliées pour suggérer une posture enroulée.",
+  "parentNote": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles.",
+  "simplify": "dessinez le renard avec un ovale pour le corps, une tête, une oreille, un œil fermé et une grande forme pour la queue. Les traits de construction qui se chevauchent peuvent rester visibles ; il n’est pas nécessaire de les effacer.",
+  "transfer": "un autre jour, essayez de dessiner un chat ou un chien enroulé. Cherchez la grande courbe extérieure et choisissez les pattes à cacher, en utilisant un nouveau modèle si cela vous aide.",
+  "colouringLabel": "De petits mouvements de crayon, tes propres couleurs",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Regarde"
+    },
+    {
+      "id": "draw",
+      "label": "Dessine"
+    },
+    {
+      "id": "colour",
+      "label": "Colorie"
+    },
+    {
+      "id": "explore",
+      "label": "Tes propres idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Un repos en forêt",
+      "instruction": "Observe le dos arrondi et la queue qui s’enroule autour.",
+      "spoken": "Dessinons un renard bien installé, tout enroulé. Son dos arrondi et sa grande queue courbe vont nous aider à montrer qu’il se repose.",
+      "hint": "Suis les grandes courbes extérieures avant de regarder les petits détails.",
+      "notice": "Regardez une photographie ou un dessin de renard enroulé. Observez comment la queue peut passer devant le corps et comme on voit peu les pattes. Cette leçon utilise une vue de profil stylisée ; ce n’est pas un test d’anatomie."
+    },
+    "curled-body": {
+      "title": "Le corps enroulé",
+      "instruction": "Trace les parties arrondies du corps en levant le crayon pour laisser place à la tête et à la queue.",
+      "spoken": "Commence par le dos arrondi. Lève ton crayon aux endroits où la tête et la queue vont rejoindre le corps. Nous ajouterons ensuite ces formes devant, sans tracer à travers elles.",
+      "hint": "Suis le dos arrondi en levant le crayon là où les formes de devant vont le rejoindre.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "resting-head": {
+      "title": "La tête au repos",
+      "instruction": "Trace une tête plus petite et inclinée, en laissant de la place pour le museau pointu.",
+      "spoken": "Trace une tête plus petite près du côté droit, en laissant une petite ouverture pour le museau. Notre renard prend une pose doucement inclinée.",
+      "hint": "Garde la tête bien plus petite que l’ovale du corps.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "pointed-muzzle": {
+      "title": "Le museau pointu",
+      "instruction": "Trace un museau étroit qui s’avance vers la gauche.",
+      "spoken": "Deux courbes douces se rejoignent vers une petite pointe pour former le museau. Cette forme plus étroite distingue le visage du corps arrondi.",
+      "hint": "Trace une courbe vers la gauche, puis reviens par dessous.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "fox-nose": {
+      "title": "Le nez du renard",
+      "instruction": "Ajoute un petit nez foncé au bout du museau.",
+      "spoken": "Un petit nez foncé vient se placer au bout pointu du museau.",
+      "hint": "Place un petit point tout au bout à gauche.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "near-ear": {
+      "title": "L’oreille au premier plan",
+      "instruction": "Dessine une oreille pointue qui monte au-dessus de la tête.",
+      "spoken": "Fais monter une oreille pointue au-dessus de la tête. Va jusqu’à la pointe, puis redescends en biais. Les deux côtés n’ont pas besoin d’être identiques.",
+      "hint": "Monte jusqu’à une pointe, puis redescends.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "far-ear": {
+      "title": "L’autre oreille",
+      "instruction": "Ajoute une deuxième oreille pointue un peu plus à droite.",
+      "spoken": "Ajoute l’autre oreille tout près. En changeant légèrement son angle, la tête semble doucement tournée.",
+      "hint": "Une deuxième pointe étroite se trouve un peu plus à droite.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "sleepy-eye": {
+      "title": "L’œil endormi",
+      "instruction": "Trace une petite courbe vers le bas pour un œil fermé.",
+      "spoken": "Une petite courbe vers le bas donne à notre renard une expression endormie. Une simple ligne suffit à raconter cette histoire.",
+      "hint": "Dessine une petite courbe vers le bas à l’intérieur de la tête.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "cheek-curve": {
+      "title": "La courbe de la joue",
+      "instruction": "Trace la courbe de la joue vers le bas, en direction du museau.",
+      "spoken": "Trace la joue vers le bas, en direction du museau. Elle sépare une partie claire du visage de la fourrure plus chaude que nous colorierons plus tard.",
+      "hint": "Fais tourner une courte courbe de la joue vers le nez.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "tucked-paw": {
+      "title": "La patte repliée",
+      "instruction": "Place un petit ovale aplati sous la tête.",
+      "spoken": "Un petit ovale aplati sous la tête devient une patte repliée. Sa forme basse va bien avec notre pose tranquille et enroulée.",
+      "hint": "Fais cet ovale plus plat et plus petit que la tête.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "tail-outer-curve": {
+      "title": "Le contour extérieur de la queue",
+      "instruction": "Trace une longue courbe autour du bas du corps.",
+      "spoken": "Maintenant, trace le contour extérieur de la queue autour du bas du corps. Utilise un mouvement de bras confortable pour cette longue courbe.",
+      "hint": "Laisse la longue courbe passer autour du bas du renard.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "tail-return-curve": {
+      "title": "Le retour de la queue",
+      "instruction": "Reviens avec une courbe plus douce pour donner de la largeur à la queue.",
+      "spoken": "Reviens vers le début de la queue avec une autre courbe. L’espace entre les deux courbes forme une queue large et douce.",
+      "hint": "Garde un peu d’espace entre la courbe de retour et le contour extérieur.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "pale-tail-tip": {
+      "title": "Le bout clair de la queue",
+      "instruction": "Marque un petit bout clair près de l’extrémité de la queue.",
+      "spoken": "Cette petite courbe délimite le bout clair de la queue. Nous pouvons y laisser le papier blanc au lieu de tout colorier.",
+      "hint": "Une petite courbe sépare l’extrémité de la queue.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "tucked-hind-leg": {
+      "title": "La patte arrière repliée",
+      "instruction": "Suggère la patte arrière repliée avec une courbe arrondie.",
+      "spoken": "Une courbe arrondie suggère une patte arrière repliée. Nous pouvons montrer ce pli sans dessiner une patte entière qui dépasse.",
+      "hint": "Dessine une partie de forme arrondie à l’intérieur du corps.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "paw-toe": {
+      "title": "Un doigt de la patte",
+      "instruction": "Ajoute un petit trait pour un doigt sur la patte repliée.",
+      "spoken": "Tu peux ajouter un tout petit trait pour un doigt, ou laisser la patte toute simple.",
+      "hint": "Garde ce petit trait court et léger.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "inner-ear": {
+      "title": "L’intérieur de l’oreille",
+      "instruction": "Place une plus petite pointe à l’intérieur de l’oreille au premier plan.",
+      "spoken": "Tu peux placer une plus petite pointe à l’intérieur de l’oreille au premier plan. Laisse une bordure autour, ou garde une oreille toute simple.",
+      "hint": "Répète une forme pointue plus petite à l’intérieur de la première oreille.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "cheek-fur": {
+      "title": "Les poils de la joue",
+      "instruction": "Fais un tout petit trait vers l’extérieur pour suggérer les poils de la joue.",
+      "spoken": "Si tu veux, un tout petit trait vers l’extérieur peut suggérer les poils de la joue.",
+      "hint": "Un court trait vers l’extérieur suffit pour ce détail.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "resting-ground": {
+      "title": "Le sol sous le renard",
+      "instruction": "Trace une courbe souple sous le renard pour représenter le sol.",
+      "spoken": "Tu peux tracer une courbe souple sous le renard pour lui faire un endroit où se reposer. Dessiner toute une forêt reste un choix.",
+      "hint": "Garde cette courbe du sol sous la queue et les pattes.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "fallen-leaf": {
+      "title": "Une feuille tombée",
+      "instruction": "Si tu veux, ajoute tout près une petite feuille tombée et pointue.",
+      "spoken": "Une feuille tombée peut rejoindre notre histoire de forêt. Trace une courbe jusqu’à une pointe, puis reviens avec une deuxième courbe douce.",
+      "hint": "Deux courbes se rejoignent en pointe pour former une feuille.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "small-stone": {
+      "title": "Un petit caillou",
+      "instruction": "Si tu veux, place un petit caillou plat sur le sol.",
+      "spoken": "Tu peux ajouter un petit caillou plat tout près. Garde-le plus petit que la patte du renard pour qu’il reste un petit détail à l’arrière-plan.",
+      "hint": "Un ovale aplati forme un petit caillou sur le sol.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "tail-fur": {
+      "title": "Les poils de la queue",
+      "instruction": "Suis la courbe de la queue avec une petite courbe pour la fourrure.",
+      "spoken": "Tu peux ajouter une dernière courbe qui suit le mouvement de la queue pour suggérer ses poils. Cette direction donne une impression de douceur, ou tu peux garder une queue toute simple.",
+      "hint": "Trace une courbe légère dans la direction de la queue.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    },
+    "colour-choice": {
+      "title": "Les couleurs de la forêt",
+      "instruction": "Choisis un orange chaud, un marron et une couleur de feuille.",
+      "spoken": "Je choisis un orange chaud pour notre renard et je laisse le museau et le bout de la queue clairs. Tu peux aussi choisir d’autres couleurs pour ton renard.",
+      "hint": "Choisis une couleur principale pour la fourrure et laisse un espace clair.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "colour-curled-body": {
+      "title": "Une forme enroulée et chaleureuse",
+      "instruction": "Ajoute de l’orange par petites touches courbes sur le corps.",
+      "spoken": "Je colorie une petite zone, je lève mon crayon et je recommence tout près. Ces mouvements légers suivent le corps arrondi tout en laissant son contour bien visible.",
+      "hint": "Utilise de petites touches plutôt qu’un seul grand mouvement sur tout le corps.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "colour-face-ears": {
+      "title": "Les petits espaces du visage",
+      "instruction": "Fais des mouvements plus courts autour du visage et des oreilles pointues.",
+      "spoken": "Je raccourcis mes mouvements autour de la tête et des oreilles. Les petits détails du visage restent visibles et le museau peut garder la couleur claire du papier.",
+      "hint": "Dans les petits espaces, utilise de petits mouvements et une touche légère.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "colour-sweeping-tail": {
+      "title": "Suis la courbe de la queue",
+      "instruction": "Fais tourner les mouvements du crayon avec la large queue.",
+      "spoken": "Ces touches orange suivent la queue qui s’enroule. Je laisse son bout clair pour qu’il se distingue de la fourrure plus chaude.",
+      "hint": "Suis la courbe, lève ton crayon et laisse le bout de la queue clair.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "colour-woodland-layer": {
+      "title": "Une douce couche de forêt",
+      "instruction": "Essaie une légère couche sur la fourrure et colorie la feuille si tu en as ajouté une.",
+      "spoken": "Une douce couche marron fonce un peu la fourrure. Si tu as dessiné une feuille, ajoute-lui aussi une couleur chaude, ou garde des couleurs plus simples.",
+      "hint": "Ajoute une couche légère à la fourrure et colorie une feuille seulement si tu en as dessiné une.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "colour-reflect": {
+      "title": "Notre renard au repos",
+      "instruction": "Observe comment la queue aide à montrer que le renard est enroulé.",
+      "spoken": "Regarde les grandes courbes autour de notre renard. Elles racontent son repos ; les tout petits détails de fourrure sont un choix.",
+      "hint": "Regarde toute la forme enroulée avant d’ajouter d’autres détails.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "explore": {
+      "title": "Ta propre forêt",
+      "instruction": "Continue à colorier ou invente un endroit où ton renard peut se reposer.",
+      "spoken": "Ton renard pourrait se reposer près d’autres feuilles, d’un arbre ou au milieu de beaucoup d’espace blanc. Continue, ou termine ton dessin de forêt ici.",
+      "hint": "Choisis une petite idée de forêt, ou profite simplement de ton renard.",
+      "notice": "Avec un doigt au-dessus du modèle, suivez le chemin de la queue sans toucher au travail de l’enfant. Si l’enfant vous le demande, montrez une boucle simple sur une autre feuille. Demandez-lui quelles parties il souhaite laisser visibles."
+    }
+  },
+  "sourceLessonSha256": "08c0689c27e04857bd2048828a547bd3d461dd35fe9b9037592d6d5d18cd325c"
+}

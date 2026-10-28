@@ -1,0 +1,237 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "house",
+  "sourceTextSha256": "ae7c3ec846618470eb6c306756df55637d0cbc7850edc5a0a0b520a0180c8165",
+  "title": "Une maison et son jardin",
+  "invitation": "Crée une maison avec un jardin qui pousse.",
+  "objective": "Relier des formes simples pour construire une maison et placer un chemin et une plante par rapport à celle-ci.",
+  "parentNote": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle.",
+  "simplify": "",
+  "transfer": "Un autre jour, inventez une petite boutique ou un abri. Invitez votre enfant à réutiliser des murs, une ouverture et un toit en choisissant une autre disposition.",
+  "colouringLabel": "De petits traits et des couleurs choisies",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Une visite pour notre maison.",
+      "instruction": "Observe le toit pointu au-dessus des murs larges.",
+      "spoken": "Une visite imaginaire arrive à notre maison en papier. Regarde les murs larges, le toit pointu et les petites ouvertures dans les murs.",
+      "hint": "Regarde comment le toit repose sur les coins des murs.",
+      "notice": "Regardez ensemble cette maison imaginaire. Où commence le chemin ?"
+    },
+    "house-walls": {
+      "title": "Les murs de la maison",
+      "instruction": "Relie quatre côtés pour faire les murs.",
+      "spoken": "Un grand rectangle forme nos murs. Je laisse de la place au-dessus pour le toit et en dessous pour le chemin vers la porte.",
+      "hint": "Commence par un grand rectangle en laissant de la place autour.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-left-roof": {
+      "title": "Le côté gauche du toit",
+      "instruction": "Monte en biais depuis un coin du mur jusqu’au sommet du toit.",
+      "spoken": "Un trait oblique monte du coin gauche du mur vers le milieu. Le sommet du toit se trouve au-dessus de la grande forme des murs.",
+      "hint": "Vise au-dessus du milieu de ton rectangle.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-right-roof": {
+      "title": "Le côté droit du toit",
+      "instruction": "Descends en biais jusqu’à l’autre coin du mur.",
+      "spoken": "Un deuxième trait oblique rejoint l’autre coin. Ensemble, les deux pentes et le haut du mur ferment notre toit triangulaire.",
+      "hint": "Relie le point le plus haut à l’autre coin supérieur du mur.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-door": {
+      "title": "La porte",
+      "instruction": "Place un petit rectangle haut à l’intérieur des murs.",
+      "spoken": "Un rectangle étroit rejoint le bas de la maison. Garde-le bien plus petit que les murs et laisse de la place à côté pour les fenêtres.",
+      "hint": "Laisse le bas de la porte rejoindre le bas de la maison.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-door-handle": {
+      "title": "La poignée de porte",
+      "instruction": "Place une toute petite poignée dans la porte.",
+      "spoken": "Un tout petit point se place près d’un côté de la porte. Un peu de papier autour aide à voir ce petit détail.",
+      "hint": "Garde ce point dans la porte, plutôt que sur son bord.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-left-window": {
+      "title": "La fenêtre gauche",
+      "instruction": "Dessine une petite fenêtre à côté de la porte.",
+      "spoken": "Un petit rectangle trouve sa place à côté de la porte. Je laisse du mur entre la fenêtre, la porte et le bord extérieur.",
+      "hint": "Cherche un espace libre sur le mur, d’un côté de la porte.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-right-window": {
+      "title": "La fenêtre droite",
+      "instruction": "Place une autre petite fenêtre de l’autre côté de la porte.",
+      "spoken": "Une deuxième fenêtre se place de l’autre côté. Compare sa hauteur à celle de la première en regardant le haut du mur.",
+      "hint": "Laisse du mur autour de ton deuxième petit rectangle.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-left-window-bar": {
+      "title": "Le trait de la fenêtre gauche",
+      "instruction": "Trace un petit trait dans la première fenêtre.",
+      "spoken": "Un petit trait partage cette fenêtre. Commence et arrête-toi à ses bords pour que le trait reste dans la vitre.",
+      "hint": "Utilise le haut et le bas de la fenêtre pour arrêter ton trait.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-right-window-bar": {
+      "title": "Le trait de la fenêtre droite",
+      "instruction": "Partage la deuxième fenêtre avec un autre petit trait.",
+      "spoken": "Un autre petit trait se place dans la deuxième fenêtre. Ces petits traits sont plus faciles à ajouter une fois les grandes formes placées.",
+      "hint": "Garde ce petit trait dans ta deuxième fenêtre.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-chimney": {
+      "title": "La cheminée",
+      "instruction": "Essaie une petite cheminée au-dessus d’un côté du toit.",
+      "spoken": "Une petite cheminée peut monter depuis un côté du toit. Ses coins du bas rejoignent la pente, laissant le reste du toit dégagé.",
+      "hint": "Relie de petits côtés au-dessus du toit, sans traverser le toit.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-left-path": {
+      "title": "Le côté gauche du chemin",
+      "instruction": "Fais partir un bord du chemin en courbe depuis la porte.",
+      "spoken": "Un trait descend en courbe depuis un coin de la porte. Il s’écarte en allant vers le bas de notre feuille.",
+      "hint": "Commence à un coin inférieur de la porte et courbe ton trait vers l’extérieur.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-right-path": {
+      "title": "Le côté droit du chemin",
+      "instruction": "Fais partir l’autre bord du chemin en courbe depuis la porte.",
+      "spoken": "L’autre bord du chemin commence à l’autre coin. L’espace plus large près de nous forme un chemin accueillant vers la maison.",
+      "hint": "Laisse le chemin s’élargir en s’éloignant de la porte.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-flower-stem": {
+      "title": "La tige de la fleur",
+      "instruction": "Dessine une petite tige dans le jardin, à côté de la maison.",
+      "spoken": "Un trait haut et fin peut porter une fleur à côté de notre maison. Je laisse de la place autour de son sommet pour les pétales.",
+      "hint": "Choisis un espace libre dans le jardin, loin du chemin.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-flower-centre": {
+      "title": "Le cœur de la fleur",
+      "instruction": "Place un petit cercle en haut de la tige.",
+      "spoken": "Un petit cœur rond rejoint le haut de la tige. Garde-le assez petit pour laisser de la place autour aux pétales.",
+      "hint": "Laisse le cercle toucher le haut de la tige.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-upper-petal": {
+      "title": "Le pétale du haut",
+      "instruction": "Dessine un pétale arrondi au-dessus du cœur de la fleur.",
+      "spoken": "Une courbe part du haut du cœur puis revient. En revenant près du départ, elle forme un pétale arrondi avec son propre espace.",
+      "hint": "Pars du cœur en courbe et reviens près de ton point de départ.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-left-petal": {
+      "title": "Le pétale de gauche",
+      "instruction": "Ajoute un pétale à côté du cœur de la fleur.",
+      "spoken": "Un autre pétale arrondi pousse d’un côté. Je garde sa courbe à l’extérieur du cœur, sans le traverser.",
+      "hint": "Laisse ce pétale rejoindre le côté du petit cercle.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-lower-petal": {
+      "title": "Le pétale du bas",
+      "instruction": "Dessine un pétale arrondi sous le cœur de la fleur.",
+      "spoken": "Le pétale suivant se courbe sous le cœur. Nous répétons le même geste arrondi dans une nouvelle direction.",
+      "hint": "Laisse de la place à côté de la tige pour ce pétale arrondi.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-right-petal": {
+      "title": "Le pétale de droite",
+      "instruction": "Ajoute un pétale sur le dernier côté libre.",
+      "spoken": "Un autre pétale arrondi rejoint l’autre côté. Les pétales de notre fleur peuvent être différents et donner quand même l’impression qu’elle s’ouvre et pousse.",
+      "hint": "Ramène cette courbe vers le côté encore libre du cœur.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-flower-leaf": {
+      "title": "La feuille de la fleur",
+      "instruction": "Relie deux courbes pour faire une feuille à côté de la tige.",
+      "spoken": "Deux courbes se rejoignent en une pointe à côté de la tige. Leur forme fermée laisse un peu de place pour la couleur plus tard.",
+      "hint": "Laisse les deux courbes se rejoindre à la tige et à la pointe de la feuille.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-ground": {
+      "title": "Le sol",
+      "instruction": "Essaie une petite courbe pour le sol à côté de la maison.",
+      "spoken": "Une petite courbe peut se placer à côté de la maison. Laisse la porte et le chemin dégagés pour notre visite imaginaire.",
+      "hint": "Garde ce trait supplémentaire en dehors du chemin que tu as dessiné.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-garden-stone": {
+      "title": "Le caillou du jardin",
+      "instruction": "Essaie un caillou ovale dans le jardin, si tu veux.",
+      "spoken": "Un petit ovale peut devenir un caillou de jardin. Sa forme basse se place à côté du chemin sans bloquer la porte.",
+      "hint": "Choisis un espace vide dans le jardin pour ce petit ovale facultatif.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "house-cloud": {
+      "title": "Le nuage",
+      "instruction": "Essaie un nuage tout doux au-dessus de ton jardin en papier.",
+      "spoken": "Des courbes arrondies peuvent former un petit nuage dans le ciel. Cette forme supplémentaire peut rester séparée de la maison et de la fleur.",
+      "hint": "Cherche un espace libre autour du toit avant de le dessiner.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    },
+    "colour-choice": {
+      "title": "Des couleurs pour une maison accueillante.",
+      "instruction": "Choisis des couleurs pour ta maison et ton toit.",
+      "spoken": "Je choisis des murs crème, un toit rouge et une porte marron. Des fenêtres bleues ajoutent une autre couleur dans les petits espaces.",
+      "hint": "Choisis une couleur pour les murs qui laisse les contours bien visibles.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-roof": {
+      "title": "Du rouge chaud sur le toit.",
+      "instruction": "Colorie le toit par petites zones rouges.",
+      "spoken": "De petites zones rouges se placent dans le triangle. Près du sommet pointu, je raccourcis mes traits et je lève mon crayon avant le bord.",
+      "hint": "Fais des traits plus courts quand l’espace devient étroit.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-walls": {
+      "title": "Une couleur douce autour des ouvertures.",
+      "instruction": "Colorie les murs autour de la porte et des fenêtres.",
+      "spoken": "Des zones crème se placent autour des ouvertures, sans les couvrir. Je passe d’un petit espace de mur à l’autre au lieu de colorier par-dessus une porte ou une fenêtre.",
+      "hint": "Lève ton crayon avant une ouverture et reprends dans un autre espace du mur.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-door-and-glass": {
+      "title": "Des couleurs différentes pour les petites formes.",
+      "instruction": "Donne leurs propres couleurs à la porte et aux vitres.",
+      "spoken": "Le marron fait ressortir la porte sur les murs clairs. Du bleu clair trouve sa place dans les fenêtres, avec de petits espaces blancs pour évoquer le verre.",
+      "hint": "Colorie chaque petite forme séparément en levant ton crayon entre elles.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "colour-reflection": {
+      "title": "Une maison prête pour ton histoire.",
+      "instruction": "Observe comment les petites ouvertures trouvent leur place dans les grands murs.",
+      "spoken": "La grande forme de nos murs contient des portes et des fenêtres plus petites. Son chemin est prêt pour une visite imaginaire et le jardin peut continuer à pousser.",
+      "hint": "Observe une petite forme placée dans une plus grande.",
+      "notice": "Les crayons de votre enfant et les espaces blancs ont toute leur place. « Plus de temps » permet de rester à chaque étape ; le professeur ne peut ni voir ni juger sa feuille."
+    },
+    "explore": {
+      "title": "Ton propre jardin.",
+      "instruction": "Fais pousser ton jardin, colorie davantage ou termine ici.",
+      "spoken": "Ta visite pourrait découvrir d’autres fleurs, un arbre ou quelque chose que tu inventes. Continue ton jardin en papier ou termine quand tu veux.",
+      "hint": "Essaie de placer de petites ouvertures dans une autre grande forme de bâtiment.",
+      "notice": "Utilisez une maison imaginaire ; il n’est pas nécessaire de nommer la vraie maison de votre famille. Si la fleur est difficile à dessiner, proposez une fleur plus grande ou une seule fleur ronde. Ne parlez du raccordement du chemin à la porte que si votre enfant le demande. Les murs n’ont pas besoin d’être droits comme à la règle."
+    }
+  },
+  "sourceLessonSha256": "3856b4a1e72ee5ca339e4c9e792fb68c1214a351a99c81441dbb683b8d627cda"
+}

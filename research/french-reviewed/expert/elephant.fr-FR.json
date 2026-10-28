@@ -1,0 +1,230 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "elephant",
+  "sourceTextSha256": "bb67a83b0944de02aa114ff7b288fe8ceff6358d94f4e5891a5dce088647bc61",
+  "title": "Un éléphant de profil",
+  "invitation": "De grandes formes et des pattes en partie cachées.",
+  "objective": "Comparer les grandes et les petites parties et représenter les pattes proches et celles qui sont en partie cachées.",
+  "parentNote": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe.",
+  "simplify": "Utilisez deux pattes visibles, une seule ligne pour la trompe, et pas de défense ni d’ongles. Dessiner les quatre pattes est un défi facultatif, pas une condition pour réussir.",
+  "transfer": "Un autre jour, dessinez un rhinocéros ou un autre grand animal de profil. Observez la taille du corps par rapport à la tête et les pattes qui se chevauchent, plutôt que de reprendre les formes de l’éléphant sans les changer.",
+  "colouringLabel": "Petits mouvements de crayon, tes propres couleurs",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Regarde"
+    },
+    {
+      "id": "draw",
+      "label": "Dessine"
+    },
+    {
+      "id": "colour",
+      "label": "Colorie"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Un éléphant et une flaque",
+      "instruction": "Observe le grand corps, la large oreille et la longue trompe recourbée.",
+      "spoken": "Notre éléphant rend visite à une petite flaque dans un paysage imaginaire. Nous allons comparer ses grandes formes avant d’ajouter la trompe et les pattes plus fines.",
+      "hint": "Trouve la plus grande forme, puis observe la tête plus petite.",
+      "notice": "Regardez un éléphant de profil. Observez la taille de la tête à côté du corps, l’endroit où commence la trompe et les pattes qui se chevauchent. Ce dessin utilise des formes simplifiées plutôt qu’une anatomie exacte."
+    },
+    "elephant-body": {
+      "title": "Le corps de l’éléphant",
+      "instruction": "Trace les courbes visibles du corps en levant ton crayon pour laisser la place à la tête et aux pattes.",
+      "spoken": "Trace une grande forme arrondie pour le corps. Lève ton crayon là où la tête et les pattes viendront se joindre, en laissant des espaces ouverts. Nous dessinerons ensuite ces parties devant.",
+      "hint": "Suis une grande forme arrondie et lève ton crayon là où les parties de devant vont se joindre.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "elephant-head": {
+      "title": "La tête de l’éléphant",
+      "instruction": "Trace les courbes de la tête en laissant de la place pour l’oreille et la trompe.",
+      "spoken": "Trace une tête plus petite à droite. Lève ton crayon là où la grande oreille et la trompe vont se joindre, pour ne pas tracer à travers ces formes de devant.",
+      "hint": "Fais une tête plus petite que le grand ovale du corps.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "large-ear": {
+      "title": "Une grande oreille",
+      "instruction": "Trace une large oreille arrondie à côté de la tête.",
+      "spoken": "L’oreille est une grande forme arrondie à côté de la tête. Trace une courbe vers l’extérieur, vers le bas, puis ramène-la. Laisse assez de place pour un peu de couleur plus tard.",
+      "hint": "Arrondis l’oreille vers l’extérieur avant de ramener la courbe.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "trunk-outer-edge": {
+      "title": "Le bord extérieur de la trompe",
+      "instruction": "Trace le bord extérieur de la trompe en descendant et en arrondissant.",
+      "spoken": "Commence près du visage et laisse une longue courbe descendre, puis remonter doucement. Voilà le bord extérieur de la trompe.",
+      "hint": "Suis une longue courbe qui descend, puis remonte.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "trunk-inner-edge": {
+      "title": "Le bord intérieur de la trompe",
+      "instruction": "Trace une deuxième courbe pour donner de l’épaisseur à la trompe.",
+      "spoken": "Dessine l’autre bord tout près. Laisse un peu d’espace entre les courbes pour donner de l’épaisseur à cette longue trompe, au lieu d’une seule ligne.",
+      "hint": "Laisse la deuxième courbe suivre la première sans la toucher.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "trunk-tip": {
+      "title": "Le bout de la trompe",
+      "instruction": "Arrondis le bout pour relier les deux bords de la trompe.",
+      "spoken": "Une petite courbe arrondie relie les deux bords au bout de la trompe.",
+      "hint": "Relie les deux extrémités ouvertes par une petite courbe.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "elephant-eye": {
+      "title": "L’œil de l’éléphant",
+      "instruction": "Place un petit œil au-dessus de la joue.",
+      "spoken": "Un petit point au-dessus de la joue devient l’œil.",
+      "hint": "Garde l’œil petit, à l’intérieur de la tête arrondie.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "near-front-leg": {
+      "title": "La patte avant proche",
+      "instruction": "Dessine une large patte avant avec un pied doucement arrondi.",
+      "spoken": "Fais descendre deux côtés pour la patte avant la plus proche, puis arrondis le pied. Sa forme large lui donne l’air solide sous notre éléphant.",
+      "hint": "Descends, arrondis le pied, puis remonte de l’autre côté.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "near-back-leg": {
+      "title": "La patte arrière proche",
+      "instruction": "Ajoute une autre patte large sous l’arrière du corps.",
+      "spoken": "Ajoute une large patte arrière de la même façon. Avant de la placer, regarde l’espace entre les pattes avant et arrière.",
+      "hint": "Laisse un grand espace entre les deux pattes les plus proches.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "far-front-leg": {
+      "title": "La patte avant éloignée",
+      "instruction": "Suggère une patte plus éloignée, juste derrière la patte avant.",
+      "spoken": "Un petit morceau visible derrière la patte avant suggère une autre patte plus éloignée. Pas besoin de montrer la partie cachée.",
+      "hint": "Dessine seulement le petit morceau de patte visible derrière la patte proche.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "far-back-leg": {
+      "title": "La patte arrière éloignée",
+      "instruction": "Ajoute un petit morceau de patte éloignée derrière la patte arrière.",
+      "spoken": "Reprends la même idée derrière la patte arrière : montre la partie visible et laisse la patte proche cacher le reste.",
+      "hint": "Une petite forme partielle suffit pour la patte éloignée.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "elephant-tail": {
+      "title": "La queue de l’éléphant",
+      "instruction": "Fais descendre une fine queue courbée depuis l’arrière du corps.",
+      "spoken": "Trace une fine queue courbée qui descend de l’arrière du corps. Cette ligne légère contraste avec le grand corps et les pattes solides.",
+      "hint": "Trace une courbe légère tout à gauche du corps.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "tail-tuft": {
+      "title": "Le toupet de la queue",
+      "instruction": "Ajoute un tout petit toupet arrondi au bout de la queue.",
+      "spoken": "Un petit toupet arrondi termine la queue.",
+      "hint": "Ferme une petite forme autour du bout de la queue.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "small-tusk": {
+      "title": "Une petite défense",
+      "instruction": "Trace une petite défense pointue à côté de la trompe.",
+      "spoken": "Si tu veux une défense, fais se rejoindre deux petites courbes en pointe. Garde-la plus petite que la trompe et laisse-la claire.",
+      "hint": "Trace une courbe jusqu’à une pointe, puis reviens vers la trompe.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "trunk-crease": {
+      "title": "Un pli sur la trompe",
+      "instruction": "Ajoute un petit pli courbé en travers de la trompe.",
+      "spoken": "Si tu veux, une petite courbe en travers de la trompe peut suggérer un pli.",
+      "hint": "Garde ce pli court, à l’intérieur de la trompe.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "first-toenail": {
+      "title": "Un premier ongle",
+      "instruction": "Dessine un tout petit ongle arrondi sur le pied avant.",
+      "spoken": "Si tu veux des ongles, une toute petite arche arrondie peut en suggérer un.",
+      "hint": "Trace une petite forme de bol renversé sur le pied.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "second-toenail": {
+      "title": "Un deuxième ongle",
+      "instruction": "Essaie un tout petit ongle dans le pied avant, ou passe cette étape.",
+      "spoken": "Si tu veux, ajoute une petite arche dans le pied avant. Laisse de l’espace autour des ongles que tu as déjà choisis.",
+      "hint": "Aide-toi du bord inférieur du pied pour placer cette petite arche.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "elephant-ground": {
+      "title": "Le sol sous l’éléphant",
+      "instruction": "Trace une courbe basse pour le sol, sous les pieds.",
+      "spoken": "Tu peux ajouter une courbe basse sous les pieds pour le sol. Laisse de la place à droite si tu veux une petite flaque pour ton histoire.",
+      "hint": "Garde la ligne du sol sous les pieds.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "grass-blade": {
+      "title": "Un brin d’herbe",
+      "instruction": "Ajoute un petit brin d’herbe courbé.",
+      "spoken": "Tu peux ajouter une petite ligne courbée pour l’herbe, ou laisser cet espace vide.",
+      "hint": "Laisse une petite ligne monter du sol puis se courber.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "nearby-puddle": {
+      "title": "Une flaque tout près",
+      "instruction": "Si tu veux, ajoute une flaque en ovale aplati à droite.",
+      "spoken": "Un ovale aplati forme la flaque de notre histoire. Sa forme basse évoque de l’eau sur le sol, plutôt qu’une grande balle ronde.",
+      "hint": "Fais une flaque large et basse à côté de l’éléphant.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    },
+    "colour-choice": {
+      "title": "Des gris doux et du bleu pour l’eau",
+      "instruction": "Choisis un gris principal et un peu de bleu pour l’eau.",
+      "spoken": "J’utilise un gris doux pour notre éléphant et un peu de bleu pour la flaque. Garde un crayon plus clair près de toi si tu veux.",
+      "hint": "Une couleur principale pour le corps et un peu de couleur pour l’eau suffisent.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "colour-large-body": {
+      "title": "Colorie la plus grande forme",
+      "instruction": "Colorie le grand corps arrondi par petites zones en gris clair.",
+      "spoken": "Je commence par le plus grand espace, avec de légers va-et-vient par petites zones. Lever le crayon entre les zones rend le mouvement confortable et laisse voir la texture du papier.",
+      "hint": "Colorie une petite zone à la fois en appuyant doucement.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "colour-head-trunk": {
+      "title": "Un visage plus petit et une trompe",
+      "instruction": "Fais des mouvements plus courts à l’intérieur de la tête et de la trompe étroite.",
+      "spoken": "Je raccourcis mes mouvements pour la tête et la trompe. Je garde l’œil dégagé et je laisse la défense de la couleur claire du papier.",
+      "hint": "Fais des mouvements plus petits quand le contour se rétrécit.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "colour-ear-legs": {
+      "title": "Sépare les formes qui se chevauchent",
+      "instruction": "Donne à l’oreille un gris plus soutenu à côté du corps plus clair.",
+      "spoken": "Un gris un peu plus soutenu aide à distinguer l’oreille du corps. De petites zones coloriées sur les pattes proches gardent ces formes solides bien visibles.",
+      "hint": "Une légère différence de couleur peut séparer les parties qui se chevauchent.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "colour-water-layer": {
+      "title": "Un peu d’eau et d’ombre",
+      "instruction": "Si tu veux, ajoute du bleu dans l’eau et une couche de gris clair sur le ventre.",
+      "spoken": "Si tu as dessiné une flaque, tu peux y ajouter du bleu. Je vais aussi montrer une légère couche de gris sous le corps, si tu veux essayer.",
+      "hint": "Une deuxième couche légère peut suggérer un dessous plus sombre.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "colour-reflect": {
+      "title": "De grandes formes, de petits détails",
+      "instruction": "Observe le grand corps à côté de la trompe et de la queue plus fines.",
+      "spoken": "Regarde les différentes tailles : le grand corps, la tête plus petite, la trompe et la queue fines. Ces différences de taille font vivre notre éléphant sans avoir besoin de beaucoup de détails.",
+      "hint": "Compare la plus grande forme à l’un des plus petits détails.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. Vous pouvez prolonger chaque étape, sans limite de temps."
+    },
+    "explore": {
+      "title": "Un paysage pour ton éléphant",
+      "instruction": "Continue à colorier ou imagine un paysage autour de la flaque.",
+      "spoken": "Tu peux ajouter de l’herbe, une flaque plus grande ou ton propre paysage imaginaire. Continue à colorier à ton rythme, ou termine ici avec ton éléphant.",
+      "hint": "Essaie un détail de paysage, ou garde beaucoup d’espace blanc.",
+      "notice": "Comparez le corps et la tête sur le modèle, sans imposer de proportion. Sur une feuille à part, montrez comment une patte étroite peut apparaître derrière une autre. Si les petites courbes sont difficiles, aidez votre enfant à choisir un mouvement plus ample pour la trompe."
+    }
+  },
+  "sourceLessonSha256": "47b927352428de92ccb2e9d71c529d19b8d493d56a2b73a4c1da01951a88eef4"
+}

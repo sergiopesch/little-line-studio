@@ -1,0 +1,237 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "fruit-bowl",
+  "sourceTextSha256": "39fe76eae7a757ea97919ee11559c5c2f298ae73b4ec4c529eb7f68a90bd7cf6",
+  "title": "Un bol de fruits",
+  "invitation": "Des fruits devant, des fruits derrière.",
+  "objective": "Placer des formes de fruits qui se chevauchent au-dessus d’un récipient et choisir les contours cachés.",
+  "parentNote": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction.",
+  "simplify": "Choisissez seulement deux fruits et un bol en forme de U. Des contours complets qui se chevauchent constituent aussi une exploration acceptable ; les contours partiels pourront être revisités un autre jour.",
+  "transfer": "Un autre jour, placez deux jouets en partie derrière une boîte. Si cela intéresse l’enfant, dessinez seulement les parties visibles en utilisant ces nouveaux objets plutôt que la séquence des fruits.",
+  "colouringLabel": "Petits mouvements de crayon, tes propres couleurs",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Regarde"
+    },
+    {
+      "id": "draw",
+      "label": "Dessine"
+    },
+    {
+      "id": "colour",
+      "label": "Colorie"
+    },
+    {
+      "id": "explore",
+      "label": "Tes propres idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Une nature morte sur la table",
+      "instruction": "Observe comme le bol se trouve devant les fruits.",
+      "spoken": "Imaginons un bol de fruits sur le papier. Certains fruits sont derrière d’autres formes, alors nous dessinerons les parties que nous pouvons voir.",
+      "hint": "Cherche une forme de fruit qui disparaît derrière le bol.",
+      "notice": "Observez quel fruit est devant, où un contour disparaît et comment le bol rassemble les formes. Dans cette proposition, les fruits se trouvent derrière le bord avant du bol."
+    },
+    "bowl-body": {
+      "title": "Le bol",
+      "instruction": "Trace une grande forme de bol arrondie dans le bas de la feuille.",
+      "spoken": "Commence par un grand bol : descends en courbe, puis remonte. Laisse beaucoup de place au-dessus pour les différentes formes de fruits.",
+      "hint": "Fais une courbe profonde et large, avec les deux extrémités à peu près à la même hauteur.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "bowl-front-rim": {
+      "title": "Le bord avant du bol",
+      "instruction": "Relie les extrémités par un bord avant légèrement courbé.",
+      "spoken": "Trace une courbe pour le bord avant du bol. Il sera devant les fruits et nous aidera à montrer quelles formes sont les plus proches.",
+      "hint": "Relie les extrémités du bol par une courbe peu profonde vers le bas.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "bowl-foot": {
+      "title": "Le pied du bol",
+      "instruction": "Place un petit ovale aplati sous le bol.",
+      "spoken": "Un petit ovale aplati forme le pied sous le bol. Garde-le beaucoup plus petit que le grand bol au-dessus.",
+      "hint": "Place un ovale aplati sous le milieu du bol.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "left-apple": {
+      "title": "La pomme de gauche",
+      "instruction": "Fais monter une pomme en courbe à gauche du bol.",
+      "spoken": "Dessine une forme de pomme qui monte du côté gauche du bol. Arrête ses côtés visibles là où le bord du bol en cache le bas.",
+      "hint": "Dessine la partie au-dessus du bord ; le bol cache le reste.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "middle-pear": {
+      "title": "La poire du milieu",
+      "instruction": "Ajoute une poire plus étroite en haut et plus large en bas.",
+      "spoken": "Notre poire est étroite près du haut et plus large vers le bas. Laisse la pomme et le bol cacher les parties qui sont derrière eux.",
+      "hint": "Commence par le haut étroit, puis laisse les courbes s’élargir vers le bol.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "pear-stem": {
+      "title": "La queue de la poire",
+      "instruction": "Fais monter une petite queue depuis la poire.",
+      "spoken": "Une petite queue courbée monte du haut étroit de la poire.",
+      "hint": "Garde la queue bien plus courte que la poire.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "right-orange": {
+      "title": "L’orange de droite",
+      "instruction": "Dessine une orange ronde qui dépasse du bord droit du bol.",
+      "spoken": "Une orange ronde trouve sa place à droite. Sa courbe visible s’arrête au bord du bol, au lieu de continuer à travers lui.",
+      "hint": "Laisse le bord du bol cacher le bas de ce fruit rond.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "banana-upper-edge": {
+      "title": "Le bord supérieur de la banane",
+      "instruction": "Trace une longue courbe pour le bord supérieur de la banane.",
+      "spoken": "La banane se trouve derrière les autres fruits. Trace une longue courbe pour son bord supérieur, de gauche à droite.",
+      "hint": "Suis un long arc pour le haut de la banane.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "banana-lower-edge": {
+      "title": "Le bord inférieur de la banane",
+      "instruction": "Reviens le long du bord inférieur visible de la banane étroite.",
+      "spoken": "Reviens le long de son bord inférieur et lève ton crayon là où les autres fruits sont devant. Les deux bords de la banane forment une silhouette étroite à côté des fruits plus ronds.",
+      "hint": "Garde un petit espace entre les bords visibles de la banane.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "banana-stalk": {
+      "title": "La tige de la banane",
+      "instruction": "Ajoute une petite tige courbée au bout gauche de la banane.",
+      "spoken": "Une petite tige courbée termine ce côté de la banane.",
+      "hint": "Garde cette petite tige près de la pointe de la banane.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "hidden-fruit-arc": {
+      "title": "Un fruit caché",
+      "instruction": "Suggère un autre fruit avec un petit arc arrondi visible.",
+      "spoken": "Un petit arc peut suggérer un autre fruit derrière les autres, si tu veux. Nous avons seulement besoin de la partie visible ; tu peux aussi laisser ce fruit de côté.",
+      "hint": "Une courbe partielle peut montrer quelque chose qui est en partie caché.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "apple-stem": {
+      "title": "La queue de la pomme",
+      "instruction": "Ajoute une petite queue courbée en haut de la pomme.",
+      "spoken": "Si tu veux, une petite queue peut monter du creux en haut de la pomme.",
+      "hint": "Commence dans le creux en haut de la pomme et monte en courbe.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "apple-leaf": {
+      "title": "La feuille de la pomme",
+      "instruction": "Si tu veux, relie deux courbes pour faire une petite feuille.",
+      "spoken": "Deux petites courbes peuvent se rejoindre en pointe pour former une feuille, si tu veux. Place-la juste au-dessus de la pomme, avec ou sans queue.",
+      "hint": "Pars du haut de la pomme en courbe jusqu’à une pointe, puis reviens.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "orange-first-spot": {
+      "title": "Un premier point sur l’orange",
+      "instruction": "Ajoute un tout petit point pour suggérer la texture de l’orange.",
+      "spoken": "Tu peux commencer à suggérer la texture de l’orange avec un petit point, ou la garder lisse.",
+      "hint": "Garde ce point petit, à l’intérieur de l’orange ronde.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "orange-second-spot": {
+      "title": "Un deuxième point sur l’orange",
+      "instruction": "Place un autre tout petit point un peu plus bas sur l’orange.",
+      "spoken": "Tu peux ajouter un autre petit point ; nous n’avons pas besoin de dessiner toutes les petites bosses, ni même d’ajouter de texture.",
+      "hint": "Fais un deuxième petit point en laissant de l’espace autour.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "pear-shine": {
+      "title": "Un reflet sur la poire",
+      "instruction": "Si tu veux, réserve un petit ovale pour un reflet sur la poire.",
+      "spoken": "Un petit ovale clair peut suggérer un reflet sur la poire. Nous laisserons le papier visible ici au lieu de colorier toute la surface.",
+      "hint": "Garde un petit ovale étroit à l’intérieur de la grande forme de la poire.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "bowl-band": {
+      "title": "Une bande sur le bol",
+      "instruction": "Dessine une bande décorative courbée autour du bol.",
+      "spoken": "Une bande décorative peut suivre la courbe du bol, si tu veux. Sa courbe douce suit la surface arrondie ; tu peux aussi garder ton bol uni.",
+      "hint": "Laisse la bande descendre un peu plus bas au milieu.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "bowl-decoration": {
+      "title": "Une décoration sur le bol",
+      "instruction": "Si tu veux, place une petite décoration ronde sur le bol.",
+      "spoken": "Tu peux ajouter une petite décoration ronde sur le bol ou choisir un autre motif simple à toi.",
+      "hint": "Garde cette petite décoration dans la partie inférieure du bol.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "fallen-fruit": {
+      "title": "Un fruit à côté du bol",
+      "instruction": "Si tu veux, place un petit fruit rond à côté du bol.",
+      "spoken": "Un petit fruit à côté du bol forme une deuxième silhouette sur la table. Laisse un peu d’espace blanc entre lui et le bol.",
+      "hint": "Place une petite forme ronde à côté du bol, sans le toucher.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "fallen-fruit-leaf": {
+      "title": "La feuille du fruit à côté",
+      "instruction": "Si tu veux, ajoute une petite feuille pointue au fruit séparé.",
+      "spoken": "Si tu as ajouté ce fruit, il peut avoir une petite feuille. Sinon, tu peux tout à fait laisser ce détail de côté.",
+      "hint": "Deux courbes peuvent se rejoindre en pointe juste au-dessus de ce fruit.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    },
+    "colour-choice": {
+      "title": "Les couleurs des fruits",
+      "instruction": "Choisis des couleurs familières pour les fruits et une autre couleur pour le bol.",
+      "spoken": "Je choisis une pomme rouge, une poire verte, une banane jaune, un fruit orange et un bol bleu. Tes fruits imaginaires peuvent avoir leurs propres couleurs.",
+      "hint": "Choisis des couleurs différentes pour bien voir les formes qui se chevauchent.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-apple-pear": {
+      "title": "La pomme et la poire",
+      "instruction": "Colorie de petites zones rouges dans la pomme et vertes dans la poire.",
+      "spoken": "Je colorie un fruit à la fois, par petites touches légères. Des couleurs différentes nous aident à voir où se rejoignent la pomme et la poire qui se chevauchent.",
+      "hint": "Termine une petite zone, lève ton crayon, puis passe au fruit suivant.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-banana": {
+      "title": "Une courbe jaune et étroite",
+      "instruction": "Fais de tout petits mouvements jaunes le long de la courbe de la banane.",
+      "spoken": "La banane est étroite, alors je fais de tout petits mouvements sur sa longueur. Les espaces blancs sont les bienvenus ; nous n’avons pas besoin d’appuyer dans chaque recoin.",
+      "hint": "Garde des mouvements courts à l’intérieur de cette forme étroite et courbée.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-oranges": {
+      "title": "Des touches orange arrondies",
+      "instruction": "Colorie les fruits orange que tu as dessinés avec de petits mouvements aux couleurs chaudes.",
+      "spoken": "Je fais de petites touches orange arrondies dans chaque fruit que tu as dessiné. Les points de texture peuvent rester visibles et un peu de papier peut rester blanc.",
+      "hint": "Fais des mouvements légers et arrondis à l’intérieur de chaque fruit que tu as choisi de dessiner.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-bowl": {
+      "title": "Le bol devant",
+      "instruction": "Ajoute des touches bleues sur la surface arrondie du bol.",
+      "spoken": "Maintenant, le bol reçoit ses propres touches bleues. Une couleur différente de celle des fruits aide à bien voir le bord avant, près de nous.",
+      "hint": "Suis la courbe du bol avec de petites touches en levant ton crayon entre elles.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-still-life-layer": {
+      "title": "Une feuille et un peu d’ombre",
+      "instruction": "Essaie une couche légère sur le bol et colorie la feuille de pomme si tu en as une.",
+      "spoken": "Tu peux choisir d’ajouter une couche légère sur le bol. Si tu as dessiné la feuille de pomme, quelques petits traits verts peuvent la colorier.",
+      "hint": "Fais de petits traits dans la feuille si tu en as une ; la couche légère sur le bol est facultative.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "colour-reflect": {
+      "title": "Quelle forme est devant ?",
+      "instruction": "Observe comment le bord du bol cache le bas des fruits.",
+      "spoken": "Regarde encore le bord avant. Le laisser cacher une partie des fruits aide notre feuille plate à montrer des formes proches et d’autres plus éloignées.",
+      "hint": "Suis le bord avant et remarque où les fruits s’arrêtent derrière lui.",
+      "notice": "Utilisez les crayons disponibles et des mouvements confortables. Les espaces blancs et les couleurs différentes sont les bienvenus. La fonction Plus de temps maintient chaque étape sans limite de temps."
+    },
+    "explore": {
+      "title": "Ta propre nature morte",
+      "instruction": "Continue à colorier ou imagine un autre fruit à côté du bol.",
+      "spoken": "Tu pourrais changer la couleur d’un fruit, inventer un motif pour le bol ou ajouter un autre petit fruit. Continue à explorer, ou termine ton dessin de table ici.",
+      "hint": "Essaie une nouvelle forme de fruit ou un autre motif courbé sur le bol.",
+      "notice": "Demandez : « Quel fruit en cache un petit peu un autre ? » Montrez la disposition réelle si l’enfant le demande. Montrez un contour interrompu sur une autre feuille ; n’insistez pas pour effacer les traits de construction."
+    }
+  },
+  "sourceLessonSha256": "7e8af668953a21563ffa88b487c775148da91f2dc3a361f690202053eebc0332"
+}

@@ -1,0 +1,209 @@
+{
+  "locale": "fr-FR",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "lessonId": "cactus",
+  "sourceTextSha256": "60d6cbd32393d8399395be5ef3cc8661a379a59ef4a48e3e2f3049835fb7b197",
+  "title": "Cactus en pot",
+  "invitation": "Des branches qui poussent sur une seule tige.",
+  "objective": "Relier les contours des branches à une tige centrale ; placer une plante dans un pot et ajouter quelques marques espacées.",
+  "parentNote": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité.",
+  "simplify": "",
+  "transfer": "Un autre jour, inventez un arbre ramifié. Explorez comment une forme centrale peut porter des branches, en changeant le contour et les marques de la plante.",
+  "colouringLabel": "De petits traits, des couleurs choisies",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Observer"
+    },
+    {
+      "id": "draw",
+      "label": "Dessiner"
+    },
+    {
+      "id": "colour",
+      "label": "Colorier"
+    },
+    {
+      "id": "explore",
+      "label": "Tes idées"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Un petit jardin sur le rebord de la fenêtre.",
+      "instruction": "Observe la grande tige qui sort d’un large pot.",
+      "spoken": "Un cactus en papier pousse sur le rebord de notre fenêtre imaginaire. Regarde sa grande tige au milieu, ses petits bras sur les côtés et son large pot en dessous.",
+      "hint": "Regarde où la grande plante rejoint son petit pot.",
+      "notice": "Regardez ensemble le cactus. Où ses bras rejoignent-ils la tige principale ?"
+    },
+    "cactus-pot-rim": {
+      "title": "Le bord du pot",
+      "instruction": "Dessine un ovale large et étroit pour le bord du pot.",
+      "spoken": "Un large ovale commence notre pot. Il est peu haut : on dirait que nous regardons un peu dans son ouverture.",
+      "hint": "Ton ovale peut être beaucoup plus large que haut.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-pot": {
+      "title": "Le pot",
+      "instruction": "Descends en courbe de chaque côté du bord.",
+      "spoken": "Le pot se rétrécit en descendant depuis le bord. Un fond arrondi relie les côtés et forme un grand pot.",
+      "hint": "Garde le fond un peu moins large que le bord.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-main-stem": {
+      "title": "La tige principale",
+      "instruction": "Dessine une grande tige au sommet arrondi.",
+      "spoken": "Un long trait monte du pot, tourne en haut et redescend. Je garde la tige moins large que l’ouverture du pot.",
+      "hint": "Commence à l’intérieur du bord et laisse de la place pour les bras sur les côtés.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-left-arm-out": {
+      "title": "Le premier côté du bras gauche",
+      "instruction": "Trace un bras qui part sur le côté puis remonte.",
+      "spoken": "Un petit trait part d’un côté et remonte. Regarde comme il part de la grande tige du milieu.",
+      "hint": "Pars de la tige, puis va sur le côté et vers le haut.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-left-arm-back": {
+      "title": "Le retour du bras gauche",
+      "instruction": "Arrondis le haut du bras et reviens vers la tige.",
+      "spoken": "Un petit sommet arrondi redescend, puis revient vers la tige. Ce retour donne un peu d’épaisseur à notre bras.",
+      "hint": "Laisse un petit espace entre les deux côtés du bras.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-right-arm-out": {
+      "title": "Le premier côté du bras droit",
+      "instruction": "Commence un autre bras plus haut, de l’autre côté.",
+      "spoken": "Un deuxième bras part de l’autre côté et remonte. Je le place plus haut pour que les deux bras soient à des hauteurs différentes.",
+      "hint": "Regarde l’autre côté de la tige et choisis un point de départ plus haut.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-right-arm-back": {
+      "title": "Le retour du bras droit",
+      "instruction": "Arrondis le haut de l’autre bras et ramène ton trait vers la tige.",
+      "spoken": "Je fais le tour arrondi du haut de ce bras, puis je reviens vers la tige. Les traits reliés forment une petite forme à côté de la grande tige.",
+      "hint": "Suis le premier trait de près pour revenir vers la tige principale.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-left-spine": {
+      "title": "Une épine à gauche",
+      "instruction": "Ajoute un petit trait pour une épine sur le côté bas de la tige.",
+      "spoken": "Un petit trait part du côté de la tige. Nous dessinons notre cactus sur du papier ; nous n’avons pas besoin de toucher une vraie plante.",
+      "hint": "Pars du bord de la tige et fais un petit trait.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-right-spine": {
+      "title": "Une épine à droite",
+      "instruction": "Ajoute une petite épine de l’autre côté.",
+      "spoken": "Un autre petit trait part du côté opposé. Quelques marques peuvent montrer des épines sans couvrir tout notre dessin.",
+      "hint": "Fais ce petit trait beaucoup plus court qu’un bras.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-upper-left-spine": {
+      "title": "Une épine en haut à gauche",
+      "instruction": "Place une autre petite épine plus haut.",
+      "spoken": "Un petit trait se trouve plus haut de ce côté. Je laisse un espace entre les marques pour bien voir le contour de la tige.",
+      "hint": "Choisis un endroit dégagé sur le bord supérieur de la tige.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-upper-right-spine": {
+      "title": "Une épine en haut à droite",
+      "instruction": "Ajoute une petite épine en haut, de l’autre côté.",
+      "spoken": "Une dernière petite épine part de l’autre bord, en haut. Notre plante en papier n’a que quelques petits détails.",
+      "hint": "Fais un petit trait sur le côté arrondi en haut de la tige.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-stem-texture": {
+      "title": "Une courbe dans la tige",
+      "instruction": "Dessine une courbe douce à l’intérieur de la grande tige.",
+      "spoken": "Une longue courbe douce suit l’intérieur de la tige. Elle suggère une surface arrondie sans traverser le contour.",
+      "hint": "Garde cette courbe à l’intérieur de la tige, avec de l’espace autour.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-upper-pot-band": {
+      "title": "Une bande sur le pot",
+      "instruction": "Trace une courbe sur le devant arrondi du pot.",
+      "spoken": "Une courbe légère traverse le pot. Elle suit son devant arrondi au lieu d’aller tout droit comme sur une boîte plate.",
+      "hint": "Garde les deux bouts de la courbe à l’intérieur des bords du pot.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-lower-pot-band": {
+      "title": "Une autre bande sur le pot",
+      "instruction": "Essaie une autre bande courbée sur le pot, si tu veux.",
+      "spoken": "Une autre courbe peut se placer sous la première. L’espace entre les deux crée un petit motif facultatif sur notre pot.",
+      "hint": "Suis la première courbe un peu plus bas.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-flower-centre": {
+      "title": "Le centre de la fleur",
+      "instruction": "Essaie un petit centre de fleur au-dessus de la tige.",
+      "spoken": "Un petit cercle peut commencer une fleur imaginée au-dessus de notre cactus. C’est une décoration en plus : à toi de choisir.",
+      "hint": "Laisse un peu de place au-dessus de la tige arrondie.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-left-petal": {
+      "title": "Un pétale à gauche",
+      "instruction": "Essaie un pétale à côté du petit centre de la fleur.",
+      "spoken": "Un petit pétale arrondi peut rejoindre le centre de la fleur, si tu en as dessiné un. Tu peux aussi ne pas dessiner de fleur du tout.",
+      "hint": "Pars du petit centre de ta fleur en courbe, puis reviens vers lui.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-right-petal": {
+      "title": "Un pétale à droite",
+      "instruction": "Essaie un autre pétale si tu as ajouté un centre de fleur.",
+      "spoken": "Si tu as dessiné un centre de fleur, un autre pétale peut s’arrondir à côté. Tu peux aussi choisir de ne pas dessiner cette fleur imaginaire.",
+      "hint": "Si tu as dessiné un centre, laisse un pétale arrondi toucher l’autre côté.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "cactus-stone": {
+      "title": "Un petit caillou",
+      "instruction": "Essaie un petit caillou ovale à côté du pot.",
+      "spoken": "Un petit ovale tout bas peut se poser à côté de notre pot. C’est un détail facultatif pour le rebord de fenêtre imaginaire que tu crées.",
+      "hint": "Cherche un espace vide à côté du bas du pot.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    },
+    "colour-choice": {
+      "title": "Du vert pour la plante et des couleurs chaudes pour le pot.",
+      "instruction": "Choisis des verts pour la plante et une couleur chaude pour le pot.",
+      "spoken": "Je choisis du vert pour notre cactus en papier et de l’orange pour son pot. Un vert plus foncé donnera une impression d’arrondi sur un côté.",
+      "hint": "Essaie un trait clair et un autre plus foncé, même avec un seul crayon.",
+      "notice": "Tes crayons et les espaces blancs sont les bienvenus. « Plus de temps » permet de rester à chaque étape aussi longtemps que tu le souhaites ; l’enseignante ne peut ni voir ni juger ta feuille."
+    },
+    "colour-cactus": {
+      "title": "Une plante verte prend forme.",
+      "instruction": "Utilise de petits traits verts à l’intérieur de la tige et des bras.",
+      "spoken": "De petites touches vertes avancent le long de la tige. Les bras étroits demandent de tout petits mouvements : je lève le crayon avant de changer d’endroit.",
+      "hint": "Plus l’espace est petit, plus ton mouvement de crayon peut être petit.",
+      "notice": "Tes crayons et les espaces blancs sont les bienvenus. « Plus de temps » permet de rester à chaque étape aussi longtemps que tu le souhaites ; l’enseignante ne peut ni voir ni juger ta feuille."
+    },
+    "colour-pot": {
+      "title": "Une couleur chaude pour le pot.",
+      "instruction": "Ajoute une couleur chaude à l’intérieur du pot arrondi.",
+      "spoken": "De petits traits orange colorient le grand pot. Un bord marron fait ressortir son ouverture, et les bandes courbées restent bien visibles.",
+      "hint": "Laisse apparaître de petits espaces blancs et les traits de ton pot.",
+      "notice": "Tes crayons et les espaces blancs sont les bienvenus. « Plus de temps » permet de rester à chaque étape aussi longtemps que tu le souhaites ; l’enseignante ne peut ni voir ni juger ta feuille."
+    },
+    "colour-cactus-shade": {
+      "title": "Un peu d’ombre sur un côté.",
+      "instruction": "Ajoute une couche de vert plus foncé le long d’un côté de la tige.",
+      "spoken": "Un peu de vert foncé d’un côté donne une impression de tige arrondie. Je laisse le milieu plus clair pour voir encore la première couleur.",
+      "hint": "Essaie une légère deuxième couche près d’un seul côté.",
+      "notice": "Tes crayons et les espaces blancs sont les bienvenus. « Plus de temps » permet de rester à chaque étape aussi longtemps que tu le souhaites ; l’enseignante ne peut ni voir ni juger ta feuille."
+    },
+    "colour-reflection": {
+      "title": "Une grande plante dans son pot.",
+      "instruction": "Observe la grande plante et le large pot arrondi.",
+      "spoken": "Notre cactus a une grande tige au milieu, de petits bras et un pot qui se rétrécit vers le bas. Il peut pousser sur ton rebord de fenêtre imaginaire en papier.",
+      "hint": "Regarde comme la plante et le pot ont des largeurs différentes.",
+      "notice": "Tes crayons et les espaces blancs sont les bienvenus. « Plus de temps » permet de rester à chaque étape aussi longtemps que tu le souhaites ; l’enseignante ne peut ni voir ni juger ta feuille."
+    },
+    "explore": {
+      "title": "Trouve une place pour ton cactus.",
+      "instruction": "Invente ton rebord de fenêtre, continue à colorier ou termine ici.",
+      "spoken": "Tu peux ajouter une fenêtre imaginaire ou une autre plante en papier. Continue ton dessin aussi longtemps que tu veux, ou termine quand tu te sens prêt.",
+      "hint": "Essaie une autre plante qui pousse dans un large pot ovale.",
+      "notice": "Montrez où le bras rejoint la tige sur le modèle seulement si votre enfant le demande. Le contour de la tige principale peut rester visible à travers le raccord du bras : il n’est pas nécessaire de gommer. Proposez un seul bras ou un cactus rond plus simple comme autre possibilité."
+    }
+  },
+  "sourceLessonSha256": "ce5982e5cc4d3335922af4b01a36dc50704a8928055ad3a1436d8580ab03e97b"
+}
