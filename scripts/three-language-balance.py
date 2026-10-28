@@ -36,6 +36,18 @@ def cost(plan, directory):
     return sum(len(audio.speech_text(item)) for identity, item in plan['requests'].items()
                if audio.cached_record(directory, identity) is None)
 
+def completed_spain_bundle(directory, plan):
+    identity = audio.sha(audio.canonical(plan))
+    bundle = directory / 'bundles' / identity
+    descriptor = json.loads((bundle / 'bundle.json').read_text())
+    saved_plan = json.loads((bundle / 'plan.json').read_text())
+    if (descriptor.get('schemaVersion') != 1 or descriptor.get('provider') != 'ElevenLabs'
+            or descriptor.get('reviewStatus') != 'unreviewed-staged-only' or descriptor.get('planHash') != identity
+            or descriptor.get('speechKeys') != 1461 or descriptor.get('musicLevels') != []
+            or descriptor.get('musicLessons', []) != [] or saved_plan != plan or plan.get('locale') != 'es-ES'):
+        raise ValueError('The complete Spain catalogue bundle does not match its frozen plan.')
+    return identity
+
 def select(plans, lesson_ids, directory, available):
     selected = {locale: ['cat'] for locale in ORDER}
     lookup = {plan['locale']: plan for plan in plans if plan['locale'] in ORDER}
@@ -65,7 +77,7 @@ def main():
         print(json.dumps({'mode': 'offline', 'spainPlanHash': identity, 'spainBundlePresent': (bundle / 'bundle.json').is_file()})); return
     with Path('/tmp/little-line-language-auditions.lock').open('a') as lock:
         fcntl.flock(lock, fcntl.LOCK_EX)
-        if not (bundle / 'bundle.json').is_file() or audio.sha(audio.canonical(json.loads((bundle / 'plan.json').read_text()))) != identity:
+        if completed_spain_bundle(directory, spain) != identity:
             raise ValueError('The complete Spain catalogue has not been staged; no continuation was started.')
         if json.loads(ledger.read_text()).get('cap') != args.cap:
             raise ValueError('The shared ledger cap does not match the selected cap.')
