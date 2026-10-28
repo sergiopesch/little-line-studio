@@ -6,7 +6,9 @@ import { mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'nod
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-test('voice audit flags silence, deduplicates clips, and rejects corrupt audio', () => {
+const ffmpegAvailable = spawnSync('ffmpeg', ['-version'], { stdio: 'ignore' }).status === 0;
+
+test('voice audit flags silence, deduplicates clips, and rejects corrupt audio', { skip: !ffmpegAvailable }, () => {
   const dir = mkdtempSync(join(tmpdir(), 'voice-level-audit-'));
   try {
     const assets = join(dir, 'assets', 'narration');
