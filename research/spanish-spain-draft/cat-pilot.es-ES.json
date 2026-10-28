@@ -1,0 +1,61 @@
+{
+  "locale": "es-ES",
+  "lessonId": "cat",
+  "status": "text-only-pilot-no-audio-generated",
+  "voice": {
+    "name": "Carolina — Warm & Expressive",
+    "id": "BkOojM1ZhtSAHgsAkMx2",
+    "selection": "voice-library preview approved; generated lesson audio not reviewed"
+  },
+  "sample": "Hola, vamos a dibujar juntos. Prepara papel y un lápiz. Empecemos con una pequeña línea.",
+  "clips": [
+    {
+      "key": "cat/notice/instruction",
+      "text": "Miremos nuestro gato. Una forma grande y redonda contiene la cara, y dos orejitas están arriba. Vamos a formar el dibujo con estas figuras sencillas, una a la vez."
+    },
+    {
+      "key": "cat/notice/hint",
+      "text": "Fíjate dónde se unen las orejas con la cabeza y después busca los ojitos dentro."
+    },
+    {
+      "key": "cat/round-head/instruction",
+      "text": "Empecemos con una cabeza ancha y redonda. Mira cómo mi línea da la vuelta y regresa hacia donde comenzó. Esta figura grande deja espacio dentro para la carita."
+    },
+    {
+      "key": "cat/round-head/hint",
+      "text": "Mueve toda la mano alrededor de la curva. Si queda un espacio abierto, está bien."
+    },
+    {
+      "key": "cat/left-ear/instruction",
+      "text": "Un triángulo pequeño forma nuestra primera oreja. Subimos hasta una punta y bajamos hacia la cabeza. Los gatos pueden girar sus orejas hacia los sonidos. Nuestra oreja dibujada se queda quieta."
+    },
+    {
+      "key": "cat/right-eye/hint",
+      "text": "Busca el lugar al otro lado de tu primer ojo. Los dos ojos no tienen que ser iguales."
+    },
+    {
+      "key": "cat/curved-mouth/instruction",
+      "text": "Mira cómo se unen dos curvitas debajo de la nariz, como una uve doble suave. Estas curvas forman la boca de nuestro dibujo. Puedes darle otra expresión a tu gato."
+    },
+    {
+      "key": "cat/left-whisker-upper/instruction",
+      "text": "Deja que una línea suave salga de la mejilla izquierda. Este es un bigote. Los gatos de verdad usan sus bigotes para sentir objetos cercanos. Nuestras líneas muestran esos pelitos especiales."
+    },
+    {
+      "key": "cat/colour-choice/instruction",
+      "text": "Ahora vamos a darle color a nuestro gato. Yo voy a elegir naranja cálido, rosa y crema, como en un cuento. Elige los colores que te gusten. También puedes dejar partes del papel blancas."
+    },
+    {
+      "key": "cat/colour-fur/instruction",
+      "text": "Mira cómo los trazos suaves van dando color a la mejilla y a la oreja izquierdas. Los trazos pequeños, uno sobre otro, forman una zona de pelaje suave. Voy a dejar libres los ojos y la boca para que podamos verlos."
+    },
+    {
+      "key": "cat/colour-patterns/hint",
+      "text": "Una raya o una mancha puede ser suficiente. Tu gato no necesita un diseño."
+    },
+    {
+      "key": "cat/explore/instruction",
+      "text": "Nuestro gato está listo para tus propias ideas. Tal vez un sombrero, un hogar acogedor o más color. Puedes seguir creando todo el tiempo que quieras o terminar aquí."
+    }
+  ]
+}
