@@ -69,7 +69,7 @@ export const FRENCH_UI = Object.freeze({
   "Preparing": "En préparation",
   "Next, pick your drawing.": "Choisis maintenant ton dessin.",
   "YOUR DRAWING": "TON DESSIN",
-  "Ready to draw together?": "Prêts à dessiner ensemble ?",
+  "Ready to draw together?": "Prêts à dessiner ensemble ?",
   "Paper, a pencil": "Du papier, un crayon",
   " and optional colours": " et des crayons de couleur si vous le souhaitez",
   "I’m the supervising adult. I’ll stay with my child throughout.": "Je suis l’adulte responsable. Je resterai auprès de mon enfant pendant toute la leçon.",
