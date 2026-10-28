@@ -358,7 +358,7 @@ test("all thirty lessons ship matching instruction/hint transcripts and intact r
   const packaged = (
     await readdir(new URL("../public/narration/", import.meta.url))
   ).filter((name) => name.endsWith(".mp3"));
-  const demoIndexes = await Promise.all(["es-ES", "de-DE", "it-IT"].map(async (locale) =>
+  const demoIndexes = await Promise.all(["es-ES", "de-DE", "it-IT", "nl-NL"].map(async (locale) =>
     JSON.parse(await readFile(new URL(`../src/narration-index.${locale}.json`, import.meta.url), "utf8"))));
   if (Object.keys(spanishIndex).length) {
     const spanishManifest = JSON.parse(await readFile(
