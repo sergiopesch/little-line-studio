@@ -1,0 +1,230 @@
+{
+  "locale": "it-IT",
+  "lessonId": "lighthouse",
+  "level": "expert",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "8fc20927501cf5d0f1ddcbe1bc9de4efed7c0610c7f30e401d24cc03805738d3",
+  "title": "Faro sulla costa",
+  "invitation": "Una torre alta accanto a un mare largo.",
+  "objective": "combinare una torre rastremata con una linea di costa e distinguere il primo piano dal mare lontano.",
+  "parentNote": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno.",
+  "simplify": "Usa una torre rettangolare dritta, un tetto e una curva della costa. Lascia fuori strisce, oggetti lontani, fasci e sentiero; un faro può essere molto semplice.",
+  "transfer": "Un altro giorno prova una torre dell’acqua o un mulino a vento in un paesaggio diverso. Osserva base, cima e contatto con il terreno usando una nuova immagine o l’immaginazione.",
+  "colouringLabel": "Piccoli movimenti di pastello, i tuoi colori",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Una luce su una costa tranquilla.",
+      "instruction": "Guarda la base larga della torre e la piccola lanterna sopra.",
+      "spoken": "Il nostro faro di carta sta accanto a un mare tranquillo e immaginario. Guarda la base larga, la cima più stretta e la piccola stanza della lanterna sopra.",
+      "hint": "Confronta la larghezza vicino alla base con la cima più stretta.",
+      "notice": "Guardate l’immagine di un faro. Confrontate la base con la cima e osservate dove la terra incontra l’acqua. Alcune torri sono dritte invece che rastremate; entrambe vanno bene."
+    },
+    "sea-horizon": {
+      "title": "L’orizzonte del mare",
+      "instruction": "Disegna una linea lontana del mare attraverso il lato destro.",
+      "spoken": "Una lunga linea lontana del mare dà inizio alla costa. Lascia libero il lato sinistro per un faro alto, con molto spazio sopra.",
+      "hint": "Tieni la linea del mare vicino alla parte centrale superiore del foglio.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "coastline": {
+      "title": "La linea della costa",
+      "instruction": "Curva la costa, sollevando la matita per lasciare un piccolo spazio per una roccia.",
+      "spoken": "Curva la costa attraverso la parte inferiore del disegno. Solleva la matita per un piccolo spazio dove può stare una roccia facoltativa in primo piano, invece di disegnare attraverso di essa.",
+      "hint": "Lascia che una curva libera cambi direzione lungo la parte inferiore del foglio.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "tower-left-edge": {
+      "title": "Il lato sinistro della torre",
+      "instruction": "Inclina dolcemente verso l’interno il lato sinistro della torre mentre sale.",
+      "spoken": "Comincia dal bordo sinistro della torre. Lascialo inclinare un po’ verso l’interno mentre sale, così il faro sarà più largo vicino al terreno.",
+      "hint": "Comincia in basso e lascia che la linea si inclini leggermente a destra.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "tower-right-edge": {
+      "title": "Il lato destro della torre",
+      "instruction": "Inclina l’altro lato verso l’interno, verso la cima stretta.",
+      "spoken": "L’altro lato si inclina nella direzione opposta. Confronta lo spazio stretto in cima con quello più largo sotto.",
+      "hint": "Lascia che il bordo destro si inclini leggermente a sinistra mentre sale.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "tower-base": {
+      "title": "La base della torre",
+      "instruction": "Arrotonda una curva delicata attraverso il bordo inferiore della torre.",
+      "spoken": "Una piccola base curva unisce i lati inferiori. Questa curva delicata aiuta la torre a sembrare arrotondata invece che un triangolo piatto.",
+      "hint": "Unisci le estremità inferiori della torre con una curva poco profonda.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "lantern-platform": {
+      "title": "La piattaforma della lanterna",
+      "instruction": "Aggiungi una piccola piattaforma larga sulla cima della torre.",
+      "spoken": "Una piccola piattaforma piatta sta sulla cima della torre. Lascia che le estremità sporgano un po’ oltre i bordi della torre stretta.",
+      "hint": "Usa un rettangolo sottile e largo sulla cima della torre.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "lantern-room": {
+      "title": "La stanza della lanterna",
+      "instruction": "Metti una piccola stanza rettangolare della lanterna sopra la piattaforma.",
+      "spoken": "Una piccola stanza della lanterna sta sopra la piattaforma. Tienila molto più piccola della torre, così la forma alta resta ben visibile.",
+      "hint": "Quattro lati corti creano la piccola stanza sopra la piattaforma.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "lantern-roof": {
+      "title": "Il tetto della lanterna",
+      "instruction": "Fai salire un tetto basso a punta sopra la stanza della lanterna.",
+      "spoken": "Due linee inclinate creano un tetto basso a punta. Le estremità inferiori sono un po’ più larghe della stanza della lanterna.",
+      "hint": "Sali fino a una punta, poi scendi con una linea inclinata.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "lantern-divider": {
+      "title": "La divisione della lanterna",
+      "instruction": "Dividi la stanza della lanterna con una linea verticale sottile.",
+      "spoken": "Una linea verticale sottile suggerisce due vetri nella stanza della lanterna.",
+      "hint": "Tieni questa piccola linea dentro la stanzetta in alto.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "lighthouse-door": {
+      "title": "La porta del faro",
+      "instruction": "Arrotonda una porta ad arco dentro la base della torre.",
+      "spoken": "Una piccola porta ad arco sta vicino alla base. Lascia spazio tra la porta e i lati inclinati della torre.",
+      "hint": "Sali, arrotonda un piccolo arco e scendi di nuovo.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "tower-upper-stripe": {
+      "title": "Il bordo superiore della striscia",
+      "instruction": "Curva delicatamente un bordo di striscia intorno alla torre.",
+      "spoken": "Se vuoi una striscia, curva delicatamente il suo bordo intorno alla torre. La curva segue la superficie arrotondata; va bene anche una torre semplice.",
+      "hint": "Lascia che la striscia scenda un poco al centro.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "tower-lower-stripe": {
+      "title": "Il bordo inferiore della striscia",
+      "instruction": "Se hai aggiunto il bordo superiore, provala anche sotto.",
+      "spoken": "Se hai aggiunto il bordo superiore della striscia, curva un altro sotto. Lascia spazio tra loro per il colore oppure mantieni semplice la torre.",
+      "hint": "Segui sotto un bordo superiore solo se lo hai aggiunto.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "light-beam-upper": {
+      "title": "Il bordo superiore del fascio di luce",
+      "instruction": "Lascia uscire una lunga linea dalla lanterna.",
+      "spoken": "Una lunga linea facoltativa dalla lanterna suggerisce un fascio di luce immaginario. Possiamo mostrarne la direzione nel disegno oppure lasciare aperto il cielo.",
+      "hint": "Comincia dalla lanterna e lascia andare una lunga linea verso destra.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "light-beam-lower": {
+      "title": "Il bordo inferiore del fascio di luce",
+      "instruction": "Se hai disegnato il bordo superiore del fascio, prova uno sotto.",
+      "spoken": "Se hai disegnato il bordo superiore, una seconda linea può aprirsi sotto. Altrimenti lascia fuori il fascio o mantieni aperto il cielo.",
+      "hint": "Se hai aggiunto il bordo superiore, allarga lo spazio verso destra.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "coastal-rock": {
+      "title": "La roccia sulla costa",
+      "instruction": "Se vuoi, chiudi una piccola roccia irregolare vicino alla costa.",
+      "spoken": "Alcuni lati corti e irregolari creano una roccia sulla costa. Cambiare un poco i lati aiuta a distinguerla dalla torre costruita con cura.",
+      "hint": "Unisci alcuni lati corti e irregolari, poi arrotonda il bordo inferiore.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "near-wave": {
+      "title": "L’onda vicina",
+      "instruction": "Curva una piccola onda vicina sulla destra.",
+      "spoken": "Se vuoi, una piccola curva che sale e scende può suggerire un’onda vicina.",
+      "hint": "Lascia che una piccola curva salga e torni giù.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "far-wave": {
+      "title": "L’onda lontana",
+      "instruction": "Usa una curva più corta per un’onda più lontana.",
+      "spoken": "Puoi aggiungere un’onda più piccola vicino al mare lontano oppure lasciare tranquilla l’acqua.",
+      "hint": "Fai una curva corta e bassa più in alto nel disegno.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "coastal-cloud": {
+      "title": "La nuvola della costa",
+      "instruction": "Se vuoi, aggiungi una piccola nuvola morbida nel cielo libero.",
+      "spoken": "Una nuvola morbida può stare nel cielo aperto. Bastano poche curve arrotondate; possiamo lasciare molto cielo come carta.",
+      "hint": "Unisci curve arrotondate e chiudi il bordo inferiore della nuvola.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "distant-boat": {
+      "title": "La barca lontana",
+      "instruction": "Se vuoi, metti una piccola barca curva vicino all’orizzonte.",
+      "spoken": "Una piccola barca curva sta lontano vicino all’orizzonte. Tienila piccola, così sembra lontana accanto al faro molto più grande.",
+      "hint": "Usa un piccolo scafo curvo sotto la linea del mare lontano.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "lighthouse-path": {
+      "title": "Il sentiero del faro",
+      "instruction": "Lascia che un sentiero libero curvi verso la porta del faro.",
+      "spoken": "Un sentiero libero facoltativo può portare verso la porta. Lascialo curvare attraverso la terra oppure lascia il faro sulla carta aperta.",
+      "hint": "Curva dalla parte inferiore del foglio verso la piccola porta.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    },
+    "colour-choice": {
+      "title": "Una tavolozza a strisce per la costa.",
+      "instruction": "Scegli rosso caldo, giallo per la lanterna e un po’ di grigio freddo.",
+      "spoken": "Lascerò la maggior parte della torre bianca come la carta, aggiungerò una fascia rosso caldo e darò alla lanterna un bagliore giallo delicato.",
+      "hint": "La carta bianca può essere uno dei colori principali del tuo disegno.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-tower-band": {
+      "title": "Una striscia intorno alla torre.",
+      "instruction": "Colora tra i bordi della striscia oppure lascia bianca la torre.",
+      "spoken": "Se hai disegnato entrambi i bordi della striscia, colora tra loro con piccole zone rosse. Puoi anche lasciare bianca la torre.",
+      "hint": "Se hai disegnato entrambi i bordi, usa tratti brevi tra loro.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-lantern": {
+      "title": "Una piccola lanterna calda.",
+      "instruction": "Colora i piccoli vetri di giallo e il tetto di rosso caldo.",
+      "spoken": "Gli spazi della lanterna sono piccoli, quindi accorcio ogni movimento. Un po’ di giallo e un tetto rosso bastano per distinguerli.",
+      "hint": "Spazi piccolissimi richiedono piccoli movimenti e pressione delicata.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-coastal-details": {
+      "title": "Una roccia, una porta e una barca lontana.",
+      "instruction": "Usa piccole zone di colori naturali per i dettagli della costa.",
+      "spoken": "Puoi colorare i dettagli della costa che hai incluso: roccia grigia, porta marrone o piccola barca. Alla piccola barca lontana basta un tocco.",
+      "hint": "Lascia che la dimensione di ogni spazio guidi quella del movimento.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-tower-shadow": {
+      "title": "Un accenno leggero d’ombra.",
+      "instruction": "Se vuoi, rendi più scura una striscia stretta su un lato della torre.",
+      "spoken": "Una striscia grigio chiaro su un lato può suggerire un’ombra accanto alla carta bianca. È una piccola idea in più e puoi lasciarla fuori.",
+      "hint": "Usa uno strato leggero; la torre può restare quasi tutta bianca.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflect": {
+      "title": "Una torre che sembra arrotondata.",
+      "instruction": "Guarda la base curva e l’eventuale striscia o ombra che hai aggiunto.",
+      "spoken": "Guarda la base curva della torre. Anche una striscia curva o un lato grigio chiaro che hai aggiunto possono aiutare il disegno piatto a suggerire una torre arrotondata.",
+      "hint": "Guarda la base curva o un piccolo cambio di colore che hai scelto.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "La tua costa immaginaria.",
+      "instruction": "Continua a colorare o aggiungi qualcosa di piccolo lungo la costa disegnata.",
+      "spoken": "Puoi aggiungere un’altra barca lontana, cambiare il colore della striscia o lasciare il mare tranquillo e aperto. Continua oppure finisci qui il disegno del faro.",
+      "hint": "Tieni piccoli i dettagli lontani, così il faro resta la forma principale.",
+      "notice": "Invita il bambino o la bambina a indicare terra e mare nell’esempio. Se richiesto, mostra su un foglio a parte due linee che si inclinano l’una verso l’altra. Spiega che le linee del fascio di luce sono una convenzione del disegno, non qualcosa che deve apparire alla luce del giorno."
+    }
+  }
+}

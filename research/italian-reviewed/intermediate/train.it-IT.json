@@ -1,0 +1,223 @@
+{
+  "locale": "it-IT",
+  "lessonId": "train",
+  "level": "intermediate",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "c7fc86087e70dd347dd83fff5d392f7e859d9a67a511874ca68385fc15ef8764",
+  "title": "Locomotiva giocattolo",
+  "invitation": "Ruote e forme che lavorano insieme.",
+  "objective": "combinare parti del corpo dall’aspetto sovrapposto, ruote circolari e una linea di sostegno comune per suggerire un veicolo giocattolo.",
+  "parentNote": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia.",
+  "simplify": "",
+  "transfer": "Un altro giorno prova un autobus giocattolo. Riutilizza ruote e corpo lungo, poi decidi quali parti della locomotiva lasciare fuori.",
+  "colouringLabel": "Piccoli tratti, colori scelti con cura",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un viaggio immaginario in ferrovia.",
+      "instruction": "Guarda le ruote rotonde sotto le forme lunghe e squadrate.",
+      "spoken": "La nostra locomotiva di carta è pronta per un viaggio in ferrovia inventato. Guarda la cabina squadrata, la lunga caldaia arrotondata e le ruote sotto.",
+      "hint": "Confronta le forme lunghe della locomotiva con le ruote rotonde.",
+      "notice": "Guardate la nostra locomotiva giocattolo. Quali parti stanno sopra le ruote?"
+    },
+    "train-base": {
+      "title": "La base della locomotiva",
+      "instruction": "Disegna un rettangolo lungo e basso per la base.",
+      "spoken": "Un rettangolo lungo forma la base. Lascia spazio sopra per la locomotiva e sotto per due ruote rotonde.",
+      "hint": "Fai questo rettangolo molto più largo che alto.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-cab": {
+      "title": "La cabina della locomotiva",
+      "instruction": "Costruisci una cabina squadrata sopra un’estremità.",
+      "spoken": "La cabina alta sale sopra un’estremità della base. Fermo il suo bordo più lontano dove incontrerà la caldaia arrotondata.",
+      "hint": "Metti questa scatola alta sopra un’estremità della lunga base.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-boiler": {
+      "title": "La caldaia della locomotiva",
+      "instruction": "Sistema una caldaia lunga e arrotondata accanto alla cabina.",
+      "spoken": "Un ovale lungo si allunga lungo la base accanto alla cabina. Il suo bordo arrotondato sta davanti all’angolo inferiore della cabina.",
+      "hint": "Confronta questo ovale lungo e basso con la cabina più alta.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-front-wheel": {
+      "title": "La ruota anteriore",
+      "instruction": "Metti una ruota rotonda sotto la parte davanti.",
+      "spoken": "Una ruota rotonda tocca la parte sotto della base. La sua cima entra un po’ nella base, creando un collegamento invece di un cerchio sospeso.",
+      "hint": "Lascia che il bordo superiore della ruota tocchi la base della locomotiva.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-back-wheel": {
+      "title": "La ruota posteriore",
+      "instruction": "Aggiungi una ruota simile sotto la cabina.",
+      "spoken": "L’altra ruota va sotto la cabina. Confronta i due bordi inferiori, così la locomotiva può poggiare su un binario piano.",
+      "hint": "Guarda il fondo della prima ruota prima di posizionare questa.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-front-hub": {
+      "title": "Il mozzo anteriore",
+      "instruction": "Metti un piccolo cerchio dentro la ruota anteriore.",
+      "spoken": "Un cerchio più piccolo sta vicino al centro della ruota anteriore. Lasciare spazio intorno crea un bordo ben visibile.",
+      "hint": "Tieni questo cerchio molto più piccolo della ruota che lo circonda.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-back-hub": {
+      "title": "Il mozzo posteriore",
+      "instruction": "Aggiungi un piccolo mozzo dentro l’altra ruota.",
+      "spoken": "Un altro piccolo cerchio va dentro la ruota posteriore. La ruota grande e il piccolo mozzo ripetono un’idea che conosciamo già.",
+      "hint": "Trova il centro del secondo grande cerchio della ruota.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-wheel-link": {
+      "title": "Il collegamento tra le ruote",
+      "instruction": "Unisci i centri delle ruote con una lunga linea.",
+      "spoken": "Una linea collega i due piccoli mozzi. Guardare da una ruota all’altra mi aiuta a scegliere la direzione.",
+      "hint": "Comincia da un piccolo mozzo e dirigiti verso l’altro.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-window": {
+      "title": "Il finestrino della cabina",
+      "instruction": "Disegna un piccolo finestrino dentro la cabina.",
+      "spoken": "Un piccolo rettangolo sta in alto dentro la cabina. Lascia un bordo di carta intorno, così la scatola resta ben visibile.",
+      "hint": "Tieni questo piccolo finestrino sopra la caldaia arrotondata.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-cab-roof": {
+      "title": "Il tetto della cabina",
+      "instruction": "Allunga una breve linea del tetto sopra la cabina.",
+      "spoken": "Una linea va un po’ oltre la cabina su entrambi i lati. Queste piccole sporgenze distinguono il tetto dal finestrino sotto.",
+      "hint": "Segui la cima della cabina e allungati un po’ oltre.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-chimney": {
+      "title": "Il fumaiolo della locomotiva",
+      "instruction": "Metti uno stretto fumaiolo sopra la caldaia.",
+      "spoken": "Un rettangolo alto e stretto incontra la parte superiore della caldaia. La sua larghezza ridotta ci aiuta a vedere quanto è lunga e larga la caldaia.",
+      "hint": "Tieni il fumaiolo stretto accanto alle grandi forme della locomotiva.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-front-slope": {
+      "title": "La pendenza davanti",
+      "instruction": "Inclina una linea corta verso il basso dalla parte davanti.",
+      "spoken": "Una breve linea inclinata scende oltre la parte davanti della locomotiva. Lascia visibile la ruota vicina mentre la posizioni.",
+      "hint": "Comincia dall’estremità davanti della lunga base.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-front-base": {
+      "title": "La base davanti",
+      "instruction": "Unisci quella piccola linea inclinata di nuovo alla base.",
+      "spoken": "Un’altra linea corta torna alla base. Le due linee creano una piccola parte appuntita davanti.",
+      "hint": "Riporta la punta esterna al bordo inferiore della locomotiva.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-boiler-face": {
+      "title": "Il bordo davanti della caldaia",
+      "instruction": "Curva una breve linea vicino alla parte davanti della caldaia.",
+      "spoken": "Una curva corta segue la caldaia vicino alla parte davanti. Suggerisce un’estremità rotonda senza aggiungere un altro ovale lungo intero.",
+      "hint": "Tieni questa curva dentro la forma arrotondata della caldaia.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-front-lamp": {
+      "title": "Il fanale anteriore",
+      "instruction": "Metti un piccolo fanale rotondo vicino alla parte davanti.",
+      "spoken": "Un piccolo cerchio sta vicino alla parte davanti. Le sue dimensioni ridotte lasciano alle grandi parti della locomotiva il ruolo principale nel disegno.",
+      "hint": "Lascia un po’ di carta intorno al piccolo cerchio del fanale.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-coupling": {
+      "title": "Il gancio posteriore",
+      "instruction": "Prova un piccolo gancio di collegamento dietro.",
+      "spoken": "Una piccola curva può uscire dal retro della base. La nostra locomotiva immaginaria può viaggiare con o senza questo gancio in più.",
+      "hint": "Comincia dal bordo posteriore e piega la linea lì vicino.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-first-puff": {
+      "title": "Il primo sbuffo",
+      "instruction": "Prova un piccolo sbuffo da fiaba sopra il fumaiolo.",
+      "spoken": "Curve arrotondate possono creare uno sbuffo immaginario nel nostro cielo da fiaba. Lascia un po’ di carta tra lo sbuffo e il fumaiolo.",
+      "hint": "Unisci curve morbide intorno a un piccolo spazio sopra il fumaiolo.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-second-puff": {
+      "title": "Il secondo sbuffo",
+      "instruction": "Se vuoi, prova uno sbuffo da fiaba più in alto.",
+      "spoken": "Un altro sbuffo morbido può fluttuare più in alto sopra il fumaiolo. Nella nostra ferrovia immaginaria puoi disegnarne uno, diversi o nessuno.",
+      "hint": "Tieni questa forma facoltativa nel cielo sopra il fumaiolo.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-upper-rail": {
+      "title": "Il binario superiore",
+      "instruction": "Disegna una lunga linea ferroviaria sotto le ruote.",
+      "spoken": "Una lunga linea sta appena sotto entrambe le ruote. Confrontare i loro bordi inferiori mi aiuta a posizionare la ferrovia sotto la locomotiva.",
+      "hint": "Dirigiti sotto entrambe le ruote invece di attraversarne il centro.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "train-lower-rail": {
+      "title": "Il binario inferiore",
+      "instruction": "Aggiungi un’altra linea ferroviaria un po’ più in basso.",
+      "spoken": "Una seconda linea segue sotto la prima. Mantengo uno spazio stretto tra i binari mentre attraversano il foglio.",
+      "hint": "Lascia che queste linee lunghe vadano nella stessa direzione.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    },
+    "colour-choice": {
+      "title": "Colori per la nostra piccola locomotiva.",
+      "instruction": "Scegli i colori della locomotiva e uno strato inferiore più scuro.",
+      "spoken": "Scelgo una locomotiva verde, una base rossa e ruote grigie. Un verde più scuro può creare una piccola zona d’ombra sulla caldaia arrotondata.",
+      "hint": "Metti da parte un colore chiaro per la locomotiva e una sfumatura più scura.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-engine": {
+      "title": "Verde sulle forme della locomotiva.",
+      "instruction": "Colora la locomotiva senza coprire il finestrino.",
+      "spoken": "Zone verdi vanno intorno al finestrino della cabina e sulla caldaia. Sollevo il pastello prima del finestrino e ricomincio in uno spazio libero.",
+      "hint": "Tratti brevi aiutano a mantenere visibile il bordo del piccolo finestrino.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-base-and-wheels": {
+      "title": "Rosso sotto e ruote rotonde grigie.",
+      "instruction": "Colora separatamente la base e ciascuna ruota.",
+      "spoken": "Il rosso va dentro la lunga base e il grigio sulle ruote. Sollevo il pastello tra le forme, così queste parti diverse restano facili da vedere.",
+      "hint": "Una ruota rotonda può avere piccole zone di colore curve al suo interno.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-glass-and-shadow": {
+      "title": "Un po’ di vetro e ombra.",
+      "instruction": "Aggiungi vetro chiaro e una parte inferiore più scura alla caldaia.",
+      "spoken": "Un po’ di azzurro suggerisce il vetro del finestrino. Uno strato verde più scuro vicino al bordo inferiore della caldaia aiuta la sua forma lunga a sembrare arrotondata.",
+      "hint": "Lascia visibili accanto alla zona più scura un po’ di carta e del primo colore.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-reflection": {
+      "title": "La nostra locomotiva sul binario.",
+      "instruction": "Guarda le ruote allineate sotto le forme collegate della locomotiva.",
+      "spoken": "Le ruote rotonde sostengono forme lunghe e squadrate. Questo piccolo treno di carta può seguire un viaggio in ferrovia inventato da te.",
+      "hint": "Guarda la differenza tra una ruota e la lunga base.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "explore": {
+      "title": "Dove potrebbe viaggiare il tuo treno?",
+      "instruction": "Inventa una stazione, aggiungi un vagone oppure finisci.",
+      "spoken": "La tua locomotiva potrebbe visitare una stazione inventata o trainare un altro vagone di carta. Continua a disegnare, continua a colorare oppure finisci qui il viaggio.",
+      "hint": "Prova a unire ruote rotonde sotto una forma lunga diversa.",
+      "notice": "Se richiesto, confronta nell’esempio la cabina alta, la base lunga e le ruote rotonde. Mostra una relazione sul tuo foglio invece di chiedere di ricordare il nome di ogni parte. Questa è una locomotiva giocattolo stilizzata; lo sbuffo è un dettaglio facoltativo per la storia."
+    }
+  }
+}

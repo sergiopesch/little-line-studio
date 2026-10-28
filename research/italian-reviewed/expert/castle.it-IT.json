@@ -1,0 +1,230 @@
+{
+  "locale": "it-IT",
+  "lessonId": "castle",
+  "level": "expert",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "1ce332b344819f05637dd02e757b865cf669cb8be5d31be2b01faae5c04d1589",
+  "title": "Castello con ponte levatoio",
+  "invitation": "Torri, un cancello e un ponte.",
+  "objective": "disporre edifici collegati e usare la forma di un ponte sporgente per esplorare la profondità.",
+  "parentNote": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica.",
+  "simplify": "Disegna un muro, una torre, un arco e un ponte rettangolare. Tralascia catene, fossato, tetti e dettagli decorativi a piacere. Anche una vista piatta comunica l’idea di un castello.",
+  "transfer": "Un altro giorno disegna un cancello da giardino con un sentiero che vi conduce. Prova un bordo vicino e uno lontano in quel nuovo luogo senza il modello del castello.",
+  "colouringLabel": "Piccoli movimenti di pastello, i tuoi colori",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Attraverso il ponte da fiaba.",
+      "instruction": "Guarda due torri alte e un ponte che si allarga verso di noi.",
+      "spoken": "Il nostro castello da fiaba ha due torri e un ponte accogliente. Ripeteremo alcune forme, poi lasceremo che il ponte si allarghi verso di noi.",
+      "hint": "Guarda le torri simili e l’estremità vicina più larga del ponte.",
+      "notice": "Guardate nell’esempio dove si incontrano cancello e ponte. Osservate il bordo lontano del ponte al cancello e quello vicino più largo. Le torri possono essere diverse; non è necessario che le due metà coincidano."
+    },
+    "central-wall": {
+      "title": "Il muro centrale",
+      "instruction": "Disegna un muro rettangolare largo al centro.",
+      "spoken": "Comincia con un muro largo al centro. Lascia spazio sui due lati per torri più alte e sotto per il nostro ponte di legno.",
+      "hint": "Quattro lati uniti creano la forma del muro centrale.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "left-tower": {
+      "title": "La torre sinistra",
+      "instruction": "Aggiungi una torre più alta e stretta accanto al muro sinistro.",
+      "spoken": "Metti un rettangolo più alto e stretto accanto al muro sinistro. Confrontare la sua altezza con il muro dà al castello una sagoma ben visibile.",
+      "hint": "Fai questa torre più alta e stretta del muro centrale.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "right-tower": {
+      "title": "La torre destra",
+      "instruction": "Ripeti una torre alta sul lato destro.",
+      "spoken": "Aggiungi la torre dall’altro lato. Confronta la sua altezza con la prima, ma piccole differenze vanno bene in un castello da fiaba disegnato a mano.",
+      "hint": "Usa la prima torre come guida indicativa per l’altezza.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "left-tower-roof": {
+      "title": "Il tetto della torre sinistra",
+      "instruction": "Fai salire un tetto a punta sopra la torre sinistra.",
+      "spoken": "Due linee inclinate si incontrano sopra la torre sinistra per formare un tetto a punta. Lascia che le estremità inferiori sporgano un poco oltre i lati della torre.",
+      "hint": "Sali fino a una punta, poi scendi inclinando la linea dall’altro lato.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "right-tower-roof": {
+      "title": "Il tetto della torre destra",
+      "instruction": "Aggiungi un altro tetto a punta sopra la torre destra.",
+      "spoken": "Ripeti un tetto a punta sopra la torre destra usando lo stesso semplice movimento in su e in giù.",
+      "hint": "Lascia che entrambe le estremità del tetto superino i lati della torre.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "arched-gate": {
+      "title": "Il cancello ad arco",
+      "instruction": "Arrotonda una porta ad arco dentro il muro centrale.",
+      "spoken": "Un cancello ad arco comincia con un lato dritto, gira intorno a una cima arrotondata e scende di nuovo. Lascia spazio intorno dentro il muro.",
+      "hint": "Sali, arrotonda la cima e scendi fino al terreno.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "bridge-left-edge": {
+      "title": "Il lato sinistro del ponte",
+      "instruction": "Inclina un bordo del ponte verso l’esterno e verso il basso.",
+      "spoken": "Lascia che il bordo sinistro del ponte si inclini verso di noi. L’estremità vicina del ponte sarà più larga di quella che incontra il castello.",
+      "hint": "Comincia dal cancello e scendi inclinando la linea verso sinistra.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "bridge-right-edge": {
+      "title": "Il lato destro del ponte",
+      "instruction": "Lascia che l’altro bordo del ponte si inclini verso destra.",
+      "spoken": "L’altro lato si inclina verso l’esterno nella direzione opposta. Questi bordi che si allargano aiutano il ponte a sembrare avanzare sulla carta piatta.",
+      "hint": "Lascia uno spazio più largo tra i bordi vicino alla parte inferiore.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "bridge-near-edge": {
+      "title": "Il bordo vicino del ponte",
+      "instruction": "Unisci l’estremità larga e vicina del ponte.",
+      "spoken": "Unisci l’estremità larga in basso per chiudere il ponte.",
+      "hint": "Collega le due estremità inferiori del ponte con una linea.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "first-bridge-plank": {
+      "title": "La prima asse del ponte",
+      "instruction": "Aggiungi una linea corta per un’asse vicino al castello.",
+      "spoken": "Una linea corta attraverso la parte più stretta dà inizio alle assi di legno.",
+      "hint": "Tieni questa asse dentro i due bordi laterali del ponte.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "second-bridge-plank": {
+      "title": "La seconda asse del ponte",
+      "instruction": "Fai una linea più lunga per un’asse più vicina a noi.",
+      "spoken": "Questa asse vicina è più lunga perché il ponte qui è più largo. La linea ripetuta segue il cambiamento nella forma del ponte.",
+      "hint": "Confronta questa asse più lunga con quella più corta e lontana.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "moat-left": {
+      "title": "Il fossato a sinistra",
+      "instruction": "Curva una linea d’acqua accanto al ponte sulla sinistra.",
+      "spoken": "Una curva d’acqua delicata accanto al ponte suggerisce un fossato da fiaba. Fermati prima di disegnare attraverso la forma di legno del ponte.",
+      "hint": "Lascia che la curva dell’acqua incontri il lato sinistro del ponte.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "moat-right": {
+      "title": "Il fossato a destra",
+      "instruction": "Aggiungi una curva d’acqua anche sul lato destro.",
+      "spoken": "Un’altra curva d’acqua compare dall’altro lato. Il ponte sta davanti e nasconde l’acqua direttamente sotto.",
+      "hint": "Lascia libero il ponte tra le due curve dell’acqua.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "left-tower-window": {
+      "title": "La finestra della torre sinistra",
+      "instruction": "Se vuoi, aggiungi una piccola finestra ad arco nella torre sinistra.",
+      "spoken": "Un piccolo arco crea una finestra nella torre sinistra. Usa l’idea della cima arrotondata del cancello su una scala molto più piccola.",
+      "hint": "Fai un piccolo arco con lati corti dentro la torre.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "right-tower-window": {
+      "title": "La finestra della torre destra",
+      "instruction": "Se vuoi, ripeti una piccola finestra nella torre destra.",
+      "spoken": "Puoi ripetere la piccola finestra ad arco nella torre destra oppure lasciarla semplice.",
+      "hint": "Confronta la piccola finestra con lo spazio intorno.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "castle-flagpole": {
+      "title": "L’asta della bandiera",
+      "instruction": "Fai salire una sottile asta sopra il tetto sinistro.",
+      "spoken": "Se vuoi una bandiera, una sottile asta può salire sopra il tetto sinistro.",
+      "hint": "Comincia dalla punta del tetto e disegna una linea corta verso l’alto.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "castle-flag": {
+      "title": "La bandiera del castello",
+      "instruction": "Se vuoi, aggiungi una piccola bandiera a punta sopra il tetto sinistro.",
+      "spoken": "Se hai aggiunto un’asta, due linee inclinate possono creare una piccola bandiera accanto. Altrimenti lascia fuori questa decorazione in più.",
+      "hint": "Vai verso una punta e poi torna all’asta.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "left-lifting-chain": {
+      "title": "La catena sinistra",
+      "instruction": "Disegna una linea sottile per una catena accanto al ponte.",
+      "spoken": "Puoi aggiungere una linea sottile dal cancello verso l’angolo del ponte. Nella nostra storia suggerisce una catena per il ponte levatoio.",
+      "hint": "Unisci il lato sinistro del cancello verso l’angolo sinistro del ponte.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "right-lifting-chain": {
+      "title": "La catena destra",
+      "instruction": "Aggiungi la seconda linea sottile accanto all’altro bordo del ponte.",
+      "spoken": "Una seconda linea facoltativa per la catena può seguire l’altro lato. Puoi anche lasciarle fuori entrambe e mantenere un semplice ponte di legno.",
+      "hint": "Unisci il lato destro del cancello verso l’angolo destro del ponte.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "castle-stone": {
+      "title": "La pietra del castello",
+      "instruction": "Se vuoi, suggerisci una pietra rettangolare dentro il muro.",
+      "spoken": "Un piccolo rettangolo suggerisce una pietra nel muro. Non dobbiamo disegnare ogni pietra per far sembrare il muro costruito con pezzi.",
+      "hint": "Tieni un piccolo rettangolo dentro la forma più grande del muro.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    },
+    "colour-choice": {
+      "title": "Colori per un castello da fiaba.",
+      "instruction": "Scegli grigio pietra, tetti caldi e un colore per il ponte di legno.",
+      "spoken": "Userò pietra grigia delicata, tetti rosso caldo e legno marrone. Il tuo castello da fiaba può avere colori tutti suoi e una piccola bandiera vivace.",
+      "hint": "Scegli un colore per il muro e uno diverso per il tetto.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-stone-walls": {
+      "title": "Piccole zone di pietra.",
+      "instruction": "Lavora in piccole zone grigie intorno a muri e torri.",
+      "spoken": "Creo zone grigio chiaro, una piccola area alla volta. Lascio spazio intorno alla porta e alle finestre, così le aperture restano ben visibili.",
+      "hint": "Muoviti intorno alle piccole aperture, poi solleva il pastello prima di ricominciare lì vicino.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-pointed-roofs": {
+      "title": "Spazi dei tetti a punta.",
+      "instruction": "Accorcia i movimenti caldi del pastello verso ogni punta del tetto.",
+      "spoken": "I miei movimenti rosso caldo diventano più brevi vicino ai tetti a punta. Mi fermo dentro il bordo invece di cercare di spingere il colore nella punta.",
+      "hint": "Movimenti più piccoli stanno nella forma del tetto che si restringe.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-wooden-bridge": {
+      "title": "Legno che arriva verso di noi.",
+      "instruction": "Usa piccole zone marroni sul cancello e sul ponte.",
+      "spoken": "Coloro cancello e ponte con zone marroni calde. Le linee delle assi restano visibili e aiutano a vedere l’estremità vicina più larga del ponte.",
+      "hint": "Tieni le zone marroni dentro il ponte e tra i suoi bordi.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-castle-light": {
+      "title": "Piccole finestre e ombra.",
+      "instruction": "Se vuoi, aggiungi finestre azzurre, una bandiera gialla e un’ombra delicata.",
+      "spoken": "Se hai incluso finestre o una bandiera, piccoli tocchi azzurri e gialli possono completarli. Uno strato leggero sul bordo della torre è un altro suggerimento facoltativo d’ombra.",
+      "hint": "Colora le finestre che hai incluso oppure prova uno strato delicato sul bordo della torre.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflect": {
+      "title": "Un ponte con profondità.",
+      "instruction": "Confronta l’estremità stretta del ponte al castello con quella larga e vicina.",
+      "spoken": "Guarda dal cancello verso l’estremità larga del ponte. I lati che si allargano e l’asse vicina più lunga aiutano il ponte da fiaba ad avanzare sulla carta.",
+      "hint": "Confronta le lunghezze delle due assi o segui i bordi che si allargano.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "Una storia oltre il cancello.",
+      "instruction": "Continua a colorare o immagina un visitatore per il tuo castello.",
+      "spoken": "Potresti progettare un’altra bandiera, aggiungere un piccolo visitatore o immaginare un giardino oltre il cancello. Continua la tua storia oppure finisci qui il castello.",
+      "hint": "Prova un piccolo dettaglio della storia senza coprire il ponte.",
+      "notice": "Confrontate la larghezza vicina e quella lontana del ponte nell’esempio dell’insegnante. Se utile, una striscia di carta può mostrare un ponte su una superficie separata. Chiedi come funziona il cancello immaginato dal bambino o dalla bambina; non imporre precisione ingegneristica."
+    }
+  }
+}

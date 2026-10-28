@@ -1,0 +1,216 @@
+{
+  "locale": "it-IT",
+  "lessonId": "dog",
+  "level": "intermediate",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "be87cb26bfecf09fc5b5f37618e73b3a5791f98567edde3ae653e3f701263ffe",
+  "title": "Cane seduto",
+  "invitation": "Unisci le forme per un cucciolo seduto.",
+  "objective": "collegare testa, corpo e arti di sostegno per suggerire una posizione seduta; posizionare piccoli dettagli del viso dentro una forma più grande.",
+  "parentNote": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali.",
+  "simplify": "",
+  "transfer": "Un altro giorno, proponi un coniglio seduto con testa, corpo e zampe, ma orecchie diverse. Comincia senza l’esempio del cane; offri aiuto se richiesto.",
+  "colouringLabel": "Piccoli tratti, colori scelti con cura",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un cucciolo al parco.",
+      "instruction": "Guarda la testa sopra le zampe del cucciolo seduto.",
+      "spoken": "Il nostro cucciolo da fiaba aspetta in un parco di carta. Guarda la testa larga, le orecchie pendenti e il corpo sotto.",
+      "hint": "Osserva le forme grandi prima dei piccoli dettagli.",
+      "notice": "Guardate il cane seduto nell’esempio. Quale parte è più in alto: la testa o le zampe?"
+    },
+    "dog-head": {
+      "title": "La testa del cane",
+      "instruction": "Disegna un ovale largo per la testa del cucciolo.",
+      "spoken": "Comincia con un ovale largo, lasciando più carta sotto che sopra. Quello spazio conterrà il corpo del cucciolo seduto.",
+      "hint": "Una testa arrotondata ha bisogno di spazio sotto per il corpo.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-left-ear": {
+      "title": "L’orecchio sinistro del cane",
+      "instruction": "Curva un orecchio pendente accanto al lato sinistro.",
+      "spoken": "Curva verso l’esterno, scendi e torna accanto alla testa. Questo orecchio pende più in basso della cima del viso.",
+      "hint": "Riporta la curva dell’orecchio al lato della testa.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-right-ear": {
+      "title": "L’orecchio destro del cane",
+      "instruction": "Aggiungi l’altro orecchio pendente dall’altro lato della testa.",
+      "spoken": "Aggiungi un’altra curva pendente dall’altro lato. Guarda le sue dimensioni accanto al primo orecchio; possono essere diverse.",
+      "hint": "Guarda dall’altra parte della testa per posizionare il secondo orecchio.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-body": {
+      "title": "Il corpo del cane",
+      "instruction": "Disegna un corpo più alto e curvo sotto la testa.",
+      "spoken": "Il corpo comincia dietro la testa. Lascio fuori il bordo superiore nascosto, così la testa sta davanti.",
+      "hint": "Comincia sotto la testa e curva intorno a una forma più alta.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-left-leg": {
+      "title": "La zampa anteriore sinistra",
+      "instruction": "Disegna una zampa anteriore verso il basso, fino ai piedini.",
+      "spoken": "Una lunga linea scende dentro il corpo. Lascia un po’ di spazio sotto per un piedino arrotondato.",
+      "hint": "Comincia dentro il corpo e vai verso la parte inferiore.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-right-leg": {
+      "title": "La zampa anteriore destra",
+      "instruction": "Lascia uno spazio accanto all’altra zampa anteriore.",
+      "spoken": "Disegna l’altra zampa anteriore di fronte alla prima. Lo spazio tra le due linee aiuta a separare le zampe.",
+      "hint": "Lascia un po’ di carta tra le due linee delle zampe.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-left-paw": {
+      "title": "Il piedino sinistro",
+      "instruction": "Metti un piccolo piedino largo sotto una zampa.",
+      "spoken": "Un ovale corto e largo tocca la parte inferiore della prima zampa. Le sue piccole dimensioni fanno sembrare il corpo più grande.",
+      "hint": "Lascia che il piccolo ovale incontri l’estremità di una zampa.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-right-paw": {
+      "title": "Il piedino destro",
+      "instruction": "Metti un altro piccolo piedino accanto al primo.",
+      "spoken": "Aggiungi l’altro piedino. Confronta i bordi inferiori invece di cercare di fare forme identiche.",
+      "hint": "Guarda il primo piedino prima di posizionare questo.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-left-haunch": {
+      "title": "La coscia sinistra",
+      "instruction": "Disegna una zampa posteriore piegata accanto al corpo.",
+      "spoken": "Una curva si allarga accanto al corpo e torna vicino al terreno. Così il cucciolo sembra seduto.",
+      "hint": "Lascia una curva arrotondata fuori dalla zampa anteriore.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-right-haunch": {
+      "title": "La coscia destra",
+      "instruction": "Aggiungi una zampa arrotondata dall’altro lato, come se fosse seduto.",
+      "spoken": "Ripeti la curva piegata dall’altro lato, lasciando ben visibili al centro le zampe anteriori.",
+      "hint": "Le zampe piegate stanno all’esterno delle due zampe anteriori.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-tail": {
+      "title": "La coda del cane",
+      "instruction": "Lascia che una coda curva esca accanto al cucciolo.",
+      "spoken": "Una coda curva esce da un lato. Cambio direzione dolcemente invece di fare un angolo appuntito.",
+      "hint": "Segui una curva che si allontana dal corpo, poi piega indietro.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-left-eye": {
+      "title": "L’occhio sinistro del cane",
+      "instruction": "Metti un piccolo occhio dentro la testa.",
+      "spoken": "Un piccolo occhio sta dentro la testa, sopra lo spazio per il naso. Basta un piccolo segno.",
+      "hint": "Lascia spazio sotto questo occhio per il naso del cucciolo.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-right-eye": {
+      "title": "L’occhio destro del cane",
+      "instruction": "Metti l’altro occhio dall’altra parte del viso.",
+      "spoken": "Guarda dall’altra parte del viso per il secondo occhio. Un po’ di spazio tra gli occhi lascia il viso aperto.",
+      "hint": "Usa il primo occhio per trovare una posizione comoda per il secondo.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-nose": {
+      "title": "Il naso del cane",
+      "instruction": "Unisci tre brevi linee per un piccolo naso.",
+      "spoken": "Un piccolo triangolo capovolto sta sotto gli occhi. Unisco gli angoli e lo tengo più piccolo della testa.",
+      "hint": "Tre lati corti formano un piccolo triangolo con la punta in basso.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-nose-line": {
+      "title": "La linea sotto il naso",
+      "instruction": "Fai scendere una linea corta dal naso.",
+      "spoken": "Una linea corta scende dal naso. Fermati prima di raggiungere la parte inferiore del viso.",
+      "hint": "Comincia dal naso e fai solo un piccolo segno.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-left-mouth": {
+      "title": "La bocca a sinistra",
+      "instruction": "Curva una piccola bocca verso un lato.",
+      "spoken": "Da quella linea corta, curva verso un lato. La curva dà al nostro cucciolo da fiaba un’espressione dolce.",
+      "hint": "Comincia alla fine della piccola linea sotto il naso.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-right-mouth": {
+      "title": "La bocca a destra",
+      "instruction": "Curva l’altro lato della piccola bocca.",
+      "spoken": "Una seconda piccola curva va nell’altra direzione. Lascia un po’ di carta tra la bocca e il bordo della testa.",
+      "hint": "Curva dallo stesso punto centrale verso l’altro lato.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-collar": {
+      "title": "Il collare del cane",
+      "instruction": "Se vuoi, prova un collare curvo sotto la testa.",
+      "spoken": "Una curva poco profonda può suggerire un collare sotto la testa. Questo dettaglio in più è una tua scelta.",
+      "hint": "Tieni il collare vicino al punto in cui testa e corpo si incontrano.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "dog-patch": {
+      "title": "La macchia sul pelo",
+      "instruction": "Prova una macchia ovale sul pelo, oppure non aggiungerla.",
+      "spoken": "Un piccolo ovale può creare una macchia sul pelo. Il tuo cucciolo può avere macchie o un pelo uniforme.",
+      "hint": "Trova uno spazio libero dentro il corpo per la macchia.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    },
+    "colour-choice": {
+      "title": "Colori per un cucciolo di carta.",
+      "instruction": "Scegli un colore per il pelo del tuo cucciolo di carta.",
+      "spoken": "Scelgo beige e marrone, come un pelo color sabbia. Anche colori diversi e piccoli spazi bianchi vanno bene per il tuo cucciolo.",
+      "hint": "Scegli due colori oppure usa un pastello più leggermente.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-coat": {
+      "title": "Piccole zone morbide per il pelo.",
+      "instruction": "Colora il pelo in piccole zone leggere.",
+      "spoken": "Coloro intorno al viso, poi attraverso il corpo. Tratti brevi e piccole pause aiutano a lasciare visibili occhi e naso.",
+      "hint": "Usa movimenti più piccoli quando ti avvicini a un contorno.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-ears": {
+      "title": "Un po’ più scuro sulle orecchie.",
+      "instruction": "Dai alle orecchie uno strato leggermente più scuro.",
+      "spoken": "Un marrone più scuro distingue le orecchie dal viso. Ne aggiungo un po’ accanto al corpo e lascio più chiaro il centro.",
+      "hint": "Un primo strato leggero lascia spazio per un secondo colore più scuro.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-patch": {
+      "title": "Una macchia sul pelo, se vuoi.",
+      "instruction": "Se hai disegnato una macchia sul pelo, colorala.",
+      "spoken": "Se hai disegnato una macchia, usa piccoli tratti marroni al suo interno. Va bene anche un pelo uniforme; puoi saltare questo colore.",
+      "hint": "Tieni la macchia abbastanza piccola da stare dentro il suo contorno.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-reflection": {
+      "title": "Uno sguardo al tuo cucciolo.",
+      "instruction": "Guarda il corpo grande e i piedini più piccoli.",
+      "spoken": "Il nostro cucciolo ha forme grandi e dettagli più piccoli. Guarda come le orecchie pendenti stanno accanto al viso nel nostro parco di carta.",
+      "hint": "Goditi il disegno senza doverlo cambiare o spiegare.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "explore": {
+      "title": "Un parco per il tuo cucciolo.",
+      "instruction": "Dai al tuo cucciolo un posto dove sedersi, oppure finisci qui.",
+      "spoken": "Il tuo parco di carta può avere un sentiero o qualcosa che inventi tu. Continua a disegnare, continua a colorare oppure finisci quando vuoi.",
+      "hint": "Prova un altro animale seduto con una grande testa e piccoli piedini.",
+      "notice": "Se viene chiesto aiuto, indica come il petto nell’esempio si trova sopra le zampe anteriori. Offri il suggerimento richiesto o mostra sul tuo foglio. Non muovere la mano del bambino o della bambina e non chiedere zampe uguali."
+    }
+  }
+}

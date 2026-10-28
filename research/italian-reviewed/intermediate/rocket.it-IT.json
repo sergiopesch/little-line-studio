@@ -1,0 +1,209 @@
+{
+  "locale": "it-IT",
+  "lessonId": "rocket",
+  "level": "intermediate",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "2abc7e9ddfdeba3c3d07ee4d3427daa2e1651d3231db86b57e6d0f686b3991ae",
+  "title": "Razzo spaziale",
+  "invitation": "Costruisci un razzo con forme collegate.",
+  "objective": "organizzare un corpo centrale, alette a coppie e dettagli uno dentro l’altro; distinguere grandi contorni da forme interne più piccole.",
+  "parentNote": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico.",
+  "simplify": "",
+  "transfer": "Un altro giorno prova un sottomarino con un corpo grande e piccoli finestrini, cambiando direzione e parti sporgenti.",
+  "colouringLabel": "Piccoli tratti, colori scelti con cura",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un viaggio di fantasia sulla carta.",
+      "instruction": "Guarda il corpo lungo con piccole alette ai lati.",
+      "spoken": "Il nostro razzo di fantasia esplora un cielo inventato sulla carta. Guarda il suo corpo lungo, la cima arrotondata e le piccole alette ai lati.",
+      "hint": "Trova il grande corpo prima del piccolo finestrino e dei pulsanti.",
+      "notice": "Guardate il nostro razzo. Quali parti sono dentro il corpo e quali sporgono?"
+    },
+    "rocket-body": {
+      "title": "Il corpo del razzo",
+      "instruction": "Disegna un corpo alto con una punta arrotondata.",
+      "spoken": "Sali lungo un lato, gira intorno alla cima appuntita e scendi dall’altro. Una linea attraverso la base chiude la lunga forma del razzo.",
+      "hint": "Lascia carta sotto il corpo per una fiamma immaginaria.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-nose-section": {
+      "title": "La sezione di punta",
+      "instruction": "Curva una breve linea di separazione attraverso la cima appuntita.",
+      "spoken": "Una curva poco profonda attraversa la parte vicina alla cima. Separa una piccola sezione di punta dal corpo molto più lungo sotto.",
+      "hint": "Tieni la maggior parte del razzo sotto questa piccola sezione superiore.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-window": {
+      "title": "Il finestrino del razzo",
+      "instruction": "Metti un finestrino rotondo nella parte superiore del corpo.",
+      "spoken": "Un finestrino rotondo sta dentro la parte superiore del corpo. Lascio spazio su entrambi i lati, così il contorno lungo del razzo resta ben visibile.",
+      "hint": "Tieni il cerchio dentro i due lunghi bordi del corpo.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-window-rim": {
+      "title": "Il bordo del finestrino",
+      "instruction": "Disegna un cerchio più piccolo dentro il finestrino.",
+      "spoken": "Un cerchio più piccolo sta dentro il primo. Il piccolo spazio tra loro crea un bordo intorno al finestrino.",
+      "hint": "Segui il primo cerchio un po’ più all’interno.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-left-fin": {
+      "title": "L’aletta sinistra",
+      "instruction": "Unisci un’aletta a punta accanto a un lato inferiore.",
+      "spoken": "Tre lati formano un’aletta accanto alla parte inferiore del corpo. Guarda come questa piccola parte tocca il grande razzo invece di restare staccata.",
+      "hint": "Comincia e finisci l’aletta sul lato del corpo.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-right-fin": {
+      "title": "L’aletta destra",
+      "instruction": "Aggiungi una piccola aletta dall’altro lato.",
+      "spoken": "Un’altra aletta esce dall’altro lato. Confronta la loro altezza sul corpo prima di unire le linee corte.",
+      "hint": "Metti entrambe le alette vicino alla parte inferiore del razzo.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-engine-section": {
+      "title": "La sezione del motore",
+      "instruction": "Curva una linea di separazione vicino alla base del corpo.",
+      "spoken": "Una curva poco profonda passa vicino alla base. Lo spazio stretto sotto crea una piccola sezione del motore per il nostro razzo.",
+      "hint": "Lascia una piccola striscia tra questa curva e la base.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-flame": {
+      "title": "La fiamma del razzo",
+      "instruction": "Curva una fiamma immaginaria sotto il razzo.",
+      "spoken": "La nostra fiamma immaginaria curva verso il basso fino a una punta e torna su. Si unisce alla base senza coprire le alette laterali.",
+      "hint": "Lascia spazio tra la lunga fiamma e le alette laterali.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-inner-flame": {
+      "title": "La fiamma interna",
+      "instruction": "Aggiungi una curva di fiamma più piccola dentro la prima.",
+      "spoken": "Una curva a punta più piccola sta dentro la prima fiamma. Una forma dentro l’altra ci lascia spazio per due colori più tardi.",
+      "hint": "Tieni questa nuova curva ben dentro la fiamma esterna.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-left-stripe": {
+      "title": "La striscia sinistra",
+      "instruction": "Disegna una lunga striscia dentro un bordo del corpo.",
+      "spoken": "Una lunga linea segue un lato dall’interno. Mi fermo prima della linea in basso e lascio libero il finestrino.",
+      "hint": "Segui la direzione del corpo lasciando un po’ di spazio accanto al bordo.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-right-stripe": {
+      "title": "La striscia destra",
+      "instruction": "Aggiungi un’altra lunga striscia dall’altro lato del corpo.",
+      "spoken": "Una linea simile segue l’altro lato. Questi due segni lunghi fanno sembrare alto il corpo accanto al piccolo finestrino rotondo.",
+      "hint": "Tieni questa striscia lontana dal finestrino e dal contorno laterale.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-left-button": {
+      "title": "Il pulsante sinistro",
+      "instruction": "Prova un piccolo pulsante sotto il finestrino.",
+      "spoken": "Un piccolo punto può dare inizio a un pannello di controllo. Questo dettaglio in più sta sotto il finestrino, dentro il corpo lungo.",
+      "hint": "Trova uno spazio libero nel corpo sotto il finestrino rotondo.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-right-button": {
+      "title": "Il pulsante destro",
+      "instruction": "Se vuoi, prova un secondo piccolo pulsante.",
+      "spoken": "Un altro punto può stare lì vicino, oppure puoi lasciare il pannello semplice. Il nostro razzo di fantasia non ha bisogno di comandi precisi.",
+      "hint": "Lascia un po’ di carta intorno a ogni pulsante che scegli.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-planet": {
+      "title": "Il pianeta del razzo",
+      "instruction": "Prova un piccolo pianeta nel cielo inventato.",
+      "spoken": "Un piccolo ovale può essere un pianeta lontano nella nostra storia. Tienilo separato dal razzo, così entrambe le forme restano ben visibili.",
+      "hint": "Scegli uno spazio vuoto sulla carta accanto al razzo.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-planet-ring": {
+      "title": "L’anello del pianeta",
+      "instruction": "Prova un anello inclinato intorno al tuo pianeta.",
+      "spoken": "Un ovale sottile e inclinato può circondare il pianeta, se lo hai disegnato. Puoi saltare questa decorazione insieme al pianeta.",
+      "hint": "Un ovale lungo e stretto può inclinarsi da un lato.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-upper-star": {
+      "title": "La stella in alto",
+      "instruction": "Prova un piccolo segno per una stella in alto nel cielo.",
+      "spoken": "Un minuscolo punto può suggerire una luce lontana nel nostro cielo inventato. Basta un piccolo segno.",
+      "hint": "Usa un piccolo segno in uno spazio libero fuori dal razzo.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-lower-star": {
+      "title": "La stella in basso",
+      "instruction": "Se vuoi, prova un altro piccolo segno nel cielo.",
+      "spoken": "Un altro minuscolo segno può stare più lontano. Lasciare molta carta vuota aiuta ogni piccola luce a risaltare.",
+      "hint": "Prova un altro spazio vuoto oppure lascia libera la carta.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "rocket-moon": {
+      "title": "La luna del razzo",
+      "instruction": "Prova due curve per una luna a falce inventata.",
+      "spoken": "Due curve si incontrano in estremità appuntite. Questa luna di carta facoltativa può condividere il nostro cielo immaginario con le altre idee che scegli.",
+      "hint": "Lascia che una seconda curva torni alle estremità della prima.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    },
+    "colour-choice": {
+      "title": "Colori per un razzo inventato.",
+      "instruction": "Scegli i colori del corpo, del finestrino e della fiamma immaginaria.",
+      "spoken": "Scelgo grigio e rosso per il razzo, vetro azzurro e colori caldi per la fiamma. È un disegno di fantasia, pronto per le tue scelte.",
+      "hint": "Metti da parte un colore chiaro per il corpo e qualche piccolo accento.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-rocket-body": {
+      "title": "Il lungo razzo prende colore.",
+      "instruction": "Colora il corpo lasciando libero il finestrino.",
+      "spoken": "Zone grigio chiaro scendono lungo il corpo. Il rosso va vicino alla cima; sollevo il pastello prima del finestrino e dei contorni stretti.",
+      "hint": "Colora una piccola zona, solleva il pastello e scegli un altro spazio libero.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-fins-and-window": {
+      "title": "Piccole alette e un finestrino luminoso.",
+      "instruction": "Usa il rosso per le piccole alette e un azzurro chiaro per il finestrino.",
+      "spoken": "Le piccole alette richiedono tratti rossi più piccoli del corpo. L’azzurro chiaro sta dentro il finestrino, con spazi bianchi che suggeriscono vetro lucido.",
+      "hint": "Le piccole forme chiuse hanno bisogno di movimenti piccoli e pressione delicata.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-flame": {
+      "title": "Colori caldi per fiamme immaginarie.",
+      "instruction": "Sovrapponi colori caldi dentro la fiamma immaginaria.",
+      "spoken": "L’arancione va vicino alla fiamma esterna e il giallo più vicino al centro. Lascio che i colori si sovrappongano leggermente, mantenendo visibili le diverse zone.",
+      "hint": "Prova uno strato leggero prima di aggiungere un altro colore caldo.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-reflection": {
+      "title": "Forme grandi e piccoli dettagli.",
+      "instruction": "Guarda il corpo lungo e le alette molto più piccole.",
+      "spoken": "La grande forma del razzo ha piccole alette collegate e un finestrino rotondo. Le sue zone di colore sono pronte per un viaggio di fantasia sulla carta.",
+      "hint": "Guarda una piccola parte accanto al grande corpo.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "explore": {
+      "title": "Un luogo di atterraggio inventato da te.",
+      "instruction": "Inventa un luogo di atterraggio, aggiungi idee oppure finisci.",
+      "spoken": "Potresti inventare un luogo di atterraggio per il tuo razzo di carta o continuare a colorare il suo corpo. Non c’è bisogno di affrettare il tuo viaggio.",
+      "hint": "Prova a unire una forma lunga e piccoli triangoli collegati.",
+      "notice": "Se viene richiesto aiuto, confronta il grande corpo dell’esempio con il piccolo finestrino. Proponi un finestrino più grande o meno dettagli come alternative. Considera il viaggio una storia di fantasia e non presentare il disegno stilizzato come uno schema tecnico."
+    }
+  }
+}

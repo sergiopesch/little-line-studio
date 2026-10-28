@@ -1,0 +1,180 @@
+{
+  "locale": "it-IT",
+  "lessonId": "cat",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+  "title": "Il musetto di un gatto curioso",
+  "invitation": "Un musetto rotondo con la sua espressione.",
+  "objective": "unire un contorno rotondo a dettagli posizionati e linee collegate.",
+  "parentNote": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi.",
+  "simplify": "",
+  "transfer": "Un’altra volta, proponi il muso di un animale diverso senza la stessa dimostrazione: quali forme potrebbero aiutarti a creare un orso? Lascia disponibile la ripetizione, se desiderata.",
+  "colouringLabel": "Colora il tuo gatto",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Diamo un’occhiata.",
+      "instruction": "Cerca una testa rotonda, due orecchie e i piccoli dettagli del viso.",
+      "spoken": "Guardiamo il nostro gatto. Una grande forma rotonda racchiude il viso e due piccole orecchie stanno in cima. Costruiremo il disegno con queste forme semplici, una alla volta.",
+      "hint": "Guarda dove le orecchie incontrano la testa, poi cerca i piccoli occhi all’interno.",
+      "notice": "Guardate insieme l’immagine di un gatto. Dove si uniscono le orecchie alla testa?"
+    },
+    "round-head": {
+      "title": "La testa rotonda",
+      "instruction": "Disegna una testa larga e rotonda. Lascia spazio all’interno per il viso.",
+      "spoken": "Cominciamo con una testa larga e rotonda. Guarda la mia linea: gira intorno e torna verso il punto di partenza. Questa grande forma lascia spazio per il visino all’interno.",
+      "hint": "Muovi tutta la mano lungo la curva. Va bene anche se rimane una piccola apertura.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "left-ear": {
+      "title": "L’orecchio sinistro",
+      "instruction": "Aggiungi un piccolo triangolo per l’orecchio sinistro.",
+      "spoken": "Un piccolo triangolo forma il primo orecchio. Sali fino a una punta, poi scendi verso la testa. I gatti possono girare le orecchie verso i suoni. Il nostro orecchio disegnato rimane fermo.",
+      "hint": "Cerca la parte in alto a sinistra della testa. Dai al triangolo una punta morbida.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "right-ear": {
+      "title": "L’orecchio destro",
+      "instruction": "Aggiungi l’altro triangolo in alto a destra.",
+      "spoken": "Ora aggiungi un triangolo dall’altra parte. Lascia un po’ di spazio tra le orecchie.",
+      "hint": "Le tue orecchie possono avere dimensioni diverse. Guarda dove ciascuna si unisce alla testa.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "left-eye": {
+      "title": "L’occhio sinistro",
+      "instruction": "Metti un piccolo occhio scuro dentro la testa.",
+      "spoken": "Metti un piccolo occhio scuro dentro la testa, un po’ sopra il centro. Basta un minuscolo ovale. Guarda quanto spazio lasciamo intorno.",
+      "hint": "Fai un puntino o un piccolo ovale. Lascia un po’ di spazio sotto per il naso.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "right-eye": {
+      "title": "L’occhio destro",
+      "instruction": "Aggiungi il secondo occhio, lasciando un po’ di spazio tra i due.",
+      "spoken": "Aggiungi l’altro piccolo occhio di fronte al primo. Lascia un po’ di spazio tra loro.",
+      "hint": "Guarda dall’altra parte rispetto al primo occhio. I due occhi non devono essere uguali.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "little-nose": {
+      "title": "Il nasino",
+      "instruction": "Disegna un minuscolo triangolo sotto gli occhi per il naso.",
+      "spoken": "Sotto gli occhi, disegna un minuscolo triangolo con la punta verso il basso. Questo è il nostro naso. Una forma piccola lascia un po’ di spazio intorno, dentro il viso rotondo.",
+      "hint": "Un piccolo triangolo o un puntino può stare tra gli occhi, un po’ più in basso.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "curved-mouth": {
+      "title": "La bocca curva",
+      "instruction": "Unisci due piccole curve sotto il naso per fare la bocca.",
+      "spoken": "Guarda due piccole curve che si incontrano sotto il naso, come una doppia vu morbida. Formano la bocca sorridente del nostro disegno. Puoi dare al tuo gatto un’espressione diversa.",
+      "hint": "Prova una curva, poi un’altra accanto. Anche una sola curva va bene.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "left-whisker-upper": {
+      "title": "Il baffo in alto a sinistra",
+      "instruction": "Fai uscire un baffo dalla guancia sinistra.",
+      "spoken": "Lascia che una linea leggera esca dalla guancia sinistra. È un baffo. I gatti veri usano i baffi per percepire gli oggetti vicini. Le nostre linee rappresentano questi peli speciali.",
+      "hint": "Comincia vicino alla guancia e lascia andare la linea verso l’esterno.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "left-whisker-middle": {
+      "title": "Il baffo centrale a sinistra",
+      "instruction": "Aggiungi un altro baffo a sinistra, lasciando un po’ di spazio.",
+      "spoken": "Un’altra linea leggera sotto la prima. Lascia un po’ di spazio.",
+      "hint": "Lascia un piccolo spazio tra le linee. Questo baffo in più è facoltativo.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "left-whisker-lower": {
+      "title": "Il baffo in basso a sinistra",
+      "instruction": "Prova un terzo baffo a sinistra che scende dolcemente.",
+      "spoken": "Un’altra linea può scendere un po’, come un piccolo ventaglio. Puoi anche non disegnarla.",
+      "hint": "Va bene anche una linea corta. Puoi lasciare fuori questo baffo in più.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "right-whisker-upper": {
+      "title": "Il baffo in alto a destra",
+      "instruction": "Fai uscire un baffo dalla guancia destra.",
+      "spoken": "Andiamo all’altra guancia. Parti vicino al viso e porta una linea verso destra. Guarda come i baffi fanno sembrare il gatto più largo della sua testa rotonda.",
+      "hint": "Allontanati dalla guancia destra. Puoi fare una linea curva o dritta.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "right-whisker-middle": {
+      "title": "Il baffo centrale a destra",
+      "instruction": "Aggiungi un altro baffo a destra, lasciando spazio accanto.",
+      "spoken": "Aggiungi un altro baffo leggero, lasciando un po’ di spazio. È facoltativo.",
+      "hint": "Lascia un po’ di spazio a ogni linea. Puoi anche saltare questo dettaglio.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "right-whisker-lower": {
+      "title": "Il baffo in basso a destra",
+      "instruction": "Se vuoi, termina con un altro baffo a destra.",
+      "spoken": "Un ultimo baffo può scendere un po’. I due lati possono essere diversi.",
+      "hint": "I due lati possono essere diversi. Disegna tutti i baffi che vuoi.",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    },
+    "colour-choice": {
+      "title": "Scegli i colori.",
+      "instruction": "Scegli i colori del tuo gatto. Il nostro esempio sarà arancione caldo, rosa e crema.",
+      "spoken": "Ora diamo colore al nostro gatto. Io scelgo un arancione caldo, rosa e crema, come in un libro di fiabe. Scegli i colori che ti piacciono. Puoi anche lasciare bianca la carta.",
+      "hint": "Se vuoi vedere come appare un colore, provalo prima su un foglio di prova.",
+      "notice": "Lascia che sia il bambino o la bambina a scegliere i colori e se usarli. Con Più tempo può restare su questo momento per tutto il tempo necessario."
+    },
+    "colour-fur": {
+      "title": "Un colore morbido su un lato.",
+      "instruction": "Colora la metà sinistra del pelo con segni leggeri e sovrapposti.",
+      "spoken": "Guarda i segni leggeri che danno colore alla guancia e all’orecchio sinistri. Piccoli tratti sovrapposti creano una zona morbida come il pelo. Lascio liberi gli occhi e la bocca, così possiamo vederli.",
+      "hint": "I segni leggeri possono stare uno accanto all’altro e sovrapporsi. Con Più tempo puoi prenderti tutto il tempo che vuoi.",
+      "notice": "Lascia che sia il bambino o la bambina a scegliere i colori e se usarli. Con Più tempo può restare su questo momento per tutto il tempo necessario."
+    },
+    "colour-fur-right": {
+      "title": "Colora l’altro lato.",
+      "instruction": "Porta il colore sull’altra metà del viso e sull’orecchio.",
+      "spoken": "Porta il colore sull’altra guancia e sull’orecchio. Lavorare su una piccola zona alla volta ci aiuta a scegliere dove mettere ogni segno. Anche gli spazi bianchi possono far parte del pelo.",
+      "hint": "Gira il foglio se ti è comodo. Il colore può essere chiaro, scuro o a macchie.",
+      "notice": "Lascia che sia il bambino o la bambina a scegliere i colori e se usarli. Con Più tempo può restare su questo momento per tutto il tempo necessario."
+    },
+    "colour-details": {
+      "title": "Colora i piccoli dettagli.",
+      "instruction": "Prova il crema intorno alla bocca e il rosa dentro le orecchie e sul naso.",
+      "spoken": "Aggiungo il crema intorno alla bocca, poi un po’ di rosa dentro le orecchie e sul naso. Negli spazi piccoli bastano pochi piccoli segni. Guarda come risaltano queste zone più chiare.",
+      "hint": "Per una zona piccolissima bastano pochi segni leggeri. Scegli i tuoi colori o lascia tutto com’è.",
+      "notice": "Lascia che sia il bambino o la bambina a scegliere i colori e se usarli. Con Più tempo può restare su questo momento per tutto il tempo necessario."
+    },
+    "colour-patterns": {
+      "title": "Qualche motivo finale.",
+      "instruction": "Se vuoi, aggiungi qualche striscia più scura o qualche segno sulle guance.",
+      "spoken": "Qualche segno arancione più scuro crea un motivo sulla fronte e sulle guance del mio gatto. Queste piccole strisce seguono il viso rotondo. Prova un motivo tutto tuo, oppure lascia il gatto proprio com’è.",
+      "hint": "Può bastare una striscia o una macchia. Il tuo gatto non ha bisogno di un motivo.",
+      "notice": "Lascia che sia il bambino o la bambina a scegliere i colori e se usarli. Con Più tempo può restare su questo momento per tutto il tempo necessario."
+    },
+    "colour-reflection": {
+      "title": "Diamo un’occhiata.",
+      "instruction": "Guarda tutto il disegno. Quale piccolo segno o colore ti piace?",
+      "spoken": "Guarda tutto il disegno. Abbiamo usato forme grandi, piccoli dettagli e strati di colore. Quale segno ti piace? Puoi continuare a colorare, aggiungere un’idea o finire qui.",
+      "hint": "Non devi spiegare o cambiare niente. Non c’è fretta di finire.",
+      "notice": "Lascia che sia il bambino o la bambina a scegliere i colori e se usarli. Con Più tempo può restare su questo momento per tutto il tempo necessario."
+    },
+    "explore": {
+      "title": "Fallo a modo tuo.",
+      "instruction": "Continua a colorare, inventa una casa per il tuo gatto oppure finisci qui.",
+      "spoken": "Il nostro gatto è pronto per le tue idee. Magari un cappello, una casa accogliente o ancora un po’ di colore. Puoi continuare a creare per tutto il tempo che vuoi, oppure finire qui.",
+      "hint": "Un piccolo dettaglio può raccontare una storia. Che cosa ti piacerebbe aggiungere?",
+      "notice": "Se può essere utile, indica la sinistra e la destra sull’esempio. Se te lo chiede, disegna un orecchio sul tuo foglio. Non correggere l’espressione del gatto e non insistere perché abbia lo stesso numero di baffi."
+    }
+  }
+}

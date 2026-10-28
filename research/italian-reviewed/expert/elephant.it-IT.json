@@ -1,0 +1,230 @@
+{
+  "locale": "it-IT",
+  "lessonId": "elephant",
+  "level": "expert",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "47b927352428de92ccb2e9d71c529d19b8d493d56a2b73a4c1da01951a88eef4",
+  "title": "Elefante visto di lato",
+  "invitation": "Forme grandi e zampe in parte nascoste.",
+  "objective": "confrontare parti grandi e piccole e rappresentare zampe vicine e in parte nascoste.",
+  "parentNote": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode.",
+  "simplify": "Usa due zampe visibili, una linea per la proboscide e nessuna zanna o unghia. Disegnare tutte e quattro le zampe è una sfida facoltativa, non un requisito di correttezza.",
+  "transfer": "Un altro giorno disegna un rinoceronte o un altro grande animale di lato. Guarda le dimensioni di corpo e testa e le zampe sovrapposte, invece di riutilizzare senza modifiche le parti dell’elefante.",
+  "colouringLabel": "Piccoli movimenti di pastello, i tuoi colori",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un elefante e una pozzanghera.",
+      "instruction": "Guarda il grande corpo, l’orecchio largo e la lunga proboscide curva.",
+      "spoken": "Il nostro elefante visita una piccola pozzanghera in un paesaggio immaginario. Confronteremo le forme grandi prima di aggiungere la proboscide e le zampe più sottili.",
+      "hint": "Trova la forma più grande, poi guarda la testa più piccola.",
+      "notice": "Guardate un elefante di lato. Osservate la dimensione della testa accanto al corpo, dove comincia la proboscide e quali zampe si sovrappongono. Questo disegno usa forme semplificate invece di un’anatomia esatta."
+    },
+    "elephant-body": {
+      "title": "Il corpo dell’elefante",
+      "instruction": "Curva i bordi visibili del corpo, sollevando la matita per testa e zampe.",
+      "spoken": "Curva una forma larga per il corpo. Solleva la matita dove si uniranno testa e zampe, lasciando aperti quegli spazi; disegneremo dopo queste parti davanti.",
+      "hint": "Segui una forma larga e arrotondata, sollevando la matita dove si uniranno le parti davanti.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "elephant-head": {
+      "title": "La testa dell’elefante",
+      "instruction": "Curva i bordi della testa, lasciando spazio per orecchio e proboscide.",
+      "spoken": "Curva una testa più piccola a destra. Solleva la matita dove si uniranno l’orecchio largo e la proboscide, così non disegneremo attraverso quelle forme davanti.",
+      "hint": "Fai la testa più piccola del grande ovale del corpo.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "large-ear": {
+      "title": "L’orecchio grande",
+      "instruction": "Crea un orecchio largo e curvo accanto alla testa.",
+      "spoken": "L’orecchio è una forma larga e curva accanto alla testa. Curva verso l’esterno, scendi e torna indietro; lascia spazio per un po’ di colore più tardi.",
+      "hint": "Arrotonda l’orecchio verso l’esterno prima di riportare indietro la curva.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "trunk-outer-edge": {
+      "title": "Il bordo esterno della proboscide",
+      "instruction": "Curva l’esterno della proboscide verso il basso e intorno.",
+      "spoken": "Comincia vicino al viso e lascia che una lunga curva scenda, poi giri delicatamente verso l’alto. Questo è l’esterno della proboscide.",
+      "hint": "Segui una lunga curva verso il basso con una svolta verso l’alto.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "trunk-inner-edge": {
+      "title": "Il bordo interno della proboscide",
+      "instruction": "Segui con una seconda curva per dare spessore alla proboscide.",
+      "spoken": "Disegna l’altro bordo lì vicino. Lascia un po’ di spazio tra le curve, così la lunga proboscide ha spessore invece di diventare una linea sola.",
+      "hint": "Lascia che la seconda curva segua la prima senza toccarla.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "trunk-tip": {
+      "title": "La punta della proboscide",
+      "instruction": "Arrotonda la punta per unire i due bordi della proboscide.",
+      "spoken": "Una piccola curva arrotondata unisce i due bordi alla punta della proboscide.",
+      "hint": "Unisci le due estremità aperte con una piccola curva.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "elephant-eye": {
+      "title": "L’occhio dell’elefante",
+      "instruction": "Metti un piccolo occhio sopra la guancia.",
+      "spoken": "Un puntino sopra la guancia diventa l’occhio.",
+      "hint": "Tieni l’occhio piccolo dentro la testa arrotondata.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "near-front-leg": {
+      "title": "La zampa anteriore vicina",
+      "instruction": "Disegna una zampa anteriore larga con un piede leggermente arrotondato.",
+      "spoken": "Porta due lati verso il basso per la zampa anteriore più vicina, poi arrotonda il piede. La forma larga la fa sembrare robusta sotto il nostro elefante.",
+      "hint": "Scendi, arrotonda il piede e risali dall’altro lato.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "near-back-leg": {
+      "title": "La zampa posteriore vicina",
+      "instruction": "Aggiungi un’altra zampa larga sotto la parte posteriore del corpo.",
+      "spoken": "Aggiungi una zampa posteriore larga nello stesso modo. Guarda lo spazio tra le zampe anteriori e posteriori prima di posizionarla.",
+      "hint": "Lascia uno spazio largo tra le due zampe più vicine.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "far-front-leg": {
+      "title": "La zampa anteriore lontana",
+      "instruction": "Suggerisci una zampa più lontana appena dietro quella davanti.",
+      "spoken": "Un piccolo pezzo visibile dietro la zampa anteriore suggerisce un’altra zampa più lontana. Non serve mostrare la parte nascosta.",
+      "hint": "Disegna solo il piccolo pezzo di zampa visibile dietro quella più vicina.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "far-back-leg": {
+      "title": "La zampa posteriore lontana",
+      "instruction": "Aggiungi una piccola zampa più lontana dietro quella posteriore.",
+      "spoken": "Ripeti l’idea dietro la zampa posteriore: mostra il pezzo visibile e lascia che la zampa più vicina nasconda il resto.",
+      "hint": "Una piccola forma parziale basta per la zampa più lontana.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "elephant-tail": {
+      "title": "La coda dell’elefante",
+      "instruction": "Lascia scendere una coda sottile e curva dalla parte posteriore.",
+      "spoken": "Curva una coda sottile verso il basso dalla parte posteriore. Questa linea leggera contrasta con il corpo largo e le zampe robuste.",
+      "hint": "Usa una curva leggera all’estrema sinistra del corpo.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "tail-tuft": {
+      "title": "Il ciuffo della coda",
+      "instruction": "Dai alla coda un piccolo ciuffo arrotondato.",
+      "spoken": "Un piccolo ciuffo arrotondato completa l’estremità della coda.",
+      "hint": "Chiudi una piccola forma intorno all’estremità della coda.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "small-tusk": {
+      "title": "La piccola zanna",
+      "instruction": "Curva una piccola zanna a punta accanto alla proboscide.",
+      "spoken": "Se vuoi una zanna, lascia che due piccole curve si incontrino in una punta. Tienila più piccola della proboscide e lasciala chiara.",
+      "hint": "Curva verso una punta e torna accanto alla proboscide.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "trunk-crease": {
+      "title": "La piega della proboscide",
+      "instruction": "Aggiungi una piccola curva attraverso la proboscide.",
+      "spoken": "Se vuoi, una piccola curva attraverso la proboscide può suggerire una piega.",
+      "hint": "Tieni questa piega corta e dentro la proboscide.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "first-toenail": {
+      "title": "La prima unghia",
+      "instruction": "Fai una piccola unghia arrotondata sul piede anteriore.",
+      "spoken": "Se vuoi le unghie, un piccolo arco arrotondato può suggerirne una.",
+      "hint": "Usa una piccola forma a ciotola capovolta sul piede.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "second-toenail": {
+      "title": "La seconda unghia",
+      "instruction": "Prova una piccola unghia dentro il piede anteriore, oppure salta.",
+      "spoken": "Se vuoi, puoi aggiungere un piccolo arco dentro il piede anteriore. Lascia spazio intorno alle unghie che hai già scelto.",
+      "hint": "Usa il bordo inferiore del piede per posizionare questo piccolo arco.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "elephant-ground": {
+      "title": "Il terreno dell’elefante",
+      "instruction": "Disegna una curva bassa del terreno sotto i piedi.",
+      "spoken": "Puoi aggiungere una curva bassa del terreno sotto i piedi. Lascia spazio a destra se vuoi una piccola pozzanghera per la storia.",
+      "hint": "Tieni la linea del terreno sotto i piedi.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "grass-blade": {
+      "title": "Il filo d’erba",
+      "instruction": "Aggiungi un piccolo filo d’erba piegato.",
+      "spoken": "Puoi aggiungere una piccola linea piegata per l’erba oppure lasciare libera questa zona.",
+      "hint": "Lascia che una piccola linea salga dal terreno e giri.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "nearby-puddle": {
+      "title": "La pozzanghera vicina",
+      "instruction": "Se vuoi, aggiungi una pozzanghera ovale bassa a destra.",
+      "spoken": "Un ovale piatto crea la pozzanghera della nostra storia. La sua forma bassa suggerisce acqua sul terreno, invece di una palla alta e rotonda.",
+      "hint": "Fai la pozzanghera larga e bassa accanto all’elefante.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    },
+    "colour-choice": {
+      "title": "Grigi delicati e azzurro per l’acqua.",
+      "instruction": "Scegli un grigio principale e un po’ di azzurro per l’acqua.",
+      "spoken": "Uso un grigio delicato per l’elefante e un po’ di azzurro per la pozzanghera. Se vuoi, tieni vicino un pastello più chiaro.",
+      "hint": "Bastano un colore principale per il corpo e un piccolo colore per l’acqua.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-large-body": {
+      "title": "Colora la forma più grande.",
+      "instruction": "Usa zone grigio chiaro sul grande corpo arrotondato.",
+      "spoken": "Comincio dallo spazio più grande con zone leggere avanti e indietro. Sollevare il pastello tra le zone mantiene comodo il movimento e visibile la trama della carta.",
+      "hint": "Colora una piccola zona alla volta con pressione delicata.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-head-trunk": {
+      "title": "Un viso e una proboscide più piccoli.",
+      "instruction": "Usa movimenti più brevi dentro la testa e la proboscide stretta.",
+      "spoken": "Accorcio i movimenti per la testa e la proboscide. Lascio visibile l’occhio e la zanna chiara come la carta.",
+      "hint": "Fai movimenti più piccoli quando il contorno si restringe.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-ear-legs": {
+      "title": "Separa le forme sovrapposte.",
+      "instruction": "Dai all’orecchio un grigio più intenso accanto al corpo più chiaro.",
+      "spoken": "Un grigio leggermente più intenso aiuta l’orecchio a distinguersi dal corpo. Piccole zone sulle zampe vicine mantengono ben visibili queste forme robuste.",
+      "hint": "Una differenza delicata di colore può separare parti sovrapposte.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-water-layer": {
+      "title": "Un po’ d’acqua e d’ombra.",
+      "instruction": "Se vuoi, aggiungi acqua azzurra e uno strato grigio chiaro sulla pancia.",
+      "spoken": "Se hai disegnato una pozzanghera, puoi aggiungere l’azzurro dentro. Mostrerò anche uno strato grigio delicato e facoltativo sotto il corpo.",
+      "hint": "Un secondo strato leggero può suggerire una parte inferiore più scura.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflect": {
+      "title": "Forme grandi e piccoli dettagli.",
+      "instruction": "Guarda il grande corpo accanto alla proboscide e alla coda più sottili.",
+      "spoken": "Guarda le diverse dimensioni: corpo largo, testa più piccola, proboscide e coda sottili. Questi confronti sostengono il disegno dell’elefante senza bisogno di tanti dettagli.",
+      "hint": "Confronta la forma più grande con uno dei dettagli più piccoli.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "Un paesaggio per il tuo elefante.",
+      "instruction": "Continua a colorare o immagina altro paesaggio intorno alla pozzanghera.",
+      "spoken": "Puoi aggiungere erba, una pozzanghera più grande o un paesaggio immaginario tutto tuo. Continua a colorare con calma oppure finisci qui con il tuo elefante.",
+      "hint": "Prova un dettaglio del paesaggio oppure lascia molto spazio bianco.",
+      "notice": "Confrontate corpo e testa nell’esempio senza stabilire una proporzione obbligatoria. Su un foglio a parte mostra come una zampa stretta può comparire da dietro un’altra. Aiuta a scegliere un movimento più grande per la proboscide se le piccole curve risultano scomode."
+    }
+  }
+}

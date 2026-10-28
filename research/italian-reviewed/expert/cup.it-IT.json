@@ -1,0 +1,230 @@
+{
+  "locale": "it-IT",
+  "lessonId": "cup",
+  "level": "expert",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "03ba732b093c60f8894f92993efd4284ea0f75ea01a547a57f784d0d337f5083",
+  "title": "Tazza e piattino",
+  "invitation": "Aperture ovali e bordi nascosti.",
+  "objective": "osservare bordi ovali aperti e come manico e piattino stanno intorno a un contenitore.",
+  "parentNote": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo.",
+  "simplify": "Disegna una tazza con una sola curva per il manico e un bordo del piattino a forma di sorriso. La dimostrazione lascia fin dall’inizio senza disegnarli i bordi nascosti del piattino. Se il bambino o la bambina sceglie forme complete o linee di costruzione sovrapposte, può mantenerle; non serve cancellare. Decorazioni, biscotti, vapore e bordi del tavolo sono facoltativi.",
+  "transfer": "Un altro giorno osservate una caraffa vuota o una ciotola. Provate la sua apertura e il manico o la base senza la dimostrazione della tazza, scegliendo quali parti sono visibili.",
+  "colouringLabel": "Piccoli movimenti di pastello, i tuoi colori",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un piccolo caffè di carta.",
+      "instruction": "Guarda il bordo ovale schiacciato e i lati curvi della tazza.",
+      "spoken": "Creiamo un caffè immaginario sulla carta, con una tazza decorata e un biscotto. Un ovale schiacciato aiuterà la tazza a sembrare arrotondata.",
+      "hint": "Guarda come la parte superiore è larga e bassa, invece che rotonda.",
+      "notice": "Guardate la tazza leggermente dall’alto. Osservate l’apertura ovale, lo spazio vuoto del manico e il piattino visibile intorno alla base. Osservare è facoltativo; va bene anche una tazza immaginata."
+    },
+    "saucer-front-edge": {
+      "title": "Il bordo anteriore del piattino",
+      "instruction": "Comincia con un largo bordo curvo del piattino vicino alla parte bassa.",
+      "spoken": "Comincia con la larga curva anteriore di un piattino. Lascia spazio sopra per una tazza e un manico a destra.",
+      "hint": "Fai questa prima curva larga e bassa sul foglio.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "cup-rim": {
+      "title": "Il bordo della tazza",
+      "instruction": "Disegna un ovale schiacciato sopra il piattino.",
+      "spoken": "Un ovale schiacciato diventa il bordo della tazza. Poiché guardiamo la tazza leggermente dall’alto, possiamo vedere questa apertura ovale.",
+      "hint": "Disegna un ovale molto più largo che alto.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "cup-left-edge": {
+      "title": "Il lato sinistro della tazza",
+      "instruction": "Lascia che il lato sinistro della tazza curvi delicatamente verso il basso.",
+      "spoken": "Porta il lato sinistro verso il basso dal bordo con una curva delicata. Lascia che giri un po’ verso l’interno vicino alla base.",
+      "hint": "Comincia dall’estremità sinistra del bordo e curva verso il basso.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "cup-right-edge": {
+      "title": "Il lato destro della tazza",
+      "instruction": "Ripeti una curva delicata verso l’interno sulla destra.",
+      "spoken": "Porta l’altro lato verso il basso in modo simile. Confrontare le loro altezze aiuta la tazza a stare comodamente sul piattino.",
+      "hint": "Lascia che questo lato finisca vicino all’estremità inferiore del primo.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "cup-bottom": {
+      "title": "La base della tazza",
+      "instruction": "Unisci le estremità inferiori con una base dolcemente arrotondata.",
+      "spoken": "Unisci i due lati inferiori con una curva morbida. Una base curva si accompagna ai lati arrotondati e alla cima ovale.",
+      "hint": "Arrotonda delicatamente attraverso lo spazio sotto la tazza.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "handle-outer-loop": {
+      "title": "Il contorno esterno del manico",
+      "instruction": "Fai uscire un manico largo dal lato destro.",
+      "spoken": "Il manico curva verso destra e poi torna alla tazza. Lascia abbastanza spazio dentro per una curva più piccola.",
+      "hint": "Curva verso l’esterno dal lato e torna indietro.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "handle-inner-loop": {
+      "title": "Il contorno interno del manico",
+      "instruction": "Crea una curva più piccola dentro il manico.",
+      "spoken": "Una curva più piccola all’interno dà spessore al manico. Anche lo spazio bianco al centro fa parte della sua forma.",
+      "hint": "Segui la curva esterna lasciando un bordo tra le due curve.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "inner-rim": {
+      "title": "Il bordo interno",
+      "instruction": "Aggiungi una linea curva più piccola appena dentro il bordo.",
+      "spoken": "Una piccola curva interna suggerisce un po’ di spessore sul bordo. Tienila vicino all’ovale schiacciato, non troppo in basso sulla tazza.",
+      "hint": "Segui parte dell’ovale con una curva interna vicina.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "saucer-left-return": {
+      "title": "Il ritorno sinistro del piattino",
+      "instruction": "Curva il piattino indietro verso la tazza a sinistra.",
+      "spoken": "Curva il bordo sinistro del piattino verso la tazza. Mostriamo la parte visibile e lasciamo che la tazza nasconda il centro.",
+      "hint": "Unisci l’estremità sinistra del piattino verso la parte inferiore della tazza.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "saucer-right-return": {
+      "title": "Il ritorno destro del piattino",
+      "instruction": "Aggiungi la curva visibile del piattino sulla destra.",
+      "spoken": "Ripeti quella curva di ritorno sulla destra. La tazza sta davanti, quindi non serve una linea del piattino che l’attraversi.",
+      "hint": "Curva dall’estremità destra del piattino verso la tazza.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "cup-base-arc": {
+      "title": "L’arco della base",
+      "instruction": "Aggiungi una piccola base curva appena sopra il piattino.",
+      "spoken": "Una piccola base curva aiuta la tazza a incontrare il piattino. Segui la direzione della parte inferiore arrotondata della tazza.",
+      "hint": "Tieni questa piccola curva sotto la forma principale della tazza.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "cup-upper-band": {
+      "title": "La fascia superiore della tazza",
+      "instruction": "Avvolgi una linea decorativa leggermente curva intorno alla tazza.",
+      "spoken": "Se vuoi una fascia, curvala intorno alla tazza. Questa piccola piega aiuta la decorazione a seguire una superficie arrotondata invece di sembrare piatta.",
+      "hint": "Lascia che la fascia scenda leggermente al centro.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "cup-lower-band": {
+      "title": "La fascia inferiore della tazza",
+      "instruction": "Se hai aggiunto una curva superiore, prova un bordo inferiore.",
+      "spoken": "Se hai aggiunto la curva superiore, seguine una sotto per creare una fascia. Altrimenti puoi lasciare fuori questa decorazione.",
+      "hint": "Se hai disegnato una curva superiore, lascia un piccolo spazio sotto.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "cup-decoration": {
+      "title": "La decorazione della tazza",
+      "instruction": "Se vuoi, aggiungi un piccolo cuore nella parte inferiore della tazza.",
+      "spoken": "La tua tazza può avere un piccolo cuore o un’altra semplice decorazione. Mettila nella parte inferiore della tazza, con o senza una fascia.",
+      "hint": "Due curve arrotondate possono incontrarsi in una piccola punta in basso.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "first-steam": {
+      "title": "Il primo filo di vapore",
+      "instruction": "Aggiungi una linea libera e curva di vapore sopra la tazza.",
+      "spoken": "Una curva libera facoltativa può suggerire vapore nel nostro caffè immaginario. È solo un disegno; non abbiamo bisogno di una bevanda calda vera vicino.",
+      "hint": "Lascia ondeggiare una linea leggera sopra la tazza.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "second-steam": {
+      "title": "Il secondo filo di vapore",
+      "instruction": "Prova un’altra curva libera sopra la tazza, oppure salta.",
+      "spoken": "Puoi aggiungere una curva libera sopra la tazza. Se ne hai disegnata un’altra, lascia un po’ di spazio tra loro.",
+      "hint": "Metti le curve sopra la tazza, con spazio intorno a ciascuna.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "biscuit": {
+      "title": "Il biscotto",
+      "instruction": "Se vuoi, metti un piccolo biscotto ovale accanto al piattino.",
+      "spoken": "Un piccolo ovale inclinato può diventare il nostro biscotto di carta. Tienilo più piccolo del piattino, così la tazza resta la forma principale.",
+      "hint": "Metti un piccolo ovale basso accanto al piattino più grande.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "biscuit-dot": {
+      "title": "Il puntino sul biscotto",
+      "instruction": "Se vuoi, aggiungi un piccolo puntino o una decorazione sul biscotto.",
+      "spoken": "Un piccolo punto può decorare il biscotto, se l’hai incluso.",
+      "hint": "Tieni questo puntino facoltativo dentro la forma del biscotto.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "table-left": {
+      "title": "Il tavolo a sinistra",
+      "instruction": "Disegna una piccola linea del tavolo a sinistra.",
+      "spoken": "Una linea corta facoltativa a sinistra suggerisce un tavolo sotto la scena del nostro caffè.",
+      "hint": "Ferma questa linea del tavolo prima che raggiunga il piattino.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "table-right": {
+      "title": "Il tavolo a destra",
+      "instruction": "Aggiungi un’altra linea del tavolo oltre il piattino sulla destra.",
+      "spoken": "Puoi aggiungere un’altra linea del tavolo a destra oppure lasciare lo sfondo come carta.",
+      "hint": "Lascia che il piattino stia davanti alla linea del tavolo.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    },
+    "colour-choice": {
+      "title": "Scegli i colori del tuo caffè.",
+      "instruction": "Scegli un colore per la tazza e, se vuoi, uno per la decorazione.",
+      "spoken": "Userò un verde azzurro delicato per la tazza e un giallo caldo per la fascia. Il nostro caffè immaginario può avere tutti i colori che ti piacciono.",
+      "hint": "Scegli un colore per la tazza e uno più piccolo che contrasti per la decorazione.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-cup": {
+      "title": "Movimenti arrotondati di pastello.",
+      "instruction": "Crea piccole zone di colore intorno al corpo curvo della tazza.",
+      "spoken": "Uso piccole zone intorno alla tazza, sollevando il pastello tra una e l’altra. Lasciare un po’ di carta chiara può suggerire una superficie di ceramica lucida senza disegnare ogni riflesso.",
+      "hint": "Lascia un po’ di carta bianca tra le zone colorate.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-band-handle": {
+      "title": "Una fascia e un manico.",
+      "instruction": "Usa piccoli movimenti sul manico; colora la fascia se l’hai aggiunta.",
+      "spoken": "Se hai aggiunto una fascia, piccoli movimenti caldi possono seguirla. Accorcio i movimenti per il manico, lasciando bianco il centro aperto.",
+      "hint": "Lascia il centro vuoto del manico come carta senza colore.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-saucer": {
+      "title": "Un piattino sotto.",
+      "instruction": "Segui la curva bassa del piattino con zone azzurre.",
+      "spoken": "Queste piccole zone azzurre seguono la curva bassa del piattino. Lascio visibile la base della tazza, così le due forme restano separate.",
+      "hint": "Segui la direzione larga e bassa del piattino con piccoli movimenti.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-table-layer": {
+      "title": "Un biscotto caldo e un po’ d’ombra.",
+      "instruction": "Se vuoi, colora il biscotto e rendi più scuro un bordo della tazza.",
+      "spoken": "Se hai incluso un biscotto, puoi dargli un colore caldo. Renderò anche leggermente più scuro un bordo della tazza; questo strato in più è facoltativo.",
+      "hint": "Un piccolo bordo più scuro può stare accanto a una zona più chiara della tazza.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflect": {
+      "title": "Forme arrotondate sulla carta.",
+      "instruction": "Guarda come il bordo ovale e i lati curvi suggeriscono una tazza arrotondata.",
+      "spoken": "Guarda il bordo schiacciato e i lati curvi della tazza. Queste forme semplici aiutano la carta piatta a suggerire una tazza arrotondata; una fascia curva può sostenere questa idea.",
+      "hint": "Segui nell’aria la forma del bordo e poi guarda i lati curvi.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "Il tuo caffè di carta.",
+      "instruction": "Continua a colorare o progetta un’altra tazza per il tuo caffè di carta.",
+      "spoken": "Puoi progettare un’altra tazza, cambiare la decorazione o aggiungere uno spuntino di carta. Continua con calma oppure chiudi qui il nostro piccolo caffè.",
+      "hint": "Prova una fascia diversa, una decorazione a fiore o un altro piattino.",
+      "notice": "Se richiesto, indica lo spazio vuoto del manico senza chiedere un anello perfetto. Confronta il bordo vero con un cerchio su un foglio a parte. Evita di spostare l’oggetto osservato mentre il bambino o la bambina desidera guardarlo."
+    }
+  }
+}

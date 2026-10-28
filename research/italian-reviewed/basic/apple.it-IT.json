@@ -1,0 +1,139 @@
+{
+  "locale": "it-IT",
+  "lessonId": "apple",
+  "level": "basic",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "c9c8b4371bd9fd41dda57e0484134a29464d670a4182d0df7009c16718c30742",
+  "title": "Mela",
+  "invitation": "Due curve diventano un frutto familiare.",
+  "objective": "costruire un contorno arrotondato e irregolare con due curve e aggiungere un piccolo elemento.",
+  "parentNote": "Mostra i due lati su una mela vera o sull’esempio, senza correggere il contorno del bambino o della bambina. Se unire due curve non è gradito, proponi un semplice ovale. Una mela inventata, colorata o decorata va bene quanto una osservata.",
+  "simplify": "",
+  "transfer": "Come potrebbero cambiare quelle due curve per disegnare una pera?",
+  "colouringLabel": "Curve rosse e un po’ di luce",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un picnic sulla carta.",
+      "instruction": "Guarda i due lati curvi della mela e la piccola rientranza in alto.",
+      "spoken": "Disegniamo una mela per un picnic immaginario. Due grandi curve si incontrano in una piccola rientranza, con un picciolo sopra.",
+      "hint": "Segui un lato dall’alto verso il basso.",
+      "notice": "Guardate una mela o la sua immagine. Osservate la piccola rientranza da cui parte il picciolo."
+    },
+    "apple-left-side": {
+      "title": "Il lato sinistro della mela",
+      "instruction": "Curva verso l’esterno dalla cima e gira intorno alla parte inferiore della mela.",
+      "spoken": "Comincia vicino alla cima. Curva verso sinistra, gira lungo il lato e poi torna verso l’interno, in basso.",
+      "hint": "Lascia che il lato si allarghi prima di curvare di nuovo verso l’interno.",
+      "notice": "Mostra i due lati su una mela vera o sull’esempio, senza correggere il contorno del bambino o della bambina. Se unire due curve non è gradito, proponi un semplice ovale. Una mela inventata, colorata o decorata va bene quanto una osservata."
+    },
+    "apple-right-side": {
+      "title": "Il lato destro della mela",
+      "instruction": "Disegna l’altro lato arrotondato fino a incontrare la cima.",
+      "spoken": "Dal basso, curva verso l’esterno e poi verso l’alto sull’altro lato. Le due curve si incontrano e chiudono la nostra mela.",
+      "hint": "Segui l’esterno con un movimento ampio e rotondo.",
+      "notice": "Mostra i due lati su una mela vera o sull’esempio, senza correggere il contorno del bambino o della bambina. Se unire due curve non è gradito, proponi un semplice ovale. Una mela inventata, colorata o decorata va bene quanto una osservata."
+    },
+    "apple-stalk": {
+      "title": "Il picciolo della mela",
+      "instruction": "Fai crescere un breve picciolo curvo dalla rientranza in alto.",
+      "spoken": "Una linea corta curva verso l’alto dalla rientranza. La tengo molto più piccola della mela.",
+      "hint": "Comincia dove si incontrano le due grandi curve della mela.",
+      "notice": "Mostra i due lati su una mela vera o sull’esempio, senza correggere il contorno del bambino o della bambina. Se unire due curve non è gradito, proponi un semplice ovale. Una mela inventata, colorata o decorata va bene quanto una osservata."
+    },
+    "apple-leaf": {
+      "title": "La foglia della mela",
+      "instruction": "Se vuoi, prova una foglia a punta accanto al picciolo.",
+      "spoken": "Due curve si incontrano in una punta e formano una foglia. La foglia tocca il piccolo picciolo.",
+      "hint": "Curva verso l’esterno fino a una punta, poi torna verso il picciolo.",
+      "notice": "Mostra i due lati su una mela vera o sull’esempio, senza correggere il contorno del bambino o della bambina. Se unire due curve non è gradito, proponi un semplice ovale. Una mela inventata, colorata o decorata va bene quanto una osservata."
+    },
+    "leaf-vein": {
+      "title": "La venatura della foglia",
+      "instruction": "Se hai disegnato una foglia, aggiungi una linea al suo interno.",
+      "spoken": "Se hai aggiunto una foglia, una linea leggera può attraversare il suo centro. Altrimenti puoi lasciare fuori questo dettaglio.",
+      "hint": "Tieni la piccola linea tra i bordi curvi della foglia.",
+      "notice": "Mostra i due lati su una mela vera o sull’esempio, senza correggere il contorno del bambino o della bambina. Se unire due curve non è gradito, proponi un semplice ovale. Una mela inventata, colorata o decorata va bene quanto una osservata."
+    },
+    "apple-shine": {
+      "title": "Il riflesso della mela",
+      "instruction": "Prova un piccolo segno curvo per il riflesso dentro la mela.",
+      "spoken": "Una piccola curva segue il lato sinistro della mela. Qui lascerò bianca la carta per suggerire un riflesso.",
+      "hint": "Lascia spazio tra la curva del riflesso e il bordo esterno.",
+      "notice": "Mostra i due lati su una mela vera o sull’esempio, senza correggere il contorno del bambino o della bambina. Se unire due curve non è gradito, proponi un semplice ovale. Una mela inventata, colorata o decorata va bene quanto una osservata."
+    },
+    "apple-dip": {
+      "title": "La rientranza della mela",
+      "instruction": "Se vuoi, suggerisci la rientranza in alto con una piccola curva.",
+      "spoken": "Una piccola curva vicino al picciolo può mostrare meglio la rientranza. È un dettaglio in più.",
+      "hint": "Questa piccola rientranza sta vicino alla cima della mela.",
+      "notice": "Mostra i due lati su una mela vera o sull’esempio, senza correggere il contorno del bambino o della bambina. Se unire due curve non è gradito, proponi un semplice ovale. Una mela inventata, colorata o decorata va bene quanto una osservata."
+    },
+    "apple-ground": {
+      "title": "La linea sotto la mela",
+      "instruction": "Prova una linea sotto la mela, oppure salta questo passaggio.",
+      "spoken": "Una curva bassa sotto la mela può diventare la tovaglia del nostro picnic immaginario. Lascia un piccolo spazio sotto il frutto.",
+      "hint": "La linea resta sotto il contorno della mela.",
+      "notice": "Mostra i due lati su una mela vera o sull’esempio, senza correggere il contorno del bambino o della bambina. Se unire due curve non è gradito, proponi un semplice ovale. Una mela inventata, colorata o decorata va bene quanto una osservata."
+    },
+    "colour-choice": {
+      "title": "Colori per il picnic.",
+      "instruction": "Scegli il rosso e il verde, oppure un altro colore per la mela.",
+      "spoken": "Scelgo il rosso per la mela e il verde per la foglia. Anche le mele gialle o verdi possono partecipare a un picnic sulla carta.",
+      "hint": "Scegli il colore della mela che vuoi esplorare oggi.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-apple-left": {
+      "title": "Lascia un po’ di luce.",
+      "instruction": "Colora in piccole zone rosse, lasciando bianco lo spazio del riflesso.",
+      "spoken": "Creo piccole zone rosse su un lato. Il piccolo spazio bianco resta senza colore: la carta può aiutarci a mostrare la luce.",
+      "hint": "Lascia piccoli spazi bianchi invece di premere più forte per coprire tutto.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-apple-right": {
+      "title": "Intorno all’altro lato.",
+      "instruction": "Continua con le zone rosse verso il bordo arrotondato della mela.",
+      "spoken": "Ora passo sull’altro lato. Faccio movimenti più brevi vicino al bordo e sollevo il pastello prima di passare alla zona successiva.",
+      "hint": "Segui il contorno curvo con movimenti piccoli e leggeri.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-apple-leaf": {
+      "title": "Una piccola foglia verde.",
+      "instruction": "Se hai aggiunto una foglia, colorala di verde.",
+      "spoken": "Pochi piccoli tratti verdi stanno dentro la foglia. Lascia visibile la sottile linea centrale oppure lascia bianca la foglia.",
+      "hint": "La foglia non è necessaria; puoi saltare questo colore.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-reflection": {
+      "title": "La nostra mela da picnic.",
+      "instruction": "Guarda come lo spazio bianco sta accanto al colore.",
+      "spoken": "Due grandi curve sono diventate una mela rotonda. Guarda come le zone colorate e la carta bianca stanno insieme nel disegno del picnic.",
+      "hint": "La tua mela può essere più rotonda, più alta o di un colore diverso.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "explore": {
+      "title": "Qualcosa per il tuo picnic.",
+      "instruction": "Inventa un’altra immagine per il picnic, continua a colorare oppure finisci qui.",
+      "spoken": "Che cos’altro c’è nel tuo picnic immaginario? Prova un altro frutto, una tazza o una tua idea. Puoi finire quando vuoi.",
+      "hint": "Un’altra forma rotonda potrebbe diventare una pera o una pesca.",
+      "notice": "Mostra i due lati su una mela vera o sull’esempio, senza correggere il contorno del bambino o della bambina. Se unire due curve non è gradito, proponi un semplice ovale. Una mela inventata, colorata o decorata va bene quanto una osservata."
+    }
+  }
+}

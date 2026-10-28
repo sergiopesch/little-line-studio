@@ -1,0 +1,188 @@
+{
+  "locale": "it-IT",
+  "lessonId": "ladybird",
+  "level": "basic",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "29f1c16e76eeced2c2d731100e65384a5e4e1ef5079818558cb94884b34c2092",
+  "title": "Coccinella",
+  "invitation": "Piccoli puntini e zampe intorno a un ovale.",
+  "objective": "dividere una forma chiusa e aggiungere brevi linee intorno.",
+  "parentNote": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria.",
+  "simplify": "",
+  "transfer": "Un grande corpo con parti intorno potrebbe aiutarti a inventare un coleottero?",
+  "colouringLabel": "Ali rosse e piccole zone scure",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Una visita in giardino.",
+      "instruction": "Guarda il corpo ovale, la piccola testa e la linea al centro.",
+      "spoken": "Disegniamo una coccinella accanto a un sentiero di un giardino immaginario. Il suo grande ovale ha una piccola testa sopra e una linea che scende nel mezzo.",
+      "hint": "Confronta la piccola testa con il corpo ovale più grande.",
+      "notice": "Guardate l’immagine di una coccinella. Osservate la linea tra le due coperture delle ali."
+    },
+    "ladybird-body": {
+      "title": "Il corpo della coccinella",
+      "instruction": "Disegna un ovale alto, lasciando spazio ai lati.",
+      "spoken": "Un ovale alto dà inizio alla nostra coccinella. Lascia un po’ di spazio intorno per la testa e le piccole zampe.",
+      "hint": "Curva intorno a tutto l’ovale e torna al punto di partenza.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "ladybird-head": {
+      "title": "La testa della coccinella",
+      "instruction": "Disegna una piccola testa arrotondata sopra la cima dell’ovale.",
+      "spoken": "Un piccolo arco si unisce all’ovale vicino alla sua cima. Faccio questa testa più stretta del corpo.",
+      "hint": "Lascia che entrambe le estremità della testa incontrino il corpo.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "wing-division": {
+      "title": "La divisione delle ali",
+      "instruction": "Disegna una linea che scende al centro dell’ovale.",
+      "spoken": "Una linea va dalla cima dell’ovale fino in fondo e mostra due coperture delle ali una accanto all’altra.",
+      "hint": "Guarda lo spazio su entrambi i lati della linea.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "left-feeler": {
+      "title": "L’antenna sinistra",
+      "instruction": "Se vuoi, prova una corta antenna sopra la testa.",
+      "spoken": "Una piccola antenna curva può sporgere sopra la testa. Questo dettaglio è una tua scelta.",
+      "hint": "Parti dalla testa e curva verso la carta libera.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "right-feeler": {
+      "title": "L’antenna destra",
+      "instruction": "Prova un’altra antenna dall’altra parte, oppure salta questo passaggio.",
+      "spoken": "Un’altra antenna può curvare nell’altra direzione. Le due curve possono essere diverse.",
+      "hint": "Tieni entrambe le antenne più piccole del corpo ovale.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "left-upper-spot": {
+      "title": "Il puntino in alto a sinistra",
+      "instruction": "Se vuoi, metti un puntino rotondo dentro un lato.",
+      "spoken": "Un piccolo puntino rotondo sta dentro una copertura delle ali, lontano dal bordo.",
+      "hint": "Scegli un punto dentro l’ovale per il tuo puntino.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "right-spot": {
+      "title": "Il puntino a destra",
+      "instruction": "Se vuoi, prova un puntino sull’altro lato.",
+      "spoken": "Se vuoi, un secondo puntino può stare sull’altra copertura delle ali. Scegli tu dove metterlo.",
+      "hint": "Lascia spazio intorno a ogni puntino che decidi di disegnare.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "left-lower-spot": {
+      "title": "Il puntino in basso a sinistra",
+      "instruction": "Prova un puntino più in basso oppure lascia lo spazio libero.",
+      "spoken": "Un altro puntino può stare più in basso. Il motivo della tua coccinella può avere meno puntini.",
+      "hint": "Il motivo non deve essere uguale al mio esempio.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "left-upper-leg": {
+      "title": "La zampa in alto a sinistra",
+      "instruction": "Se vuoi, prova una piccola zampa piegata sul lato.",
+      "spoken": "Una linea corta esce e poi si piega. Può essere l’inizio delle piccole zampe della nostra coccinella.",
+      "hint": "Comincia vicino al bordo del corpo e tieni la zampa corta.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "left-middle-leg": {
+      "title": "La zampa centrale a sinistra",
+      "instruction": "Aggiungi una zampa al centro di questo lato, oppure salta.",
+      "spoken": "Un’altra piccola linea piegata esce dal centro di questo lato.",
+      "hint": "Metti questa zampa corta accanto al centro del corpo.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "left-lower-leg": {
+      "title": "La zampa in basso a sinistra",
+      "instruction": "Se vuoi, prova una zampa in basso che punta verso l’esterno.",
+      "spoken": "Una zampa in basso punta verso l’esterno e si piega verso il basso.",
+      "hint": "Ogni piccola zampa può piegarsi a modo suo.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "right-upper-leg": {
+      "title": "La zampa in alto a destra",
+      "instruction": "Prova una zampa sull’altro lato, oppure salta.",
+      "spoken": "Sull’altro lato, una linea corta e piegata si allunga verso l’esterno.",
+      "hint": "Cerca un po’ di spazio libero accanto all’ovale.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "right-middle-leg": {
+      "title": "La zampa centrale a destra",
+      "instruction": "Se vuoi, prova un’altra piccola zampa accanto al centro.",
+      "spoken": "Se vuoi, un’altra zampa corta può piegarsi accanto al centro.",
+      "hint": "Solleva la matita prima di spostarti in questo nuovo punto.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "right-lower-leg": {
+      "title": "La zampa in basso a destra",
+      "instruction": "Scegli un’ultima zampa in basso oppure completa il contorno.",
+      "spoken": "Una zampa in basso può completare il mio esempio. Il tuo disegno può avere meno dettagli.",
+      "hint": "Lascia un po’ di spazio sulla carta intorno alle zampe.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    },
+    "colour-choice": {
+      "title": "Una visita rossa in giardino.",
+      "instruction": "Scegli il rosso e un pastello scuro, oppure i tuoi colori.",
+      "spoken": "Scelgo coperture delle ali rosse e dettagli grigio scuro. Puoi scegliere tu i colori per la tua visitatrice del giardino.",
+      "hint": "Tieni il pastello più scuro per le parti più piccole.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-left-wing": {
+      "title": "Un lato alla volta.",
+      "instruction": "Colora un lato di rosso con tratti brevi, sollevando il pastello.",
+      "spoken": "Coloro un lato con piccole zone rosse, lasciando spazio vicino ai puntini. La linea centrale mi aiuta a vedere dove fermarmi.",
+      "hint": "Tratti più piccoli aiutano vicino a un puntino o alla linea divisoria.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-right-wing": {
+      "title": "Rosso sull’altro lato.",
+      "instruction": "Crea piccole zone rosse dentro l’altra copertura delle ali.",
+      "spoken": "Ora anche l’altro lato riceve le sue zone rosse. Sollevo il pastello tra una zona e l’altra e lascio piccoli spazi bianchi, senza fretta di coprirli.",
+      "hint": "Gli spazi bianchi possono restare tra i tuoi tratti leggeri di pastello.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-ladybird-head": {
+      "title": "Una piccola testa scura.",
+      "instruction": "Usa piccoli tratti scuri dentro la testolina.",
+      "spoken": "La testa è uno spazio piccolo, quindi uso piccoli movimenti scuri. Le antenne e le zampe sottili restano linee a matita.",
+      "hint": "Accorcia il movimento quando lo spazio diventa più stretto.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-ladybird-spots": {
+      "title": "Piccoli puntini scuri.",
+      "instruction": "Colora i puntini, se hai scelto di aggiungerli.",
+      "spoken": "Se hai disegnato dei puntini, piccole zone scure stanno al loro interno. Puoi lasciare bianchi alcuni puntini o saltare questo colore.",
+      "hint": "Usa le forme dei tuoi puntini come spazi da colorare.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-reflection": {
+      "title": "Una pausa accanto al sentiero.",
+      "instruction": "Osserva il grande ovale e i suoi piccoli dettagli.",
+      "spoken": "Guarda come un grande ovale contiene i segni più piccoli. La nostra coccinella può riposare qui, accanto al sentiero immaginario del giardino.",
+      "hint": "Trova un punto in cui un piccolo segno cambia il tuo disegno.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "explore": {
+      "title": "Un posto per riposare.",
+      "instruction": "Inventa un sentiero in giardino, continua a colorare oppure finisci qui.",
+      "spoken": "La tua visitatrice del giardino potrebbe riposare su una foglia o accanto a un sentiero inventato da te. Continua a disegnare per tutto il tempo che vuoi, oppure finisci qui.",
+      "hint": "Una lunga curva leggera potrebbe diventare un sentiero in giardino.",
+      "notice": "L’esempio può mostrare sei zampe senza trasformare il disegno in una prova di conteggio. Saltare zampe o inventare dettagli non è un errore. Se richiesto, mostra a parte una semplice linea divisoria."
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "locale": "it-IT",
+  "lessonId": "sun",
+  "level": "basic",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "64a5d4992ca8c3fb589bba3c50477556d6a34b72fae086bbc4471a3cc45cdea0",
+  "title": "Un sole amichevole",
+  "invitation": "Linee che escono da un cerchio.",
+  "objective": "disporre linee verso l’esterno intorno a una forma centrale.",
+  "parentNote": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero.",
+  "simplify": "",
+  "transfer": "Le linee che escono da un centro potrebbero aiutarti a disegnare una scintilla o un soffione?",
+  "colouringLabel": "Colora il tuo sole",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un po’ di sole.",
+      "instruction": "Guarda il centro rotondo e i raggi che escono nel nostro disegno.",
+      "spoken": "Disegniamo un sole amichevole per il nostro giardino immaginario. Il Sole vero è una stella che dà luce e calore alla Terra. Guarda i raggi del nostro disegno.",
+      "hint": "Usiamo il disegno sullo schermo. Non guardare mai direttamente il Sole vero.",
+      "notice": "Guardate il disegno del sole sullo schermo. Osservate come i raggi escono dal centro."
+    },
+    "round-sun": {
+      "title": "Il sole rotondo",
+      "instruction": "Disegna un centro rotondo, lasciando spazio tutto intorno.",
+      "spoken": "Comincia con una forma rotonda al centro. Porta una curva lenta verso il punto da cui sei partito. Lascia spazio fuori per le linee del nostro sole.",
+      "hint": "Un cerchio può essere un po’ irregolare. Lascia della carta libera intorno.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "upward-ray": {
+      "title": "Il raggio in alto",
+      "instruction": "Aggiungi un raggio corto sopra il cerchio.",
+      "spoken": "Aggiungi una linea corta sopra il cerchio, lasciando un piccolo spazio. Questi raggi mostrano, nel nostro disegno, la luce che si diffonde.",
+      "hint": "Un piccolo spazio può separare il centro rotondo dal suo raggio.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "downward-ray": {
+      "title": "Il raggio in basso",
+      "instruction": "Aggiungi un raggio sotto il cerchio.",
+      "spoken": "Ora una linea sotto il cerchio, rivolta verso il basso. Guarda come questi due raggi vanno in direzioni opposte.",
+      "hint": "Comincia appena fuori dal bordo inferiore, poi vai verso il basso.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "left-ray": {
+      "title": "Il raggio a sinistra",
+      "instruction": "Lascia uscire un raggio verso sinistra.",
+      "spoken": "Lascia uscire una linea a sinistra. Mantieni un po’ di spazio intorno al centro rotondo.",
+      "hint": "Trova il lato sinistro del disegno. Porta la linea lontano dal cerchio.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "right-ray": {
+      "title": "Il raggio a destra",
+      "instruction": "Lascia uscire un raggio verso destra.",
+      "spoken": "E uno a destra. Le linee del nostro sole si allargano tutto intorno al centro.",
+      "hint": "Comincia appena fuori dal cerchio e porta la linea verso l’esterno.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "upper-left-ray": {
+      "title": "Il raggio in alto a sinistra",
+      "instruction": "Metti un raggio inclinato nello spazio in alto a sinistra.",
+      "spoken": "Qui c’è uno spazio tra due raggi. Una linea inclinata ci sta proprio bene. Prima cerco lo spazio, poi faccio il mio segno.",
+      "hint": "Cerca uno spazio tra il raggio in alto e quello a sinistra.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "upper-right-ray": {
+      "title": "Il raggio in alto a destra",
+      "instruction": "Aggiungi un altro raggio inclinato nello spazio in alto a destra.",
+      "spoken": "Un’altra linea inclinata può riempire questo spazio. Non deve essere uguale alla prima.",
+      "hint": "I tuoi raggi possono avere lunghezze diverse e stare comunque bene nel tuo disegno.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "lower-left-ray": {
+      "title": "Il raggio in basso a sinistra",
+      "instruction": "Se vuoi, prova un raggio leggermente curvo in basso.",
+      "spoken": "Un raggio leggermente curvo può stare qui sotto. Nel nostro disegno da libro di fiabe vanno bene sia linee dritte sia curve. Puoi anche non disegnare questo raggio.",
+      "hint": "Basta una piccola curva. Questo raggio in più è facoltativo.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "lower-right-ray": {
+      "title": "Il raggio in basso a destra",
+      "instruction": "Se vuoi, aggiungi un ultimo raggio in uno spazio libero.",
+      "spoken": "Un ultimo raggio può uscire in questo spazio. Scegli la tua linea oppure lascia lo spazio così com’è.",
+      "hint": "Il tuo sole non ha bisogno di un raggio in ogni spazio.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "sun-left-eye": {
+      "title": "L’occhio sinistro del sole",
+      "instruction": "Se vuoi, aggiungi un piccolo occhio al nostro sole delle fiabe.",
+      "spoken": "Il Sole vero non ha un viso, ma questo sole delle fiabe può averlo. Se vuoi, un piccolo punto scuro dentro il cerchio forma un occhio.",
+      "hint": "Va bene un puntino o un piccolo ovale. Puoi anche non disegnare il viso.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "sun-right-eye": {
+      "title": "L’occhio destro del sole",
+      "instruction": "Se vuoi, aggiungi un piccolo occhio a destra.",
+      "spoken": "Un piccolo occhio può stare dentro il lato destro del cerchio. Se vuoi, prova un puntino o un piccolo ovale.",
+      "hint": "Tieni il piccolo occhio dentro il cerchio, con un po’ di spazio intorno.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "sun-smile": {
+      "title": "Il sorriso del sole",
+      "instruction": "Se vuoi, prova una curva morbida per il sorriso.",
+      "spoken": "Una curva morbida può far sorridere il nostro sole delle fiabe. Mettila nella metà inferiore del cerchio, oppure non disegnare la bocca.",
+      "hint": "Basta una piccola curva. Il sorriso è una tua scelta.",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    },
+    "colour-choice": {
+      "title": "Scegli un po’ di calore.",
+      "instruction": "Scegli il giallo e l’arancione, oppure i colori che ti piacciono.",
+      "spoken": "Diamo al nostro sole delle fiabe una luce gialla e calda. Userò il giallo e un po’ di arancione. Il tuo sole può avere colori tutti suoi.",
+      "hint": "Prova un segno leggero su un foglio di prova per vedere il colore del pastello.",
+      "notice": "Lascia che il bambino o la bambina scelga i colori, lasci spazi bianchi o tralasci dettagli. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-centre-left": {
+      "title": "Un po’ di colore a pastello.",
+      "instruction": "Colora un lato con tratti brevi e leggeri di pastello.",
+      "spoken": "Guarda i tratti brevi e lenti di pastello che colorano un lato. Muoviti avanti e indietro, poi solleva il pastello prima della prossima zona. Piccoli spazi lasciano brillare la carta.",
+      "hint": "Lascia che i segni si sovrappongano leggermente. Fermati e solleva il pastello tra una piccola zona e l’altra.",
+      "notice": "Lascia che il bambino o la bambina scelga i colori, lasci spazi bianchi o tralasci dettagli. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-centre-right": {
+      "title": "Attraverso il centro luminoso.",
+      "instruction": "Continua sull’altro lato; lascia il viso ben visibile.",
+      "spoken": "Ora passa sull’altro lato con tratti leggeri di pastello. Lascio visibili gli occhi e il sorriso, così possiamo ancora vedere il nostro viso amichevole.",
+      "hint": "Gira il foglio se ti aiuta. Gli spazi bianchi possono restare.",
+      "notice": "Lascia che il bambino o la bambina scelga i colori, lasci spazi bianchi o tralasci dettagli. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-rays": {
+      "title": "Piccoli raggi caldi.",
+      "instruction": "Colora alcuni raggi con tratti arancioni e lenti.",
+      "spoken": "Un po’ di arancione fa sembrare caldi i raggi del nostro disegno. Segui ogni raggio con un tratto lento di pastello, poi sollevalo. Colorane alcuni o tutti.",
+      "hint": "Solleva il pastello tra un raggio e l’altro. Scegli i raggi che vuoi.",
+      "notice": "Lascia che il bambino o la bambina scelga i colori, lasci spazi bianchi o tralasci dettagli. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-warmth": {
+      "title": "Un secondo strato morbido.",
+      "instruction": "Se vuoi, prova uno strato leggero di arancione vicino al bordo.",
+      "spoken": "Aggiungo un po’ di arancione leggero vicino al bordo, sopra il giallo. Un secondo strato leggero cambia il colore. Provalo oppure lascia il tuo sole giallo.",
+      "hint": "Bastano pochi segni leggeri. Il tuo sole può restare giallo.",
+      "notice": "Lascia che il bambino o la bambina scelga i colori, lasci spazi bianchi o tralasci dettagli. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflection": {
+      "title": "Guarda il tuo sole.",
+      "instruction": "Osserva le forme e i colori nel tuo disegno intero.",
+      "spoken": "Guarda insieme la forma rotonda, i raggi e i segni di pastello. Quale parte ti fa pensare al sole? Il nostro disegno può portare il sole in quel giardino immaginario.",
+      "hint": "Oggi non devi cambiare o spiegare niente.",
+      "notice": "Lascia che il bambino o la bambina scelga i colori, lasci spazi bianchi o tralasci dettagli. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "Il tuo mondo di sole.",
+      "instruction": "Aggiungi il tuo mondo pieno di sole, continua a colorare oppure finisci qui.",
+      "spoken": "Il tuo sole splenderà sopra dei fiori, una casa o un mondo inventato da te? Continua a disegnare o colorare per tutto il tempo che vuoi, oppure finisci qui.",
+      "hint": "Un’altra volta, le linee che escono da un centro potrebbero aiutarti a disegnare un fiore?",
+      "notice": "Mostra su un foglio a parte un movimento verso l’esterno. I raggi non devono essere equidistanti, della stessa lunghezza o in un numero preciso. Il viso è un’aggiunta di fantasia, non un’osservazione del Sole vero."
+    }
+  }
+}

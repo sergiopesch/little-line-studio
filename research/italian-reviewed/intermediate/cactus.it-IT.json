@@ -1,0 +1,209 @@
+{
+  "locale": "it-IT",
+  "lessonId": "cactus",
+  "level": "intermediate",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "ce5982e5cc4d3335922af4b01a36dc50704a8928055ad3a1436d8580ab03e97b",
+  "title": "Cactus in vaso",
+  "invitation": "Bracci che crescono da un unico fusto.",
+  "objective": "collegare contorni ramificati a un fusto centrale; mettere una pianta in un contenitore e aggiungere pochi segni sulla superficie.",
+  "parentNote": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide.",
+  "simplify": "",
+  "transfer": "Un altro giorno inventate un albero ramificato. Esplorate come una forma centrale può sostenere i rami cambiando contorno e segni sulla superficie.",
+  "colouringLabel": "Piccoli tratti, colori scelti con cura",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un piccolo giardino sul davanzale.",
+      "instruction": "Guarda il fusto alto che sale da un vaso largo.",
+      "spoken": "Un cactus di carta cresce sul nostro davanzale immaginario. Guarda il centro alto, i bracci laterali più piccoli e il vaso largo sotto.",
+      "hint": "Guarda dove la pianta alta incontra il piccolo vaso.",
+      "notice": "Guardate il nostro cactus. Dove si uniscono i suoi bracci al fusto principale?"
+    },
+    "cactus-pot-rim": {
+      "title": "Il bordo del vaso",
+      "instruction": "Disegna un ovale largo e stretto per il bordo del vaso.",
+      "spoken": "Un ovale largo dà inizio al vaso. La sua altezza ridotta suggerisce che guardiamo un po’ dall’alto l’apertura.",
+      "hint": "Fai questo ovale molto più largo che alto.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-pot": {
+      "title": "Il vaso del cactus",
+      "instruction": "Curva verso il basso dai due lati del bordo.",
+      "spoken": "Il vaso si restringe mentre curva verso il basso dal bordo. Una base arrotondata unisce i lati in un unico contenitore largo.",
+      "hint": "Tieni la base un po’ più stretta del bordo largo.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-main-stem": {
+      "title": "Il fusto principale",
+      "instruction": "Fai crescere un fusto alto con la cima arrotondata.",
+      "spoken": "Una linea alta sale dal vaso, curva intorno e torna indietro. Tengo la sua larghezza minore dell’apertura larga del vaso.",
+      "hint": "Comincia dentro il bordo e lascia spazio per i bracci laterali.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-left-arm-out": {
+      "title": "Il braccio sinistro verso l’esterno",
+      "instruction": "Lascia uscire un braccio laterale e poi giralo verso l’alto.",
+      "spoken": "Una linea corta esce da un lato e gira verso l’alto. Guarda come la curva cresce dal fusto centrale alto.",
+      "hint": "Comincia dal fusto prima di andare verso l’esterno e in alto.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-left-arm-back": {
+      "title": "Il braccio sinistro che torna",
+      "instruction": "Arrotonda la cima del braccio e torna al fusto.",
+      "spoken": "Una piccola cima arrotondata torna verso il basso e poi attraversa fino al fusto. Questo ritorno dà un po’ di spessore al braccio laterale.",
+      "hint": "Lascia un po’ di spazio tra i due lati del braccio.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-right-arm-out": {
+      "title": "Il braccio destro verso l’esterno",
+      "instruction": "Comincia un altro braccio più in alto dall’altro lato.",
+      "spoken": "Un secondo braccio esce e gira verso l’alto dall’altro lato. Lo metto più in alto, così i due bracci hanno altezze diverse.",
+      "hint": "Guarda dall’altra parte del fusto prima di scegliere un punto di partenza più alto.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-right-arm-back": {
+      "title": "Il braccio destro che torna",
+      "instruction": "Arrotonda l’altro braccio e riportalo indietro.",
+      "spoken": "Curva intorno alla cima di questo braccio e torna al fusto. Le linee unite creano una forma più piccola accanto al centro alto.",
+      "hint": "Segui una linea vicina tornando verso il fusto principale.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-left-spine": {
+      "title": "La spina a sinistra",
+      "instruction": "Aggiungi una breve spina accanto alla parte inferiore del fusto.",
+      "spoken": "Una breve linea esce dal lato. Disegniamo il cactus sulla carta; non abbiamo bisogno di toccare una pianta vera.",
+      "hint": "Comincia dal bordo del fusto e fai un piccolo segno.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-right-spine": {
+      "title": "La spina a destra",
+      "instruction": "Aggiungi una piccola spina sul lato opposto.",
+      "spoken": "Un’altra piccola linea esce dal lato opposto. Pochi segni possono suggerire un bordo spinoso senza coprire tutto il disegno.",
+      "hint": "Tieni questa piccola linea molto più corta di un braccio.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-upper-left-spine": {
+      "title": "La spina in alto a sinistra",
+      "instruction": "Metti un’altra breve spina più in alto.",
+      "spoken": "Un breve segno sta più in alto su questo lato. Lascio spazio tra i segni, così il contorno del fusto resta ben visibile.",
+      "hint": "Scegli un punto libero sul bordo superiore del fusto.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-upper-right-spine": {
+      "title": "La spina in alto a destra",
+      "instruction": "Aggiungi una piccola spina in alto dall’altra parte del fusto.",
+      "spoken": "Un’ultima piccola spina esce dall’altro bordo superiore. La nostra pianta di carta ha solo pochi piccoli dettagli.",
+      "hint": "Usa un breve segno accanto alla parte superiore arrotondata del fusto.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-stem-texture": {
+      "title": "La trama del fusto",
+      "instruction": "Disegna una curva delicata dentro il fusto alto.",
+      "spoken": "Una lunga curva delicata segue il fusto dall’interno. Suggerisce una superficie arrotondata senza attraversare i bordi esterni.",
+      "hint": "Tieni questa curva dentro il fusto principale, con spazio accanto.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-upper-pot-band": {
+      "title": "La fascia superiore del vaso",
+      "instruction": "Curva una fascia sulla parte anteriore arrotondata del vaso.",
+      "spoken": "Una curva poco profonda attraversa il vaso. La sua curvatura segue la parte davanti arrotondata invece di andare dritta come su una scatola piatta.",
+      "hint": "Tieni le estremità della curva dentro i bordi del vaso.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-lower-pot-band": {
+      "title": "La fascia inferiore del vaso",
+      "instruction": "Se vuoi, prova un’altra fascia curva sul vaso.",
+      "spoken": "Un’altra fascia poco curva può stare sotto la prima. Lo spazio tra loro dà al vaso un piccolo motivo facoltativo.",
+      "hint": "Segui la prima fascia curva un po’ più in basso.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-flower-centre": {
+      "title": "Il centro del fiore del cactus",
+      "instruction": "Prova un piccolo centro di fiore sopra il fusto.",
+      "spoken": "Un piccolo cerchio può dare inizio a un fiore immaginario sopra il cactus. Questa decorazione in più è una tua scelta.",
+      "hint": "Lascia un po’ di spazio sopra il fusto arrotondato.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-left-petal": {
+      "title": "Il petalo sinistro",
+      "instruction": "Prova un petalo accanto al piccolo centro del fiore.",
+      "spoken": "Se hai aggiunto un centro, un piccolo petalo arrotondato può unirsi a esso. Puoi lasciare fuori tutto il fiore.",
+      "hint": "Curva verso l’esterno e torna accanto al piccolo centro del fiore.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-right-petal": {
+      "title": "Il petalo destro",
+      "instruction": "Se hai aggiunto un centro, prova un altro petalo.",
+      "spoken": "Se hai aggiunto un centro, un altro petalo può curvare accanto. Puoi anche lasciare fuori questo fiore immaginario.",
+      "hint": "Se hai disegnato un centro, lascia che un petalo arrotondato tocchi l’altro lato.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "cactus-stone": {
+      "title": "Il sasso del cactus",
+      "instruction": "Prova un piccolo sasso ovale accanto al vaso.",
+      "spoken": "Un piccolo ovale basso può riposare accanto al vaso. È un’aggiunta facoltativa per il davanzale immaginario che stai creando.",
+      "hint": "Trova uno spazio vuoto accanto alla base del vaso.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    },
+    "colour-choice": {
+      "title": "Verdi per la pianta e colori caldi per il vaso.",
+      "instruction": "Scegli dei verdi per la pianta e un colore caldo per il vaso.",
+      "spoken": "Scelgo il verde per il nostro cactus di carta e l’arancione per il vaso. Un verde più scuro aiuterà un lato a sembrare arrotondato.",
+      "hint": "Scegli un segno più chiaro e uno più scuro, anche con un solo pastello.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-cactus": {
+      "title": "Una pianta verde prende forma.",
+      "instruction": "Usa piccoli tratti verdi dentro il fusto e i bracci.",
+      "spoken": "Piccole zone verdi seguono il fusto. I bracci stretti richiedono movimenti piccolissimi, sollevando il pastello prima di ogni nuovo punto.",
+      "hint": "Più piccolo è lo spazio, più piccolo può essere il movimento del pastello.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-pot": {
+      "title": "Un colore caldo per il vaso.",
+      "instruction": "Crea un colore caldo dentro il vaso arrotondato.",
+      "spoken": "Brevi tratti arancioni colorano il vaso largo. Un bordo marrone distingue l’apertura, mentre le fasce curve restano ben visibili.",
+      "hint": "Lascia vedere piccoli spazi bianchi e le linee del vaso che hai disegnato.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-cactus-shade": {
+      "title": "Un po’ d’ombra su un lato.",
+      "instruction": "Aggiungi uno strato verde più scuro lungo un lato del fusto.",
+      "spoken": "Un po’ di verde scuro su un lato suggerisce un fusto arrotondato. Lascio il centro più chiaro, così il primo colore si vede ancora.",
+      "hint": "Aggiungi un secondo strato leggero vicino a un solo lato.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-reflection": {
+      "title": "Una pianta alta nel suo vaso.",
+      "instruction": "Guarda la pianta alta e il vaso largo e arrotondato.",
+      "spoken": "Il nostro cactus ha un centro alto, bracci più piccoli e un vaso che si restringe in basso. Può crescere sul tuo davanzale immaginario di carta.",
+      "hint": "Guarda come il vaso e la pianta hanno larghezze diverse.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "explore": {
+      "title": "Fai spazio al tuo cactus.",
+      "instruction": "Inventa il tuo davanzale, continua a colorare oppure finisci.",
+      "spoken": "Potresti aggiungere una finestra immaginaria o un’altra pianta di carta. Continua a far crescere il tuo disegno oppure finisci quando ti senti pronto.",
+      "hint": "Prova una pianta diversa che cresce da un vaso ovale largo.",
+      "notice": "Indica sull’esempio il punto in cui si collega un braccio solo se richiesto. Il contorno del fusto principale può restare visibile attraverso il collegamento: non è necessario cancellarlo. Un solo braccio o un cactus rotondo più semplice sono alternative valide."
+    }
+  }
+}

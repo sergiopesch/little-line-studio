@@ -1,0 +1,237 @@
+{
+  "locale": "it-IT",
+  "lessonId": "house",
+  "level": "intermediate",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "3856b4a1e72ee5ca339e4c9e792fb68c1214a351a99c81441dbb683b8d627cda",
+  "title": "Casa e giardino",
+  "invitation": "Crea una casa con un giardino che cresce.",
+  "objective": "collegare forme semplici di un edificio e posizionare un sentiero e una pianta rispetto alla casa.",
+  "parentNote": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello.",
+  "simplify": "",
+  "transfer": "Un altro giorno inventate un piccolo negozio o un capanno. Invita il bambino o la bambina a riutilizzare pareti, un’apertura e un tetto scegliendo una disposizione diversa.",
+  "colouringLabel": "Piccoli tratti, colori scelti con cura",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Una visita alla nostra casa.",
+      "instruction": "Guarda il tetto appuntito sopra le pareti larghe.",
+      "spoken": "Un visitatore immaginario arriva alla nostra casa di carta. Guarda le pareti larghe, il tetto a punta e le piccole aperture dentro la forma delle pareti.",
+      "hint": "Guarda come il tetto si appoggia agli angoli delle pareti.",
+      "notice": "Guardate la nostra casa immaginaria. Dove comincia il sentiero?"
+    },
+    "house-walls": {
+      "title": "Le pareti della casa",
+      "instruction": "Unisci quattro lati per le pareti della casa.",
+      "spoken": "Un rettangolo largo forma le pareti. Lascio carta sopra per un tetto e sotto per un sentiero verso la porta.",
+      "hint": "Comincia con un grande rettangolo e spazio intorno.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-left-roof": {
+      "title": "Il lato sinistro del tetto",
+      "instruction": "Sali con una linea inclinata dall’angolo della parete alla punta del tetto.",
+      "spoken": "Una linea inclinata sale dall’angolo sinistro della parete verso il centro. La punta del tetto sta sopra la forma larga delle pareti.",
+      "hint": "Dirigiti sopra il centro del rettangolo delle pareti.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-right-roof": {
+      "title": "Il lato destro del tetto",
+      "instruction": "Scendi con una linea inclinata fino all’angolo opposto della parete.",
+      "spoken": "Una seconda linea inclinata raggiunge l’altro angolo della parete. Insieme, le due linee e la parte superiore della parete chiudono il nostro tetto triangolare.",
+      "hint": "Unisci il punto alto all’altro angolo superiore della parete.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-door": {
+      "title": "La porta della casa",
+      "instruction": "Metti un piccolo rettangolo alto dentro le pareti.",
+      "spoken": "Un rettangolo stretto raggiunge la base della casa. Tienilo molto più piccolo delle pareti, con spazio accanto per le finestre.",
+      "hint": "Lascia che la base della porta incontri la base della casa.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-door-handle": {
+      "title": "La maniglia della porta",
+      "instruction": "Metti una piccola maniglia dentro la porta.",
+      "spoken": "Un minuscolo segno sta vicino a un lato della porta. Un po’ di carta intorno mantiene ben visibile questo piccolo dettaglio.",
+      "hint": "Tieni il punto dentro la porta, non sul bordo.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-left-window": {
+      "title": "La finestra sinistra",
+      "instruction": "Disegna una piccola finestra accanto alla porta.",
+      "spoken": "Un piccolo rettangolo sta accanto alla porta. Lascio spazio di parete tra la finestra e la porta e tra la finestra e il bordo esterno.",
+      "hint": "Trova uno spazio libero sulla parete da un lato della porta.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-right-window": {
+      "title": "La finestra destra",
+      "instruction": "Metti un’altra piccola finestra dall’altro lato della porta.",
+      "spoken": "Una seconda finestra sta dall’altro lato. Confronta la sua altezza con la prima usando la parte superiore della parete come guida.",
+      "hint": "Lascia spazio di parete intorno al secondo piccolo rettangolo.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-left-window-bar": {
+      "title": "La barra della finestra sinistra",
+      "instruction": "Disegna una barra corta dentro la prima finestra.",
+      "spoken": "Una linea corta divide questa finestra. Comincia e fermati ai suoi bordi, così la barra resta dentro la forma del vetro.",
+      "hint": "Usa la cima e la base della finestra come punti in cui fermarti.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-right-window-bar": {
+      "title": "La barra della finestra destra",
+      "instruction": "Dividi la seconda finestra con un’altra barra corta.",
+      "spoken": "Un’altra barra corta va dentro la seconda finestra. Piccole linee come queste sono più facili dopo aver sistemato le forme grandi.",
+      "hint": "Tieni questa piccola linea dentro la seconda finestra.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-chimney": {
+      "title": "Il camino della casa",
+      "instruction": "Prova un piccolo camino sopra un lato inclinato del tetto.",
+      "spoken": "Un piccolo camino può salire da un lato inclinato del tetto. I suoi angoli inferiori incontrano la pendenza, lasciando ben visibile il nostro piccolo tetto.",
+      "hint": "Unisci lati corti sopra il tetto invece di attraversarlo.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-left-path": {
+      "title": "Il lato sinistro del sentiero",
+      "instruction": "Lascia che un bordo del sentiero curvi lontano dalla porta.",
+      "spoken": "Una linea curva verso il basso da un angolo della porta. Si allarga mentre va verso la parte inferiore del foglio.",
+      "hint": "Comincia da un angolo inferiore della porta e curva verso l’esterno.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-right-path": {
+      "title": "Il lato destro del sentiero",
+      "instruction": "Curva l’altro bordo del sentiero lontano dalla porta.",
+      "spoken": "L’altro bordo del sentiero comincia dall’altro angolo. Lo spazio più largo vicino a noi crea un passaggio accogliente verso la casa.",
+      "hint": "Lascia che il sentiero si allarghi allontanandosi dalla porta.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-flower-stem": {
+      "title": "Lo stelo del fiore",
+      "instruction": "Disegna un piccolo stelo in giardino accanto alla casa.",
+      "spoken": "Una linea alta e sottile può sostenere un fiore in giardino accanto alla casa. Lascio spazio intorno alla cima per i petali.",
+      "hint": "Scegli uno spazio libero in giardino, lontano dal sentiero.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-flower-centre": {
+      "title": "Il centro del fiore",
+      "instruction": "Metti un piccolo cerchio sulla cima dello stelo.",
+      "spoken": "Un piccolo centro rotondo incontra la cima dello stelo. Tienilo abbastanza piccolo da lasciare spazio ai petali intorno.",
+      "hint": "Lascia che il cerchio tocchi l’estremità superiore dello stelo.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-upper-petal": {
+      "title": "Il petalo in alto",
+      "instruction": "Curva un petalo sopra il piccolo centro del fiore.",
+      "spoken": "Una curva parte dalla cima del centro e torna indietro. Tornare lì vicino crea un petalo arrotondato con il proprio spazio interno.",
+      "hint": "Curva verso l’esterno dal centro e torna accanto al punto di partenza.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-left-petal": {
+      "title": "Il petalo a sinistra",
+      "instruction": "Aggiungi un petalo accanto al centro del fiore.",
+      "spoken": "Un altro petalo arrotondato cresce verso un lato. Tengo la sua curva fuori dal centro invece di attraversarlo.",
+      "hint": "Lascia che il petalo incontri il lato del piccolo cerchio.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-lower-petal": {
+      "title": "Il petalo in basso",
+      "instruction": "Curva un petalo sotto il centro del fiore.",
+      "spoken": "Il prossimo petalo curva sotto il centro. Ripetiamo un movimento curvo in una nuova direzione.",
+      "hint": "Lascia spazio accanto allo stelo per questo petalo arrotondato.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-right-petal": {
+      "title": "Il petalo a destra",
+      "instruction": "Aggiungi un petalo sull’ultimo lato aperto.",
+      "spoken": "Un altro petalo curvo incontra l’altro lato. Il nostro fiore in giardino può avere petali diversi e sembrare comunque aperto e in crescita.",
+      "hint": "Riporta questa curva al lato del centro che rimane.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-flower-leaf": {
+      "title": "La foglia del fiore",
+      "instruction": "Unisci due curve per una foglia accanto allo stelo.",
+      "spoken": "Due curve si incontrano in una punta accanto allo stelo. La forma unita dà alla foglia un po’ di spazio per il colore più tardi.",
+      "hint": "Lascia che entrambe le curve si incontrino sullo stelo e sulla punta della foglia.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-ground": {
+      "title": "Il terreno della casa",
+      "instruction": "Prova una piccola curva del terreno accanto alla casa.",
+      "spoken": "Una piccola curva del terreno può stare accanto alla casa. Lascia liberi la porta e il sentiero per il nostro visitatore immaginario.",
+      "hint": "Tieni questa linea in più fuori dal sentiero che hai disegnato.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-garden-stone": {
+      "title": "Il sasso in giardino",
+      "instruction": "Se vuoi, prova un sasso ovale in giardino.",
+      "spoken": "Un piccolo ovale può diventare un sasso in giardino. La sua forma bassa sta accanto al sentiero senza bloccare la porta.",
+      "hint": "Scegli uno spazio vuoto in giardino per questo piccolo ovale facoltativo.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "house-cloud": {
+      "title": "La nuvola della casa",
+      "instruction": "Prova una nuvola morbida sopra il tuo giardino di carta.",
+      "spoken": "Curve arrotondate possono formare una piccola nuvola nel cielo. Questa forma in più può restare separata dalla casa e dal fiore.",
+      "hint": "Cerca uno spazio libero intorno al tetto prima di disegnarla.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    },
+    "colour-choice": {
+      "title": "Colori per una casa accogliente.",
+      "instruction": "Scegli colori che stiano bene insieme per la casa e il tetto.",
+      "spoken": "Scelgo pareti color crema, un tetto rosso e una porta marrone. Finestre azzurre aggiungono un colore diverso negli spazi più piccoli.",
+      "hint": "Scegli un colore per le pareti che lasci ben visibili i contorni.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-roof": {
+      "title": "Rosso caldo sul tetto.",
+      "instruction": "Colora il tetto con piccole zone rosse.",
+      "spoken": "Piccole zone rosse stanno dentro il triangolo. Vicino alla punta in alto accorcio i tratti e sollevo il pastello prima di raggiungere un bordo.",
+      "hint": "Usa tratti più piccoli quando lo spazio intorno diventa stretto.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-walls": {
+      "title": "Colore delicato intorno alle aperture.",
+      "instruction": "Colora gli spazi delle pareti intorno a porte e finestre.",
+      "spoken": "Zone color crema vanno intorno alle aperture, lasciandole libere. Mi sposto tra i piccoli spazi delle pareti invece di colorare attraverso una porta o una finestra.",
+      "hint": "Solleva il pastello prima di un’apertura e comincia in un altro spazio della parete.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-door-and-glass": {
+      "title": "Piccole forme, colori diversi.",
+      "instruction": "Dai alla porta e ai vetri i loro colori.",
+      "spoken": "Il marrone distingue la porta dalle pareti chiare. L’azzurro chiaro sta nelle finestre, con piccoli spazi bianchi che suggeriscono il vetro.",
+      "hint": "Colora ogni piccola forma separatamente, sollevando il pastello tra una e l’altra.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-reflection": {
+      "title": "Una casa pronta per la tua storia.",
+      "instruction": "Guarda come le piccole aperture stanno dentro le grandi pareti.",
+      "spoken": "La nostra grande forma delle pareti contiene porte e finestre più piccole. Il sentiero è pronto per un visitatore immaginario e il giardino può continuare a crescere.",
+      "hint": "Nota una piccola forma dentro una più grande.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "explore": {
+      "title": "Un giardino tutto tuo.",
+      "instruction": "Fai crescere il giardino, colora ancora oppure finisci.",
+      "spoken": "Il tuo visitatore potrebbe trovare altri fiori, un albero o qualcosa che inventi tu. Continua a creare il tuo giardino di carta oppure finisci quando vuoi.",
+      "hint": "Prova a mettere piccole aperture dentro la forma grande di un altro edificio.",
+      "notice": "Usate una casa immaginaria; non c’è bisogno di identificare la vera casa della famiglia. Se il fiore sembra difficile, proponi un fiore più grande o un’unica corolla rotonda. Parlate del collegamento tra sentiero e porta solo se richiesto. Non chiedere pareti dritte come con un righello."
+    }
+  }
+}

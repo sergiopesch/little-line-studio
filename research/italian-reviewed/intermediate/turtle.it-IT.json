@@ -1,0 +1,209 @@
+{
+  "locale": "it-IT",
+  "lessonId": "turtle",
+  "level": "intermediate",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "01f6d0ba16228bd1dddd7647770e562bd49656e67ac3288b491e44dc3610984b",
+  "title": "Tartaruga",
+  "invitation": "Un grande guscio con piccole parti.",
+  "objective": "collegare testa, zampe e coda a un grande guscio; esplorare come le linee dividono una superficie in zone.",
+  "parentNote": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione.",
+  "simplify": "",
+  "transfer": "Un altro giorno prova un coleottero: mantieni un grande corpo centrale, ma scegli parti diverse intorno al bordo. Invita il bambino o la bambina a decidere quali elementi della tartaruga non servono più.",
+  "colouringLabel": "Piccoli tratti, colori scelti con cura",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un viaggio immaginario in giardino.",
+      "instruction": "Guarda il grande guscio e le piccole parti vicine.",
+      "spoken": "La nostra tartaruga di carta fa un viaggio immaginario in giardino. Guarda come la piccola testa e le zampe incontrano un guscio molto più grande.",
+      "hint": "Cerca la forma più grande prima delle piccole parti vicine.",
+      "notice": "Guardate la nostra tartaruga. Quali piccole parti sporgono oltre il grande guscio?"
+    },
+    "turtle-shell": {
+      "title": "Il guscio della tartaruga",
+      "instruction": "Disegna un ovale largo per il guscio della tartaruga.",
+      "spoken": "Un ovale largo forma il guscio. Lascio spazio su un lato per la testa e sotto per le piccole zampe.",
+      "hint": "Lascia carta intorno al guscio per le parti più piccole.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-head": {
+      "title": "La testa della tartaruga",
+      "instruction": "Aggiungi un ovale molto più piccolo accanto al guscio.",
+      "spoken": "Un ovale più piccolo tocca un lato. Confrontare la testa con il guscio mi aiuta a scegliere quanto spazio darle.",
+      "hint": "Lascia che la piccola testa incontri il lato del guscio.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-front-foot": {
+      "title": "La zampa anteriore",
+      "instruction": "Disegna una piccola zampa curva sotto la parte davanti.",
+      "spoken": "Una curva scende dal guscio e torna lì vicino. La maggior parte della nostra tartaruga resta dentro la grande forma del guscio.",
+      "hint": "Fai questa zampa piccola accanto all’ovale largo.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-back-foot": {
+      "title": "La zampa posteriore",
+      "instruction": "Aggiungi un’altra piccola zampa sotto la parte dietro.",
+      "spoken": "Una seconda zampa curva esce più in basso, dietro. Lascia ben visibile la forma larga del guscio.",
+      "hint": "Guarda dall’altra parte sotto il guscio per la seconda zampa.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-tail": {
+      "title": "La coda della tartaruga",
+      "instruction": "Unisci due linee corte per una piccola coda.",
+      "spoken": "Due linee corte si incontrano in una punta dietro il guscio. La piccola coda bilancia la testa molto più grande dall’altro lato.",
+      "hint": "Tieni questa piccola punta più piccola della testa.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-eye": {
+      "title": "L’occhio della tartaruga",
+      "instruction": "Metti un piccolo occhio dentro la testa.",
+      "spoken": "Un minuscolo occhio va dentro la testa, lontano dal bordo. Mi fermo dopo un piccolo segno.",
+      "hint": "Trova un punto dentro il piccolo ovale della testa.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-mouth": {
+      "title": "La bocca della tartaruga",
+      "instruction": "Curva una piccola bocca vicino al bordo della testa.",
+      "spoken": "Una breve bocca curva dà un’espressione alla nostra tartaruga da fiaba. Lascia un po’ di spazio sotto l’occhio.",
+      "hint": "Usa una piccola curva nella parte inferiore della testa.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-shell-rim": {
+      "title": "Il bordo del guscio",
+      "instruction": "Curva un bordo lungo la parte inferiore del guscio.",
+      "spoken": "Questa curva segue il bordo inferiore del guscio, un po’ più all’interno. Lo spazio crea un bordo stretto intorno al guscio.",
+      "hint": "Segui l’ovale senza disegnare direttamente sopra il suo bordo.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-centre-pattern": {
+      "title": "Il motivo centrale del guscio",
+      "instruction": "Unisci lati corti per un motivo sul guscio.",
+      "spoken": "Unisco lati corti al centro del guscio. Questo è il motivo del nostro disegno, con spazio intorno per altre linee.",
+      "hint": "Comincia con pochi lati uniti dentro il grande ovale.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-upper-left": {
+      "title": "Il collegamento in alto a sinistra",
+      "instruction": "Collega il motivo centrale verso l’alto a sinistra.",
+      "spoken": "Una linea parte da un angolo superiore e raggiunge il guscio. Fermati dove incontra il bordo esterno.",
+      "hint": "Comincia dal motivo e dirigiti verso il bordo del guscio.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-upper-right": {
+      "title": "Il collegamento in alto a destra",
+      "instruction": "Collega un altro angolo superiore al guscio.",
+      "spoken": "Un’altra linea esce dall’altro angolo superiore. Guarda come cambiano forma gli spazi tra le linee.",
+      "hint": "Guarda il bordo vicino del guscio prima di tracciare questa linea.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-right-pattern": {
+      "title": "Il collegamento a destra",
+      "instruction": "Porta una linea verso destra.",
+      "spoken": "La prossima linea va dal motivo al bordo destro. Ogni collegamento resta dentro il nostro grande guscio.",
+      "hint": "Fermati quando la linea raggiunge l’ovale esterno.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-lower-right": {
+      "title": "Il collegamento in basso a destra",
+      "instruction": "Collega un angolo inferiore verso il bordo.",
+      "spoken": "Una linea scende inclinata dal motivo verso il bordo. Mi fermo al bordo invece di attraversarlo.",
+      "hint": "Dirigiti verso il bordo interno vicino alla parte inferiore del guscio.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-lower-left": {
+      "title": "Il collegamento in basso a sinistra",
+      "instruction": "Unisci l’altro angolo inferiore al bordo.",
+      "spoken": "Ora collega l’altro angolo inferiore. Il motivo può avere spazi diversi e stare comunque bene sulla tua tartaruga.",
+      "hint": "Unisci il motivo al bordo su questo lato.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-left-pattern": {
+      "title": "Il collegamento a sinistra",
+      "instruction": "Completa un collegamento sul lato sinistro.",
+      "spoken": "Una linea collega il centro al bordo sinistro. Il nostro piccolo motivo sul guscio ora ha spazi pronti per il colore.",
+      "hint": "Usa una linea corta tra il motivo e il guscio.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-front-toe": {
+      "title": "Il ditino davanti",
+      "instruction": "Se vuoi, prova un piccolo segno per un dito.",
+      "spoken": "Una piccola linea può dare un dito alla zampa anteriore. È un segno in più che puoi anche non fare.",
+      "hint": "Trova la zampa prima di aggiungere questo piccolo dettaglio.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-back-toe": {
+      "title": "Il ditino dietro",
+      "instruction": "Prova un altro piccolo dito, oppure mantieni tutto semplice.",
+      "spoken": "Un piccolo dito può stare anche sull’altra zampa. Basta una breve linea per questo dettaglio facoltativo.",
+      "hint": "Tieni il piccolo segno dentro la zampa che hai disegnato.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "turtle-ground": {
+      "title": "Il terreno della tartaruga",
+      "instruction": "Prova una linea corta del terreno sotto la tartaruga.",
+      "spoken": "Una linea sotto può dare un luogo al nostro viaggio immaginario. La tua tartaruga può anche restare sulla carta senza altro.",
+      "hint": "Metti il terreno sotto le zampe invece di attraversarle.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    },
+    "colour-choice": {
+      "title": "Colori per la tartaruga in giardino.",
+      "instruction": "Scegli dei verdi oppure i tuoi colori per la tartaruga.",
+      "spoken": "Scelgo il verde per il guscio e un crema chiaro per la testa. La tua tartaruga di carta può usare i colori che hai.",
+      "hint": "Un verde più scuro e uno più chiaro possono formare una semplice coppia.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-shell": {
+      "title": "Un largo guscio verde.",
+      "instruction": "Crea il colore del guscio in piccole zone.",
+      "spoken": "Brevi tratti verdi attraversano il guscio. Sollevo il pastello tra una zona e l’altra e lascio ben visibili le linee del motivo.",
+      "hint": "Lascia piccoli spazi di carta tra i segni vicini di pastello.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-small-parts": {
+      "title": "Parti piccole, movimenti piccoli.",
+      "instruction": "Usa tratti più piccoli per la testa e le zampe.",
+      "spoken": "La testa e le zampe richiedono movimenti più piccoli del guscio. Rallento vicino a ogni bordo e sollevo il pastello prima di spostarmi.",
+      "hint": "Le parti piccole hanno bisogno di piccoli tratti, non di un lungo movimento.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-shell-shadow": {
+      "title": "Un guscio arrotondato e morbido.",
+      "instruction": "Aggiungi uno strato più scuro vicino alla parte inferiore del guscio.",
+      "spoken": "Un po’ di verde più scuro vicino al bordo inferiore suggerisce un guscio arrotondato. Lascio più chiara la parte superiore, così si vedono entrambi i colori.",
+      "hint": "All’inizio aggiungi il colore leggermente; potrai scegliere un altro strato più tardi.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-reflection": {
+      "title": "Un grande guscio e piccole parti vicine.",
+      "instruction": "Guarda il grande guscio con le parti più piccole collegate.",
+      "spoken": "Il nostro guscio è rimasto la forma più grande, con piccole parti che spuntano fuori. Immagina dove potrebbe andare la tua tartaruga di carta nel suo viaggio in giardino.",
+      "hint": "Il tuo disegno può restare proprio com’è.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "explore": {
+      "title": "Dove potrebbe andare la tua tartaruga?",
+      "instruction": "Inventa un luogo nel giardino, continua a colorare oppure finisci.",
+      "spoken": "Potresti dare alla tua tartaruga una foglia o un sentiero immaginario in giardino. C’è tempo per le tue idee, oppure puoi finire qui.",
+      "hint": "Prova una creatura diversa con una forma grande e parti piccole.",
+      "notice": "Se le divisioni del guscio creano confusione, proponi la scelta più semplice di un guscio senza motivo. Durante una pausa richiesta, confronta sull’esempio il bordo della forma centrale con quello esterno del guscio. Il centro con molti lati non ha bisogno di un numero preciso di angoli. Non trasformare il motivo del guscio in un esercizio di conteggio o correzione."
+    }
+  }
+}

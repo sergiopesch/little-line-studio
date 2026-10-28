@@ -1,0 +1,230 @@
+{
+  "locale": "it-IT",
+  "lessonId": "rabbit",
+  "level": "expert",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "7ed8a5d63e2c169c5864aee2b774a82941651f144973478cc9aac1a6b1fe5589",
+  "title": "Coniglio visto di lato",
+  "invitation": "Esplora una vista laterale.",
+  "objective": "disporre una testa rivolta di lato, orecchie in posizioni diverse e una grande zampa posteriore raccolta.",
+  "parentNote": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta.",
+  "simplify": "Bastano un orecchio e due piedi semplici. Salta l’interno dell’orecchio, la guancia e i dettagli facoltativi; corpo, testa di lato, orecchio lungo e coda possono comunicare l’idea.",
+  "transfer": "Un altro giorno prova una lepre rivolta dall’altra parte usando un nuovo riferimento. Scegli quali relazioni tra le forme restano utili e quali devono cambiare.",
+  "colouringLabel": "Piccoli movimenti di pastello, i tuoi colori",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Una pausa in giardino.",
+      "instruction": "Guarda le orecchie lunghe e la zampa posteriore arrotondata e raccolta.",
+      "spoken": "Disegniamo un coniglio che fa una pausa in un giardino immaginario. Le orecchie lunghe e la zampa posteriore arrotondata ci aiuteranno a mostrare una posizione raccolta vista di lato.",
+      "hint": "Confronta le orecchie alte con il corpo basso e arrotondato.",
+      "notice": "Guardate un coniglio visto di lato. Osservate che di solito si vede soprattutto un occhio e che la zampa posteriore può formare una grande forma rotonda accanto al corpo. Decidete da che parte guarda questo coniglio."
+    },
+    "rabbit-body": {
+      "title": "Il corpo del coniglio",
+      "instruction": "Curva le parti del corpo, sollevando la matita dove si uniranno testa e zampe.",
+      "spoken": "Comincia con la schiena curva e i bordi del corpo. Solleva la matita dove si uniranno testa e zampe; quelle forme davanti chiuderanno le piccole aperture.",
+      "hint": "Segui il corpo arrotondato, sollevando la matita alle aperture per le parti davanti.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "sideways-head": {
+      "title": "La testa di lato",
+      "instruction": "Curva una testa più piccola e inclinata, lasciando una piccola apertura per il muso.",
+      "spoken": "Curva la testa più piccola a destra, lasciando una piccola apertura davanti. Il muso arrotondato si unirà lì nel prossimo passaggio.",
+      "hint": "Fai la testa più piccola del corpo e leggermente inclinata.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "rabbit-muzzle": {
+      "title": "Il muso del coniglio",
+      "instruction": "Curva un piccolo muso arrotondato verso destra.",
+      "spoken": "Una piccola curva esce dalla testa per il muso. Questo piccolo cambiamento alla forma esterna aiuta a suggerire il viso.",
+      "hint": "Lascia che una piccola curva arrotondata esca dalla testa.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "rabbit-nose": {
+      "title": "Il naso del coniglio",
+      "instruction": "Metti un piccolo naso alla punta del muso.",
+      "spoken": "Un puntino davanti diventa il naso del nostro coniglio.",
+      "hint": "Usa un piccolo punto all’estrema destra del muso.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "rabbit-eye": {
+      "title": "L’occhio del coniglio",
+      "instruction": "Aggiungi un piccolo occhio dentro la testa.",
+      "spoken": "Metti un piccolo occhio dentro la testa, dietro il muso.",
+      "hint": "Tieni l’occhio piccolo con carta intorno.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "long-near-ear": {
+      "title": "L’orecchio lungo vicino",
+      "instruction": "Curva un orecchio lungo verso l’alto, arrotonda la punta e torna indietro.",
+      "spoken": "Lascia che un orecchio lungo salga sopra la testa, giri intorno a una punta arrotondata e torni giù. Lascia spazio tra i suoi due lati.",
+      "hint": "Pensa a una foglia alta e stretta con la punta arrotondata.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "long-far-ear": {
+      "title": "L’orecchio lungo lontano",
+      "instruction": "Aggiungi un altro orecchio lungo più inclinato verso destra.",
+      "spoken": "Il secondo orecchio si inclina un po’ più a destra. Cambiare l’angolo ci aiuta a vedere due orecchie separate invece di una sola forma spessa.",
+      "hint": "Lascia un po’ di spazio tra le due orecchie lunghe.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "inner-near-ear": {
+      "title": "L’interno dell’orecchio vicino",
+      "instruction": "Disegna una forma curva più piccola dentro l’orecchio vicino.",
+      "spoken": "Una forma curva più piccola dentro questo orecchio ci dà spazio per un rosa chiaro più tardi. Lascia un piccolo bordo intorno, dentro l’orecchio più grande.",
+      "hint": "Ripeti la forma lunga dell’orecchio, più piccola e all’interno.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "rabbit-cheek": {
+      "title": "La guancia del coniglio",
+      "instruction": "Gira una breve curva della guancia verso il basso sotto l’occhio.",
+      "spoken": "Una breve curva della guancia gira sotto il viso. Piccoli dettagli curvi possono mostrare un cambio di forma senza tante linee.",
+      "hint": "Curva verso il basso e indietro sotto la zona dell’occhio.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "large-hind-leg": {
+      "title": "La grande zampa posteriore",
+      "instruction": "Metti una grande zampa posteriore arrotondata dentro il corpo.",
+      "spoken": "Questa forma arrotondata nella parte posteriore del corpo suggerisce la zampa posteriore raccolta. Guarda quanto è più grande di una zampetta davanti.",
+      "hint": "Tieni questa zampa rotonda dentro il lato inferiore sinistro del corpo.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "long-hind-foot": {
+      "title": "Il piede posteriore lungo",
+      "instruction": "Disegna un piede lungo e piatto sotto la zampa rotonda.",
+      "spoken": "Un ovale lungo e piatto sotto la zampa rotonda diventa il piede posteriore. Confrontare forme rotonde e piatte aiuta a descrivere questa posizione di riposo.",
+      "hint": "Fai il piede molto più piatto della zampa rotonda.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "short-front-leg": {
+      "title": "La zampa anteriore corta",
+      "instruction": "Porta una zampa anteriore corta verso il basso sotto il petto.",
+      "spoken": "Disegna una zampa anteriore corta sotto il petto, arrotondando la curva in basso. Tienila più corta e stretta della grande zampa posteriore.",
+      "hint": "Scendi, arrotonda un piccolo piede e torna verso l’alto.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "front-paw": {
+      "title": "La zampetta anteriore",
+      "instruction": "Aggiungi una piccola zampetta piatta accanto alla zampa davanti.",
+      "spoken": "Una piccola zampetta piatta sta accanto alla zampa anteriore.",
+      "hint": "Un piccolo ovale basso basta per questa zampetta davanti.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "round-tail": {
+      "title": "La coda rotonda",
+      "instruction": "Curva una piccola coda arrotondata dietro.",
+      "spoken": "Curva una piccola coda arrotondata nella parte posteriore del corpo. Possiamo lasciarla bianca per distinguerla dal pelo.",
+      "hint": "Arrotonda una piccola curva verso l’esterno dal lato sinistro del corpo.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "rabbit-mouth": {
+      "title": "La bocca del coniglio",
+      "instruction": "Fai una piccola curva morbida per la bocca sotto il naso.",
+      "spoken": "Puoi aggiungere una piccola curva morbida per la bocca sotto il naso oppure non disegnarla.",
+      "hint": "Tieni la bocca vicino al piccolo muso.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "first-whisker": {
+      "title": "Il primo baffo",
+      "instruction": "Lascia uscire un baffo sottile dal muso.",
+      "spoken": "Se vuoi i baffi, una linea leggera può uscire dal muso.",
+      "hint": "Una linea sottile verso l’esterno basta per questo baffo.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "second-whisker": {
+      "title": "Il secondo baffo",
+      "instruction": "Prova un altro baffo sottile dal muso, oppure salta.",
+      "spoken": "Se vuoi, prova un baffo sottile dal muso. Lascia spazio intorno agli altri baffi che hai scelto.",
+      "hint": "Comincia vicino al muso e lascia spazio intorno agli altri segni.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "hind-foot-toe": {
+      "title": "Il dito del piede posteriore",
+      "instruction": "Metti un minuscolo segno per un dito sul lungo piede posteriore.",
+      "spoken": "Se vuoi, una piccola linea sul piede posteriore può suggerire un dito.",
+      "hint": "Tieni questo segno molto più corto del piede stesso.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "rabbit-ground": {
+      "title": "Il terreno del coniglio",
+      "instruction": "Curva una piccola linea del terreno sotto il coniglio.",
+      "spoken": "Puoi disegnare una curva libera sotto il coniglio per un po’ di terreno del giardino. Anche lasciare aperto lo sfondo è una scelta.",
+      "hint": "Tieni questa curva del terreno sotto le zampe e la coda.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "rabbit-leaf": {
+      "title": "La foglia del coniglio",
+      "instruction": "Se vuoi, metti una foglia a punta del giardino lì vicino.",
+      "spoken": "Una foglia vicina può diventare parte della nostra storia in giardino. Due curve si uniscono in una punta per creare questa piccola foglia.",
+      "hint": "Curva verso una punta e torna con un’altra curva.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    },
+    "colour-choice": {
+      "title": "Colori delicati del giardino.",
+      "instruction": "Scegli un colore delicato per il pelo e un verde per la foglia.",
+      "spoken": "Userò un marrone chiaro e caldo per il nostro coniglio del giardino, con un rosa chiaro dentro un orecchio. Il tuo coniglio potrebbe avere macchie o colori diversi.",
+      "hint": "Scegli un colore principale per il pelo e lascia un po’ di carta bianca.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-soft-fur": {
+      "title": "Piccole zone di pelo.",
+      "instruction": "Metti zone delicate di pastello lungo il corpo e la testa.",
+      "spoken": "Queste zone leggere seguono il corpo arrotondato. Sollevo il pastello prima di passare a una nuova zona e lascio ben visibili l’occhio e i dettagli del viso.",
+      "hint": "Usa pressione leggera e piccoli movimenti intorno a ogni forma arrotondata.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-long-ears": {
+      "title": "Spazi alti e stretti.",
+      "instruction": "Fai movimenti più brevi di pastello dentro le orecchie lunghe.",
+      "spoken": "Le orecchie sono strette, quindi i miei movimenti diventano più brevi. Lascio un piccolo spazio chiaro dentro l’orecchio vicino per un altro colore.",
+      "hint": "Accorcia i movimenti invece di spingere contro un bordo stretto.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-feet": {
+      "title": "Zampa rotonda, piedi piatti.",
+      "instruction": "Segui la zampa posteriore rotonda e i piedi più piatti.",
+      "spoken": "Seguo la zampa posteriore rotonda, poi giro i movimenti lungo i piedi piatti. La direzione cambia con ogni forma.",
+      "hint": "Forme rotonde e piatte possono usare direzioni di movimento diverse.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-garden-layer": {
+      "title": "Un orecchio rosa e una foglia del giardino.",
+      "instruction": "Prova il rosa chiaro, colora la foglia se c’è o aggiungi un’ombra delicata.",
+      "spoken": "Un po’ di rosa chiaro può colorare l’interno dell’orecchio. Se hai aggiunto una foglia, prova lì il verde; un secondo strato sul pelo è facoltativo.",
+      "hint": "Usa piccoli tratti nell’orecchio; colora la foglia solo se l’hai inclusa.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflect": {
+      "title": "Un tranquillo coniglio in giardino.",
+      "instruction": "Guarda le orecchie lunghe sopra la posizione bassa e raccolta.",
+      "spoken": "Guarda le orecchie alte e il corpo basso sotto. Queste proporzioni diverse raccontano la storia del coniglio anche con pochissimi segni di pelo.",
+      "hint": "Confronta la forma più lunga con una piccola zampetta corta.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "Il tuo giardino.",
+      "instruction": "Continua a colorare o immagina un giardino intorno al tuo coniglio.",
+      "spoken": "Il tuo coniglio può restare com’è oppure puoi inventare un piccolo giardino. Continua quando vuoi o finisci qui il disegno.",
+      "hint": "Prova una foglia o un fiore che ti piace accanto al coniglio.",
+      "notice": "Invita il bambino o la bambina a indicare nell’esempio la grande forma della zampa posteriore. Se richiesto, confrontala con quella anteriore. Mostra il movimento di un orecchio su un foglio a parte; la direzione dell’orecchio è una sua scelta."
+    }
+  }
+}

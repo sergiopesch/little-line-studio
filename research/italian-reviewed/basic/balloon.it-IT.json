@@ -1,0 +1,146 @@
+{
+  "locale": "it-IT",
+  "lessonId": "balloon",
+  "level": "basic",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "e08680013835bf8efe4a6922a6207a87b60092ebf08c208305b8596edf7d705d",
+  "title": "Palloncino che vola",
+  "invitation": "Una forma rotonda e un filo sinuoso.",
+  "objective": "unire un contorno arrotondato, un piccolo nodo e una linea sinuosa; colorare con tratti brevi dentro un contorno, lasciando uno spazio bianco per il riflesso.",
+  "parentNote": "Se desidera aiuto, mostra una linea curva sul tuo foglio. Lascia che il bambino o la bambina scelga la forma e il motivo del palloncino. Il nodo mostra il collegamento senza richiedere una forma esatta. Usate Pausa, Mostra di nuovo o Più tempo quando vi è utile; la durata è una stima modificabile, non una scadenza per imparare.",
+  "simplify": "",
+  "transfer": "Un’altra volta, una linea curva potrebbe diventare la coda di un aquilone?",
+  "colouringLabel": "Un po’ di colore, un po’ di luce",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Una piccola festa sulla carta.",
+      "instruction": "Guarda la grande forma arrotondata sopra il piccolo nodo.",
+      "spoken": "Disegniamo un palloncino per una festa immaginaria sulla carta. Guarda la grande forma arrotondata, il piccolo nodo e il filo che si curva.",
+      "hint": "Ci bastano un’immagine, carta, matita e colori.",
+      "notice": "Disegniamo un palloncino per una festa immaginaria sulla carta. Guarda la grande forma arrotondata, il piccolo nodo e il filo che si curva."
+    },
+    "balloon-outline": {
+      "title": "Il contorno del palloncino",
+      "instruction": "Disegna una forma alta e arrotondata, lasciando spazio sotto.",
+      "spoken": "Traccia una curva intorno a una grande forma arrotondata e torna al punto di partenza. Lascio spazio sotto per il nodo e il filo.",
+      "hint": "Anche un palloncino largo o un po’ irregolare va benissimo nel tuo disegno.",
+      "notice": "Se desidera aiuto, mostra una linea curva sul tuo foglio. Lascia che il bambino o la bambina scelga la forma e il motivo del palloncino. Il nodo mostra il collegamento senza richiedere una forma esatta. Usate Pausa, Mostra di nuovo o Più tempo quando vi è utile; la durata è una stima modificabile, non una scadenza per imparare."
+    },
+    "balloon-knot": {
+      "title": "Il nodo del palloncino",
+      "instruction": "Unisci un minuscolo triangolo alla parte inferiore.",
+      "spoken": "Un minuscolo triangolo tocca la parte inferiore del nostro palloncino. Scendi, vai di lato e torna allo stesso punto: ecco il piccolo nodo.",
+      "hint": "Fai toccare al triangolo la parte inferiore della forma arrotondata.",
+      "notice": "Se desidera aiuto, mostra una linea curva sul tuo foglio. Lascia che il bambino o la bambina scelga la forma e il motivo del palloncino. Il nodo mostra il collegamento senza richiedere una forma esatta. Usate Pausa, Mostra di nuovo o Più tempo quando vi è utile; la durata è una stima modificabile, non una scadenza per imparare."
+    },
+    "flowing-string": {
+      "title": "Il filo che si curva",
+      "instruction": "Lascia scendere dal nodo un filo che si curva.",
+      "spoken": "Comincia dal nodo e lascia che una linea scenda liberamente. Cambio dolcemente direzione per creare un filo che si muove.",
+      "hint": "Guarda il nodo prima di cominciare la tua lunga linea curva.",
+      "notice": "Se desidera aiuto, mostra una linea curva sul tuo foglio. Lascia che il bambino o la bambina scelga la forma e il motivo del palloncino. Il nodo mostra il collegamento senza richiedere una forma esatta. Usate Pausa, Mostra di nuovo o Più tempo quando vi è utile; la durata è una stima modificabile, non una scadenza per imparare."
+    },
+    "left-bow-loop": {
+      "title": "L’occhiello sinistro del fiocco",
+      "instruction": "Se vuoi, prova un piccolo occhiello del fiocco accanto al nodo.",
+      "spoken": "Una curva esce accanto al nodo, fa un giro e torna indietro. Questo piccolo fiocco è una tua scelta.",
+      "hint": "Fai tornare l’occhiello curvo al punto da cui è partito.",
+      "notice": "Se desidera aiuto, mostra una linea curva sul tuo foglio. Lascia che il bambino o la bambina scelga la forma e il motivo del palloncino. Il nodo mostra il collegamento senza richiedere una forma esatta. Usate Pausa, Mostra di nuovo o Più tempo quando vi è utile; la durata è una stima modificabile, non una scadenza per imparare."
+    },
+    "right-bow-loop": {
+      "title": "L’occhiello destro del fiocco",
+      "instruction": "Se vuoi, prova un occhiello del fiocco dall’altra parte.",
+      "spoken": "Un altro occhiello può curvare verso destra e tornare al nodo. Gli occhielli possono avere dimensioni diverse.",
+      "hint": "Ogni occhiello si unisce al nodo; puoi anche disegnarne uno solo.",
+      "notice": "Se desidera aiuto, mostra una linea curva sul tuo foglio. Lascia che il bambino o la bambina scelga la forma e il motivo del palloncino. Il nodo mostra il collegamento senza richiedere una forma esatta. Usate Pausa, Mostra di nuovo o Più tempo quando vi è utile; la durata è una stima modificabile, non una scadenza per imparare."
+    },
+    "balloon-shine": {
+      "title": "Il riflesso sul palloncino",
+      "instruction": "Se vuoi, aggiungi una piccola curva per il riflesso all’interno.",
+      "spoken": "Una piccola curva segue una parte del bordo superiore. Più tardi lascerò bianca la carta qui, per suggerire un po’ di luce.",
+      "hint": "Tieni questa piccola curva dentro il grande contorno arrotondato.",
+      "notice": "Se desidera aiuto, mostra una linea curva sul tuo foglio. Lascia che il bambino o la bambina scelga la forma e il motivo del palloncino. Il nodo mostra il collegamento senza richiedere una forma esatta. Usate Pausa, Mostra di nuovo o Più tempo quando vi è utile; la durata è una stima modificabile, non una scadenza per imparare."
+    },
+    "upper-dot": {
+      "title": "Il punto in alto",
+      "instruction": "Se vuoi, aggiungi un punto dentro il palloncino.",
+      "spoken": "Un puntino può dare inizio a un motivo dentro il palloncino. Puoi anche non disegnare il motivo.",
+      "hint": "Trova un punto dentro il contorno, lontano dal bordo.",
+      "notice": "Se desidera aiuto, mostra una linea curva sul tuo foglio. Lascia che il bambino o la bambina scelga la forma e il motivo del palloncino. Il nodo mostra il collegamento senza richiedere una forma esatta. Usate Pausa, Mostra di nuovo o Più tempo quando vi è utile; la durata è una stima modificabile, non una scadenza per imparare."
+    },
+    "middle-dot": {
+      "title": "Il punto al centro",
+      "instruction": "Se vuoi, scegli un altro posto per un punto.",
+      "spoken": "Un altro punto può stare al centro. Sollevo la matita prima di spostarmi in un nuovo punto.",
+      "hint": "Lascia un po’ di spazio intorno a ogni punto che scegli.",
+      "notice": "Se desidera aiuto, mostra una linea curva sul tuo foglio. Lascia che il bambino o la bambina scelga la forma e il motivo del palloncino. Il nodo mostra il collegamento senza richiedere una forma esatta. Usate Pausa, Mostra di nuovo o Più tempo quando vi è utile; la durata è una stima modificabile, non una scadenza per imparare."
+    },
+    "lower-dot": {
+      "title": "Il punto in basso",
+      "instruction": "Aggiungi un ultimo punto oppure lascia gli spazi così.",
+      "spoken": "Un ultimo punto può stare più in basso. Per la nostra festa sulla carta bastano pochi segni.",
+      "hint": "Il tuo motivo può avere un punto, tanti punti oppure nessuno.",
+      "notice": "Se desidera aiuto, mostra una linea curva sul tuo foglio. Lascia che il bambino o la bambina scelga la forma e il motivo del palloncino. Il nodo mostra il collegamento senza richiedere una forma esatta. Usate Pausa, Mostra di nuovo o Più tempo quando vi è utile; la durata è una stima modificabile, non una scadenza per imparare."
+    },
+    "colour-choice": {
+      "title": "Un colore allegro.",
+      "instruction": "Scegli il rosso oppure un colore che ti piace.",
+      "spoken": "Scelgo un rosso caldo per il palloncino e il giallo per il fiocco. La tua festa può avere i colori che scegli tu.",
+      "hint": "Scegli i pastelli che hai già a portata di mano.",
+      "notice": "Usate i pastelli che avete. Vanno bene anche spazi bianchi e colori scelti da voi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-body-left": {
+      "title": "Piccole zone rosse.",
+      "instruction": "Colora un lato con tratti brevi e leggeri.",
+      "spoken": "Brevi tratti rossi colorano un lato. Sollevo il pastello tra una zona e l’altra e lascio bianco il piccolo riflesso. I segni leggeri lasciano vedere la carta.",
+      "hint": "Vicino al bordo usa segni più piccoli e delicati.",
+      "notice": "Usate i pastelli che avete. Vanno bene anche spazi bianchi e colori scelti da voi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-body-right": {
+      "title": "Attraverso la forma arrotondata.",
+      "instruction": "Continua sull’altro lato del palloncino, restando dentro il contorno.",
+      "spoken": "Ora l’altro lato. Rallento vicino al bordo e sollevo il pastello prima di uscire. Piccoli spazi bianchi possono restare tra i segni.",
+      "hint": "Il contorno ti aiuta a capire dove fermarti e sollevare il pastello.",
+      "notice": "Usate i pastelli che avete. Vanno bene anche spazi bianchi e colori scelti da voi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-bow": {
+      "title": "Un piccolo fiocco giallo.",
+      "instruction": "Se hai aggiunto un fiocco, colora di giallo i suoi occhielli.",
+      "spoken": "Se hai aggiunto un fiocco, prova piccoli tratti gialli dentro gli occhielli. Il nodino può restare bianco. Puoi saltare questo colore.",
+      "hint": "Negli spazi piccoli servono tratti piccoli; va bene anche lasciarli bianchi.",
+      "notice": "Usate i pastelli che avete. Vanno bene anche spazi bianchi e colori scelti da voi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflection": {
+      "title": "Guarda la tua piccola festa.",
+      "instruction": "Osserva la forma arrotondata, il filo curvo e il colore.",
+      "spoken": "Guarda come la nostra grande forma arrotondata si unisce a un piccolo nodo e a una linea curva. I tuoi colori e gli spazi bianchi rendono il palloncino tutto tuo.",
+      "hint": "Puoi goderti il disegno senza cambiarlo o spiegarlo.",
+      "notice": "Usate i pastelli che avete. Vanno bene anche spazi bianchi e colori scelti da voi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "La tua festa, la tua idea.",
+      "instruction": "Aggiungi le tue idee, continua a colorare oppure finisci qui.",
+      "spoken": "Che cosa potrebbe aggiungersi alla tua festa sulla carta? Prova un altro palloncino o qualcosa che inventi tu. Continua a disegnare per tutto il tempo che vuoi, oppure finisci.",
+      "hint": "Un’altra volta, una linea curva potrebbe diventare la coda di un aquilone?",
+      "notice": "Se desidera aiuto, mostra una linea curva sul tuo foglio. Lascia che il bambino o la bambina scelga la forma e il motivo del palloncino. Il nodo mostra il collegamento senza richiedere una forma esatta. Usate Pausa, Mostra di nuovo o Più tempo quando vi è utile; la durata è una stima modificabile, non una scadenza per imparare."
+    }
+  }
+}

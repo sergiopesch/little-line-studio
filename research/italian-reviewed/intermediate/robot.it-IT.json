@@ -1,0 +1,223 @@
+{
+  "locale": "it-IT",
+  "lessonId": "robot",
+  "level": "intermediate",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "33e324d6b23268acee520d1bd465d8039f643ab9146095c740344591eda07cb2",
+  "title": "Robot amichevole",
+  "invitation": "Unisci le forme per un lavoro inventato da te.",
+  "objective": "collegare forme separate con brevi linee e organizzare piccoli dettagli dentro una testa e un pannello di controllo.",
+  "parentNote": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario.",
+  "simplify": "",
+  "transfer": "Un altro giorno inventate una macchina diversa. Riutilizzate forme collegate e un pannello, scegliendo una nuova forma per il corpo e un modo diverso di muoversi.",
+  "colouringLabel": "Piccoli tratti, colori scelti con cura",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un robot per un lavoro inventato da te.",
+      "instruction": "Guarda le grandi scatole unite da piccole linee.",
+      "spoken": "Il nostro amichevole robot di carta si prepara per un lavoro inventato da te. Guarda le grandi scatole unite da linee molto più piccole per collo e arti.",
+      "hint": "Confronta le grandi scatole prima di guardare i piccoli pulsanti.",
+      "notice": "Guardate il nostro robot. Quali piccole linee uniscono le sue forme più grandi?"
+    },
+    "robot-body": {
+      "title": "Il corpo del robot",
+      "instruction": "Unisci quattro lati per un corpo largo.",
+      "spoken": "Un rettangolo largo forma il corpo. Lascio carta sopra per una testa più piccola e accanto per le braccia.",
+      "hint": "Lascia abbastanza carta intorno alla grande scatola per le piccole parti di collegamento.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-head": {
+      "title": "La testa del robot",
+      "instruction": "Metti una scatola più piccola sopra il corpo.",
+      "spoken": "Un rettangolo più piccolo sta sopra il corpo con un po’ di spazio tra loro. Quello spazio conterrà un collo corto.",
+      "hint": "Confronta la larghezza della testa con il corpo più largo sotto.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-left-neck": {
+      "title": "Il lato sinistro del collo",
+      "instruction": "Collega un lato di un collo corto.",
+      "spoken": "Una linea corta unisce la testa al corpo. Piccoli collegamenti aiutano le nostre grandi forme separate a diventare un unico robot di carta.",
+      "hint": "Unisci la base della testa alla cima del corpo.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-right-neck": {
+      "title": "Il lato destro del collo",
+      "instruction": "Lascia un piccolo spazio accanto all’altra linea del collo.",
+      "spoken": "Una seconda linea corta unisce le stesse due scatole. Lo spazio stretto tra loro dà un po’ di larghezza al collo.",
+      "hint": "Tieni vicine queste linee corte del collo.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-left-eye": {
+      "title": "L’occhio sinistro del robot",
+      "instruction": "Disegna un piccolo occhio rotondo dentro la testa.",
+      "spoken": "Un piccolo cerchio sta dentro la testa. Lascia spazio dall’altra parte del viso per un altro occhio e sotto per una bocca.",
+      "hint": "Tieni l’occhio ben dentro la scatola più piccola.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-right-eye": {
+      "title": "L’occhio destro del robot",
+      "instruction": "Metti un altro occhio rotondo dall’altra parte del viso.",
+      "spoken": "L’altro occhio sta di fronte al primo. Guardo lo spazio tra loro invece di cercare di fare cerchi esatti.",
+      "hint": "Lascia uno spazio comodo tra i due piccoli occhi.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-mouth": {
+      "title": "La bocca del robot",
+      "instruction": "Curva una piccola bocca nella parte inferiore del viso.",
+      "spoken": "Una curva poco profonda sta sotto gli occhi. Dà al nostro robot inventato un’espressione amichevole senza riempire il viso.",
+      "hint": "Usa lo spazio libero nella parte inferiore della testa.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-antenna": {
+      "title": "L’antenna del robot",
+      "instruction": "Porta una linea corta per l’antenna sopra la testa.",
+      "spoken": "Una linea corta sale dal centro della testa. È molto più stretta delle grandi scatole con cui abbiamo cominciato.",
+      "hint": "Comincia dalla cima della testa e vai verso l’alto.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-antenna-tip": {
+      "title": "La punta dell’antenna",
+      "instruction": "Se vuoi, prova una piccola punta rotonda vicino all’estremità dell’antenna.",
+      "spoken": "Un piccolo cerchio può stare vicino all’estremità dell’antenna. Questo dettaglio facoltativo aggiunge un’altra piccola forma rotonda al nostro robot.",
+      "hint": "Metti il piccolo cerchio vicino all’estremità dell’antenna.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-left-arm": {
+      "title": "Il braccio sinistro",
+      "instruction": "Lascia uscire un braccio da un lato del corpo.",
+      "spoken": "Una linea esce e scende dal corpo. Lascio spazio alla sua estremità per una piccola mano rotonda.",
+      "hint": "Comincia dal bordo del corpo e vai nello spazio accanto.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-right-arm": {
+      "title": "Il braccio destro",
+      "instruction": "Porta l’altro braccio verso l’alto con un’inclinazione diversa.",
+      "spoken": "L’altro braccio sale un poco. Direzioni diverse danno una posizione al robot inventato, invece di due braccia dritte identiche.",
+      "hint": "Prova una direzione diversa dal primo braccio.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-left-hand": {
+      "title": "La mano sinistra",
+      "instruction": "Metti una piccola mano rotonda all’estremità di un braccio.",
+      "spoken": "Un piccolo cerchio incontra l’estremità del braccio più basso. Lascia che la linea lo tocchi, così la mano è collegata al robot.",
+      "hint": "Lascia che il piccolo cerchio della mano incontri la linea del braccio.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-right-hand": {
+      "title": "La mano destra",
+      "instruction": "Aggiungi una mano rotonda all’altro braccio.",
+      "spoken": "Un’altra piccola mano si unisce all’altro braccio. Confronta le dimensioni di entrambe le mani con la testa e il corpo molto più grandi.",
+      "hint": "Tieni questo piccolo cerchio collegato al secondo braccio.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-left-leg": {
+      "title": "La gamba sinistra",
+      "instruction": "Disegna una gamba che scende dal corpo.",
+      "spoken": "Una linea dritta scende dal corpo. Lascio carta sotto per una linea corta del piede.",
+      "hint": "Comincia dal bordo inferiore del corpo e vai verso il basso.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-right-leg": {
+      "title": "La gamba destra",
+      "instruction": "Lascia uno spazio prima di disegnare la seconda gamba.",
+      "spoken": "Un’altra gamba scende di fronte alla prima. Lo spazio tra le linee ci permette di vedere due gambe separate.",
+      "hint": "Lascia un po’ di carta tra le due lunghe linee delle gambe.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-left-foot": {
+      "title": "Il piede sinistro",
+      "instruction": "Gira una linea corta per il piede dall’estremità di una gamba.",
+      "spoken": "Una linea corta gira verso l’esterno alla fine di una gamba. L’angolo aiuta il piccolo robot a stare in piedi sulla carta.",
+      "hint": "Comincia dove finisce la gamba e spostati un poco di lato.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-right-foot": {
+      "title": "Il piede destro",
+      "instruction": "Gira l’altro piccolo piede verso l’altro lato.",
+      "spoken": "L’altro piede gira verso l’esterno nella direzione opposta. Confronta le loro posizioni in basso, così il robot ha una posizione stabile.",
+      "hint": "Usa una linea corta dall’estremità della seconda gamba.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-panel": {
+      "title": "Il pannello del robot",
+      "instruction": "Metti un piccolo pannello di controllo dentro il corpo.",
+      "spoken": "Un rettangolo più piccolo sta dentro il corpo grande. Lascia un bordo intorno, così possiamo vedere entrambe le scatole.",
+      "hint": "Trova il centro del corpo e lascia spazio intorno alla piccola scatola.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-left-button": {
+      "title": "Il pulsante sinistro",
+      "instruction": "Metti un piccolo pulsante dentro il pannello.",
+      "spoken": "Un piccolo punto sta dentro il pannello. Basta un piccolo segno; non deve controllare una macchina vera.",
+      "hint": "Tieni il piccolo segno dentro il rettangolo più piccolo.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "robot-right-button": {
+      "title": "Il pulsante destro",
+      "instruction": "Se vuoi, prova un altro piccolo pulsante.",
+      "spoken": "Un secondo punto può stare dall’altra parte del pannello. Un pulsante, diversi pulsanti o un pannello semplice possono andare bene per il tuo robot inventato.",
+      "hint": "Lascia un po’ di carta tra i pulsanti che scegli.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    },
+    "colour-choice": {
+      "title": "Colori di metallo e dettagli vivaci.",
+      "instruction": "Scegli un colore chiaro per il corpo e piccoli dettagli vivaci.",
+      "spoken": "Scelgo metallo grigio chiaro, un pannello blu e mani gialle. È un robot inventato; i tuoi colori possono suggerire il suo lavoro.",
+      "hint": "Scegli un colore per la zona grande e un altro per i dettagli più piccoli.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-metal": {
+      "title": "Piccole zone morbide sul metallo.",
+      "instruction": "Crea un colore chiaro intorno al viso e al pannello.",
+      "spoken": "Piccole zone grigie lasciano liberi occhi, bocca e pannello. Sollevo il pastello tra un punto e l’altro invece di passare su tutte le scatole con un solo movimento.",
+      "hint": "Tratti brevi stanno accanto alle forme più piccole dentro le scatole grandi.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-control-panel": {
+      "title": "Piccole mani e un pannello di controllo.",
+      "instruction": "Colora separatamente il piccolo pannello e le mani rotonde.",
+      "spoken": "Il blu sta dentro il pannello e il giallo in ciascuna mano. Faccio tratti molto più piccoli per queste forme che per il corpo.",
+      "hint": "Solleva il pastello prima di cambiare forma o colore, poi comincia una piccola zona.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-metal-shade": {
+      "title": "Un bordo di metallo più scuro.",
+      "instruction": "Aggiungi una striscia più scura accanto a un bordo della scatola.",
+      "spoken": "Un po’ di grigio azzurro più scuro vicino a un lato suggerisce un bordo in ombra. Lasciare chiaro il centro mantiene ben visibili le scatole piatte.",
+      "hint": "Prova un secondo strato leggero vicino al lato che scegli.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-reflection": {
+      "title": "Grandi scatole e piccoli collegamenti.",
+      "instruction": "Guarda le grandi scatole unite da piccole linee.",
+      "spoken": "Le grandi scatole del nostro robot hanno piccoli collegamenti e dettagli. Il braccio alzato gli dà una posizione, pronta per un lavoro inventato da te.",
+      "hint": "Guarda come cambiare la direzione di un braccio cambia la posizione.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "explore": {
+      "title": "Un lavoro per il tuo robot di carta.",
+      "instruction": "Scegli un lavoro per il robot, aggiungi idee oppure finisci.",
+      "spoken": "Forse il tuo robot pianta fiori di carta o porta libri immaginari. Aggiungi una tua idea, continua a colorare oppure finisci senza scegliere un lavoro.",
+      "hint": "Prova a cambiare la direzione di una forma collegata per inventare un’altra posizione.",
+      "notice": "Se una linea di collegamento è difficile, invita il bambino o la bambina a guardare lo spazio corrispondente nell’esempio oppure a lasciare che le forme si tocchino. Considera il robot un disegno inventato, non un vero compagno con autorità o sentimenti. Il bambino o la bambina decide il suo scopo immaginario."
+    }
+  }
+}

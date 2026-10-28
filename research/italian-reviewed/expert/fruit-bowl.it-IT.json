@@ -1,0 +1,237 @@
+{
+  "locale": "it-IT",
+  "lessonId": "fruit-bowl",
+  "level": "expert",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "7e8af668953a21563ffa88b487c775148da91f2dc3a361f690202053eebc0332",
+  "title": "Ciotola di frutta",
+  "invitation": "Frutta davanti, frutta dietro.",
+  "objective": "disporre forme di frutta sovrapposte sopra un contenitore e scegliere quali bordi sono nascosti.",
+  "parentNote": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate.",
+  "simplify": "Scegli solo due frutti e una ciotola a forma di U. Contorni completi sovrapposti sono una versione esplorativa accettabile; i contorni parziali possono essere ripresi un altro giorno.",
+  "transfer": "Un altro giorno disponete due giocattoli parzialmente dietro una scatola. Disegnate solo le parti visibili se interessa, usando i nuovi oggetti invece della sequenza della frutta.",
+  "colouringLabel": "Piccoli movimenti di pastello, i tuoi colori",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Una natura morta sul tavolo.",
+      "instruction": "Guarda come la ciotola sta davanti alla frutta.",
+      "spoken": "Disponiamo una ciotola di frutta immaginaria sulla carta. Alcuni frutti stanno dietro altre forme, quindi disegneremo le parti che possiamo vedere.",
+      "hint": "Cerca una forma di frutto che scompare dietro la ciotola.",
+      "notice": "Osservate quale frutto sta davanti, dove un contorno scompare e come la ciotola tiene insieme il gruppo. Questo esempio mette la frutta dietro il bordo anteriore della ciotola."
+    },
+    "bowl-body": {
+      "title": "Il corpo della ciotola",
+      "instruction": "Traccia una ciotola larga e arrotondata nella parte inferiore del foglio.",
+      "spoken": "Comincia con una ciotola larga, curvando verso il basso e tornando su. Lascia molto spazio sopra per forme diverse di frutta.",
+      "hint": "Fai una curva larga e profonda con entrambe le estremità a un’altezza simile.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "bowl-front-rim": {
+      "title": "Il bordo anteriore della ciotola",
+      "instruction": "Unisci le estremità con un bordo anteriore leggermente curvo.",
+      "spoken": "Curva attraverso il bordo anteriore della ciotola. Questo bordo starà davanti alla frutta e ci aiuterà a mostrare quali forme sono più vicine.",
+      "hint": "Unisci le estremità della ciotola con una curva poco profonda verso il basso.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "bowl-foot": {
+      "title": "Il piede della ciotola",
+      "instruction": "Metti un piccolo ovale piatto sotto la ciotola.",
+      "spoken": "Un piccolo ovale piatto dà alla ciotola un piede sotto. Tienilo molto più piccolo della ciotola larga sopra.",
+      "hint": "Metti un ovale basso sotto il centro della ciotola.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "left-apple": {
+      "title": "La mela a sinistra",
+      "instruction": "Curva una mela che sale dal lato sinistro della ciotola.",
+      "spoken": "Porta una forma di mela verso l’alto dal lato sinistro della ciotola. Lascia che i lati visibili si fermino dove il bordo nasconde la parte inferiore.",
+      "hint": "Disegna la parte sopra il bordo; la ciotola nasconde il resto.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "middle-pear": {
+      "title": "La pera al centro",
+      "instruction": "Aggiungi una pera stretta in alto e più larga in basso.",
+      "spoken": "La nostra pera è stretta vicino alla cima e più larga in basso. Lascia che la mela e la ciotola nascondano le parti che stanno dietro.",
+      "hint": "Comincia stretto, poi lascia che le curve si allarghino verso la ciotola.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "pear-stem": {
+      "title": "Il picciolo della pera",
+      "instruction": "Gira un piccolo picciolo verso l’alto dalla pera.",
+      "spoken": "Un piccolo picciolo curvo sale dalla cima stretta della pera.",
+      "hint": "Tieni il picciolo molto più corto della pera.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "right-orange": {
+      "title": "L’arancia a destra",
+      "instruction": "Crea un’arancia rotonda che sale sopra il bordo destro.",
+      "spoken": "Un’arancia rotonda sta sulla destra. La sua curva visibile si ferma al bordo della ciotola invece di continuare attraverso di essa.",
+      "hint": "Lascia che il bordo nasconda la parte inferiore del frutto rotondo.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "banana-upper-edge": {
+      "title": "Il bordo superiore della banana",
+      "instruction": "Disegna un arco per il bordo superiore della banana dietro gli altri frutti.",
+      "spoken": "La banana sta dietro gli altri frutti. Segui con una curva continua il suo bordo superiore visibile.",
+      "hint": "Segui un lungo arco continuo sopra i frutti.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "banana-lower-edge": {
+      "title": "Il bordo inferiore della banana",
+      "instruction": "Torna lungo il bordo inferiore visibile della banana stretta.",
+      "spoken": "Torna lungo il bordo inferiore, sollevando la matita dove altri frutti stanno davanti. I due bordi della banana creano una forma stretta accanto ai frutti più rotondi.",
+      "hint": "Lascia uno spazio sottile tra i bordi visibili della banana.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "banana-stalk": {
+      "title": "Il picciolo della banana",
+      "instruction": "Aggiungi un piccolo picciolo piegato all’estremità sinistra della banana.",
+      "spoken": "Un piccolo picciolo piegato completa questa estremità della banana.",
+      "hint": "Tieni questo picciolo corto vicino alla punta della banana.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "hidden-fruit-arc": {
+      "title": "L’arco del frutto nascosto",
+      "instruction": "Suggerisci un altro frutto con un piccolo arco arrotondato visibile.",
+      "spoken": "Un piccolo arco facoltativo può suggerire un altro frutto dietro gli altri. Serve solo la parte visibile, oppure puoi lasciare fuori questo frutto in più.",
+      "hint": "Una curva parziale può mostrare qualcosa di parzialmente nascosto.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "apple-stem": {
+      "title": "Il picciolo della mela",
+      "instruction": "Aggiungi un piccolo picciolo curvo sulla cima della mela.",
+      "spoken": "Se vuoi, un piccolo picciolo può salire dalla rientranza in cima alla mela.",
+      "hint": "Comincia nella rientranza in cima alla mela e curva verso l’alto.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "apple-leaf": {
+      "title": "La foglia della mela",
+      "instruction": "Se vuoi, unisci due curve in una piccola foglia della mela.",
+      "spoken": "Due piccole curve possono incontrarsi in una punta per una foglia facoltativa. Mettila appena sopra la mela, con o senza picciolo.",
+      "hint": "Curva dalla cima della mela verso una punta e poi torna indietro.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "orange-first-spot": {
+      "title": "Il primo puntino sull’arancia",
+      "instruction": "Aggiungi un piccolo puntino per suggerire la trama dell’arancia.",
+      "spoken": "Puoi cominciare a suggerire la trama dell’arancia con un puntino oppure lasciarla liscia.",
+      "hint": "Tieni questo piccolo punto dentro l’arancia rotonda.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "orange-second-spot": {
+      "title": "Il secondo puntino sull’arancia",
+      "instruction": "Metti un altro piccolo puntino sull’arancia un po’ più in basso.",
+      "spoken": "Puoi aggiungere un altro puntino; non dobbiamo disegnare ogni piccola irregolarità né aggiungere la trama.",
+      "hint": "Usa un secondo piccolo punto con spazio intorno.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "pear-shine": {
+      "title": "Il riflesso sulla pera",
+      "instruction": "Se vuoi, riserva un piccolo ovale per il riflesso sulla pera.",
+      "spoken": "Un piccolo ovale chiaro può suggerire un riflesso sulla pera. Lasceremo vedere la carta qui invece di colorare tutta la superficie.",
+      "hint": "Tieni un piccolo ovale stretto dentro la forma più grande della pera.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "bowl-band": {
+      "title": "La fascia della ciotola",
+      "instruction": "Avvolgi una fascia decorativa curva intorno alla ciotola.",
+      "spoken": "Una fascia decorativa facoltativa può curvare con la ciotola. La sua curva delicata segue una superficie arrotondata, oppure puoi lasciare la ciotola semplice.",
+      "hint": "Lascia che la fascia scenda un po’ al centro.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "bowl-decoration": {
+      "title": "La decorazione della ciotola",
+      "instruction": "Se vuoi, metti una piccola decorazione rotonda sulla ciotola.",
+      "spoken": "Puoi aggiungere una piccola decorazione rotonda alla ciotola o scegliere un altro semplice motivo tutto tuo.",
+      "hint": "Tieni questa piccola decorazione dentro la parte inferiore della ciotola.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "fallen-fruit": {
+      "title": "Il frutto caduto",
+      "instruction": "Se vuoi, metti un piccolo frutto rotondo accanto alla ciotola.",
+      "spoken": "Un piccolo frutto accanto alla ciotola crea una seconda forma sul tavolo. Lascia un po’ di spazio bianco tra il frutto e la ciotola.",
+      "hint": "Metti una piccola forma rotonda accanto alla ciotola, senza toccarla.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "fallen-fruit-leaf": {
+      "title": "La foglia del frutto caduto",
+      "instruction": "Se vuoi, dai al frutto separato una piccola foglia a punta.",
+      "spoken": "Se hai incluso quel frutto in più, può avere una piccola foglia. Altrimenti puoi lasciare fuori questo dettaglio.",
+      "hint": "Due curve a punta possono incontrarsi appena sopra il frutto in più.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    },
+    "colour-choice": {
+      "title": "Una tavolozza di frutta.",
+      "instruction": "Scegli colori familiari per la frutta e un colore diverso per la ciotola.",
+      "spoken": "Scelgo mela rossa, pera verde, banana gialla e arancia, con una ciotola blu. La tua frutta immaginaria può avere colori tutti suoi.",
+      "hint": "Scegli colori diversi per mantenere visibili le forme sovrapposte.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-apple-pear": {
+      "title": "Separa la mela e la pera.",
+      "instruction": "Colora piccole zone rosse sulla mela e verdi sulla pera.",
+      "spoken": "Lavoro su un frutto alla volta, con piccole zone leggere. Colori diversi ci aiutano a vedere dove si incontrano la mela e la pera sovrapposte.",
+      "hint": "Completa una piccola zona, solleva il pastello e passa al prossimo frutto.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-banana": {
+      "title": "Una curva gialla stretta.",
+      "instruction": "Usa piccoli movimenti gialli lungo la curva lunga della banana.",
+      "spoken": "La banana è stretta, quindi uso movimenti piccolissimi lungo la sua lunghezza. Vanno bene spazi bianchi; non dobbiamo premere in ogni angolo.",
+      "hint": "Tieni i movimenti brevi dentro questa forma curva e stretta.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-oranges": {
+      "title": "Zone arancioni arrotondate.",
+      "instruction": "Colora i frutti arancioni che hai disegnato con piccoli movimenti caldi.",
+      "spoken": "Giro piccole zone arancioni intorno a ogni frutto che hai incluso. Gli eventuali puntini della trama possono restare visibili e un po’ di carta può restare bianca.",
+      "hint": "Usa movimenti leggeri e arrotondati dentro ogni frutto che hai scelto.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-bowl": {
+      "title": "Una ciotola davanti.",
+      "instruction": "Crea zone blu intorno alla superficie curva della ciotola.",
+      "spoken": "Ora la ciotola riceve le sue zone blu. Tenere questo colore diverso dalla frutta aiuta il bordo anteriore a sembrare chiaro e vicino.",
+      "hint": "Segui la curva della ciotola con piccole zone e sollevamenti visibili.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-still-life-layer": {
+      "title": "Una foglia e un po’ d’ombra.",
+      "instruction": "Prova uno strato leggero sulla ciotola e colora la foglia della mela se c’è.",
+      "spoken": "Uno strato leggero in più sulla ciotola è una tua scelta. Se hai disegnato la foglia della mela, pochi piccoli tratti verdi possono colorarla.",
+      "hint": "Usa tratti piccoli su una foglia; uno strato leggero sulla ciotola è facoltativo.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflect": {
+      "title": "Quale forma viene davanti?",
+      "instruction": "Guarda come il bordo della ciotola nasconde i bordi inferiori della frutta.",
+      "spoken": "Guarda di nuovo il bordo anteriore. Lasciare che nasconda parte della frutta aiuta la carta piatta a mostrare una disposizione semplice di forme più vicine e più lontane.",
+      "hint": "Segui il bordo anteriore e guarda dove la frutta si ferma dietro.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "Disponi la tua natura morta.",
+      "instruction": "Continua a colorare o immagina un altro frutto accanto alla ciotola.",
+      "spoken": "Potresti cambiare il colore di un frutto, inventare un motivo sulla ciotola o aggiungere un altro piccolo frutto. Continua a esplorare oppure finisci qui il tuo disegno sul tavolo.",
+      "hint": "Prova una nuova forma di frutto o un diverso motivo curvo sulla ciotola.",
+      "notice": "Chiedi: quale frutto nasconde un pezzetto di un altro? Se richiesto, indica la disposizione reale. Mostra un contorno interrotto su un foglio a parte; non insistere perché le linee di costruzione vengano cancellate."
+    }
+  }
+}

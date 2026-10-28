@@ -1,0 +1,181 @@
+{
+  "locale": "it-IT",
+  "lessonId": "rainbow",
+  "level": "basic",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "37cdf3f38104908042c73221b128e68df0419ab19d577bc852e9350debbd0ffa",
+  "title": "Arcobaleno",
+  "invitation": "Curve, colori e spazio per immaginare.",
+  "objective": "creare archi vicini e osservare le relazioni tra dentro e fuori.",
+  "parentNote": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore.",
+  "simplify": "",
+  "transfer": "Un arco grande e uno più piccolo potrebbero creare l’ingresso di una galleria?",
+  "colouringLabel": "Una striscia curva di colore alla volta",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "I colori dopo la pioggia.",
+      "instruction": "Guarda un arco che sta dentro un altro.",
+      "spoken": "Disegniamo un arcobaleno sopra il nostro giardino immaginario. La luce del sole che attraversa minuscole gocce d’acqua può mostrare tanti colori. Guarda le curve una dentro l’altra.",
+      "hint": "Possiamo osservare il disegno sullo schermo.",
+      "notice": "Guardate l’esempio dell’arcobaleno. Osservate come un arco sta dentro un altro."
+    },
+    "outer-arch": {
+      "title": "L’arco esterno",
+      "instruction": "Traccia un grande arco che sale, passa sopra e scende.",
+      "spoken": "Comincia in basso a sinistra, sali con la linea, passa sopra e poi scendi. Un arco ampio lascia spazio alle curve più piccole.",
+      "hint": "Prova il movimento sopra il foglio prima di fare il tuo segno.",
+      "notice": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore."
+    },
+    "second-arch": {
+      "title": "Il secondo arco",
+      "instruction": "Disegna un arco più piccolo all’interno, lasciando un po’ di spazio.",
+      "spoken": "Un altro arco sta all’interno. Segui la stessa curva, mantenendo un po’ di spazio tra le linee. In quello spazio metteremo il colore.",
+      "hint": "Guarda lo spazio mentre segui la curva.",
+      "notice": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore."
+    },
+    "third-arch": {
+      "title": "Il terzo arco",
+      "instruction": "Aggiungi una curva all’interno dell’ultima.",
+      "spoken": "Aggiungo un arco più piccolo, lasciando un’altra striscia per il colore. Guardo lo spazio mentre disegno la curva.",
+      "hint": "Una striscia può essere più larga in un punto e più stretta in un altro.",
+      "notice": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore."
+    },
+    "fourth-arch": {
+      "title": "Il quarto arco",
+      "instruction": "Segui la curva con un’altra curva più piccola.",
+      "spoken": "E un’altra curva all’interno. Rallenta la mano quando passa in alto, poi lascia che la linea scenda.",
+      "hint": "Muovi dolcemente tutta la mano lungo la parte curva in alto.",
+      "notice": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore."
+    },
+    "fifth-arch": {
+      "title": "Il quinto arco",
+      "instruction": "Se hai spazio, prova un altro arco all’interno.",
+      "spoken": "Ecco una curva più piccola. Lascia una piccola apertura al centro, oppure smetti di aggiungere archi quando vuoi.",
+      "hint": "Se ti sembra che ci sia poco spazio, puoi tralasciare una curva.",
+      "notice": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore."
+    },
+    "sixth-arch": {
+      "title": "Il sesto arco",
+      "instruction": "Se vuoi, aggiungi una curva più piccola.",
+      "spoken": "Segui ancora una volta la curva. Le linee vicine possono essere un po’ irregolari; non devono essere perfettamente uguali.",
+      "hint": "Una piccola irregolarità può restare così com’è.",
+      "notice": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore."
+    },
+    "seventh-arch": {
+      "title": "Il settimo arco",
+      "instruction": "Se c’è spazio, crea un’altra piccola striscia.",
+      "spoken": "Un piccolo arco crea un’altra striscia per il colore. Se ti sembra che ci sia poco spazio al centro, puoi tralasciarlo.",
+      "hint": "Il tuo disegno può avere meno strisce del nostro esempio.",
+      "notice": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore."
+    },
+    "inner-arch": {
+      "title": "L’arco interno",
+      "instruction": "Aggiungi un ultimo piccolo arco, oppure lascia aperto lo spazio.",
+      "spoken": "La nostra ultima piccola curva lascia un’apertura sotto. Con otto linee, il nostro esempio ha sette spazi per il colore.",
+      "hint": "Se vuoi, lascia un’apertura sotto la curva più piccola.",
+      "notice": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore."
+    },
+    "left-cloud": {
+      "title": "La nuvola a sinistra",
+      "instruction": "Unisci morbide curve di nuvola intorno alle estremità a sinistra.",
+      "spoken": "Aggiungiamo una nuvola intorno a queste estremità. Unisci qualche curva morbida, poi curva sotto. Nel nostro disegno l’arcobaleno passa dietro la nuvola.",
+      "hint": "Porta le curve della nuvola fino alle estremità dei tuoi archi.",
+      "notice": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore."
+    },
+    "right-cloud": {
+      "title": "La nuvola a destra",
+      "instruction": "Se vuoi, aggiungi una nuvola intorno alle altre estremità.",
+      "spoken": "Una nuvola può stare anche intorno alle altre estremità. Unisci le sue curve con una curva sotto, oppure lascia fuori questa nuvola.",
+      "hint": "Ogni nuvola può avere dimensioni e curve diverse.",
+      "notice": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore."
+    },
+    "colour-choice": {
+      "title": "Scegli i pastelli.",
+      "instruction": "Raccogli i colori che hai; ne bastano anche pochi.",
+      "spoken": "Il nostro disegno usa sette colori con nomi diversi. Negli arcobaleni veri i colori si fondono tra loro. Usa i pastelli che hai: anche meno colori vanno benissimo.",
+      "hint": "Scegli i colori che hai a portata di mano. Puoi lasciare bianche alcune strisce.",
+      "notice": "Mostra i colori disponibili sul foglio del bambino o della bambina. Vanno bene anche meno fasce, colori inventati e spazi bianchi. Più tempo mantiene aperto ogni passaggio."
+    },
+    "colour-red": {
+      "title": "Rosso all’esterno.",
+      "instruction": "Segui la striscia esterna con brevi curve rosse.",
+      "spoken": "Comincio con il rosso all’esterno. Brevi tratti curvi seguono l’arco. Solleva il pastello, spostati un poco e colora la zona successiva.",
+      "hint": "Segui la curva con delicatezza. I piccoli spazi bianchi possono restare.",
+      "notice": "Mostra i colori disponibili sul foglio del bambino o della bambina. Vanno bene anche meno fasce, colori inventati e spazi bianchi. Più tempo mantiene aperto ogni passaggio."
+    },
+    "colour-orange": {
+      "title": "Arancione accanto al rosso.",
+      "instruction": "Colora di arancione la striscia successiva, una zona alla volta.",
+      "spoken": "L’arancione sta appena dentro il rosso. Cambio direzione per la prossima piccola zona, sollevando il pastello tra un movimento e l’altro.",
+      "hint": "Prova qualche tratto, poi solleva il pastello e spostati lungo la striscia.",
+      "notice": "Mostra i colori disponibili sul foglio del bambino o della bambina. Vanno bene anche meno fasce, colori inventati e spazi bianchi. Più tempo mantiene aperto ogni passaggio."
+    },
+    "colour-yellow": {
+      "title": "Una striscia di giallo.",
+      "instruction": "Lascia che il giallo segua la striscia curva successiva.",
+      "spoken": "Ecco il giallo, che segue la stessa curva. Una mano leggera lascia un colore morbido. Possiamo vedere la carta attraverso il colore.",
+      "hint": "Puoi girare il foglio per raggiungere la curva.",
+      "notice": "Mostra i colori disponibili sul foglio del bambino o della bambina. Vanno bene anche meno fasce, colori inventati e spazi bianchi. Più tempo mantiene aperto ogni passaggio."
+    },
+    "colour-green": {
+      "title": "Il verde segue la curva.",
+      "instruction": "Aggiungi il verde dentro la striscia gialla.",
+      "spoken": "Il verde va dentro il giallo. Seguo una piccola parte della curva, sollevo il pastello e ricomincio. Ogni piccola zona si unisce al nostro arcobaleno.",
+      "hint": "Guarda dove finisce un colore prima di cominciare il successivo.",
+      "notice": "Mostra i colori disponibili sul foglio del bambino o della bambina. Vanno bene anche meno fasce, colori inventati e spazi bianchi. Più tempo mantiene aperto ogni passaggio."
+    },
+    "colour-blue": {
+      "title": "Un po’ di blu.",
+      "instruction": "Segui la striscia successiva all’interno con il blu.",
+      "spoken": "Ora il blu curva all’interno del verde. Le strisce diventano più piccole, quindi il mio pastello fa movimenti più brevi. Anche i piccoli spazi bianchi vanno bene.",
+      "hint": "Usa segni più corti dove la curva ti sembra molto piccola.",
+      "notice": "Mostra i colori disponibili sul foglio del bambino o della bambina. Vanno bene anche meno fasce, colori inventati e spazi bianchi. Più tempo mantiene aperto ogni passaggio."
+    },
+    "colour-indigo": {
+      "title": "Una striscia blu intenso.",
+      "instruction": "Se ce l’hai, prova il blu intenso nella striscia successiva.",
+      "spoken": "Questo blu intenso si chiama indaco. Lo uso nella striscia successiva. Va bene anche un altro blu o un colore che scegli tu.",
+      "hint": "Usa un blu che hai; non serve un pastello speciale.",
+      "notice": "Mostra i colori disponibili sul foglio del bambino o della bambina. Vanno bene anche meno fasce, colori inventati e spazi bianchi. Più tempo mantiene aperto ogni passaggio."
+    },
+    "colour-violet": {
+      "title": "Il viola all’interno.",
+      "instruction": "Colora di viola la striscia più interna.",
+      "spoken": "Il violetto, una sfumatura di viola, segue la nostra striscia più interna. Tratti brevi e leggeri lasciano aperto il centro. Lascio le nuvole bianche come il nostro foglio.",
+      "hint": "Lascia bianche le nuvole oppure scegli i tuoi colori.",
+      "notice": "Mostra i colori disponibili sul foglio del bambino o della bambina. Vanno bene anche meno fasce, colori inventati e spazi bianchi. Più tempo mantiene aperto ogni passaggio."
+    },
+    "colour-reflection": {
+      "title": "Guarda le tue curve colorate.",
+      "instruction": "Osserva come i colori seguono gli archi.",
+      "spoken": "Guarda insieme le curve e i colori. Ogni arco più piccolo sta dentro un altro. Quale colore ti piacerebbe usare di nuovo?",
+      "hint": "Non c’è bisogno di cambiare o spiegare il tuo disegno.",
+      "notice": "Mostra i colori disponibili sul foglio del bambino o della bambina. Vanno bene anche meno fasce, colori inventati e spazi bianchi. Più tempo mantiene aperto ogni passaggio."
+    },
+    "explore": {
+      "title": "Il tuo giardino, la tua idea.",
+      "instruction": "Aggiungi il tuo mondo, continua a colorare oppure finisci qui.",
+      "spoken": "Che cosa potrebbe crescere sotto il tuo arcobaleno? Aggiungi un giardino, un sentiero o qualcosa che inventi tu. Continua a disegnare per tutto il tempo che vuoi, oppure finisci.",
+      "hint": "Un’altra volta, due di questi archi potrebbero formare una galleria?",
+      "notice": "Mostra un arco nell’aria. Se il bambino o la bambina chiede più spazio, proponi un primo arco più grande. Per questa attività di movimento non servono sette colori, un ordine preciso, spazi regolari o nuvole simmetriche; un arcobaleno immaginario può avere qualsiasi colore."
+    }
+  }
+}

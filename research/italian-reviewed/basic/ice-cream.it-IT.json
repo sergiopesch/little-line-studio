@@ -1,0 +1,153 @@
+{
+  "locale": "it-IT",
+  "lessonId": "ice-cream",
+  "level": "basic",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "751cee83114e06bee4b352b27859b65bdec53643d02d30eb1471f2300aae354d",
+  "title": "Cono gelato",
+  "invitation": "Una pallina su un cono a punta.",
+  "objective": "unire una parte superiore arrotondata a una base a punta e aggiungere segni facoltativi dentro un contorno.",
+  "parentNote": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina.",
+  "simplify": "",
+  "transfer": "Una base a punta e una parte superiore rotonda potrebbero aiutarti a inventare un oggetto diverso?",
+  "colouringLabel": "Una pallina alla fragola e un cono dorato",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un negozio immaginario sulla carta.",
+      "instruction": "Guarda la pallina arrotondata sopra la punta stretta del cono.",
+      "spoken": "Apriamo una gelateria immaginaria sulla carta. Una pallina arrotondata sta sopra un cono che si restringe fino a una punta.",
+      "hint": "Cerca la parte larga in alto e la parte stretta in basso del cono.",
+      "notice": "Guardate il disegno del gelato. Osservate dove la pallina rotonda si appoggia sul cono."
+    },
+    "pointed-cone": {
+      "title": "Il cono a punta",
+      "instruction": "Disegna una grande V con la punta in basso.",
+      "spoken": "Due linee inclinate si incontrano in una punta in basso e formano una V. Lascia spazio sopra per la nostra pallina rotonda.",
+      "hint": "Scendi fino alla punta, poi risali dall’altro lato.",
+      "notice": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina."
+    },
+    "rounded-scoop": {
+      "title": "La pallina rotonda",
+      "instruction": "Disegna una pallina arrotondata sopra la V e uniscila alla base.",
+      "spoken": "Curva verso l’alto e sopra, da un angolo superiore all’altro. Unisci attraverso la base, così la pallina si appoggia sul cono.",
+      "hint": "Le due estremità della pallina incontrano gli angoli superiori della V.",
+      "notice": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina."
+    },
+    "cherry": {
+      "title": "La ciliegia",
+      "instruction": "Se vuoi, prova una piccola ciliegia rotonda in cima.",
+      "spoken": "Un piccolo cerchio può stare sulla pallina come una ciliegia. Nel nostro negozio immaginario puoi anche non aggiungerla.",
+      "hint": "Tieni questo cerchio molto più piccolo della pallina sottostante.",
+      "notice": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina."
+    },
+    "cherry-stalk": {
+      "title": "Il picciolo della ciliegia",
+      "instruction": "Se hai aggiunto una ciliegia, mettile un piccolo picciolo.",
+      "spoken": "Se hai aggiunto una ciliegia, un piccolo picciolo curvo può salire dalla sua cima. Altrimenti salta questo dettaglio.",
+      "hint": "Comincia dalla cima del piccolo cerchio della ciliegia.",
+      "notice": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina."
+    },
+    "left-sprinkle": {
+      "title": "La codetta a sinistra",
+      "instruction": "Se vuoi, prova una piccola codetta dentro la pallina.",
+      "spoken": "Una minuscola linea inclinata può diventare una codetta dentro la nostra pallina.",
+      "hint": "Tieni la piccola codetta dentro la pallina arrotondata.",
+      "notice": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina."
+    },
+    "upper-sprinkle": {
+      "title": "La codetta in alto",
+      "instruction": "Aggiungi un’altra piccola codetta oppure lascia lo spazio libero.",
+      "spoken": "Un’altra breve linea può inclinarsi in una direzione diversa. Sollevo la matita prima di spostarmi.",
+      "hint": "Scegli un nuovo punto invece di unire le codette tra loro.",
+      "notice": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina."
+    },
+    "right-sprinkle": {
+      "title": "La codetta a destra",
+      "instruction": "Scegli un’ultima codetta oppure lascia fuori questo dettaglio.",
+      "spoken": "Un altro piccolo segno può completare il mio motivo di codette. Il tuo può averne meno.",
+      "hint": "Pochi piccoli segni lasciano spazio per il colore più tardi.",
+      "notice": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina."
+    },
+    "upper-cone-diagonal": {
+      "title": "La diagonale in alto del cono",
+      "instruction": "Prova una linea leggera e inclinata dentro il cono, oppure salta.",
+      "spoken": "Una linea leggera e inclinata può iniziare il motivo della cialda dentro il cono. Mi fermo prima dei bordi esterni.",
+      "hint": "Tieni entrambe le estremità della linea dentro il cono.",
+      "notice": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina."
+    },
+    "lower-cone-diagonal": {
+      "title": "La diagonale in basso del cono",
+      "instruction": "Prova una linea inclinata più corta in basso, oppure salta.",
+      "spoken": "Più in basso il cono è più stretto, quindi questa piccola linea inclinata è più corta.",
+      "hint": "Guarda come c’è meno spazio vicino alla punta.",
+      "notice": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina."
+    },
+    "crossing-cone-line": {
+      "title": "La linea incrociata del cono",
+      "instruction": "Se vuoi, prova una linea inclinata nell’altra direzione.",
+      "spoken": "Una linea inclinata nell’altra direzione può suggerire il motivo della cialda. Può stare anche da sola se hai saltato le linee precedenti.",
+      "hint": "Ferma la linea dentro i bordi inclinati del cono.",
+      "notice": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina."
+    },
+    "colour-choice": {
+      "title": "Un gusto immaginario.",
+      "instruction": "Scegli rosa e marrone dorato, oppure inventa il tuo gusto.",
+      "spoken": "Scelgo il rosa per una pallina immaginaria alla fragola e il marrone dorato per il cono. Puoi inventare il colore di un gusto diverso.",
+      "hint": "Nel tuo negozio immaginario puoi scegliere i pastelli che hai.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-strawberry-scoop": {
+      "title": "Una morbida pallina alla fragola.",
+      "instruction": "Usa brevi tratti rosa dentro la pallina arrotondata.",
+      "spoken": "Piccoli tratti rosa colorano la nostra pallina. Sollevo il pastello tra una zona e l’altra e lascio visibili le codette attraverso il colore leggero.",
+      "hint": "I tratti leggeri lasciano vedere la carta e i piccoli dettagli.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-golden-cone": {
+      "title": "Parte larga, piccola punta.",
+      "instruction": "Colora il cono con tratti più piccoli vicino alla punta.",
+      "spoken": "Le zone dorate cominciano nella parte larga. Vicino alla punta i miei movimenti diventano piccolissimi e un po’ di carta resta bianca.",
+      "hint": "Gli spazi piccoli possono restare bianchi invece di richiedere un tratto grande.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-cherry": {
+      "title": "Un po’ di colore per la ciliegia.",
+      "instruction": "Se hai aggiunto una ciliegia, colorala di rosso.",
+      "spoken": "Se hai aggiunto una ciliegia, pochi piccoli tratti rossi stanno al suo interno. Puoi invece lasciarla bianca.",
+      "hint": "La ciliegia non è necessaria; se preferisci, salta questo colore.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-reflection": {
+      "title": "Pronto nel nostro negozio di carta.",
+      "instruction": "Guarda la pallina arrotondata sopra il cono a punta.",
+      "spoken": "La nostra pallina arrotondata e il cono a punta hanno forme diverse. I loro colori delicati creano un disegno per il nostro negozio immaginario sulla carta.",
+      "hint": "Guarda dove la forma larga diventa una punta stretta.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "explore": {
+      "title": "La prossima idea del tuo negozio.",
+      "instruction": "Inventa un altro gusto, continua a colorare oppure finisci qui.",
+      "spoken": "Nel tuo negozio immaginario potresti disegnare un altro gusto, una piccola ciotola o un’insegna tutta tua. Continua a creare oppure finisci con questo cono di carta.",
+      "hint": "Una nuova pallina può usare lo stesso movimento curvo.",
+      "notice": "Spiega sull’esempio dove la pallina incontra il cono. Una V larga è più facile se il cono sembra stretto. La V è un unico movimento continuo; se richiesto, mostrala a parte senza prendere lo strumento del bambino o della bambina."
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "locale": "it-IT",
+  "lessonId": "tree-path",
+  "level": "expert",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "dc8249c5a08809a015ec305e1795812d96621f99577eca073076cac9a3b700b7",
+  "title": "Albero accanto a un sentiero sinuoso",
+  "invitation": "Un sentiero che serpeggia verso la distanza.",
+  "objective": "esplorare come i bordi di un sentiero possono avvicinarsi mentre si allontana nel disegno.",
+  "parentNote": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato.",
+  "simplify": "Usa un sentiero dritto con due bordi, un tronco semplice e una forma per la chioma. Vanno bene sentieri di larghezza uguale e viste immaginarie; salta tutti i dettagli della scena.",
+  "transfer": "Un altro giorno prova un fiume o una ferrovia che scompare in un paesaggio diverso. Esplora come cambiare lo spazio tra due bordi senza usare il modello dell’albero e del sentiero.",
+  "colouringLabel": "Piccoli movimenti di pastello, i tuoi colori",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un sentiero verso un luogo immaginato.",
+      "instruction": "Guarda il sentiero largo vicino a noi e la sua estremità lontana e stretta.",
+      "spoken": "Il nostro sentiero sinuoso porta in un luogo che possiamo immaginare. Guarda come è largo vicino a noi e molto più stretto quando si allontana.",
+      "hint": "Confronta l’estremità larga in basso con quella piccola e lontana.",
+      "notice": "Guardate la fotografia di un sentiero visto da terra. Osservate se i bordi visibili sono più distanti vicino a noi e più vicini più lontano. Questo è un modo per suggerire la distanza, non una regola obbligatoria per le scene immaginarie."
+    },
+    "distant-hill": {
+      "title": "La collina lontana",
+      "instruction": "Curva una collina bassa e lontana attraverso la parte superiore del paesaggio.",
+      "spoken": "Comincia con una collina bassa in lontananza. Lascia molto spazio sotto per il sentiero sinuoso e un albero vicino.",
+      "hint": "Tieni questa collina lontana vicino alla parte superiore del foglio.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "path-left-edge": {
+      "title": "Il bordo sinistro del sentiero",
+      "instruction": "Traccia un bordo sinuoso del sentiero verso la collina lontana.",
+      "spoken": "Comincia in basso e lascia che questo bordo del sentiero serpeggi verso la collina. Una curva lunga e comoda può cambiare direzione senza creare un angolo appuntito.",
+      "hint": "Lascia che una curva libera serpeggi dal primo piano verso la collina.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "path-right-edge": {
+      "title": "Il bordo destro del sentiero",
+      "instruction": "Tieni il sentiero più largo vicino a noi e più stretto lontano.",
+      "spoken": "Aggiungi l’altro bordo. Lascia uno spazio più largo in basso e stretto lontano; questo cambiamento aiuta a suggerire la distanza.",
+      "hint": "Confronta lo spazio in basso con quello vicino alla collina.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "trunk-left-edge": {
+      "title": "Il lato sinistro del tronco",
+      "instruction": "Disegna un tronco leggermente curvo sulla sinistra.",
+      "spoken": "Porta un tronco verso l’alto a sinistra del sentiero. Una curva che cambia dolcemente può farlo sembrare meno simile a un palo dritto come un righello.",
+      "hint": "Comincia vicino al terreno e lascia che il tronco curvi verso l’alto.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "trunk-right-edge": {
+      "title": "Il lato destro del tronco",
+      "instruction": "Aggiungi l’altro lato del tronco lì vicino.",
+      "spoken": "Disegna l’altro lato lasciando spazio tra i bordi. Lascia che il tronco diventi un po’ più largo vicino al terreno.",
+      "hint": "Tieni uno spazio più largo vicino all’estremità inferiore del tronco.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "left-branch": {
+      "title": "Il ramo sinistro",
+      "instruction": "Lascia che un ramo curvi verso l’alto a sinistra.",
+      "spoken": "Un ramo curva verso l’esterno e l’alto dal tronco. Lascia spazio intorno alla punta per la chioma che disegneremo dopo.",
+      "hint": "Lascia che il ramo esca prima di girare verso l’alto.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "right-branch": {
+      "title": "Il ramo destro",
+      "instruction": "Curva un altro ramo verso l’alto a destra.",
+      "spoken": "Un altro ramo si allunga verso destra. Direzioni diverse aiutano l’albero ad aprirsi invece di inclinare tutte le foglie da una parte.",
+      "hint": "Fai girare questo ramo in una direzione diversa.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "leafy-crown": {
+      "title": "La chioma",
+      "instruction": "Unisci grandi curve arrotondate intorno ai rami.",
+      "spoken": "Costruisci la chioma con grandi curve arrotondate. Pensa prima a tutta la massa di foglie; non serve una linea separata per ogni foglia.",
+      "hint": "Unisci alcune ampie curve arrotondate intorno alle punte dei rami.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "left-root": {
+      "title": "La radice sinistra",
+      "instruction": "Gira una radice corta verso l’esterno lungo il terreno.",
+      "spoken": "Una piccola radice gira verso sinistra lungo il terreno.",
+      "hint": "Lascia che questa piccola curva si allontani dal tronco.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "right-root": {
+      "title": "La radice destra",
+      "instruction": "Aggiungi una radice corta che si allarga dall’altro lato.",
+      "spoken": "Una radice dall’altro lato aiuta l’albero a posarsi nel paesaggio.",
+      "hint": "Curva una piccola radice verso destra.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "trunk-bark": {
+      "title": "La corteccia del tronco",
+      "instruction": "Lascia che una linea ondulata segua la direzione alta del tronco.",
+      "spoken": "Se vuoi la trama della corteccia, una linea ondulata può seguire la direzione alta del tronco. Non devi coprire tutto l’albero di segni.",
+      "hint": "Una sola linea ondulata leggera basta per suggerire la trama.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "leafy-cluster": {
+      "title": "Il gruppo di foglie",
+      "instruction": "Se vuoi, aggiungi un piccolo gruppo di foglie dentro la chioma.",
+      "spoken": "Un gruppo arrotondato più piccolo all’interno può suggerire foglie. Tieni visibile la chioma esterna, così tutto l’albero resta una forma unica.",
+      "hint": "Ripeti alcune piccole curve arrotondate dentro la chioma più grande.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "near-path-stone": {
+      "title": "Il sasso vicino",
+      "instruction": "Metti un sasso piatto più grande vicino alla parte bassa.",
+      "spoken": "Puoi mettere un sasso piatto vicino a noi. Tienilo accanto al sentiero, lasciando libera la strada sinuosa per il viaggio immaginario.",
+      "hint": "Fai un ovale basso vicino alla parte davanti del paesaggio.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "far-path-stone": {
+      "title": "Il sasso lontano",
+      "instruction": "Se vuoi, prova un minuscolo sasso accanto alla parte alta del sentiero.",
+      "spoken": "Puoi aggiungere un piccolo sasso lontano. Se hai incluso un sasso vicino, confrontare le dimensioni diverse offre un altro modo per suggerire la distanza.",
+      "hint": "Metti un piccolo ovale accanto alla parte alta del sentiero.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "tree-grass": {
+      "title": "L’erba vicino all’albero",
+      "instruction": "Aggiungi un minuscolo segno piegato per l’erba accanto all’albero.",
+      "spoken": "Se vuoi, un piccolo segno d’erba piegato può stare accanto alle radici.",
+      "hint": "Tieni questo piccolo segno d’erba vicino al terreno.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "path-grass": {
+      "title": "L’erba vicino al sentiero",
+      "instruction": "Lascia che un altro piccolo segno d’erba stia accanto al sentiero.",
+      "spoken": "Puoi aggiungere un altro piccolo segno d’erba accanto al sentiero oppure lasciare libero lo spazio.",
+      "hint": "Una piccola svolta verso l’alto basta per suggerire erba.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "distant-bush": {
+      "title": "Il cespuglio lontano",
+      "instruction": "Se vuoi, disegna un minuscolo cespuglio arrotondato vicino alla collina.",
+      "spoken": "Un piccolo cespuglio arrotondato vicino alla collina resta minuscolo nel paesaggio. Quelle forme lontane più piccole sostengono la stessa idea di profondità del sentiero che si restringe.",
+      "hint": "Usa alcune piccole curve arrotondate per questo cespuglio lontano.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "landscape-cloud": {
+      "title": "La nuvola del paesaggio",
+      "instruction": "Se vuoi, aggiungi una nuvola morbida nel cielo libero.",
+      "spoken": "Una piccola nuvola può stare nel cielo aperto. Unisci curve arrotondate e chiudile con una linea inferiore delicata.",
+      "hint": "Lascia un po’ di cielo libero intorno alla piccola nuvola.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "fallen-tree-leaf": {
+      "title": "La foglia caduta",
+      "instruction": "Se vuoi, metti una piccola foglia vicino all’albero.",
+      "spoken": "Una foglia caduta può stare vicino all’albero. Due curve corte che si incontrano in una punta creano questo piccolo dettaglio del paesaggio.",
+      "hint": "Usa due piccole curve che si uniscono alle due estremità.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "landscape-sun": {
+      "title": "Il sole del paesaggio",
+      "instruction": "Se vuoi, disegna un piccolo sole nel cielo libero.",
+      "spoken": "Puoi aggiungere un piccolo sole al paesaggio inventato. Usa il nostro disegno sulla carta come riferimento, mai il Sole vero.",
+      "hint": "Una piccola forma rotonda sta in uno spazio libero del cielo.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    },
+    "colour-choice": {
+      "title": "Una tavolozza per il paesaggio.",
+      "instruction": "Scegli foglie verdi, un tronco marrone e un sentiero dal colore caldo.",
+      "spoken": "Userò foglie verdi, un tronco marrone e un sentiero color sabbia caldo. Il tuo paesaggio immaginario può avere tempo, stagioni e colori diversi.",
+      "hint": "Scegli un colore per le foglie e uno distinto per il sentiero.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-leafy-crown": {
+      "title": "Piccole zone di foglie.",
+      "instruction": "Crea zone verdi intorno alla chioma arrotondata.",
+      "spoken": "Mi muovo su piccole zone della grande chioma, sollevando il pastello prima di spostarmi. Gli spazi bianchi mantengono leggera e aperta la trama del pastello.",
+      "hint": "Usa piccole zone dentro la grande forma arrotondata delle foglie.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-tree-trunk": {
+      "title": "Un tronco marrone stretto.",
+      "instruction": "Usa movimenti brevi lungo la direzione alta del tronco.",
+      "spoken": "Il tronco è molto più stretto delle foglie, quindi i miei movimenti si riducono. Seguo la sua direzione alta e lascio visibile la linea della corteccia.",
+      "hint": "Accorcia i movimenti e segui il tronco verso l’alto.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-winding-path": {
+      "title": "Colore verso la distanza.",
+      "instruction": "Fai zone di colore più piccole quando il sentiero si restringe.",
+      "spoken": "Guarda come i movimenti diventano più piccoli verso l’estremità lontana. Il colore segue la stessa idea di allargamento e restringimento dei due bordi del sentiero.",
+      "hint": "Spazi grandi vicini e piccoli lontani richiedono movimenti di dimensioni diverse.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-landscape-layer": {
+      "title": "Un po’ d’ombra tra le foglie.",
+      "instruction": "Prova uno strato più intenso sulle foglie e colora gli eventuali dettagli facoltativi.",
+      "spoken": "Uno strato verde leggero può intensificare parte della chioma. Se hai incluso un sasso o un sole di carta, grigio e giallo possono colorare quei dettagli.",
+      "hint": "Sovrapponi leggermente dentro la chioma; colora le forme in più solo se le hai incluse.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflect": {
+      "title": "Un paesaggio con profondità.",
+      "instruction": "Guarda il sentiero che si restringe e gli eventuali sassi di dimensioni diverse.",
+      "spoken": "Segui con gli occhi il sentiero che si restringe. Se hai incluso sassi di dimensioni diverse, sostengono la stessa idea di un paesaggio che continua in lontananza.",
+      "hint": "Confronta una forma vicina con una più piccola e lontana.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "Dove porta il tuo sentiero?",
+      "instruction": "Continua a colorare o immagina che cosa c’è oltre la collina.",
+      "spoken": "Il tuo sentiero potrebbe portare a un giardino, a una casetta o in un luogo completamente immaginario. Continua a esplorare il paesaggio oppure finisci quando vuoi.",
+      "hint": "Aggiungi un’idea lontana, mantenendo la sua forma più piccola degli oggetti vicini.",
+      "notice": "Usa due dita sopra un riferimento per indicare la larghezza del sentiero in due punti. Chiedi se il bambino o la bambina desidera una destinazione vicina o lontana. Se richiesto, mostra a parte un movimento sinuoso più delicato."
+    }
+  }
+}

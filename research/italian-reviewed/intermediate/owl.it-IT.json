@@ -1,0 +1,223 @@
+{
+  "locale": "it-IT",
+  "lessonId": "owl",
+  "level": "intermediate",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "c6b2ebd71b8e3f9c05fdc763351a49a9b2deb29006b5ab562e53c7952bc2bc0b",
+  "title": "Gufo",
+  "invitation": "Occhi grandi e un ramo su cui riposare.",
+  "objective": "posizionare elementi a coppie dentro una forma più grande e collegare una creatura a un ramo che la sostiene.",
+  "parentNote": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno.",
+  "simplify": "",
+  "transfer": "Un altro giorno prova un uccello diverso posato su una staccionata. Esplora quali caratteristiche possono restare e quali cambiare, senza richiedere l’esempio del gufo.",
+  "colouringLabel": "Piccoli tratti, colori scelti con cura",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un tranquillo posatoio di carta.",
+      "instruction": "Guarda due grandi occhi dentro un unico corpo alto.",
+      "spoken": "Il nostro gufo da fiaba riposa su un posatoio di carta. Guarda la sua forma alta e arrotondata e i due grandi occhi con spazio tra loro.",
+      "hint": "Cerca il corpo grande prima dei piccoli segni delle piume.",
+      "notice": "Guardate il nostro gufo sul ramo. Quali parti aiutano a mostrare dove è appoggiato?"
+    },
+    "owl-body": {
+      "title": "Il corpo del gufo",
+      "instruction": "Disegna una forma alta e arrotondata con spazio sotto.",
+      "spoken": "Un ovale alto lascia spazio insieme al viso e al corpo piumato. Lascia carta sotto per un ramo.",
+      "hint": "Pensa a un grande ovale prima dei suoi dettagli più piccoli.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-left-tuft": {
+      "title": "Il ciuffo sinistro di piume",
+      "instruction": "Unisci due linee corte per un piccolo ciuffo di piume.",
+      "spoken": "Due linee corte salgono vicino a un lato della testa. Il nostro gufo da fiaba ha piccoli ciuffi appuntiti di piume.",
+      "hint": "Lascia che il ciuffo tocchi il lato superiore dell’ovale.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-right-tuft": {
+      "title": "Il ciuffo destro di piume",
+      "instruction": "Aggiungi un altro ciuffo di piume dall’altra parte della testa.",
+      "spoken": "Un secondo ciuffo sale dall’altro lato. Guarda dall’altra parte della testa per trovare il suo posto.",
+      "hint": "Confronta la sua altezza con il primo piccolo ciuffo.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-left-eye": {
+      "title": "L’occhio sinistro del gufo",
+      "instruction": "Disegna un grande occhio rotondo dentro il corpo.",
+      "spoken": "Metto un grande occhio in alto dentro l’ovale. C’è spazio accanto per un altro occhio e sotto per un becco.",
+      "hint": "Lascia spazio dall’altra parte del viso per l’altro grande occhio.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-right-eye": {
+      "title": "L’occhio destro del gufo",
+      "instruction": "Lascia un po’ di spazio prima dell’altro occhio.",
+      "spoken": "L’altro occhio sta di fronte al primo. Guardare le dimensioni e lo spazio tra loro mi aiuta a posizionarlo.",
+      "hint": "Tieni entrambi i grandi cerchi dentro la parte superiore del corpo.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-left-pupil": {
+      "title": "La pupilla sinistra",
+      "instruction": "Aggiungi una piccola pupilla dentro il primo occhio.",
+      "spoken": "Una piccola pupilla scura sta dentro il primo cerchio. Lo spazio bianco intorno mantiene ben visibile il grande occhio.",
+      "hint": "Fai la pupilla più piccola dell’occhio rotondo che la circonda.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-right-pupil": {
+      "title": "La pupilla destra",
+      "instruction": "Aggiungi una piccola pupilla dentro il secondo occhio.",
+      "spoken": "Un’altra piccola pupilla va dentro l’altro occhio. Lasciamo ancora molta carta bianca intorno.",
+      "hint": "Cerca dentro il secondo occhio il posto per questo piccolo segno.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-beak": {
+      "title": "Il becco del gufo",
+      "instruction": "Unisci tre lati corti sotto gli occhi.",
+      "spoken": "Un piccolo becco appuntito sta tra gli occhi e un po’ più in basso. Unire tre lati crea una forma molto più piccola di ciascun occhio.",
+      "hint": "Disegna un piccolo triangolo con la punta in basso sotto i cerchi degli occhi.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-left-wing": {
+      "title": "L’ala sinistra",
+      "instruction": "Curva un’ala verso il basso dentro un lato.",
+      "spoken": "Una lunga curva delicata scende dentro il corpo. Suggerisce un’ala piegata senza aggiungere un altro ovale intero.",
+      "hint": "Comincia accanto al viso e curva verso la parte inferiore del corpo.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-right-wing": {
+      "title": "L’ala destra",
+      "instruction": "Curva l’altra ala verso il basso sul lato opposto.",
+      "spoken": "L’altra ala curva verso il basso dentro il bordo opposto. Lascia la pancia libera tra queste due lunghe curve.",
+      "hint": "Lascia che le due ali incornicino uno spazio centrale libero.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-branch-top": {
+      "title": "La linea superiore del ramo",
+      "instruction": "Disegna una linea per il ramo sotto il gufo.",
+      "spoken": "Una lunga linea sta sotto il nostro gufo. Le lascio spazio per allungarsi oltre entrambi i lati del corpo.",
+      "hint": "Lascia un piccolo spazio sotto il corpo per le zampe.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-branch-bottom": {
+      "title": "La linea inferiore del ramo",
+      "instruction": "Disegna un’altra linea appena sotto la prima.",
+      "spoken": "Una seconda linea segue sotto, lasciando uno spazio stretto. Quello spazio dà al ramo un po’ di spessore.",
+      "hint": "Tieni le due linee del ramo vicine, con carta tra loro.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-left-leg": {
+      "title": "La zampa sinistra",
+      "instruction": "Unisci il gufo al posatoio con una zampa corta.",
+      "spoken": "Una linea corta scende dal corpo al ramo. Guarda dove la linea raggiunge la parte superiore del posatoio.",
+      "hint": "Collega la parte inferiore del corpo alla linea superiore del ramo.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-right-leg": {
+      "title": "La zampa destra",
+      "instruction": "Aggiungi un’altra zampa corta accanto alla prima.",
+      "spoken": "L’altra zampa corta scende lì accanto. Lascia un po’ di spazio tra le zampe, così ciascuna resta visibile.",
+      "hint": "Fai un altro collegamento corto tra corpo e ramo.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-left-claw": {
+      "title": "L’artiglio sinistro",
+      "instruction": "Curva un piccolo piede sopra il ramo.",
+      "spoken": "Un piccolo piede curvo incontra la linea superiore del ramo. Le sue piccole dimensioni aiutano il corpo del gufo a restare la forma più grande.",
+      "hint": "Metti la piccola curva alla fine di una zampa.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-right-claw": {
+      "title": "L’artiglio destro",
+      "instruction": "Aggiungi un piccolo piede curvo sull’altra zampa.",
+      "spoken": "L’altro piede curva sul posatoio. Tengo la curva piccola accanto al lungo ramo.",
+      "hint": "Lascia che questa curva incontri l’estremità della seconda zampa.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-upper-feather": {
+      "title": "La piuma in alto",
+      "instruction": "Prova un piccolo segno di piuma sulla pancia.",
+      "spoken": "Due piccole linee inclinate possono suggerire una piuma. Questo segno facoltativo sta nella pancia libera tra le ali.",
+      "hint": "Una piccola curva a punta, simile a una lettera, può formare una piuma.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-middle-feather": {
+      "title": "La piuma al centro",
+      "instruction": "Se vuoi, prova un altro segno di piuma lì vicino.",
+      "spoken": "Un’altra piccola punta può stare accanto alla prima. Lascia un po’ di carta tra i segni di piume che scegli.",
+      "hint": "Tieni la nuova piuma lontana dai bordi delle ali.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-lower-feather": {
+      "title": "La piuma in basso",
+      "instruction": "Prova una piuma più in basso oppure lascia libero lo spazio.",
+      "spoken": "Una piuma più in basso può completare il piccolo motivo. Bastano pochi segni e va bene anche una pancia senza decorazioni.",
+      "hint": "Metti questo piccolo segno facoltativo sotto gli altri.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "owl-branch-leaf": {
+      "title": "La foglia sul ramo",
+      "instruction": "Prova una piccola foglia accanto al posatoio di carta.",
+      "spoken": "Due curve possono unirsi e creare una foglia accanto al posatoio. È un’idea in più per il giardino che puoi saltare.",
+      "hint": "Lascia che due lati curvi si incontrino di nuovo in una punta.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    },
+    "colour-choice": {
+      "title": "Colori delicati per il gufo.",
+      "instruction": "Scegli un colore chiaro per la pancia e uno più scuro per le ali.",
+      "spoken": "Scelgo piume color sabbia, una pancia chiara e ali marroni. Questi colori vicini ci aiutano a distinguere le parti del nostro gufo di carta.",
+      "hint": "Un solo pastello può fare segni più chiari se premi delicatamente.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-feathers": {
+      "title": "Piume intorno a un viso luminoso.",
+      "instruction": "Colora intorno agli occhi, lasciando bianca la carta al loro interno.",
+      "spoken": "Piccoli tratti color sabbia vanno accanto al viso e il crema sulla pancia. Lascio bianchi i cerchi degli occhi, così restano ben visibili.",
+      "hint": "Solleva il pastello prima di raggiungere un occhio, poi comincia una nuova zona.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-wings": {
+      "title": "Ali più scure, pancia più chiara.",
+      "instruction": "Aggiungi piume più scure vicino alle ali piegate.",
+      "spoken": "Zone marroni vicino a ciascun lato distinguono le ali dalla pancia più chiara. Creo il colore con strati brevi e leggeri.",
+      "hint": "Tieni il centro più chiaro delle zone ai suoi lati.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-perch": {
+      "title": "Un po’ di colore per il posatoio.",
+      "instruction": "Usa piccoli tratti dentro il ramo stretto.",
+      "spoken": "Un ramo stretto ha bisogno di piccoli tratti marroni. Sollevo il pastello prima delle zampe, poi metto una piccola zona gialla dentro il becco.",
+      "hint": "Gli spazi piccoli hanno bisogno di un movimento più piccolo oppure possono restare bianchi.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-reflection": {
+      "title": "Il nostro gufo sul posatoio.",
+      "instruction": "Guarda la pancia chiara tra le ali più scure.",
+      "spoken": "Guarda il centro chiaro e le ali più scure intorno. Il nostro gufo da fiaba ha un tranquillo posatoio di carta e spazio per le tue idee.",
+      "hint": "Nota una differenza tra una forma grande e una piccola.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "explore": {
+      "title": "Un cielo per il tuo gufo.",
+      "instruction": "Inventa un cielo, aggiungi i tuoi segni oppure finisci.",
+      "spoken": "Potresti dare al tuo gufo un cielo immaginario o un altro ramo. Anche il tuo posatoio di carta può restare tranquillo e semplice.",
+      "hint": "Prova a lasciare un centro chiaro tra due lati più scuri.",
+      "notice": "Chiama le forme appuntite ciuffi di piume, non orecchie. Se viene richiesto aiuto, parlate del collegamento tra zampe, artigli e ramo. Lascia al bambino o alla bambina la scelta della posizione delle pupille; non attribuire un’emozione precisa al gufo o al disegno."
+    }
+  }
+}

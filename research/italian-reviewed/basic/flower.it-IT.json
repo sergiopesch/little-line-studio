@@ -1,0 +1,160 @@
+{
+  "locale": "it-IT",
+  "lessonId": "flower",
+  "level": "basic",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "384b0921cb8c504432199b09f0b1e3ceb23ed5b80df8c47f9bc92674bea7d4b9",
+  "title": "Fiore di giardino",
+  "invitation": "Petali, foglie e un piccolo stelo.",
+  "objective": "disporre parti intorno a un centro e collegare uno stelo alla corolla.",
+  "parentNote": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare.",
+  "simplify": "",
+  "transfer": "Le curve intorno a un centro potrebbero aiutarti a inventare un fiore diverso?",
+  "colouringLabel": "Petali colorati e un centro dorato",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un piccolo giardino sulla carta.",
+      "instruction": "Guarda come ogni petalo tocca il piccolo centro rotondo.",
+      "spoken": "Cominciamo un giardino immaginario con un fiore. Un piccolo cerchio tiene insieme i petali e sotto c’è uno stelo che si curva.",
+      "hint": "Trova il piccolo centro prima di seguire i petali intorno.",
+      "notice": "Guardate insieme l’immagine di un fiore. Dove si incontrano i suoi petali?"
+    },
+    "flower-centre": {
+      "title": "Il centro del fiore",
+      "instruction": "Disegna un piccolo cerchio con spazio intorno.",
+      "spoken": "Un piccolo cerchio dà inizio al nostro fiore. Lascio spazio intorno perché i petali abbiano dove crescere.",
+      "hint": "Riporta la linea curva verso il punto da cui sei partito.",
+      "notice": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare."
+    },
+    "upper-petal": {
+      "title": "Il petalo in alto",
+      "instruction": "Parti dal centro, curva verso l’alto e torna indietro.",
+      "spoken": "Comincia accanto al cerchio. Curva verso l’alto, gira intorno alla punta morbida e torna vicino al punto di partenza: ecco un lungo petalo.",
+      "hint": "Le due estremità toccano punti diversi del cerchio.",
+      "notice": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare."
+    },
+    "left-petal": {
+      "title": "Il petalo a sinistra",
+      "instruction": "Lascia che un altro petalo arrotondato si allunghi verso sinistra.",
+      "spoken": "Questo petalo va di lato. Vai verso l’esterno, gira intorno alla sua estremità e torna al cerchio.",
+      "hint": "Fai lo stesso movimento di andata e ritorno verso sinistra.",
+      "notice": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare."
+    },
+    "lower-petal": {
+      "title": "Il petalo in basso",
+      "instruction": "Disegna un petalo arrotondato sotto il centro, lasciando spazio sotto.",
+      "spoken": "Il prossimo petalo curva verso il basso e torna indietro. Lascio spazio sotto per uno stelo.",
+      "hint": "Lascia un po’ di spazio tra il fiore e il bordo inferiore del foglio.",
+      "notice": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare."
+    },
+    "right-petal": {
+      "title": "Il petalo a destra",
+      "instruction": "Aggiungi un petalo che si allunga verso l’altro lato.",
+      "spoken": "Vai verso destra e torna indietro. Petali di dimensioni diverse possono appartenere allo stesso fiore.",
+      "hint": "Trova il bordo destro del cerchio prima di tracciare la curva.",
+      "notice": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare."
+    },
+    "upper-right-petal": {
+      "title": "Il petalo in alto a destra",
+      "instruction": "Se vuoi, prova un petalo più piccolo in uno spazio libero.",
+      "spoken": "Un petalo più piccolo può stare in questo spazio in alto. Puoi anche lasciare lo spazio aperto.",
+      "hint": "Anche nello spazio libero, comincia e finisci sul cerchio.",
+      "notice": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare."
+    },
+    "lower-left-petal": {
+      "title": "Il petalo in basso a sinistra",
+      "instruction": "Scegli un altro spazio per un petalo in più, oppure salta questo passaggio.",
+      "spoken": "Un altro petalo può curvare nello spazio in basso. Va benissimo anche un fiore con meno petali.",
+      "hint": "Scegli i petali che vuoi nel tuo giardino di carta.",
+      "notice": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare."
+    },
+    "flower-stem": {
+      "title": "Lo stelo del fiore",
+      "instruction": "Disegna uno stelo leggermente curvo sotto il fiore.",
+      "spoken": "Dal petalo inferiore, lascia scendere una linea curva. Questo stelo sottile unisce il nostro fiore al giardino immaginario.",
+      "hint": "Vanno bene sia uno stelo dritto sia uno stelo curvo.",
+      "notice": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare."
+    },
+    "left-leaf": {
+      "title": "La foglia a sinistra",
+      "instruction": "Se vuoi, fai uscire una foglia curva dallo stelo.",
+      "spoken": "Una foglia curva esce dallo stelo fino a una punta, poi torna con una curva nello stesso punto.",
+      "hint": "Lascia che entrambe le estremità della foglia tocchino lo stelo.",
+      "notice": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare."
+    },
+    "right-leaf": {
+      "title": "La foglia a destra",
+      "instruction": "Prova una foglia dall’altra parte oppure lascia lo spazio libero.",
+      "spoken": "Un’altra foglia può puntare nell’altra direzione. Può essere più in alto, più in basso o di dimensioni diverse.",
+      "hint": "Scegli un nuovo punto di partenza lungo lo stelo.",
+      "notice": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare."
+    },
+    "colour-choice": {
+      "title": "I colori del nostro giardino.",
+      "instruction": "Scegli rosa, giallo e verde, oppure i tuoi colori.",
+      "spoken": "Scelgo petali rosa, un centro giallo e foglie verdi. Il tuo giardino immaginario può avere colori diversi.",
+      "hint": "Metti qualche pastello vicino a te; puoi cambiare idea.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-first-petals": {
+      "title": "Una piccola zona di petalo.",
+      "instruction": "Colora i petali in alto e a sinistra con tratti brevi.",
+      "spoken": "Brevi tratti rosa creano piccole zone colorate dentro due petali. Sollevo il pastello e mi sposto, rallentando vicino ai bordi curvi.",
+      "hint": "È più facile fermare pochi piccoli tratti che un solo tratto lungo.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-other-petals": {
+      "title": "Petali intorno al centro.",
+      "instruction": "Continua sui petali in basso e a destra.",
+      "spoken": "Gli altri petali ricevono le stesse piccole zone delicate. Lascio bianchi i petali in più per un effetto diverso.",
+      "hint": "Nel tuo fiore gli spazi bianchi possono stare accanto ai petali colorati.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-centre": {
+      "title": "Un centro dorato.",
+      "instruction": "Usa piccoli tratti gialli dentro il centro rotondo.",
+      "spoken": "Movimenti gialli piccolissimi stanno bene nel nostro piccolo centro. Guarda come sollevo il pastello prima di raggiungere il bordo, tenendo separati i colori dei petali.",
+      "hint": "Quando lo spazio diventa piccolo, prova un movimento più corto.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-leaves": {
+      "title": "Verde vicino allo stelo.",
+      "instruction": "Colora con piccoli tratti verdi le foglie che hai aggiunto.",
+      "spoken": "Se hai disegnato le foglie, prova il verde al loro interno. Nel mio esempio lo stelo sottile è già verde; le foglie possono restare bianche.",
+      "hint": "Se non hai disegnato le foglie, puoi saltare questo colore.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-reflection": {
+      "title": "Un giardino comincia.",
+      "instruction": "Osserva il centro, i petali che si allungano e lo stelo curvo.",
+      "spoken": "Il nostro piccolo giardino è cominciato con un cerchio. Guarda come i petali si allungano intorno, ognuno con spazio per il proprio colore.",
+      "hint": "Guarda tutto il fiore senza bisogno di cambiarlo.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "explore": {
+      "title": "Il tuo giardino può crescere.",
+      "instruction": "Aggiungi un altro fiore, continua a colorare oppure finisci qui il tuo giardino.",
+      "spoken": "Nel tuo giardino può crescere un altro fiore, un sentiero o qualcosa che inventi tu. Continua a disegnare oppure finisci con questo fiore.",
+      "hint": "Un’altra volta, prova un fiore piccolissimo accanto a questo.",
+      "notice": "Segui con un dito sull’esempio il punto in cui i petali incontrano il centro. Se richiesto, mostra una curva chiusa a parte. Non insistere su una simmetria perfetta, un numero preciso di petali o una specie particolare."
+    }
+  }
+}

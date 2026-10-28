@@ -1,0 +1,167 @@
+{
+  "locale": "it-IT",
+  "lessonId": "mushroom",
+  "level": "basic",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "7de34b6736ffc09330bf4b7e2f72e581887719e9ac1a5a57b36cb6a506b29024",
+  "title": "Fungo del bosco",
+  "invitation": "Un cappello largo e un piccolo gambo.",
+  "objective": "unire un cappello largo a un gambo più stretto ed esplorare contorni curvi.",
+  "parentNote": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili.",
+  "simplify": "",
+  "transfer": "Una parte superiore larga e curva e una parte stretta sotto potrebbero aiutarti a disegnare un ombrello?",
+  "colouringLabel": "Un cappello marrone e un piccolo gambo chiaro",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un bosco da fiaba.",
+      "instruction": "Guarda il cappello largo sopra il piccolo gambo più stretto.",
+      "spoken": "Disegniamo un fungo da fiaba, come un piccolo ombrello nel bosco. Il suo largo cappello sta sopra un gambo più stretto, tutto sulla nostra carta.",
+      "hint": "Confronta la larghezza del cappello con quella del gambo sotto.",
+      "notice": "Guardate l’immagine di un fungo. Osservate come il cappello è più largo del gambo."
+    },
+    "mushroom-cap": {
+      "title": "Il cappello del fungo",
+      "instruction": "Disegna un arco largo con spazio sotto.",
+      "spoken": "Sali e passa sopra con un unico grande arco. Lascio molto spazio sotto per un piccolo gambo.",
+      "hint": "Comincia in basso da un lato e finisci in basso dall’altro.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "cap-lower-edge": {
+      "title": "Il bordo inferiore del cappello",
+      "instruction": "Unisci le estremità dell’arco con un bordo leggermente curvo.",
+      "spoken": "Una curva poco profonda unisce le due estremità. Così si chiude il cappello del fungo, come un piccolo ombrello.",
+      "hint": "Fai scendere questa curva inferiore meno del grande arco sopra.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "stalk-left-side": {
+      "title": "Il lato sinistro del gambo",
+      "instruction": "Comincia sotto il cappello e curva verso il basso un lato del gambo.",
+      "spoken": "Una linea leggermente curva scende da sotto il cappello. Il nostro gambo resta più stretto del cappello sopra.",
+      "hint": "Comincia entro la larghezza del cappello, lontano dalla sua estremità esterna.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "stalk-right-side": {
+      "title": "Il lato destro del gambo",
+      "instruction": "Disegna l’altro lato del gambo, lasciando spazio tra i due.",
+      "spoken": "L’altro lato curva verso il basso lì vicino. Lascio un ampio spazio tra i due lati.",
+      "hint": "Guarda lo spazio mentre posizioni la seconda linea.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "stalk-base": {
+      "title": "La base del gambo",
+      "instruction": "Unisci le due estremità del gambo con una curva bassa.",
+      "spoken": "Una curva bassa unisce le estremità inferiori. Il nostro piccolo gambo è ora una forma chiusa sotto il cappello.",
+      "hint": "Porta la curva da un’estremità inferiore all’altra.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "cap-inner-edge": {
+      "title": "Il bordo interno del cappello",
+      "instruction": "Prova una linea leggera dentro il bordo inferiore del cappello, oppure salta.",
+      "spoken": "Una curva leggera può seguire il bordo inferiore dentro il cappello. Questa linea in più suggerisce un piccolo bordo.",
+      "hint": "Lascia un piccolo spazio tra i due bordi curvi.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "cap-left-spot": {
+      "title": "Il puntino a sinistra sul cappello",
+      "instruction": "Se vuoi, prova un piccolo puntino sul cappello.",
+      "spoken": "Un piccolo ovale può iniziare un motivo sul nostro cappello da fiaba. Questa decorazione è una tua scelta.",
+      "hint": "Scegli uno spazio dentro il cappello, lontano dal bordo.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "cap-high-spot": {
+      "title": "Il puntino in alto sul cappello",
+      "instruction": "Prova un puntino più in alto oppure lascia bianco questo spazio.",
+      "spoken": "Un altro piccolo ovale può stare più in alto sul cappello.",
+      "hint": "Lascia un po’ di spazio sulla carta tra i piccoli puntini.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "cap-right-spot": {
+      "title": "Il puntino a destra sul cappello",
+      "instruction": "Se vuoi, metti un altro puntino dentro il cappello.",
+      "spoken": "Un puntino sull’altro lato può essere di dimensioni diverse.",
+      "hint": "Ogni piccolo ovale può inclinarsi in una direzione diversa.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "cap-low-spot": {
+      "title": "Il puntino in basso sul cappello",
+      "instruction": "Scegli un ultimo piccolo puntino, oppure salta.",
+      "spoken": "Un ultimo piccolo puntino può stare più in basso. Vanno bene anche meno puntini.",
+      "hint": "Tieni questo dettaglio in più dentro il contorno del cappello.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "left-grass": {
+      "title": "L’erba a sinistra",
+      "instruction": "Prova un piccolo filo d’erba curvo accanto al gambo.",
+      "spoken": "Una breve linea curva può diventare erba accanto al nostro fungo di carta.",
+      "hint": "Comincia vicino al terreno e curva verso la carta libera.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "right-grass": {
+      "title": "L’erba a destra",
+      "instruction": "Prova un altro filo d’erba oppure completa il contorno.",
+      "spoken": "Un altro piccolo filo d’erba può curvare dall’altra parte. Puoi anche lasciare libero il terreno.",
+      "hint": "Il tuo disegno del bosco può usare solo pochi segni.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    },
+    "colour-choice": {
+      "title": "Colori delicati del bosco.",
+      "instruction": "Scegli marrone e crema, oppure i tuoi colori da fiaba.",
+      "spoken": "Scelgo un cappello marrone delicato e un gambo color crema chiaro. Il tuo bosco da fiaba può usare i pastelli che hai già.",
+      "hint": "Un marrone chiaro o un giallo possono sostituire il crema.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-mushroom-cap": {
+      "title": "Piccole zone marroni.",
+      "instruction": "Crea piccole zone marroni dentro il cappello largo.",
+      "spoken": "Piccole zone marroni colorano il cappello. Lascio spazio intorno ai puntini facoltativi e un po’ di carta bianca accanto al colore.",
+      "hint": "Una pressione leggera lascia visibili piccoli spazi bianchi.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-mushroom-edge": {
+      "title": "Segui il bordo largo e curvo.",
+      "instruction": "Aggiungi tratti marroni più corti vicino al bordo inferiore del cappello.",
+      "spoken": "Vicino al bordo inferiore uso tratti più corti e sollevo il pastello prima del contorno. Il nostro piccolo bordo resta ben visibile.",
+      "hint": "Prova un movimento piccolissimo quando ti avvicini al bordo.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-mushroom-stalk": {
+      "title": "Un piccolo gambo chiaro.",
+      "instruction": "Usa tratti color crema leggeri dentro il gambo.",
+      "spoken": "Piccole zone color crema chiaro colorano il gambo sotto. Bastano pochi tratti leggeri; la carta può restare un po’ bianca.",
+      "hint": "Comincia al centro e lascia spazio accanto al contorno.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-reflection": {
+      "title": "Il nostro ombrello del bosco.",
+      "instruction": "Guarda il largo cappello sopra il gambo stretto.",
+      "spoken": "Il nostro largo cappello sta sopra un gambo più stretto, come un piccolo ombrello da fiaba. In questo disegno del bosco vanno bene sia il colore sia gli spazi bianchi della carta.",
+      "hint": "Confronta una forma larga e una stretta nel tuo disegno.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "explore": {
+      "title": "Un posto nella tua storia.",
+      "instruction": "Inventa un luogo nel bosco, continua a colorare oppure finisci qui.",
+      "spoken": "Chi potrebbe ripararsi sotto questo ombrello immaginario? Aggiungi un visitatore inventato, altra erba o una tua idea. Puoi anche finire qui.",
+      "hint": "Un arco più piccolo potrebbe dare inizio a un altro fungo da fiaba.",
+      "notice": "Mostra con le dita sull’esempio la larghezza del cappello e quella del gambo. Proponi un gambo formato da una sola linea come alternativa più semplice. I puntini sono una scelta di fantasia, non una guida per riconoscere funghi commestibili."
+    }
+  }
+}

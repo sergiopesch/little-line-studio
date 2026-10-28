@@ -1,0 +1,209 @@
+{
+  "locale": "it-IT",
+  "lessonId": "butterfly",
+  "level": "intermediate",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "6cb483d14e0bab04fd76151c74c33a6d174a1f985243a4acf9b4ecdabd5a8c2d",
+  "title": "Farfalla",
+  "invitation": "Ali e motivi tutti tuoi.",
+  "objective": "disporre le ali intorno a un corpo centrale; confrontare sinistra e destra senza richiedere una simmetria esatta.",
+  "parentNote": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi.",
+  "simplify": "",
+  "transfer": "Un altro giorno disegnate una falena con la stessa idea di corpo centrale e ali collegate, ma scegliendo un contorno diverso. Se desiderato, la famiglia può guardare un’immagine di falena scelta dall’adulto.",
+  "colouringLabel": "Piccoli tratti, colori scelti con cura",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Una visita nel nostro giardino.",
+      "instruction": "Guarda le ali larghe accanto a un centro stretto.",
+      "spoken": "Una farfalla di carta visita il nostro giardino di fiori immaginario. Guarda il suo centro stretto, con grandi ali che si aprono sui due lati.",
+      "hint": "Confronta un’ala larga con il corpo stretto.",
+      "notice": "Guardate la farfalla nell’esempio. Dove si uniscono le ali al corpo stretto?"
+    },
+    "butterfly-body": {
+      "title": "Il corpo della farfalla",
+      "instruction": "Disegna al centro un ovale lungo e stretto.",
+      "spoken": "Questo ovale lungo lascia molta carta libera su entrambi i lati. Dà alle ali un punto centrale in cui incontrarsi.",
+      "hint": "Lascia molto più spazio accanto al corpo che al suo interno.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-head": {
+      "title": "La testa della farfalla",
+      "instruction": "Metti una piccola testa rotonda sopra il corpo.",
+      "spoken": "Una piccola testa rotonda sta sopra il corpo stretto. La tengo molto più corta dell’ovale lungo.",
+      "hint": "Lascia spazio sopra il corpo per una piccola testa.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-upper-left": {
+      "title": "L’ala superiore sinistra",
+      "instruction": "Curva una grande ala superiore verso sinistra.",
+      "spoken": "Curva molto verso l’esterno, gira intorno al bordo e torna al corpo. Un grande movimento lascia spazio per il colore dentro quest’ala.",
+      "hint": "Lascia che la curva larga torni al centro stretto.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-upper-right": {
+      "title": "L’ala superiore destra",
+      "instruction": "Aggiungi una grande ala superiore dall’altro lato.",
+      "spoken": "Guarda dall’altra parte del centro per posizionare un’altra grande ala. Confronto la sua altezza e larghezza con la prima.",
+      "hint": "La seconda ala si allunga dall’altro lato del corpo.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-lower-left": {
+      "title": "L’ala inferiore sinistra",
+      "instruction": "Curva un’ala più piccola sotto la prima.",
+      "spoken": "L’ala inferiore comincia sotto quella superiore. Faccio una curva più piccola, così possiamo notare due dimensioni diverse delle ali.",
+      "hint": "Tieni quest’ala arrotondata sotto la grande ala superiore.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-lower-right": {
+      "title": "L’ala inferiore destra",
+      "instruction": "Aggiungi un’altra ala inferiore dall’altra parte del corpo.",
+      "spoken": "Un’altra ala più piccola curva verso destra. Confrontare i due lati mi aiuta a scegliere dove tornare al centro.",
+      "hint": "Guarda dall’altra parte per la posizione e la dimensione dell’ala inferiore.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-left-antenna": {
+      "title": "L’antenna sinistra",
+      "instruction": "Curva una sottile antenna sopra la testa.",
+      "spoken": "Una linea sottile curva verso l’alto dalla testa. Una curva delicata all’estremità la rende diversa da un bastoncino dritto.",
+      "hint": "Comincia dalla testa e curva nello spazio sopra.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-right-antenna": {
+      "title": "L’antenna destra",
+      "instruction": "Curva un’altra antenna sottile dall’altra parte.",
+      "spoken": "Una seconda linea curva verso l’altro lato. Lascia un po’ di spazio tra le estremità delle due antenne.",
+      "hint": "Prova una breve curva che punta lontano dalla prima.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-left-upper-vein": {
+      "title": "La linea nell’ala superiore sinistra",
+      "instruction": "Disegna una linea che entra nell’ala sinistra.",
+      "spoken": "Una linea parte vicino al corpo e raggiunge l’interno dell’ala superiore. Mi fermo molto prima del bordo esterno.",
+      "hint": "Tieni l’estremità della linea dentro l’ala.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-right-upper-vein": {
+      "title": "La linea nell’ala superiore destra",
+      "instruction": "Disegna una linea simile nell’ala destra.",
+      "spoken": "Porto la stessa idea nell’altra ala superiore. Guarda una direzione simile, senza bisogno di una copia esatta.",
+      "hint": "Confronta questa linea con quella dall’altra parte del corpo.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-left-lower-vein": {
+      "title": "La linea nell’ala inferiore sinistra",
+      "instruction": "Lascia entrare una linea corta in un’ala inferiore.",
+      "spoken": "Una linea più corta entra nell’ala inferiore. Le ali piccole hanno bisogno di meno linea delle grandi ali superiori.",
+      "hint": "Comincia vicino al corpo e fermati dentro l’ala inferiore.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-right-lower-vein": {
+      "title": "La linea nell’ala inferiore destra",
+      "instruction": "Aggiungi una linea corta nell’altra ala inferiore.",
+      "spoken": "Un’altra linea corta entra in quest’ala inferiore. Ogni linea resta dentro la curva che la circonda.",
+      "hint": "Lascia un po’ di spazio tra la linea e il bordo dell’ala.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-left-oval": {
+      "title": "L’ovale nell’ala sinistra",
+      "instruction": "Se vuoi, prova un motivo ovale dentro un’ala.",
+      "spoken": "Un piccolo ovale inclinato può decorare quest’ala. I motivi sono una tua scelta: possono essere diversi o non esserci.",
+      "hint": "Lascia spazio intorno al motivo dentro l’ala.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-right-diamond": {
+      "title": "Il rombo nell’ala destra",
+      "instruction": "Prova un motivo a punta dentro l’altra ala.",
+      "spoken": "Quattro lati uniti possono formare un motivo a rombo. Una forma diversa qui dà alla nostra farfalla immaginaria un disegno tutto suo.",
+      "hint": "Unisci quattro lati corti in una parte libera dell’ala.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-left-spot": {
+      "title": "Il puntino a sinistra",
+      "instruction": "Prova un piccolo puntino su un’ala inferiore.",
+      "spoken": "Un piccolo puntino può stare sull’ala inferiore. Fermati dopo un punto oppure lascia l’ala senza decorazioni.",
+      "hint": "Trova uno spazio dentro l’ala inferiore per un segno.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-right-spot": {
+      "title": "Il puntino a destra",
+      "instruction": "Se vuoi, prova un altro piccolo puntino.",
+      "spoken": "Un altro puntino può andare dall’altra parte del corpo. Il nostro motivo non deve essere uguale sui due lati.",
+      "hint": "Vanno bene un puntino, un segno diverso o nessun segno.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-upper-band": {
+      "title": "La fascia superiore",
+      "instruction": "Prova una fascia corta attraverso il corpo stretto.",
+      "spoken": "Una linea corta può attraversare il corpo stretto. Mi fermo ai suoi bordi, così la fascia resta all’interno.",
+      "hint": "Usa solo la larghezza del piccolo ovale centrale.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "butterfly-lower-band": {
+      "title": "La fascia inferiore",
+      "instruction": "Prova una fascia più in basso sul corpo, oppure non aggiungerla.",
+      "spoken": "Una fascia corta può stare più in basso nel corpo. Lascia carta intorno alle altre fasce che scegli.",
+      "hint": "Questa linea facoltativa sta nella metà inferiore del corpo.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    },
+    "colour-choice": {
+      "title": "I tuoi colori per le ali.",
+      "instruction": "Scegli i colori per la visitatrice del tuo giardino immaginario.",
+      "spoken": "Scelgo ali superiori arancioni e ali inferiori gialle. Una farfalla di carta può avere colori e motivi della tua immaginazione.",
+      "hint": "Scegli un colore per una zona grande e un altro per i dettagli.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-upper-wings": {
+      "title": "Spazio per le ali superiori.",
+      "instruction": "Colora le grandi ali in piccole zone curve.",
+      "spoken": "Mi muovo su una piccola zona, sollevo il pastello e mi sposto di nuovo. Un arancione leggero lascia visibili i motivi disegnati e gli spazi bianchi.",
+      "hint": "Fai movimenti più piccoli con il pastello vicino al bordo di ogni ala.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-lower-wings": {
+      "title": "Ali piccole, giallo delicato.",
+      "instruction": "Usa il giallo sulle ali inferiori più piccole.",
+      "spoken": "Il giallo dà un colore diverso alle ali più piccole. Uso piccoli tratti, poi una stretta zona marrone dentro il corpo.",
+      "hint": "Un’ala piccola ha bisogno di una zona più piccola di un’ala grande.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-wing-edges": {
+      "title": "Un bordo di colore più caldo.",
+      "instruction": "Prova un po’ di colore più scuro vicino all’esterno delle ali.",
+      "spoken": "Un po’ di rosso sopra l’arancione cambia la sfumatura vicino al bordo. Strati leggeri permettono di vedere entrambi i colori insieme.",
+      "hint": "Premi leggermente così il primo colore si vede ancora.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-reflection": {
+      "title": "Ali che partono dal centro.",
+      "instruction": "Guarda le ali larghe e il centro stretto.",
+      "spoken": "Le nostre ali larghe partono da un centro stretto. I loro colori possono stare bene insieme senza essere uguali, pronti per un giardino di fiori immaginario.",
+      "hint": "Guarda un colore che hai scelto senza doverlo nominare.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "explore": {
+      "title": "Lascia crescere il tuo giardino di carta.",
+      "instruction": "Aggiungi un fiore, inventa un motivo oppure finisci.",
+      "spoken": "Alla tua visitatrice del giardino potrebbe piacere un fiore inventato o un motivo tutto tuo. Puoi continuare a colorare oppure finire qui.",
+      "hint": "Prova forme larghe sui due lati di un centro stretto.",
+      "notice": "Se viene chiesto aiuto, indica sull’esempio dove si attaccano le ali invece di confrontare le dimensioni delle ali del bambino o della bambina. Offri di disegnare sul tuo foglio un’ala di forma diversa. Vanno bene sia motivi uguali sia motivi diversi."
+    }
+  }
+}

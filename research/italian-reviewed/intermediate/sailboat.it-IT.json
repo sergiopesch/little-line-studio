@@ -1,0 +1,202 @@
+{
+  "locale": "it-IT",
+  "lessonId": "sailboat",
+  "level": "intermediate",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "d12bae439685861cacc60c810baff05d72cfcc775c648fa9c375c9fc7785bbae",
+  "title": "Barca a vela",
+  "invitation": "Uno scafo, un albero e vele gonfie.",
+  "objective": "usare bordi condivisi e punti di collegamento per disporre scafo, albero e vele; distinguere la barca dall’acqua intorno.",
+  "parentNote": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare.",
+  "simplify": "",
+  "transfer": "Un altro giorno inventate una barca con una sola vela. Invita il bambino o la bambina a decidere che cosa cambia togliendo una vela.",
+  "colouringLabel": "Piccoli tratti, colori scelti con cura",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Una barca per la nostra baia.",
+      "instruction": "Guarda le vele alte sopra una barca larga e bassa.",
+      "spoken": "La nostra barca a vela di carta parte attraverso una baia tranquilla e immaginaria. Guarda le vele alte sopra lo scafo largo e basso.",
+      "hint": "Confronta le forme alte con la barca larga sotto.",
+      "notice": "Guardate le vele dell’esempio. Quale bordo sta accanto all’albero verticale?"
+    },
+    "boat-deck": {
+      "title": "Il ponte della barca",
+      "instruction": "Disegna una linea larga per la parte superiore della barca.",
+      "spoken": "Una lunga linea forma la parte superiore dello scafo. Lascio molta carta sopra per le vele.",
+      "hint": "Lascia più spazio sopra la linea che sotto.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-hull": {
+      "title": "Lo scafo",
+      "instruction": "Curva verso il basso e torna all’altra estremità.",
+      "spoken": "Una curva larga unisce le estremità sotto. La parte superiore dritta e quella inferiore curva formano uno scafo chiuso pronto per il colore.",
+      "hint": "Lascia che la curva torni all’altra estremità della linea.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-mast": {
+      "title": "L’albero della barca",
+      "instruction": "Disegna un albero alto che sale dallo scafo.",
+      "spoken": "Una linea alta sale da vicino al centro dello scafo. La sua altezza dà spazio alle vele per aprirsi.",
+      "hint": "Comincia dalla parte superiore della barca e sali nello spazio sopra.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-left-sail-edge": {
+      "title": "Il bordo della vela sinistra",
+      "instruction": "Scendi inclinando la linea dalla cima dell’albero verso sinistra.",
+      "spoken": "Dalla cima dell’albero, una linea scende inclinata verso sinistra. Fermati un po’ sopra lo scafo, così la vela resta separata.",
+      "hint": "Lascia un po’ di carta tra questo angolo della vela e la barca.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-left-sail-base": {
+      "title": "La base della vela sinistra",
+      "instruction": "Unisci l’angolo inferiore della vela all’albero.",
+      "spoken": "Una linea corta torna all’albero e chiude un triangolo. Tre lati uniti danno a questa vela uno spazio tutto suo.",
+      "hint": "Unisci l’angolo esterno della vela alla linea alta al centro.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-right-sail-edge": {
+      "title": "Il bordo della vela destra",
+      "instruction": "Scendi con una linea inclinata dall’altro lato dell’albero.",
+      "spoken": "Un’altra linea scende inclinata dalla cima verso destra. Confronta quanto si allunga questa vela accanto alla prima.",
+      "hint": "Comincia dalla cima dell’albero e dirigiti verso l’altro lato.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-right-sail-base": {
+      "title": "La base della vela destra",
+      "instruction": "Chiudi la seconda vela con una linea corta.",
+      "spoken": "Una linea corta incontra di nuovo l’albero. Le due vele condividono la linea centrale, con spazi separati su entrambi i lati.",
+      "hint": "Unisci di nuovo l’angolo della vela all’albero.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-left-porthole": {
+      "title": "L’oblò sinistro",
+      "instruction": "Disegna una piccola finestra rotonda dentro lo scafo.",
+      "spoken": "Un piccolo cerchio sta dentro la barca. Lascio spazio intorno, così il contorno dello scafo resta ben visibile.",
+      "hint": "Trova uno spazio sotto la linea dritta superiore dello scafo.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-right-porthole": {
+      "title": "L’oblò destro",
+      "instruction": "Metti un’altra piccola finestra lungo lo scafo.",
+      "spoken": "Un secondo piccolo cerchio va più avanti. Lo spazio tra queste finestre mi aiuta a scegliere dove metterle.",
+      "hint": "Guarda lungo lo scafo invece che verso le vele.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-bow-detail": {
+      "title": "Il dettaglio della prua",
+      "instruction": "Aggiungi una curva corta vicino alla parte davanti della barca.",
+      "spoken": "Una curva corta segue lo scafo vicino a un’estremità. Tenerla dentro crea un piccolo dettaglio senza cambiare la forma grande.",
+      "hint": "Segui dall’interno un pezzetto del bordo curvo dello scafo.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-water": {
+      "title": "L’acqua della barca",
+      "instruction": "Lascia andare una linea ondulata e delicata sotto la barca.",
+      "spoken": "Un’onda curva sale e scende sotto la nostra barca. Ripeto una curva morbida invece di fare tante punte appuntite.",
+      "hint": "Lascia che la linea ondulata vada oltre entrambi i lati dello scafo.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-flag": {
+      "title": "La bandierina",
+      "instruction": "Prova una piccola bandiera sulla cima dell’albero.",
+      "spoken": "Una piccola bandiera a punta può unirsi alla cima dell’albero. La tua barca di carta può navigare anche senza.",
+      "hint": "Tieni questa bandierina facoltativa piccola accanto alle grandi vele.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-second-wave": {
+      "title": "La seconda onda",
+      "instruction": "Se vuoi, prova un’altra onda in basso.",
+      "spoken": "Un’altra onda può curvare sotto la prima. Lasciare spazio tra loro mantiene aperta e tranquilla la nostra acqua immaginaria.",
+      "hint": "Fai una curva delicata sotto la prima onda.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-sun": {
+      "title": "Il sole della barca",
+      "instruction": "Prova un piccolo sole nel cielo che hai inventato.",
+      "spoken": "Un piccolo cerchio può diventare sole nella nostra baia immaginaria. È un simbolo sulla carta; non guardiamo il Sole vero.",
+      "hint": "Per questo cerchio facoltativo usa la tua carta o il nostro disegno.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-cloud": {
+      "title": "La nuvola della barca",
+      "instruction": "Prova una nuvola morbida in uno spazio libero.",
+      "spoken": "Alcune curve arrotondate possono unirsi in una nuvola. Trova uno spazio libero nel cielo dove non attraversi le vele alte.",
+      "hint": "Unisci curve morbide intorno a una piccola forma nel cielo.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-bird-left-wing": {
+      "title": "L’ala sinistra dell’uccellino",
+      "instruction": "Prova una piccola forma per un’ala nel cielo.",
+      "spoken": "Una piccola linea curva può iniziare un uccellino di carta lontano. Può restare piccolissimo accanto alle grandi vele.",
+      "hint": "Tieni questa piccola curva in uno spazio libero del cielo.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "boat-bird-right-wing": {
+      "title": "L’ala destra dell’uccellino",
+      "instruction": "Prova un’altra piccola ala accanto alla prima.",
+      "spoken": "Un’altra piccola curva può creare un segno a forma di uccellino. Se non hai fatto la prima, entrambe le curve sono facoltative.",
+      "hint": "Unisci due piccole curve oppure lascia vuoto il cielo.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    },
+    "colour-choice": {
+      "title": "Colori per un viaggio di carta.",
+      "instruction": "Scegli un colore per lo scafo e colori delicati per le vele.",
+      "spoken": "Scelgo uno scafo rosso, una vela color crema e una azzurra chiara. La tua barca inventata può avere colori tutti suoi.",
+      "hint": "Scegli colori che ti aiutino a vedere le diverse parti della barca.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-hull": {
+      "title": "Uno scafo rosso caldo.",
+      "instruction": "Colora dentro lo scafo curvo con tratti brevi.",
+      "spoken": "Piccole zone rosse seguono lo scafo largo. Sollevo il pastello prima delle finestre e uso tratti più piccoli vicino alle estremità a punta.",
+      "hint": "Fermati prima del bordo e comincia una nuova zona.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-sails": {
+      "title": "Colori chiari nelle vele.",
+      "instruction": "Crea colori chiari per le vele dentro i triangoli.",
+      "spoken": "Crema chiaro e azzurro danno leggerezza alle vele. Coloro piccole zone dentro ogni triangolo e lascio ben visibile l’albero.",
+      "hint": "I tratti piccoli stanno più facilmente vicino a un angolo stretto della vela.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-hull-shade": {
+      "title": "Il lato arrotondato della barca.",
+      "instruction": "Aggiungi uno strato più scuro lungo la parte inferiore dello scafo.",
+      "spoken": "Un po’ di marrone sopra il rosso in basso suggerisce la parte inferiore arrotondata della barca. Lascio più chiaro il rosso in alto accanto alle finestre.",
+      "hint": "Usa uno strato leggero così un po’ di rosso resta visibile.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "colour-reflection": {
+      "title": "Vele alte e uno scafo largo.",
+      "instruction": "Guarda le vele alte sopra lo scafo largo.",
+      "spoken": "I nostri triangoli alti stanno sopra una barca larga e curva. Immagina questa piccola barca a vela mentre attraversa la tua baia di carta.",
+      "hint": "Guarda come si incontrano le tue forme alte e larghe.",
+      "notice": "I vostri pastelli e gli spazi bianchi vanno benissimo. Più tempo mantiene aperto ogni passaggio; l’insegnante non può vedere né giudicare il disegno sulla carta."
+    },
+    "explore": {
+      "title": "Dove potrebbe navigare la tua barca?",
+      "instruction": "Inventa una destinazione, continua a colorare oppure finisci.",
+      "spoken": "Dove potrebbe andare la tua barca di carta? Aggiungi un’isola o inventa un’altra destinazione, senza bisogno di raccontarci una risposta.",
+      "hint": "Prova una forma alta sopra una forma larga e bassa.",
+      "notice": "Se richiesto, segui nell’aria il contorno di una vela dell’esempio, mostrando che l’albero ne forma un lato. Non chiedere al bambino o alla bambina di rifare una vela che ha un’apertura. I lati condivisi sono l’obiettivo proposto; l’ordine numerato non è una regola universale per disegnare."
+    }
+  }
+}

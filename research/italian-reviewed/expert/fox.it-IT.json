@@ -1,0 +1,230 @@
+{
+  "locale": "it-IT",
+  "lessonId": "fox",
+  "level": "expert",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "08c0689c27e04857bd2048828a547bd3d461dd35fe9b9037592d6d5d18cd325c",
+  "title": "Volpe che dorme",
+  "invitation": "Curve che si avvolgono una intorno all’altra.",
+  "objective": "usare una grande curva avvolgente e forme più piccole raccolte per suggerire una posizione rannicchiata.",
+  "parentNote": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili.",
+  "simplify": "Crea la volpe con un ovale per il corpo, una testa, un orecchio, un occhio chiuso e una forma larga per la coda. Le sovrapposizioni di costruzione visibili possono restare; non è necessario cancellarle.",
+  "transfer": "Un altro giorno prova un gatto o un cane rannicchiato. Cerca la grande curva esterna e scegli quali zampe nascondere, usando un nuovo riferimento se utile.",
+  "colouringLabel": "Piccoli movimenti di pastello, i tuoi colori",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un riposo raccolto nel bosco.",
+      "instruction": "Guarda la schiena arrotondata e la coda che le curva intorno.",
+      "spoken": "Disegniamo una volpe rannicchiata in una forma accogliente. La schiena rotonda e la coda che le gira intorno ci aiuteranno a mostrare una posizione di riposo.",
+      "hint": "Segui le grandi curve esterne prima di guardare i piccoli dettagli.",
+      "notice": "Guardate una fotografia o un disegno di una volpe rannicchiata. Osservate come la coda può stare davanti al corpo e quanto poco delle zampe sia visibile. Questa lezione usa una vista laterale stilizzata; non è una prova di anatomia."
+    },
+    "curled-body": {
+      "title": "Il corpo rannicchiato",
+      "instruction": "Curva le parti arrotondate del corpo, sollevando la matita per testa e coda.",
+      "spoken": "Comincia dalla schiena arrotondata. Solleva la matita dove si uniranno testa e coda; aggiungeremo queste forme in primo piano dopo, invece di disegnare attraverso di esse.",
+      "hint": "Segui la schiena arrotondata, sollevando la matita dove si uniranno le forme davanti.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "resting-head": {
+      "title": "La testa a riposo",
+      "instruction": "Curva una testa più piccola e inclinata, lasciando spazio per il muso a punta.",
+      "spoken": "Curva una testa più piccola vicino al lato destro, lasciando una piccola apertura per il muso. La nostra volpe della storia assume una posizione dolcemente inclinata.",
+      "hint": "Tieni questa testa molto più piccola dell’ovale del corpo.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "pointed-muzzle": {
+      "title": "Il muso a punta",
+      "instruction": "Curva un muso stretto verso sinistra.",
+      "spoken": "Due curve delicate raggiungono una piccola punta per il muso. Questa forma più stretta aiuta a distinguere il viso dal corpo arrotondato.",
+      "hint": "Curva verso sinistra e poi torna sotto.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "fox-nose": {
+      "title": "Il naso della volpe",
+      "instruction": "Aggiungi un piccolo naso scuro alla punta del muso.",
+      "spoken": "Un piccolo naso scuro sta all’estremità appuntita del muso.",
+      "hint": "Metti un puntino sulla punta più a sinistra.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "near-ear": {
+      "title": "L’orecchio vicino",
+      "instruction": "Disegna un orecchio a punta che sale sopra la testa.",
+      "spoken": "Fai salire un orecchio a punta sopra la testa. Vai fino alla punta, poi scendi inclinando la linea; i due lati non devono essere identici.",
+      "hint": "Sali fino a una punta e torna giù.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "far-ear": {
+      "title": "L’orecchio lontano",
+      "instruction": "Aggiungi un secondo orecchio a punta un po’ più a destra.",
+      "spoken": "Aggiungi l’altro orecchio lì vicino. Cambiare leggermente l’inclinazione fa sembrare la testa un po’ girata invece che perfettamente piatta.",
+      "hint": "Una seconda punta stretta sta più a destra.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "sleepy-eye": {
+      "title": "L’occhio chiuso",
+      "instruction": "Fai una breve curva che scende per un occhio chiuso.",
+      "spoken": "Una piccola curva che scende dà alla nostra volpe immaginaria un’espressione assonnata. Una linea semplice può raccontare questa storia.",
+      "hint": "Disegna una piccola curva verso il basso dentro la testa.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "cheek-curve": {
+      "title": "La curva della guancia",
+      "instruction": "Curva la guancia verso il basso in direzione del muso.",
+      "spoken": "Curva la guancia verso il basso in direzione del muso. Questo separa una zona chiara del viso dal pelo più caldo che coloreremo dopo.",
+      "hint": "Lascia che una breve curva della guancia giri verso il naso.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "tucked-paw": {
+      "title": "La zampa raccolta",
+      "instruction": "Metti un piccolo ovale piatto sotto la testa.",
+      "spoken": "Un piccolo ovale piatto sotto la testa diventa una zampa raccolta. La sua forma bassa si adatta alla nostra tranquilla posizione rannicchiata.",
+      "hint": "Fai questo ovale più piatto e più piccolo della testa.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "tail-outer-curve": {
+      "title": "La curva esterna della coda",
+      "instruction": "Traccia una lunga curva intorno alla parte inferiore del corpo.",
+      "spoken": "Ora traccia l’esterno della coda intorno alla parte inferiore del corpo. Usa un movimento comodo del braccio per questa curva più lunga.",
+      "hint": "Lascia che la lunga curva giri intorno al lato inferiore della volpe.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "tail-return-curve": {
+      "title": "La curva di ritorno della coda",
+      "instruction": "Torna con una curva più morbida per rendere larga la coda.",
+      "spoken": "Torna verso l’inizio della coda con un’altra curva. Lo spazio tra le due curve crea una coda larga e morbida.",
+      "hint": "Lascia un po’ di spazio tra la curva di ritorno e quella esterna.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "pale-tail-tip": {
+      "title": "La punta chiara della coda",
+      "instruction": "Segna una piccola punta chiara vicino all’estremità della coda.",
+      "spoken": "Questa piccola curva riserva una punta chiara alla coda. Possiamo lasciare bianca la carta lì, invece di colorare ogni spazio.",
+      "hint": "Una piccola curva separa l’estremità della coda.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "tucked-hind-leg": {
+      "title": "La zampa posteriore raccolta",
+      "instruction": "Suggerisci la zampa posteriore rannicchiata con una curva arrotondata.",
+      "spoken": "Una curva arrotondata suggerisce una zampa posteriore raccolta. Possiamo mostrare questa piega senza disegnare una zampa intera che sporge.",
+      "hint": "Disegna parte di una forma arrotondata dentro il corpo.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "paw-toe": {
+      "title": "Il dito della zampa",
+      "instruction": "Aggiungi una piccola linea per un dito sulla zampa raccolta.",
+      "spoken": "Puoi aggiungere una minuscola linea per un dito oppure lasciare la zampa semplice.",
+      "hint": "Tieni questo segno corto e leggero.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "inner-ear": {
+      "title": "L’interno dell’orecchio",
+      "instruction": "Metti una punta più piccola dentro l’orecchio vicino.",
+      "spoken": "Puoi mettere una punta più piccola dentro l’orecchio vicino. Lascia un bordo intorno oppure tieni l’orecchio come una forma semplice.",
+      "hint": "Ripeti una forma a punta più piccola dentro il primo orecchio.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "cheek-fur": {
+      "title": "Il pelo della guancia",
+      "instruction": "Usa un minuscolo segno verso l’esterno per suggerire il pelo della guancia.",
+      "spoken": "Se vuoi, un minuscolo segno verso l’esterno può suggerire il pelo della guancia.",
+      "hint": "Un breve tratto verso l’esterno basta per questo dettaglio.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "resting-ground": {
+      "title": "Il terreno per riposare",
+      "instruction": "Curva una linea libera del terreno sotto la volpe.",
+      "spoken": "Puoi mettere una curva libera sotto la volpe per darle un posto dove riposare. Un’intera scena nel bosco è solo una scelta.",
+      "hint": "Tieni questa curva del terreno sotto la coda e le zampe.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "fallen-leaf": {
+      "title": "La foglia caduta",
+      "instruction": "Se vuoi, aggiungi una piccola foglia caduta a punta lì vicino.",
+      "spoken": "Una foglia caduta può unirsi alla nostra storia nel bosco. Curva verso una punta e torna con una seconda curva delicata.",
+      "hint": "Due curve si uniscono in una punta per creare una foglia.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "small-stone": {
+      "title": "Il piccolo sasso",
+      "instruction": "Se vuoi, metti un piccolo sasso piatto sul terreno.",
+      "spoken": "Potresti aggiungere un piccolo sasso piatto lì vicino. Tienilo più piccolo della zampa della volpe, così resta un dettaglio sullo sfondo.",
+      "hint": "Un ovale basso crea un piccolo sasso sul terreno.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "tail-fur": {
+      "title": "Il pelo della coda",
+      "instruction": "Segui la curva della coda con una piccola curva per il pelo.",
+      "spoken": "Puoi lasciare che un’ultima curva del pelo segua la coda. Ripetere quella direzione suggerisce morbidezza, oppure lascia la coda come una forma semplice.",
+      "hint": "Fai una curva leggera nella direzione della coda.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    },
+    "colour-choice": {
+      "title": "Colori del bosco.",
+      "instruction": "Scegli arancione caldo, marrone e un colore per le foglie.",
+      "spoken": "Scelgo un arancione caldo per la nostra volpe e lascio chiari il muso e la punta della coda. Anche colori diversi per la volpe vanno bene nel tuo disegno.",
+      "hint": "Scegli un colore principale per il pelo e lascia uno spazio chiaro.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-curled-body": {
+      "title": "Una forma raccolta e calda.",
+      "instruction": "Crea l’arancione in piccole zone curve sul corpo.",
+      "spoken": "Coloro una piccola zona, sollevo il pastello e ricomincio lì vicino. Questi movimenti leggeri seguono il corpo curvo lasciando ben visibile il contorno.",
+      "hint": "Usa piccole zone invece di un lungo movimento su tutto.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-face-ears": {
+      "title": "Piccoli spazi del viso.",
+      "instruction": "Accorcia i movimenti intorno al viso e alle orecchie a punta.",
+      "spoken": "Accorcio i movimenti intorno alla testa e alle orecchie. I piccoli dettagli del viso restano visibili e il muso può rimanere chiaro come la carta.",
+      "hint": "Gli spazi piccoli richiedono movimenti più piccoli e un tocco leggero.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-sweeping-tail": {
+      "title": "Segui la curva della coda.",
+      "instruction": "Gira i movimenti del pastello insieme alla coda larga.",
+      "spoken": "Queste zone arancioni seguono la coda mentre curva intorno. Lascio chiara la sua estremità, così la punta si distingue dal pelo più caldo.",
+      "hint": "Segui la curva, solleva il pastello e lascia chiara la punta della coda.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-woodland-layer": {
+      "title": "Uno strato tranquillo del bosco.",
+      "instruction": "Prova uno strato leggero sul pelo e colora la foglia se l’hai aggiunta.",
+      "spoken": "Uno strato marrone delicato rende più intenso un po’ del pelo. Se hai disegnato una foglia, aggiungi un colore caldo anche lì, oppure mantieni i colori più semplici.",
+      "hint": "Usa uno strato leggero sul pelo e colora una foglia solo se l’hai inclusa.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflect": {
+      "title": "La nostra volpe a riposo.",
+      "instruction": "Guarda come la coda aiuta tutta la posizione a sembrare raccolta.",
+      "spoken": "Guarda le grandi curve intorno alla nostra volpe. Quelle curve raccontano la storia del riposo; i piccoli dettagli del pelo sono solo una scelta.",
+      "hint": "Guarda tutta la forma rannicchiata prima di aggiungere altri dettagli.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "Un bosco tutto tuo.",
+      "instruction": "Continua a colorare o inventa un luogo dove la volpe possa riposare.",
+      "spoken": "La tua volpe potrebbe riposare accanto ad altre foglie, a un albero o a tanto spazio bianco. Continua oppure finisci qui il tuo disegno del bosco.",
+      "hint": "Scegli una piccola idea per il bosco oppure goditi semplicemente la volpe.",
+      "notice": "Segui con un dito sopra l’esempio il percorso della coda, senza toccare il lavoro del bambino o della bambina. Se richiesto, mostra una semplice curva su un foglio a parte. Chiedi quali parti desidera lasciare visibili."
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "locale": "it-IT",
+  "lessonId": "bird",
+  "level": "expert",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "26f25af9950b5d49b878e4fdb959c3b86a4663a4322a9a11197971c1c2ae0674",
+  "title": "Uccellino su un ramo",
+  "invitation": "Scopri dove le zampe incontrano un posatoio.",
+  "objective": "disporre parti del corpo collegate intorno a un posatoio ed esplorare quali parti si sovrappongono.",
+  "parentNote": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina.",
+  "simplify": "Una linea per il ramo, un ovale, una testa e un becco possono comunicare l’idea. Le zampe possono essere linee singole; salta l’interno dell’ala e tutti i dettagli facoltativi.",
+  "transfer": "Un altro giorno prova un uccello su una staccionata da un riferimento diverso, senza ripetere i passaggi originali. Guarda di nuovo il contatto tra zampe e posatoio; non è necessario copiare il primo uccellino.",
+  "colouringLabel": "Piccoli movimenti di pastello, i tuoi colori",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Una pausa su un ramo.",
+      "instruction": "Guarda la piccola testa, il corpo più grande e l’ala piegata.",
+      "spoken": "Il nostro uccellino del giardino fa una pausa tranquilla. Guarda la sua piccola testa sopra un corpo più grande e inclinato; costruiremo queste forme separatamente.",
+      "hint": "Cerca prima la forma più grande, poi la testa più piccola.",
+      "notice": "Guardate insieme una fotografia, un libro illustrato o l’esempio dell’uccellino. Osservate dove le zampe incontrano il ramo e come l’ala sta dentro il corpo. Basta un’immagine; osservare un uccello dal vivo è facoltativo."
+    },
+    "branch-top": {
+      "title": "Il bordo superiore del ramo",
+      "instruction": "Disegna un lungo ramo che sale dolcemente verso destra.",
+      "spoken": "Comincia dalla parte superiore di un ramo che sale un po’ verso destra. Lascia molta carta sopra per il nostro uccellino.",
+      "hint": "Comincia in basso a sinistra e sali dolcemente.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "branch-bottom": {
+      "title": "Il bordo inferiore del ramo",
+      "instruction": "Aggiungi il bordo inferiore seguendo la stessa leggera pendenza.",
+      "spoken": "Segui quella pendenza sotto. Lo spazio tra le linee dà spessore al ramo, invece di farlo sembrare un semplice bastoncino.",
+      "hint": "Lascia un po’ di spazio tra i due bordi del ramo.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "branch-left-end": {
+      "title": "L’estremità sinistra del ramo",
+      "instruction": "Unisci le estremità a sinistra con una piccola curva arrotondata.",
+      "spoken": "Arrotonda questa estremità del ramo con una piccola curva.",
+      "hint": "Collega le due estremità sinistre con una piccola curva.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "branch-right-end": {
+      "title": "L’estremità destra del ramo",
+      "instruction": "Chiudi l’altra estremità con un’altra breve curva arrotondata.",
+      "spoken": "Chiudi anche l’altra estremità con un’altra piccola curva.",
+      "hint": "Una breve curva unisce le due estremità destre.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "bird-body": {
+      "title": "Il corpo dell’uccellino",
+      "instruction": "Curva un corpo inclinato, lasciando una piccola apertura per la testa.",
+      "spoken": "Curva un grande corpo simile a un ovale, lasciando una piccola apertura in alto a destra. Lì si unirà la testa più piccola nel prossimo passaggio.",
+      "hint": "Segui una forma ovale inclinata, sollevando la matita dove si unirà la testa.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "bird-head": {
+      "title": "La testa dell’uccellino",
+      "instruction": "Arrotonda la testa più piccola, lasciando una piccola apertura per il becco.",
+      "spoken": "Arrotonda una testa più piccola sopra il lato destro del corpo, lasciando una piccola apertura per il becco. Guarda la differenza tra le dimensioni.",
+      "hint": "Fai questa testa più piccola del grande ovale del corpo.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "bird-beak": {
+      "title": "Il becco",
+      "instruction": "Crea un piccolo becco a punta sulla destra.",
+      "spoken": "Due brevi linee inclinate si incontrano in una punta per il becco. Tieni questo dettaglio molto più piccolo della testa.",
+      "hint": "Vai verso l’esterno fino a una punta, poi torna alla testa.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "bird-eye": {
+      "title": "L’occhio",
+      "instruction": "Metti un piccolo occhio scuro dentro la testa.",
+      "spoken": "Metti un piccolo occhio dentro la testa, dietro il becco.",
+      "hint": "Un piccolo punto basta per questa vista laterale.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "folded-wing": {
+      "title": "L’ala piegata",
+      "instruction": "Curva un’ala piegata dentro il corpo più grande.",
+      "spoken": "Lascia che l’ala stia dentro il corpo, come una foglia arrotondata. Il suo contorno curvo mostra una parte separata senza cambiare la forma esterna.",
+      "hint": "Tieni questa curva a forma di foglia dentro il grande ovale del corpo.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "long-tail": {
+      "title": "La coda lunga",
+      "instruction": "Traccia due curve verso il basso a sinistra per la coda.",
+      "spoken": "La coda si nasconde dietro il corpo, quindi mostriamo solo le curve visibili. Scendi verso sinistra e poi torna verso il corpo.",
+      "hint": "Crea una forma lunga e stretta che punta in basso a sinistra.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "first-leg": {
+      "title": "La prima zampa",
+      "instruction": "Disegna una zampa corta verso il basso, in direzione del ramo.",
+      "spoken": "Porta una linea corta dal corpo verso il ramo.",
+      "hint": "Lascia la zampa sottile; basta una linea.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "first-toe": {
+      "title": "Il primo dito",
+      "instruction": "Gira un piccolo dito lungo il ramo.",
+      "spoken": "Gira un piccolo dito lungo la parte superiore del ramo.",
+      "hint": "Aggiungi una breve linea laterale alla fine della zampa.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "second-leg": {
+      "title": "La seconda zampa",
+      "instruction": "Aggiungi un’altra zampa corta un po’ più a destra.",
+      "spoken": "Aggiungi l’altra zampa lì vicino, seguendo la stessa direzione verso il basso.",
+      "hint": "Lascia un piccolo spazio tra le due zampe sottili.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "second-toe": {
+      "title": "Il secondo dito",
+      "instruction": "Dai al secondo piede il suo piccolo dito.",
+      "spoken": "Un breve dito laterale completa il secondo piede.",
+      "hint": "Gira di nuovo una piccola linea lungo il ramo.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "wing-feather": {
+      "title": "La piuma dell’ala",
+      "instruction": "Segui la direzione dell’ala con una curva interna delicata.",
+      "spoken": "Se vuoi un dettaglio di piume, segui l’ala con una leggera curva interna. Puoi suggerire la trama senza disegnare tante linee separate.",
+      "hint": "Lascia andare una linea curva verso la punta dell’ala.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "tail-feather": {
+      "title": "La piuma della coda",
+      "instruction": "Aggiungi una linea lunga lungo la coda.",
+      "spoken": "Puoi aggiungere una linea più lunga lungo la coda. Ripetere la sua direzione suggerisce la trama delle piume con pochissimi segni, oppure puoi lasciarla semplice.",
+      "hint": "Segui la lunghezza della coda con una linea leggera.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "branch-twig": {
+      "title": "Il rametto",
+      "instruction": "Lascia crescere un piccolo rametto verso l’alto dal ramo.",
+      "spoken": "Se vuoi un rametto, curvalo verso l’alto dal lato destro del ramo. Il nostro posatoio può anche restare un ramo semplice.",
+      "hint": "Comincia dal ramo e lascia salire il rametto.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "twig-leaf": {
+      "title": "La foglia del rametto",
+      "instruction": "Se vuoi, chiudi una foglia a punta sopra il ramo.",
+      "spoken": "Se vuoi una foglia, metti due curve a punta sopra il lato destro del ramo. Può stare lì con o senza un rametto.",
+      "hint": "Fai due curve che si incontrano a entrambe le estremità.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "sky-cloud": {
+      "title": "La nuvola nel cielo",
+      "instruction": "Se vuoi, aggiungi una nuvola morbida nel cielo libero.",
+      "spoken": "Puoi aggiungere una piccola nuvola nello spazio libero. Unisci alcune curve arrotondate, poi chiudi la parte inferiore più piatta.",
+      "hint": "Piccole curve arrotondate possono unirsi in una nuvola.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "chest-patch": {
+      "title": "La macchia sul petto",
+      "instruction": "Se vuoi, dai al petto una piccola macchia ovale di colore.",
+      "spoken": "Un piccolo ovale sul petto ci dà uno spazio per un colore caldo. Tienilo dentro la forma più grande dell’uccellino.",
+      "hint": "Un ovale stretto sta vicino al lato destro del corpo.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    },
+    "colour-choice": {
+      "title": "Una tavolozza da giardino.",
+      "instruction": "Scegli azzurri, un colore caldo per il petto e un ramo marrone.",
+      "spoken": "Scelgo piume azzurre delicate e un petto arancione caldo per il nostro uccellino immaginario. Il tuo uccellino può avere colori diversi.",
+      "hint": "Scegli un colore principale per le piume e uno più piccolo che contrasti.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-feathers": {
+      "title": "Piume azzurre delicate.",
+      "instruction": "Colora piccole zone di piume, sollevando il pastello prima di ogni nuova zona.",
+      "spoken": "Guarda questi piccoli movimenti avanti e indietro. Sollevo il pastello prima di spostarmi lungo il corpo, lasciando un po’ di carta bianca e il piccolo occhio visibile.",
+      "hint": "Muoviti su una piccola zona, solleva il pastello e ricomincia lì vicino.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-wing": {
+      "title": "Segui l’ala.",
+      "instruction": "Lascia che brevi movimenti di pastello seguano l’ala piegata.",
+      "spoken": "Giro i movimenti seguendo l’ala. Cambiare direzione con la forma aiuta questa parte più piccola a distinguersi dal corpo.",
+      "hint": "Segui la direzione lunga dell’ala con movimenti brevi e leggeri.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-perch": {
+      "title": "Un ramo e una foglia.",
+      "instruction": "Colora il ramo e la foglia, se l’hai aggiunta.",
+      "spoken": "Il ramo è stretto, quindi i miei movimenti marroni diventano molto più piccoli. Se hai aggiunto una foglia, puoi metterci un po’ di verde.",
+      "hint": "Accorcia ogni movimento quando lo spazio diventa stretto.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-breast": {
+      "title": "Un po’ di calore.",
+      "instruction": "Aggiungi un petto caldo e, se vuoi, un’ombra sull’ala.",
+      "spoken": "Se hai aggiunto una macchia sul petto, puoi metterci un arancione caldo. Renderò anche un po’ più intenso l’azzurro dell’ala; questo strato in più è facoltativo.",
+      "hint": "Premi delicatamente; un secondo strato leggero può intensificare il colore.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflect": {
+      "title": "Guarda tutto l’uccellino.",
+      "instruction": "Guarda come le forme più piccole stanno dentro quelle più grandi.",
+      "spoken": "Guarda tutto il nostro uccellino: piccola testa, corpo più grande, ala piegata. Puoi continuare a colorare o lasciare alcune piume bianche come la carta.",
+      "hint": "Guarda l’uccellino intero e poi torna a un dettaglio che ti piace.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "Dove potrebbe volare il tuo uccellino?",
+      "instruction": "Continua a colorare o inventa un posto da visitare per il tuo uccellino.",
+      "spoken": "Il nostro uccellino può riposare qui, oppure puoi immaginare il suo prossimo volo. Continua a disegnare con calma o finisci quando vuoi.",
+      "hint": "Prova un’altra foglia, un colore diverso per le piume o un cielo aperto.",
+      "notice": "Se richiesto, indica nell’esempio prima il corpo, poi l’ala e il posatoio. Chiedi: quale parte sta dentro un’altra? Mostra un posatoio su un foglio a parte invece di riposizionare le zampe disegnate dal bambino o dalla bambina."
+    }
+  }
+}

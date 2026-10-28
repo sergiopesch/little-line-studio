@@ -1,0 +1,237 @@
+{
+  "locale": "it-IT",
+  "lessonId": "coral",
+  "level": "expert",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "e5f6b1eb00a18a59e32ce2da56e64995d76873a73f936edb27b999eeb19e4446",
+  "title": "Scena di coralli sottomarini",
+  "invitation": "Forme ramificate e spazi sott’acqua.",
+  "objective": "disporre forme ramificate e arrotondate in posizioni diverse, con sovrapposizioni facoltative e acqua libera tra loro.",
+  "parentNote": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto.",
+  "simplify": "Mantieni un ramo, una cupola e un pesce formato da un ovale e una coda. Salta contorni parziali, creste, bolle e conchiglia. Non serve riempire il foglio.",
+  "transfer": "Un altro giorno disegna una pozza tra le rocce o un piccolo giardino con forme ramificate e arrotondate. Trova una nuova disposizione e scegli quali spazi vuoti o sovrapposizioni mantenere, senza la dimostrazione sottomarina.",
+  "colouringLabel": "Piccoli movimenti di pastello, i tuoi colori",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un giardino immaginario sulla barriera.",
+      "instruction": "Guarda le linee ramificate, il corallo arrotondato e un piccolo pesce che nuota.",
+      "spoken": "Inventiamo un tranquillo giardino sulla barriera per un pesciolino. Useremo linee ramificate e forme arrotondate, con alcune piante in parte nascoste dietro una roccia.",
+      "hint": "Confronta i rami sottili con la forma larga e rotonda del corallo.",
+      "notice": "In un riferimento, osservate un corallo ramificato accanto a un corallo arrotondato o a una spugna. Guardate gli spazi tra i rami e quali forme stanno davanti. I coralli veri hanno molte forme; queste sono due possibilità."
+    },
+    "seabed": {
+      "title": "Il fondale",
+      "instruction": "Lascia che una curva libera attraversi la parte inferiore del foglio.",
+      "spoken": "Una curva libera crea il fondale della nostra barriera immaginaria. Lascia spazio sopra per forme diverse che crescono e un pesciolino.",
+      "hint": "Lascia che la curva in basso salga e scenda delicatamente sul foglio.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "seabed-rock": {
+      "title": "La roccia del fondale",
+      "instruction": "Chiudi una roccia bassa e arrotondata vicino al centro.",
+      "spoken": "Una roccia arrotondata sta vicino al centro. Più tardi lasceremo che nasconda alcune estremità delle piante, aiutando alcune forme a sembrare davanti ad altre.",
+      "hint": "Unisci curve morbide e irregolari in una forma di roccia bassa e chiusa.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "coral-main-branch": {
+      "title": "Il ramo principale del corallo",
+      "instruction": "Curva verso l’alto un ramo alto di corallo dalla sinistra.",
+      "spoken": "Comincia con una lunga linea ramificata a sinistra. Lasciala curvare verso l’alto, lasciando spazio sui due lati per biforcazioni più piccole.",
+      "hint": "Comincia vicino al fondale e lascia salire la linea.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "coral-left-fork": {
+      "title": "La biforcazione sinistra",
+      "instruction": "Lascia che una biforcazione più piccola curvi verso sinistra.",
+      "spoken": "Una linea più piccola si dirama verso sinistra. Comincia sul ramo principale, così queste linee separate sembrano ancora collegate.",
+      "hint": "Comincia sulla linea principale, poi curva verso l’esterno e l’alto.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "coral-right-fork": {
+      "title": "La biforcazione destra",
+      "instruction": "Aggiungi una seconda biforcazione verso destra.",
+      "spoken": "Un’altra biforcazione si allunga a destra. Cambiare direzione crea una struttura che si allarga senza disegnare una forma completamente nuova per ogni ramo.",
+      "hint": "Lascia che questo ramo si allunghi in una direzione diversa.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "coral-left-twig": {
+      "title": "Il rametto sinistro",
+      "instruction": "Aggiungi un piccolo rametto laterale dalla biforcazione sinistra.",
+      "spoken": "Un piccolo rametto esce dalla biforcazione sinistra.",
+      "hint": "Comincia sulla biforcazione e fai una breve linea che gira.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "coral-right-twig": {
+      "title": "Il rametto destro",
+      "instruction": "Gira un altro rametto corto dalla biforcazione destra.",
+      "spoken": "Un piccolo rametto curvo completa l’altra biforcazione.",
+      "hint": "Tieni questo rametto più piccolo del ramo a cui si unisce.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "rounded-coral": {
+      "title": "Il corallo arrotondato",
+      "instruction": "Costruisci una forma larga e arrotondata di corallo sulla destra.",
+      "spoken": "Ora confronta quei rami sottili con una forma larga e arrotondata. Unisci grandi curve in un contorno chiuso, lasciando spazio dentro per piccole creste curve.",
+      "hint": "Unisci alcune curve arrotondate intorno a un’unica forma larga.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "coral-first-ridge": {
+      "title": "La prima cresta del corallo",
+      "instruction": "Curva una cresta verso l’alto dentro il corallo arrotondato.",
+      "spoken": "Una cresta interna curva suggerisce una trama. Lasciala seguire la forma esterna invece di attraversare dritta il corallo arrotondato.",
+      "hint": "Tieni questa curva dentro e segui la direzione arrotondata.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "coral-second-ridge": {
+      "title": "La seconda cresta del corallo",
+      "instruction": "Ripeti una cresta curva lì vicino con un po’ di spazio tra loro.",
+      "spoken": "Una seconda cresta ripete quella direzione curva. Pochi segni ripetuti possono suggerire una trama senza coprire tutta la forma.",
+      "hint": "Lascia uno spazio libero tra le due curve interne.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "hidden-seaweed": {
+      "title": "L’alga nascosta",
+      "instruction": "Lascia salire una pianta ondulata da dietro la roccia.",
+      "spoken": "Questa pianta ondulata comincia sopra la roccia, dove possiamo vederla. La roccia nasconde la sua estremità inferiore, quindi lasciamo quella parte senza disegnarla.",
+      "hint": "Curva verso l’alto dalla cima della roccia, poi torna accanto.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "second-seaweed": {
+      "title": "La seconda alga",
+      "instruction": "Aggiungi un’altra pianta stretta e ondulata accanto alla roccia.",
+      "spoken": "Un’altra pianta stretta ondeggia in una direzione diversa. Due bordi ondulati vicini creano una forma simile a un nastro invece di una linea sola.",
+      "hint": "Lascia uno spazio sottile tra i due bordi ondulati della pianta.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "swimming-fish": {
+      "title": "Il pesce che nuota",
+      "instruction": "Metti un pesce ovale inclinato sopra la barriera.",
+      "spoken": "Un ovale inclinato dà al pesce un corpo semplice sopra la barriera. Lascia spazio a sinistra per la coda e a destra per il musetto.",
+      "hint": "Un ovale largo può inclinarsi un poco come se nuotasse.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "fish-tail": {
+      "title": "La coda del pesce",
+      "instruction": "Crea una piccola coda a ventaglio sulla sinistra.",
+      "spoken": "La coda si apre a ventaglio dietro il pesce. Usa linee corte e inclinate che si allargano dal corpo e poi tornano verso di esso.",
+      "hint": "Allarga la coda alla sua estremità esterna.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "fish-eye": {
+      "title": "L’occhio del pesce",
+      "instruction": "Aggiungi un piccolo occhio vicino all’estremità destra.",
+      "spoken": "Un piccolo punto scuro vicino all’estremità destra diventa l’occhio.",
+      "hint": "Tieni l’occhio dentro l’ovale con carta intorno.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "fish-fin": {
+      "title": "La pinna del pesce",
+      "instruction": "Chiudi una piccola pinna curva dentro il pesce.",
+      "spoken": "Se vuoi una pinna, una piccola forma curva sta dentro il corpo. Possiamo colorarla diversamente oppure mantenere il pesce più semplice.",
+      "hint": "Tieni un piccolo triangolo curvo dentro l’ovale più grande.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "first-bubble": {
+      "title": "La prima bolla",
+      "instruction": "Se vuoi, aggiungi una piccola bolla rotonda sopra il pesce.",
+      "spoken": "Una piccola bolla può unirsi alla nostra storia sottomarina inventata.",
+      "hint": "Lascia un po’ di carta intorno a questa piccola forma rotonda.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "second-bubble": {
+      "title": "La seconda bolla",
+      "instruction": "Se vuoi, metti una bolla leggermente più grande più in alto.",
+      "spoken": "Un’altra bolla può essere un po’ più grande e più in alto.",
+      "hint": "Lascia spazio tra le due bolle rotonde.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "seabed-shell": {
+      "title": "La conchiglia sul fondale",
+      "instruction": "Se vuoi, unisci piccole curve in una conchiglia sul fondale.",
+      "spoken": "Una piccola conchiglia può riposare sul fondale. Unisci alcune punte arrotondate in alto, poi chiudi il bordo inferiore.",
+      "hint": "Piccole curve unite possono creare un contorno a forma di conchiglia.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "fish-stripe": {
+      "title": "La striscia del pesce",
+      "instruction": "Lascia che una striscia curva segua il corpo arrotondato del pesce.",
+      "spoken": "Una striscia curva facoltativa segue il corpo arrotondato del pesce. Può aiutarlo a sembrare più pieno, oppure puoi lasciarlo senza motivo.",
+      "hint": "Lascia che la striscia curvi dolcemente invece di attraversare dritta come un righello.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    },
+    "colour-choice": {
+      "title": "Una tavolozza delicata per la barriera.",
+      "instruction": "Scegli rosa corallo, piante verdi e un pesce dorato.",
+      "spoken": "Scelgo un rosa corallo delicato, piante verdi e un pesce dorato per la nostra barriera inventata. La tua barriera può avere una sua tranquilla storia di colori.",
+      "hint": "Scegli colori diversi per il corallo arrotondato e il pesce.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-rounded-coral": {
+      "title": "Zone di corallo arrotondato.",
+      "instruction": "Gira piccoli movimenti rosa intorno alla forma arrotondata del corallo.",
+      "spoken": "Queste piccole zone rosa seguono la forma larga e arrotondata. Lascio visibili le creste curve; il corallo sottile e ramificato può restare fatto di linee semplici.",
+      "hint": "Usa piccole zone curve intorno alla forma arrotondata del corallo.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-seaweed": {
+      "title": "Piante strette e ondulate.",
+      "instruction": "Accorcia i movimenti verdi dentro le forme sottili delle alghe.",
+      "spoken": "Le alghe sono strette, quindi uso piccoli movimenti verdi. Sollevo il pastello prima di seguire ogni curva e mi fermo alla roccia che ne nasconde la base.",
+      "hint": "I movimenti piccoli stanno meglio di tratti lunghi in una curva stretta.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reef-fish": {
+      "title": "Un nuotatore dorato.",
+      "instruction": "Crea zone dorate leggere e una piccola coda calda.",
+      "spoken": "Piccole zone dorate seguono il corpo ovale del pesce. Lascio visibili l’occhio e la pinna, poi aggiungo un po’ di arancione caldo alla coda.",
+      "hint": "Tieni visibili i piccoli dettagli del musetto e della pinna.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-shell-fin": {
+      "title": "Piccoli dettagli della barriera.",
+      "instruction": "Colora la conchiglia, la piccola pinna e una striscia curva sul pesce.",
+      "spoken": "Se hai incluso una conchiglia, una pinna o una striscia, puoi colorare quei dettagli. Userò rosa e arancione con movimenti più brevi e delicati.",
+      "hint": "Rendi il movimento più piccolo quando ogni piccolo spazio si restringe.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reef-layer": {
+      "title": "Una roccia e uno strato delicato.",
+      "instruction": "Se vuoi, colora la roccia e intensifica una piccola zona di corallo.",
+      "spoken": "Una roccia grigia aiuta le piante verdi a sembrare separate. Una piccola zona di corallo più intensa è uno strato in più facoltativo, non uno spazio da riempire per forza.",
+      "hint": "Un piccolo secondo strato può cambiare una parte di un colore.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "colour-reflect": {
+      "title": "Forme diverse, trame diverse.",
+      "instruction": "Confronta i rami sottili con le creste del corallo arrotondato.",
+      "spoken": "Guarda le linee sottili ramificate accanto al corallo largo e arrotondato. Pochi tipi diversi di segni possono suggerire trame diverse nello stesso disegno.",
+      "hint": "Scegli un segno ramificato e uno arrotondato da osservare.",
+      "notice": "Usate i pastelli disponibili e movimenti comodi. Vanno bene spazi bianchi e colori diversi. Più tempo mantiene aperto ogni passaggio senza una scadenza."
+    },
+    "explore": {
+      "title": "Una storia sottomarina tutta tua.",
+      "instruction": "Continua a colorare o inventa un’altra piccola creatura della barriera.",
+      "spoken": "Il tuo pesciolino potrebbe esplorare un’altra pianta, una conchiglia o una creatura inventata da te. Continua ad aggiungere alla barriera oppure finisci qui il tuo disegno sottomarino.",
+      "hint": "Prova una piccola forma diversa lasciando spazio intorno al pesce.",
+      "notice": "Quando richiesto, indica gli spazi tra i rami del corallo e aiuta a scegliere una dimensione comoda. Mostra una singola biforcazione su un foglio a parte. Non trasformare la varietà dei coralli veri nell’obbligo di un unico contorno corretto."
+    }
+  }
+}

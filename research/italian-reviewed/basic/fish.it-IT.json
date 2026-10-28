@@ -1,0 +1,167 @@
+{
+  "locale": "it-IT",
+  "lessonId": "fish",
+  "level": "basic",
+  "status": "assistant-reviewed-awaiting-native-human-review",
+  "sourceLessonSha256": "cde7b8ce7a20a9f21a215c20a966a9614b64333cea1019c0dbcb624c1175d025",
+  "title": "Pesciolino",
+  "invitation": "Un corpo, una coda e un piccolo sorriso.",
+  "objective": "unire parti di forme diverse e dirigere una linea lontano da un corpo.",
+  "parentNote": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda.",
+  "simplify": "",
+  "transfer": "Un ovale e una coda diversa potrebbero creare un’altra creatura che nuota?",
+  "colouringLabel": "Zone dorate per il nostro stagno di carta",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Guarda"
+    },
+    {
+      "id": "draw",
+      "label": "Disegna"
+    },
+    {
+      "id": "colour",
+      "label": "Colora"
+    },
+    {
+      "id": "explore",
+      "label": "Le tue idee"
+    }
+  ],
+  "steps": {
+    "notice": {
+      "title": "Un piccolo stagno sulla carta.",
+      "instruction": "Guarda l’ovale allungato e la coda a un’estremità.",
+      "spoken": "Immaginiamo un pesciolino che nuota sulla nostra carta. Il suo corpo arrotondato ha una coda a un’estremità e un musetto all’altra.",
+      "hint": "Lascia spazio accanto all’ovale per la coda e il musetto.",
+      "notice": "Guardate l’immagine di un pesce. Osservate come la coda si unisce al corpo."
+    },
+    "fish-body": {
+      "title": "Il corpo del pesce",
+      "instruction": "Disegna un ovale largo, con spazio alle due estremità.",
+      "spoken": "Un ovale largo dà inizio al nostro pesce. Curva intorno ai lati e torna al punto di partenza, lasciando spazio per la coda.",
+      "hint": "Fai l’ovale più largo che alto.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "fish-tail": {
+      "title": "La coda del pesce",
+      "instruction": "Aggiungi una coda triangolare che tocca un’estremità dell’ovale.",
+      "spoken": "Dall’estremità sinistra dell’ovale, vai verso l’esterno, scendi e torna allo stesso punto. Un triangolo diventa la coda del nostro pesce.",
+      "hint": "Fai toccare alla punta del triangolo l’estremità dell’ovale.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "fish-eye": {
+      "title": "L’occhio del pesce",
+      "instruction": "Metti un piccolo occhio vicino all’altra estremità.",
+      "spoken": "Un minuscolo occhio rotondo va dentro l’estremità opposta. Lascio spazio tra l’occhio e il bordo esterno.",
+      "hint": "Il musetto va all’estremità lontana dalla coda.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "fish-mouth": {
+      "title": "La bocca del pesce",
+      "instruction": "Disegna una piccola bocca curva vicino al bordo davanti.",
+      "spoken": "Una piccola curva vicino alla parte davanti diventa la bocca del nostro pesce delle fiabe.",
+      "hint": "Tieni la bocca molto più piccola dell’ovale del pesce.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "upper-fin": {
+      "title": "La pinna in alto",
+      "instruction": "Se vuoi, prova una pinna a punta sopra il corpo.",
+      "spoken": "Due linee inclinate possono salire sopra il corpo e tornare indietro. La pinna superiore è una tua scelta.",
+      "hint": "Comincia e finisci dove la pinna incontra l’ovale.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "lower-fin": {
+      "title": "La pinna in basso",
+      "instruction": "Prova una piccola pinna sotto il corpo, oppure salta questo passaggio.",
+      "spoken": "Una seconda punta può guardare verso il basso, sotto l’ovale. Può essere di dimensioni diverse.",
+      "hint": "Lascia visibile il contorno del corpo tra le due estremità.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "gill-curve": {
+      "title": "La curva della branchia",
+      "instruction": "Se vuoi, prova una curva per la branchia dietro il musetto.",
+      "spoken": "Una linea curva dietro il musetto suggerisce una branchia. Lascio spazio intorno all’occhio.",
+      "hint": "Tieni questa curva dentro il corpo, vicino al musetto.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "upper-scale": {
+      "title": "La squama in alto",
+      "instruction": "Se vuoi, aggiungi una piccola curva per una squama all’interno.",
+      "spoken": "Una piccola curva di lato può iniziare un motivo di squame dentro il corpo.",
+      "hint": "Una breve curva basta per cominciare un motivo.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "middle-scale": {
+      "title": "La squama al centro",
+      "instruction": "Prova un’altra piccola curva per una squama, oppure lascia lo spazio libero.",
+      "spoken": "Un’altra breve curva sta lì vicino. Sollevo la matita prima di scegliere dove metterla.",
+      "hint": "Lascia un piccolo spazio tra questi segni curvi.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "lower-scale": {
+      "title": "La squama in basso",
+      "instruction": "Scegli un’altra squama oppure lascia lo spazio libero.",
+      "spoken": "Un’altra curva può completare il nostro piccolo motivo. Puoi fermarti anche con meno squame.",
+      "hint": "Il tuo pesce può avere pochi segni oppure nessuno.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "near-bubble": {
+      "title": "La bolla vicina",
+      "instruction": "Se vuoi, prova una bolla rotonda accanto al pesce.",
+      "spoken": "Un cerchio fuori dal pesce può diventare una bolla nel nostro stagno immaginario.",
+      "hint": "Trova un po’ di carta libera davanti al musetto del pesce.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "higher-bubble": {
+      "title": "La bolla più in alto",
+      "instruction": "Prova una bolla più piccola in alto, oppure salta questo passaggio.",
+      "spoken": "Un cerchio più piccolo, più in alto, dà alle nostre bolle dimensioni diverse.",
+      "hint": "Lascia spazio intorno a ogni cerchio invece di unirli.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    },
+    "colour-choice": {
+      "title": "Colori caldi e dorati.",
+      "instruction": "Scegli arancione e giallo oppure inventa i colori del tuo pesce.",
+      "spoken": "Scelgo un arancione morbido per il nostro pesce e il giallo per la coda. Nel tuo stagno di carta può esserci un pesce di un altro colore.",
+      "hint": "Bastano due colori; va bene anche un solo colore.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-fish-middle": {
+      "title": "Zone leggere sull’ovale.",
+      "instruction": "Crea zone arancioni dentro il centro del corpo.",
+      "spoken": "Tratti arancioni leggeri colorano il centro largo. Sollevo il pastello tra le piccole zone, così si può ancora vedere un po’ di carta.",
+      "hint": "Comincia dall’ampio centro prima di avvicinarti al bordo.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-fish-face": {
+      "title": "Piccoli movimenti vicino al musetto.",
+      "instruction": "Usa tratti arancioni più piccoli intorno al musetto del pesce.",
+      "spoken": "Vicino al musetto uso movimenti più piccoli. L’occhio scuro e le piccole curve possono restare ben visibili accanto al colore.",
+      "hint": "Rallenta con il pastello quando ti avvicini al contorno.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-fish-tail": {
+      "title": "Una piccola coda dorata.",
+      "instruction": "Colora dentro la coda triangolare con brevi tratti gialli.",
+      "spoken": "Brevi tratti gialli stanno dentro la coda. Lascio bianche le pinne, così il nostro pesce ha alcune zone più chiare.",
+      "hint": "La punta stretta richiede un movimento piccolissimo, oppure può restare bianca.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "colour-reflection": {
+      "title": "Nuotando sulla nostra carta.",
+      "instruction": "Guarda l’ovale, la coda e i piccoli spazi di colore.",
+      "spoken": "Il nostro ovale e il triangolo ora suggeriscono un pesce che nuota in uno stagno immaginario. I piccoli spazi bianchi possono restare.",
+      "hint": "Guarda come la piccola coda tocca il grande corpo.",
+      "notice": "Proponi i pastelli già disponibili. L’insegnante mostra tratti dentro i contorni; i colori, gli spazi bianchi e i segni del bambino o della bambina possono essere diversi. Più tempo aspetta senza una scadenza."
+    },
+    "explore": {
+      "title": "Il tuo stagno, la tua idea.",
+      "instruction": "Inventa un vicino nello stagno, continua a colorare oppure finisci qui.",
+      "spoken": "Il nostro stagno di carta può accogliere un altro pesce, una pianta che ondeggia o una tua idea. Continua a disegnare oppure finisci con questo pesciolino.",
+      "hint": "Prova un ovale più corto per un pesce immaginario diverso.",
+      "notice": "Osservate sull’esempio come la coda si unisce al corpo. La posizione dell’occhio indica la direzione verso cui guarda il pesce; non serve correggere un’invenzione diversa. Se richiesto, mostra a parte una forma semplice per la coda."
+    }
+  }
+}
