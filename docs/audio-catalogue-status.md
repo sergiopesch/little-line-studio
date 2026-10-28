@@ -9,7 +9,7 @@ This source snapshot records complete authored lesson audio included in the rele
 | en-GB-x-scotland | 30 | 1461 |
 | es-419 | 30 | 1461 |
 | fr-FR | 30 | 1461 |
-| es-ES | 23 | 1065 |
+| es-ES | 30 | 1461 |
 | de-DE | 1 | 43 |
 | it-IT | 1 | 43 |
 
