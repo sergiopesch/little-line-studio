@@ -15,6 +15,7 @@ import fcntl
 import importlib.util
 import json
 from pathlib import Path
+import re
 import sys
 from urllib.parse import urlencode
 import uuid
@@ -55,8 +56,12 @@ def reconcile(ledger, cohorts, account_used, evidence_hash):
         billed = Decimal(str(cohort['providerCredits']))
         if not billed.is_finite() or billed <= 0 or billed > reserved:
             raise ValueError('Provider cost is missing or exceeds the reserved cohort.')
-        billed = int(billed.to_integral_value(rounding=ROUND_CEILING))
-        reserved_total += reserved; billed_total += billed
+        retained = integer(cohort.get('retainedLossReservations', 0))
+        charged = int(billed.to_integral_value(rounding=ROUND_CEILING))
+        billed = charged + retained
+        if billed > reserved:
+            raise ValueError('Billed usage plus retained lost-response reserves exceeds the cohort.')
+        reserved_total += reserved; billed_total += charged
         reduction += reserved - billed
     committed = integer(ledger['committedReservations'])
     used = integer(account_used)
@@ -76,7 +81,7 @@ def reconcile(ledger, cohorts, account_used, evidence_hash):
     return result
 
 
-def closed_cohorts(directory, voices, rate):
+def closed_cohorts(directory, voices, rate, lost_responses=()):
     requests = {}
     for path in [*directory.glob('bundles/*/plan.json'), *directory.glob('*plan*.json')]:
         plan = json.loads(path.read_text())
@@ -108,12 +113,46 @@ def closed_cohorts(directory, voices, rate):
         dates.append(stamp.astimezone(timezone.utc))
         characters = len(audio.speech_text(request))
         groups[receipt['voiceId']].append((identity, characters, int((characters * rate).to_integral_value(rounding=ROUND_CEILING))))
+    losses = defaultdict(int)
+    for loss in lost_responses:
+        if loss.get('voiceId') not in voices: continue
+        archive = loss.get('archive', '')
+        if not re.fullmatch(r'interruption-recovery/[A-Za-z0-9-]+/lost-response', archive):
+            raise ValueError('Lost-response evidence must remain in the bounded recovery directory.')
+        folder = directory / archive
+        if any(parent.is_symlink() for parent in [folder, folder.parent, folder.parent.parent,
+                                                  folder / 'receipt.json', folder.parent / 'request.json']):
+            raise ValueError('Lost-response evidence cannot use symlinks.')
+        request = json.loads((folder.parent / 'request.json').read_text())
+        receipt_data = (folder / 'receipt.json').read_bytes()
+        receipt = json.loads(receipt_data)
+        identity = audio.sha(audio.canonical({k: v for k, v in request.items() if k not in ('cacheKey', 'estimatedUsd')}))
+        proof = {'cacheKey': identity, 'requestedAt': receipt.get('requestedAt'),
+                 'receiptSha256': audio.sha(receipt_data)}
+        loss_id = audio.sha(audio.canonical(proof))
+        if (loss.get('lossId') != loss_id or loss.get('receiptSha256') != proof['receiptSha256']
+                or loss.get('cacheKey') != identity or request.get('cacheKey') != identity
+                or requests.get(identity) != request or receipt.get('cacheKey') != identity
+                or receipt.get('status') != 'pending-unknown' or receipt.get('provider') != 'ElevenLabs'
+                or receipt.get('voiceId') != loss['voiceId'] or request.get('voiceId') != loss['voiceId']
+                or receipt.get('model') != 'eleven_v4' or receipt.get('apiPath') != request.get('path')
+                or (folder / 'raw.mp3').exists() or (folder / 'normalised.mp3').exists()):
+            raise ValueError('Lost-response provenance differs from its retained request and receipt.')
+        characters = len(audio.speech_text(request))
+        reserved = int((characters * rate).to_integral_value(rounding=ROUND_CEILING))
+        if loss.get('retainedReservation') != reserved:
+            raise ValueError('The original lost-response reservation must remain fully retained.')
+        stamp = datetime.fromisoformat(receipt['requestedAt'])
+        if stamp.tzinfo is None: raise ValueError('Lost response date has no timezone.')
+        dates.append(stamp.astimezone(timezone.utc))
+        groups[loss['voiceId']].append((loss_id, characters, reserved))
+        losses[loss['voiceId']] += reserved
     if set(groups) != set(voices) or not dates or max(dates) > datetime.now(timezone.utc):
         raise ValueError('Require known, complete voice cohorts with valid recording dates.')
     # A long catalogue may cross midnight. Query the full interval containing
     # every receipt; exact counts and character totals still have to match.
     day = min(dates).replace(hour=0, minute=0, second=0, microsecond=0)
-    return groups, day
+    return groups, day, losses
 
 
 def voice_catalogue(client):
@@ -148,7 +187,7 @@ def main():
         ledger = json.loads(ledger_path.read_text())
         if ledger['cap'] != args.cap or ledger['pending'] or ledger['blocked']:
             raise ValueError('Cap mismatch or unresolved ledger; no reconciliation is permitted.')
-        groups, day = closed_cohorts(directory, args.voice, Decimal(ledger['creditCeiling']))
+        groups, day, losses = closed_cohorts(directory, args.voice, Decimal(ledger['creditCeiling']), ledger.get('lostResponses', []))
         shared_spec = importlib.util.spec_from_file_location('shared_usage_audio', args.shared_root / 'scripts/elevenlabs-audio.py')
         shared_audio = importlib.util.module_from_spec(shared_spec); shared_spec.loader.exec_module(shared_audio)
         client = audio.APIClient(shared_audio.load_key(args.shared_root / '.env.elevenlabs.local'))
@@ -176,7 +215,7 @@ def main():
             cohorts.append(dict(voiceId=voice, providerName=names[voice], requestIds=sorted(r[0] for r in requests),
                                 characters=sum(r[1] for r in requests), reserved=sum(r[2] for r in requests),
                                 providerRequests=values['request_count'][0], providerCharacters=values['tts_characters'][0],
-                                providerCredits=values['credits'][0]))
+                                providerCredits=values['credits'][0], retainedLossReservations=losses[voice]))
         evidence = {'start':day.isoformat(), 'end':now.isoformat(), 'metrics':metrics, 'cohorts':cohorts}
         digest = audio.sha(audio.canonical(evidence))
         # Reuse the existing quota validation, including disabled overages and

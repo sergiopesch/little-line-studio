@@ -24,6 +24,8 @@ Recording defaults to three concurrent requests. `--concurrency 8` uses eight on
 
 Closed-cohort reconciliation matches immutable receipts against authenticated request counts, input characters and billed credits over the entire recording interval, including across midnight. It retains evidence and the previous ledger, rejects duplicate reconciliation and preserves unmatched commitments. Technical validation and this accounting do not establish native-speaker or human listening review.
 
+If a process interruption loses a response, ordinary generation remains blocked. Manual recovery must preserve the original receipt and request, match provider attempt counts and characters against the recorded requests, and retain the original full reservation before explicitly recording a replacement within the existing cap. Such events are retained in the ignored recovery archive and the ledger's `lostResponses` entries. Reconciliation checks their provenance and keeps their original reservations on top of the matched provider charges; it never presents missing audio as a completed receipt or retries an unknown outcome automatically.
+
 ## Application boundaries
 
 The child draws on paper. Preserve the read-only teaching board, local adult acknowledgement, deterministic sequence, quiet practice and open exploration. Keep Pause, Replay and More time available; do not catch up after interruptions. Media completion is a prerequisite for the trusted controller, not authority delegated to an AI model.

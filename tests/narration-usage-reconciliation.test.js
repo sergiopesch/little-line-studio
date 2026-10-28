@@ -26,7 +26,9 @@ assert result['observedActual']==120 and result['cap']==1000 and result['minimum
 assert ledger['committedReservations']==300
 assert result['usageReconciliations'][0]['releasedReservations']==100
 assert m.reconcile(ledger,[{**cohort,'providerCredits':100.1}],120,'proof')['committedReservations']==201
-for field,value in [('providerRequests',1),('providerCharacters',201),('providerCredits',0),('providerCredits',201),('providerCredits',float('nan')),('requestIds',['a','a'])]:
+assert m.reconcile(ledger,[{**cohort,'retainedLossReservations':10}],120,'proof')['committedReservations']==210
+assert m.reconcile(ledger,[{**cohort,'retainedLossReservations':10}],100,'proof')['committedReservations']==210
+for field,value in [('providerRequests',1),('providerCharacters',201),('providerCredits',0),('providerCredits',201),('providerCredits',float('nan')),('requestIds',['a','a']),('retainedLossReservations',101)]:
  try:m.reconcile(ledger,[{**cohort,field:value}],120,'proof')
  except ValueError:pass
  else:raise AssertionError(field)
@@ -68,8 +70,23 @@ with tempfile.TemporaryDirectory() as folder:
            'sha256':m.audio.sha(normalized),'rawSha256':m.audio.sha(raw),'bytes':len(normalized)}
   (path/'receipt.json').write_text(json.dumps(receipt));receipts.append(path/'receipt.json')
  (directory/'cohort-plan.json').write_text(json.dumps({'requests':requests}))
- groups,day=m.closed_cohorts(directory,['voice'],Decimal('1'))
+ groups,day,losses=m.closed_cohorts(directory,['voice'],Decimal('1'))
  assert len(groups['voice'])==2 and day==today-timedelta(days=1)
+ original=json.loads(receipts[0].read_text())
+ archive=directory/'interruption-recovery'/'fixture'/'lost-response';archive.mkdir(parents=True)
+ original['status']='pending-unknown'
+ raw=json.dumps(original).encode();(archive/'receipt.json').write_bytes(raw)
+ request=requests[original['cacheKey']];(archive.parent/'request.json').write_text(json.dumps(request))
+ proof={'cacheKey':original['cacheKey'],'requestedAt':original['requestedAt'],'receiptSha256':m.audio.sha(raw)}
+ loss={'lossId':m.audio.sha(m.audio.canonical(proof)),'voiceId':'voice','cacheKey':original['cacheKey'],
+       'receiptSha256':m.audio.sha(raw),'archive':'interruption-recovery/fixture/lost-response',
+       'retainedReservation':len(m.audio.speech_text(request))}
+ extra,_,retained=m.closed_cohorts(directory,['voice'],Decimal('1'),[loss])
+ assert len(extra['voice'])==3 and retained['voice']==len(m.audio.speech_text(request))
+ for change in [{'lossId':'wrong'},{'retainedReservation':0},{'archive':'../outside'}]:
+  try:m.closed_cohorts(directory,['voice'],Decimal('1'),[{**loss,**change}])
+  except ValueError:pass
+  else:raise AssertionError('Invalid lost-response evidence accepted')
  broken=json.loads(receipts[0].read_text());broken['status']='pending-unknown';receipts[0].write_text(json.dumps(broken))
  try:m.closed_cohorts(directory,['voice'],Decimal('1'))
  except ValueError:pass
