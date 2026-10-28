@@ -11,10 +11,18 @@ import { fileURLToPath } from "node:url";
 import { securityHeaders } from "../config/security.js";
 import { LESSONS } from "../src/lesson-catalogue.js";
 import { localizeLesson } from "../src/spanish-lessons.js";
+import { validateNarrationDerivatives } from "./validate-narration-derivatives.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
 const index = path.join(dist, "client", "index.html");
+
+for (const suffix of ['', '.es-419', '.en-IE', '.en-GB-x-scotland', '.fr-FR', '.es-ES', '.de-DE', '.it-IT', '.nl-NL']) {
+  const manifestPath = path.join(root, 'src', `narration-manifest${suffix}.json`);
+  if (existsSync(manifestPath)) {
+    validateNarrationDerivatives(JSON.parse(readFileSync(manifestPath, 'utf8')), path.join(dist, 'client'));
+  }
+}
 
 // A published Spanish lesson must have one coherent, complete set of local
 // narration metadata. The activation tool validates the source receipts and

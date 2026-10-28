@@ -35,3 +35,7 @@ Retain the default-on music choice and adult Begin gesture, opt-out, mute, immed
 ## README media
 
 `docs/media/home.png` and `lesson.png` are browser screenshots of the production build. `lesson-demo.gif` is a silent recording excerpt of the same application. They demonstrate the actual interface, contain no child images or personal data, and can be refreshed after visible changes. Keep full recordings and browser logs in ignored `output/playwright/`.
+
+## Short speech consistency
+
+See [short narration mastering](audio-mastering.md) for the offline correction used when a brief, peaky recording falls below the catalogue loudness threshold. Generation caches remain immutable; releases retain the verified source and a separately measured local derivative.

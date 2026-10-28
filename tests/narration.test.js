@@ -2,6 +2,8 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFile, readdir } from "node:fs/promises";
 import { createHash } from "node:crypto";
+import { fileURLToPath } from "node:url";
+import { validateNarrationDerivatives } from "../scripts/validate-narration-derivatives.mjs";
 import { StudioAudio } from "../src/audio.js";
 import { LESSONS, narrationKey } from "../src/lesson-catalogue.js";
 import manifest from "../src/narration-manifest.json" with { type: "json" };
@@ -358,8 +360,18 @@ test("all thirty lessons ship matching instruction/hint transcripts and intact r
   const packaged = (
     await readdir(new URL("../public/narration/", import.meta.url))
   ).filter((name) => name.endsWith(".mp3"));
-  const demoIndexes = await Promise.all(["es-ES", "de-DE", "it-IT"].map(async (locale) =>
+  const demoIndexes = await Promise.all(["es-ES", "de-DE", "it-IT", "nl-NL"].map(async (locale) =>
     JSON.parse(await readFile(new URL(`../src/narration-index.${locale}.json`, import.meta.url), "utf8"))));
+  const retainedSources = [];
+  for (const suffix of ['', '.es-419', '.en-IE', '.en-GB-x-scotland', '.fr-FR', '.es-ES', '.de-DE', '.it-IT', '.nl-NL']) {
+    const content = await readFile(new URL(`../src/narration-manifest${suffix}.json`, import.meta.url), 'utf8')
+      .catch((error) => { if (error.code === 'ENOENT') return null; throw error; });
+    if (!content) continue;
+    const localeManifest = JSON.parse(content);
+    validateNarrationDerivatives(localeManifest, fileURLToPath(new URL('../public/', import.meta.url)));
+    retainedSources.push(...Object.values(localeManifest.clips).filter((clip) =>
+      clip.provenance === 'verified-local-derivative').map((clip) => clip.source.src));
+  }
   if (Object.keys(spanishIndex).length) {
     const spanishManifest = JSON.parse(await readFile(
       new URL("../src/narration-manifest.es-419.json", import.meta.url), "utf8",
@@ -372,8 +384,8 @@ test("all thirty lessons ship matching instruction/hint transcripts and intact r
   }
   assert.deepEqual(
     new Set(packaged),
-    new Set([...unique.keys(), ...[spanishIndex, frenchIndex, irishIndex, scottishIndex, ...demoIndexes].flatMap(Object.values)].map((src) => src.split("/").at(-1))),
-    "The public narration directory must contain only indexed locale clips",
+    new Set([...unique.keys(), ...retainedSources, ...[spanishIndex, frenchIndex, irishIndex, scottishIndex, ...demoIndexes].flatMap(Object.values)].map((src) => src.split("/").at(-1))),
+    "The public narration directory must contain only indexed locale clips and verified derivative sources",
   );
   assert.equal(unique.size, generationSources.size,
     "The current individually scripted requests retain their own matching audio assets");

@@ -10174,16 +10174,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "mushroom/stalk-base/hint": {
-      "src": "/narration/clip-68b87b1e44a6cd0178f0cb48ac5b7f90ec9ba84540c861a0074711cb0e504f17.mp3",
-      "sha256": "68b87b1e44a6cd0178f0cb48ac5b7f90ec9ba84540c861a0074711cb0e504f17",
+      "src": "/narration/clip-1231afefa68b9375aad513fe2fb276c72e1fe1457280b0cd114ada3b207592f2.mp3",
+      "sha256": "1231afefa68b9375aad513fe2fb276c72e1fe1457280b0cd114ada3b207592f2",
       "bytes": 48526,
       "duration": 2.96,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "178d167cc924624781d214bedf028044eddf54a3723e90b324ed109de3eabf5e",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -10200,7 +10200,71 @@
         "language_code": "fr"
       },
       "text": "Trace ta courbe d’une extrémité du bas à l’autre.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-68b87b1e44a6cd0178f0cb48ac5b7f90ec9ba84540c861a0074711cb0e504f17.mp3",
+        "sha256": "68b87b1e44a6cd0178f0cb48ac5b7f90ec9ba84540c861a0074711cb0e504f17",
+        "bytes": 48526,
+        "duration": 2.96,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "178d167cc924624781d214bedf028044eddf54a3723e90b324ed109de3eabf5e",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Trace ta courbe d’une extrémité du bas à l’autre.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Trace ta courbe d’une extrémité du bas à l’autre.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "68b87b1e44a6cd0178f0cb48ac5b7f90ec9ba84540c861a0074711cb0e504f17",
+        "rawSourceSha256": "df15c4cc0e6bb90589c02892b51f69e22db8017f97376c76e5de2223b5710f3e",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "be8689c2edcc043af697974510f84aa2e92f6d74a7fd3c9f1d3e9a8e999fcaf2",
+        "before": {
+          "integratedLufs": -25.69,
+          "truePeakDbtp": -2.44
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.27,
+          "truePeakDbtp": -2.94
+        },
+        "decodedSamples": 130536,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.27,
+            "truePeakDbtp": -2.94
+          }
+        ]
+      }
     },
     "mushroom/cap-inner-edge/instruction": {
       "src": "/narration/clip-ceb091ce7613171baa236844ca6b8fe97efc836ec462603ac39ad1ac2e4fa899.mp3",
@@ -10986,16 +11050,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "dog/notice/hint": {
-      "src": "/narration/clip-c02b1f5f0d2b5e56301685cdfec63b851858342d9ec71050ebe60efbe7656229.mp3",
-      "sha256": "c02b1f5f0d2b5e56301685cdfec63b851858342d9ec71050ebe60efbe7656229",
+      "src": "/narration/clip-5f8a025d2af6a897d647da8ea26e2ce4858dfd3378689519d1db21804fe9c0c0.mp3",
+      "sha256": "5f8a025d2af6a897d647da8ea26e2ce4858dfd3378689519d1db21804fe9c0c0",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "4e07358aa78e12f48195a72cd6e5c59d6254e5880f3e026e860aff6c38b3c215",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -11012,7 +11076,71 @@
         "language_code": "fr"
       },
       "text": "Regarde les grandes formes avant les petits détails.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-c02b1f5f0d2b5e56301685cdfec63b851858342d9ec71050ebe60efbe7656229.mp3",
+        "sha256": "c02b1f5f0d2b5e56301685cdfec63b851858342d9ec71050ebe60efbe7656229",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "4e07358aa78e12f48195a72cd6e5c59d6254e5880f3e026e860aff6c38b3c215",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Regarde les grandes formes avant les petits détails.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Regarde les grandes formes avant les petits détails.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "c02b1f5f0d2b5e56301685cdfec63b851858342d9ec71050ebe60efbe7656229",
+        "rawSourceSha256": "a7dfc75eff5ed5533cd1ae07302d5969621a8239615a4889a94fd91bc6fe3dab",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "4830329610f95667eaa6ade1da3bfeaababf3bd85148705cbcef35bf967fd52e",
+        "before": {
+          "integratedLufs": -24.69,
+          "truePeakDbtp": -2.44
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.48,
+          "truePeakDbtp": -2.87
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.48,
+            "truePeakDbtp": -2.87
+          }
+        ]
+      }
     },
     "dog/dog-head/instruction": {
       "src": "/narration/clip-44af6baf0960bf2b8caf881a3b661440798785c5a322af45e7ab2cbda738291e.mp3",
@@ -11450,16 +11578,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "dog/dog-right-paw/hint": {
-      "src": "/narration/clip-6a472311141e635b1b346852478ead9827ac21b618235698cb1087131ae1ea9a.mp3",
-      "sha256": "6a472311141e635b1b346852478ead9827ac21b618235698cb1087131ae1ea9a",
+      "src": "/narration/clip-14d6f01e1e31310ede934cc6cd6f7ecb195b607b0b338bfb385c65e57e31a051.mp3",
+      "sha256": "14d6f01e1e31310ede934cc6cd6f7ecb195b607b0b338bfb385c65e57e31a051",
       "bytes": 46018,
       "duration": 2.8,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "9c2c4a49bb07d429859ca0a4e4642b2c6806cbee14da7af99808c5518c3ff34d",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -11476,7 +11604,71 @@
         "language_code": "fr"
       },
       "text": "Regarde le premier pied avant de placer celui-ci.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-6a472311141e635b1b346852478ead9827ac21b618235698cb1087131ae1ea9a.mp3",
+        "sha256": "6a472311141e635b1b346852478ead9827ac21b618235698cb1087131ae1ea9a",
+        "bytes": 46018,
+        "duration": 2.8,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "9c2c4a49bb07d429859ca0a4e4642b2c6806cbee14da7af99808c5518c3ff34d",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Regarde le premier pied avant de placer celui-ci.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Regarde le premier pied avant de placer celui-ci.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "6a472311141e635b1b346852478ead9827ac21b618235698cb1087131ae1ea9a",
+        "rawSourceSha256": "afc906c79c3368deff9bd6c4d636d416c3a5a3aee6136855776edbcff4bf5cb5",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "a240d9d7d1724e3df30512a094d091d314e7a1cc2a906acea1e737135992c701",
+        "before": {
+          "integratedLufs": -24.5,
+          "truePeakDbtp": -2.45
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.29,
+          "truePeakDbtp": -2.96
+        },
+        "decodedSamples": 123480,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.29,
+            "truePeakDbtp": -2.96
+          }
+        ]
+      }
     },
     "dog/dog-left-haunch/instruction": {
       "src": "/narration/clip-aa091499809df4c5e9ee40cbb2ec8712039075fe28da74dab69f1f6030ecdf9d.mp3",
@@ -12668,16 +12860,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "turtle/turtle-front-foot/hint": {
-      "src": "/narration/clip-4e915a51a7910b7781379bbd3391ff8312f73007f76b64589d29c6b6aa86ffa8.mp3",
-      "sha256": "4e915a51a7910b7781379bbd3391ff8312f73007f76b64589d29c6b6aa86ffa8",
+      "src": "/narration/clip-449f78f5a7ac2b21b73af1ca31320262136c57407cc10a256b92298312cf92af.mp3",
+      "sha256": "449f78f5a7ac2b21b73af1ca31320262136c57407cc10a256b92298312cf92af",
       "bytes": 48526,
       "duration": 2.96,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "0cac110e6910c2dd7d6574c9f6a075a630f825a8487128d6b52bed6d4216d714",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -12694,7 +12886,71 @@
         "language_code": "fr"
       },
       "text": "Fais cette patte petite à côté du grand ovale.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-4e915a51a7910b7781379bbd3391ff8312f73007f76b64589d29c6b6aa86ffa8.mp3",
+        "sha256": "4e915a51a7910b7781379bbd3391ff8312f73007f76b64589d29c6b6aa86ffa8",
+        "bytes": 48526,
+        "duration": 2.96,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "0cac110e6910c2dd7d6574c9f6a075a630f825a8487128d6b52bed6d4216d714",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Fais cette patte petite à côté du grand ovale.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Fais cette patte petite à côté du grand ovale.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "4e915a51a7910b7781379bbd3391ff8312f73007f76b64589d29c6b6aa86ffa8",
+        "rawSourceSha256": "d58164c13391075826e35411c3592c183027d4b823ef57769b9b461e6f6132d8",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "240915498ec7c94d9ee0073acde3b7e2939e9fc74ffff5a574e2b1aea0b62d93",
+        "before": {
+          "integratedLufs": -24.49,
+          "truePeakDbtp": -2.37
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.35,
+          "truePeakDbtp": -2.91
+        },
+        "decodedSamples": 130536,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.35,
+            "truePeakDbtp": -2.91
+          }
+        ]
+      }
     },
     "turtle/turtle-back-foot/instruction": {
       "src": "/narration/clip-5ff7dd4ea8ff3005cdf353ff5a65dd18ded5c3c1129eaab7b4cca28be65cb74a.mp3",
@@ -12784,16 +13040,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "turtle/turtle-tail/hint": {
-      "src": "/narration/clip-388c70ababcd002a5e1a4bdf2f3f44c003f05a5e301abac08d932c28b1b72f53.mp3",
-      "sha256": "388c70ababcd002a5e1a4bdf2f3f44c003f05a5e301abac08d932c28b1b72f53",
+      "src": "/narration/clip-f97dc5edb015c6f8e20b1db13abf6e9438de211fd66bf4149f45abde937740f6.mp3",
+      "sha256": "f97dc5edb015c6f8e20b1db13abf6e9438de211fd66bf4149f45abde937740f6",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "da6c3dc9a19ee638605fe61c0cea3d2e56bfd3a252ddf4d01aa2ea9d3620b336",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-19.210:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -12810,7 +13066,76 @@
         "language_code": "fr"
       },
       "text": "Garde cette petite pointe plus petite que la tête.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-388c70ababcd002a5e1a4bdf2f3f44c003f05a5e301abac08d932c28b1b72f53.mp3",
+        "sha256": "388c70ababcd002a5e1a4bdf2f3f44c003f05a5e301abac08d932c28b1b72f53",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "da6c3dc9a19ee638605fe61c0cea3d2e56bfd3a252ddf4d01aa2ea9d3620b336",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Garde cette petite pointe plus petite que la tête.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Garde cette petite pointe plus petite que la tête.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "388c70ababcd002a5e1a4bdf2f3f44c003f05a5e301abac08d932c28b1b72f53",
+        "rawSourceSha256": "68c4bf0e5c50ab001eac9d48d1df1bc4cd62c7dda9896bcb309ba794c63e2195",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-19.210:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "153eb814024c97a1ab0509e126e64a89c3a02480a369f3dc60a5d4d6cb2d7a31",
+        "before": {
+          "integratedLufs": -23.27,
+          "truePeakDbtp": -2.44
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.21,
+          "truePeakDbtp": -2.87
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.79,
+            "truePeakDbtp": -2.85
+          },
+          {
+            "targetLufs": -19.21,
+            "integratedLufs": -20.21,
+            "truePeakDbtp": -2.87
+          }
+        ]
+      }
     },
     "turtle/turtle-eye/instruction": {
       "src": "/narration/clip-a72dee8b59e3094f8451b2b61919f07e61d7185e1251075dab9bf4486fdba08d.mp3",
@@ -13190,16 +13515,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "turtle/turtle-right-pattern/hint": {
-      "src": "/narration/clip-4b80435bf487b40bb4f7bf8f3891f3658ccc96ce7688c3ab45adcc6de76f40ff.mp3",
-      "sha256": "4b80435bf487b40bb4f7bf8f3891f3658ccc96ce7688c3ab45adcc6de76f40ff",
+      "src": "/narration/clip-fcb15acbf00377f57fd0a916ede904d6599d94f52e2345c782ff44607c558718.mp3",
+      "sha256": "fcb15acbf00377f57fd0a916ede904d6599d94f52e2345c782ff44607c558718",
       "bytes": 46018,
       "duration": 2.8,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "32495098633b1f5fce7d4779a15d003e6f07897b610ce5e0855af57af3a962f0",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -13216,7 +13541,71 @@
         "language_code": "fr"
       },
       "text": "Arrête-toi quand ce trait atteint l’ovale extérieur.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-4b80435bf487b40bb4f7bf8f3891f3658ccc96ce7688c3ab45adcc6de76f40ff.mp3",
+        "sha256": "4b80435bf487b40bb4f7bf8f3891f3658ccc96ce7688c3ab45adcc6de76f40ff",
+        "bytes": 46018,
+        "duration": 2.8,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "32495098633b1f5fce7d4779a15d003e6f07897b610ce5e0855af57af3a962f0",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Arrête-toi quand ce trait atteint l’ovale extérieur.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Arrête-toi quand ce trait atteint l’ovale extérieur.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "4b80435bf487b40bb4f7bf8f3891f3658ccc96ce7688c3ab45adcc6de76f40ff",
+        "rawSourceSha256": "13544474a5cfa5bb4578543dd0e7447e5f0f1e8a8dd842f30a129b963ddb0ef5",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "57a3fb07aeeee72899b056fc31996d675755813e03d131c071e9213673b5ea8a",
+        "before": {
+          "integratedLufs": -23.26,
+          "truePeakDbtp": -2.53
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.18,
+          "truePeakDbtp": -2.85
+        },
+        "decodedSamples": 123480,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.18,
+            "truePeakDbtp": -2.85
+          }
+        ]
+      }
     },
     "turtle/turtle-lower-right/instruction": {
       "src": "/narration/clip-dac2fb58bf52f87ffddd4155a9df109507579625a23f3986bff3a17e3540d495.mp3",
@@ -13422,16 +13811,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "turtle/turtle-front-toe/hint": {
-      "src": "/narration/clip-778bf9011fe50b331a7db259732c0b398f50ffa8dd213a27bc6fcab13911a582.mp3",
-      "sha256": "778bf9011fe50b331a7db259732c0b398f50ffa8dd213a27bc6fcab13911a582",
+      "src": "/narration/clip-82b36fe7b415ad172de2d1b2ac4952433ffe9e7050203a14b3acad98b866b36d.mp3",
+      "sha256": "82b36fe7b415ad172de2d1b2ac4952433ffe9e7050203a14b3acad98b866b36d",
       "bytes": 44764,
       "duration": 2.72,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "381ae1a2134390167b662f4702b3d0f451c562cb00e99dfd1877db97e7c4e6d1",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=119952",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -13448,7 +13837,71 @@
         "language_code": "fr"
       },
       "text": "Cherche la patte avant de faire ce petit détail.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-778bf9011fe50b331a7db259732c0b398f50ffa8dd213a27bc6fcab13911a582.mp3",
+        "sha256": "778bf9011fe50b331a7db259732c0b398f50ffa8dd213a27bc6fcab13911a582",
+        "bytes": 44764,
+        "duration": 2.72,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "381ae1a2134390167b662f4702b3d0f451c562cb00e99dfd1877db97e7c4e6d1",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Cherche la patte avant de faire ce petit détail.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Cherche la patte avant de faire ce petit détail.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "778bf9011fe50b331a7db259732c0b398f50ffa8dd213a27bc6fcab13911a582",
+        "rawSourceSha256": "f63d39388905ae69ac1f37248aac41138605d5ccca05adfc72b4cc900cf3e9b9",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=119952",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "3a927d310bc0025750bfab812d52515ee21c610bbc9d890bea5dfa3a1be8d763",
+        "before": {
+          "integratedLufs": -24.38,
+          "truePeakDbtp": -2.42
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.02,
+          "truePeakDbtp": -2.93
+        },
+        "decodedSamples": 119952,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.02,
+            "truePeakDbtp": -2.93
+          }
+        ]
+      }
     },
     "turtle/turtle-back-toe/instruction": {
       "src": "/narration/clip-129e34dda4dc6860f65ef75659914f76bdb17388a459883c845bc2cd4a6b7fb4.mp3",
@@ -13944,16 +14397,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "butterfly/notice/hint": {
-      "src": "/narration/clip-2721d682b7004dcaf57e0e86b3ef14f2b60759d31ad7b97e953f954861c039e5.mp3",
-      "sha256": "2721d682b7004dcaf57e0e86b3ef14f2b60759d31ad7b97e953f954861c039e5",
+      "src": "/narration/clip-3709cd0fc794a6c22fbb27fb708d8180a54f7aa6420cfeb7694f31ca5d211f3f.mp3",
+      "sha256": "3709cd0fc794a6c22fbb27fb708d8180a54f7aa6420cfeb7694f31ca5d211f3f",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "cd2f07f7bce96cfd5703d2727d2d173f7d9e653481b315a9fb876d8c05dfb9cd",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -13970,7 +14423,71 @@
         "language_code": "fr"
       },
       "text": "Compare une grande aile avec le corps étroit.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-2721d682b7004dcaf57e0e86b3ef14f2b60759d31ad7b97e953f954861c039e5.mp3",
+        "sha256": "2721d682b7004dcaf57e0e86b3ef14f2b60759d31ad7b97e953f954861c039e5",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "cd2f07f7bce96cfd5703d2727d2d173f7d9e653481b315a9fb876d8c05dfb9cd",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Compare une grande aile avec le corps étroit.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Compare une grande aile avec le corps étroit.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "2721d682b7004dcaf57e0e86b3ef14f2b60759d31ad7b97e953f954861c039e5",
+        "rawSourceSha256": "bc7ff43f5372e74b84a79f0598eb330e7dd0d5487c30e5a8bd9ee282ecad7498",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "29956a78f8e32a1b2f2c80237399ca09bf426bc1c1d7090a125993a690e099db",
+        "before": {
+          "integratedLufs": -23.82,
+          "truePeakDbtp": -2.46
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.21,
+          "truePeakDbtp": -2.93
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.21,
+            "truePeakDbtp": -2.93
+          }
+        ]
+      }
     },
     "butterfly/butterfly-body/instruction": {
       "src": "/narration/clip-3d99e779f30577b1a980db41d2a7c9003c56703b918c219298418f57275883ed.mp3",
@@ -14524,16 +15041,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "butterfly/butterfly-right-upper-vein/hint": {
-      "src": "/narration/clip-5e9447bef5cedba2529eeef91e9f5f8c86a225812dd1db59c40f57940701f821.mp3",
-      "sha256": "5e9447bef5cedba2529eeef91e9f5f8c86a225812dd1db59c40f57940701f821",
+      "src": "/narration/clip-f2489f60c301f9146ed2f320b58a97b6dd3cd8f51e0ca62fe459f18de7fe22f3.mp3",
+      "sha256": "f2489f60c301f9146ed2f320b58a97b6dd3cd8f51e0ca62fe459f18de7fe22f3",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "f7f67f0ddda07ab5e99cb87e5e405da1bbc068a93283628f9387c9c3c24d81ef",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -14550,7 +15067,71 @@
         "language_code": "fr"
       },
       "text": "Compare ce trait avec celui de l’autre côté du corps.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-5e9447bef5cedba2529eeef91e9f5f8c86a225812dd1db59c40f57940701f821.mp3",
+        "sha256": "5e9447bef5cedba2529eeef91e9f5f8c86a225812dd1db59c40f57940701f821",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "f7f67f0ddda07ab5e99cb87e5e405da1bbc068a93283628f9387c9c3c24d81ef",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Compare ce trait avec celui de l’autre côté du corps.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Compare ce trait avec celui de l’autre côté du corps.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "5e9447bef5cedba2529eeef91e9f5f8c86a225812dd1db59c40f57940701f821",
+        "rawSourceSha256": "0b42388d171bd182c3f9b3bd0f77fd6ed24bfc6698d7225299fc6d52ae2025d3",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "dde054741787e1d04620bcc08abb91051fa2b67359c9c3c906a6f158cff968fd",
+        "before": {
+          "integratedLufs": -24.87,
+          "truePeakDbtp": -2.45
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.42,
+          "truePeakDbtp": -2.94
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.42,
+            "truePeakDbtp": -2.94
+          }
+        ]
+      }
     },
     "butterfly/butterfly-left-lower-vein/instruction": {
       "src": "/narration/clip-d5c07d60065a5c0fa071111c2ef615037c395fdb5f47a0e533fc66ab8f49a039.mp3",
@@ -15452,16 +16033,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "owl/owl-body/hint": {
-      "src": "/narration/clip-7cdc579dd229a34e400e3f473e0c95e0a9fe616889b26041332cab9565169df3.mp3",
-      "sha256": "7cdc579dd229a34e400e3f473e0c95e0a9fe616889b26041332cab9565169df3",
+      "src": "/narration/clip-1ab4f22c240a0536f8b6996cea67719b92ca6f56405ae63a26e64ced2baa466b.mp3",
+      "sha256": "1ab4f22c240a0536f8b6996cea67719b92ca6f56405ae63a26e64ced2baa466b",
       "bytes": 48526,
       "duration": 2.96,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "1efd1fcec2166985ad3ab9d188d8f0476f6d85ca747356d8b2612558b0540073",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -15478,7 +16059,71 @@
         "language_code": "fr"
       },
       "text": "Pense à un grand ovale avant ses petits détails.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-7cdc579dd229a34e400e3f473e0c95e0a9fe616889b26041332cab9565169df3.mp3",
+        "sha256": "7cdc579dd229a34e400e3f473e0c95e0a9fe616889b26041332cab9565169df3",
+        "bytes": 48526,
+        "duration": 2.96,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "1efd1fcec2166985ad3ab9d188d8f0476f6d85ca747356d8b2612558b0540073",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Pense à un grand ovale avant ses petits détails.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Pense à un grand ovale avant ses petits détails.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "7cdc579dd229a34e400e3f473e0c95e0a9fe616889b26041332cab9565169df3",
+        "rawSourceSha256": "d2802bcbf31f651a2e07b291346cae76d5a5a2f349f3539110dff4d53b0266ff",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "1cb08470b4ba3d55c6642b5ed8c0e20e3a4a0d07ecb1852f78d383d59dd1cf6f",
+        "before": {
+          "integratedLufs": -26.93,
+          "truePeakDbtp": -2.44
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.43,
+          "truePeakDbtp": -2.91
+        },
+        "decodedSamples": 130536,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.43,
+            "truePeakDbtp": -2.91
+          }
+        ]
+      }
     },
     "owl/owl-left-tuft/instruction": {
       "src": "/narration/clip-276e8f18b57ebcc0c4cc536dfdb31639298e275a0b34f314775c69914631c7fa.mp3",
@@ -18062,16 +18707,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "sailboat/colour-hull/hint": {
-      "src": "/narration/clip-220d04d75555ff718e2e9a528830e405d0db5b080970c97215a2c43f7e23615e.mp3",
-      "sha256": "220d04d75555ff718e2e9a528830e405d0db5b080970c97215a2c43f7e23615e",
+      "src": "/narration/clip-27f88b57fe0f67415a7eef3359bceab17549de1f33e856505e2741806cf67035.mp3",
+      "sha256": "27f88b57fe0f67415a7eef3359bceab17549de1f33e856505e2741806cf67035",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "f2de400a97620a679f0b7fff7476ca596abb2c59e92809aea715bb314c884b33",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -18088,7 +18733,71 @@
         "language_code": "fr"
       },
       "text": "Arrête-toi avant le bord et commence une nouvelle zone.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-220d04d75555ff718e2e9a528830e405d0db5b080970c97215a2c43f7e23615e.mp3",
+        "sha256": "220d04d75555ff718e2e9a528830e405d0db5b080970c97215a2c43f7e23615e",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "f2de400a97620a679f0b7fff7476ca596abb2c59e92809aea715bb314c884b33",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Arrête-toi avant le bord et commence une nouvelle zone.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Arrête-toi avant le bord et commence une nouvelle zone.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "220d04d75555ff718e2e9a528830e405d0db5b080970c97215a2c43f7e23615e",
+        "rawSourceSha256": "d98c484d80659c010738303f9de058f8df2449874d83d1644ff01e47bc3a49a8",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "741c61544ea464709caba138347bfb66a7d317b552d52a51d0f3b9d5cf591bb1",
+        "before": {
+          "integratedLufs": -23.38,
+          "truePeakDbtp": -2.53
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.17,
+          "truePeakDbtp": -2.95
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.17,
+            "truePeakDbtp": -2.95
+          }
+        ]
+      }
     },
     "sailboat/colour-sails/instruction": {
       "src": "/narration/clip-0482f2732dfb53ed537703c391c274c79c5b6f5dd62b6dbf433b92415f851786.mp3",
@@ -19686,16 +20395,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "rocket/colour-reflection/hint": {
-      "src": "/narration/clip-c781df02880cbbb7325d495959dd17e9c1c61b759eb713873e68512bdb8bc677.mp3",
-      "sha256": "c781df02880cbbb7325d495959dd17e9c1c61b759eb713873e68512bdb8bc677",
+      "src": "/narration/clip-88ee11c83434c98bc9ededf5218abb86f4887190209cc26f20a5956ca20c8792.mp3",
+      "sha256": "88ee11c83434c98bc9ededf5218abb86f4887190209cc26f20a5956ca20c8792",
       "bytes": 44764,
       "duration": 2.72,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "6e073f48687922e50a799aa06952905dbc414b462ec0458cb7658d4f0741b8e5",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=119952",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -19712,7 +20421,71 @@
         "language_code": "fr"
       },
       "text": "Regarde une petite partie à côté du grand corps.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-c781df02880cbbb7325d495959dd17e9c1c61b759eb713873e68512bdb8bc677.mp3",
+        "sha256": "c781df02880cbbb7325d495959dd17e9c1c61b759eb713873e68512bdb8bc677",
+        "bytes": 44764,
+        "duration": 2.72,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "6e073f48687922e50a799aa06952905dbc414b462ec0458cb7658d4f0741b8e5",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Regarde une petite partie à côté du grand corps.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Regarde une petite partie à côté du grand corps.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "c781df02880cbbb7325d495959dd17e9c1c61b759eb713873e68512bdb8bc677",
+        "rawSourceSha256": "fb5c7cdaad2c84327576330ac7b491545630a9cc1190d561292c8a6f74cd6b1b",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=119952",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "3156c6eac0dadb822924d1a48cff92f083d6c1856987f36f44f17afe25475153",
+        "before": {
+          "integratedLufs": -23.66,
+          "truePeakDbtp": -2.45
+        },
+        "decodedVerification": {
+          "integratedLufs": -19.9,
+          "truePeakDbtp": -2.94
+        },
+        "decodedSamples": 119952,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -19.9,
+            "truePeakDbtp": -2.94
+          }
+        ]
+      }
     },
     "rocket/explore/instruction": {
       "src": "/narration/clip-ed60f20ef609adbe59a94f089f840810428902630331546b0ea8b92526660f78.mp3",
@@ -22180,16 +22953,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "train/train-front-slope/hint": {
-      "src": "/narration/clip-6be566febe733665610cfdec34fa5b410d7216b1f73d063de61cc5d336d53fe7.mp3",
-      "sha256": "6be566febe733665610cfdec34fa5b410d7216b1f73d063de61cc5d336d53fe7",
+      "src": "/narration/clip-b978cc6a072dd82c6cb86ef78ec884100ebc1810ead7b99109c8681d96fd6fef.mp3",
+      "sha256": "b978cc6a072dd82c6cb86ef78ec884100ebc1810ead7b99109c8681d96fd6fef",
       "bytes": 46018,
       "duration": 2.8,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "2487823e053c8431756bad80b4a33ff4527cdbbe80588ec4dbac47fb5890a79e",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-19.200:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -22206,7 +22979,76 @@
         "language_code": "fr"
       },
       "text": "Commence à l’extrémité avant de la longue base.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-6be566febe733665610cfdec34fa5b410d7216b1f73d063de61cc5d336d53fe7.mp3",
+        "sha256": "6be566febe733665610cfdec34fa5b410d7216b1f73d063de61cc5d336d53fe7",
+        "bytes": 46018,
+        "duration": 2.8,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "2487823e053c8431756bad80b4a33ff4527cdbbe80588ec4dbac47fb5890a79e",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Commence à l’extrémité avant de la longue base.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Commence à l’extrémité avant de la longue base.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "6be566febe733665610cfdec34fa5b410d7216b1f73d063de61cc5d336d53fe7",
+        "rawSourceSha256": "dba564e35617f08cf04d98ac0cd46e12df1c5e2e9dd422142f055d9af8e3864e",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-19.200:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "13ae655a533dd989b38a5c9d1a32281ce3cfe18c38e269ea1dbe9c9bea4cca52",
+        "before": {
+          "integratedLufs": -25.2,
+          "truePeakDbtp": -2.45
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.1,
+          "truePeakDbtp": -2.93
+        },
+        "decodedSamples": 123480,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.8,
+            "truePeakDbtp": -2.93
+          },
+          {
+            "targetLufs": -19.2,
+            "integratedLufs": -20.1,
+            "truePeakDbtp": -2.93
+          }
+        ]
+      }
     },
     "train/train-front-base/instruction": {
       "src": "/narration/clip-57f4135b37fcfc384f3829b0995d937ce41f8ee35b6fb5a46365abab4ead7c0e.mp3",
@@ -22644,16 +23486,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "train/train-lower-rail/hint": {
-      "src": "/narration/clip-20eb14bec4513c46fc37483964b57cf2973f4252bc8b21fe653920b28f2e177f.mp3",
-      "sha256": "20eb14bec4513c46fc37483964b57cf2973f4252bc8b21fe653920b28f2e177f",
+      "src": "/narration/clip-d943da4b08edc321e14b78383b3bdd6f00a78d0e8944261bae595000a00b94aa.mp3",
+      "sha256": "d943da4b08edc321e14b78383b3bdd6f00a78d0e8944261bae595000a00b94aa",
       "bytes": 46018,
       "duration": 2.8,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "88bec890979b9dd98c62520d115bcdcf664c10fe47d9298e7e458a5451a2b4b7",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -22670,7 +23512,71 @@
         "language_code": "fr"
       },
       "text": "Laisse ces longues lignes aller dans la même direction.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-20eb14bec4513c46fc37483964b57cf2973f4252bc8b21fe653920b28f2e177f.mp3",
+        "sha256": "20eb14bec4513c46fc37483964b57cf2973f4252bc8b21fe653920b28f2e177f",
+        "bytes": 46018,
+        "duration": 2.8,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "88bec890979b9dd98c62520d115bcdcf664c10fe47d9298e7e458a5451a2b4b7",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Laisse ces longues lignes aller dans la même direction.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Laisse ces longues lignes aller dans la même direction.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "20eb14bec4513c46fc37483964b57cf2973f4252bc8b21fe653920b28f2e177f",
+        "rawSourceSha256": "b45d57be6a1a915c245ebc4f2ac5042babea0d7bbcae4cff65490457e120b6c4",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "69f56d15579106ced4c85260f9cbbd144b79cd93086621dcca98af7c75b0f662",
+        "before": {
+          "integratedLufs": -23.63,
+          "truePeakDbtp": -2.46
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.28,
+          "truePeakDbtp": -2.94
+        },
+        "decodedSamples": 123480,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.28,
+            "truePeakDbtp": -2.94
+          }
+        ]
+      }
     },
     "train/colour-choice/instruction": {
       "src": "/narration/clip-3d987ded8abab7ac405d622d14fa2c7dbd0de9da2153cd33623d10e5145a0d63.mp3",
@@ -26211,16 +27117,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "bird/branch-left-end/instruction": {
-      "src": "/narration/clip-923a5ec067af8d9ddebbcd88ac4ab7ce5cac319b3a4ace04c7d934111b2c828d.mp3",
-      "sha256": "923a5ec067af8d9ddebbcd88ac4ab7ce5cac319b3a4ace04c7d934111b2c828d",
+      "src": "/narration/clip-7d849e35b4040805638cc8c2634a3490d27b51694dd8baf31adf759f8d690945.mp3",
+      "sha256": "7d849e35b4040805638cc8c2634a3490d27b51694dd8baf31adf759f8d690945",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "270d432af874bbe1b6024b44c36b0c1c0afec88edbe90d0c0df398df3b2e864c",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-19.350:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -26237,7 +27143,76 @@
         "language_code": "fr"
       },
       "text": "Arrondis ce bout de la branche avec un petit tournant.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-923a5ec067af8d9ddebbcd88ac4ab7ce5cac319b3a4ace04c7d934111b2c828d.mp3",
+        "sha256": "923a5ec067af8d9ddebbcd88ac4ab7ce5cac319b3a4ace04c7d934111b2c828d",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "270d432af874bbe1b6024b44c36b0c1c0afec88edbe90d0c0df398df3b2e864c",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Arrondis ce bout de la branche avec un petit tournant.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Arrondis ce bout de la branche avec un petit tournant.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "923a5ec067af8d9ddebbcd88ac4ab7ce5cac319b3a4ace04c7d934111b2c828d",
+        "rawSourceSha256": "883344127e7d8d5da61117b17302f27aa3688d0ac71abddd67af29a3bb138c6d",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-19.350:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "f57cc0e4febe936440ac95b00bcba78ebc09c64e6b902b01635f22ee65b96e44",
+        "before": {
+          "integratedLufs": -25.62,
+          "truePeakDbtp": -2.44
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.04,
+          "truePeakDbtp": -2.94
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.65,
+            "truePeakDbtp": -2.94
+          },
+          {
+            "targetLufs": -19.35,
+            "integratedLufs": -20.04,
+            "truePeakDbtp": -2.94
+          }
+        ]
+      }
     },
     "bird/branch-left-end/hint": {
       "src": "/narration/clip-493fecbfe08d93349f845b5a261eede382dd2d7ecd210824cec2dc5e0ccf6f17.mp3",
@@ -26704,16 +27679,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "bird/first-leg/hint": {
-      "src": "/narration/clip-0607d178d56043afea3825a1106fabefb662e2cebeb70b86fcfe12a1e26970bc.mp3",
-      "sha256": "0607d178d56043afea3825a1106fabefb662e2cebeb70b86fcfe12a1e26970bc",
+      "src": "/narration/clip-31344c44bda046f0ffde951cdb675cff185fe201e9278219269f48b6e4062823.mp3",
+      "sha256": "31344c44bda046f0ffde951cdb675cff185fe201e9278219269f48b6e4062823",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "b379ee3997273b3b2dabebc14cb485a179a1f294efe39d1a1764db70ea61a9bb",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-19.440:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -26730,7 +27705,76 @@
         "language_code": "fr"
       },
       "text": "Garde la patte fine : un seul trait suffit.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-0607d178d56043afea3825a1106fabefb662e2cebeb70b86fcfe12a1e26970bc.mp3",
+        "sha256": "0607d178d56043afea3825a1106fabefb662e2cebeb70b86fcfe12a1e26970bc",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "b379ee3997273b3b2dabebc14cb485a179a1f294efe39d1a1764db70ea61a9bb",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Garde la patte fine : un seul trait suffit.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Garde la patte fine : un seul trait suffit.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "0607d178d56043afea3825a1106fabefb662e2cebeb70b86fcfe12a1e26970bc",
+        "rawSourceSha256": "4a23aadff92e59c95c541f00a632b048b1a3f65f7759186ed5ada6a769fd13a6",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-19.440:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "6335b45022435f84cfa7d9a6466699c58f73576191e1f9636d1197d72cb1c0cb",
+        "before": {
+          "integratedLufs": -23.74,
+          "truePeakDbtp": -2.48
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.07,
+          "truePeakDbtp": -2.85
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.56,
+            "truePeakDbtp": -2.95
+          },
+          {
+            "targetLufs": -19.44,
+            "integratedLufs": -20.07,
+            "truePeakDbtp": -2.85
+          }
+        ]
+      }
     },
     "bird/first-toe/instruction": {
       "src": "/narration/clip-dfeeb9452ac9d40221309f91e98acc0298c1f4d8360a91035b731dfdc2a59cfc.mp3",
@@ -26762,16 +27806,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "bird/first-toe/hint": {
-      "src": "/narration/clip-99e197a368df6d21f168555e7bac36ad47e807f2fcf13e710c67dda74f1928b9.mp3",
-      "sha256": "99e197a368df6d21f168555e7bac36ad47e807f2fcf13e710c67dda74f1928b9",
+      "src": "/narration/clip-3d2e82ea431da7f52b77d367fc05da9b943e6111c19e145dc1a7de5aa93fb74d.mp3",
+      "sha256": "3d2e82ea431da7f52b77d367fc05da9b943e6111c19e145dc1a7de5aa93fb74d",
       "bytes": 48526,
       "duration": 2.96,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "68344b8c40e5b168d61338970dadbf5716dfa298a1ccd7e05a117f6e383642bf",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -26788,7 +27832,71 @@
         "language_code": "fr"
       },
       "text": "Ajoute un court trait sur le côté, au bout de la patte.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-99e197a368df6d21f168555e7bac36ad47e807f2fcf13e710c67dda74f1928b9.mp3",
+        "sha256": "99e197a368df6d21f168555e7bac36ad47e807f2fcf13e710c67dda74f1928b9",
+        "bytes": 48526,
+        "duration": 2.96,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "68344b8c40e5b168d61338970dadbf5716dfa298a1ccd7e05a117f6e383642bf",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Ajoute un court trait sur le côté, au bout de la patte.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Ajoute un court trait sur le côté, au bout de la patte.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "99e197a368df6d21f168555e7bac36ad47e807f2fcf13e710c67dda74f1928b9",
+        "rawSourceSha256": "c5b737416146df587618670575508ef6d3ef961372ddcd61ca01753a94d06955",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "5b236328a6076992ccd11ec2e76042b646850d698a8b778bd8b35f1732981063",
+        "before": {
+          "integratedLufs": -25.17,
+          "truePeakDbtp": -2.43
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.33,
+          "truePeakDbtp": -2.96
+        },
+        "decodedSamples": 130536,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.33,
+            "truePeakDbtp": -2.96
+          }
+        ]
+      }
     },
     "bird/second-leg/instruction": {
       "src": "/narration/clip-968be265d55cdc75bf683f81caf8948d301c6ab35c1125eba5afe9e30464d9d4.mp3",
@@ -26936,16 +28044,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "bird/wing-feather/hint": {
-      "src": "/narration/clip-bf03a2cc8ce9e32175b5bd9f498e438e2b884f6db985dbc8d0360faa8b2e51c9.mp3",
-      "sha256": "bf03a2cc8ce9e32175b5bd9f498e438e2b884f6db985dbc8d0360faa8b2e51c9",
+      "src": "/narration/clip-ac23fe014aa22d132dcd15570d4fc34367731505357986a590b9c00ed3b83c13.mp3",
+      "sha256": "ac23fe014aa22d132dcd15570d4fc34367731505357986a590b9c00ed3b83c13",
       "bytes": 39331,
       "duration": 2.4,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "72f444304a432341c0d6fc5837faeca5c0291e0f080ef4c11d8210d7e7c5ecb9",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=105840",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -26962,7 +28070,71 @@
         "language_code": "fr"
       },
       "text": "Laisse une courbe aller vers le bout de l’aile.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-bf03a2cc8ce9e32175b5bd9f498e438e2b884f6db985dbc8d0360faa8b2e51c9.mp3",
+        "sha256": "bf03a2cc8ce9e32175b5bd9f498e438e2b884f6db985dbc8d0360faa8b2e51c9",
+        "bytes": 39331,
+        "duration": 2.4,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "72f444304a432341c0d6fc5837faeca5c0291e0f080ef4c11d8210d7e7c5ecb9",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Laisse une courbe aller vers le bout de l’aile.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Laisse une courbe aller vers le bout de l’aile.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "bf03a2cc8ce9e32175b5bd9f498e438e2b884f6db985dbc8d0360faa8b2e51c9",
+        "rawSourceSha256": "587bce3b400ef11eecbc170797b851bbcf90f75fd3225d4e4ffd9ebd37246dcc",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=105840",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "f966f4214f6258b0678d906cff47c52adae70c041a690121c5814a3a24722eeb",
+        "before": {
+          "integratedLufs": -25.26,
+          "truePeakDbtp": -2.41
+        },
+        "decodedVerification": {
+          "integratedLufs": -19.62,
+          "truePeakDbtp": -2.88
+        },
+        "decodedSamples": 105840,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -19.62,
+            "truePeakDbtp": -2.88
+          }
+        ]
+      }
     },
     "bird/tail-feather/instruction": {
       "src": "/narration/clip-faf99bf0a70ac3a518ed6a408879b274ca8a153964a157127ffab5a2814a9138.mp3",
@@ -26994,16 +28166,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "bird/tail-feather/hint": {
-      "src": "/narration/clip-beb9f30d39caa8477711cbfb537d1bd5830742d3268f5a0efd435edc326f8a00.mp3",
-      "sha256": "beb9f30d39caa8477711cbfb537d1bd5830742d3268f5a0efd435edc326f8a00",
+      "src": "/narration/clip-eaf3f61b9b80b31ac85bace5761faccdbe9aa77c6d4fe83afe2a509d9c4fd680.mp3",
+      "sha256": "eaf3f61b9b80b31ac85bace5761faccdbe9aa77c6d4fe83afe2a509d9c4fd680",
       "bytes": 43510,
       "duration": 2.64,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "bd70214da66fc96d5fc6f70244970709fcd39eda6d40643b0756e190ab465fed",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=116424",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -27020,7 +28192,71 @@
         "language_code": "fr"
       },
       "text": "Suis la longueur de la queue avec un trait léger.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-beb9f30d39caa8477711cbfb537d1bd5830742d3268f5a0efd435edc326f8a00.mp3",
+        "sha256": "beb9f30d39caa8477711cbfb537d1bd5830742d3268f5a0efd435edc326f8a00",
+        "bytes": 43510,
+        "duration": 2.64,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "bd70214da66fc96d5fc6f70244970709fcd39eda6d40643b0756e190ab465fed",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Suis la longueur de la queue avec un trait léger.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Suis la longueur de la queue avec un trait léger.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "beb9f30d39caa8477711cbfb537d1bd5830742d3268f5a0efd435edc326f8a00",
+        "rawSourceSha256": "64a1920ed8807ededf336850b241c378b614efb659994b78ccc43f3c14658568",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=116424",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "9cb101c51cfe323109e41a95a8a7fab404f87513078bcbaf9552d34253e8e7f1",
+        "before": {
+          "integratedLufs": -23.69,
+          "truePeakDbtp": -2.47
+        },
+        "decodedVerification": {
+          "integratedLufs": -19.77,
+          "truePeakDbtp": -2.93
+        },
+        "decodedSamples": 116424,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -19.77,
+            "truePeakDbtp": -2.93
+          }
+        ]
+      }
     },
     "bird/branch-twig/instruction": {
       "src": "/narration/clip-dd37e158afcd04202088bb08536020c0384805e4254ff091e72ac7864a67dafa.mp3",
@@ -27168,16 +28404,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "bird/sky-cloud/hint": {
-      "src": "/narration/clip-756b6c38bc0384ae3d0b9ed9f9eb927f8a73e2b4a5786aa4283e66a32a6e4a93.mp3",
-      "sha256": "756b6c38bc0384ae3d0b9ed9f9eb927f8a73e2b4a5786aa4283e66a32a6e4a93",
+      "src": "/narration/clip-7a3a8a6dc7cf82c73a35837e420a781a54fe844a4ff9ea9c5d001d4034016667.mp3",
+      "sha256": "7a3a8a6dc7cf82c73a35837e420a781a54fe844a4ff9ea9c5d001d4034016667",
       "bytes": 46018,
       "duration": 2.8,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "1be1e0012cea9283cb02799b8221a1eeb28a1f0ed1006eb330a12e74849ef2a7",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -27194,7 +28430,71 @@
         "language_code": "fr"
       },
       "text": "De petites bosses arrondies peuvent former un nuage.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-756b6c38bc0384ae3d0b9ed9f9eb927f8a73e2b4a5786aa4283e66a32a6e4a93.mp3",
+        "sha256": "756b6c38bc0384ae3d0b9ed9f9eb927f8a73e2b4a5786aa4283e66a32a6e4a93",
+        "bytes": 46018,
+        "duration": 2.8,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "1be1e0012cea9283cb02799b8221a1eeb28a1f0ed1006eb330a12e74849ef2a7",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "De petites bosses arrondies peuvent former un nuage.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "De petites bosses arrondies peuvent former un nuage.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "756b6c38bc0384ae3d0b9ed9f9eb927f8a73e2b4a5786aa4283e66a32a6e4a93",
+        "rawSourceSha256": "9c5163f1e46b70297a222d1b21871bd44ce7df2ffa162c0c5477f6669b32627f",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "9829f36aeb09c75e99962ac3283bb1011e57ef2fcf1382a105b3d7dcb29f60e6",
+        "before": {
+          "integratedLufs": -25.1,
+          "truePeakDbtp": -2.45
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.3,
+          "truePeakDbtp": -2.93
+        },
+        "decodedSamples": 123480,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.3,
+            "truePeakDbtp": -2.93
+          }
+        ]
+      }
     },
     "bird/chest-patch/instruction": {
       "src": "/narration/clip-49aae479051f08f39e61847ddb421d8d75592534d105e3eff109969e9182f6c0.mp3",
@@ -30184,16 +31484,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "elephant/trunk-crease/hint": {
-      "src": "/narration/clip-b092245c4eddfcfbbd37a9c73efe895d05c9941aee6c78c131102088cbe8cd93.mp3",
-      "sha256": "b092245c4eddfcfbbd37a9c73efe895d05c9941aee6c78c131102088cbe8cd93",
+      "src": "/narration/clip-70f9e5891f0ee72836a698362693b16a36d6e97d42885628539810d12aa4c1d4.mp3",
+      "sha256": "70f9e5891f0ee72836a698362693b16a36d6e97d42885628539810d12aa4c1d4",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "46549762370487aad54ffcaa2975a2c227cffc469645c3b951da1adc07d96252",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -30210,7 +31510,71 @@
         "language_code": "fr"
       },
       "text": "Garde ce pli court, à l’intérieur de la trompe.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-b092245c4eddfcfbbd37a9c73efe895d05c9941aee6c78c131102088cbe8cd93.mp3",
+        "sha256": "b092245c4eddfcfbbd37a9c73efe895d05c9941aee6c78c131102088cbe8cd93",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "46549762370487aad54ffcaa2975a2c227cffc469645c3b951da1adc07d96252",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Garde ce pli court, à l’intérieur de la trompe.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Garde ce pli court, à l’intérieur de la trompe.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "b092245c4eddfcfbbd37a9c73efe895d05c9941aee6c78c131102088cbe8cd93",
+        "rawSourceSha256": "7e61f9bb78a551e17d142b44afeeb96c1de6380be4d21224aee15bcc6ae1c50d",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "96373fffc3157b4f291c65fd97b4a0b3a7b39d0739dd3447d49611fa96d36c07",
+        "before": {
+          "integratedLufs": -24.91,
+          "truePeakDbtp": -2.4
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.32,
+          "truePeakDbtp": -2.94
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.32,
+            "truePeakDbtp": -2.94
+          }
+        ]
+      }
     },
     "elephant/first-toenail/instruction": {
       "src": "/narration/clip-6ccb5ff6fb4460cc9108525b56c183e3b342d0a63aa5bf342ce20c49c1fa75bd.mp3",
@@ -31692,16 +33056,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "rabbit/front-paw/hint": {
-      "src": "/narration/clip-0b8c0e36bf1eab1dd7379f1af28c516d825726cf8202e5990bc2078e756e562c.mp3",
-      "sha256": "0b8c0e36bf1eab1dd7379f1af28c516d825726cf8202e5990bc2078e756e562c",
+      "src": "/narration/clip-0ab47d9fe38f91b5ecc058afe7e39addd4f93ccdaadc3112e0a5a025d0ba35af.mp3",
+      "sha256": "0ab47d9fe38f91b5ecc058afe7e39addd4f93ccdaadc3112e0a5a025d0ba35af",
       "bytes": 46018,
       "duration": 2.8,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "6e28bfe05be11ec1341a47317b1bacaad4f0fe7ed666339fa4ea0b922dbbb0cb",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -31718,7 +33082,71 @@
         "language_code": "fr"
       },
       "text": "Un petit ovale aplati suffit pour ce pied avant.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-0b8c0e36bf1eab1dd7379f1af28c516d825726cf8202e5990bc2078e756e562c.mp3",
+        "sha256": "0b8c0e36bf1eab1dd7379f1af28c516d825726cf8202e5990bc2078e756e562c",
+        "bytes": 46018,
+        "duration": 2.8,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "6e28bfe05be11ec1341a47317b1bacaad4f0fe7ed666339fa4ea0b922dbbb0cb",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Un petit ovale aplati suffit pour ce pied avant.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Un petit ovale aplati suffit pour ce pied avant.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "0b8c0e36bf1eab1dd7379f1af28c516d825726cf8202e5990bc2078e756e562c",
+        "rawSourceSha256": "dc019ccb14a12c5b8d0fe6b9c0280a9231e3300b286e4ab5d789f45da89cd605",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=123480",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "147081ae09ce93eb2c9a466f1a03b36753dd52779e9285a22ffff9d64468fc47",
+        "before": {
+          "integratedLufs": -25.88,
+          "truePeakDbtp": -2.46
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.26,
+          "truePeakDbtp": -2.95
+        },
+        "decodedSamples": 123480,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.26,
+            "truePeakDbtp": -2.95
+          }
+        ]
+      }
     },
     "rabbit/round-tail/instruction": {
       "src": "/narration/clip-d532c4b81735f0782f96a1c51b5c5a4e53af29409e9ead07ec831419e51bab3f.mp3",
@@ -33664,16 +35092,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "cup/table-left/hint": {
-      "src": "/narration/clip-ada8ac5381d2161154234a6682f015485175ee88a66f3fc6ebb6a3be1e565511.mp3",
-      "sha256": "ada8ac5381d2161154234a6682f015485175ee88a66f3fc6ebb6a3be1e565511",
+      "src": "/narration/clip-2b34a0b0a79c24ddb3d48654ef4434d527d373c6b7ad77ac46607f31571fe1f1.mp3",
+      "sha256": "2b34a0b0a79c24ddb3d48654ef4434d527d373c6b7ad77ac46607f31571fe1f1",
       "bytes": 44764,
       "duration": 2.72,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "b905cf9b98e50f237bc7d953c48e187b0fde536403e5a88fe2bdb05636de47cc",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=119952",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -33690,7 +35118,71 @@
         "language_code": "fr"
       },
       "text": "Arrête ce trait de table avant qu’il n’atteigne la soucoupe.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-ada8ac5381d2161154234a6682f015485175ee88a66f3fc6ebb6a3be1e565511.mp3",
+        "sha256": "ada8ac5381d2161154234a6682f015485175ee88a66f3fc6ebb6a3be1e565511",
+        "bytes": 44764,
+        "duration": 2.72,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "b905cf9b98e50f237bc7d953c48e187b0fde536403e5a88fe2bdb05636de47cc",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Arrête ce trait de table avant qu’il n’atteigne la soucoupe.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Arrête ce trait de table avant qu’il n’atteigne la soucoupe.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "ada8ac5381d2161154234a6682f015485175ee88a66f3fc6ebb6a3be1e565511",
+        "rawSourceSha256": "a792af890e30bc9450e84f4c736165bca75e83842afc3b0714b6b030c5093337",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=119952",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "5f2a0daf14a9ed28db506689540e302b153ca10c2d0771e1cce79a488a183935",
+        "before": {
+          "integratedLufs": -23.85,
+          "truePeakDbtp": -2.53
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.04,
+          "truePeakDbtp": -2.83
+        },
+        "decodedSamples": 119952,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.04,
+            "truePeakDbtp": -2.83
+          }
+        ]
+      }
     },
     "cup/table-right/instruction": {
       "src": "/narration/clip-e1a5c1628b23f9c0eaa57a329d2132148461ab4309898a8c7308fbb9852e04f3.mp3",
@@ -37898,16 +39390,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "castle/bridge-left-edge/hint": {
-      "src": "/narration/clip-88fd5dc00582d1567600e5fbf9165e42c53ef40836487826ca691ab65d2c4502.mp3",
-      "sha256": "88fd5dc00582d1567600e5fbf9165e42c53ef40836487826ca691ab65d2c4502",
+      "src": "/narration/clip-4b8d3ba8d905959d7eaa36e3a6968c955283203a95aa4cf1326e53b4c7272f05.mp3",
+      "sha256": "4b8d3ba8d905959d7eaa36e3a6968c955283203a95aa4cf1326e53b4c7272f05",
       "bytes": 48526,
       "duration": 2.96,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "40a8767ab774b87c21c91f908044d877c01abfcd7a20374eb40d6a8d1d186be3",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-19.480:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -37924,7 +39416,76 @@
         "language_code": "fr"
       },
       "text": "Pars de la porte et descends en biais vers la gauche.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-88fd5dc00582d1567600e5fbf9165e42c53ef40836487826ca691ab65d2c4502.mp3",
+        "sha256": "88fd5dc00582d1567600e5fbf9165e42c53ef40836487826ca691ab65d2c4502",
+        "bytes": 48526,
+        "duration": 2.96,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "40a8767ab774b87c21c91f908044d877c01abfcd7a20374eb40d6a8d1d186be3",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Pars de la porte et descends en biais vers la gauche.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Pars de la porte et descends en biais vers la gauche.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "88fd5dc00582d1567600e5fbf9165e42c53ef40836487826ca691ab65d2c4502",
+        "rawSourceSha256": "4462b453f88fcd52adf323b6603cc3577bd56de2263841968a68963fef84371f",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-19.480:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "cb83ad6aa97420ed2987b00802bccba3daaaaf9902c8126377a9a253b1860a08",
+        "before": {
+          "integratedLufs": -23.07,
+          "truePeakDbtp": -2.48
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.02,
+          "truePeakDbtp": -2.89
+        },
+        "decodedSamples": 130536,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.52,
+            "truePeakDbtp": -2.92
+          },
+          {
+            "targetLufs": -19.48,
+            "integratedLufs": -20.02,
+            "truePeakDbtp": -2.89
+          }
+        ]
+      }
     },
     "castle/bridge-right-edge/instruction": {
       "src": "/narration/clip-0159d6b96736f698e8b99186386d05b9bd38318c3cbc3d83a19d1573423b9cba.mp3",
@@ -38014,16 +39575,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "castle/bridge-near-edge/hint": {
-      "src": "/narration/clip-8dcb9aeb31928e2388e0158e0c45695475777dc4da0c4feedb2c7ec01da3303d.mp3",
-      "sha256": "8dcb9aeb31928e2388e0158e0c45695475777dc4da0c4feedb2c7ec01da3303d",
+      "src": "/narration/clip-53a202acf714c52397db5fc0a59fb363909488b3b2a7fa7f6434f4a0efbefa6b.mp3",
+      "sha256": "53a202acf714c52397db5fc0a59fb363909488b3b2a7fa7f6434f4a0efbefa6b",
       "bytes": 47272,
       "duration": 2.88,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "f5525d15de2b5b24f295f94b8d80135bf3b4b7dcdb433c02b88a0d05ed9671b4",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -38040,7 +39601,71 @@
         "language_code": "fr"
       },
       "text": "Relie les deux extrémités du bas avec une ligne.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-8dcb9aeb31928e2388e0158e0c45695475777dc4da0c4feedb2c7ec01da3303d.mp3",
+        "sha256": "8dcb9aeb31928e2388e0158e0c45695475777dc4da0c4feedb2c7ec01da3303d",
+        "bytes": 47272,
+        "duration": 2.88,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "f5525d15de2b5b24f295f94b8d80135bf3b4b7dcdb433c02b88a0d05ed9671b4",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Relie les deux extrémités du bas avec une ligne.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Relie les deux extrémités du bas avec une ligne.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "8dcb9aeb31928e2388e0158e0c45695475777dc4da0c4feedb2c7ec01da3303d",
+        "rawSourceSha256": "b36db700ab8d3ec5fd883c3370f59731688b24593a2e9b28adff63922dc41889",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=127008",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "63ec16e340ba424bcabff26a54332e9078114e36ecf0460ca8f5c9dc086a6a83",
+        "before": {
+          "integratedLufs": -23.51,
+          "truePeakDbtp": -2.49
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.33,
+          "truePeakDbtp": -2.95
+        },
+        "decodedSamples": 127008,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.33,
+            "truePeakDbtp": -2.95
+          }
+        ]
+      }
     },
     "castle/first-bridge-plank/instruction": {
       "src": "/narration/clip-3f46f85817cf70dbea440b82f3ba9fb224668cf4c4afc0b9ab405c2755b0d219.mp3",
@@ -38362,16 +39987,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "castle/right-tower-window/hint": {
-      "src": "/narration/clip-9845d5a6c53680935691a4f70a66db4e620ce8b8708e29bac08757f5e8301d61.mp3",
-      "sha256": "9845d5a6c53680935691a4f70a66db4e620ce8b8708e29bac08757f5e8301d61",
+      "src": "/narration/clip-27a53ccdfc297f64fdd36c821134d80eff937d82f5d092db07b80eeec173ce0b.mp3",
+      "sha256": "27a53ccdfc297f64fdd36c821134d80eff937d82f5d092db07b80eeec173ce0b",
       "bytes": 44764,
       "duration": 2.72,
       "provider": "ElevenLabs",
-      "provenance": "verified-api-response",
+      "provenance": "verified-local-derivative",
       "model": "eleven_v4",
       "cacheKey": "76b743f6f94a2195818b646edf0cb580a001cc3672549a006fdf9a4e15e84d38",
       "encoding": {
-        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "filter": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=119952",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -38388,7 +40013,71 @@
         "language_code": "fr"
       },
       "text": "Compare la petite fenêtre avec l’espace autour.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      "voiceId": "tKaoyJLW05zqV0tIH9FD",
+      "source": {
+        "src": "/narration/clip-9845d5a6c53680935691a4f70a66db4e620ce8b8708e29bac08757f5e8301d61.mp3",
+        "sha256": "9845d5a6c53680935691a4f70a66db4e620ce8b8708e29bac08757f5e8301d61",
+        "bytes": 44764,
+        "duration": 2.72,
+        "provider": "ElevenLabs",
+        "provenance": "verified-api-response",
+        "model": "eleven_v4",
+        "cacheKey": "76b743f6f94a2195818b646edf0cb580a001cc3672549a006fdf9a4e15e84d38",
+        "encoding": {
+          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+          "rate": 44100,
+          "channels": 1,
+          "bitrate": "128k",
+          "maxSeconds": 35
+        },
+        "generationSettings": {
+          "inputs": [
+            {
+              "text": "Compare la petite fenêtre avec l’espace autour.",
+              "voice_id": "tKaoyJLW05zqV0tIH9FD"
+            }
+          ],
+          "model_id": "eleven_v4",
+          "language_code": "fr"
+        },
+        "text": "Compare la petite fenêtre avec l’espace autour.",
+        "voiceId": "tKaoyJLW05zqV0tIH9FD"
+      },
+      "processing": {
+        "recipe": {
+          "version": 1,
+          "name": "short-speech-loudness",
+          "maximumSeconds": 3,
+          "correctionBelowLufs": -23,
+          "targetLufs": -20,
+          "maximumDecodedTruePeakDbtp": -2,
+          "paddingSeconds": 4,
+          "maximumPasses": 3,
+          "loudnessToleranceLu": 0.5,
+          "preserveDecodedSampleCount": true
+        },
+        "sourceSha256": "9845d5a6c53680935691a4f70a66db4e620ce8b8708e29bac08757f5e8301d61",
+        "rawSourceSha256": "2be1e71f3de4a2ce086fd0fb5328415b84e627bd0ca332ac369c911991a37026",
+        "filterGraph": "apad=whole_dur=4,loudnorm=I=-20.000:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=119952",
+        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
+        "processingKey": "902d46b0977e3b7bd5ab93f4c731b559f779d69f58020498d00834bd3f8b2b41",
+        "before": {
+          "integratedLufs": -25.99,
+          "truePeakDbtp": -2.44
+        },
+        "decodedVerification": {
+          "integratedLufs": -20.04,
+          "truePeakDbtp": -2.92
+        },
+        "decodedSamples": 119952,
+        "passes": [
+          {
+            "targetLufs": -20,
+            "integratedLufs": -20.04,
+            "truePeakDbtp": -2.92
+          }
+        ]
+      }
     },
     "castle/castle-flagpole/instruction": {
       "src": "/narration/clip-695eb6c487521cf43d7a93c3c453678fd2bf18a85cf9591af52b3b829c6fca83.mp3",
@@ -42427,5 +44116,21 @@
     "tree-path",
     "turtle"
   ],
-  "partialCatalogue": false
+  "partialCatalogue": false,
+  "localProcessing": {
+    "recipe": {
+      "version": 1,
+      "name": "short-speech-loudness",
+      "maximumSeconds": 3,
+      "correctionBelowLufs": -23,
+      "targetLufs": -20,
+      "maximumDecodedTruePeakDbtp": -2,
+      "paddingSeconds": 4,
+      "maximumPasses": 3,
+      "loudnessToleranceLu": 0.5,
+      "preserveDecodedSampleCount": true
+    },
+    "correctedAssets": 26,
+    "review": "automated loudness, true-peak and sample-count verification; human listening pending"
+  }
 }

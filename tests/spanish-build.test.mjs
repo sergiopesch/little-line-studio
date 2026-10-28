@@ -29,6 +29,7 @@ function fixture(t, selected = ["cat"]) {
   for (const dir of ["scripts", "src", "config", "dist/client/narration"])
     mkdirSync(path.join(root, dir), { recursive: true });
   copyFileSync(new URL("../scripts/prepare-build.mjs", import.meta.url), path.join(root, "scripts/prepare-build.mjs"));
+  copyFileSync(new URL("../scripts/validate-narration-derivatives.mjs", import.meta.url), path.join(root, "scripts/validate-narration-derivatives.mjs"));
   writeFileSync(path.join(root, "package.json"), JSON.stringify({ type: "module" }));
   writeFileSync(path.join(root, "src/lesson-catalogue.js"), `export const LESSONS = ${JSON.stringify(lessons)};\n`);
   writeFileSync(path.join(root, "src/spanish-lessons.js"), "export const localizeLesson = (lesson) => lesson;\n");
