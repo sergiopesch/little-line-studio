@@ -21,12 +21,13 @@ export async function loadLocaleLanguage(locale, lessons, {
   loadText = () => locale === "fr-FR" ? import("./french-lessons.js")
     : locale === "es-ES" ? import("./spanish-spain-lessons.js")
     : locale === "de-DE" ? import("./german-lessons.js")
-    : locale === "it-IT" ? import("./italian-lessons.js") : Promise.resolve(identityText),
+    : locale === "it-IT" ? import("./italian-lessons.js")
+    : locale === "nl-NL" ? import("./dutch-lessons.js") : Promise.resolve(identityText),
   loadNarration = () => loadLocaleNarration(locale),
   validate = narrationForLocale,
 } = {}) {
   if (locale === "es-419") return loadSpanishLanguage(lessons);
-  if (!["fr-FR", "es-ES", "de-DE", "it-IT", "en-IE", "en-GB-x-scotland"].includes(locale)) throw new TypeError("Unknown language.");
+  if (!["fr-FR", "es-ES", "de-DE", "it-IT", "nl-NL", "en-IE", "en-GB-x-scotland"].includes(locale)) throw new TypeError("Unknown language.");
   const [text, narration] = await Promise.all([loadText(), loadNarration()]);
   if (!Array.isArray(lessons) || !lessons.length || !validate(locale, lessons, narration).ready ||
       typeof text.localizeLesson !== "function" || typeof text.localizedLessonTitle !== "function")

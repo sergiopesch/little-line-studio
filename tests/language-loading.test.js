@@ -6,7 +6,7 @@ test("additional locales require their own complete narration before selection",
   const lesson = { id: "cat", steps: [{ id: "head" }] };
   const text = { localizeLesson: (value) => value, localizedLessonTitle: (value) => value.id };
   const narration = { index: {}, durations: {} };
-  for (const locale of ["fr-FR", "en-IE", "en-GB-x-scotland"]) {
+  for (const locale of ["fr-FR", "en-IE", "en-GB-x-scotland", "nl-NL"]) {
     const options = { loadText: async () => text, loadNarration: async () => narration };
     await assert.rejects(loadLocaleLanguage(locale, [lesson], options), /could not be verified/);
     const result = await loadLocaleLanguage(locale, [lesson], { ...options, validate: () => ({ ready: true }) });

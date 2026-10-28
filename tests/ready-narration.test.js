@@ -25,7 +25,7 @@ del records[ids['sample']]
 try: m.completed_plan(plan,records)
 except m.activation.SafeError: pass
 else: raise AssertionError('Missing sample must stop staging')
-for locale in m.full.pilot.VOICES:
+for locale in m.VOICES:
  try: m.request_validator(locale)({'text':'hello','voiceId':'wrong'},{'payload':{}},'narration')
  except m.activation.SafeError: pass
  else: raise AssertionError('Wrong voice must stop validation')

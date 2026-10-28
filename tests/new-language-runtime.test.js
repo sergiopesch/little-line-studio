@@ -5,13 +5,13 @@ import { createRequire } from "node:module";
 import { LESSONS } from "../src/lesson-catalogue.js";
 
 test("each additional language loads and authorizes its own complete audio", async () => {
-  const locales = ["en-IE", "en-GB-x-scotland", "fr-FR"];
+  const locales = ["en-IE", "en-GB-x-scotland", "fr-FR", "nl-NL"];
   const paths = Object.fromEntries(locales.map((id, i) => [id, `/narration/clip-${String(i + 1).repeat(64)}.mp3`]));
   const names = Object.keys(paths);
   const plugin = { name: "locale-fixtures", setup(builder) {
-    builder.onResolve({ filter: /narration-(availability|index|durations)\.(en-IE|en-GB-x-scotland|fr-FR)\.json$/ }, (args) => ({ path: args.path, namespace: "locales" }));
+    builder.onResolve({ filter: /narration-(availability|index|durations)\.(en-IE|en-GB-x-scotland|fr-FR|nl-NL)\.json$/ }, (args) => ({ path: args.path, namespace: "locales" }));
     builder.onLoad({ filter: /.*/, namespace: "locales" }, ({ path }) => {
-      const [, kind, id] = /narration-(availability|index|durations)\.(en-IE|en-GB-x-scotland|fr-FR)\.json$/.exec(path);
+      const [, kind, id] = /narration-(availability|index|durations)\.(en-IE|en-GB-x-scotland|fr-FR|nl-NL)\.json$/.exec(path);
       const keys = ["sample", ...LESSONS.flatMap((lesson) => lesson.steps.flatMap((step) =>
         ["instruction", "hint"].map((type) => `${lesson.id}/${step.id}/${type}`)))];
       const value = kind === "availability" ? { schemaVersion: 1, locale: id, lessons: LESSONS.map((l) => l.id).sort() }
@@ -31,9 +31,13 @@ test("each additional language loads and authorizes its own complete audio", asy
     assert.equal(lessons.length, 30);
     assert.equal(getLanguage(locale).ready, true);
     assert.equal(languageAvailableForLevel(locale, "basic"), true);
-    const result = await loadLocaleLanguage(locale, lessons, {
-      loadText: async () => ({ localizeLesson: (l) => l, localizedLessonTitle: (l) => l.title }),
-    });
+    const result = await loadLocaleLanguage(locale, lessons);
+    if (locale === "nl-NL") {
+      const cat = lessons.find(({ id }) => id === "cat");
+      assert.equal(result.localizedTitle(cat, locale), "Nieuwsgierig kattengezicht");
+      assert.notEqual(result.localizeLesson(cat, locale).steps[0].spoken, cat.steps[0].spoken);
+      assert.equal(result.localizeLesson(cat, locale).strokes, cat.strokes);
+    }
     assert.equal(result.narration.index.sample, paths[locale]);
     assert.equal(authorizeLocaleNarration(locale, { ...result.narration }), false);
     assert.equal(authorizeLocaleNarration(locale, result.narration), true);

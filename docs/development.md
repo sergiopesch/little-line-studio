@@ -18,6 +18,12 @@ Normal builds and lessons use the committed MP3 library. Offline Python scripts 
 
 Generated caches and provider receipts belong in ignored `media/`; provider credentials belong in an ignored local environment file with restricted permissions. Never prefix a provider key with `VITE_`. Public media provenance is recorded in the bundled notices and source manifests.
 
+The complete Spain Spanish, German and Italian plans use `scripts/three-language-full.py`; Dutch uses `scripts/dutch-narration.py` with the source and review status described in [Dutch preparation](../research/dutch-draft/README.md). Both default to offline planning. Authorized runs require the existing shared checkout and exact credit cap. Dutch can record a twenty-lesson initial cohort, reconcile its proven billing, and then reuse those exact clips in the full plan.
+
+Recording defaults to three concurrent requests. `--concurrency 8` uses eight only with the credit guard and a freshly verified Pro, Scale or Business tier. This stays below the documented Pro standard limit of ten ([provider concurrency reference](https://elevenlabs.io/docs/overview/models), checked 28 October 2026). The whole group is reserved before any POST; an unknown outcome blocks the next group and is never retried automatically. Concurrency does not change request identity, audio settings, the project cap or the protected credit reserve. To change recording mode, stop at the existing `.stop-after-batch` boundary, confirm the ledger is settled, then resume from the verified cache.
+
+Closed-cohort reconciliation matches immutable receipts against authenticated request counts, input characters and billed credits over the entire recording interval, including across midnight. It retains evidence and the previous ledger, rejects duplicate reconciliation and preserves unmatched commitments. Technical validation and this accounting do not establish native-speaker or human listening review.
+
 ## Application boundaries
 
 The child draws on paper. Preserve the read-only teaching board, local adult acknowledgement, deterministic sequence, quiet practice and open exploration. Keep Pause, Replay and More time available; do not catch up after interruptions. Media completion is a prerequisite for the trusted controller, not authority delegated to an AI model.

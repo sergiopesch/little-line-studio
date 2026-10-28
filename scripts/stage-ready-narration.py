@@ -25,8 +25,10 @@ def module(name, path):
     return value
 
 full = module('ready_full', ROOT / 'scripts/three-language-full.py')
+dutch = module('ready_dutch', ROOT / 'scripts/dutch-narration.py')
 spain = module('ready_activation', ROOT / 'scripts/spain-narration.py')
 audio, activation = full.audio, spain.activation
+VOICES = {**full.pilot.VOICES, **dutch.VOICES}
 
 def completed_plan(plan, records):
     if records.get(plan['entries']['sample'], {}).get('status') != 'complete':
@@ -50,7 +52,7 @@ def completed_plan(plan, records):
             'reservedEstimatedUsd': str((estimate * Decimal(audio.RATES['reserveMultiplier'])).quantize(Decimal('.0001')))}
 
 def request_validator(locale):
-    language, voice = full.pilot.VOICES[locale]
+    language, voice = VOICES[locale]
     def check(clip, spec, kind):
         payload = {'inputs': [{'text': clip.get('text'), 'voice_id': voice}],
                    'model_id': 'eleven_v4', 'language_code': language}
@@ -93,7 +95,7 @@ def prepare(plan, shared):
     locale, lessons = plan['locale'], selected['coveredLessons']
     manifest = metadata['src/narration-manifest.json']
     manifest.pop('activatedAt', None)
-    manifest.update(locale=locale, selectedVoiceId=full.pilot.VOICES[locale][1], coveredLessons=lessons,
+    manifest.update(locale=locale, selectedVoiceId=VOICES[locale][1], coveredLessons=lessons,
                     partialCatalogue=selected['partialCatalogue'], reviewStatus='demo-native-and-listening-review-pending',
                     review={'operatorConfirmedReviewed': False, 'nativeSpeakerReview': 'pending',
                             'fullHumanListeningReview': 'pending',
@@ -130,10 +132,10 @@ def stage(plan, shared):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--shared-root', type=Path, required=True)
-    parser.add_argument('--locale', choices=tuple(full.pilot.VOICES), required=True)
+    parser.add_argument('--locale', choices=tuple(VOICES), required=True)
     args = parser.parse_args()
     try:
-        plan = next(p for p in full.full_plans() if p['locale'] == args.locale)
+        plan = dutch.full_plan() if args.locale == 'nl-NL' else next(p for p in full.full_plans() if p['locale'] == args.locale)
         print(json.dumps(stage(plan, args.shared_root.resolve()), ensure_ascii=False))
     except (activation.SafeError, audio.SafeError, OSError, ValueError, KeyError, subprocess.SubprocessError) as error:
         print(f'Stopped safely: {error}', file=sys.stderr)

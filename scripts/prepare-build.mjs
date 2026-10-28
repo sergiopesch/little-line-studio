@@ -115,6 +115,7 @@ function validateDynamicCopy(locale) {
     "es-ES": ["research/spanish-spain-draft/dynamic.es-ES.js", "src/spanish-spain-dynamic.js"],
     "de-DE": ["research/german-draft/dynamic.de-DE.js", "src/german-dynamic.js"],
     "it-IT": ["research/italian-pilot/dynamic.it-IT.mjs", "src/italian-dynamic.js"],
+    "nl-NL": ["research/dutch-draft/dynamic.nl-NL.js", "src/dutch-dynamic.js"],
   }[locale];
   const normalize = (text) => text.split("\n").filter((line) => !line.startsWith("//") &&
     !line.startsWith("export const SPAIN_LANGUAGE_DRAFT")).join("\n").trim();
@@ -193,6 +194,23 @@ async function validateAdditionalLocale(locale, voice, sampleFile, translateLess
         readFileSync(path.join(root, "src", sampleFile), "utf8").trim() !== source.sample)
       throw new Error(`${locale} runtime does not match the current source-linked export`);
   }
+  if (locale === "nl-NL" && descriptor.lessons.length) {
+    validateDynamicCopy(locale);
+    let source, ui;
+    try {
+      source = JSON.parse(execFileSync(process.execPath, [path.join(root, "scripts", "export-dutch-draft.mjs")],
+        { cwd: root, encoding: "utf8", maxBuffer: 8 * 1024 * 1024 }));
+      ui = JSON.parse(readFileSync(path.join(root, "research/dutch-draft/ui.nl-NL.json"), "utf8"));
+    } catch {
+      throw new Error("Dutch source-linked export could not be verified");
+    }
+    if (Object.keys(source.lessons).length !== LESSONS.length ||
+        JSON.stringify(source) !== JSON.stringify(readSpanishMetadata("dutch-lessons.nl-NL.json")) ||
+        JSON.stringify(ui.strings) !== JSON.stringify(readSpanishMetadata("dutch-ui.nl-NL.json")) ||
+        readFileSync(path.join(root, "research/dutch-draft/sample.nl-NL.txt"), "utf8").trim() !==
+          readFileSync(path.join(root, "src", sampleFile), "utf8").trim())
+      throw new Error("Dutch runtime does not match the current source-linked export");
+  }
   const texts = new Map();
   if (descriptor.lessons.length) {
     const sample = readFileSync(path.join(root, "src", sampleFile), "utf8").trim();
@@ -250,12 +268,14 @@ for (const [locale, voice, sample] of [
   ["es-ES", "BkOojM1ZhtSAHgsAkMx2", "narration-sample.es-ES.txt"],
   ["de-DE", "5bVYvsqKAWO1hDgOO72l", "narration-sample.de-DE.txt"],
   ["it-IT", "wOXFTxgu7FQDBb1dsL7I", "narration-sample.it-IT.txt"],
+  ["nl-NL", "DiUBVrSFwkMaPz4XqWvR", "narration-sample.nl-NL.txt"],
 ]) {
   const translator = locale === "fr-FR"
     ? async (lesson, id) => (await import("../src/french-lessons.js")).localizeLesson(lesson, id)
     : locale === "es-ES" ? async (lesson, id) => (await import("../src/spanish-spain-lessons.js")).localizeLesson(lesson, id)
     : locale === "de-DE" ? async (lesson, id) => (await import("../src/german-lessons.js")).localizeLesson(lesson, id)
     : locale === "it-IT" ? async (lesson, id) => (await import("../src/italian-lessons.js")).localizeLesson(lesson, id)
+    : locale === "nl-NL" ? async (lesson, id) => (await import("../src/dutch-lessons.js")).localizeLesson(lesson, id)
     : (lesson) => lesson;
   additionalLocales[locale] = await validateAdditionalLocale(locale, voice, sample, translator);
 }

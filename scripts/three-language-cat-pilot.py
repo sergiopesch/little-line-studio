@@ -57,7 +57,21 @@ def plans():
         output.append(plan)
     return output
 
-def execute(all_plans, shared_root, cap=CAP, *, lock_path=Path('/tmp/little-line-language-auditions.lock')):
+def execute(all_plans, shared_root, cap=CAP, *, lock_path=Path('/tmp/little-line-language-auditions.lock'), approved_voices=None, concurrency=3):
+    if type(concurrency) is not int or concurrency not in (3, 8):
+        raise ValueError('Choose the standard three-request or guarded eight-request recording mode.')
+    selected_voices = VOICES if approved_voices is None else approved_voices
+    for plan in all_plans:
+        selection = selected_voices.get(plan.get('locale'))
+        if not selection or plan.get('voiceId') != selection[1]:
+            raise ValueError('The plan does not use its approved locale voice.')
+        language, voice = selection
+        for request in plan['requests'].values():
+            payload = request['payload']
+            if (request.get('voiceId') != voice or payload.get('model_id') != 'eleven_v4'
+                    or payload.get('language_code') != language
+                    or payload.get('inputs') != [{'text': audio.speech_text(request), 'voice_id': voice}]):
+                raise ValueError('The plan voice, model or language settings changed.')
     shared_root = shared_root.resolve()
     directory = shared_root / 'media/elevenlabs'
     ledger = directory / 'multilingual-account-ledger.json'
@@ -74,12 +88,12 @@ def execute(all_plans, shared_root, cap=CAP, *, lock_path=Path('/tmp/little-line
         model = next((v for v in client.call('/v1/models') if v.get('model_id') == 'eleven_v4'), None)
         if not model or not model.get('can_do_text_to_speech') or Decimal(str(model.get('model_rates', {}).get('character_cost_multiplier', 1))) > 1:
             raise ValueError('The verified model or its credit rate is unavailable.')
-        for _, voice in VOICES.values():
+        for _, voice in selected_voices.values():
             query = urlencode({'voice_ids': voice, 'page_size': 100, 'include_live_moderated': 'true'})
             found = client.call('/v2/voices?' + query)
             if not any(item.get('voice_id') == voice and (item.get('sharing') or {}).get('rate', 1) <= 1 for item in found.get('voices', [])):
                 raise ValueError('An approved voice is unavailable or has an unsupported rate.')
-        budget = CreditBudget(client, ledger, max_credits=cap, credit_ceiling=Decimal('1'))
+        budget = CreditBudget(client, ledger, max_credits=cap, credit_ceiling=Decimal('1'), max_batch_requests=concurrency)
         missing = []
         for plan in all_plans:
             for identity, request in plan['requests'].items():
@@ -89,17 +103,18 @@ def execute(all_plans, shared_root, cap=CAP, *, lock_path=Path('/tmp/little-line
         for plan in all_plans:
             records = {}
             requests = list(plan['requests'].values())
-            for offset in range(0, len(requests), 3):
+            for offset in range(0, len(requests), concurrency):
                 if (directory / '.stop-after-batch').exists():
                     raise ValueError('Stopped safely at the requested batch boundary.')
-                group = requests[offset:offset + 3]
+                group = requests[offset:offset + concurrency]
                 need = [item for item in group if audio.cached_record(directory, item['cacheKey']) is None]
                 for item in group:
                     if item not in need:
                         records[item['cacheKey']] = audio.generate_one(client, directory, item)
                 if need:
-                    records.update(audio.generate_batch(lambda: audio.APIClient(client.key), directory, need, budget))
-                if offset % 15 == 0 or offset + len(group) == len(requests):
+                    records.update(audio.generate_batch(lambda: audio.APIClient(client.key), directory, need, budget,
+                                                        concurrency_limit=concurrency))
+                if offset % (concurrency * 5) == 0 or offset + len(group) == len(requests):
                     print(json.dumps({'locale': plan['locale'], 'prepared': len(records), 'total': len(requests)}), flush=True)
             descriptor = audio.build_bundle(directory, plan, records)
             print(json.dumps({'locale': plan['locale'], 'status': 'staged-unreviewed', 'bundle': str(descriptor.parent)}), flush=True)

@@ -44,3 +44,40 @@ else:raise AssertionError('duplicate cohort accepted')
 `], { encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
 });
+
+test('a closed recording cohort spanning midnight keeps all receipt and billing checks', () => {
+  const result = spawnSync('python3', ['-c', String.raw`
+import importlib.util,json,tempfile
+from pathlib import Path
+from decimal import Decimal
+from datetime import datetime,timedelta,timezone
+s=importlib.util.spec_from_file_location('usage','scripts/reconcile-narration-usage.py')
+m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+with tempfile.TemporaryDirectory() as folder:
+ directory=Path(folder);requests={};receipts=[]
+ today=datetime.now(timezone.utc).replace(hour=0,minute=0,second=0,microsecond=0)
+ for index,stamp in enumerate([today-timedelta(minutes=1),today]):
+  request={'kind':'speech','voiceId':'voice','path':'/v1/text-to-dialogue',
+           'payload':{'model_id':'eleven_v4','inputs':[{'voice_id':'voice','text':'Hello '+str(index)}]}}
+  identity=m.audio.sha(m.audio.canonical(request));request['cacheKey']=identity;requests[identity]=request
+  path=directory/'cache'/identity;path.mkdir(parents=True)
+  raw=b'raw fixture';normalized=b'normalized fixture'
+  (path/'raw.mp3').write_bytes(raw);(path/'normalised.mp3').write_bytes(normalized)
+  receipt={'cacheKey':identity,'status':'complete','provider':'ElevenLabs','voiceId':'voice',
+           'model':'eleven_v4','apiPath':request['path'],'requestedAt':stamp.isoformat(),
+           'sha256':m.audio.sha(normalized),'rawSha256':m.audio.sha(raw),'bytes':len(normalized)}
+  (path/'receipt.json').write_text(json.dumps(receipt));receipts.append(path/'receipt.json')
+ (directory/'cohort-plan.json').write_text(json.dumps({'requests':requests}))
+ groups,day=m.closed_cohorts(directory,['voice'],Decimal('1'))
+ assert len(groups['voice'])==2 and day==today-timedelta(days=1)
+ broken=json.loads(receipts[0].read_text());broken['status']='pending-unknown';receipts[0].write_text(json.dumps(broken))
+ try:m.closed_cohorts(directory,['voice'],Decimal('1'))
+ except ValueError:pass
+ else:raise AssertionError('Incomplete cross-day receipt accepted')
+ broken['status']='complete';broken['requestedAt']=(today+timedelta(days=2)).isoformat();receipts[0].write_text(json.dumps(broken))
+ try:m.closed_cohorts(directory,['voice'],Decimal('1'))
+ except ValueError:pass
+ else:raise AssertionError('Future receipt accepted')
+`], { encoding: 'utf8' });
+  assert.equal(result.status, 0, result.stderr);
+});

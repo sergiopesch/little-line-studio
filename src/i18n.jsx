@@ -3,6 +3,7 @@ import { FRENCH_UI } from "./french-ui.fr-FR.js";
 import SPAIN_UI from "./spanish-ui.es-ES.json" with { type: "json" };
 import GERMAN_UI from "./german-ui.de-DE.json" with { type: "json" };
 import ITALIAN_UI from "./italian-ui.it-IT.json" with { type: "json" };
+import DUTCH_UI from "./dutch-ui.nl-NL.json" with { type: "json" };
 
 export const LocaleContext = createContext("en-GB");
 export function useLocale() {
@@ -216,6 +217,6 @@ const SPANISH = {
 };
 
 export function translate(locale, text) {
-  const dictionary = locale === "es-419" ? SPANISH : locale === "es-ES" ? SPAIN_UI : locale === "de-DE" ? GERMAN_UI : locale === "it-IT" ? ITALIAN_UI : locale === "fr-FR" ? FRENCH_UI : null;
+  const dictionary = locale === "es-419" ? SPANISH : locale === "es-ES" ? SPAIN_UI : locale === "de-DE" ? GERMAN_UI : locale === "it-IT" ? ITALIAN_UI : locale === "nl-NL" ? DUTCH_UI : locale === "fr-FR" ? FRENCH_UI : null;
   return dictionary?.[text] ?? text;
 }

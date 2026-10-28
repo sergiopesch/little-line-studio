@@ -18,6 +18,25 @@ class Tests(unittest.TestCase):
         self.client = Mock(); self.client.call.side_effect = lambda endpoint: dict(self.account)
         self.guard = b.CreditBudget(self.client, self.path, max_credits=4000)
     def tearDown(self): self.temp.cleanup()
+    def test_eight_requests_require_explicit_limit_and_verified_pro_tier(self):
+        requests=[(PATH,PAYLOAD,c*64) for c in '01234567']
+        with self.assertRaises(b.CreditBudgetError): self.guard.before_batch(requests)
+        larger=b.CreditBudget(self.client,self.path,max_credits=4000,max_batch_requests=8)
+        with self.assertRaises(b.CreditBudgetError): larger.before_batch(requests)
+        self.assertIsNone(json.loads(self.path.read_text())['pending'])
+        self.account['tier']='pro'
+        pro=b.CreditBudget(self.client,self.path.with_name('pro.json'),max_credits=4000,max_batch_requests=8)
+        pending=pro.before_batch(requests)
+        self.assertEqual(pending['reserved'],24)
+        self.assertEqual(pro.inspect()['pendingRequestIds'],[c*64 for c in '01234567'])
+        with self.assertRaises(b.CreditBudgetError): pro.before_batch(requests)
+        self.account['character_count']+=16
+        settled=pro.after(request_id=pending['requestId'])
+        self.assertEqual(settled['committedReservations'],24)
+        self.assertEqual(settled['observedActual'],16)
+        self.assertEqual(pro.inspect()['cap'],4000)
+        for limit in (0,9,True):
+            with self.assertRaises(b.CreditBudgetError): b.CreditBudget(self.client,self.path,max_credits=4000,max_batch_requests=limit)
     def test_before_after_and_conservative_rounding(self):
         self.assertEqual(self.guard.before(PATH, PAYLOAD)['reserved'], 3)
         self.account['character_count'] += 2
@@ -151,10 +170,10 @@ class Tests(unittest.TestCase):
         payload={'model_id':'eleven_v4','inputs':[{'text':'Hola, dibujemos.','voice_id':'carito_voice'}], 'language_code':'es'}
         self.assertEqual(self.guard.before(endpoint,payload)['reserved'],8)
         self.guard.after()
-        for language in ('en', 'fr', 'de', 'it'):
+        for language in ('en', 'fr', 'de', 'it', 'nl'):
             self.assertEqual(self.guard.before(endpoint,dict(payload,language_code=language))['reserved'],8)
             self.guard.after()
-        for invalid in ('nl', 'es-VE', '', None, 1):
+        for invalid in ('nl-NL', 'es-VE', '', None, 1):
             with self.assertRaises(b.CreditBudgetError): self.guard.before(endpoint,dict(payload,language_code=invalid))
         with self.assertRaises(b.CreditBudgetError): self.guard.before(endpoint,dict(payload,extra=True))
     def test_music_fixed_ceiling_on_supported_paid_tier(self):

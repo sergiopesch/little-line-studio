@@ -108,9 +108,11 @@ def closed_cohorts(directory, voices, rate):
         dates.append(stamp.astimezone(timezone.utc))
         characters = len(audio.speech_text(request))
         groups[receipt['voiceId']].append((identity, characters, int((characters * rate).to_integral_value(rounding=ROUND_CEILING))))
-    if set(groups) != set(voices) or len({d.date() for d in dates}) != 1:
-        raise ValueError('Require known, complete voice cohorts recorded on one UTC day.')
-    day = dates[0].replace(hour=0, minute=0, second=0, microsecond=0)
+    if set(groups) != set(voices) or not dates or max(dates) > datetime.now(timezone.utc):
+        raise ValueError('Require known, complete voice cohorts with valid recording dates.')
+    # A long catalogue may cross midnight. Query the full interval containing
+    # every receipt; exact counts and character totals still have to match.
+    day = min(dates).replace(hour=0, minute=0, second=0, microsecond=0)
     return groups, day
 
 

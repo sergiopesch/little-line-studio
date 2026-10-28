@@ -444,11 +444,12 @@ def received_audio(directory, identity):
     return raw.is_file() and sha(raw.read_bytes()) == record.get("rawSha256")
 
 
-def generate_batch(factory, directory, specs, budget=None, *, reservation=None, defer_settlement=False):
+def generate_batch(factory, directory, specs, budget=None, *, reservation=None, defer_settlement=False, concurrency_limit=3):
     # Reserve the entire small group before any worker sends a POST. One durable
     # pending group blocks later groups until every response is known and saved.
-    if not specs or len(specs) > 3:
-        raise SafeError("Generation needs one to three bounded requests.")
+    if (type(concurrency_limit) is not int or not 1 <= concurrency_limit <= 8
+            or not specs or len(specs) > concurrency_limit or (concurrency_limit > 3 and not budget)):
+        raise SafeError("Generation needs bounded concurrency; larger groups require the credit guard.")
     for spec in specs:
         # A cached identity also binds every field used to dispatch and encode
         # the request. Never reuse a cheap reservation with a changed payload.

@@ -46,6 +46,7 @@ def main():
     parser.add_argument('--run', action='store_true')
     parser.add_argument('--shared-root', type=Path)
     parser.add_argument('--cap', type=int, help='Exact current shared ledger cap.')
+    parser.add_argument('--concurrency', type=int, choices=(3, 8), default=3)
     args = parser.parse_args()
     plan = next(p for p in full_plans() if p['locale'] == args.locale)
     missing = list(plan['requests'].values())
@@ -58,7 +59,7 @@ def main():
     if args.run:
         if args.shared_root is None or args.cap is None:
             raise ValueError('An explicit shared checkout and exact current cap are required.')
-        pilot.execute([plan], args.shared_root, args.cap)
+        pilot.execute([plan], args.shared_root, args.cap, concurrency=args.concurrency)
 
 if __name__ == '__main__':
     try:

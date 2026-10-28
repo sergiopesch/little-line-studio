@@ -32,6 +32,20 @@ class GeneratorTests(unittest.TestCase):
         self.client.call.return_value = b'original provider audio'
     def tearDown(self):
         self.temp.cleanup()
+    def test_eight_request_mode_reserves_the_whole_group_and_never_reposts_cached_audio(self):
+        fixture=self.main_fixture(count=8)
+        fixture.account['tier']='pro'
+        fixture.client=fixture.Client('offline-key')
+        guard=b.CreditBudget(fixture.client,fixture.ledger,max_credits=4000,max_batch_requests=8)
+        specs=list(fixture.plan['requests'].values())
+        with self.assertRaises(g.SafeError): g.generate_batch(lambda:fixture.client,self.directory,specs,guard)
+        with self.assertRaises(g.SafeError): g.generate_batch(lambda:fixture.client,self.directory,specs,concurrency_limit=8)
+        with patch.object(g,'normalize',side_effect=self.normalized):
+            records=g.generate_batch(lambda:fixture.client,self.directory,specs,guard,concurrency_limit=8)
+            for spec in specs: g.generate_one(fixture.client,self.directory,spec)
+        self.assertEqual(len(records),8)
+        self.assertEqual(len(fixture.posted),8)
+        self.assertFalse(guard.inspect()['pending'])
     def normalized(self, raw, destination, spec):
         destination.write_bytes(b'normalised mp3')
         return 1.2

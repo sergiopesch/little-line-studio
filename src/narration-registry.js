@@ -51,6 +51,12 @@ const locales = {
     ]);
     return { index: index.default, durations: durations.default };
   }),
+  "nl-NL": createNarrationRegistry(async () => {
+    const [index, durations] = await Promise.all([
+      import("./narration-index.nl-NL.json"), import("./narration-durations.nl-NL.json"),
+    ]);
+    return { index: index.default, durations: durations.default };
+  }),
   "fr-FR": createNarrationRegistry(async () => {
     const [index, durations] = await Promise.all([
       import("./narration-index.fr-FR.json"), import("./narration-durations.fr-FR.json"),

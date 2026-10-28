@@ -13,7 +13,7 @@ export const LANGUAGES = Object.freeze([
   Object.freeze({ id: "fr-FR", name: "Français", region: "French", flag: "🇫🇷", ready: ready("fr-FR") }),
   Object.freeze({ id: "de-DE", name: "Deutsch", region: "German", flag: "🇩🇪", ready: ready("de-DE") }),
   Object.freeze({ id: "it-IT", name: "Italiano", region: "Italian", flag: "🇮🇹", ready: ready("it-IT") }),
-  Object.freeze({ id: "nl-NL", name: "Nederlands", region: "Dutch", flag: "🇳🇱", ready: false }),
+  Object.freeze({ id: "nl-NL", name: "Nederlands", region: "Dutch", flag: "🇳🇱", ready: ready("nl-NL") }),
 ]);
 
 export const DEFAULT_LANGUAGE = "en-GB";

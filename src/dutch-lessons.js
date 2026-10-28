@@ -1,6 +1,6 @@
 import catalogue from './dutch-lessons.nl-NL.json' with { type: 'json' };
 
-// Offline-prepared text only. No picker, narration or release activation is implied.
+// Source-linked Dutch text. Availability is controlled by the verified audio catalogue.
 const lessonFields = ['title', 'invitation', 'objective', 'parentNote', 'simplify', 'transfer', 'colouringLabel'];
 const stepFields = ['title', 'instruction', 'spoken', 'hint', 'notice'];
 

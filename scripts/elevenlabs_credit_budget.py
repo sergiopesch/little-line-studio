@@ -50,8 +50,11 @@ def atomic(path, data):
 
 
 class CreditBudget:
-    def __init__(self, client, ledgerpath, *, max_credits, min_remaining=100, credit_ceiling=None, speech_rate=None):
+    def __init__(self, client, ledgerpath, *, max_credits, min_remaining=100, credit_ceiling=None, speech_rate=None, max_batch_requests=3):
         self.client, self.path = client, Path(ledgerpath)
+        if type(max_batch_requests) is not int or not 1 <= max_batch_requests <= 8:
+            raise CreditBudgetError('Batch concurrency must be bounded from one to eight.')
+        self.max_batch_requests = max_batch_requests
         self.cap, self.minimum = integer(max_credits), integer(min_remaining)
         try:
             self.rate = Decimal(str(credit_ceiling if credit_ceiling is not None else speech_rate if speech_rate is not None else '.5'))
@@ -104,7 +107,7 @@ class CreditBudget:
                     raise ValueError
                 if 'requestIds' in ledger['pending']:
                     ids = ledger['pending']['requestIds']
-                    if (not isinstance(ids, list) or not 1 <= len(ids) <= 3 or len(set(ids)) != len(ids)
+                    if (not isinstance(ids, list) or not 1 <= len(ids) <= 8 or len(set(ids)) != len(ids)
                             or any(not isinstance(identity, str) or not re.fullmatch(r'[0-9a-f]{64}', identity) for identity in ids)):
                         raise ValueError
             return ledger
@@ -231,7 +234,7 @@ class CreditBudget:
         if path == '/v1/text-to-dialogue?output_format=mp3_44100_128':
             inputs = payload.get('inputs')
             valid_fields = set(payload) == {'inputs', 'model_id'} or (
-                set(payload) == {'inputs', 'model_id', 'language_code'} and payload['language_code'] in ('es', 'en', 'fr', 'de', 'it'))
+                set(payload) == {'inputs', 'model_id', 'language_code'} and payload['language_code'] in ('es', 'en', 'fr', 'de', 'it', 'nl'))
             if (not valid_fields or payload['model_id'] != 'eleven_v4'
                     or not isinstance(inputs, list) or len(inputs) != 1 or not isinstance(inputs[0], dict)
                     or set(inputs[0]) != {'text', 'voice_id'}
@@ -269,8 +272,8 @@ class CreditBudget:
             return dict(ledger['pending'])
 
     def _batch_reservation(self, requests):
-        if not isinstance(requests, list) or not 1 <= len(requests) <= 3:
-            raise CreditBudgetError('A generation group requires one to three bounded requests.')
+        if not isinstance(requests, list) or not 1 <= len(requests) <= self.max_batch_requests:
+            raise CreditBudgetError('A generation group exceeds its configured bounded concurrency.')
         identities, reservations, kinds = [], [], []
         for item in requests:
             if not isinstance(item, (tuple, list)) or len(item) != 3:
@@ -289,6 +292,8 @@ class CreditBudget:
                 'requestIds': identities}, 'music' in kinds
 
     def _reserve_batch(self, ledger, account, reservation, has_music):
+        if len(reservation['requestIds']) > 3 and account['tier'] not in {'pro', 'scale', 'business'}:
+            raise CreditBudgetError('Higher speech concurrency requires a verified Pro or higher paid tier.')
         if has_music and account['tier'] not in {'starter', 'creator', 'pro', 'scale', 'business'}:
             raise CreditBudgetError('Instrumental music requires a verified supported paid account tier.')
         if reservation['reserved'] > self._headroom(ledger, account):
@@ -342,6 +347,8 @@ class CreditBudget:
                 raise CreditBudgetError('The existing reservation exceeds the current cap or protected account credits.')
             if has_music and ledger['last']['tier'] not in {'starter', 'creator', 'pro', 'scale', 'business'}:
                 raise CreditBudgetError('Instrumental music requires a verified supported paid account tier.')
+            if len(reservation['requestIds']) > 3 and ledger['last']['tier'] not in {'pro', 'scale', 'business'}:
+                raise CreditBudgetError('Higher speech concurrency requires a verified Pro or higher paid tier.')
             return {**pending, 'requestIds': list(pending['requestIds'])}
 
     def _pending(self, ledger, request_id):
@@ -391,7 +398,7 @@ class CreditBudget:
         reservation, has_music = self._batch_reservation(next_requests)
         if not isinstance(previous_request_id, str) or not re.fullmatch(r'[0-9a-f]{64}', previous_request_id):
             raise CreditBudgetError('A batch transition requires its canonical previous group identity.')
-        if (not isinstance(received_request_ids, list) or not 1 <= len(received_request_ids) <= 3
+        if (not isinstance(received_request_ids, list) or not 1 <= len(received_request_ids) <= 8
                 or any(not isinstance(identity, str) or not re.fullmatch(r'[0-9a-f]{64}', identity)
                        for identity in received_request_ids)
                 or len(set(received_request_ids)) != len(received_request_ids)):

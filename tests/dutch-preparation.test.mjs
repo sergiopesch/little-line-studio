@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { LESSONS } from '../src/lesson-catalogue.js';
 import { getLanguage } from '../src/languages.js';
+import { releasedLessons } from '../src/narration-locales.js';
 import { DUTCH_DYNAMIC } from '../research/dutch-draft/dynamic.nl-NL.js';
 import { inspectDraft, validateLesson, validateUI } from '../scripts/verify-dutch-draft.mjs';
 
@@ -10,9 +11,9 @@ const lesson = LESSONS.find(({ id }) => id === 'cat');
 const record = JSON.parse(readFileSync(new URL('../research/dutch-draft/basic/cat.nl-NL.json', import.meta.url)));
 const ui = JSON.parse(readFileSync(new URL('../research/dutch-draft/ui.nl-NL.json', import.meta.url)));
 
-test('Dutch stays unavailable and completeness is checked against the whole catalogue', () => {
+test('Dutch availability follows released audio and text completeness covers the whole catalogue', () => {
   const result = inspectDraft();
-  assert.equal(getLanguage('nl-NL').ready, false);
+  assert.equal(getLanguage('nl-NL').ready, releasedLessons('nl-NL').length === LESSONS.length);
   assert.equal(result.lessons + result.missing.length, LESSONS.length);
   assert.equal(result.narrationKeys, result.stages * 2);
   assert.ok(result.lessons >= 10);
