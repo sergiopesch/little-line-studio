@@ -76,6 +76,16 @@ class FrenchBundleFixture(unittest.TestCase):
         wrong={**self.request, 'payload':{**self.request['payload'],'language_code':'es'}}
         with self.assertRaises(m.SafeError): m.checked_french_request(clip,wrong,'narration')
 
+    def test_separate_source_checkout_can_stage_from_shared_generation_cache(self):
+        with tempfile.TemporaryDirectory(prefix='french-source-checkout-') as temporary:
+            source_checkout = Path(temporary)
+            (source_checkout / 'media/elevenlabs').mkdir(parents=True)
+            m.ROOT = source_checkout
+            result = m.stage_release(str(self.bundle), self.plan_hash)
+            self.assertTrue(Path(result['stage']).is_relative_to(source_checkout))
+            self.assertEqual(m.activation.ROOT, self.root)
+            m.check_bundle(str(self.bundle), self.plan_hash)
+
     def test_corrupt_raw_receipt_is_rejected(self):
         (self.directory/'cache'/self.identity/'raw.mp3').write_bytes(b'corrupt')
         with self.assertRaises(m.SafeError): m.check_bundle(str(self.bundle), self.plan_hash)

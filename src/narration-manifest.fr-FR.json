@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "provider": "ElevenLabs",
   "provenance": "verified-api-response",
-  "sourcePlanHash": "04801def33b986804dc440b02cf5b9de54c7c3369f8729a12b25c18ffc5ef074",
+  "sourcePlanHash": "a5f73e03f4fe7b153b6ac252d01de599835240bf50e38061ccae33be23956fa7",
   "reviewStatus": "full-catalogue-review-pending",
   "review": {
     "operatorConfirmedReviewed": false,
@@ -39390,16 +39390,16 @@
       "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "castle/bridge-left-edge/hint": {
-      "src": "/narration/clip-4b8d3ba8d905959d7eaa36e3a6968c955283203a95aa4cf1326e53b4c7272f05.mp3",
-      "sha256": "4b8d3ba8d905959d7eaa36e3a6968c955283203a95aa4cf1326e53b4c7272f05",
-      "bytes": 48526,
-      "duration": 2.96,
+      "src": "/narration/clip-8b88fd4a98deb3941cc0e622d0f444946b1e940cb521388c33ea4f03c4cc25ec.mp3",
+      "sha256": "8b88fd4a98deb3941cc0e622d0f444946b1e940cb521388c33ea4f03c4cc25ec",
+      "bytes": 71514,
+      "duration": 4.4,
       "provider": "ElevenLabs",
-      "provenance": "verified-local-derivative",
+      "provenance": "verified-api-response",
       "model": "eleven_v4",
-      "cacheKey": "40a8767ab774b87c21c91f908044d877c01abfcd7a20374eb40d6a8d1d186be3",
+      "cacheKey": "798d7956b2d0c6786ac18fc0c8a5adf7f040c195739ce2062ff947baebf7c422",
       "encoding": {
-        "filter": "apad=whole_dur=4,loudnorm=I=-19.480:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
         "rate": 44100,
         "channels": 1,
         "bitrate": "128k",
@@ -39408,84 +39408,15 @@
       "generationSettings": {
         "inputs": [
           {
-            "text": "Pars de la porte et descends en biais vers la gauche.",
+            "text": "Pars de la porte. Trace un trait en biais, vers le bas et vers la gauche.",
             "voice_id": "tKaoyJLW05zqV0tIH9FD"
           }
         ],
         "model_id": "eleven_v4",
         "language_code": "fr"
       },
-      "text": "Pars de la porte et descends en biais vers la gauche.",
-      "voiceId": "tKaoyJLW05zqV0tIH9FD",
-      "source": {
-        "src": "/narration/clip-88fd5dc00582d1567600e5fbf9165e42c53ef40836487826ca691ab65d2c4502.mp3",
-        "sha256": "88fd5dc00582d1567600e5fbf9165e42c53ef40836487826ca691ab65d2c4502",
-        "bytes": 48526,
-        "duration": 2.96,
-        "provider": "ElevenLabs",
-        "provenance": "verified-api-response",
-        "model": "eleven_v4",
-        "cacheKey": "40a8767ab774b87c21c91f908044d877c01abfcd7a20374eb40d6a8d1d186be3",
-        "encoding": {
-          "filter": "loudnorm=I=-20:TP=-2:LRA=7",
-          "rate": 44100,
-          "channels": 1,
-          "bitrate": "128k",
-          "maxSeconds": 35
-        },
-        "generationSettings": {
-          "inputs": [
-            {
-              "text": "Pars de la porte et descends en biais vers la gauche.",
-              "voice_id": "tKaoyJLW05zqV0tIH9FD"
-            }
-          ],
-          "model_id": "eleven_v4",
-          "language_code": "fr"
-        },
-        "text": "Pars de la porte et descends en biais vers la gauche.",
-        "voiceId": "tKaoyJLW05zqV0tIH9FD"
-      },
-      "processing": {
-        "recipe": {
-          "version": 1,
-          "name": "short-speech-loudness",
-          "maximumSeconds": 3,
-          "correctionBelowLufs": -23,
-          "targetLufs": -20,
-          "maximumDecodedTruePeakDbtp": -2,
-          "paddingSeconds": 4,
-          "maximumPasses": 3,
-          "loudnessToleranceLu": 0.5,
-          "preserveDecodedSampleCount": true
-        },
-        "sourceSha256": "88fd5dc00582d1567600e5fbf9165e42c53ef40836487826ca691ab65d2c4502",
-        "rawSourceSha256": "4462b453f88fcd52adf323b6603cc3577bd56de2263841968a68963fef84371f",
-        "filterGraph": "apad=whole_dur=4,loudnorm=I=-19.480:TP=-2.5:LRA=7,aresample=44100,atrim=end_sample=130536",
-        "ffmpegVersion": "ffmpeg version 8.0.1-3ubuntu2+esm5 Copyright (c) 2000-2025 the FFmpeg developers",
-        "processingKey": "cb83ad6aa97420ed2987b00802bccba3daaaaf9902c8126377a9a253b1860a08",
-        "before": {
-          "integratedLufs": -23.07,
-          "truePeakDbtp": -2.48
-        },
-        "decodedVerification": {
-          "integratedLufs": -20.02,
-          "truePeakDbtp": -2.89
-        },
-        "decodedSamples": 130536,
-        "passes": [
-          {
-            "targetLufs": -20,
-            "integratedLufs": -20.52,
-            "truePeakDbtp": -2.92
-          },
-          {
-            "targetLufs": -19.48,
-            "integratedLufs": -20.02,
-            "truePeakDbtp": -2.89
-          }
-        ]
-      }
+      "text": "Pars de la porte. Trace un trait en biais, vers le bas et vers la gauche.",
+      "voiceId": "tKaoyJLW05zqV0tIH9FD"
     },
     "castle/bridge-right-edge/instruction": {
       "src": "/narration/clip-0159d6b96736f698e8b99186386d05b9bd38318c3cbc3d83a19d1573423b9cba.mp3",
@@ -44130,7 +44061,7 @@
       "loudnessToleranceLu": 0.5,
       "preserveDecodedSampleCount": true
     },
-    "correctedAssets": 26,
+    "correctedAssets": 25,
     "review": "automated loudness, true-peak and sample-count verification; human listening pending"
   }
 }

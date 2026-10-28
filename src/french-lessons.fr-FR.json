@@ -5380,7 +5380,7 @@
           "title": "Le bord gauche du pont",
           "instruction": "Incline un bord du pont vers l’extérieur et vers le bas.",
           "spoken": "Laisse le bord gauche du pont s’incliner vers nous. Le bout du pont près de nous sera plus large que celui qui rejoint le château.",
-          "hint": "Pars de la porte et descends en biais vers la gauche.",
+          "hint": "Pars de la porte. Trace un trait en biais, vers le bas et vers la gauche.",
           "notice": "Comparez les largeurs proche et lointaine du pont sur le modèle de l'enseignante. Une bande de papier peut servir à montrer un pont sur une surface séparée si cela aide. Demandez à l'enfant comment fonctionne sa porte imaginaire, sans exiger de précision technique."
         },
         "bridge-right-edge": {

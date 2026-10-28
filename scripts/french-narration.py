@@ -2,7 +2,8 @@
 """Validate and stage an already generated French bundle offline.
 
 No provider calls, credentials, retries or runtime activation. The bundle and
-cache must be in this checkout's ignored media/elevenlabs directory.
+cache may be read from an explicitly selected shared generation checkout;
+staged release files remain in this source checkout's ignored media directory.
 """
 import argparse
 import importlib.util
@@ -54,7 +55,7 @@ def checked_french_request(clip, spec, kind):
 
 def checked_french_receipt(clip, spec, data):
     _base_receipt(clip, spec, data)
-    folder = ROOT / 'media/elevenlabs/cache' / clip['cacheKey']
+    folder = activation.ROOT / 'media/elevenlabs/cache' / clip['cacheKey']
     receipt = activation.read_json(folder / 'receipt.json')
     raw = activation.read_bytes(folder / 'raw.mp3', activation.MAX_ASSET_BYTES)
     if not isinstance(receipt.get('rawSha256'), str) or generator.sha(raw) != receipt['rawSha256']:
@@ -138,7 +139,13 @@ def stage_release(selected, approved_plan_hash):
     directory = ROOT / 'media/elevenlabs'
     identity = generator.sha(generator.canonical(plan))
     destination = directory / ('french-release-' + identity)
-    activation.no_symlinks(directory)
+    # The shared cache is read-only; output remains inside this source checkout.
+    generation_root = activation.ROOT
+    try:
+        activation.ROOT = ROOT
+        activation.no_symlinks(directory)
+    finally:
+        activation.ROOT = generation_root
     if destination.exists() or destination.is_symlink():
         raise SafeError('Staged French release already exists; inspect it rather than overwrite it.')
     temporary = Path(tempfile.mkdtemp(prefix='.french-release-', dir=directory))
@@ -162,7 +169,10 @@ def main():
     group.add_argument('--verify-bundle', metavar='BUNDLE')
     group.add_argument('--stage-release', metavar='BUNDLE')
     parser.add_argument('--plan-hash', required=True, help='Approved canonical SHA-256 of the frozen plan.')
+    parser.add_argument('--shared-root', type=Path, help='Existing checkout holding the immutable generation cache and bundle.')
     args = parser.parse_args()
+    if args.shared_root:
+        activation.ROOT = args.shared_root.resolve()
     if args.stage_release:
         result = stage_release(args.stage_release, args.plan_hash)
     else:
