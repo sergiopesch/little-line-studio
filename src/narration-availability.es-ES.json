@@ -2,6 +2,28 @@
   "schemaVersion": 1,
   "locale": "es-ES",
   "lessons": [
-    "cat"
+    "apple",
+    "balloon",
+    "bird",
+    "butterfly",
+    "cactus",
+    "cat",
+    "dog",
+    "elephant",
+    "fish",
+    "flower",
+    "fox",
+    "house",
+    "ice-cream",
+    "ladybird",
+    "mushroom",
+    "owl",
+    "rainbow",
+    "robot",
+    "rocket",
+    "sailboat",
+    "sun",
+    "train",
+    "turtle"
   ]
 }
