@@ -1,0 +1,1280 @@
+{
+  "schemaVersion": 3,
+  "provider": "ElevenLabs",
+  "provenance": "verified-api-response",
+  "sourcePlanHash": "4e064f6ef366ef761bad3985359e9ac7849058c86ac04bc780cbb7aa33445996",
+  "reviewStatus": "demo-native-and-listening-review-pending",
+  "review": {
+    "operatorConfirmedReviewed": false,
+    "nativeSpeakerReview": "pending",
+    "fullHumanListeningReview": "pending",
+    "automatedChecks": [
+      "source text and Cat coverage",
+      "voice and request identity",
+      "receipts, hashes, encoding and full MP3 decode"
+    ]
+  },
+  "voice": "ElevenLabs pre-generated authored narration",
+  "audioSettings": {
+    "normalization": "loudnorm=I=-20:TP=-2:LRA=7",
+    "sampleRate": 44100,
+    "channels": 1,
+    "codec": "mp3",
+    "bitrate": "128k"
+  },
+  "clips": {
+    "sample": {
+      "src": "/narration/clip-b6d26066e716930c5161e25c9f41aa2e4e0de0e4ee086f54195a7f739e847927.mp3",
+      "sha256": "b6d26066e716930c5161e25c9f41aa2e4e0de0e4ee086f54195a7f739e847927",
+      "bytes": 103278,
+      "duration": 6.4,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "7dff0d0fa48e70b7d8aef020cb1b59603b9a9fbb6d2183b35aa1189fd8ce140e",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Hallo, wir zeichnen zusammen. Nimm ein Blatt Papier und deine Stifte. Fangen wir mit einer kleinen Linie an.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Hallo, wir zeichnen zusammen. Nimm ein Blatt Papier und deine Stifte. Fangen wir mit einer kleinen Linie an.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/notice/instruction": {
+      "src": "/narration/clip-6d3200f4208252d17821b1e2c9fab7218691752caa2f186663ebe30fb0b95006.mp3",
+      "sha256": "6d3200f4208252d17821b1e2c9fab7218691752caa2f186663ebe30fb0b95006",
+      "bytes": 185198,
+      "duration": 11.52,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "b11589d13f274066226747e8afac403d23bde8bddd1a57e44bff4207135620d4",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Schauen wir uns unsere Katze an. Eine große runde Form umschließt das Gesicht, und oben sitzen zwei kleine Ohren. Aus diesen einfachen Formen bauen wir das Bild auf, eine nach der anderen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Schauen wir uns unsere Katze an. Eine große runde Form umschließt das Gesicht, und oben sitzen zwei kleine Ohren. Aus diesen einfachen Formen bauen wir das Bild auf, eine nach der anderen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/notice/hint": {
+      "src": "/narration/clip-0c957a49ee598d4e88fe5d7e7989e05bbfa230869fc139ddaf0e64cecd021f24.mp3",
+      "sha256": "0c957a49ee598d4e88fe5d7e7989e05bbfa230869fc139ddaf0e64cecd021f24",
+      "bytes": 71514,
+      "duration": 4.4,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "de5d934d6fed5c9e9020087aab220a1ee45e440993d8cc0f0437fc5bbf8a9be7",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Schau, wo die Ohren auf den Kopf treffen, und suche dann die kleinen Augen darin.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Schau, wo die Ohren auf den Kopf treffen, und suche dann die kleinen Augen darin.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/round-head/instruction": {
+      "src": "/narration/clip-ccd59f4a8362a1881ad3546432a42afd831b064fd5004fdafe5741bfa6ca0609.mp3",
+      "sha256": "ccd59f4a8362a1881ad3546432a42afd831b064fd5004fdafe5741bfa6ca0609",
+      "bytes": 155941,
+      "duration": 9.68,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "1eba22defe217b0dc2690039ca738262801e99eecc05eed4e283de3140f90a5b",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Fangen wir mit einem breiten, runden Kopf an. Schau, wie meine Linie rundherum und wieder in Richtung Anfang läuft. In dieser großen Form ist Platz für das kleine Gesicht.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Fangen wir mit einem breiten, runden Kopf an. Schau, wie meine Linie rundherum und wieder in Richtung Anfang läuft. In dieser großen Form ist Platz für das kleine Gesicht.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/round-head/hint": {
+      "src": "/narration/clip-5d2e0e53b98deb840de2fc85ae32197dae8c87df733ac51b8e53a51c8f43f8ea.mp3",
+      "sha256": "5d2e0e53b98deb840de2fc85ae32197dae8c87df733ac51b8e53a51c8f43f8ea",
+      "bytes": 72767,
+      "duration": 4.48,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "a75dbe3a6905e7a2559f64c966081dcd9f7b1c893a2099d414b8df612ca09f41",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Bewege deine ganze Hand um die Kurve. Eine kleine Lücke ist auch in Ordnung.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Bewege deine ganze Hand um die Kurve. Eine kleine Lücke ist auch in Ordnung.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/left-ear/instruction": {
+      "src": "/narration/clip-70d3e8a7d07cf475d50440bf8f0b22e30002f93d9851bc0a2b2f05fab917f598.mp3",
+      "sha256": "70d3e8a7d07cf475d50440bf8f0b22e30002f93d9851bc0a2b2f05fab917f598",
+      "bytes": 170152,
+      "duration": 10.56,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "40d17fe2e53ebcb38df5755bbb4c9bfc598839d4c0cf49a5f583b95e3680a4f5",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Ein kleines Dreieck wird unser erstes Ohr. Zur Spitze hinauf und dann wieder zum Kopf hinunter. Katzen können ihre Ohren zu Geräuschen drehen. Unser gemaltes Ohr bleibt still.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Ein kleines Dreieck wird unser erstes Ohr. Zur Spitze hinauf und dann wieder zum Kopf hinunter. Katzen können ihre Ohren zu Geräuschen drehen. Unser gemaltes Ohr bleibt still.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/left-ear/hint": {
+      "src": "/narration/clip-385797e71fb90810755c9cc191c3d386b742cc684cc401d3eb87c52bd549ced1.mp3",
+      "sha256": "385797e71fb90810755c9cc191c3d386b742cc684cc401d3eb87c52bd549ced1",
+      "bytes": 88232,
+      "duration": 5.44,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "daa02b12f5a3cf081c81abb1c554b347603da27c29f354f3edd86dfc0d60cd10",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Suche die obere linke Seite des Kopfes. Gib deinem Dreieck eine sanfte Spitze.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Suche die obere linke Seite des Kopfes. Gib deinem Dreieck eine sanfte Spitze.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/right-ear/instruction": {
+      "src": "/narration/clip-9d87341b273cd572e693e49cff9c944d3b1735ef50fd7bc7b026d5f5cb54cbb1.mp3",
+      "sha256": "9d87341b273cd572e693e49cff9c944d3b1735ef50fd7bc7b026d5f5cb54cbb1",
+      "bytes": 80291,
+      "duration": 4.96,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "300cf2400056c19e0d0229eec9ee7c6a59a073397c4acabc87c937181e575bf4",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Jetzt kommt ein Dreieck auf die andere Seite. Lass ein wenig Platz zwischen den Ohren.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Jetzt kommt ein Dreieck auf die andere Seite. Lass ein wenig Platz zwischen den Ohren.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/right-ear/hint": {
+      "src": "/narration/clip-931c2ade179bf333f0d0ec62cab55cce58237a89987f66a4ad697c3a5d481a3b.mp3",
+      "sha256": "931c2ade179bf333f0d0ec62cab55cce58237a89987f66a4ad697c3a5d481a3b",
+      "bytes": 82798,
+      "duration": 5.12,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "2bc0c397c8a551ff1706ff48e3f000c23746fcf1e53110835628b4ae06d0f88f",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Deine Ohren dürfen unterschiedlich groß sein. Schau, wo jedes Ohr auf den Kopf trifft.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Deine Ohren dürfen unterschiedlich groß sein. Schau, wo jedes Ohr auf den Kopf trifft.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/left-eye/instruction": {
+      "src": "/narration/clip-3914be626b62fd84eed27f0fab707429582f37f60792f67eae732f34d7a8e745.mp3",
+      "sha256": "3914be626b62fd84eed27f0fab707429582f37f60792f67eae732f34d7a8e745",
+      "bytes": 132954,
+      "duration": 8.24,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "0f8ce16f4665d5a358303e21643b9f0c131b56369374b2231b63411594ce72b1",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Setze ein kleines dunkles Auge in den Kopf, ein wenig oberhalb der Mitte. Ein winziges Oval reicht. Schau, wie viel Platz wir darum lassen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Setze ein kleines dunkles Auge in den Kopf, ein wenig oberhalb der Mitte. Ein winziges Oval reicht. Schau, wie viel Platz wir darum lassen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/left-eye/hint": {
+      "src": "/narration/clip-26d08f9b61586902ab9aed2d2edf4fa16b09f0a00e5c8fc0c30ad63bc73e1631.mp3",
+      "sha256": "26d08f9b61586902ab9aed2d2edf4fa16b09f0a00e5c8fc0c30ad63bc73e1631",
+      "bytes": 79037,
+      "duration": 4.88,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "81dd8fbab5ee2a732e0ab045b8e6fa6c4026972054f3b69d96f79428fb412099",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Male einen kleinen Punkt oder ein Oval. Lass darunter noch Platz für die Nase.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Male einen kleinen Punkt oder ein Oval. Lass darunter noch Platz für die Nase.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/right-eye/instruction": {
+      "src": "/narration/clip-d1247e36b7a72020d73e60d35c8aa9613164e60012f7b02c11cf55561f3c070b.mp3",
+      "sha256": "d1247e36b7a72020d73e60d35c8aa9613164e60012f7b02c11cf55561f3c070b",
+      "bytes": 79037,
+      "duration": 4.88,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "b6e6b3cc35d48b256e56def38f58735dbf4862afc3b25d177f4298392d74b287",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Setze das andere kleine Auge gegenüber vom ersten. Lass etwas Platz dazwischen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Setze das andere kleine Auge gegenüber vom ersten. Lass etwas Platz dazwischen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/right-eye/hint": {
+      "src": "/narration/clip-0bb3c4ce27395875d386294832f1fd6fc10782527a2579f9348c74181b4bb372.mp3",
+      "sha256": "0bb3c4ce27395875d386294832f1fd6fc10782527a2579f9348c74181b4bb372",
+      "bytes": 76529,
+      "duration": 4.72,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "e1452778400d3daf39c345bd78c8f2e3d1b7ab1142ada0b7c33c8e8fa8a3ebf5",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Schau gegenüber von deinem ersten Auge. Die beiden Augen müssen nicht gleich aussehen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Schau gegenüber von deinem ersten Auge. Die beiden Augen müssen nicht gleich aussehen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/little-nose/instruction": {
+      "src": "/narration/clip-d04b7535748b26023c9560b2ecbd6600fec36981d4411ebdf11dc941cab88df7.mp3",
+      "sha256": "d04b7535748b26023c9560b2ecbd6600fec36981d4411ebdf11dc941cab88df7",
+      "bytes": 153434,
+      "duration": 9.52,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "d911eaee2328789148aca9250a0aa10233ce32e1c1ebcf65c1ba0fb8ddd9b4bf",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Zeichne unter den Augen ein winziges Dreieck, dessen Spitze nach unten zeigt. Das ist unsere Nase. Um die kleine Form herum bleibt im runden Gesicht noch Platz.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Zeichne unter den Augen ein winziges Dreieck, dessen Spitze nach unten zeigt. Das ist unsere Nase. Um die kleine Form herum bleibt im runden Gesicht noch Platz.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/little-nose/hint": {
+      "src": "/narration/clip-1a87285afe259b4def8dc56b76e1a7a733b3a11735a40af0031dcf7dcb90d393.mp3",
+      "sha256": "1a87285afe259b4def8dc56b76e1a7a733b3a11735a40af0031dcf7dcb90d393",
+      "bytes": 82798,
+      "duration": 5.12,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "763b8c8aff1148172ae3068547d8a9a994384a8e60eeccc36f37233bdbd7774e",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Ein winziges Dreieck oder ein Punkt kann etwas unterhalb zwischen den Augen sitzen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Ein winziges Dreieck oder ein Punkt kann etwas unterhalb zwischen den Augen sitzen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/curved-mouth/instruction": {
+      "src": "/narration/clip-43ceefcb8ba3355bcff7f7cc854295a371405ce26922fe0e292220bc8c844607.mp3",
+      "sha256": "43ceefcb8ba3355bcff7f7cc854295a371405ce26922fe0e292220bc8c844607",
+      "bytes": 164718,
+      "duration": 10.24,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "291b87440b2812f196f28d5a2544fff3ea024fcc208a4097e14a91c4794cd672",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Schau, wie zwei kleine Bögen unter der Nase zusammentreffen, wie ein weiches W. Diese Bögen bilden den freundlichen Mund auf unserem Bild. Deine Katze kann auch anders schauen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Schau, wie zwei kleine Bögen unter der Nase zusammentreffen, wie ein weiches W. Diese Bögen bilden den freundlichen Mund auf unserem Bild. Deine Katze kann auch anders schauen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/curved-mouth/hint": {
+      "src": "/narration/clip-c9eb391e688587a56521fd2b541ac1a32973618af763d7635cee0ee967c5f6c4.mp3",
+      "sha256": "c9eb391e688587a56521fd2b541ac1a32973618af763d7635cee0ee967c5f6c4",
+      "bytes": 84470,
+      "duration": 5.2,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "59fd847094af929a2ab8921fc04ea6aafadd21cfce679cc96d8b52b624c81acc",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Versuche erst einen Bogen und dann einen daneben. Ein einzelner Bogen ist auch gut.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Versuche erst einen Bogen und dann einen daneben. Ein einzelner Bogen ist auch gut.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/left-whisker-upper/instruction": {
+      "src": "/narration/clip-ed72f9dc2949e84b9791296458ee622564a969d49b702f17485cecc8a92d1c09.mp3",
+      "sha256": "ed72f9dc2949e84b9791296458ee622564a969d49b702f17485cecc8a92d1c09",
+      "bytes": 168898,
+      "duration": 10.48,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "19cb3cfdea8be668252c4717c4d4303235b40907f18b011da9ce25b2cae7e20d",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Lass eine leichte Linie von der linken Wange nach außen laufen. Das ist ein Schnurrhaar. Echte Katzen spüren damit Dinge in ihrer Nähe. Unsere Linien zeigen diese besonderen Haare.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Lass eine leichte Linie von der linken Wange nach außen laufen. Das ist ein Schnurrhaar. Echte Katzen spüren damit Dinge in ihrer Nähe. Unsere Linien zeigen diese besonderen Haare.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/left-whisker-upper/hint": {
+      "src": "/narration/clip-6898a5de44927839797ef0944f85cbc40c25f7dad22cfe200ee9ddba1b2ab982.mp3",
+      "sha256": "6898a5de44927839797ef0944f85cbc40c25f7dad22cfe200ee9ddba1b2ab982",
+      "bytes": 63990,
+      "duration": 3.92,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "94d9f7d083f59c93b6e3c3c67dc2d9066600f21cd5852df8f1c893648e96fdfa",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Beginne nahe an der Wange und lass deine Linie nach außen laufen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Beginne nahe an der Wange und lass deine Linie nach außen laufen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/left-whisker-middle/instruction": {
+      "src": "/narration/clip-96b690d45472dbd990608ef70ecf11ce80c37f5af1c527961ff53caa7f1ad591.mp3",
+      "sha256": "96b690d45472dbd990608ef70ecf11ce80c37f5af1c527961ff53caa7f1ad591",
+      "bytes": 71514,
+      "duration": 4.4,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "6dce8d552c50799c9c7091527603b725dfd4bcd2ccd10a2ddf5fe3148d745921",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Noch eine leichte Linie unter die erste. Lass ein wenig Platz dazwischen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Noch eine leichte Linie unter die erste. Lass ein wenig Platz dazwischen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/left-whisker-middle/hint": {
+      "src": "/narration/clip-6b1c82eb8eb98e8c9640005da3d793b3cf6337eff2c9e60be6629bb371f4814a.mp3",
+      "sha256": "6b1c82eb8eb98e8c9640005da3d793b3cf6337eff2c9e60be6629bb371f4814a",
+      "bytes": 89486,
+      "duration": 5.52,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "988e3e4cc0a4260e9de9be6e8722ae64fb66a33664b6845b768736d3f65cbd24",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Lass eine kleine Lücke zwischen deinen Linien. Dieses zusätzliche Schnurrhaar kannst du auch weglassen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Lass eine kleine Lücke zwischen deinen Linien. Dieses zusätzliche Schnurrhaar kannst du auch weglassen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/left-whisker-lower/instruction": {
+      "src": "/narration/clip-8a2ddfcce17644908caa9a1daef5cafaa63fa4b1ab361cba9c464299b0ad1d37.mp3",
+      "sha256": "8a2ddfcce17644908caa9a1daef5cafaa63fa4b1ab361cba9c464299b0ad1d37",
+      "bytes": 90740,
+      "duration": 5.6,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "34ee69f5a9292a0f162e4f26a56be6b76aed5f6ad4bb707ca5fd51718fce419b",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Noch eine Linie kann schräg nach unten zeigen, wie ein kleiner Fächer. Du kannst sie auch weglassen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Noch eine Linie kann schräg nach unten zeigen, wie ein kleiner Fächer. Du kannst sie auch weglassen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/left-whisker-lower/hint": {
+      "src": "/narration/clip-2cb65235fae56555875e060786cce23f26bdeaf4dbf0e86a2e655fb7a50d9a42.mp3",
+      "sha256": "2cb65235fae56555875e060786cce23f26bdeaf4dbf0e86a2e655fb7a50d9a42",
+      "bytes": 76529,
+      "duration": 4.72,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "02416f9b876e4703362d67dab02faa3f415914baa17324c7f11fc4908498a44f",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Eine kurze Linie geht auch. Dieses zusätzliche Schnurrhaar kannst du weglassen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Eine kurze Linie geht auch. Dieses zusätzliche Schnurrhaar kannst du weglassen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/right-whisker-upper/instruction": {
+      "src": "/narration/clip-1e4e02bcc437a5a418777cfd94ffd8c65334c82e368381f64bfaa8008e77a4d1.mp3",
+      "sha256": "1e4e02bcc437a5a418777cfd94ffd8c65334c82e368381f64bfaa8008e77a4d1",
+      "bytes": 157195,
+      "duration": 9.76,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "79f693efe200aa54bd0429555fc134d40b86325044003d3d26e8ddf648efda73",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Nun zur anderen Wange. Beginne nahe am Gesicht und ziehe eine Linie nach rechts außen. Schau, wie die Schnurrhaare unsere Katze breiter als ihren runden Kopf erscheinen lassen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Nun zur anderen Wange. Beginne nahe am Gesicht und ziehe eine Linie nach rechts außen. Schau, wie die Schnurrhaare unsere Katze breiter als ihren runden Kopf erscheinen lassen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/right-whisker-upper/hint": {
+      "src": "/narration/clip-dce494a2dffebd00a5eceea73c996b4606911f93b289f934591a14f79a51daef.mp3",
+      "sha256": "dce494a2dffebd00a5eceea73c996b4606911f93b289f934591a14f79a51daef",
+      "bytes": 95755,
+      "duration": 5.92,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "f578f9e69ed12916d18c9bea5ff91c9d42de9d27930c1f2f216a324181ba2e6c",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Bewege dich von der rechten Wange nach außen. Eine gebogene oder eine gerade Linie passen beide.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Bewege dich von der rechten Wange nach außen. Eine gebogene oder eine gerade Linie passen beide.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/right-whisker-middle/instruction": {
+      "src": "/narration/clip-4141d8a4124f29e82e1195778801c7aa0455f506a6fc7ca3c12f3e5b0bd5e360.mp3",
+      "sha256": "4141d8a4124f29e82e1195778801c7aa0455f506a6fc7ca3c12f3e5b0bd5e360",
+      "bytes": 84470,
+      "duration": 5.2,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "0d2563f28ab191e5761bdaf6228448794427ba34a0289ab47a61be0e68dbf328",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Zeichne noch ein leichtes Schnurrhaar und lass etwas Platz daneben. Du kannst es auch weglassen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Zeichne noch ein leichtes Schnurrhaar und lass etwas Platz daneben. Du kannst es auch weglassen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/right-whisker-middle/hint": {
+      "src": "/narration/clip-051ef30e9c5430144ca820b5cd1633b7efbad60f1534b0a49e214d0e3c8644d8.mp3",
+      "sha256": "051ef30e9c5430144ca820b5cd1633b7efbad60f1534b0a49e214d0e3c8644d8",
+      "bytes": 67752,
+      "duration": 4.16,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "e57fbc3d3ea0c6d311640789b84339c8229104fff771a9f7c6fbcfd9ad87a8dd",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Gib jeder Linie etwas Platz. Du kannst dieses Detail auch weglassen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Gib jeder Linie etwas Platz. Du kannst dieses Detail auch weglassen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/right-whisker-lower/instruction": {
+      "src": "/narration/clip-36212c9c01e9dd240843e1109323924e68788ab14dd065521d73bf0941325206.mp3",
+      "sha256": "36212c9c01e9dd240843e1109323924e68788ab14dd065521d73bf0941325206",
+      "bytes": 90740,
+      "duration": 5.6,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "47eea80f93af3bd513e70b7a8477f31ef9b4ed79d833f221553b9c73db6f30b0",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Ein letztes Schnurrhaar kann schräg nach unten zeigen. Deine beiden Seiten dürfen unterschiedlich sein.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Ein letztes Schnurrhaar kann schräg nach unten zeigen. Deine beiden Seiten dürfen unterschiedlich sein.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/right-whisker-lower/hint": {
+      "src": "/narration/clip-dc39c6214e8edcf906e88104cba1c62e1944fd20199995339b21c0a20ca8ed2c.mp3",
+      "sha256": "dc39c6214e8edcf906e88104cba1c62e1944fd20199995339b21c0a20ca8ed2c",
+      "bytes": 80291,
+      "duration": 4.96,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "d6ce2e43890193745c1df8ea30b910f1d358d8d2594e36243e5e08872bccf444",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Die beiden Seiten dürfen unterschiedlich sein. Zeichne so viele Schnurrhaare, wie du magst.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Die beiden Seiten dürfen unterschiedlich sein. Zeichne so viele Schnurrhaare, wie du magst.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-choice/instruction": {
+      "src": "/narration/clip-eec54c6ceb77d56449ee2aa922caad4b4613083c6d43a8ac46e6423f53a3221f.mp3",
+      "sha256": "eec54c6ceb77d56449ee2aa922caad4b4613083c6d43a8ac46e6423f53a3221f",
+      "bytes": 183945,
+      "duration": 11.44,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "8772f028b5b620caeccfaad5624f1a8b265e1c204921b6b49ac0319f1918c692",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Jetzt bringen wir Farbe in unsere Katze. Ich nehme ein warmes Orangebraun, Rosa und Creme, wie in einem Bilderbuch. Wähle Farben, die dir gefallen. Weißes Papier darf auch zu sehen bleiben.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Jetzt bringen wir Farbe in unsere Katze. Ich nehme ein warmes Orangebraun, Rosa und Creme, wie in einem Bilderbuch. Wähle Farben, die dir gefallen. Weißes Papier darf auch zu sehen bleiben.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-choice/hint": {
+      "src": "/narration/clip-ae80d751436c53ed221870898ff57684d9cace165c9f88166c0c2e877a9369d6.mp3",
+      "sha256": "ae80d751436c53ed221870898ff57684d9cace165c9f88166c0c2e877a9369d6",
+      "bytes": 82798,
+      "duration": 5.12,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "9f7dd51b01e982909652811d355e0224e294ff40081d5ab0f1668ac34893ce15",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Wenn du sehen möchtest, wie eine Farbe aussieht, probiere sie zuerst auf einem anderen Blatt aus.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Wenn du sehen möchtest, wie eine Farbe aussieht, probiere sie zuerst auf einem anderen Blatt aus.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-fur/instruction": {
+      "src": "/narration/clip-5b03ac3f1083303859a694364d88c9d368d028e582d20b9bebe6ff9e55d89996.mp3",
+      "sha256": "5b03ac3f1083303859a694364d88c9d368d028e582d20b9bebe6ff9e55d89996",
+      "bytes": 181437,
+      "duration": 11.28,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "34e85902a665eee86aaf3a2dae69aeaabe40ff121be4ed41d4ae5d40f814e507",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Schau, wie sanfte Striche auf der linken Wange und dem Ohr Farbe entstehen lassen. Kleine überlappende Striche ergeben eine weiche Fellfläche. Augen und Mund lasse ich frei, damit wir sie sehen können.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Schau, wie sanfte Striche auf der linken Wange und dem Ohr Farbe entstehen lassen. Kleine überlappende Striche ergeben eine weiche Fellfläche. Augen und Mund lasse ich frei, damit wir sie sehen können.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-fur/hint": {
+      "src": "/narration/clip-72fb1cef424961bdb93be8a33e3870d939869d90b3f28a29853b6f4938e2ca3b.mp3",
+      "sha256": "72fb1cef424961bdb93be8a33e3870d939869d90b3f28a29853b6f4938e2ca3b",
+      "bytes": 109966,
+      "duration": 6.8,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "72e06e65c5de999f4729b889a3d634be2b4fe60c727464393d80392939a813ee",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Leichte Striche können neben- und übereinanderliegen. Mit „Mehr Zeit“ hast du so viel Zeit, wie du möchtest.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Leichte Striche können neben- und übereinanderliegen. Mit „Mehr Zeit“ hast du so viel Zeit, wie du möchtest.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-fur-right/instruction": {
+      "src": "/narration/clip-0766ed32b9fdefb260ba73c3ff6a8f403eeb8a86fff46c376b67a02e08ce5a3e.mp3",
+      "sha256": "0766ed32b9fdefb260ba73c3ff6a8f403eeb8a86fff46c376b67a02e08ce5a3e",
+      "bytes": 167644,
+      "duration": 10.4,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "fae5c8efff9feba372e4c082ad4b15fd75ef12c052c3978d28f2120bfe278fea",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Male auch die andere Wange und das Ohr aus. Wenn wir uns eine kleine Fläche nach der anderen vornehmen, können wir entscheiden, wohin jeder Strich kommt. Weiße Stellen können Teil des Fells sein.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Male auch die andere Wange und das Ohr aus. Wenn wir uns eine kleine Fläche nach der anderen vornehmen, können wir entscheiden, wohin jeder Strich kommt. Weiße Stellen können Teil des Fells sein.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-fur-right/hint": {
+      "src": "/narration/clip-eef181842cb19cbf1f0bf06a53fc5778fcc314af6b0b9f43b35e82352a5c11a8.mp3",
+      "sha256": "eef181842cb19cbf1f0bf06a53fc5778fcc314af6b0b9f43b35e82352a5c11a8",
+      "bytes": 91994,
+      "duration": 5.68,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "123a4d13a9333c26cb492391737d82ac76507aa221810b54d37f66e088dff4ff",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Drehe dein Blatt, wenn es sich gut anfühlt. Deine Farbe kann hell, dunkel oder fleckig sein.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Drehe dein Blatt, wenn es sich gut anfühlt. Deine Farbe kann hell, dunkel oder fleckig sein.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-details/instruction": {
+      "src": "/narration/clip-aedd3115d1de93584505a9a0485e1ab5b4803df1ff0b39b37d1d7f396eeb876f.mp3",
+      "sha256": "aedd3115d1de93584505a9a0485e1ab5b4803df1ff0b39b37d1d7f396eeb876f",
+      "bytes": 162211,
+      "duration": 10.08,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "28cfbbd8f8512360796ba7f918fa050bc1507fb9a593b4e114fb25d7f46848ca",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Ich male Creme um den Mund und dann ein wenig Rosa in die Ohren und auf die Nase. Kleine Flächen brauchen nur wenige kleine Striche. Schau, wie diese helleren Stellen hervorstechen.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Ich male Creme um den Mund und dann ein wenig Rosa in die Ohren und auf die Nase. Kleine Flächen brauchen nur wenige kleine Striche. Schau, wie diese helleren Stellen hervorstechen.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-details/hint": {
+      "src": "/narration/clip-835afb295b794c4bf18a93f77f4abdfee4a897ca61cef6ab60c03b13924301c0.mp3",
+      "sha256": "835afb295b794c4bf18a93f77f4abdfee4a897ca61cef6ab60c03b13924301c0",
+      "bytes": 112474,
+      "duration": 6.96,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "ab91224ba3a298707d68fd724af9ef934b6fcea7cd3581f1d6218c9558e0e256",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Für eine winzige Fläche reichen ein paar sanfte Striche. Wähle deine eigenen Farben oder lass alles so, wie es ist.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Für eine winzige Fläche reichen ein paar sanfte Striche. Wähle deine eigenen Farben oder lass alles so, wie es ist.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-patterns/instruction": {
+      "src": "/narration/clip-280d3e991ed40aaa4430376607e9d80cabe7e45c69e9dff585253a77233eef47.mp3",
+      "sha256": "280d3e991ed40aaa4430376607e9d80cabe7e45c69e9dff585253a77233eef47",
+      "bytes": 194394,
+      "duration": 12.08,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "39fd019746c5ad800b87994a84de2375bf9ea85c2c913227a1e09d467d1c924e",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Ein paar dunklere orangebraune Striche ergeben ein Muster auf Stirn und Wangen meiner Katze. Die kleinen Streifen folgen dem runden Gesicht. Probiere dein eigenes Muster aus oder lass deine Katze so, wie sie ist.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Ein paar dunklere orangebraune Striche ergeben ein Muster auf Stirn und Wangen meiner Katze. Die kleinen Streifen folgen dem runden Gesicht. Probiere dein eigenes Muster aus oder lass deine Katze so, wie sie ist.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-patterns/hint": {
+      "src": "/narration/clip-35479b4c506784ca276e05eb330f726d3d3e40a58c51cc6ead41751f072e2cb7.mp3",
+      "sha256": "35479b4c506784ca276e05eb330f726d3d3e40a58c51cc6ead41751f072e2cb7",
+      "bytes": 70260,
+      "duration": 4.32,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "3361709ed6304f475f621ced4fbf09ba485487a97d1a220b8ad9c856d4db2671",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Ein Streifen oder Fleck kann schon reichen. Deine Katze braucht kein Muster.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Ein Streifen oder Fleck kann schon reichen. Deine Katze braucht kein Muster.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-reflection/instruction": {
+      "src": "/narration/clip-6a4946dc96a0e1e8f6ea2cc3c8006d266e07c67fc20ff6e2bdcac373e193c899.mp3",
+      "sha256": "6a4946dc96a0e1e8f6ea2cc3c8006d266e07c67fc20ff6e2bdcac373e193c899",
+      "bytes": 183945,
+      "duration": 11.44,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "2c5ed9a06ffd9f14a9d813d88c8ad89ecd809597289a621e0e32725957eaf2ec",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Schau dir das ganze Bild an. Wir haben große Formen, kleine Details und Farbschichten verwendet. Welcher Strich gefällt dir? Du kannst weitermalen, eine Idee hinzufügen oder hier aufhören.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Schau dir das ganze Bild an. Wir haben große Formen, kleine Details und Farbschichten verwendet. Welcher Strich gefällt dir? Du kannst weitermalen, eine Idee hinzufügen oder hier aufhören.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/colour-reflection/hint": {
+      "src": "/narration/clip-bace49a9d8b80c1b2e62cf76963d0a9a425bd505b62472136541910b302bcb63.mp3",
+      "sha256": "bace49a9d8b80c1b2e62cf76963d0a9a425bd505b62472136541910b302bcb63",
+      "bytes": 70260,
+      "duration": 4.32,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "84b177b087075beedafd8650dd4748722cf32b6d760bd233f3de956998226c02",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Du musst nichts erklären oder verändern. Du hast alle Zeit der Welt.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Du musst nichts erklären oder verändern. Du hast alle Zeit der Welt.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/explore/instruction": {
+      "src": "/narration/clip-8863b1b301b48d7213edfe0b0b99c5a12e7338156a6c6a601a129577c74b485e.mp3",
+      "sha256": "8863b1b301b48d7213edfe0b0b99c5a12e7338156a6c6a601a129577c74b485e",
+      "bytes": 170152,
+      "duration": 10.56,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "a915c72b149539c409810f559f9f0c299b920c43470866ca3b01c93c4568de49",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Jetzt ist Platz für deine eigenen Ideen. Vielleicht ein Hut, ein gemütliches Zuhause oder noch mehr Farbe? Du kannst so lange weitergestalten, wie du möchtest, oder hier aufhören.",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Jetzt ist Platz für deine eigenen Ideen. Vielleicht ein Hut, ein gemütliches Zuhause oder noch mehr Farbe? Du kannst so lange weitergestalten, wie du möchtest, oder hier aufhören.",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    },
+    "cat/explore/hint": {
+      "src": "/narration/clip-a8e04d77d4dc03a6fba8594bb12231c600ab04ef921b356c6728f0870a0a6cd5.mp3",
+      "sha256": "a8e04d77d4dc03a6fba8594bb12231c600ab04ef921b356c6728f0870a0a6cd5",
+      "bytes": 75275,
+      "duration": 4.64,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "6dbbc4f9dd511d08bf41dc8552d68f1c2ecb84d6d90e6d017a00c6657d010142",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Ein kleines Detail kann eine Geschichte erzählen. Was möchtest du hinzufügen?",
+            "voice_id": "5bVYvsqKAWO1hDgOO72l"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "de"
+      },
+      "text": "Ein kleines Detail kann eine Geschichte erzählen. Was möchtest du hinzufügen?",
+      "voiceId": "5bVYvsqKAWO1hDgOO72l"
+    }
+  },
+  "locale": "de-DE",
+  "selectedVoiceId": "5bVYvsqKAWO1hDgOO72l",
+  "coveredLessons": [
+    "cat"
+  ],
+  "partialCatalogue": true
+}

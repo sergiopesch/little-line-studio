@@ -3,16 +3,18 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { getLesson } from '../src/lesson-catalogue.js';
 import { getLanguage } from '../src/languages.js';
+import { releasedLessons } from '../src/narration-locales.js';
 import draft from '../research/german-draft/basic/cat.de-DE.mjs';
 import { validateGermanPilot } from '../scripts/validate-german-pilot.mjs';
 
 const lesson = getLesson('cat');
 const source = JSON.parse(readFileSync(new URL('../research/german-draft/basic/cat.de-DE.source.json', import.meta.url), 'utf8'));
-test('German pilot matches every source stage and remains unavailable', () => {
+test('German pilot matches every source stage and releases only the demo lesson', () => {
   const result = validateGermanPilot(lesson, draft, source);
   assert.equal(result.stages, lesson.steps.length);
   assert.equal(new Set(result.narrationKeys).size, lesson.steps.length * 2);
-  assert.equal(getLanguage('de-DE').ready, false);
+  assert.equal(getLanguage('de-DE').ready, true);
+  assert.deepEqual(releasedLessons('de-DE').map(item => item.id), ['cat']);
 });
 test('German pilot rejects source drift, stage omissions and unreviewed status changes', () => {
   assert.throws(() => validateGermanPilot({ ...lesson, title: 'Changed' }, draft, source), /source or geometry changed/);

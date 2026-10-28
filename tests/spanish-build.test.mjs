@@ -173,6 +173,21 @@ test("Spain release requires its exact current text, UI, voice and complete audi
   };
   for (const [name, value] of Object.entries(files)) writeFileSync(f.file(`src/${name}`), JSON.stringify(value));
   assert.equal(f.run().status, 0);
+  const partialFiles = structuredClone(files);
+  partialFiles[`narration-availability.${locale}.json`].lessons = ["cat"];
+  partialFiles[`narration-manifest.${locale}.json`].coveredLessons = ["cat"];
+  for (const kind of ["index", "durations"]) {
+    const entries = partialFiles[`narration-${kind}.${locale}.json`];
+    for (const key of Object.keys(entries)) if (key.startsWith("dog/")) delete entries[key];
+  }
+  const partialClips = partialFiles[`narration-manifest.${locale}.json`].clips;
+  for (const key of Object.keys(partialClips)) if (key.startsWith("dog/")) delete partialClips[key];
+  for (const [name, value] of Object.entries(partialFiles)) writeFileSync(f.file(`src/${name}`), JSON.stringify(value));
+  assert.equal(f.run().status, 0, "a complete single-lesson demo should package");
+  delete partialClips["cat/head/hint"];
+  writeFileSync(f.file(`src/narration-manifest.${locale}.json`), JSON.stringify(partialFiles[`narration-manifest.${locale}.json`]));
+  assert.notEqual(f.run().status, 0, "a partial demo must contain every instruction and hint");
+  for (const [name, value] of Object.entries(files)) writeFileSync(f.file(`src/${name}`), JSON.stringify(value));
   writeFileSync(f.file("src/spanish-ui.es-ES.json"), JSON.stringify({ Help: "Cambiada" }));
   assert.notEqual(f.run().status, 0, "stale Spain UI must fail the build");
   writeFileSync(f.file("src/spanish-ui.es-ES.json"), JSON.stringify(strings));

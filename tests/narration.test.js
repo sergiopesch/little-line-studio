@@ -358,6 +358,8 @@ test("all thirty lessons ship matching instruction/hint transcripts and intact r
   const packaged = (
     await readdir(new URL("../public/narration/", import.meta.url))
   ).filter((name) => name.endsWith(".mp3"));
+  const demoIndexes = await Promise.all(["es-ES", "de-DE", "it-IT"].map(async (locale) =>
+    JSON.parse(await readFile(new URL(`../src/narration-index.${locale}.json`, import.meta.url), "utf8"))));
   if (Object.keys(spanishIndex).length) {
     const spanishManifest = JSON.parse(await readFile(
       new URL("../src/narration-manifest.es-419.json", import.meta.url), "utf8",
@@ -370,7 +372,7 @@ test("all thirty lessons ship matching instruction/hint transcripts and intact r
   }
   assert.deepEqual(
     new Set(packaged),
-    new Set([...unique.keys(), ...[spanishIndex, frenchIndex, irishIndex, scottishIndex].flatMap(Object.values)].map((src) => src.split("/").at(-1))),
+    new Set([...unique.keys(), ...[spanishIndex, frenchIndex, irishIndex, scottishIndex, ...demoIndexes].flatMap(Object.values)].map((src) => src.split("/").at(-1))),
     "The public narration directory must contain only indexed locale clips",
   );
   assert.equal(unique.size, generationSources.size,

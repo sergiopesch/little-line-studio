@@ -1,0 +1,1280 @@
+{
+  "schemaVersion": 3,
+  "provider": "ElevenLabs",
+  "provenance": "verified-api-response",
+  "sourcePlanHash": "9feb0a240fe397dbca8dbe3d0ed67d66bed05c14323d5f7f26b574a2380154eb",
+  "reviewStatus": "demo-native-and-listening-review-pending",
+  "review": {
+    "operatorConfirmedReviewed": false,
+    "nativeSpeakerReview": "pending",
+    "fullHumanListeningReview": "pending",
+    "automatedChecks": [
+      "source text and Cat coverage",
+      "voice and request identity",
+      "receipts, hashes, encoding and full MP3 decode"
+    ]
+  },
+  "voice": "ElevenLabs pre-generated authored narration",
+  "audioSettings": {
+    "normalization": "loudnorm=I=-20:TP=-2:LRA=7",
+    "sampleRate": 44100,
+    "channels": 1,
+    "codec": "mp3",
+    "bitrate": "128k"
+  },
+  "clips": {
+    "sample": {
+      "src": "/narration/clip-9d65e1af7804cf522e11026ee9cc90c6d89312e20c2c38661204d53686e7ae75.mp3",
+      "sha256": "9d65e1af7804cf522e11026ee9cc90c6d89312e20c2c38661204d53686e7ae75",
+      "bytes": 107458,
+      "duration": 6.64,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "fdee5e2f4ed63e25181d639091d2dbf465eb69e2080124310982dcf052c77628",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Ciao, disegniamo insieme. Prendi un foglio e i tuoi colori. Cominciamo con una piccola linea.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Ciao, disegniamo insieme. Prendi un foglio e i tuoi colori. Cominciamo con una piccola linea.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/notice/instruction": {
+      "src": "/narration/clip-bb2c6f3d6bc51436616589b6c3d576c9067a165b7573d464400a804dc90a3975.mp3",
+      "sha256": "bb2c6f3d6bc51436616589b6c3d576c9067a165b7573d464400a804dc90a3975",
+      "bytes": 205678,
+      "duration": 12.8,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "88cec99d57bacb54b5f5dbaf8dc5cfe140abbf295ef7ceec5e66ed34d2bebc2c",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Guardiamo il nostro gatto. Una grande forma rotonda racchiude il viso e due piccole orecchie stanno in cima. Costruiremo il disegno con queste forme semplici, una alla volta.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Guardiamo il nostro gatto. Una grande forma rotonda racchiude il viso e due piccole orecchie stanno in cima. Costruiremo il disegno con queste forme semplici, una alla volta.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/notice/hint": {
+      "src": "/narration/clip-4e88ba5e2715a8791c07c2261c745d2173b57115c5db0b18402a6f60c7a6a063.mp3",
+      "sha256": "4e88ba5e2715a8791c07c2261c745d2173b57115c5db0b18402a6f60c7a6a063",
+      "bytes": 90740,
+      "duration": 5.6,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "59353dcde5bc8b37bf6ba8e1c18b22816421ba3162f97e59c1a6af77a9ce4b6d",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Guarda dove le orecchie incontrano la testa, poi cerca i piccoli occhi all’interno.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Guarda dove le orecchie incontrano la testa, poi cerca i piccoli occhi all’interno.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/round-head/instruction": {
+      "src": "/narration/clip-e356a521768de58784c91c3e4bb2e60a1eaa4b699a2865e83a87d3b8f0cd071f.mp3",
+      "sha256": "e356a521768de58784c91c3e4bb2e60a1eaa4b699a2865e83a87d3b8f0cd071f",
+      "bytes": 191886,
+      "duration": 11.92,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "734dcbb28369897b35708385541d806756f3d6f6a736bce2e7b147a6c7c5c961",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Cominciamo con una testa larga e rotonda. Guarda la mia linea: gira intorno e torna verso il punto di partenza. Questa grande forma lascia spazio per il visino all’interno.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Cominciamo con una testa larga e rotonda. Guarda la mia linea: gira intorno e torna verso il punto di partenza. Questa grande forma lascia spazio per il visino all’interno.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/round-head/hint": {
+      "src": "/narration/clip-2373eb06bd5b3720eb00e286618d3a89d6455feac1a67cfe5e987a1c97269619.mp3",
+      "sha256": "2373eb06bd5b3720eb00e286618d3a89d6455feac1a67cfe5e987a1c97269619",
+      "bytes": 85724,
+      "duration": 5.28,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "af73f86cad97edd153b47c0a1995f6e867f7bd2b5ce71c770a70fce82bdc016f",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Muovi tutta la mano lungo la curva. Va bene anche se rimane una piccola apertura.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Muovi tutta la mano lungo la curva. Va bene anche se rimane una piccola apertura.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/left-ear/instruction": {
+      "src": "/narration/clip-5e037feede4cb3052725dd56c7a381c4e54b80b9b526f1ad6042916bd90524f1.mp3",
+      "sha256": "5e037feede4cb3052725dd56c7a381c4e54b80b9b526f1ad6042916bd90524f1",
+      "bytes": 212366,
+      "duration": 13.2,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "8aebf86b68627fd06c8fe31645962dba894252d20343268ed36d0de73b5de9ed",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Un piccolo triangolo forma il primo orecchio. Sali fino a una punta, poi scendi verso la testa. I gatti possono girare le orecchie verso i suoni. Il nostro orecchio disegnato rimane fermo.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Un piccolo triangolo forma il primo orecchio. Sali fino a una punta, poi scendi verso la testa. I gatti possono girare le orecchie verso i suoni. Il nostro orecchio disegnato rimane fermo.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/left-ear/hint": {
+      "src": "/narration/clip-61b39efa5abc2a91d69066a1304cb5aab0ad7f57c75f62c52b28ced37424c342.mp3",
+      "sha256": "61b39efa5abc2a91d69066a1304cb5aab0ad7f57c75f62c52b28ced37424c342",
+      "bytes": 93247,
+      "duration": 5.76,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "2cb946d9e28d7a1ae1057a5a93932ef2c283c54b2f3468648efde42a2bb08196",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Cerca la parte in alto a sinistra della testa. Dai al triangolo una punta morbida.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Cerca la parte in alto a sinistra della testa. Dai al triangolo una punta morbida.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/right-ear/instruction": {
+      "src": "/narration/clip-5f2ea2d7da354fac808432fd7111fe6c4703c7f803caa3114a38a61c54665996.mp3",
+      "sha256": "5f2ea2d7da354fac808432fd7111fe6c4703c7f803caa3114a38a61c54665996",
+      "bytes": 86978,
+      "duration": 5.36,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "bcb76fb850dcc681cf2750344ed27cd46699bb5119ef1cef489ce04274e6e2b5",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Ora aggiungi un triangolo dall’altra parte. Lascia un po’ di spazio tra le orecchie.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Ora aggiungi un triangolo dall’altra parte. Lascia un po’ di spazio tra le orecchie.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/right-ear/hint": {
+      "src": "/narration/clip-b6f0901cb7303638f48213bc2e0e4dcaab6cacf212929b6be23fdf421287bca3.mp3",
+      "sha256": "b6f0901cb7303638f48213bc2e0e4dcaab6cacf212929b6be23fdf421287bca3",
+      "bytes": 100771,
+      "duration": 6.24,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "db236f41c7bdb685310d24df2adb0df2d3d85399d928c2692f721d339d384da8",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Le tue orecchie possono avere dimensioni diverse. Guarda dove ciascuna si unisce alla testa.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Le tue orecchie possono avere dimensioni diverse. Guarda dove ciascuna si unisce alla testa.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/left-eye/instruction": {
+      "src": "/narration/clip-26232bdd3b11d4ee60c808b24b180cbc1fefac5b3b2f7b658ff4dd6425fbf217.mp3",
+      "sha256": "26232bdd3b11d4ee60c808b24b180cbc1fefac5b3b2f7b658ff4dd6425fbf217",
+      "bytes": 145910,
+      "duration": 9.04,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "3464c71ef0f8d25b7ae3d78ab11c294f22aa42dfcb73f7f8fc565b7d7f28f649",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Metti un piccolo occhio scuro dentro la testa, un po’ sopra il centro. Basta un minuscolo ovale. Guarda quanto spazio lasciamo intorno.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Metti un piccolo occhio scuro dentro la testa, un po’ sopra il centro. Basta un minuscolo ovale. Guarda quanto spazio lasciamo intorno.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/left-eye/hint": {
+      "src": "/narration/clip-c0b636439080a7d322a594ead3ff364734ebe69360e67c54cb8c245f3f35cf4b.mp3",
+      "sha256": "c0b636439080a7d322a594ead3ff364734ebe69360e67c54cb8c245f3f35cf4b",
+      "bytes": 90740,
+      "duration": 5.6,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "68370621eeb8ea3afe15145b694c1cd12ecd44bd42b5b497d2add4412f3efaf7",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Fai un puntino o un piccolo ovale. Lascia un po’ di spazio sotto per il naso.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Fai un puntino o un piccolo ovale. Lascia un po’ di spazio sotto per il naso.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/right-eye/instruction": {
+      "src": "/narration/clip-852e55ec0c89165d9c8a8b5d143a36860ff6e0cbee8afb6dbe0803f4aaa4a8aa.mp3",
+      "sha256": "852e55ec0c89165d9c8a8b5d143a36860ff6e0cbee8afb6dbe0803f4aaa4a8aa",
+      "bytes": 88232,
+      "duration": 5.44,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "0f78e9df828ea8597abdaa99b311ff713a5fd444578c0b3b1a9fc76805254043",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Aggiungi l’altro piccolo occhio di fronte al primo. Lascia un po’ di spazio tra loro.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Aggiungi l’altro piccolo occhio di fronte al primo. Lascia un po’ di spazio tra loro.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/right-eye/hint": {
+      "src": "/narration/clip-e8dfbe5ea63c2a994b6221727e7ed66c14eb9b4106585623cf5d3cef26b24d2f.mp3",
+      "sha256": "e8dfbe5ea63c2a994b6221727e7ed66c14eb9b4106585623cf5d3cef26b24d2f",
+      "bytes": 93247,
+      "duration": 5.76,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "afa1af9bdeba251e86876a75a66d8bfe11c0e8d2537cadee65c4c04c8c67e452",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Guarda dall’altra parte rispetto al primo occhio. I due occhi non devono essere uguali.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Guarda dall’altra parte rispetto al primo occhio. I due occhi non devono essere uguali.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/little-nose/instruction": {
+      "src": "/narration/clip-839f2c9d6ae0fe7512797c02b35b47cf0f33b8b587f7573daae8a01fbc5d6bed.mp3",
+      "sha256": "839f2c9d6ae0fe7512797c02b35b47cf0f33b8b587f7573daae8a01fbc5d6bed",
+      "bytes": 189378,
+      "duration": 11.76,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "aa20123ede6ed18591cfde660eaf9aa0801ab379098032b717c3731040a88fe4",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Sotto gli occhi, disegna un minuscolo triangolo con la punta verso il basso. Questo è il nostro naso. Una forma piccola lascia un po’ di spazio intorno, dentro il viso rotondo.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Sotto gli occhi, disegna un minuscolo triangolo con la punta verso il basso. Questo è il nostro naso. Una forma piccola lascia un po’ di spazio intorno, dentro il viso rotondo.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/little-nose/hint": {
+      "src": "/narration/clip-5d6e4e9a27a0d4aac8d89546daef70b7ba147b88b08e35bfc1ed2ebe8c56c765.mp3",
+      "sha256": "5d6e4e9a27a0d4aac8d89546daef70b7ba147b88b08e35bfc1ed2ebe8c56c765",
+      "bytes": 88232,
+      "duration": 5.44,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "47d5453da826109d2d0e4209d78e85080ae7ad4ed02d68ecca2710adbd43e1ae",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Un piccolo triangolo o un puntino può stare tra gli occhi, un po’ più in basso.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Un piccolo triangolo o un puntino può stare tra gli occhi, un po’ più in basso.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/curved-mouth/instruction": {
+      "src": "/narration/clip-f08f17905e0a43d43fc417bea07cff3cafe2dc53be265f1d50f394d2edaa22a1.mp3",
+      "sha256": "f08f17905e0a43d43fc417bea07cff3cafe2dc53be265f1d50f394d2edaa22a1",
+      "bytes": 190632,
+      "duration": 11.84,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "5e4d3b7c7093f073b27450efb16b5339b703db548696e2b812683924cb148450",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Guarda due piccole curve che si incontrano sotto il naso, come una doppia vu morbida. Formano la bocca sorridente del nostro disegno. Puoi dare al tuo gatto un’espressione diversa.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Guarda due piccole curve che si incontrano sotto il naso, come una doppia vu morbida. Formano la bocca sorridente del nostro disegno. Puoi dare al tuo gatto un’espressione diversa.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/curved-mouth/hint": {
+      "src": "/narration/clip-20e44bb7f4865896fc4895708853a51e5104c8a03aae843a19fb5dbb5bf2eaf9.mp3",
+      "sha256": "20e44bb7f4865896fc4895708853a51e5104c8a03aae843a19fb5dbb5bf2eaf9",
+      "bytes": 82798,
+      "duration": 5.12,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "52ad4aefae752348ba7508cf9141177f9fffe984c8719e2db541526d330fd18b",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Prova una curva, poi un’altra accanto. Anche una sola curva va bene.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Prova una curva, poi un’altra accanto. Anche una sola curva va bene.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/left-whisker-upper/instruction": {
+      "src": "/narration/clip-ba1ece5be7682d3f248fbed478acde745fea817e7e3ad60abbd20a67f2ea4e7e.mp3",
+      "sha256": "ba1ece5be7682d3f248fbed478acde745fea817e7e3ad60abbd20a67f2ea4e7e",
+      "bytes": 201917,
+      "duration": 12.56,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "867bf480967fbd0dba815f2d0ea9864a02fe03896d9b05362ee94f4d97bb9cbd",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Lascia che una linea leggera esca dalla guancia sinistra. È un baffo. I gatti veri usano i baffi per percepire gli oggetti vicini. Le nostre linee rappresentano questi peli speciali.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Lascia che una linea leggera esca dalla guancia sinistra. È un baffo. I gatti veri usano i baffi per percepire gli oggetti vicini. Le nostre linee rappresentano questi peli speciali.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/left-whisker-upper/hint": {
+      "src": "/narration/clip-6f0062285b90da6e1ca9251e8d74d2f61ae2b93dc16ebde96eb5195f81161e21.mp3",
+      "sha256": "6f0062285b90da6e1ca9251e8d74d2f61ae2b93dc16ebde96eb5195f81161e21",
+      "bytes": 74021,
+      "duration": 4.56,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "0d5fa7e231f617228d285fabb81229da225f9327287e9fe9a09c421bb5d7d851",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Comincia vicino alla guancia e lascia andare la linea verso l’esterno.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Comincia vicino alla guancia e lascia andare la linea verso l’esterno.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/left-whisker-middle/instruction": {
+      "src": "/narration/clip-7c092af64f7a11b6a9bd6e31b4b51e455728e1566a80bd6d776e088e9a7a114b.mp3",
+      "sha256": "7c092af64f7a11b6a9bd6e31b4b51e455728e1566a80bd6d776e088e9a7a114b",
+      "bytes": 69006,
+      "duration": 4.24,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "1d4432e58365ab945de2f58c15a7b3ccf65adb296051de49d1d6b6193bc5a4a5",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Un’altra linea leggera sotto la prima. Lascia un po’ di spazio.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Un’altra linea leggera sotto la prima. Lascia un po’ di spazio.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/left-whisker-middle/hint": {
+      "src": "/narration/clip-225d6b39f9eca5d065663f569f7d16f17ccb587c1d24f15cea81c7e77f6e147b.mp3",
+      "sha256": "225d6b39f9eca5d065663f569f7d16f17ccb587c1d24f15cea81c7e77f6e147b",
+      "bytes": 81545,
+      "duration": 5.04,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "bd186b816c4c287c19a99d308d30812c4dadea8f3a01b3d7ef50d0823d5e6988",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Lascia un piccolo spazio tra le linee. Questo baffo in più è facoltativo.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Lascia un piccolo spazio tra le linee. Questo baffo in più è facoltativo.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/left-whisker-lower/instruction": {
+      "src": "/narration/clip-cd22fbae2184a6cc6fa5503c648e8f6f76d0a65061b4083460f971b321a07a8c.mp3",
+      "sha256": "cd22fbae2184a6cc6fa5503c648e8f6f76d0a65061b4083460f971b321a07a8c",
+      "bytes": 98263,
+      "duration": 6.08,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "9b1e6fdcaeec9875f09c3e7d6b64304984c33c13e10322a1e90e81f84bc2fb68",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Un’altra linea può scendere un po’, come un piccolo ventaglio. Puoi anche non disegnarla.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Un’altra linea può scendere un po’, come un piccolo ventaglio. Puoi anche non disegnarla.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/left-whisker-lower/hint": {
+      "src": "/narration/clip-f9f9cd5b955794b3de04b11fc9b014f6a37d4a4f64cff63d6a8c50e38545c812.mp3",
+      "sha256": "f9f9cd5b955794b3de04b11fc9b014f6a37d4a4f64cff63d6a8c50e38545c812",
+      "bytes": 67752,
+      "duration": 4.16,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "6f18261841545098b45bf273e04f5788ede7aedbf92a85c553f2ad60c9980b45",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Va bene anche una linea corta. Puoi lasciare fuori questo baffo in più.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Va bene anche una linea corta. Puoi lasciare fuori questo baffo in più.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/right-whisker-upper/instruction": {
+      "src": "/narration/clip-abb75e1bef1519f97cf0f0062d08621e64535009beebcaf44de2cda342ca510b.mp3",
+      "sha256": "abb75e1bef1519f97cf0f0062d08621e64535009beebcaf44de2cda342ca510b",
+      "bytes": 172660,
+      "duration": 10.72,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "b311c50c4ea41f174a6d9be1e4af75df3a75e89520a6eaa8d934076bcef4a86a",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Andiamo all’altra guancia. Parti vicino al viso e porta una linea verso destra. Guarda come i baffi fanno sembrare il gatto più largo della sua testa rotonda.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Andiamo all’altra guancia. Parti vicino al viso e porta una linea verso destra. Guarda come i baffi fanno sembrare il gatto più largo della sua testa rotonda.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/right-whisker-upper/hint": {
+      "src": "/narration/clip-6c6f8fb011548fbfc114337ffa67906dd54b5631627c4a57698ee2ec68a381ae.mp3",
+      "sha256": "6c6f8fb011548fbfc114337ffa67906dd54b5631627c4a57698ee2ec68a381ae",
+      "bytes": 79037,
+      "duration": 4.88,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "423747d3f4a397e19832d116219d2fbb1f63a109472ee1e941cd113a7d64e736",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Allontanati dalla guancia destra. Puoi fare una linea curva o dritta.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Allontanati dalla guancia destra. Puoi fare una linea curva o dritta.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/right-whisker-middle/instruction": {
+      "src": "/narration/clip-d9c8d19bcf940d060bd0b646d62d51e684fca58351c836cf9cc638f492f6411b.mp3",
+      "sha256": "d9c8d19bcf940d060bd0b646d62d51e684fca58351c836cf9cc638f492f6411b",
+      "bytes": 81545,
+      "duration": 5.04,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "d59e2a6cf78ab6b61896f20db1347fad295d2851e9d31ff532770c8910a8275e",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Aggiungi un altro baffo leggero, lasciando un po’ di spazio. È facoltativo.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Aggiungi un altro baffo leggero, lasciando un po’ di spazio. È facoltativo.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/right-whisker-middle/hint": {
+      "src": "/narration/clip-4a8a60d50eb654d35ca197ce6b5584a47706fb4e34c4bf6c66d346538e3454fd.mp3",
+      "sha256": "4a8a60d50eb654d35ca197ce6b5584a47706fb4e34c4bf6c66d346538e3454fd",
+      "bytes": 75275,
+      "duration": 4.64,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "bcc11256e381dba51d4a3a679da0304e7b20bfc03360048be6e14d4c6b9fd181",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Lascia un po’ di spazio a ogni linea. Puoi anche saltare questo dettaglio.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Lascia un po’ di spazio a ogni linea. Puoi anche saltare questo dettaglio.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/right-whisker-lower/instruction": {
+      "src": "/narration/clip-62ebc8244c14720e85ed547dcf12de9ce38424bb3911d4b54ac0e5782a3d6385.mp3",
+      "sha256": "62ebc8244c14720e85ed547dcf12de9ce38424bb3911d4b54ac0e5782a3d6385",
+      "bytes": 80291,
+      "duration": 4.96,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "d4d98f0c5bcb89af1b42e7b43a2141c1891a72c3d2a3ac36a867a1b713388a82",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Un ultimo baffo può scendere un po’. I due lati possono essere diversi.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Un ultimo baffo può scendere un po’. I due lati possono essere diversi.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/right-whisker-lower/hint": {
+      "src": "/narration/clip-4a13062cb079e09b622afe035d5623c9f1a589cf0b19322bd362c418b9f4e8ab.mp3",
+      "sha256": "4a13062cb079e09b622afe035d5623c9f1a589cf0b19322bd362c418b9f4e8ab",
+      "bytes": 76529,
+      "duration": 4.72,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "467fb5e88b63aff1a0279a4133495016923728ff3d796fc43af1c768a9d86110",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "I due lati possono essere diversi. Disegna tutti i baffi che vuoi.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "I due lati possono essere diversi. Disegna tutti i baffi che vuoi.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-choice/instruction": {
+      "src": "/narration/clip-2f94eeb3974eb820115b1ddad042d419765d2933672a54d2a2c8063fa0ad0336.mp3",
+      "sha256": "2f94eeb3974eb820115b1ddad042d419765d2933672a54d2a2c8063fa0ad0336",
+      "bytes": 193140,
+      "duration": 12.0,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "55f2d7f05758ddc3e4452e40c9643a2b0990af20e8fb235adfe75bd7a67846c1",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Ora diamo colore al nostro gatto. Io scelgo un arancione caldo, rosa e crema, come in un libro di fiabe. Scegli i colori che ti piacciono. Puoi anche lasciare bianca la carta.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Ora diamo colore al nostro gatto. Io scelgo un arancione caldo, rosa e crema, come in un libro di fiabe. Scegli i colori che ti piacciono. Puoi anche lasciare bianca la carta.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-choice/hint": {
+      "src": "/narration/clip-e93bd5aae7a4cbd842ce9c5e0cff7294befc0468ab56203ca41ce3dcf318f9b6.mp3",
+      "sha256": "e93bd5aae7a4cbd842ce9c5e0cff7294befc0468ab56203ca41ce3dcf318f9b6",
+      "bytes": 71514,
+      "duration": 4.4,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "d2b7e219f805c99eaeed75574c490e6300a74ac82c62752acedcf351b6194d47",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Se vuoi vedere come appare un colore, provalo prima su un foglio di prova.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Se vuoi vedere come appare un colore, provalo prima su un foglio di prova.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-fur/instruction": {
+      "src": "/narration/clip-62c4cf5be0bda74b592ecde5df53e70d51103f9a2a3909dd64d0b1ddb14722d1.mp3",
+      "sha256": "62c4cf5be0bda74b592ecde5df53e70d51103f9a2a3909dd64d0b1ddb14722d1",
+      "bytes": 214874,
+      "duration": 13.36,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "21fb57eb640499c48813caf1806a2d013f5f8b9d67b4a5028b43f2629cffa0c6",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Guarda i segni leggeri che danno colore alla guancia e all’orecchio sinistri. Piccoli tratti sovrapposti creano una zona morbida come il pelo. Lascio liberi gli occhi e la bocca, così possiamo vederli.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Guarda i segni leggeri che danno colore alla guancia e all’orecchio sinistri. Piccoli tratti sovrapposti creano una zona morbida come il pelo. Lascio liberi gli occhi e la bocca, così possiamo vederli.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-fur/hint": {
+      "src": "/narration/clip-33d4868a4c152b33986014459fdf9aad15b841e57beaa63416af3313eed4b338.mp3",
+      "sha256": "33d4868a4c152b33986014459fdf9aad15b841e57beaa63416af3313eed4b338",
+      "bytes": 132954,
+      "duration": 8.24,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "79502bfef31ccde1453c771d9d88c5d3f13e2b5bacc0d1d55b5daf44e3a4518c",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "I segni leggeri possono stare uno accanto all’altro e sovrapporsi. Con Più tempo puoi prenderti tutto il tempo che vuoi.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "I segni leggeri possono stare uno accanto all’altro e sovrapporsi. Con Più tempo puoi prenderti tutto il tempo che vuoi.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-fur-right/instruction": {
+      "src": "/narration/clip-474ab69d9d3152521f50c39f53e7e1604ceff5d3bd825327276bd0294a86c704.mp3",
+      "sha256": "474ab69d9d3152521f50c39f53e7e1604ceff5d3bd825327276bd0294a86c704",
+      "bytes": 193140,
+      "duration": 12.0,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "5ca518e7b3ea2a5508e0f5348dc4f137c364d50ca608fc7cd648f18c1fcc0190",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Porta il colore sull’altra guancia e sull’orecchio. Lavorare su una piccola zona alla volta ci aiuta a scegliere dove mettere ogni segno. Anche gli spazi bianchi possono far parte del pelo.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Porta il colore sull’altra guancia e sull’orecchio. Lavorare su una piccola zona alla volta ci aiuta a scegliere dove mettere ogni segno. Anche gli spazi bianchi possono far parte del pelo.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-fur-right/hint": {
+      "src": "/narration/clip-cdef48f0e5fad17f919c319bff27a61f62a1a03985d7c70f12e81d2e59c61289.mp3",
+      "sha256": "cdef48f0e5fad17f919c319bff27a61f62a1a03985d7c70f12e81d2e59c61289",
+      "bytes": 93247,
+      "duration": 5.76,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "e4f640ee68826bb64b0d1336bf5b53489b07c55fc8efd7a161a014a435939bc6",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Gira il foglio se ti è comodo. Il colore può essere chiaro, scuro o a macchie.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Gira il foglio se ti è comodo. Il colore può essere chiaro, scuro o a macchie.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-details/instruction": {
+      "src": "/narration/clip-5bf028d2058f28a69329014d4b3912de48aa6de859363668923a3e9dcae8218b.mp3",
+      "sha256": "5bf028d2058f28a69329014d4b3912de48aa6de859363668923a3e9dcae8218b",
+      "bytes": 195647,
+      "duration": 12.16,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "9712fa02b14bea56c0310721e682d50b5a7d414c023b221c7961a197e50db0a6",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Aggiungo il crema intorno alla bocca, poi un po’ di rosa dentro le orecchie e sul naso. Negli spazi piccoli bastano pochi piccoli segni. Guarda come risaltano queste zone più chiare.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Aggiungo il crema intorno alla bocca, poi un po’ di rosa dentro le orecchie e sul naso. Negli spazi piccoli bastano pochi piccoli segni. Guarda come risaltano queste zone più chiare.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-details/hint": {
+      "src": "/narration/clip-b077a159784379754e3a694d50e78a3ea41d52339534bb8c98f667457e8f66dd.mp3",
+      "sha256": "b077a159784379754e3a694d50e78a3ea41d52339534bb8c98f667457e8f66dd",
+      "bytes": 112474,
+      "duration": 6.96,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "d8d5ccff5ad34f93a8a6418e100aeff9c1a70bd069f449fe0a66fa9b10cbbd41",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Per una zona piccolissima bastano pochi segni leggeri. Scegli i tuoi colori o lascia tutto com’è.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Per una zona piccolissima bastano pochi segni leggeri. Scegli i tuoi colori o lascia tutto com’è.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-patterns/instruction": {
+      "src": "/narration/clip-699fab97d15f4a1ccd9aba57856f804fc666efbf32d26cfa6c6d73b3272e55a1.mp3",
+      "sha256": "699fab97d15f4a1ccd9aba57856f804fc666efbf32d26cfa6c6d73b3272e55a1",
+      "bytes": 218635,
+      "duration": 13.6,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "6c5fa29a012e287324bab4bf631ae15808bfb9962430e95e8ff1a00497b797b2",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Qualche segno arancione più scuro crea un motivo sulla fronte e sulle guance del mio gatto. Queste piccole strisce seguono il viso rotondo. Prova un motivo tutto tuo, oppure lascia il gatto proprio com’è.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Qualche segno arancione più scuro crea un motivo sulla fronte e sulle guance del mio gatto. Queste piccole strisce seguono il viso rotondo. Prova un motivo tutto tuo, oppure lascia il gatto proprio com’è.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-patterns/hint": {
+      "src": "/narration/clip-ffa0b9355282b5b9494ad41cba53ab70e76d24f6db1f701e622ed99b990842f7.mp3",
+      "sha256": "ffa0b9355282b5b9494ad41cba53ab70e76d24f6db1f701e622ed99b990842f7",
+      "bytes": 86978,
+      "duration": 5.36,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "e1ed1541f0c14c81a372b05efa1c90ed15b648b6eb7caf0e00ca669ce48f8292",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Può bastare una striscia o una macchia. Il tuo gatto non ha bisogno di un motivo.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Può bastare una striscia o una macchia. Il tuo gatto non ha bisogno di un motivo.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-reflection/instruction": {
+      "src": "/narration/clip-171df83a8f402c7c1640cc18c5cf6de685dbe4ed3b3ceaa53a18cc5656a5e58d.mp3",
+      "sha256": "171df83a8f402c7c1640cc18c5cf6de685dbe4ed3b3ceaa53a18cc5656a5e58d",
+      "bytes": 194394,
+      "duration": 12.08,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "cd39352bc40e4d86b2a3e19a150e9c5ff8bbbf02a295f82664998b3cc06fe74b",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Guarda tutto il disegno. Abbiamo usato forme grandi, piccoli dettagli e strati di colore. Quale segno ti piace? Puoi continuare a colorare, aggiungere un’idea o finire qui.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Guarda tutto il disegno. Abbiamo usato forme grandi, piccoli dettagli e strati di colore. Quale segno ti piace? Puoi continuare a colorare, aggiungere un’idea o finire qui.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/colour-reflection/hint": {
+      "src": "/narration/clip-b54d4ea85031a5b7022eae6b49ecc0db8be6ecf0125c84c51bd7951a304ab229.mp3",
+      "sha256": "b54d4ea85031a5b7022eae6b49ecc0db8be6ecf0125c84c51bd7951a304ab229",
+      "bytes": 71514,
+      "duration": 4.4,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "1bcd177b6fa9b1640ea3a5cadc4e02aca696b235b1dbf508eaa8b51f15954814",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Non devi spiegare o cambiare niente. Non c’è fretta di finire.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Non devi spiegare o cambiare niente. Non c’è fretta di finire.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/explore/instruction": {
+      "src": "/narration/clip-949e8690ad1ce13efa6c875cd8d14996166e68e8b0d00acf57f0516a5121a3ea.mp3",
+      "sha256": "949e8690ad1ce13efa6c875cd8d14996166e68e8b0d00acf57f0516a5121a3ea",
+      "bytes": 196901,
+      "duration": 12.24,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "e432c8a8b966374eeb6380cfc397810f3e18a76348c4979f5457ca7ae16ecca0",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Il nostro gatto è pronto per le tue idee. Magari un cappello, una casa accogliente o ancora un po’ di colore. Puoi continuare a creare per tutto il tempo che vuoi, oppure finire qui.",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Il nostro gatto è pronto per le tue idee. Magari un cappello, una casa accogliente o ancora un po’ di colore. Puoi continuare a creare per tutto il tempo che vuoi, oppure finire qui.",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    },
+    "cat/explore/hint": {
+      "src": "/narration/clip-47b4fa65626d5d57dc66cdf474bd43389ebb57edcdc710dfd523566a4491aa04.mp3",
+      "sha256": "47b4fa65626d5d57dc66cdf474bd43389ebb57edcdc710dfd523566a4491aa04",
+      "bytes": 86978,
+      "duration": 5.36,
+      "provider": "ElevenLabs",
+      "provenance": "verified-api-response",
+      "model": "eleven_v4",
+      "cacheKey": "94ca4502fe6a2c37eb45464726db9695f5fd75404a765b33ade23e439cc82b61",
+      "encoding": {
+        "filter": "loudnorm=I=-20:TP=-2:LRA=7",
+        "rate": 44100,
+        "channels": 1,
+        "bitrate": "128k",
+        "maxSeconds": 35
+      },
+      "generationSettings": {
+        "inputs": [
+          {
+            "text": "Un piccolo dettaglio può raccontare una storia. Che cosa ti piacerebbe aggiungere?",
+            "voice_id": "wOXFTxgu7FQDBb1dsL7I"
+          }
+        ],
+        "model_id": "eleven_v4",
+        "language_code": "it"
+      },
+      "text": "Un piccolo dettaglio può raccontare una storia. Che cosa ti piacerebbe aggiungere?",
+      "voiceId": "wOXFTxgu7FQDBb1dsL7I"
+    }
+  },
+  "locale": "it-IT",
+  "selectedVoiceId": "wOXFTxgu7FQDBb1dsL7I",
+  "coveredLessons": [
+    "cat"
+  ],
+  "partialCatalogue": true
+}

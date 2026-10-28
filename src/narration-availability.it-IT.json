@@ -1,1 +1,7 @@
-{"schemaVersion":1,"locale":"it-IT","lessons":[]}
+{
+  "schemaVersion": 1,
+  "locale": "it-IT",
+  "lessons": [
+    "cat"
+  ]
+}

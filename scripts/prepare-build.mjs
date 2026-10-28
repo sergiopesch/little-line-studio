@@ -140,7 +140,8 @@ async function validateAdditionalLocale(locale, voice, sampleFile, translateLess
       !Array.isArray(descriptor.lessons) || !isRecord(clipIndex) || !isRecord(durations) ||
       descriptor.lessons.some((id, index, ids) => typeof id !== "string" || !byId.has(id) ||
         (index > 0 && ids[index - 1] >= id))) throw new Error(`Invalid ${locale} availability`);
-  if (descriptor.lessons.length && descriptor.lessons.length !== LESSONS.length)
+  if (descriptor.lessons.length && descriptor.lessons.length !== LESSONS.length &&
+      !["es-ES", "de-DE", "it-IT"].includes(locale))
     throw new Error(`${locale} must include the complete catalogue`);
   if (locale === "fr-FR" && descriptor.lessons.length) {
     let source, runtime;
