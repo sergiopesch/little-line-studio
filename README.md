@@ -40,8 +40,7 @@ We are building toward accessible, multilingual drawing practice with clear adul
 | British, Irish and Scottish English | All 30 lessons, with separate prepared voices and hints |
 | Latin American Spanish | All 30 lessons, with Venezuelan-accented Carito narration and hints |
 | French | All 30 lessons, with prepared narration and hints |
-| Spain Spanish, German and Italian | Recorded demo lessons enabled; see the [exact catalogue coverage](docs/audio-catalogue-status.md) |
-| Dutch | In preparation |
+| Spain Spanish, German, Italian and Dutch | All 30 lessons, with separate prepared voices and hints; see [catalogue coverage](docs/audio-catalogue-status.md) |
 | Teaching | Stories, observation, native tldraw demonstrations, colouring and open exploration |
 | Sound | Prepared voice recordings and optional instrumental music, served with the site |
 | Family controls | Adult setup, unlimited pause/replay/more time, mute and interruption handling |
