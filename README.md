@@ -40,13 +40,14 @@ We are building toward accessible, multilingual drawing practice with clear adul
 | British, Irish and Scottish English | All 30 lessons, with separate prepared voices and hints |
 | Latin American Spanish | All 30 lessons, with Venezuelan-accented Carito narration and hints |
 | French | All 30 lessons, with prepared narration and hints |
-| Other languages | German, Italian and Dutch shown as preparing |
+| Spain Spanish, German and Italian | Recorded demo lessons enabled; see the [exact catalogue coverage](docs/audio-catalogue-status.md) |
+| Dutch | In preparation |
 | Teaching | Stories, observation, native tldraw demonstrations, colouring and open exploration |
 | Sound | Prepared voice recordings and optional instrumental music, served with the site |
 | Family controls | Adult setup, unlimited pause/replay/more time, mute and interruption handling |
 | Accessibility | Large labelled controls, keyboard focus, reduced motion and text instructions |
 
-The new French, Irish and Scottish catalogues and the Spanish catalogue have passed automated preparation checks. Independent native-speaker review and full human listening remain pending; French text has received assistant editorial review. Levels describe drawing complexity, not age, ability or an assessment of a child.
+The released catalogues have passed automated source, coverage and audio-integrity checks. Independent native-speaker review and full human listening remain pending; French text has received assistant editorial review. Levels describe drawing complexity, not age, ability or an assessment of a child.
 
 ## Paper first, parent supervised
 
