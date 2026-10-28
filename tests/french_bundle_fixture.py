@@ -1,6 +1,7 @@
 """Offline synthetic French bundle tests; never uses credentials or provider APIs."""
 import importlib.util
 import json
+import shutil
 from pathlib import Path
 import subprocess
 import tempfile
@@ -11,6 +12,8 @@ ROOT = Path(__file__).resolve().parent.parent
 spec = importlib.util.spec_from_file_location('french_bundle', ROOT / 'scripts/french-narration.py')
 m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
 
+@unittest.skipUnless(shutil.which('ffmpeg') and shutil.which('ffprobe'),
+                     'synthetic audio fixtures require ffmpeg and ffprobe')
 class FrenchBundleFixture(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory(prefix='french-bundle-test-')

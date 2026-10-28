@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import shutil
 import subprocess
 from pathlib import Path
 import tempfile
@@ -27,6 +28,8 @@ class ScotlandPlanTests(unittest.TestCase):
             self.assertEqual(request['payload']['model_id'], s.MODEL)
             self.assertEqual(identity, s.gen.sha(s.gen.canonical({k: v for k, v in request.items() if k not in ('cacheKey', 'estimatedUsd')})))
 
+@unittest.skipUnless(shutil.which('ffmpeg') and shutil.which('ffprobe'),
+                     'synthetic audio fixtures require ffmpeg and ffprobe')
 class ScotlandBundleTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
