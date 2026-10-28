@@ -57,7 +57,7 @@ def plans():
         output.append(plan)
     return output
 
-def execute(all_plans, shared_root):
+def execute(all_plans, shared_root, cap=CAP, *, lock_path=Path('/tmp/little-line-language-auditions.lock')):
     shared_root = shared_root.resolve()
     directory = shared_root / 'media/elevenlabs'
     ledger = directory / 'multilingual-account-ledger.json'
@@ -67,8 +67,10 @@ def execute(all_plans, shared_root):
         raise ValueError('ffmpeg and ffprobe are required.')
     shared_audio = module(shared_root / 'scripts/elevenlabs-audio.py', 'shared_audio_for_key')
     client = audio.APIClient(shared_audio.load_key(shared_root / '.env.elevenlabs.local'))
-    with Path('/tmp/little-line-language-auditions.lock').open('a') as lock:
+    with lock_path.open('a') as lock:
         fcntl.flock(lock, fcntl.LOCK_EX)
+        if json.loads(ledger.read_text()).get('cap') != cap:
+            raise ValueError('The shared ledger cap differs from the explicitly selected cap.')
         model = next((v for v in client.call('/v1/models') if v.get('model_id') == 'eleven_v4'), None)
         if not model or not model.get('can_do_text_to_speech') or Decimal(str(model.get('model_rates', {}).get('character_cost_multiplier', 1))) > 1:
             raise ValueError('The verified model or its credit rate is unavailable.')
@@ -77,7 +79,7 @@ def execute(all_plans, shared_root):
             found = client.call('/v2/voices?' + query)
             if not any(item.get('voice_id') == voice and (item.get('sharing') or {}).get('rate', 1) <= 1 for item in found.get('voices', [])):
                 raise ValueError('An approved voice is unavailable or has an unsupported rate.')
-        budget = CreditBudget(client, ledger, max_credits=CAP, credit_ceiling=Decimal('1'))
+        budget = CreditBudget(client, ledger, max_credits=cap, credit_ceiling=Decimal('1'))
         missing = []
         for plan in all_plans:
             for identity, request in plan['requests'].items():
@@ -106,6 +108,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--run', action='store_true', help='Record within the existing shared project cap.')
     parser.add_argument('--shared-root', type=Path, help='Existing checkout holding the shared account ledger and credential.')
+    parser.add_argument('--cap', type=int, default=CAP, help='Exact current shared ledger cap; never silently decreases it.')
     args = parser.parse_args()
     all_plans = plans()
     for plan in all_plans:
@@ -115,7 +118,7 @@ def main():
     if args.run:
         if not args.shared_root:
             raise ValueError('A shared checkout is required for the guarded recording run.')
-        execute(all_plans, args.shared_root)
+        execute(all_plans, args.shared_root, args.cap)
 
 if __name__ == '__main__':
     try:

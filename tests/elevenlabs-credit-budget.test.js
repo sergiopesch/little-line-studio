@@ -53,6 +53,24 @@ class Tests(unittest.TestCase):
         lower = b.CreditBudget(self.client, self.path, max_credits=2)
         with self.assertRaises(b.CreditBudgetError): lower.before(PATH, PAYLOAD)
         with self.assertRaises(b.CreditBudgetError): self.guard.before(PATH, PAYLOAD)
+    def test_explicit_cap_extension_preserves_reservations_and_account_limits(self):
+        self.guard.before(PATH, PAYLOAD); self.guard.after()
+        before = self.guard.inspect()
+        with self.assertRaises(b.CreditBudgetError): self.guard.extend_cap(4120)
+        state = self.guard.extend_cap(4119)
+        self.assertEqual(state['cap'],4119)
+        self.assertEqual(state['committedReservations'],before['committedReservations'])
+        self.assertEqual(state['unreported'],before['unreported'])
+        self.assertEqual(state['headroom'],4116)
+        self.assertEqual(json.loads(self.path.read_text())['capChanges'][0]['from'],4000)
+    def test_cap_extension_rejects_pending_blocked_and_overages(self):
+        self.guard.before(PATH, PAYLOAD)
+        with self.assertRaises(b.CreditBudgetError): self.guard.extend_cap(4100)
+        self.guard.after(); self.account['can_extend_character_limit'] = True
+        with self.assertRaises(b.CreditBudgetError): self.guard.extend_cap(4100)
+        self.account['can_extend_character_limit'] = False
+        ledger=json.loads(self.path.read_text()); ledger['blocked']=True; self.path.write_text(json.dumps(ledger))
+        with self.assertRaises(b.CreditBudgetError): self.guard.extend_cap(4100)
     def test_unsupported_endpoints_and_rates_blocked(self):
         for path in ('/v1/music', '//evil/v1/text-to-speech/a', '/v1/text-to-speech/../x?output_format=mp3_44100_128', PATH+'&extra=true', PATH.replace('mp3_44100_128','mp3_22050_32')):
             with self.assertRaises(b.CreditBudgetError): self.guard.before(path, PAYLOAD)

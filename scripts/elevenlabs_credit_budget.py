@@ -10,6 +10,7 @@ against delayed billing without assigning account deltas to individual requests.
 This cannot enforce a provider-side cap against other processes/accounts.
 """
 from decimal import Decimal, InvalidOperation, ROUND_CEILING
+from datetime import datetime, timezone
 import fcntl
 import hashlib
 import json
@@ -178,6 +179,35 @@ class CreditBudget:
         with self._lock():
             ledger = self._read()
             return self._state(ledger, ledger['last'])
+
+    def extend_cap(self, new_cap):
+        """Explicitly increase an existing cap without releasing prior commitments.
+
+        Call only after the account owner authorises an increase. Fresh quota,
+        pending outcomes and the protected account reserve still apply.
+        """
+        new_cap = integer(new_cap)
+        with self._lock():
+            ledger = self._read()
+            if ledger['pending'] or ledger['blocked']:
+                raise CreditBudgetError('An unresolved or blocked ledger cannot be extended.')
+            account = self._fresh(ledger)
+            old_cap = integer(ledger['cap'])
+            unreported = max(0, ledger['committedReservations'] - ledger['observedActual'])
+            available = max(0, account['limit'] - account['used'] - unreported - ledger['minimum'])
+            maximum = ledger['spent'] + available
+            if new_cap <= old_cap or new_cap > maximum:
+                raise CreditBudgetError('The requested cap exceeds safe account headroom or does not increase the cap.')
+            previous = hashlib.sha256(json.dumps(ledger, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+            history = ledger.setdefault('capChanges', [])
+            if not isinstance(history, list):
+                raise CreditBudgetError('Cap history is invalid; reconcile before continuing.')
+            history.append({'from': old_cap, 'to': new_cap, 'previousLedgerSha256': previous,
+                            'recordedAt': datetime.now(timezone.utc).isoformat()})
+            ledger['cap'] = new_cap
+            self._save(ledger)
+            self.cap = new_cap
+            return self._state(ledger, account)
 
     def preflight(self, planned_credits):
         planned = integer(planned_credits)
