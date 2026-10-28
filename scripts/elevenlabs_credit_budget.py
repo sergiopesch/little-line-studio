@@ -201,7 +201,7 @@ class CreditBudget:
         if path == '/v1/text-to-dialogue?output_format=mp3_44100_128':
             inputs = payload.get('inputs')
             valid_fields = set(payload) == {'inputs', 'model_id'} or (
-                set(payload) == {'inputs', 'model_id', 'language_code'} and payload['language_code'] in ('es', 'en', 'fr'))
+                set(payload) == {'inputs', 'model_id', 'language_code'} and payload['language_code'] in ('es', 'en', 'fr', 'de', 'it'))
             if (not valid_fields or payload['model_id'] != 'eleven_v4'
                     or not isinstance(inputs, list) or len(inputs) != 1 or not isinstance(inputs[0], dict)
                     or set(inputs[0]) != {'text', 'voice_id'}

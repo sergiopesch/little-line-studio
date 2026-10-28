@@ -133,10 +133,10 @@ class Tests(unittest.TestCase):
         payload={'model_id':'eleven_v4','inputs':[{'text':'Hola, dibujemos.','voice_id':'carito_voice'}], 'language_code':'es'}
         self.assertEqual(self.guard.before(endpoint,payload)['reserved'],8)
         self.guard.after()
-        for language in ('en', 'fr'):
+        for language in ('en', 'fr', 'de', 'it'):
             self.assertEqual(self.guard.before(endpoint,dict(payload,language_code=language))['reserved'],8)
             self.guard.after()
-        for invalid in ('de', 'es-VE', '', None, 1):
+        for invalid in ('nl', 'es-VE', '', None, 1):
             with self.assertRaises(b.CreditBudgetError): self.guard.before(endpoint,dict(payload,language_code=invalid))
         with self.assertRaises(b.CreditBudgetError): self.guard.before(endpoint,dict(payload,extra=True))
     def test_music_fixed_ceiling_on_supported_paid_tier(self):
