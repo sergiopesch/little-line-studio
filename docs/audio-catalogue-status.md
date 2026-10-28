@@ -10,7 +10,7 @@ This source snapshot records complete authored lesson audio included in the rele
 | es-419 | 30 | 1461 |
 | fr-FR | 30 | 1461 |
 | es-ES | 30 | 1461 |
-| de-DE | 1 | 43 |
-| it-IT | 1 | 43 |
+| de-DE | 30 | 1461 |
+| it-IT | 30 | 1461 |
 
 Dutch remains in preparation. Music is shared by lesson; Help retains soft music and Pause stops both tracks.
