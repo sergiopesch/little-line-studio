@@ -151,6 +151,74 @@ test("French release requires the current source-linked editorial export", (t) =
   assert.notEqual(f.run().status, 0, "stale French source must fail the build");
 });
 
+test("Spain release requires its exact current text, UI, voice and complete audio", (t) => {
+  const f = fixture(t, ["cat", "dog"]); f.save();
+  const locale = "es-ES", voice = "BkOojM1ZhtSAHgsAkMx2", reviewStatus = "assistant-draft-awaiting-native-human-review";
+  const reviewed = { cat: { title: "Gato" }, dog: { title: "Perro" } }, strings = { "Help": "Ayuda" };
+  writeFileSync(f.file("src/narration-sample.es-ES.txt"), `${sample}\n`);
+  writeFileSync(f.file("src/spanish-spain-lessons.js"), "export const localizeLesson = (lesson) => lesson;\n");
+  writeFileSync(f.file("src/spanish-lessons.es-ES.json"), JSON.stringify({ locale, reviewStatus, lessons: reviewed }));
+  writeFileSync(f.file("src/spanish-ui.es-ES.json"), JSON.stringify(strings));
+  mkdirSync(f.file("research/spanish-spain-draft"), { recursive: true });
+  writeFileSync(f.file("research/spanish-spain-draft/dynamic.es-ES.js"), "export const copy = 'draft';\n");
+  writeFileSync(f.file("src/spanish-spain-dynamic.js"), "export const copy = 'draft';\n");
+  const exported = { locale, count: 2, reviewStatus, lessons: reviewed, strings, sample };
+  writeFileSync(f.file("scripts/export-spain-lessons.mjs"), `console.log(${JSON.stringify(JSON.stringify(exported))});\n`);
+  const files = {
+    [`narration-availability.${locale}.json`]: { schemaVersion: 1, locale, lessons: ["cat", "dog"] },
+    [`narration-index.${locale}.json`]: f.index,
+    [`narration-durations.${locale}.json`]: f.durations,
+    [`narration-manifest.${locale}.json`]: { ...f.manifest, locale, selectedVoiceId: voice,
+      clips: Object.fromEntries(Object.entries(f.manifest.clips).map(([key, clip]) => [key, { ...clip, voiceId: voice }])) },
+  };
+  for (const [name, value] of Object.entries(files)) writeFileSync(f.file(`src/${name}`), JSON.stringify(value));
+  assert.equal(f.run().status, 0);
+  writeFileSync(f.file("src/spanish-ui.es-ES.json"), JSON.stringify({ Help: "Cambiada" }));
+  assert.notEqual(f.run().status, 0, "stale Spain UI must fail the build");
+  writeFileSync(f.file("src/spanish-ui.es-ES.json"), JSON.stringify(strings));
+  writeFileSync(f.file("src/spanish-spain-dynamic.js"), "export const copy = 'changed';\n");
+  assert.notEqual(f.run().status, 0, "stale Spain accessibility labels must fail the build");
+  writeFileSync(f.file("src/spanish-spain-dynamic.js"), "export const copy = 'draft';\n");
+  const manifest = { ...files[`narration-manifest.${locale}.json`], selectedVoiceId: "another-voice" };
+  writeFileSync(f.file(`src/narration-manifest.${locale}.json`), JSON.stringify(manifest));
+  assert.notEqual(f.run().status, 0, "a different voice must fail the build");
+});
+
+for (const [locale, prefix, voice] of [
+  ["de-DE", "german", "5bVYvsqKAWO1hDgOO72l"],
+  ["it-IT", "italian", "wOXFTxgu7FQDBb1dsL7I"],
+]) test(`${locale} release requires source-matched text, UI and selected voice`, (t) => {
+  const f = fixture(t, ["cat", "dog"]); f.save();
+  const reviewStatus = "assistant-draft-awaiting-native-human-review", reviewed = { cat: { title: "Cat" }, dog: { title: "Dog" } };
+  const strings = { Help: "Localised" };
+  writeFileSync(f.file(`src/narration-sample.${locale}.txt`), `${sample}\n`);
+  writeFileSync(f.file(`src/${prefix}-lessons.js`), "export const localizeLesson = (lesson) => lesson;\n");
+  writeFileSync(f.file(`src/${prefix}-lessons.${locale}.json`), JSON.stringify({ locale, reviewStatus, lessons: reviewed }));
+  writeFileSync(f.file(`src/${prefix}-ui.${locale}.json`), JSON.stringify(strings));
+  const dynamicDir = locale === "de-DE" ? "research/german-draft" : "research/italian-pilot";
+  const dynamicFile = locale === "de-DE" ? "dynamic.de-DE.js" : "dynamic.it-IT.mjs";
+  mkdirSync(f.file(dynamicDir), { recursive: true });
+  writeFileSync(f.file(`${dynamicDir}/${dynamicFile}`), "export const copy = 'draft';\n");
+  writeFileSync(f.file(`src/${prefix}-dynamic.js`), "export const copy = 'draft';\n");
+  if (locale === "it-IT") {
+    writeFileSync(f.file(`${dynamicDir}/dynamic.it-IT.json`), JSON.stringify({ templates: {} }));
+    writeFileSync(f.file("src/dynamic.it-IT.json"), JSON.stringify({ templates: {} }));
+  }
+  const exported = [{ locale, count: 2, reviewStatus, lessons: reviewed, strings, sample }];
+  writeFileSync(f.file("scripts/export-german-italian.mjs"), `console.log(${JSON.stringify(JSON.stringify(exported))});\n`);
+  const files = {
+    [`narration-availability.${locale}.json`]: { schemaVersion: 1, locale, lessons: ["cat", "dog"] },
+    [`narration-index.${locale}.json`]: f.index,
+    [`narration-durations.${locale}.json`]: f.durations,
+    [`narration-manifest.${locale}.json`]: { ...f.manifest, locale, selectedVoiceId: voice,
+      clips: Object.fromEntries(Object.entries(f.manifest.clips).map(([key, clip]) => [key, { ...clip, voiceId: voice }])) },
+  };
+  for (const [name, value] of Object.entries(files)) writeFileSync(f.file(`src/${name}`), JSON.stringify(value));
+  assert.equal(f.run().status, 0);
+  writeFileSync(f.file(`src/${prefix}-ui.${locale}.json`), JSON.stringify({ Help: "Changed" }));
+  assert.notEqual(f.run().status, 0, "stale UI must fail the build");
+});
+
 const failures = [
   ["unknown lesson", (f) => { f.availability.lessons = ["cat", "unknown"]; }],
   ["duplicate lesson", (f) => { f.availability.lessons = ["cat", "cat"]; }],

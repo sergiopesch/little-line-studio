@@ -33,6 +33,24 @@ export const isSpanishAuthoredClip = (source) => registry.contains(source);
 
 const locales = {
   "es-419": registry,
+  "es-ES": createNarrationRegistry(async () => {
+    const [index, durations] = await Promise.all([
+      import("./narration-index.es-ES.json"), import("./narration-durations.es-ES.json"),
+    ]);
+    return { index: index.default, durations: durations.default };
+  }),
+  "de-DE": createNarrationRegistry(async () => {
+    const [index, durations] = await Promise.all([
+      import("./narration-index.de-DE.json"), import("./narration-durations.de-DE.json"),
+    ]);
+    return { index: index.default, durations: durations.default };
+  }),
+  "it-IT": createNarrationRegistry(async () => {
+    const [index, durations] = await Promise.all([
+      import("./narration-index.it-IT.json"), import("./narration-durations.it-IT.json"),
+    ]);
+    return { index: index.default, durations: durations.default };
+  }),
   "fr-FR": createNarrationRegistry(async () => {
     const [index, durations] = await Promise.all([
       import("./narration-index.fr-FR.json"), import("./narration-durations.fr-FR.json"),

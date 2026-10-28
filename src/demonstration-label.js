@@ -1,7 +1,8 @@
-import { demonstrationLabel as frenchDemonstrationLabel } from "./french-dynamic.fr-FR.js";
+import { dynamicLocale } from "./locale-dynamic.js";
 
 export function demonstrationLabel(lesson, stepIndex, locale) {
-  if (locale === "fr-FR") return frenchDemonstrationLabel(lesson, stepIndex);
+  const dynamic = dynamicLocale(locale);
+  if (dynamic) return dynamic.board(lesson, stepIndex);
   const kind = lesson.steps[stepIndex].kind;
   const spanish = locale === "es-419";
   if (kind === "prepare") {

@@ -4,11 +4,12 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { readDraft, validateDraft } from '../scripts/validate-spanish-spain-draft.mjs';
 import { LESSONS } from '../src/lesson-catalogue.js';
 import { getLanguage } from '../src/languages.js';
+import availability from '../src/narration-availability.es-ES.json' with { type: 'json' };
 import { buildTextInventory } from '../scripts/plan-spanish-spain-offline.mjs';
 
-test('Spain draft covers current teaching, UI and pilot without opening a locale', () => {
+test('Spain draft covers current teaching, UI and pilot and follows release availability', () => {
   assert.deepEqual(validateDraft(readDraft()), { lessons: 30, stages: 730, narrationKeys: 1460, uiStrings: 207, pilotClips: 13 });
-  assert.equal(getLanguage('es-ES'), null);
+  assert.equal(getLanguage('es-ES').ready, availability.lessons.length > 0);
 });
 
 test('draft checks reject stale sources, missing stages and mismatched pilot words', () => {
@@ -94,8 +95,8 @@ test('Spain UI draft covers directly translated source labels', () => {
   for (const key of keys) assert.ok(ui.strings[key]?.trim(), key);
 });
 
-test('Spain picker identity remains an unregistered editorial proposal', async () => {
+test('Spain picker preserves its regional identity and follows release availability', async () => {
   const { SPAIN_LANGUAGE_DRAFT: language } = await import('../research/spanish-spain-draft/dynamic.es-ES.js');
   assert.deepEqual(language, { id: 'es-ES', name: 'Castellano', region: 'España', flag: '🇪🇸', ready: false });
-  assert.equal(getLanguage(language.id), null);
+  assert.deepEqual(getLanguage(language.id), { ...language, ready: availability.lessons.length > 0 });
 });

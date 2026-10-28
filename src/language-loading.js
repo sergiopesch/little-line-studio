@@ -18,12 +18,15 @@ export async function loadSpanishLanguage(lessons, {
 const identityText = { localizeLesson: (lesson) => lesson, localizedLessonTitle: (lesson) => lesson?.title ?? null };
 
 export async function loadLocaleLanguage(locale, lessons, {
-  loadText = () => locale === "fr-FR" ? import("./french-lessons.js") : Promise.resolve(identityText),
+  loadText = () => locale === "fr-FR" ? import("./french-lessons.js")
+    : locale === "es-ES" ? import("./spanish-spain-lessons.js")
+    : locale === "de-DE" ? import("./german-lessons.js")
+    : locale === "it-IT" ? import("./italian-lessons.js") : Promise.resolve(identityText),
   loadNarration = () => loadLocaleNarration(locale),
   validate = narrationForLocale,
 } = {}) {
   if (locale === "es-419") return loadSpanishLanguage(lessons);
-  if (!["fr-FR", "en-IE", "en-GB-x-scotland"].includes(locale)) throw new TypeError("Unknown language.");
+  if (!["fr-FR", "es-ES", "de-DE", "it-IT", "en-IE", "en-GB-x-scotland"].includes(locale)) throw new TypeError("Unknown language.");
   const [text, narration] = await Promise.all([loadText(), loadNarration()]);
   if (!Array.isArray(lessons) || !lessons.length || !validate(locale, lessons, narration).ready ||
       typeof text.localizeLesson !== "function" || typeof text.localizedLessonTitle !== "function")

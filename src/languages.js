@@ -9,9 +9,10 @@ export const LANGUAGES = Object.freeze([
   Object.freeze({ id: "en-IE", name: "English", region: "Irish", flag: "🇮🇪", ready: ready("en-IE") }),
   Object.freeze({ id: "en-GB-x-scotland", name: "English", region: "Scottish", flag: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", ready: ready("en-GB-x-scotland") }),
   Object.freeze({ id: "es-419", name: "Castellano", region: "Latinoamérica", flag: "🇻🇪", ready: spanishCount > 0 }),
+  Object.freeze({ id: "es-ES", name: "Castellano", region: "España", flag: "🇪🇸", ready: ready("es-ES") }),
   Object.freeze({ id: "fr-FR", name: "Français", region: "French", flag: "🇫🇷", ready: ready("fr-FR") }),
-  Object.freeze({ id: "de-DE", name: "Deutsch", region: "German", flag: "🇩🇪", ready: false }),
-  Object.freeze({ id: "it-IT", name: "Italiano", region: "Italian", flag: "🇮🇹", ready: false }),
+  Object.freeze({ id: "de-DE", name: "Deutsch", region: "German", flag: "🇩🇪", ready: ready("de-DE") }),
+  Object.freeze({ id: "it-IT", name: "Italiano", region: "Italian", flag: "🇮🇹", ready: ready("it-IT") }),
   Object.freeze({ id: "nl-NL", name: "Nederlands", region: "Dutch", flag: "🇳🇱", ready: false }),
 ]);
 

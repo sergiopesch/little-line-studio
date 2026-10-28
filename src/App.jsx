@@ -41,7 +41,7 @@ import { createLatestLanguageRequest, loadLocaleLanguage } from "./language-load
 import { authorizeLocaleNarration } from "./narration-registry.js";
 import { useScriptedPlayback } from "./useScriptedPlayback.js";
 import { useLessonClock } from "./useLessonClock.js";
-import { FRENCH_DYNAMIC, stageLabel as frenchStageLabel } from "./french-dynamic.fr-FR.js";
+import { dynamicLocale } from "./locale-dynamic.js";
 import LessonTimeline from "./LessonTimeline.jsx";
 import "./cat-pilot.css";
 
@@ -181,9 +181,9 @@ export function App() {
 
   useEffect(() => {
     document.documentElement.lang = language.id;
-    document.title = language.id === "fr-FR" ? FRENCH_DYNAMIC.documentTitle : language.id === "es-419"
+    document.title = dynamicLocale(language.id)?.copy.documentTitle ?? (language.id === "es-419"
       ? "Little Line Studio — Todo dibujo comienza con una pequeña línea"
-      : "Little Line Studio — Every drawing starts with a little line";
+      : "Little Line Studio — Every drawing starts with a little line");
   }, [language.id]);
 
   useEffect(() => {
@@ -620,7 +620,7 @@ export function App() {
                   <p className="eyebrow">
                     {selectedLesson.title}{" "}
                     <span className="step-label">
-                      {languageId === "fr-FR" ? frenchStageLabel(selectedLesson, lesson.step) : languageId === "es-419" ? spanishStepLabel : stepLabel}
+                      {dynamicLocale(languageId) ? dynamicLocale(languageId).stage(selectedLesson, lesson.step) : languageId === "es-419" ? spanishStepLabel : stepLabel}
                     </span>
                   </p>
                   <button

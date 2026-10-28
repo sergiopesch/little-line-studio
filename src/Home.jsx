@@ -9,7 +9,7 @@ import { LEVELS, LESSONS, getLevel } from "./lesson-catalogue.js";
 import { LessonPreview } from "./LessonPreview.jsx";
 import { LanguageCarousel, LanguageFlag } from "./LanguagePicker.jsx";
 import { isLessonAvailable } from "./narration-locales.js";
-import { FRENCH_DYNAMIC } from "./french-dynamic.fr-FR.js";
+import { dynamicLocale } from "./locale-dynamic.js";
 
 export function Brand({ onClick }) {
   const { t } = useLocale();
@@ -33,6 +33,7 @@ export function Brand({ onClick }) {
 
 export function Home({ onExplore, onPrivacy, onHow }) {
   const { t, locale } = useLocale();
+  const dynamic = dynamicLocale(locale)?.copy;
   return (
     <main className="home-page home-with-languages">
       <header className="site-header">
@@ -69,7 +70,7 @@ export function Home({ onExplore, onPrivacy, onHow }) {
             key={level.id}
             className="level-choice"
             onClick={() => onExplore(level.id)}
-            aria-label={locale === "fr-FR" ? FRENCH_DYNAMIC.levelExplore(t(level.name)) : locale === "es-419" ? `Explorar ${t(level.name)}: 10 dibujos` : `Explore ${t(level.name)}: 10 drawings`}
+            aria-label={dynamic ? dynamic.levelExplore(t(level.name)) : locale === "es-419" ? `Explorar ${t(level.name)}: 10 dibujos` : `Explore ${t(level.name)}: 10 drawings`}
           >
             <span className="level-picture">
               <img
@@ -117,6 +118,7 @@ export function Catalogue({
   onLanguage,
 }) {
   const { t, locale } = useLocale();
+  const dynamic = dynamicLocale(locale)?.copy;
   const level = getLevel(levelId);
   const lessons = LESSONS.filter((lesson) => lesson.level === levelId);
   const hasAvailableLesson = lessons.some((lesson) => isLessonAvailable(locale, lesson, localeNarration));
@@ -163,7 +165,7 @@ export function Catalogue({
       </section>
       <section
         className="drawing-grid"
-        aria-label={locale === "fr-FR" ? FRENCH_DYNAMIC.catalogueRange(t(level.name), page * pageSize + 1, Math.min((page + 1) * pageSize, 10)) : locale === "es-419" ? `${t(level.name)}, dibujos ${page * pageSize + 1} a ${Math.min((page + 1) * pageSize, 10)} de 10` : `${level.name}, drawings ${page * pageSize + 1} to ${Math.min((page + 1) * pageSize, 10)} of 10`}
+        aria-label={dynamic ? dynamic.catalogueRange(t(level.name), page * pageSize + 1, Math.min((page + 1) * pageSize, 10)) : locale === "es-419" ? `${t(level.name)}, dibujos ${page * pageSize + 1} a ${Math.min((page + 1) * pageSize, 10)} de 10` : `${level.name}, drawings ${page * pageSize + 1} to ${Math.min((page + 1) * pageSize, 10)} of 10`}
       >
         {visible.map((original) => {
           const available = isLessonAvailable(locale, original, localeNarration);
@@ -182,7 +184,7 @@ export function Catalogue({
           return available ? (
             <button className="drawing-choice" key={original.id}
               onClick={() => onSelect(original.id)}
-              aria-label={locale === "fr-FR" ? FRENCH_DYNAMIC.drawTitle(title) : locale === "es-419" ? `Dibujar ${title}` : `Draw ${title}`}>
+              aria-label={dynamic ? dynamic.drawTitle(title) : locale === "es-419" ? `Dibujar ${title}` : `Draw ${title}`}>
               {content}
             </button>
           ) : (
@@ -207,7 +209,7 @@ export function Catalogue({
             <CaretLeftIcon size={20} />
           </button>
           <span>
-            {locale === "fr-FR" ? FRENCH_DYNAMIC.pageCount(page + 1, pages) : `${page + 1} ${locale === "es-419" ? "de" : "of"} ${pages}`}
+            {dynamic ? dynamic.pageCount(page + 1, pages) : `${page + 1} ${locale === "es-419" ? "de" : "of"} ${pages}`}
           </span>
           <button
             className="quiet-button"

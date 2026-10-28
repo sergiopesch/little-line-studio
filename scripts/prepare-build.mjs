@@ -110,6 +110,24 @@ for (const [key, expectedText] of expectedTexts) {
     throw new Error(`Inconsistent Spanish narration asset length: ${key}`);
 }
 
+function validateDynamicCopy(locale) {
+  const files = {
+    "es-ES": ["research/spanish-spain-draft/dynamic.es-ES.js", "src/spanish-spain-dynamic.js"],
+    "de-DE": ["research/german-draft/dynamic.de-DE.js", "src/german-dynamic.js"],
+    "it-IT": ["research/italian-pilot/dynamic.it-IT.mjs", "src/italian-dynamic.js"],
+  }[locale];
+  const normalize = (text) => text.split("\n").filter((line) => !line.startsWith("//") &&
+    !line.startsWith("export const SPAIN_LANGUAGE_DRAFT")).join("\n").trim();
+  try {
+    if (!files || normalize(readFileSync(path.join(root, files[0]), "utf8")) !== normalize(readFileSync(path.join(root, files[1]), "utf8")))
+      throw new Error();
+    if (locale === "it-IT" && JSON.stringify(JSON.parse(readFileSync(path.join(root, "research/italian-pilot/dynamic.it-IT.json"), "utf8"))) !==
+        JSON.stringify(readSpanishMetadata("dynamic.it-IT.json"))) throw new Error();
+  } catch {
+    throw new Error(`${locale} dynamic labels differ from the source-linked draft`);
+  }
+}
+
 // Additional languages must be complete and source-matched before they can
 // become selectable. Empty descriptors remain unavailable during preparation.
 async function validateAdditionalLocale(locale, voice, sampleFile, translateLesson) {
@@ -138,6 +156,41 @@ async function validateAdditionalLocale(locale, voice, sampleFile, translateLess
         runtime.locale !== locale || runtime.reviewStatus !== source.reviewStatus ||
         JSON.stringify(runtime.lessons) !== JSON.stringify(source.lessons))
       throw new Error("French runtime text does not match the current source-linked export");
+  }
+  if (locale === "es-ES" && descriptor.lessons.length) {
+    validateDynamicCopy(locale);
+    let source, runtime, ui;
+    try {
+      source = JSON.parse(execFileSync(process.execPath, [path.join(root, "scripts", "export-spain-lessons.mjs")],
+        { cwd: root, encoding: "utf8", maxBuffer: 8 * 1024 * 1024 }));
+      runtime = readSpanishMetadata("spanish-lessons.es-ES.json");
+      ui = readSpanishMetadata("spanish-ui.es-ES.json");
+    } catch {
+      throw new Error("Spain Spanish source-linked export could not be verified");
+    }
+    if (source.locale !== locale || source.count !== LESSONS.length || runtime.locale !== locale ||
+        runtime.reviewStatus !== source.reviewStatus || JSON.stringify(runtime.lessons) !== JSON.stringify(source.lessons) ||
+        JSON.stringify(ui) !== JSON.stringify(source.strings) ||
+        readFileSync(path.join(root, "src", sampleFile), "utf8").trim() !== source.sample)
+      throw new Error("Spain Spanish runtime does not match the current source-linked export");
+  }
+  if (["de-DE", "it-IT"].includes(locale) && descriptor.lessons.length) {
+    validateDynamicCopy(locale);
+    let source, runtime, ui;
+    const prefix = locale === "de-DE" ? "german" : "italian";
+    try {
+      const all = JSON.parse(execFileSync(process.execPath, [path.join(root, "scripts", "export-german-italian.mjs")],
+        { cwd: root, encoding: "utf8", maxBuffer: 8 * 1024 * 1024 }));
+      source = all.find((item) => item.locale === locale);
+      runtime = readSpanishMetadata(`${prefix}-lessons.${locale}.json`);
+      ui = readSpanishMetadata(`${prefix}-ui.${locale}.json`);
+    } catch {
+      throw new Error(`${locale} source-linked export could not be verified`);
+    }
+    if (source?.count !== LESSONS.length || runtime.locale !== locale || runtime.reviewStatus !== source.reviewStatus ||
+        JSON.stringify(runtime.lessons) !== JSON.stringify(source.lessons) || JSON.stringify(ui) !== JSON.stringify(source.strings) ||
+        readFileSync(path.join(root, "src", sampleFile), "utf8").trim() !== source.sample)
+      throw new Error(`${locale} runtime does not match the current source-linked export`);
   }
   const texts = new Map();
   if (descriptor.lessons.length) {
@@ -193,9 +246,15 @@ for (const [locale, voice, sample] of [
   ["en-IE", "t6WJWTYTryhcQnrBHdCr", "narration-sample.en.txt"],
   ["en-GB-x-scotland", "M6KCOw7VXEJAZwuYFLuz", "narration-sample.en.txt"],
   ["fr-FR", "tKaoyJLW05zqV0tIH9FD", "narration-sample.fr-FR.txt"],
+  ["es-ES", "BkOojM1ZhtSAHgsAkMx2", "narration-sample.es-ES.txt"],
+  ["de-DE", "5bVYvsqKAWO1hDgOO72l", "narration-sample.de-DE.txt"],
+  ["it-IT", "wOXFTxgu7FQDBb1dsL7I", "narration-sample.it-IT.txt"],
 ]) {
   const translator = locale === "fr-FR"
     ? async (lesson, id) => (await import("../src/french-lessons.js")).localizeLesson(lesson, id)
+    : locale === "es-ES" ? async (lesson, id) => (await import("../src/spanish-spain-lessons.js")).localizeLesson(lesson, id)
+    : locale === "de-DE" ? async (lesson, id) => (await import("../src/german-lessons.js")).localizeLesson(lesson, id)
+    : locale === "it-IT" ? async (lesson, id) => (await import("../src/italian-lessons.js")).localizeLesson(lesson, id)
     : (lesson) => lesson;
   additionalLocales[locale] = await validateAdditionalLocale(locale, voice, sample, translator);
 }

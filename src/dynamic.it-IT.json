@@ -1,0 +1,28 @@
+{
+  "locale": "it-IT",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "templates": {
+    "documentTitle": "Little Line Studio — Ogni disegno comincia con una piccola linea",
+    "errorTitle": "Facciamo una piccola pausa.",
+    "errorBody": "Non è stato possibile aprire la lezione. Il disegno sulla carta è tuo. Chiedi all’adulto che ti accompagna di ricaricare la pagina quando siete pronti.",
+    "errorReload": "Ricarica la lezione",
+    "levelExplore": "Esplora {level}: 10 disegni",
+    "catalogueRange": "{level}, disegni da {first} a {last} di 10",
+    "drawTitle": "Disegna {title}",
+    "pageCount": "{page} di {total}",
+    "duration": "Circa {minutes} minuti, più le pause. Prendetevi più tempo quando ne avete bisogno.",
+    "remaining": "Circa {minutes} min rimanenti",
+    "together": "{elapsed} insieme",
+    "preview": "{title}. Esempio completo; disegna la tua versione sulla carta.",
+    "boardBlank": "Lavagna della dimostrazione vuota. Disegna sul tuo foglio.",
+    "boardColour": "{title}. Dimostrazione di colorazione. Disegna sul tuo foglio.",
+    "boardReference": "{title}. Esempio completo. Disegna sul tuo foglio.",
+    "boardAction": "{title}, tratto {action}. Disegna sul tuo foglio.",
+    "stepObserve": "GUARDA",
+    "stepColour": "COLORA {index} DI {total}",
+    "stepExplore": "IL TUO MOMENTO",
+    "stepDrawing": "DISEGNA {index} DI {total}",
+    "stepPrepare": "PREPARAZIONE",
+    "stepGeneric": "PASSAGGIO {index} DI {total}"
+  }
+}

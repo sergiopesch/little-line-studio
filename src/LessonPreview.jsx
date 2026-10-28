@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import { getColourMarks, getOutlineStyle, previewCrayonMark, previewOutlineWidth } from "./crayon-appearance.js";
 import { getOutlineMarks } from "./outline-marks.js";
 import previewOutlines from "./preview-outline-paths.json" with { type: "json" };
-import { FRENCH_DYNAMIC } from "./french-dynamic.fr-FR.js";
+import { dynamicLocale } from "./locale-dynamic.js";
 
 // A diagram of the exact authored lesson paths, not a separate illustrative
 // asset. The teaching board itself remains the genuine read-only tldraw SDK.
@@ -13,6 +13,7 @@ export default function LessonPreview({
   labelled = true,
 }) {
   const { locale } = useLocale();
+  const dynamic = dynamicLocale(locale)?.copy;
   const canvasRef = useRef(null);
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -71,7 +72,7 @@ export default function LessonPreview({
       role={labelled ? "img" : "presentation"}
       aria-label={
         labelled
-          ? locale === "fr-FR" ? FRENCH_DYNAMIC.preview(lesson.title) : locale === "es-419" ? `${lesson.title}. Ejemplo completo de la maestra; dibuja tu propia versión en papel.` : `${lesson.title}. Full teacher example; draw your own version on paper.`
+          ? dynamic ? dynamic.preview(lesson.title) : locale === "es-419" ? `${lesson.title}. Ejemplo completo de la maestra; dibuja tu propia versión en papel.` : `${lesson.title}. Full teacher example; draw your own version on paper.`
           : undefined
       }
       aria-hidden={labelled ? undefined : true}

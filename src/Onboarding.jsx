@@ -11,7 +11,7 @@ import { Brand } from "./Home.jsx";
 import { LanguageFlag } from "./LanguagePicker.jsx";
 import { LessonPreview } from "./LessonPreview.jsx";
 import { estimateLessonDurationMs } from "./scripted-session.js";
-import { FRENCH_DYNAMIC } from "./french-dynamic.fr-FR.js";
+import { dynamicLocale } from "./locale-dynamic.js";
 
 export function Onboarding({
   lesson,
@@ -38,6 +38,7 @@ export function Onboarding({
   onSoundClose,
 }) {
   const { t, locale } = useLocale();
+  const dynamic = dynamicLocale(locale)?.copy;
   const minutes = Math.ceil(
     estimateLessonDurationMs(lesson, { narrationDurations }) / 60000,
   );
@@ -58,7 +59,7 @@ export function Onboarding({
         </div>
         <h1 id="setup-title" tabIndex={-1}>{t("Ready to draw together?")}</h1>
         <p className="entry-materials"><PencilSimpleIcon size={21} /> {t("Paper, a pencil")}{lesson.pilot ? t(" and optional colours") : ""}.</p>
-        <p className="entry-duration">{locale === "fr-FR" ? FRENCH_DYNAMIC.duration(minutes) : locale === "es-419" ? `Unos ${minutes} minutos, más las pausas. Tómense más tiempo cuando lo necesiten.` : `About ${minutes} minutes, plus any pauses. Take more time whenever you need.`}</p>
+        <p className="entry-duration">{dynamic ? dynamic.duration(minutes) : locale === "es-419" ? `Unos ${minutes} minutos, más las pausas. Tómense más tiempo cuando lo necesiten.` : `About ${minutes} minutes, plus any pauses. Take more time whenever you need.`}</p>
         <label className="check-row entry-supervision">
           <input type="checkbox" checked={supervised} onChange={(event) => onSupervised(event.target.checked)} />
           <span>{t("I’m the supervising adult. I’ll stay with my child throughout.")}</span>

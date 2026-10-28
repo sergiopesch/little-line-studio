@@ -1,5 +1,7 @@
 # Spanish from Spain: preparation handoff
 
+**Integration update, 28 October 2026:** The sections below describe the original offline handoff. The owner subsequently requested a demo recording within the existing account balance; a guarded full-catalogue run is underway in the separate local media cache. Runtime text and a disabled availability descriptor have been prepared. Native-speaker and full listening reviews, provider clarification and release verification remain pending.
+
 This is an **offline draft**, not a releasable locale. It was prepared against standalone repository commit `cceb5d65213b1682e74fd439847f6679b4e071fb`. It has 30 complete lesson records, 730 stages and 1,460 instruction/hint texts, 207 UI strings, dynamic labels and a Cat pilot. The language is not registered or selectable, and there are no Spain audio files or availability entries.
 
 ## Offline editorial and geometry pass

@@ -1,6 +1,9 @@
 import englishIndex from "./narration-index.json" with { type: "json" };
 import englishDurations from "./narration-durations.json" with { type: "json" };
 import spanishAvailability from "./narration-availability.es-419.json" with { type: "json" };
+import spainAvailability from "./narration-availability.es-ES.json" with { type: "json" };
+import germanAvailability from "./narration-availability.de-DE.json" with { type: "json" };
+import italianAvailability from "./narration-availability.it-IT.json" with { type: "json" };
 import frenchAvailability from "./narration-availability.fr-FR.json" with { type: "json" };
 import irishAvailability from "./narration-availability.en-IE.json" with { type: "json" };
 import scottishAvailability from "./narration-availability.en-GB-x-scotland.json" with { type: "json" };
@@ -34,7 +37,7 @@ export function validSpanishAvailability(descriptor, knownLessons = LESSONS) {
   return validAvailability(descriptor, "es-419", knownLessons);
 }
 
-const availability = Object.freeze({ "es-419": spanishAvailability, "fr-FR": frenchAvailability,
+const availability = Object.freeze({ "es-419": spanishAvailability, "es-ES": spainAvailability, "de-DE": germanAvailability, "it-IT": italianAvailability, "fr-FR": frenchAvailability,
   "en-IE": irishAvailability, "en-GB-x-scotland": scottishAvailability });
 
 export function spanishLessonReleased(lesson, {
