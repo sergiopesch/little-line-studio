@@ -1,0 +1,237 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "fruit-bowl",
+  "sourceLessonSha256": "7e8af668953a21563ffa88b487c775148da91f2dc3a361f690202053eebc0332",
+  "sourceTextSha256": "39fe76eae7a757ea97919ee11559c5c2f298ae73b4ec4c529eb7f68a90bd7cf6",
+  "title": "Fruitschaal",
+  "invitation": "Fruit ervoor, fruit erachter.",
+  "objective": "Overlappende fruitvormen boven een schaal plaatsen en kiezen welke randen verborgen zijn.",
+  "parentNote": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd.",
+  "simplify": "Kies slechts twee vruchten en één U-vormige schaal. Overlappende volledige omtrekken zijn een goede verkennende versie; gedeeltelijke omtrekken kunnen een andere keer terugkomen.",
+  "transfer": "Zet een andere keer twee speeltjes gedeeltelijk achter een doos. Teken alleen de zichtbare delen als je kind dat interessant vindt, met de nieuwe voorwerpen in plaats van de fruitvolgorde.",
+  "colouringLabel": "Kleine krijtbewegingen, jouw eigen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een stilleven op tafel.",
+      "instruction": "Kijk hoe de schaal voor het fruit staat.",
+      "spoken": "Laten we een fantasiefruitschaal op papier maken. Sommige vruchten staan achter andere vormen, dus tekenen we de stukjes die we kunnen zien.",
+      "hint": "Zoek een fruitvorm die achter de schaal verdwijnt.",
+      "notice": "Kijk welk fruit vooraan ligt, waar een omtrek verdwijnt en hoe de schaal de groep bij elkaar houdt. In dit voorbeeld staat het fruit achter de voorrand van de schaal."
+    },
+    "bowl-body": {
+      "title": "Schaal",
+      "instruction": "Maak een brede ronde schaalvorm onderaan het papier.",
+      "spoken": "Begin met een brede schaal die naar beneden en weer omhoog buigt. Laat erboven veel ruimte voor verschillende fruitvormen.",
+      "hint": "Maak een diepe brede boog met beide uiteinden op ongeveer dezelfde hoogte.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "bowl-front-rim": {
+      "title": "Voorrand van de schaal",
+      "instruction": "Verbind de uiteinden met een zacht gebogen voorrand.",
+      "spoken": "Maak een boog over de voorrand van de schaal. Die rand zit vóór het fruit en helpt ons laten zien welke vormen dichterbij zijn.",
+      "hint": "Verbind de uiteinden van de schaal met een lichte neerwaartse boog.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "bowl-foot": {
+      "title": "Voetje van de schaal",
+      "instruction": "Zet een kleine platte ovaal onder de schaal.",
+      "spoken": "Een kleine platte ovaal wordt het voetje onder de schaal. Houd hem veel kleiner dan de brede schaal erboven.",
+      "hint": "Zet een lage ovaal onder het midden van de schaal.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "left-apple": {
+      "title": "Appel links",
+      "instruction": "Laat een appel vanaf de linkerkant van de schaal omhoog buigen.",
+      "spoken": "Laat aan de linkerkant een appelvorm boven de schaal komen. De zichtbare kanten stoppen waar de rand de onderkant verbergt.",
+      "hint": "Teken het deel boven de rand; de schaal verbergt de rest.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "middle-pear": {
+      "title": "Peer in het midden",
+      "instruction": "Voeg een smallere bovenkant van de peer boven een bredere onderkant toe.",
+      "spoken": "Onze peer is bovenaan smal en onderaan breder. Laat de appel en de schaal de delen verbergen die erachter zitten.",
+      "hint": "Begin smal en laat de bogen richting de schaal breder worden.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "pear-stem": {
+      "title": "Perensteeltje",
+      "instruction": "Laat een steeltje vanaf de peer omhoog draaien.",
+      "spoken": "Een klein gebogen steeltje komt uit de smalle bovenkant van de peer omhoog.",
+      "hint": "Houd het steeltje veel korter dan de peer zelf.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "right-orange": {
+      "title": "Sinaasappel rechts",
+      "instruction": "Maak een ronde sinaasappel die boven de rechterrand uitkomt.",
+      "spoken": "Een ronde sinaasappel past rechts. De zichtbare boog stopt bij de rand van de schaal in plaats van door de schaal heen te gaan.",
+      "hint": "Laat de rand de onderkant van deze ronde vrucht verbergen.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "banana-upper-edge": {
+      "title": "Bovenrand van de banaan",
+      "instruction": "Maak de bovenste banaanboog achter het andere fruit.",
+      "spoken": "De banaan ligt achter ons andere fruit. Kijk hoe de bovenrand in ons voorbeeld als één lange boog loopt.",
+      "hint": "Volg een lange boog boven de andere fruitvormen.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "banana-lower-edge": {
+      "title": "Onderrand van de banaan",
+      "instruction": "Kom terug langs de zichtbare onderrand van de smalle banaan.",
+      "spoken": "Kom terug langs de onderrand en til op waar ander fruit ervoor zit. De twee randen maken een smalle banaan naast ons rondere fruit.",
+      "hint": "Houd een smalle ruimte tussen de zichtbare banaanranden.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "banana-stalk": {
+      "title": "Bananensteeltje",
+      "instruction": "Voeg een klein gebogen steeltje toe links aan de banaan.",
+      "spoken": "Een klein gebogen steeltje maakt dit uiteinde van de banaan af.",
+      "hint": "Houd dit korte steeltje dicht bij de bananenpunt.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "hidden-fruit-arc": {
+      "title": "Verborgen vrucht",
+      "instruction": "Laat met een klein zichtbaar boogje nog een vrucht zien.",
+      "spoken": "Een optioneel boogje kan nog een vrucht achter de andere laten zien. We hebben alleen het zichtbare deel nodig, of je laat deze extra vrucht weg.",
+      "hint": "Een gedeeltelijke boog kan iets laten zien dat deels verborgen is.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "apple-stem": {
+      "title": "Appelsteeltje",
+      "instruction": "Voeg een klein gebogen steeltje boven op de appel toe.",
+      "spoken": "Een klein steeltje kan omhoog draaien uit het kuiltje boven op de appel, als je wilt.",
+      "hint": "Begin in het kuiltje boven op de appel en buig omhoog.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "apple-leaf": {
+      "title": "Appelblad",
+      "instruction": "Verbind eventueel twee boogjes tot een klein appelblad.",
+      "spoken": "Twee kleine bogen kunnen in een punt samenkomen voor een optioneel blad. Zet het net boven de appel, met of zonder steeltje.",
+      "hint": "Buig vanaf de bovenkant van de appel naar buiten tot een punt en kom terug.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "orange-first-spot": {
+      "title": "Eerste sinaasappelstip",
+      "instruction": "Voeg een klein stipje toe voor de sinaasappelstructuur.",
+      "spoken": "Je kunt met één stipje een beetje sinaasappelstructuur laten zien, of hem glad houden.",
+      "hint": "Houd dit stipje klein binnen de ronde sinaasappel.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "orange-second-spot": {
+      "title": "Tweede sinaasappelstip",
+      "instruction": "Zet nog een stipje iets lager op de sinaasappel.",
+      "spoken": "Je mag nog een stipje toevoegen; we hoeven niet elk bobbeltje te tekenen of structuur toe te voegen.",
+      "hint": "Gebruik een tweede stipje met wat ruimte eromheen.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "pear-shine": {
+      "title": "Glans op de peer",
+      "instruction": "Zet eventueel een kleine ovale glansplek op de peer apart.",
+      "spoken": "Een kleine lichte ovaal kan glans op de peer laten zien. We laten hier papier zichtbaar in plaats van over het hele oppervlak te kleuren.",
+      "hint": "Houd een kleine smalle ovaal binnen de grotere vorm van de peer.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "bowl-band": {
+      "title": "Sierband op de schaal",
+      "instruction": "Laat een gebogen sierband rond de schaal lopen.",
+      "spoken": "Een optionele sierband kan met de schaal meebuigen. De zachte bocht volgt een rond oppervlak, of je houdt je schaal zonder patroon.",
+      "hint": "Laat de band in het midden wat lager buigen.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "bowl-decoration": {
+      "title": "Versiering op de schaal",
+      "instruction": "Zet eventueel een kleine ronde versiering op de schaal.",
+      "spoken": "Je kunt een rond versierinkje op de schaal toevoegen of een ander eenvoudig eigen patroon kiezen.",
+      "hint": "Houd deze kleine versiering binnen het onderste deel van de schaal.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "fallen-fruit": {
+      "title": "Los fruit",
+      "instruction": "Zet eventueel een klein rond stuk fruit naast de schaal.",
+      "spoken": "Een klein stuk fruit naast de schaal maakt een tweede vorm op tafel. Laat wat witte ruimte tussen het fruit en de schaal.",
+      "hint": "Zet een kleine ronde vorm naast de schaal, zonder die te raken.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "fallen-fruit-leaf": {
+      "title": "Blad op het losse fruit",
+      "instruction": "Geef het losse fruit eventueel een puntig blaadje.",
+      "spoken": "Als je dat extra fruit hebt gemaakt, kan het een blaadje krijgen. Anders mag je dit detail weglaten.",
+      "hint": "Twee puntige bogen kunnen net boven het extra fruit samenkomen.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    },
+    "colour-choice": {
+      "title": "Fruitkleuren.",
+      "instruction": "Kies bekende fruitkleuren en een andere kleur voor de schaal.",
+      "spoken": "Ik kies een rode appel, groene peer, gele banaan en oranje sinaasappel, met een blauwe schaal. Jouw fantasiefruit mag eigen kleuren hebben.",
+      "hint": "Kies verschillende kleuren zodat de overlappende vormen duidelijk blijven.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-apple-pear": {
+      "title": "Appel en peer apart.",
+      "instruction": "Kleur kleine rode appelplekjes en groene perenplekjes.",
+      "spoken": "Ik werk steeds aan één vrucht met kleine lichte plekjes. Verschillende kleuren helpen ons zien waar de overlappende appel en peer bij elkaar komen.",
+      "hint": "Maak een plekje af, til op en ga dan naar de volgende vrucht.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-banana": {
+      "title": "Een smalle gele boog.",
+      "instruction": "Maak kleine gele bewegingen langs de lange boog van de banaan.",
+      "spoken": "De banaan is smal, dus maak ik kleine bewegingen langs de lengte. Witte openingen zijn welkom; we hoeven niet in elke hoek te drukken.",
+      "hint": "Houd de bewegingen kort binnen deze smalle gebogen vorm.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-oranges": {
+      "title": "Ronde oranje plekjes.",
+      "instruction": "Kleur de sinaasappels die je tekende met kleine warme bewegingen.",
+      "spoken": "Ik draai kleine oranje plekjes rond elke vrucht die je hebt toegevoegd. Eventuele structuurstipjes mogen zichtbaar blijven en wat papier mag wit blijven.",
+      "hint": "Maak lichte ronde bewegingen binnen elke vrucht die je koos.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-bowl": {
+      "title": "Een schaal vooraan.",
+      "instruction": "Maak blauwe plekjes over het gebogen oppervlak van de schaal.",
+      "spoken": "Nu krijgt de schaal eigen blauwe plekjes. Door een andere kleur dan het fruit te gebruiken blijft de voorrand duidelijk en dichtbij lijken.",
+      "hint": "Volg de boog van de schaal met kleine plekjes en til je krijtje zichtbaar op.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-still-life-layer": {
+      "title": "Een blad en schaduw.",
+      "instruction": "Probeer een lichte schaallaag en kleur een appelblad als je dat hebt.",
+      "spoken": "Een lichte extra laag op de schaal is jouw keuze. Als je een appelblad tekende, kunnen een paar groene streepjes het kleuren.",
+      "hint": "Maak kleine streepjes in een blad; een lichte schaallaag is optioneel.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflect": {
+      "title": "Welke vorm komt naar voren?",
+      "instruction": "Kijk hoe de voorrand van de schaal de onderkanten van het fruit verbergt.",
+      "spoken": "Kijk weer naar de voorrand. Doordat die een deel van het fruit verbergt, laat ons platte papier een eenvoudige opstelling van dichtbij en verder weg zien.",
+      "hint": "Volg de voorrand en kijk waar het fruit erachter stopt.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Maak je eigen stilleven.",
+      "instruction": "Kleur verder of bedenk nog een vrucht naast de schaal.",
+      "spoken": "Je kunt een fruitkleur veranderen, een schaalpatroon bedenken of nog een vrucht toevoegen. Ontdek verder, of rond je tafelbeeld hier af.",
+      "hint": "Probeer een nieuwe fruitvorm of een ander gebogen schaalpatroon.",
+      "notice": "Vraag: welk fruit verbergt een stukje van een ander stuk? Wijs op verzoek naar de echte opstelling. Doe een onderbroken omtrek voor op apart papier; eis niet dat hulplijnen worden uitgegumd."
+    }
+  }
+}

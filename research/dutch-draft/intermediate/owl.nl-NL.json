@@ -1,0 +1,223 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "owl",
+  "sourceLessonSha256": "c6b2ebd71b8e3f9c05fdc763351a49a9b2deb29006b5ab562e53c7952bc2bc0b",
+  "sourceTextSha256": "2710114de4f7a529e373e67bb22711936f523dd856b0283cb19374663a97271e",
+  "title": "Uil",
+  "invitation": "Grote ogen en een tak om op te rusten.",
+  "objective": "Twee bij elkaar horende onderdelen in een grotere vorm plaatsen en een dier verbinden met een tak die het draagt.",
+  "parentNote": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt.",
+  "simplify": "",
+  "transfer": "Probeer een andere vogel die op een hek zit. Ontdek samen welke onderdelen kunnen blijven en welke kunnen veranderen, zonder dat het uilenvoorbeeld nodig is.",
+  "colouringLabel": "Kleine streepjes, zorgvuldig gekozen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een rustig zitplekje op papier.",
+      "instruction": "Kijk naar twee grote ogen binnen één hoog lijf.",
+      "spoken": "Onze prentenboekuil rust op een zitplek van papier. Kijk naar zijn hoge ronde vorm en twee grote ogen met ruimte ertussen.",
+      "hint": "Zoek eerst het grote lijf en daarna de kleine veerstreepjes.",
+      "notice": "Kijk naar onze uil op zijn tak. Welke onderdelen laten zien waar hij zit?"
+    },
+    "owl-body": {
+      "title": "Lijf van de uil",
+      "instruction": "Teken een hoge ronde vorm met ruimte eronder.",
+      "spoken": "Een hoge ovaal biedt ruimte voor het gezicht en het lijf met veren. Laat papier eronder vrij voor een tak.",
+      "hint": "Denk eerst aan één grote ovaal en dan aan de kleinere details.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-left-tuft": {
+      "title": "Linker veerpluimpje",
+      "instruction": "Verbind twee korte lijnen voor een klein veerpluimpje.",
+      "spoken": "Twee korte lijntjes steken omhoog bij één kant van het hoofd. Onze prentenboekuil heeft kleine puntige veerpluimpjes.",
+      "hint": "Laat het pluimpje de bovenkant van de ovaal raken.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-right-tuft": {
+      "title": "Rechter veerpluimpje",
+      "instruction": "Voeg aan de overkant van het hoofd nog een veerpluimpje toe.",
+      "spoken": "Een tweede pluimpje steekt omhoog aan de andere kant. Kijk over het hoofd heen om de plek te vinden.",
+      "hint": "Vergelijk de hoogte met het eerste pluimpje.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-left-eye": {
+      "title": "Linkeroog van de uil",
+      "instruction": "Teken één groot rond oog binnen het lijf.",
+      "spoken": "Ik zet een groot oog hoog binnen de ovaal. Er is ruimte ernaast voor nog een oog en eronder voor een snavel.",
+      "hint": "Laat aan de overkant van het gezicht ruimte voor het andere grote oog.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-right-eye": {
+      "title": "Rechteroog van de uil",
+      "instruction": "Laat een beetje ruimte voor het andere oog.",
+      "spoken": "Het andere oog komt tegenover het eerste. Door te kijken naar hun grootte en de ruimte ertussen kan ik het plaatsen.",
+      "hint": "Houd beide grote cirkels binnen de bovenkant van het lijf.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-left-pupil": {
+      "title": "Linkerpupil",
+      "instruction": "Voeg een kleine pupil binnen het eerste oog toe.",
+      "spoken": "Een kleine donkere pupil komt binnen de eerste cirkel. De witte ruimte eromheen houdt het grote oog duidelijk zichtbaar.",
+      "hint": "Maak je pupil kleiner dan het ronde oog eromheen.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-right-pupil": {
+      "title": "Rechterpupil",
+      "instruction": "Voeg een kleine pupil binnen het tweede oog toe.",
+      "spoken": "Nog een kleine pupil komt binnen het andere oog. We laten er nog steeds veel wit papier omheen.",
+      "hint": "Zoek binnen het tweede oog een plek voor dit kleine stipje.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-beak": {
+      "title": "Snavel van de uil",
+      "instruction": "Verbind drie korte kanten onder de ogen.",
+      "spoken": "Een kleine puntige snavel past tussen en onder de ogen. Met drie verbonden kanten maken we een vorm die veel kleiner is dan elk oog.",
+      "hint": "Teken een driehoekje met de punt naar beneden onder de oogcirkels.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-left-wing": {
+      "title": "Linkervleugel van de uil",
+      "instruction": "Laat een vleugel binnen één kant naar beneden buigen.",
+      "spoken": "Een lange zachte boog komt binnen het lijf naar beneden. Zo lijkt er een opgevouwen vleugel te zijn zonder nog een hele ovaal toe te voegen.",
+      "hint": "Begin naast het gezicht en buig naar het onderste deel van het lijf.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-right-wing": {
+      "title": "Rechtervleugel van de uil",
+      "instruction": "Laat de andere vleugel langs de tegenoverliggende kant naar beneden buigen.",
+      "spoken": "De andere vleugel buigt binnen de tegenoverliggende rand naar beneden. Laat de buik tussen deze twee lange bogen open.",
+      "hint": "Laat de twee vleugels een vrije ruimte in het midden omlijsten.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-branch-top": {
+      "title": "Bovenkant van de tak",
+      "instruction": "Teken een taklijn onder de uil.",
+      "spoken": "Een lange lijn ligt onder onze uil. Ik geef hem ruimte om aan beide kanten buiten het lijf uit te steken.",
+      "hint": "Laat een kleine opening onder het lijf voor de poten.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-branch-bottom": {
+      "title": "Onderkant van de tak",
+      "instruction": "Teken nog een lijn net onder de eerste.",
+      "spoken": "Een tweede lijn volgt eronder en laat een smalle ruimte vrij. Door die opening krijgt de tak wat dikte.",
+      "hint": "Houd de twee taklijnen dicht bij elkaar, met papier ertussen.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-left-leg": {
+      "title": "Linkerpoot van de uil",
+      "instruction": "Verbind de uil met zijn zitplek met een korte poot.",
+      "spoken": "Een kort lijntje loopt vanaf het lijf naar de tak. Kijk waar de lijn bij de bovenkant van de zitplek komt.",
+      "hint": "Verbind de onderkant van het lijf met de bovenste taklijn.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-right-leg": {
+      "title": "Rechterpoot van de uil",
+      "instruction": "Voeg nog een korte poot toe naast de eerste.",
+      "spoken": "De andere korte poot komt ernaast naar beneden. Laat wat ruimte tussen de poten zodat je ze allebei kunt zien.",
+      "hint": "Maak nog een korte verbinding tussen lijf en tak.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-left-claw": {
+      "title": "Linkervoetje van de uil",
+      "instruction": "Maak een gebogen voetje over de tak.",
+      "spoken": "Een klein gebogen voetje raakt de bovenste taklijn. Door het voetje klein te houden blijft het lijf van de uil de grootste vorm.",
+      "hint": "Zet het kleine boogje onder aan één poot.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-right-claw": {
+      "title": "Rechtervoetje van de uil",
+      "instruction": "Voeg een gebogen voetje toe aan de andere poot.",
+      "spoken": "Het andere voetje krult op de zitplek. Ik houd het boogje klein naast de lange tak.",
+      "hint": "Laat dit boogje het uiteinde van je tweede poot raken.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-upper-feather": {
+      "title": "Bovenste veerstreepje",
+      "instruction": "Probeer een klein veerstreepje op de buik.",
+      "spoken": "Twee heel kleine schuine lijntjes kunnen een veertje laten zien. Dit optionele streepje hoort op de open buik tussen de vleugels.",
+      "hint": "Een klein knikje, bijna als een letter, kan een veertje worden.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-middle-feather": {
+      "title": "Middelste veerstreepje",
+      "instruction": "Probeer nog een veerstreepje vlakbij, als je wilt.",
+      "spoken": "Nog een klein knikje kan naast het eerste komen. Laat wat papier tussen de veerstreepjes die je kiest.",
+      "hint": "Houd het nieuwe veertje weg van de vleugelranden.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-lower-feather": {
+      "title": "Onderste veerstreepje",
+      "instruction": "Probeer een veertje lagerop, of laat de ruimte open.",
+      "spoken": "Een veertje lagerop kan het kleine patroon afmaken. Een paar streepjes zijn genoeg en een buik zonder patroon is ook goed.",
+      "hint": "Zet dit optionele streepje onder de andere.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "owl-branch-leaf": {
+      "title": "Blad aan de tak",
+      "instruction": "Probeer een klein blad naast de zitplek op papier.",
+      "spoken": "Twee bogen kunnen samen een blad naast onze zitplek maken. Dit is een extra tuinidee dat je mag overslaan.",
+      "hint": "Laat twee gebogen kanten weer samenkomen in een punt.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    },
+    "colour-choice": {
+      "title": "Zachte kleuren voor onze uil.",
+      "instruction": "Kies een lichte buik en een donkerdere kleur voor de vleugels.",
+      "spoken": "Ik kies zandkleurige veren, een lichte buik en bruine vleugels. Deze kleuren passen bij elkaar en helpen ons verschillende delen van onze uil op papier te zien.",
+      "hint": "Met één krijtje kun je lichtere streepjes maken door zacht te drukken.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-feathers": {
+      "title": "Veren rond een licht gezicht.",
+      "instruction": "Kleur rond de ogen en laat het papier van de ogen wit.",
+      "spoken": "Kleine lichtbruine streepjes komen naast het gezicht, met crème op de buik. Ik laat de oogcirkels wit zodat ze goed zichtbaar blijven.",
+      "hint": "Til je krijtje op voordat je bij een oog komt en begin dan een nieuw plekje.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-wings": {
+      "title": "Donkerdere vleugels, lichtere buik.",
+      "instruction": "Voeg donkerdere veren toe bij de opgevouwen vleugels.",
+      "spoken": "Bruine plekjes bij beide kanten laten de vleugels afsteken tegen de lichtere buik. Ik bouw de kleur op met korte, lichte lagen.",
+      "hint": "Houd het midden lichter dan de plekjes ernaast.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-perch": {
+      "title": "Een beetje kleur voor de zitplek.",
+      "instruction": "Maak kleine streepjes binnen de smalle tak.",
+      "spoken": "Een smalle tak vraagt om kleine bruine streepjes. Ik til mijn krijtje op vóór de poten en maak dan een klein geel plekje binnen de snavel.",
+      "hint": "In kleine ruimtes passen kleinere bewegingen, of ze mogen wit blijven.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-reflection": {
+      "title": "Onze uil op zijn tak.",
+      "instruction": "Kijk naar de lichte buik tussen de donkerdere vleugels.",
+      "spoken": "Kijk naar het lichte midden en de donkerdere vleugels eromheen. Onze prentenboekuil heeft een rustige zitplek op papier en ruimte voor jouw ideeën.",
+      "hint": "Zoek één verschil tussen een grote en een kleine vorm.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "explore": {
+      "title": "Een lucht voor jouw uil.",
+      "instruction": "Bedenk een lucht, voeg eigen streepjes toe of stop.",
+      "spoken": "Je kunt je uil een fantasielucht of nog een tak geven. Je zitplek op papier mag ook rustig en eenvoudig blijven.",
+      "hint": "Probeer een licht midden tussen twee donkerdere kanten te laten.",
+      "notice": "Noem de puntige vormen veerpluimpjes, geen oren. Bespreek als je kind om hulp vraagt hoe de poten, tenen en tak elkaar raken. Laat je kind kiezen waar de pupillen komen; beweer niet dat de uil of de tekening van je kind een bepaald gevoel uitdrukt."
+    }
+  }
+}

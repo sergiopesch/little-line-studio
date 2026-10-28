@@ -1,0 +1,209 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "butterfly",
+  "sourceLessonSha256": "6cb483d14e0bab04fd76151c74c33a6d174a1f985243a4acf9b4ecdabd5a8c2d",
+  "sourceTextSha256": "84686d6530bc8db5b8a902b6bf35f8b45a4790f2c8eb1cf0e4a9111e37889863",
+  "title": "Vlinder",
+  "invitation": "Vleugels en patronen van jezelf.",
+  "objective": "Vleugels rond een lijf in het midden plaatsen; links en rechts vergelijken zonder exacte symmetrie te eisen.",
+  "parentNote": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn.",
+  "simplify": "",
+  "transfer": "Teken een andere keer een nachtvlinder met hetzelfde idee van een lijf in het midden en vleugels eraan vast, maar kies een andere omtrek. Het gezin kan desgewenst een door een volwassene gekozen afbeelding van een nachtvlinder bekijken.",
+  "colouringLabel": "Kleine streepjes, zorgvuldig gekozen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een bezoeker voor onze tuin.",
+      "instruction": "Kijk naar de brede vleugels naast het smalle midden.",
+      "spoken": "Een vlinder op papier bezoekt onze fantasiebloementuin. Kijk naar het smalle midden, met brede vleugels die aan beide kanten uitsteken.",
+      "hint": "Vergelijk een brede vleugel met het smalle lijf.",
+      "notice": "Kijk naar de vlinder in ons voorbeeld. Waar komen de vleugels bij het smalle lijf?"
+    },
+    "butterfly-body": {
+      "title": "Lijf van de vlinder",
+      "instruction": "Teken een lange, smalle ovaal in het midden.",
+      "spoken": "Deze lange ovaal laat veel papier aan beide kanten vrij. Hij geeft onze vleugels een plek in het midden om samen te komen.",
+      "hint": "Laat naast het lijf veel meer ruimte dan binnenin.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-head": {
+      "title": "Hoofd van de vlinder",
+      "instruction": "Zet een klein rond hoofd boven het lijf.",
+      "spoken": "Een klein rond hoofd zit boven het smalle lijf. Ik houd het veel korter dan die lange ovaal.",
+      "hint": "Maak boven het lijf ruimte voor een klein hoofd.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-upper-left": {
+      "title": "Linkerbovenvleugel",
+      "instruction": "Maak een brede bovenvleugel naar links.",
+      "spoken": "Maak een grote boog naar buiten, rond de rand en terug naar het lijf. Eén grote beweging laat ruimte voor kleur binnen deze vleugel.",
+      "hint": "Laat de brede boog terugkomen bij het smalle midden.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-upper-right": {
+      "title": "Rechterbovenvleugel",
+      "instruction": "Voeg een brede bovenvleugel aan de andere kant toe.",
+      "spoken": "Kijk over het midden heen om nog een brede vleugel te plaatsen. Ik vergelijk de hoogte en breedte met de eerste.",
+      "hint": "De tweede vleugel steekt vanaf de andere kant van het lijf naar buiten.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-lower-left": {
+      "title": "Linkerondervleugel",
+      "instruction": "Maak een kleinere vleugel onder de eerste.",
+      "spoken": "De onderste vleugel begint onder de bovenste. Ik maak de boog kleiner, zodat we twee verschillende vleugelgroottes kunnen zien.",
+      "hint": "Houd deze ronde vleugel onder de grote bovenvleugel.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-lower-right": {
+      "title": "Rechterondervleugel",
+      "instruction": "Voeg nog een ondervleugel aan de overkant van het lijf toe.",
+      "spoken": "Nog een kleinere vleugel buigt naar rechts. Door beide kanten te vergelijken kies ik waar ik terugkom bij het midden.",
+      "hint": "Kijk naar de overkant voor de plek en grootte van de ondervleugel.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-left-antenna": {
+      "title": "Linker voelspriet",
+      "instruction": "Laat een dunne voelspriet boven het hoofd krullen.",
+      "spoken": "Een dunne lijn buigt omhoog vanaf het hoofd. Een zacht boogje aan het uiteinde maakt hem anders dan een recht stokje.",
+      "hint": "Begin bij het hoofd en buig naar de ruimte erboven.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-right-antenna": {
+      "title": "Rechter voelspriet",
+      "instruction": "Laat nog een dunne voelspriet naar de andere kant krullen.",
+      "spoken": "Een tweede lijn krult naar de andere kant. Laat een beetje ruimte tussen de uiteinden van de voelsprieten.",
+      "hint": "Probeer een kort boogje dat van de eerste af wijst.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-left-upper-vein": {
+      "title": "Lijn in linkerbovenvleugel",
+      "instruction": "Teken een lijn die de linkervleugel in loopt.",
+      "spoken": "Een lijn loopt vanaf bij het lijf de bovenvleugel in. Ik stop ruim vóór de buitenrand.",
+      "hint": "Houd het uiteinde van je lijn binnen de vleugel.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-right-upper-vein": {
+      "title": "Lijn in rechterbovenvleugel",
+      "instruction": "Teken een vergelijkbare lijn in de rechtervleugel.",
+      "spoken": "Ik neem hetzelfde idee mee naar de andere bovenvleugel. Kijk naar de vergelijkbare richting; een exacte kopie is niet nodig.",
+      "hint": "Vergelijk deze lijn met de lijn aan de overkant van het lijf.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-left-lower-vein": {
+      "title": "Lijn in linkerondervleugel",
+      "instruction": "Laat een korte lijn de ondervleugel in lopen.",
+      "spoken": "Een kortere lijn loopt de ondervleugel in. Kleine vleugels hebben minder lijn nodig dan onze grote bovenvleugels.",
+      "hint": "Begin bij het lijf en stop binnen de ondervleugel.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-right-lower-vein": {
+      "title": "Lijn in rechterondervleugel",
+      "instruction": "Voeg een korte lijn toe in de andere ondervleugel.",
+      "spoken": "Nog een korte lijn loopt deze ondervleugel in. Elke lijn blijft binnen de boog eromheen.",
+      "hint": "Laat wat ruimte tussen je lijn en de rand van de vleugel.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-left-oval": {
+      "title": "Ovaal links",
+      "instruction": "Probeer een ovaal patroon binnen een vleugel, als je wilt.",
+      "spoken": "Een kleine schuine ovaal kan deze vleugel versieren. Jij kiest de patronen; ze mogen anders zijn of ontbreken.",
+      "hint": "Laat ruimte rond het patroon binnen je vleugel.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-right-diamond": {
+      "title": "Ruit rechts",
+      "instruction": "Probeer een puntig patroon in de andere vleugel.",
+      "spoken": "Vier verbonden kanten kunnen een ruitvormig patroon maken. Met een andere vorm hier krijgt onze fantasievlinder een eigen ontwerp.",
+      "hint": "Verbind vier korte kanten in een vrije ruimte van de vleugel.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-left-spot": {
+      "title": "Stip links",
+      "instruction": "Probeer een stipje op een ondervleugel.",
+      "spoken": "Een stipje kan op de ondervleugel komen. Stop na één stip, of laat de vleugel zonder patroon.",
+      "hint": "Zoek binnen de ondervleugel ruimte voor één stipje.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-right-spot": {
+      "title": "Stip rechts",
+      "instruction": "Probeer nog een stipje, als je wilt.",
+      "spoken": "Nog een stip kan aan de andere kant van het lijf komen. Ons patroon hoeft links en rechts niet hetzelfde te zijn.",
+      "hint": "Een stip, een ander streepje of helemaal niets: het kan allemaal.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-upper-band": {
+      "title": "Bovenste lijfstreep",
+      "instruction": "Probeer een kort streepje over het smalle lijf.",
+      "spoken": "Een kort lijntje kan over het smalle lijf lopen. Ik stop bij de randen zodat het streepje binnenin blijft.",
+      "hint": "Gebruik alleen de breedte van de kleine middelste ovaal.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "butterfly-lower-band": {
+      "title": "Onderste lijfstreep",
+      "instruction": "Probeer lager op het lijf een streepje, of laat het weg.",
+      "spoken": "Een kort streepje kan lager op het lijf komen. Laat papier rond de andere streepjes die je kiest.",
+      "hint": "Deze extra lijn hoort binnen de onderste helft van het lijf.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    },
+    "colour-choice": {
+      "title": "Eigen kleuren voor de vleugels.",
+      "instruction": "Kies kleuren voor je fantasietuinbezoeker.",
+      "spoken": "Ik kies oranje bovenvleugels en gele ondervleugels. Een vlinder op papier mag kleuren en patronen uit jouw fantasie dragen.",
+      "hint": "Kies één kleur voor een groot vlak en een andere voor details.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-upper-wings": {
+      "title": "Ruimte voor de bovenvleugels.",
+      "instruction": "Kleur de grote vleugels met kleine gebogen plekjes.",
+      "spoken": "Ik kleur één klein plekje, til mijn krijtje op en ga verder. Licht oranje laat onze getekende patronen en witte ruimtes zichtbaar.",
+      "hint": "Maak kleinere bewegingen met je krijtje bij elke vleugelrand.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-lower-wings": {
+      "title": "Kleine vleugels, zacht geel.",
+      "instruction": "Gebruik geel op de kleinere ondervleugels.",
+      "spoken": "Geel geeft de kleinere vleugels een andere kleur. Ik maak kleine streepjes en dan een smal bruin plekje binnen het lijf.",
+      "hint": "Een kleine vleugel heeft een kleiner plekje nodig dan een grote.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-wing-edges": {
+      "title": "Een warmere kleurrand.",
+      "instruction": "Probeer iets donkerder kleur bij de buitenkant van de vleugels.",
+      "spoken": "Een beetje rood over het oranje verandert de tint bij de rand. Door lichte lagen zien we beide kleuren samen.",
+      "hint": "Druk zacht zodat de eerste kleur zichtbaar blijft.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-reflection": {
+      "title": "Vleugels vanuit het midden.",
+      "instruction": "Kijk naar de brede vleugels en het smalle midden.",
+      "spoken": "Onze brede vleugels steken uit vanuit een smal midden. Hun kleuren kunnen bij elkaar passen zonder hetzelfde te zijn, klaar voor een fantasiebloementuin.",
+      "hint": "Kijk naar een kleur die je hebt gekozen zonder die te hoeven benoemen.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "explore": {
+      "title": "Laat je tuin op papier groeien.",
+      "instruction": "Voeg een bloem toe, bedenk een patroon of stop.",
+      "spoken": "Misschien wil jouw tuinbezoeker een zelfbedachte bloem of een eigen patroon. Je mag verder kleuren of hier stoppen.",
+      "hint": "Probeer brede vormen aan beide kanten van een smal midden.",
+      "notice": "Wijs als daarom wordt gevraagd aan waar de vleugels in het voorbeeld vastzitten, in plaats van de grootte van de vleugels van je kind te vergelijken. Bied aan om op je eigen papier een andere vleugelvorm te tekenen. Patronen mogen hetzelfde of verschillend zijn."
+    }
+  }
+}

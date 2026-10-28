@@ -1,0 +1,230 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "rabbit",
+  "sourceLessonSha256": "7ed8a5d63e2c169c5864aee2b774a82941651f144973478cc9aac1a6b1fe5589",
+  "sourceTextSha256": "bb375fb0005f69e38bc85775fb7f514eed7b73267a9af41e6f654a57b52afe4d",
+  "title": "Konijn van opzij",
+  "invitation": "Ontdek een aanzicht van opzij.",
+  "objective": "Een hoofd van opzij, verschillend geplaatste oren en een grote ingetrokken achterpoot rangschikken.",
+  "parentNote": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor.",
+  "simplify": "Eén oor en twee eenvoudige voeten zijn genoeg. Sla het binnenoor, de wang en optionele details over; een lijf, hoofd van opzij, lang oor en staart kunnen het idee al laten zien.",
+  "transfer": "Probeer een andere keer een haas die de andere kant op kijkt, met een nieuw voorbeeld. Kies welke vormrelaties nog bruikbaar zijn en welke moeten veranderen.",
+  "colouringLabel": "Kleine krijtbewegingen, jouw eigen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een pauze in de tuin.",
+      "instruction": "Kijk naar de lange oren en de ronde ingetrokken achterpoot.",
+      "spoken": "Laten we een konijn tekenen dat pauzeert in een fantasietuin. Zijn lange oren en ronde achterpoot helpen ons een gehurkt zijaanzicht te laten zien.",
+      "hint": "Vergelijk de hoge oren met het lage ronde lijf.",
+      "notice": "Bekijk een konijn van opzij. Kijk hoe meestal één oog goed zichtbaar is en de achterpoot een grote ronde vorm naast het lijf kan maken. Kies welke kant dit konijn op kijkt."
+    },
+    "rabbit-body": {
+      "title": "Lijf van het konijn",
+      "instruction": "Maak de lichaamsdelen en til op waar hoofd en voeten komen.",
+      "spoken": "Begin met de gebogen rug en lichaamsranden. Til op waar hoofd en voeten komen; die voorste vormen sluiten de kleine openingen straks.",
+      "hint": "Volg het ronde lijf en til op bij de openingen voor onderdelen op de voorgrond.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "sideways-head": {
+      "title": "Hoofd van opzij",
+      "instruction": "Maak een kleiner schuin hoofd en laat een opening voor de snuit.",
+      "spoken": "Maak rechts het kleinere hoofd en laat vooraan een kleine opening. Onze ronde snuit komt straks bij die ruimte.",
+      "hint": "Maak het hoofd kleiner dan het lijf en laat het een beetje hellen.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "rabbit-muzzle": {
+      "title": "Snuit van het konijn",
+      "instruction": "Maak een kleine ronde snuit naar rechts.",
+      "spoken": "Een kleine boog steekt vanaf het hoofd uit voor de snuit. Deze kleine verandering aan de buitenvorm helpt het gezicht te laten zien.",
+      "hint": "Laat een klein rond boogje vanaf het hoofd uitsteken.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "rabbit-nose": {
+      "title": "Neus van het konijn",
+      "instruction": "Zet een neusje op de punt van de snuit.",
+      "spoken": "Een stipje aan de voorkant wordt de neus van ons konijn.",
+      "hint": "Zet een klein stipje helemaal rechts op de snuit.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "rabbit-eye": {
+      "title": "Oog van het konijn",
+      "instruction": "Voeg één klein oog binnen het hoofd toe.",
+      "spoken": "Zet één klein oog binnen het hoofd, achter de snuit.",
+      "hint": "Houd het oog klein met papier eromheen.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "long-near-ear": {
+      "title": "Voorste lange oor",
+      "instruction": "Maak een lang oor omhoog, rond de punt af en kom terug.",
+      "spoken": "Laat een lang oor boven het hoofd uitsteken, draai rond een ronde punt en kom weer omlaag. Laat ruimte tussen de twee kanten.",
+      "hint": "Denk aan een hoog smal blad met een ronde punt.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "long-far-ear": {
+      "title": "Achterste lange oor",
+      "instruction": "Voeg nog een lang oor toe dat verder naar rechts helt.",
+      "spoken": "Het tweede oor helt iets verder naar rechts. Door die hoek te veranderen zien we twee aparte oren in plaats van één dikke vorm.",
+      "hint": "Laat wat ruimte tussen de twee lange oren.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "inner-near-ear": {
+      "title": "Binnenkant van het voorste oor",
+      "instruction": "Teken een kleinere gebogen vorm binnen het voorste oor.",
+      "spoken": "Een kleinere gebogen vorm binnen dit oor geeft ons straks ruimte voor lichtroze. Laat een randje binnen het grotere oor vrij.",
+      "hint": "Herhaal de lange oorvorm kleiner aan de binnenkant.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "rabbit-cheek": {
+      "title": "Wang van het konijn",
+      "instruction": "Laat een kort wangboogje onder het oog naar beneden draaien.",
+      "spoken": "Een kort wangboogje draait onder het gezicht. Kleine gebogen details kunnen met weinig lijnen een vormverandering laten zien.",
+      "hint": "Buig onder het ooggebied naar beneden en terug.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "large-hind-leg": {
+      "title": "Grote achterpoot",
+      "instruction": "Zet een grote ronde achterpoot binnen het lijf.",
+      "spoken": "Deze ronde vorm achteraan binnen het lijf laat de ingetrokken achterpoot zien. Kijk hoeveel groter hij is dan een voorpootje.",
+      "hint": "Houd deze ronde poot binnen de linkeronderkant van het lijf.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "long-hind-foot": {
+      "title": "Lange achtervoet",
+      "instruction": "Teken een lange platte voet onder de ronde poot.",
+      "spoken": "Een lange platte ovaal onder die ronde poot wordt de achtervoet. Door ronde en platte vormen te vergelijken zien we deze rusthouding.",
+      "hint": "Maak de voet veel platter dan de ronde poot.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "short-front-leg": {
+      "title": "Korte voorpoot",
+      "instruction": "Breng een korte voorpoot onder de borst naar beneden.",
+      "spoken": "Teken een korte voorpoot onder de borst en rond de onderste draai af. Houd hem korter en smaller dan de grote achterpoot.",
+      "hint": "Ga omlaag, rond een voetje af en kom weer omhoog.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "front-paw": {
+      "title": "Voorvoetje",
+      "instruction": "Voeg een klein plat voetje naast de voorpoot toe.",
+      "spoken": "Een klein plat voetje zit naast die voorpoot.",
+      "hint": "Een kleine lage ovaal is genoeg voor dit voorvoetje.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "round-tail": {
+      "title": "Ronde staart",
+      "instruction": "Maak een kleine ronde staart aan de achterkant.",
+      "spoken": "Maak een klein rond staartje aan de achterkant van het lijf. We kunnen het wit laten zodat het afsteekt tegen de vacht.",
+      "hint": "Maak een kleine ronde boog vanaf de linkerkant van het lijf.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "rabbit-mouth": {
+      "title": "Mond van het konijn",
+      "instruction": "Maak een zacht mondboogje onder de neus.",
+      "spoken": "Je kunt een zacht mondboogje onder de neus toevoegen, of het weglaten.",
+      "hint": "Houd de mond dicht bij de kleine snuit.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "first-whisker": {
+      "title": "Eerste snorhaar",
+      "instruction": "Laat een dunne snorhaar vanaf de snuit naar buiten lopen.",
+      "spoken": "Als je snorharen wilt, kan een lichte lijn vanaf de snuit naar buiten lopen.",
+      "hint": "Eén dunne lijn naar buiten is genoeg voor deze snorhaar.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "second-whisker": {
+      "title": "Tweede snorhaar",
+      "instruction": "Probeer nog een dunne snorhaar vanaf de snuit, of sla die over.",
+      "spoken": "Probeer een dunne snorhaar vanaf de snuit, als je wilt. Laat ruimte rond de andere snorharen die je koos.",
+      "hint": "Begin bij de snuit en laat ruimte rond andere streepjes.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "hind-foot-toe": {
+      "title": "Teen op de achtervoet",
+      "instruction": "Zet een klein teenstreepje op de lange achtervoet.",
+      "spoken": "Een klein lijntje op de achtervoet kan een teen laten zien, als je wilt.",
+      "hint": "Houd dit streepje veel korter dan de voet zelf.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "rabbit-ground": {
+      "title": "Grond onder het konijn",
+      "instruction": "Maak een kleine grondboog onder het konijn.",
+      "spoken": "Je mag een losse boog onder het konijn tekenen als een stukje tuingrond. De achtergrond openlaten is ook een keuze.",
+      "hint": "Houd deze grondboog onder de pootjes en de staart.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "rabbit-leaf": {
+      "title": "Tuinblad",
+      "instruction": "Zet eventueel een puntig tuinblad vlakbij.",
+      "spoken": "Een blad vlakbij kan deel worden van ons tuinverhaal. Twee bogen komen samen in een punt en maken dit kleine blad.",
+      "hint": "Buig naar buiten tot een punt en kom terug met nog een boog.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    },
+    "colour-choice": {
+      "title": "Zachte tuinkleuren.",
+      "instruction": "Kies een zachte vachtkleur en groen voor een blad.",
+      "spoken": "Ik gebruik warm lichtbruin voor ons tuinkonijn, met lichtroze binnen één oor. Jouw konijn mag andere vlekken of kleuren hebben.",
+      "hint": "Kies een hoofdkleur voor de vacht en houd wat papier wit.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-soft-fur": {
+      "title": "Kleine vachtplekjes.",
+      "instruction": "Maak zachte krijtplekjes langs het lijf en hoofd.",
+      "spoken": "Deze lichte plekjes volgen het ronde lijf. Ik til mijn krijtje op voordat ik naar een nieuw plekje ga en houd het oog en de gezichtsdetails vrij.",
+      "hint": "Druk zacht en maak kleine bewegingen rond elke ronde vorm.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-long-ears": {
+      "title": "Hoge smalle ruimtes.",
+      "instruction": "Maak kortere krijtbewegingen binnen de lange oren.",
+      "spoken": "De oren zijn smal, dus worden mijn bewegingen korter. Ik laat binnen het voorste oor een lichte ruimte voor een andere kleur.",
+      "hint": "Maak je bewegingen korter in plaats van tegen een smalle rand te duwen.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-feet": {
+      "title": "Ronde poot, platte voeten.",
+      "instruction": "Volg de ronde achterpoot en de plattere voeten.",
+      "spoken": "Ik volg de ronde achterpoot en draai mijn bewegingen dan mee met de platte voeten. De richting verandert met elke vorm.",
+      "hint": "Ronde en platte vormen kunnen verschillende bewegingsrichtingen gebruiken.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-garden-layer": {
+      "title": "Een roze oor en een tuinblad.",
+      "instruction": "Probeer lichtroze, kleur een blad als je dat hebt, of voeg zachte schaduw toe.",
+      "spoken": "Een beetje lichtroze kan het binnenoor kleuren. Als je een blad hebt toegevoegd, probeer daar groen; een tweede vachtlaag is optioneel.",
+      "hint": "Maak kleine oorstreepjes; kleur alleen een blad als je er een hebt gemaakt.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflect": {
+      "title": "Een rustig tuinkonijn.",
+      "instruction": "Kijk naar de lange oren boven de korte gehurkte houding.",
+      "spoken": "Kijk naar de hoge oren en het lage lijf eronder. Die verschillende verhoudingen vertellen ons konijnenverhaal, zelfs met weinig vachtstreepjes.",
+      "hint": "Vergelijk de langste vorm met een kort voetje.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Jouw eigen tuin.",
+      "instruction": "Kleur verder of bedenk een tuin rond je konijn.",
+      "spoken": "Je konijn mag blijven zoals het is, of je kunt een tuintje bedenken. Ga verder wanneer je wilt, of rond je tekening hier af.",
+      "hint": "Probeer een blad of favoriete bloem naast je konijn.",
+      "notice": "Nodig je kind uit om de grote vorm van de achterpoot in het voorbeeld aan te wijzen. Vergelijk die op verzoek met de voorpoot. Doe een oorbeweging voor op apart papier; je kind kiest de richting van het oor."
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "house",
+  "sourceLessonSha256": "3856b4a1e72ee5ca339e4c9e792fb68c1214a351a99c81441dbb683b8d627cda",
+  "sourceTextSha256": "ae7c3ec846618470eb6c306756df55637d0cbc7850edc5a0a0b520a0180c8165",
+  "title": "Huis en tuin",
+  "invitation": "Maak een huis met een groeiende tuin.",
+  "objective": "Eenvoudige bouwvormen verbinden en een pad en plant ten opzichte van het huis plaatsen.",
+  "parentNote": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren.",
+  "simplify": "",
+  "transfer": "Bedenk een andere keer een winkeltje of schuurtje. Nodig je kind uit om muren, een opening en een dak opnieuw te gebruiken met een andere indeling.",
+  "colouringLabel": "Kleine streepjes, zorgvuldig gekozen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Bezoek voor ons huis.",
+      "instruction": "Kijk naar het puntige dak boven de brede muren.",
+      "spoken": "Er komt een fantasiebezoeker naar ons huis op papier. Kijk naar de brede muren, het puntige dak en de kleine openingen binnen de muurvorm.",
+      "hint": "Kijk hoe het dak op de hoeken van de muren rust.",
+      "notice": "Kijk naar ons fantasiehuis. Waar begint het pad?"
+    },
+    "house-walls": {
+      "title": "Muren van het huis",
+      "instruction": "Verbind vier kanten voor de muren van het huis.",
+      "spoken": "Een brede rechthoek wordt onze muren. Ik laat papier bovenaan voor een dak en onderaan voor een pad naar de deur.",
+      "hint": "Begin met een grote rechthoek en ruimte eromheen.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-left-roof": {
+      "title": "Linkerdaklijn",
+      "instruction": "Maak een schuine lijn omhoog van een muurhoek naar de dakpunt.",
+      "spoken": "Een schuine lijn gaat omhoog vanaf de linkerbovenhoek van de muur richting het midden. Deze dakpunt komt boven de brede muurvorm.",
+      "hint": "Richt boven het midden van je muurrechthoek.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-right-roof": {
+      "title": "Rechterdaklijn",
+      "instruction": "Maak een schuine lijn omlaag naar de andere muurhoek.",
+      "spoken": "Een tweede schuine lijn komt bij de andere muurhoek. Samen sluiten de twee schuine lijnen en de bovenkant van de muur ons driehoekige dak.",
+      "hint": "Verbind het hoge punt met de andere bovenhoek van de muur.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-door": {
+      "title": "Deur van het huis",
+      "instruction": "Maak een kleine hoge rechthoek binnen de muren.",
+      "spoken": "Een smalle rechthoek loopt tot de onderkant van het huis. Houd hem veel kleiner dan de muren, met ruimte ernaast voor ramen.",
+      "hint": "Laat de onderkant van de deur de onderkant van het huis raken.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-door-handle": {
+      "title": "Deurknop",
+      "instruction": "Zet een kleine deurknop binnen de deur.",
+      "spoken": "Een klein stipje komt bij één kant van de deur. Wat papier eromheen houdt dit kleine detail duidelijk.",
+      "hint": "Houd dit stipje binnen de deur in plaats van op de rand.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-left-window": {
+      "title": "Linkerraam",
+      "instruction": "Teken een klein raam naast de deur.",
+      "spoken": "Een kleine rechthoek past naast de deur. Ik laat muurruimte tussen het raam en zowel de deur als de buitenrand.",
+      "hint": "Zoek een vrije plek op de muur aan één kant van de deur.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-right-window": {
+      "title": "Rechterraam",
+      "instruction": "Zet nog een raam aan de andere kant van de deur.",
+      "spoken": "Een tweede raam komt aan de andere kant. Vergelijk de hoogte met het eerste en gebruik de bovenkant van de muur als hulp.",
+      "hint": "Laat muurruimte rond je tweede kleine rechthoek.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-left-window-bar": {
+      "title": "Stijl in het linkerraam",
+      "instruction": "Teken een kort lijntje binnen het eerste raam.",
+      "spoken": "Een kort lijntje verdeelt dit raam. Begin en stop bij de randen zodat de lijn binnen de glasvorm blijft.",
+      "hint": "Gebruik de boven- en onderkant van het raam als stoppunten.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-right-window-bar": {
+      "title": "Stijl in het rechterraam",
+      "instruction": "Verdeel het tweede raam met nog een kort lijntje.",
+      "spoken": "Nog een kort lijntje komt binnen het tweede raam. Zulke kleine lijnen zijn makkelijker nadat we de grote vormen hebben geplaatst.",
+      "hint": "Houd dit lijntje binnen je tweede raam.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-chimney": {
+      "title": "Schoorsteen",
+      "instruction": "Probeer een schoorsteentje boven één dakhelling.",
+      "spoken": "Een kleine schoorsteen kan boven één dakhelling uitsteken. De onderste hoeken raken de helling, zodat ons dak duidelijk blijft.",
+      "hint": "Verbind korte kanten boven het dak in plaats van erdoorheen.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-left-path": {
+      "title": "Linkerrand van het pad",
+      "instruction": "Laat één rand van het pad van de deur af buigen.",
+      "spoken": "Een lijn buigt vanaf één deurhoek naar beneden. Hij loopt verder uit elkaar naar de onderkant van ons papier.",
+      "hint": "Begin bij een onderste deurhoek en buig naar buiten.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-right-path": {
+      "title": "Rechterrand van het pad",
+      "instruction": "Laat de andere padrand van de deur af buigen.",
+      "spoken": "De andere padrand begint bij de andere hoek. De bredere ruimte dichtbij maakt een uitnodigend pad naar het huis.",
+      "hint": "Laat het pad breder worden verder van de deuropening.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-flower-stem": {
+      "title": "Bloemsteel in de tuin",
+      "instruction": "Teken een steeltje in de tuin naast het huis.",
+      "spoken": "Een hoge dunne lijn kan een tuinbloem naast ons huis dragen. Ik laat ruimte rond de bovenkant voor bloemblaadjes.",
+      "hint": "Kies een vrije plek in de tuin, weg van het pad.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-flower-centre": {
+      "title": "Midden van de tuinbloem",
+      "instruction": "Zet een cirkeltje boven aan de steel.",
+      "spoken": "Een klein rond midden raakt de bovenkant van de steel. Houd het klein genoeg om ruimte voor bloemblaadjes eromheen te laten.",
+      "hint": "Laat de cirkel het bovenste uiteinde van de steel raken.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-upper-petal": {
+      "title": "Bovenste bloemblaadje",
+      "instruction": "Maak een bloemblaadje boven het kleine bloemenmidden.",
+      "spoken": "Een boog gaat vanaf de bovenkant van het midden naar buiten en buigt terug. Door vlakbij terug te komen ontstaat een rond bloemblaadje met een eigen binnenruimte.",
+      "hint": "Buig vanaf het midden naar buiten en kom terug naast je beginpunt.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-left-petal": {
+      "title": "Linkerbloemblaadje",
+      "instruction": "Voeg een bloemblaadje naast het bloemenmidden toe.",
+      "spoken": "Nog een rond bloemblaadje groeit naar één kant. Ik houd de boog buiten het midden in plaats van eroverheen.",
+      "hint": "Laat dit bloemblaadje de zijkant van het cirkeltje raken.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-lower-petal": {
+      "title": "Onderste bloemblaadje",
+      "instruction": "Maak een bloemblaadje onder het bloemenmidden.",
+      "spoken": "Het volgende bloemblaadje buigt onder het midden. We herhalen één gebogen beweging in een nieuwe richting.",
+      "hint": "Laat naast de steel ruimte voor dit ronde bloemblaadje.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-right-petal": {
+      "title": "Rechterbloemblaadje",
+      "instruction": "Voeg een bloemblaadje aan de laatste open kant toe.",
+      "spoken": "Nog een gebogen bloemblaadje raakt de andere kant. Onze tuinbloem mag ongelijke bloemblaadjes hebben en toch open en groeiend lijken.",
+      "hint": "Laat deze boog terugkomen bij de overgebleven kant van het midden.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-flower-leaf": {
+      "title": "Blad van de tuinbloem",
+      "instruction": "Verbind twee bogen voor een blad naast de steel.",
+      "spoken": "Twee bogen komen samen in een punt naast de steel. De verbonden vorm geeft ons blad straks ruimte voor een beetje kleur.",
+      "hint": "Laat beide bogen bij de steel en de bladpunt samenkomen.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-ground": {
+      "title": "Grond bij het huis",
+      "instruction": "Probeer een klein grondboogje naast het huis.",
+      "spoken": "Een klein grondboogje kan naast het huis komen. Laat de deuropening en het pad vrij voor onze fantasiebezoeker.",
+      "hint": "Houd deze extra lijn buiten het pad dat je hebt getekend.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-garden-stone": {
+      "title": "Steen in de tuin",
+      "instruction": "Probeer een ovale tuinsteen, als je wilt.",
+      "spoken": "Een kleine ovaal kan een tuinsteen worden. De lage vorm ligt naast het pad zonder de deuropening te blokkeren.",
+      "hint": "Kies een lege plek in de tuin voor deze optionele ovaal.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "house-cloud": {
+      "title": "Wolk boven het huis",
+      "instruction": "Probeer een zachte wolk boven je tuin op papier.",
+      "spoken": "Ronde bogen kunnen een kleine wolk in de lucht maken. Deze extra vorm mag losblijven van het huis en de bloem.",
+      "hint": "Zoek een vrije plek rond je dak voordat je tekent.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    },
+    "colour-choice": {
+      "title": "Kleuren voor een welkom huis.",
+      "instruction": "Kies kleuren die bij elkaar passen voor je huis en dak.",
+      "spoken": "Ik kies crèmekleurige muren, een rood dak en een bruine deur. Blauwe ramen geven de kleinere ruimtes een andere kleur.",
+      "hint": "Kies een muurkleur waarbij je omtrekken goed zichtbaar blijven.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-roof": {
+      "title": "Warm rood over het dak.",
+      "instruction": "Kleur het dak met kleine rode plekjes.",
+      "spoken": "Kleine rode plekjes komen binnen de driehoek. Bij de puntige bovenkant maak ik kortere streepjes en til ik mijn krijtje op vóór de rand.",
+      "hint": "Maak kleinere streepjes waar de ruimte smaller wordt.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-walls": {
+      "title": "Zachte kleur rond de openingen.",
+      "instruction": "Kleur de muurruimtes rond deuren en ramen.",
+      "spoken": "Crèmekleurige plekjes komen rond de openingen en laten die vrij. Ik beweeg tussen kleine muurruimtes in plaats van over een deur of raam heen te kleuren.",
+      "hint": "Til je krijtje op vóór een opening en begin in een andere muurruimte.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-door-and-glass": {
+      "title": "Kleine vormen, verschillende kleuren.",
+      "instruction": "Geef de deur en het glas hun eigen kleuren.",
+      "spoken": "Bruin laat de deur afsteken tegen de lichte muren. Lichtblauw past in de ramen; kleine witte openingen laten glas zien.",
+      "hint": "Kleur elke kleine vorm apart en til je krijtje tussendoor op.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-reflection": {
+      "title": "Een huis klaar voor jouw verhaal.",
+      "instruction": "Kijk hoe de kleine openingen binnen de grote muren passen.",
+      "spoken": "Onze grote muurvorm bevat kleinere deuren en ramen. Het pad is klaar voor een fantasiebezoeker en de tuin kan blijven groeien.",
+      "hint": "Zoek een kleine vorm binnen een grotere.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "explore": {
+      "title": "Een tuin van jezelf.",
+      "instruction": "Laat je tuin groeien, kleur verder of stop.",
+      "spoken": "Jouw bezoeker vindt misschien meer bloemen, een boom of iets dat je zelf bedenkt. Maak verder aan je tuin op papier, of stop wanneer je wilt.",
+      "hint": "Probeer kleine openingen binnen nog een grote gebouwvorm te plaatsen.",
+      "notice": "Gebruik een fantasiehuis; het is niet nodig om de echte woning van het gezin te benoemen. Als de bloem te priegelig voelt, bied dan een grotere bloem of één ronde bloem aan. Bespreek alleen op verzoek hoe het pad bij de deur aansluit. Eis geen kaarsrechte muren."
+    }
+  }
+}

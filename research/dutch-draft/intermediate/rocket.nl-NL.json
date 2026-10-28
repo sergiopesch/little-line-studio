@@ -1,0 +1,209 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "rocket",
+  "sourceLessonSha256": "2abc7e9ddfdeba3c3d07ee4d3427daa2e1651d3231db86b57e6d0f686b3991ae",
+  "sourceTextSha256": "257404ccc4a761766e876e8f470e48fa0a81d3307762313a8549762eb81a532b",
+  "title": "Ruimteraket",
+  "invitation": "Bouw een raket van verbonden vormen.",
+  "objective": "Een centraal lijf, twee vinnen en vormen binnen vormen ordenen; grote omtrekken onderscheiden van kleinere vormen binnenin.",
+  "parentNote": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema.",
+  "simplify": "",
+  "transfer": "Probeer een andere keer een onderzeeër met een groot lijf en kleine ramen, maar verander de richting en de onderdelen die uitsteken.",
+  "colouringLabel": "Kleine streepjes, zorgvuldig gekozen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een fantasiereis op papier.",
+      "instruction": "Kijk naar een lang lijf met kleine vinnen ernaast.",
+      "spoken": "Onze fantasieraket verkent een zelfbedachte lucht op papier. Kijk naar het lange lijf, de ronde bovenkant en de kleine vinnen ernaast.",
+      "hint": "Zoek het grote lijf voordat je naar het kleine raam en de knopjes kijkt.",
+      "notice": "Kijk naar onze raket. Welke onderdelen zitten binnen het lijf en welke steken uit?"
+    },
+    "rocket-body": {
+      "title": "Lijf van de raket",
+      "instruction": "Teken een hoog lijf met een afgeronde punt.",
+      "spoken": "Ga langs de ene kant omhoog, rond de puntige bovenkant en langs de andere kant omlaag. Een lijn over de onderkant sluit onze lange raketvorm.",
+      "hint": "Laat papier onder het lijf voor een fantasievlam.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-nose-section": {
+      "title": "Neus van de raket",
+      "instruction": "Maak een korte gebogen naad over de puntige bovenkant.",
+      "spoken": "Een lichte boog loopt dwars vlak bij de bovenkant. Die scheidt een kleine neus van het veel langere lijf eronder.",
+      "hint": "Laat het grootste deel van de raket onder dit kleine bovenste deel.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-window": {
+      "title": "Raam van de raket",
+      "instruction": "Plaats een rond raam in het bovenste deel van het lijf.",
+      "spoken": "Een rond raam past binnen het bovenste lijf. Ik laat aan beide kanten ruimte zodat de lange omtrek van de raket duidelijk blijft.",
+      "hint": "Houd je cirkel binnen de twee lange randen van het lijf.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-window-rim": {
+      "title": "Rand van het raketraam",
+      "instruction": "Teken een kleinere cirkel binnen het raam.",
+      "spoken": "Een kleinere cirkel zit binnen de eerste. De kleine ruimte ertussen wordt een rand rond ons raam.",
+      "hint": "Volg de eerste cirkel een stukje naar binnen.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-left-fin": {
+      "title": "Linkervin van de raket",
+      "instruction": "Maak een puntige vin vast aan één onderste zijkant.",
+      "spoken": "Drie kanten vormen een vin naast het onderste lijf. Kijk hoe dit kleine onderdeel de grote raket raakt in plaats van los te zweven.",
+      "hint": "Begin en eindig je vin aan de zijkant van het lijf.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-right-fin": {
+      "title": "Rechtervin van de raket",
+      "instruction": "Voeg een kleine vin toe aan de andere kant.",
+      "spoken": "Nog een vin steekt aan de andere kant uit. Vergelijk hun hoogte op het lijf voordat je de korte lijnen verbindt.",
+      "hint": "Plaats beide vinnen bij de onderkant van de raket.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-engine-section": {
+      "title": "Motordeel van de raket",
+      "instruction": "Maak een gebogen naad bij de onderkant van het lijf.",
+      "spoken": "Een lichte boog loopt bij de onderkant. De smalle ruimte eronder geeft onze raket een klein motordeel.",
+      "hint": "Laat een smalle strook tussen deze boog en de onderkant.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-flame": {
+      "title": "Vlam van de raket",
+      "instruction": "Maak een fantasievlam onder de raket.",
+      "spoken": "Onze fantasievlam buigt omlaag naar een punt en weer omhoog. Hij komt bij de onderkant zonder de vinnen aan de zijkant te bedekken.",
+      "hint": "Laat ruimte tussen de lange vlam en de vinnen aan de zijkant.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-inner-flame": {
+      "title": "Binnenste vlam",
+      "instruction": "Voeg een kleinere vlamboging binnen de eerste toe.",
+      "spoken": "Een kleinere puntige boog past binnen de eerste vlam. Een vorm binnen een andere geeft ons straks ruimte voor twee kleuren.",
+      "hint": "Houd deze nieuwe boog ruim binnen de buitenste vlam.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-left-stripe": {
+      "title": "Linkerstreep op de raket",
+      "instruction": "Teken een lange streep binnen één rand van het lijf.",
+      "spoken": "Een lange lijn volgt van binnenuit één kant. Ik stop vóór de onderste naad en laat het raam vrij.",
+      "hint": "Volg de richting van het lijf met wat ruimte naast de rand.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-right-stripe": {
+      "title": "Rechterstreep op de raket",
+      "instruction": "Voeg nog een lange streep aan de andere kant toe.",
+      "spoken": "Een vergelijkbare lijn volgt de andere kant. Deze twee lange strepen helpen het lijf hoog lijken naast het kleine ronde raam.",
+      "hint": "Houd deze streep weg van het raam en de buitenrand.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-left-button": {
+      "title": "Linkerknopje van de raket",
+      "instruction": "Probeer een knopje onder het raam.",
+      "spoken": "Een stipje kan het begin van een bedieningspaneel zijn. Dit extra detail hoort onder het raam, binnen ons lange lijf.",
+      "hint": "Zoek een vrije plek in het lijf onder het ronde raam.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-right-button": {
+      "title": "Rechterknopje van de raket",
+      "instruction": "Probeer een tweede knopje, als je wilt.",
+      "spoken": "Nog een stipje kan vlakbij komen, of je laat het paneel leeg. Onze fantasieraket heeft geen precieze knoppen nodig.",
+      "hint": "Laat wat papier rond elk knopje dat je kiest.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-planet": {
+      "title": "Planeet",
+      "instruction": "Probeer een kleine planeet in de fantasielucht.",
+      "spoken": "Een kleine ovaal kan een verre planeet in ons verhaal worden. Houd hem los van de raket zodat beide vormen duidelijk blijven.",
+      "hint": "Kies een lege plek op het papier naast de raket.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-planet-ring": {
+      "title": "Ring om de planeet",
+      "instruction": "Probeer een schuine ring rond je planeet.",
+      "spoken": "Een dunne schuine ovaal kan om de planeet heen lopen, als je er een hebt getekend. Je mag deze versiering samen met de planeet overslaan.",
+      "hint": "Een lange, smalle ovaal kan naar één kant hellen.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-upper-star": {
+      "title": "Bovenste ster",
+      "instruction": "Probeer een klein sterretje hoog in de lucht.",
+      "spoken": "Een klein stipje kan een ver lichtje in onze fantasielucht laten zien. Eén klein streepje is genoeg.",
+      "hint": "Maak een klein stipje op een vrije plek buiten de raket.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-lower-star": {
+      "title": "Onderste ster",
+      "instruction": "Probeer nog een klein lichtje, als je wilt.",
+      "spoken": "Nog een klein stipje kan verder weg komen. Met veel leeg papier eromheen valt elk lichtje goed op.",
+      "hint": "Probeer een andere lege plek, of laat het papier vrij.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "rocket-moon": {
+      "title": "Maan",
+      "instruction": "Probeer twee bogen voor een fantasie-maansikkel.",
+      "spoken": "Twee gebogen lijnen komen samen in puntige uiteinden. Deze optionele maan op papier mag onze fantasielucht delen met alle andere ideeën die je kiest.",
+      "hint": "Laat een tweede boog terugkomen bij de uiteinden van de eerste.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    },
+    "colour-choice": {
+      "title": "Kleuren voor een fantasieraket.",
+      "instruction": "Kies kleuren voor het lijf, het raam en de fantasievlam.",
+      "spoken": "Ik kies grijs en rood voor de raket, blauw glas en warme vlamkleuren. Dit is een fantasietekening, klaar voor jouw keuzes.",
+      "hint": "Leg een lichte kleur voor het lijf en een paar kleuren voor kleine accenten klaar.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-rocket-body": {
+      "title": "De lange raket krijgt kleur.",
+      "instruction": "Kleur het lijf en laat het raam vrij.",
+      "spoken": "Lichtgrijze plekjes lopen langs het lange lijf naar beneden. Rood komt bij de top; ik til mijn krijtje op vóór het raam en de smalle omtrekken.",
+      "hint": "Kleur een klein stukje, til je krijtje op en kies dan een andere vrije plek.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-fins-and-window": {
+      "title": "Kleine vinnen en een licht raam.",
+      "instruction": "Maak kleine rode vinnen en een lichtblauw raam.",
+      "spoken": "De kleine vinnen vragen om kleinere rode streepjes dan het lijf. Lichtblauw komt binnen het raam, met witte openingen die glanzend glas laten zien.",
+      "hint": "Kleine gesloten vormen vragen om kleine bewegingen en zachte druk.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-flame": {
+      "title": "Warme kleuren voor fantasievlammen.",
+      "instruction": "Maak laagjes warme kleur binnen de fantasievlam.",
+      "spoken": "Oranje komt bij de buitenste vlam en geel dichter bij het midden. Ik laat de kleuren licht overlappen zodat de verschillende plekjes zichtbaar blijven.",
+      "hint": "Probeer een lichte laag voordat je nog een warme kleur toevoegt.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-reflection": {
+      "title": "Grote vormen en kleine details.",
+      "instruction": "Kijk naar het lange lijf en de veel kleinere vinnen.",
+      "spoken": "Onze grote raketvorm heeft kleine vinnen eraan vast en een rond raam. De gekleurde plekjes zijn klaar voor een fantasiereis op papier.",
+      "hint": "Kijk naar één klein onderdeel naast het grote lijf.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "explore": {
+      "title": "Een landingsplek die je bedenkt.",
+      "instruction": "Bedenk een landingsplek, voeg ideeën toe of stop.",
+      "spoken": "Je kunt een landingsplek voor je raket op papier bedenken of het lijf verder kleuren. Je hoeft je reis niet te haasten.",
+      "hint": "Probeer een lange vorm te combineren met kleine driehoeken die eraan vastzitten.",
+      "notice": "Vergelijk als je kind om hulp vraagt het grote lijf in het voorbeeld met het kleine raam. Bied als alternatief een groter raam of minder details aan. Houd de reis bij fantasie en presenteer de gestileerde tekening niet als een technisch schema."
+    }
+  }
+}

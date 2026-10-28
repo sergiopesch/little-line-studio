@@ -1,0 +1,230 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "lighthouse",
+  "sourceLessonSha256": "8fc20927501cf5d0f1ddcbe1bc9de4efed7c0610c7f30e401d24cc03805738d3",
+  "sourceTextSha256": "af90462dd9f8e2f54d2b3abed0bdd09419399ecdb712edce8248c4c70e321f8c",
+  "title": "Vuurtoren aan de kust",
+  "invitation": "Een hoge toren naast een brede zee.",
+  "objective": "Een naar boven smaller wordende toren combineren met een kustlijn en voorgrond onderscheiden van verre zee.",
+  "parentNote": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn.",
+  "simplify": "Gebruik een rechte rechthoekige toren, een dak en één kustboog. Laat strepen, verre voorwerpen, lichtstralen en het pad weg; een vuurtoren mag heel eenvoudig zijn.",
+  "transfer": "Probeer een andere keer een watertoren of windmolen in een ander landschap. Kijk naar de onderkant, bovenkant en aanraking met de grond aan de hand van een nieuwe afbeelding of fantasie.",
+  "colouringLabel": "Kleine krijtbewegingen, jouw eigen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een licht boven een rustige kust.",
+      "instruction": "Kijk naar de brede onderkant van de toren en de kleinere lichtruimte erboven.",
+      "spoken": "Onze vuurtoren op papier staat naast een denkbeeldige rustige zee. Kijk naar de brede onderkant, de smallere bovenkant en de kleine lichtruimte erboven.",
+      "hint": "Vergelijk de breedte onderaan met de smallere bovenkant.",
+      "notice": "Bekijk een afbeelding van een vuurtoren. Kijk naar de onderkant vergeleken met de bovenkant en waar land en water elkaar raken. Sommige torens zijn recht in plaats van smaller naar boven; beide zijn welkom."
+    },
+    "sea-horizon": {
+      "title": "Zeehorizon",
+      "instruction": "Teken een verre zeelijn over de rechterkant.",
+      "spoken": "Een lange verre zeelijn is het begin van onze kust. Laat links ruimte voor een hoge vuurtoren en erboven veel ruimte.",
+      "hint": "Houd de zeelijn bij het bovenste midden van het papier.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "coastline": {
+      "title": "Kustlijn",
+      "instruction": "Maak de kustlijn en til op bij een kleine ruimte voor een rots.",
+      "spoken": "Laat de kustlijn over onze onderste tekening buigen. Til op bij een kleine ruimte waar eventueel een rots op de voorgrond komt, in plaats van erdoorheen te tekenen.",
+      "hint": "Laat een losse boog langs de onderkant van het papier van richting veranderen.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "tower-left-edge": {
+      "title": "Linkerkant van de toren",
+      "instruction": "Laat de linkerkant van de toren bij het omhooggaan zacht naar binnen hellen.",
+      "spoken": "Begin met de linkerrand van de toren. Laat hem bij het stijgen iets naar binnen hellen zodat de vuurtoren bij de grond breder wordt.",
+      "hint": "Begin laag en laat de lijn iets naar rechts hellen.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "tower-right-edge": {
+      "title": "Rechterkant van de toren",
+      "instruction": "Laat de andere kant naar binnen hellen richting de smalle bovenkant.",
+      "spoken": "De andere kant helt de tegenovergestelde richting op naar binnen. Vergelijk de smalle opening bovenaan met de bredere opening eronder.",
+      "hint": "Laat de rechterrand bij het stijgen iets naar links hellen.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "tower-base": {
+      "title": "Onderkant van de toren",
+      "instruction": "Maak een zachte boog over de onderrand van de toren.",
+      "spoken": "Een kleine gebogen onderkant verbindt de onderste zijkanten. Deze zachte bocht laat de toren rond lijken in plaats van een platte driehoek.",
+      "hint": "Verbind de onderste torenuiteinden met een lichte boog.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "lantern-platform": {
+      "title": "Platform van de lichtruimte",
+      "instruction": "Voeg een klein breed platform over de torentop toe.",
+      "spoken": "Een klein plat platform ligt over de torentop. Laat de uiteinden iets voorbij de smalle torenranden uitsteken.",
+      "hint": "Gebruik een dunne brede rechthoek over de bovenkant van de toren.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "lantern-room": {
+      "title": "Lichtruimte",
+      "instruction": "Zet een kleine rechthoekige lichtruimte boven het platform.",
+      "spoken": "Een kleine lichtruimte staat boven het platform. Houd die veel kleiner dan de toren zodat de hoge vorm duidelijk blijft.",
+      "hint": "Vier korte kanten maken de kleine ruimte boven het platform.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "lantern-roof": {
+      "title": "Dak van de lichtruimte",
+      "instruction": "Maak een laag puntig dak boven de lichtruimte.",
+      "spoken": "Twee schuine lijnen maken een laag puntig dak. De onderste uiteinden steken iets breder uit dan de lichtruimte.",
+      "hint": "Ga omhoog naar een punt en dan schuin terug naar beneden.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "lantern-divider": {
+      "title": "Raamstijl van de lichtruimte",
+      "instruction": "Verdeel de lichtruimte met één dunne rechtopstaande lijn.",
+      "spoken": "Een dunne rechtopstaande lijn laat twee ruitjes in de lichtruimte zien.",
+      "hint": "Houd dit lijntje binnen de kleine bovenste ruimte.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "lighthouse-door": {
+      "title": "Vuurtorendeur",
+      "instruction": "Maak een kleine deurboog binnen de onderkant van de toren.",
+      "spoken": "Een deur met een ronde bovenkant zit bij de onderkant. Laat ruimte tussen de deur en de schuine kanten van de toren.",
+      "hint": "Teken omhoog, rond een boogje af en kom weer naar beneden.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "tower-upper-stripe": {
+      "title": "Bovenste torenstreep",
+      "instruction": "Laat één streeprand zacht rond de toren buigen.",
+      "spoken": "Als je een streep wilt, laat de rand dan zacht rond de toren buigen. De boog volgt het ronde oppervlak; een toren zonder strepen is ook welkom.",
+      "hint": "Laat de streep in het midden een beetje naar beneden buigen.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "tower-lower-stripe": {
+      "title": "Onderste torenstreep",
+      "instruction": "Als je de bovenste streeprand maakte, probeer er één eronder.",
+      "spoken": "Als je de bovenste streeprand hebt gemaakt, maak dan nog een boog eronder. Laat ruimte ertussen voor kleur, of houd je toren zonder strepen.",
+      "hint": "Volg alleen onder een bovenste streeprand als je die hebt gemaakt.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "light-beam-upper": {
+      "title": "Bovenste lichtstraal",
+      "instruction": "Laat een lange lichtstraallijn vanaf de lichtruimte lopen.",
+      "spoken": "Een optionele lange lijn vanaf de lichtruimte laat een denkbeeldige lichtstraal zien. We kunnen de richting in onze tekening tonen of de lucht openlaten.",
+      "hint": "Begin bij de lichtruimte en laat een lange lijn naar rechts lopen.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "light-beam-lower": {
+      "title": "Onderste lichtstraal",
+      "instruction": "Als je een bovenste lichtstraal tekende, probeer er één eronder.",
+      "spoken": "Als je de bovenste lichtrand tekende, kan een tweede lijn eronder verder uitlopen. Anders laat je de lichtstraal weg of houd je de lucht open.",
+      "hint": "Als je de bovenste lichtrand maakte, laat de opening naar rechts breder worden.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "coastal-rock": {
+      "title": "Kustrots",
+      "instruction": "Sluit eventueel een klein ongelijk rotsje bij de kust.",
+      "spoken": "Een paar ongelijke korte kanten maken een kustrots. Door de kanten iets te veranderen lijkt die anders dan onze zorgvuldig opgebouwde toren.",
+      "hint": "Verbind een paar korte ongelijke kanten en rond de onderrand af.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "near-wave": {
+      "title": "Golf dichtbij",
+      "instruction": "Maak een klein golfje dichtbij aan de rechterkant.",
+      "spoken": "Een klein stijgend en dalend boogje kan een golf dichtbij laten zien, als je wilt.",
+      "hint": "Laat een boogje stijgen en weer zakken.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "far-wave": {
+      "title": "Golf ver weg",
+      "instruction": "Gebruik een kortere boog voor een golf verder weg.",
+      "spoken": "Je mag een kleiner golfje bij de verre zee toevoegen, of het water rustig houden.",
+      "hint": "Maak een korte lage boog verder boven in de tekening.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "coastal-cloud": {
+      "title": "Kustwolk",
+      "instruction": "Voeg eventueel een kleine zachte wolk in de open lucht toe.",
+      "spoken": "Een zachte wolk kan in de open lucht komen. Een paar ronde bobbels zijn genoeg; we mogen veel lucht als papier laten.",
+      "hint": "Verbind ronde bobbels en sluit de onderrand van de wolk.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "distant-boat": {
+      "title": "Boot ver weg",
+      "instruction": "Zet eventueel een klein gebogen bootje bij de horizon.",
+      "spoken": "Een klein gebogen bootje zit ver weg bij de horizon. Houd het klein zodat het ver lijkt naast onze veel grotere vuurtoren.",
+      "hint": "Gebruik een klein gebogen rompje onder de verre zeelijn.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "lighthouse-path": {
+      "title": "Pad naar de vuurtoren",
+      "instruction": "Laat een los pad naar de deur van de vuurtoren buigen.",
+      "spoken": "Een optioneel los pad kan naar de deur leiden. Laat het door het land buigen of laat de vuurtoren op open papier staan.",
+      "hint": "Buig vanaf de onderkant van het papier richting de kleine deuropening.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    },
+    "colour-choice": {
+      "title": "Kustkleuren met een streep.",
+      "instruction": "Kies warmrood, geel voor het licht en een beetje koel grijs.",
+      "spoken": "Ik laat het grootste deel van de toren wit papier, voeg een warmrode band toe en geef de lichtruimte een zachte gele gloed.",
+      "hint": "Wit papier kan één van de hoofdkleuren van je tekening zijn.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-tower-band": {
+      "title": "Een streep rond de toren.",
+      "instruction": "Kleur tussen je streepranden, of houd de toren wit.",
+      "spoken": "Als je beide streepranden tekende, kleur er dan tussen met kleine rode plekjes. Je kunt de toren ook wit houden.",
+      "hint": "Als je beide randen tekende, gebruik dan korte streepjes ertussen.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-lantern": {
+      "title": "Een kleine warme lichtruimte.",
+      "instruction": "Kleur de raampjes geel en het dak warmrood.",
+      "spoken": "De ruimtes van de lichtruimte zijn klein, dus maak ik elke beweging korter. Een beetje geel en een rood dak zijn genoeg om ze te onderscheiden.",
+      "hint": "Kleine ruimtes vragen om kleine bewegingen en zachte druk.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-coastal-details": {
+      "title": "Een rots, deur en boot ver weg.",
+      "instruction": "Maak kleine natuurlijke kleurplekjes voor de kustdetails.",
+      "spoken": "Je kunt kustdetails kleuren die je hebt gemaakt: een grijze rots, bruine deur of klein bootje. Het kleine verre bootje heeft maar een beetje kleur nodig.",
+      "hint": "Laat de grootte van elke ruimte bepalen hoe groot je beweging is.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-tower-shadow": {
+      "title": "Een lichte schaduw.",
+      "instruction": "Maak eventueel een smalle strook aan één torenkant donkerder.",
+      "spoken": "Een lichtgrijze strook aan één kant kan schaduw naast het witte papier laten zien. Het is een klein extra idee dat je mag weglaten.",
+      "hint": "Gebruik een lichte laag; de toren mag grotendeels wit blijven.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflect": {
+      "title": "Een toren die rond lijkt.",
+      "instruction": "Kijk naar de gebogen onderkant en eventuele streep of schaduw.",
+      "spoken": "Kijk naar de gebogen onderkant van de toren. Een gebogen streep of lichtgrijze kant die je toevoegde kan ook helpen om de platte tekening een ronde toren te laten suggereren.",
+      "hint": "Kijk naar de gebogen onderkant of een kleine kleurverandering die je koos.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Jouw fantasiekust.",
+      "instruction": "Kleur verder of voeg iets kleins toe langs je getekende kust.",
+      "spoken": "Je kunt nog een bootje ver weg toevoegen, de streepkleur veranderen of de zee rustig en openlaten. Ga verder of rond je vuurtoren hier af.",
+      "hint": "Houd verre details klein zodat de vuurtoren de hoofdvorm blijft.",
+      "notice": "Nodig je kind uit om land en zee in het voorbeeld aan te wijzen. Doe op verzoek twee lijnen die naar elkaar toe hellen voor op apart papier. Leg de lichtstraallijnen uit als een tekenafspraak, niet als iets dat overdag zichtbaar moet zijn."
+    }
+  }
+}

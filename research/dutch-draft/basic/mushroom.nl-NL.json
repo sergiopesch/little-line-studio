@@ -1,0 +1,167 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "mushroom",
+  "sourceLessonSha256": "7de34b6736ffc09330bf4b7e2f72e581887719e9ac1a5a57b36cb6a506b29024",
+  "sourceTextSha256": "114478971c624fdbfbeacb2580f784fe0920595da8c6f54ecce6d3eaba95fc6a",
+  "title": "Bospaddenstoel",
+  "invitation": "Een brede hoed en een klein steeltje.",
+  "objective": "Een brede hoed verbinden met een smallere steel en gebogen randen verkennen.",
+  "parentNote": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen.",
+  "simplify": "",
+  "transfer": "Kunnen een brede gebogen bovenkant en een smal deel eronder je helpen om een paraplu te tekenen?",
+  "colouringLabel": "Een bruine hoed en een licht steeltje",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een bos uit een prentenboek.",
+      "instruction": "Kijk naar de brede hoed boven het smallere steeltje.",
+      "spoken": "Laten we een paddenstoel uit een prentenboek tekenen, als een kleine bosparaplu. Zijn brede hoed zit boven een smallere steel, hier op ons papier.",
+      "hint": "Vergelijk hoe breed de hoed is met de steel eronder.",
+      "notice": "Bekijk een afbeelding van een paddenstoel. Kijk hoe de hoed breder is dan de steel."
+    },
+    "mushroom-cap": {
+      "title": "Hoed van de paddenstoel",
+      "instruction": "Teken een brede boog met ruimte eronder.",
+      "spoken": "Ga omhoog en eroverheen in één brede boog. Ik laat eronder genoeg ruimte voor een steeltje.",
+      "hint": "Begin laag aan de ene kant en eindig laag aan de andere kant.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "cap-lower-edge": {
+      "title": "Onderrand van de hoed",
+      "instruction": "Verbind de uiteinden van de boog met een licht gebogen rand.",
+      "spoken": "Een lichte boog verbindt de twee uiteinden. Zo sluiten we de hoed van onze paddenstoel, een beetje als een paraplu.",
+      "hint": "Laat deze onderste boog minder diep buigen dan de hoge boog erboven.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "stalk-left-side": {
+      "title": "Linkerkant van de steel",
+      "instruction": "Begin onder de hoed en buig één kant van de steel naar beneden.",
+      "spoken": "Eén zacht gebogen lijn komt onder de hoed vandaan naar beneden. Onze steel blijft smaller dan de hoed erboven.",
+      "hint": "Begin binnen de breedte van de hoed, een stukje van het buitenste uiteinde af.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "stalk-right-side": {
+      "title": "Rechterkant van de steel",
+      "instruction": "Teken de andere kant van de steel en laat ruimte ertussen.",
+      "spoken": "De andere kant buigt ernaast naar beneden. Ik laat een brede ruimte tussen de twee kanten.",
+      "hint": "Kijk naar de tussenruimte terwijl je de tweede lijn plaatst.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "stalk-base": {
+      "title": "Onderkant van de steel",
+      "instruction": "Verbind de twee uiteinden van de steel met een lage boog.",
+      "spoken": "Een lage boog verbindt de uiteinden onderaan. Ons steeltje is nu een gesloten vorm onder de hoed.",
+      "hint": "Laat je boog van het ene onderste uiteinde naar het andere lopen.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "cap-inner-edge": {
+      "title": "Binnenrand van de hoed",
+      "instruction": "Probeer een lichte boog binnen de onderrand van de hoed, of sla die over.",
+      "spoken": "Een lichte boog kan binnen de hoed de onderrand volgen. Deze extra lijn laat een klein randje zien.",
+      "hint": "Laat een kleine opening tussen de twee gebogen randen.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "cap-left-spot": {
+      "title": "Linkerstip op de hoed",
+      "instruction": "Probeer een kleine stip op de hoed, als je wilt.",
+      "spoken": "Een kleine ovaal kan het begin zijn van een patroon op onze prentenboekhoed. Jij kiest of je deze versiering maakt.",
+      "hint": "Kies een plekje binnen de hoed, een stukje van de rand af.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "cap-high-spot": {
+      "title": "Bovenste stip op de hoed",
+      "instruction": "Probeer een stip hogerop, of laat dit plekje wit.",
+      "spoken": "Nog een kleine ovaal kan hoger op de hoed komen.",
+      "hint": "Laat wat papier vrij tussen je kleine stippen.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "cap-right-spot": {
+      "title": "Rechterstip op de hoed",
+      "instruction": "Zet nog een stip binnen de hoed, als je wilt.",
+      "spoken": "Een stip aan de andere kant mag anders van grootte zijn.",
+      "hint": "Elke kleine ovaal mag een andere kant op hellen.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "cap-low-spot": {
+      "title": "Onderste stip op de hoed",
+      "instruction": "Kies nog een laatste kleine stip, of sla die over.",
+      "spoken": "Een laatste kleine stip kan wat lager komen. Minder stippen zijn ook goed.",
+      "hint": "Houd dit extra detail binnen de omtrek van de hoed.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "left-grass": {
+      "title": "Gras links",
+      "instruction": "Probeer een klein gebogen grassprietje naast de steel.",
+      "spoken": "Een kort gebogen lijntje kan gras worden naast onze paddenstoel op papier.",
+      "hint": "Begin bij de grond en buig naar een leeg stukje papier.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "right-grass": {
+      "title": "Gras rechts",
+      "instruction": "Probeer nog een grassprietje, of rond je omtrek af.",
+      "spoken": "Nog een sprietje kan aan de andere kant buigen. Je mag de grond ook openlaten.",
+      "hint": "Je bostekening mag maar een paar streepjes hebben.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    },
+    "colour-choice": {
+      "title": "Zachte boskleuren.",
+      "instruction": "Kies bruin en crème, of je eigen prentenboekkleuren.",
+      "spoken": "Ik kies een zachtbruine hoed en een licht crèmekleurige steel. Voor jouw prentenboekbos mag je de krijtjes gebruiken die je al hebt.",
+      "hint": "Lichtbruin of geel kan ook in plaats van crème.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-mushroom-cap": {
+      "title": "Kleine bruine plekjes.",
+      "instruction": "Maak kleine bruine plekjes binnen de brede hoed.",
+      "spoken": "Kleine bruine plekjes kleuren de hoed. Ik laat ruimte rond de stippen, als ik die heb getekend, en laat wat papier wit naast de kleur.",
+      "hint": "Door zacht te drukken blijven kleine witte plekjes zichtbaar.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-mushroom-edge": {
+      "title": "Volg de brede gebogen rand.",
+      "instruction": "Maak kortere bruine streepjes bij de onderrand van de hoed.",
+      "spoken": "Bij de onderrand maak ik kortere streepjes en til ik mijn krijtje op vóór de omtrek. Ons randje blijft goed zichtbaar.",
+      "hint": "Probeer een heel kleine beweging als je dicht bij de rand komt.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-mushroom-stalk": {
+      "title": "Een licht steeltje.",
+      "instruction": "Maak zachte crèmekleurige streepjes binnen de steel.",
+      "spoken": "Lichte crèmekleurige plekjes kleuren de steel eronder. Een paar zachte streepjes zijn genoeg; het papier mag ook deels wit blijven.",
+      "hint": "Begin in het midden en laat ruimte naast de omtrek.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-reflection": {
+      "title": "Onze bosparaplu.",
+      "instruction": "Kijk naar de brede hoed boven de smalle steel.",
+      "spoken": "Onze brede hoed zit boven een smallere steel, als een kleine paraplu uit een prentenboek. Kleur en witte plekjes horen allebei bij deze bostekening.",
+      "hint": "Vergelijk een brede vorm met een smalle vorm in je tekening.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Een plek in jouw verhaal.",
+      "instruction": "Bedenk een plek in het bos, kleur verder of stop hier.",
+      "spoken": "Wie zou onder deze fantasieparaplu kunnen schuilen? Voeg een zelfbedachte bezoeker, meer gras of je eigen idee toe. Je mag hier ook stoppen.",
+      "hint": "Een kleinere boog kan het begin zijn van nog een prentenboekpaddenstoel.",
+      "notice": "Laat met je vingers op het voorbeeld zien hoe breed de hoed en de steel zijn. Bied als eenvoudiger alternatief een steel met één lijn aan. Stippen zijn fantasieversiering en geen manier om eetbare paddenstoelen te herkennen."
+    }
+  }
+}

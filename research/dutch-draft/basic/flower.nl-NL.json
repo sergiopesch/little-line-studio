@@ -1,0 +1,160 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "flower",
+  "sourceLessonSha256": "384b0921cb8c504432199b09f0b1e3ceb23ed5b80df8c47f9bc92674bea7d4b9",
+  "sourceTextSha256": "98dae376cf0a5800ab95a38364c6db346665250225614898460ad0437fcf8aeb",
+  "title": "Tuinbloem",
+  "invitation": "Bloemblaadjes, bladeren en een klein steeltje.",
+  "objective": "Onderdelen rond een midden plaatsen en een steel aan de bloem verbinden.",
+  "parentNote": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt.",
+  "simplify": "",
+  "transfer": "Kunnen lussen rond een midden je helpen een andere bloem te bedenken?",
+  "colouringLabel": "Gekleurde bloemblaadjes en een goudgeel midden",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een tuintje op papier.",
+      "instruction": "Kijk hoe elk bloemblaadje het kleine ronde midden raakt.",
+      "spoken": "Laten we een fantasietuin beginnen met één bloem. Een kleine cirkel houdt de bloemblaadjes bij elkaar, met daaronder een gebogen steel.",
+      "hint": "Zoek eerst het kleine midden en volg dan de bloemblaadjes eromheen.",
+      "notice": "Bekijk samen een afbeelding van een bloem. Waar komen de bloemblaadjes bij elkaar?"
+    },
+    "flower-centre": {
+      "title": "Midden van de bloem",
+      "instruction": "Teken een kleine cirkel met ruimte eromheen.",
+      "spoken": "Een kleine cirkel is het begin van onze bloem. Ik laat eromheen ruimte over, zodat de bloemblaadjes ergens kunnen groeien.",
+      "hint": "Laat je gebogen lijn terugkomen bij het begin.",
+      "notice": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt."
+    },
+    "upper-petal": {
+      "title": "Bovenste bloemblaadje",
+      "instruction": "Maak vanaf het midden een boog omhoog en weer terug.",
+      "spoken": "Begin naast de cirkel. Ga omhoog, rond het zachte uiteinde af en kom terug naast je beginpunt: één lang bloemblaadje.",
+      "hint": "De twee uiteinden raken de cirkel op verschillende plekken.",
+      "notice": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt."
+    },
+    "left-petal": {
+      "title": "Linkerbloemblaadje",
+      "instruction": "Laat nog een rond bloemblaadje naar links uitsteken.",
+      "spoken": "Dit bloemblaadje steekt opzij. Ga naar buiten, rond het uiteinde af en kom terug bij de cirkel.",
+      "hint": "Maak dezelfde beweging naar buiten en terug, nu naar links.",
+      "notice": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt."
+    },
+    "lower-petal": {
+      "title": "Onderste bloemblaadje",
+      "instruction": "Maak een rond bloemblaadje onder het midden en laat eronder ruimte.",
+      "spoken": "Ons volgende bloemblaadje buigt naar beneden en komt terug. Ik laat eronder ruimte over voor een steel.",
+      "hint": "Laat wat ruimte tussen je bloem en de onderkant van het papier.",
+      "notice": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt."
+    },
+    "right-petal": {
+      "title": "Rechterbloemblaadje",
+      "instruction": "Voeg een bloemblaadje toe dat naar de andere kant uitsteekt.",
+      "spoken": "Ga naar rechts en kom weer terug. Bloemblaadjes van verschillende grootte kunnen bij dezelfde bloem horen.",
+      "hint": "Zoek de rechterrand van de cirkel voordat je de boog maakt.",
+      "notice": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt."
+    },
+    "upper-right-petal": {
+      "title": "Bloemblaadje rechtsboven",
+      "instruction": "Probeer een kleiner bloemblaadje in een opening, als je wilt.",
+      "spoken": "Een kleiner bloemblaadje past misschien in deze opening bovenaan. Je mag de opening ook openlaten.",
+      "hint": "Begin en eindig bij de cirkel, ook in een opening.",
+      "notice": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt."
+    },
+    "lower-left-petal": {
+      "title": "Bloemblaadje linksonder",
+      "instruction": "Kies nog een opening voor een extra bloemblaadje, of sla het over.",
+      "spoken": "Nog een bloemblaadje kan in de opening onderaan krullen. Een bloem met minder bloemblaadjes kan ook.",
+      "hint": "Kies zelf welke bloemblaadjes je in je tuin op papier wilt.",
+      "notice": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt."
+    },
+    "flower-stem": {
+      "title": "Steel van de bloem",
+      "instruction": "Teken een zacht gebogen steel onder de bloem.",
+      "spoken": "Laat vanaf het onderste bloemblaadje een lijn naar beneden buigen. Deze smalle steel verbindt onze bloem met haar fantasietuin.",
+      "hint": "Een rechte of een gebogen steel kan allebei.",
+      "notice": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt."
+    },
+    "left-leaf": {
+      "title": "Linkerblad",
+      "instruction": "Maak een blad dat vanaf de steel naar buiten loopt en terugkomt, als je wilt.",
+      "spoken": "Een blad buigt vanaf de steel naar buiten tot een punt en buigt dan terug naar dezelfde plek.",
+      "hint": "Laat beide uiteinden van je blad de steel raken.",
+      "notice": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt."
+    },
+    "right-leaf": {
+      "title": "Rechterblad",
+      "instruction": "Probeer een blad aan de andere kant, of laat de ruimte open.",
+      "spoken": "Nog een blad kan de andere kant op wijzen. Het mag hoger, lager of anders van grootte zijn.",
+      "hint": "Kies een nieuwe plek langs je steel om te beginnen.",
+      "notice": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt."
+    },
+    "colour-choice": {
+      "title": "Onze tuinkleuren.",
+      "instruction": "Kies roze, geel en groen, of je eigen kleuren.",
+      "spoken": "Ik kies roze bloemblaadjes, een geel midden en groene bladeren. In jouw fantasietuin mogen andere kleuren groeien.",
+      "hint": "Leg een paar krijtjes klaar; je mag nog van gedachten veranderen.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-first-petals": {
+      "title": "Een klein stukje bloemblaadje.",
+      "instruction": "Kleur de bovenste en linkerbloemblaadjes met korte streepjes.",
+      "spoken": "Korte roze streepjes maken kleine gekleurde plekjes binnen twee bloemblaadjes. Ik til mijn krijtje op en ga verder, en bij de gebogen randen ga ik langzamer.",
+      "hint": "Een paar kleine streepjes kun je makkelijker stoppen dan één lange.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-other-petals": {
+      "title": "Bloemblaadjes rond het midden.",
+      "instruction": "Ga verder met de onderste en rechterbloemblaadjes.",
+      "spoken": "De volgende bloemblaadjes krijgen dezelfde zachte plekjes. Ik laat de extra bloemblaadjes wit voor een ander effect.",
+      "hint": "Witte plekjes kunnen naast gekleurde bloemblaadjes in je bloem staan.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-centre": {
+      "title": "Een goudgeel midden.",
+      "instruction": "Maak kleine gele streepjes binnen het ronde midden.",
+      "spoken": "Kleine gele bewegingen passen in ons kleine midden. Kijk hoe ik mijn krijtje optil voordat ik bij de rand kom, zodat de kleuren van de bloemblaadjes apart blijven.",
+      "hint": "Probeer een kortere beweging als de ruimte klein wordt.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-leaves": {
+      "title": "Groen naast onze steel.",
+      "instruction": "Kleur de bladeren die je hebt toegevoegd met kleine groene streepjes.",
+      "spoken": "Als je bladeren hebt getekend, probeer dan groen binnenin. De smalle steel is in mijn voorbeeld al groen; de bladeren mogen wit blijven.",
+      "hint": "Je mag deze kleur overslaan als je de bladeren hebt weggelaten.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-reflection": {
+      "title": "Een tuin begint.",
+      "instruction": "Kijk naar het midden, de uitstekende bloemblaadjes en de gebogen steel.",
+      "spoken": "Onze kleine tuin begon met een cirkel. Kijk hoe de bloemblaadjes eromheen uitsteken, elk met ruimte voor een eigen kleur.",
+      "hint": "Kijk naar de hele bloem; je hoeft niets te veranderen.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Jouw tuin kan groeien.",
+      "instruction": "Voeg nog een bloem toe, kleur verder of rond je tuin hier af.",
+      "spoken": "In jouw tuin kan nog een bloem groeien, een pad komen of iets dat je zelf bedenkt. Teken verder, of stop met deze ene bloem.",
+      "hint": "Probeer een andere keer een klein bloemetje naast deze bloem.",
+      "notice": "Wijs op het voorbeeld met je vinger aan hoe de bloemblaadjes bij het midden komen. Doe op een apart vel een lus voor als je kind daarom vraagt. Sta niet op symmetrie, een vast aantal bloemblaadjes of een bloem die op een bepaalde soort lijkt."
+    }
+  }
+}

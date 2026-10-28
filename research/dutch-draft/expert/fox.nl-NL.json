@@ -1,0 +1,230 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "fox",
+  "sourceLessonSha256": "08c0689c27e04857bd2048828a547bd3d461dd35fe9b9037592d6d5d18cd325c",
+  "sourceTextSha256": "602fea51bdf3b8de370a2d1771be617538df5939067bdb88e383a6972af6a652",
+  "title": "Slapende vos",
+  "invitation": "Bogen die om elkaar heen krullen.",
+  "objective": "Een grote omhullende boog en kleinere weggestopte vormen gebruiken om een opgekrulde houding te laten zien.",
+  "parentNote": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken.",
+  "simplify": "Maak de vos met een ovale lichaamsvorm, hoofd, één oor, een gesloten oog en één brede staartvorm. Zichtbare overlappende hulplijnen mogen blijven; gummen is niet nodig.",
+  "transfer": "Probeer een andere keer een opgerolde kat of hond. Zoek de grote buitenboog en kies welke poten je wilt verbergen; gebruik zo nodig een nieuw voorbeeld.",
+  "colouringLabel": "Kleine krijtbewegingen, jouw eigen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Opgerold rusten in het bos.",
+      "instruction": "Kijk naar de ronde rug en de staart die eromheen buigt.",
+      "spoken": "Laten we een vos tekenen die knus opgerold ligt. Zijn ronde rug en de lange boog van zijn staart helpen ons een rustende houding te laten zien.",
+      "hint": "Volg eerst de grote buitenbogen en kijk daarna naar de kleine details.",
+      "notice": "Bekijk een foto of tekening van een opgerolde vos. Kijk hoe de staart voor het lijf kan liggen en hoe weinig van de poten zichtbaar is. Deze les gebruikt een gestileerd zijaanzicht; het is geen anatomietoets."
+    },
+    "curled-body": {
+      "title": "Opgerold lijf",
+      "instruction": "Maak de ronde delen van het lijf en til op voor hoofd en staart.",
+      "spoken": "Begin met de ronde rug. Til je potlood op waar het hoofd en de staart komen; die voorste vormen voegen we straks toe in plaats van erdoorheen te tekenen.",
+      "hint": "Volg de ronde rug en til op waar de vormen op de voorgrond komen.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "resting-head": {
+      "title": "Rustend hoofd",
+      "instruction": "Maak een kleiner schuin hoofd en laat ruimte voor de puntige snuit.",
+      "spoken": "Maak rechts een kleiner hoofd en laat een kleine opening voor de snuit. Onze verhaalvos gaat in een zacht gekantelde houding liggen.",
+      "hint": "Houd dit hoofd veel kleiner dan de ovaal van het lijf.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "pointed-muzzle": {
+      "title": "Puntige snuit",
+      "instruction": "Maak een smalle snuit die naar links buigt.",
+      "spoken": "Twee zachte bogen lopen naar een klein puntje voor de snuit. Deze smallere vorm laat het gezicht anders lijken dan het ronde lijf.",
+      "hint": "Maak een boog naar links en kom dan onderlangs terug.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "fox-nose": {
+      "title": "Neus van de vos",
+      "instruction": "Voeg een kleine donkere neus toe aan de punt van de snuit.",
+      "spoken": "Een kleine donkere neus hoort bij de punt van de snuit.",
+      "hint": "Zet een stipje helemaal links op de punt.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "near-ear": {
+      "title": "Voorste oor",
+      "instruction": "Teken één puntig oor boven het hoofd.",
+      "spoken": "Laat een puntig oor boven het hoofd uitsteken. Ga omhoog naar de punt en dan schuin omlaag; de twee kanten hoeven niet hetzelfde te zijn.",
+      "hint": "Ga omhoog tot een punt en kom weer naar beneden.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "far-ear": {
+      "title": "Achterste oor",
+      "instruction": "Voeg een tweede puntig oor iets verder naar rechts toe.",
+      "spoken": "Voeg het andere oor vlakbij toe. Door de hoek iets te veranderen lijkt het hoofd zachtjes gedraaid in plaats van helemaal plat.",
+      "hint": "Een tweede smalle punt komt iets verder naar rechts.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "sleepy-eye": {
+      "title": "Slapend oog",
+      "instruction": "Maak een kort neerwaarts boogje voor een gesloten oog.",
+      "spoken": "Een klein neerwaarts boogje geeft onze fantasievos een slaperige uitdrukking. Eén eenvoudige lijn kan dat verhaal vertellen.",
+      "hint": "Teken een klein neerwaarts boogje binnen het hoofd.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "cheek-curve": {
+      "title": "Wangboog",
+      "instruction": "Laat de wang naar beneden buigen richting de snuit.",
+      "spoken": "Laat de wang naar beneden buigen richting de snuit. Zo scheiden we een licht vlak in het gezicht van de warmere vacht die we straks kleuren.",
+      "hint": "Laat een kort wangboogje richting de neus draaien.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "tucked-paw": {
+      "title": "Ingetrokken pootje",
+      "instruction": "Zet een kleine platte ovaal onder het hoofd.",
+      "spoken": "Een kleine platte ovaal onder het hoofd wordt een ingetrokken pootje. De lage vorm past bij onze rustige opgekrulde houding.",
+      "hint": "Maak deze ovaal platter en kleiner dan het hoofd.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "tail-outer-curve": {
+      "title": "Buitenboog van de staart",
+      "instruction": "Maak een lange boog rond de onderkant van het lijf.",
+      "spoken": "Maak nu de buitenkant van de staart rond de onderkant van het lijf. Gebruik een prettige armbeweging voor deze langere boog.",
+      "hint": "Laat de lange boog rond de onderkant van de vos lopen.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "tail-return-curve": {
+      "title": "Teruggaande staartboog",
+      "instruction": "Kom met een zachtere boog terug om de staart breed te maken.",
+      "spoken": "Kom met nog een boog terug naar het begin van de staart. De ruimte tussen de twee bogen maakt een brede, zachte staart.",
+      "hint": "Houd ruimte tussen de teruggaande boog en de buitenkant.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "pale-tail-tip": {
+      "title": "Lichte staartpunt",
+      "instruction": "Markeer een klein licht puntje bij het uiteinde van de staart.",
+      "spoken": "Dit kleine boogje zet een lichte staartpunt apart. Daar kunnen we wit papier laten in plaats van alles te kleuren.",
+      "hint": "Een klein boogje scheidt het uiterste puntje van de staart.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "tucked-hind-leg": {
+      "title": "Ingetrokken achterpoot",
+      "instruction": "Laat de opgerolde achterpoot zien met één ronde boog.",
+      "spoken": "Eén ronde boog laat een ingetrokken achterpoot zien. We kunnen deze bocht tonen zonder een hele aparte uitstekende poot te tekenen.",
+      "hint": "Teken een deel van een ronde vorm binnen het lijf.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "paw-toe": {
+      "title": "Teentje",
+      "instruction": "Voeg een klein teenlijntje toe op de ingetrokken poot.",
+      "spoken": "Je kunt een klein lijntje voor een teen toevoegen, of de poot eenvoudig laten.",
+      "hint": "Houd dit teenstreepje kort en licht.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "inner-ear": {
+      "title": "Binnenkant van het oor",
+      "instruction": "Zet een kleinere punt binnen het voorste oor.",
+      "spoken": "Je kunt een kleinere punt binnen het voorste oor maken. Laat er een rand omheen, of houd het oor als één eenvoudige vorm.",
+      "hint": "Herhaal een kleinere puntige vorm binnen het eerste oor.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "cheek-fur": {
+      "title": "Wangvacht",
+      "instruction": "Gebruik een klein streepje naar buiten voor wangvacht.",
+      "spoken": "Als je wilt, kan één klein streepje naar buiten wangvacht laten zien.",
+      "hint": "Een korte haal naar buiten is genoeg voor dit detail.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "resting-ground": {
+      "title": "Grond om op te rusten",
+      "instruction": "Maak een losse grondboog onder de vos.",
+      "spoken": "Je mag een losse boog onder de vos zetten als plek om te rusten. Een heel boslandschap is alleen een keuze.",
+      "hint": "Houd deze grondboog onder de staart en poten.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "fallen-leaf": {
+      "title": "Gevallen blad",
+      "instruction": "Voeg eventueel een klein puntig gevallen blad toe.",
+      "spoken": "Een gevallen blad kan meedoen in ons bosverhaal. Buig naar buiten tot een punt en kom terug met een tweede zachte boog.",
+      "hint": "Twee bogen komen samen in een punt en maken een blad.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "small-stone": {
+      "title": "Kleine steen",
+      "instruction": "Zet eventueel een klein plat steentje op de grond.",
+      "spoken": "Misschien voeg je een klein plat steentje toe. Houd het kleiner dan de poot van de vos zodat het een klein achtergronddetail blijft.",
+      "hint": "Een lage ovaal wordt een klein steentje op de grond.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "tail-fur": {
+      "title": "Staartvacht",
+      "instruction": "Volg de zwaai van de staart met een klein vachtboogje.",
+      "spoken": "Je kunt een laatste vachtboogje de zwaai van de staart laten volgen. Die herhaalde richting laat zachtheid zien, of laat je staart een eenvoudige vorm.",
+      "hint": "Maak één lichte boog in de richting van de staart.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    },
+    "colour-choice": {
+      "title": "Boskleuren.",
+      "instruction": "Kies warm oranje, bruin en een bladkleur.",
+      "spoken": "Ik kies warm oranje voor onze vos en laat de snuit en staartpunt licht. Andere vossenkleuren horen ook in jouw tekening.",
+      "hint": "Kies één hoofdkleur voor de vacht en laat een lichte plek.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-curled-body": {
+      "title": "Een warme opgerolde vorm.",
+      "instruction": "Maak oranje met kleine gebogen plekjes over het lijf.",
+      "spoken": "Ik kleur een plekje, til mijn krijtje op en begin vlakbij opnieuw. Deze lichte bewegingen volgen het ronde lijf en laten de omtrek goed zichtbaar.",
+      "hint": "Gebruik kleine plekjes in plaats van één lange beweging over alles heen.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-face-ears": {
+      "title": "Kleinere ruimtes in het gezicht.",
+      "instruction": "Maak kleinere bewegingen rond het gezicht en de puntige oren.",
+      "spoken": "Ik maak mijn bewegingen korter rond het hoofd en de oren. De kleine gezichtsdetails blijven duidelijk en de snuit mag licht papier blijven.",
+      "hint": "Kleine ruimtes vragen om kleinere bewegingen en een zachte hand.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-sweeping-tail": {
+      "title": "Volg de krul van de staart.",
+      "instruction": "Draai de krijtbewegingen mee met de brede staart.",
+      "spoken": "Deze oranje plekjes volgen de staart terwijl hij om het lijf krult. Ik laat het uiteinde licht zodat de punt afsteekt tegen de warmere vacht.",
+      "hint": "Volg de boog, til je krijtje op en laat de staartpunt licht.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-woodland-layer": {
+      "title": "Een rustige boslaag.",
+      "instruction": "Probeer een lichte vachtlaag en kleur een blad als je er een hebt gemaakt.",
+      "spoken": "Een zachte bruine laag maakt een deel van de vacht donkerder. Als je een blad tekende, kun je daar ook een warme kleur toevoegen, of houd je kleuren eenvoudiger.",
+      "hint": "Gebruik een lichte vachtlaag en kleur alleen een blad als je er een hebt gemaakt.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflect": {
+      "title": "Onze rustende vos.",
+      "instruction": "Kijk hoe de staart de hele houding opgerold laat lijken.",
+      "spoken": "Kijk naar de grote bogen rond onze vos. Die vertellen het rustverhaal; kleine vachtdetails zijn alleen een keuze.",
+      "hint": "Bekijk eerst de hele opgerolde vorm voordat je meer details toevoegt.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Een bos van jezelf.",
+      "instruction": "Kleur verder of bedenk een plek waar je vos kan rusten.",
+      "spoken": "Je vos kan naast meer bladeren, een boom of veel wit papier rusten. Ga verder, of rond je bostekening hier af.",
+      "hint": "Kies een klein bosidee of geniet gewoon van de vos.",
+      "notice": "Volg met een vinger boven het voorbeeld de route van de staart, zonder het werk van je kind aan te raken. Laat op verzoek een eenvoudige krul zien op apart papier. Vraag welke delen je kind zichtbaar wil maken."
+    }
+  }
+}

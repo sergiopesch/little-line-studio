@@ -1,0 +1,153 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "ice-cream",
+  "sourceLessonSha256": "751cee83114e06bee4b352b27859b65bdec53643d02d30eb1471f2300aae354d",
+  "sourceTextSha256": "0e4ccf69217e42c5f4f487188c7fd1d9116d7d6024c871215137ba3bdf36934a",
+  "title": "IJshoorntje",
+  "invitation": "Een bolletje op een puntig hoorntje.",
+  "objective": "Een ronde bovenkant verbinden met een puntige onderkant en eventueel kleine streepjes binnen een rand plaatsen.",
+  "parentNote": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen.",
+  "simplify": "",
+  "transfer": "Kunnen een puntige onderkant en een ronde bovenkant je helpen om iets anders te bedenken?",
+  "colouringLabel": "Een aardbeienbolletje en een goudgeel hoorntje",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een winkeltje op papier.",
+      "instruction": "Kijk naar het ronde bolletje boven de smalle punt van het hoorntje.",
+      "spoken": "Laten we een fantasie-ijswinkel openen op papier. Een rond bolletje zit boven op een hoorntje dat smaller wordt tot een punt.",
+      "hint": "Zoek de brede bovenkant en de smalle onderkant van het hoorntje.",
+      "notice": "Bekijk de tekening van het ijsje. Kijk waar het ronde bolletje op het hoorntje zit."
+    },
+    "pointed-cone": {
+      "title": "Puntig hoorntje",
+      "instruction": "Teken een grote V met een punt onderaan.",
+      "spoken": "Twee schuine lijnen komen onderaan samen in een punt en maken een V. Laat bovenaan ruimte voor ons ronde bolletje.",
+      "hint": "Ga omlaag naar de punt en dan omhoog langs de andere kant.",
+      "notice": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen."
+    },
+    "rounded-scoop": {
+      "title": "Rond bolletje",
+      "instruction": "Maak een rond bolletje boven de V en verbind de onderkant.",
+      "spoken": "Maak vanaf de ene bovenste hoek een boog omhoog en over naar de andere hoek. Verbind de onderkant, zodat ons bolletje op het hoorntje rust.",
+      "hint": "De uiteinden van het bolletje komen bij de bovenste hoeken van de V.",
+      "notice": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen."
+    },
+    "cherry": {
+      "title": "Kers",
+      "instruction": "Probeer een kleine ronde kers bovenop, als je wilt.",
+      "spoken": "Een klein cirkeltje kan als een kers op het bolletje liggen. In onze fantasiewinkel mag je het ook weglaten.",
+      "hint": "Houd dit cirkeltje veel kleiner dan het bolletje eronder.",
+      "notice": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen."
+    },
+    "cherry-stalk": {
+      "title": "Kersensteeltje",
+      "instruction": "Geef je kers een klein steeltje, als je er een hebt getekend.",
+      "spoken": "Als je een kers hebt gemaakt, kan er een kort gebogen steeltje omhoogkomen. Anders sla je dit detail over.",
+      "hint": "Begin boven aan je kleine kersencirkel.",
+      "notice": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen."
+    },
+    "left-sprinkle": {
+      "title": "Linker spikkeltje",
+      "instruction": "Probeer een klein spikkeltje binnen het bolletje, als je wilt.",
+      "spoken": "Een klein schuin lijntje kan een spikkeltje op ons ijsbolletje worden.",
+      "hint": "Houd het spikkeltje binnen het ronde bolletje.",
+      "notice": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen."
+    },
+    "upper-sprinkle": {
+      "title": "Bovenste spikkeltje",
+      "instruction": "Voeg nog een spikkeltje toe, of laat de ruimte open.",
+      "spoken": "Nog een kort lijntje kan een andere kant op wijzen. Ik til mijn potlood op voordat ik verder ga.",
+      "hint": "Kies een nieuwe plek in plaats van de spikkeltjes aan elkaar te maken.",
+      "notice": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen."
+    },
+    "right-sprinkle": {
+      "title": "Rechter spikkeltje",
+      "instruction": "Kies nog een laatste spikkeltje, of laat dit detail weg.",
+      "spoken": "Nog een klein streepje kan mijn spikkelpatroon afmaken. Het jouwe mag minder spikkels hebben.",
+      "hint": "Een paar kleine streepjes laten straks ruimte voor kleur.",
+      "notice": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen."
+    },
+    "upper-cone-diagonal": {
+      "title": "Bovenste schuine lijn",
+      "instruction": "Probeer een lichte schuine lijn binnen het hoorntje, of sla die over.",
+      "spoken": "Een lichte schuine lijn kan het begin van een wafelpatroon binnen het hoorntje zijn. Ik stop vóór de buitenranden.",
+      "hint": "Houd beide uiteinden van deze lijn binnen het hoorntje.",
+      "notice": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen."
+    },
+    "lower-cone-diagonal": {
+      "title": "Onderste schuine lijn",
+      "instruction": "Probeer een kortere schuine lijn lagerop, of sla die over.",
+      "spoken": "Lager is het hoorntje smaller, dus is dit schuine lijntje korter.",
+      "hint": "Kijk hoeveel minder ruimte er bij de punt is.",
+      "notice": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen."
+    },
+    "crossing-cone-line": {
+      "title": "Kruisende lijn",
+      "instruction": "Probeer een lijn die de andere kant op helt, als je wilt.",
+      "spoken": "Een lijn die de andere kant op helt kan een wafelpatroon laten zien. Hij kan er ook alleen staan als je de eerdere lijnen hebt overgeslagen.",
+      "hint": "Stop je lijn binnen de schuine randen van het hoorntje.",
+      "notice": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen."
+    },
+    "colour-choice": {
+      "title": "Een fantasiesmaak.",
+      "instruction": "Kies roze en goudbruin, of bedenk je eigen smaak.",
+      "spoken": "Ik kies roze voor een aardbeienbolletje van papier en goudbruin voor het hoorntje. Jij mag een andere smaakkleur bedenken.",
+      "hint": "Voor je fantasiewinkel kun je de krijtjes kiezen die je hebt.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-strawberry-scoop": {
+      "title": "Een zacht aardbeienbolletje.",
+      "instruction": "Gebruik korte roze streepjes binnen het ronde bolletje.",
+      "spoken": "Kleine roze streepjes kleuren ons bolletje. Ik til mijn krijtje op tussen de plekjes en houd de spikkeltjes zichtbaar door de zachte kleur heen.",
+      "hint": "Door lichte streepjes blijven het papier en de kleine details zichtbaar.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-golden-cone": {
+      "title": "Brede bovenkant, kleine punt.",
+      "instruction": "Kleur het hoorntje met kleinere streepjes bij de punt.",
+      "spoken": "Goudgele plekjes beginnen in het brede deel. Bij de punt worden mijn bewegingen heel klein en blijft er wat papier wit.",
+      "hint": "Kleine plekjes mogen wit blijven; daar hoeft geen grote streep in.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-cherry": {
+      "title": "Een beetje kleur voor de kers.",
+      "instruction": "Kleur je kers rood, als je er een hebt getekend.",
+      "spoken": "Als je een kers hebt gemaakt, passen er een paar kleine rode streepjes binnenin. Je mag de kers ook wit laten.",
+      "hint": "Een kers hoeft niet; sla deze kleur over als je dat wilt.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-reflection": {
+      "title": "Klaar in onze winkel op papier.",
+      "instruction": "Kijk naar het ronde bolletje boven het puntige hoorntje.",
+      "spoken": "Ons ronde bolletje en puntige hoorntje hebben verschillende vormen. Hun zachte kleuren maken samen een tekening voor onze fantasiewinkel op papier.",
+      "hint": "Kijk waar jouw brede vorm een smalle punt wordt.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Het volgende idee voor jouw winkel.",
+      "instruction": "Bedenk een andere smaak, kleur verder of stop hier.",
+      "spoken": "Voor jouw fantasiewinkel kun je nog een smaak tekenen, een schaaltje of een eigen bordje. Maak verder, of stop met dit hoorntje op papier.",
+      "hint": "Een nieuw bolletje kan dezelfde gebogen beweging gebruiken.",
+      "notice": "Laat op het voorbeeld zien waar het bolletje en het hoorntje elkaar raken. Een brede V is gemakkelijker als het hoorntje te smal voelt. De doorlopende V is één beweging; doe die apart voor als je kind daarom vraagt, in plaats van het potlood over te nemen."
+    }
+  }
+}

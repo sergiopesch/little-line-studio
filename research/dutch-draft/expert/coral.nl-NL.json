@@ -1,0 +1,237 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "coral",
+  "sourceLessonSha256": "e5f6b1eb00a18a59e32ce2da56e64995d76873a73f936edb27b999eeb19e4446",
+  "sourceTextSha256": "ea1083b32ecc0acc69562bbbd45dfcd887ff48ad971716a49e074677ab2ecc1e",
+  "title": "Koraallandschap onder water",
+  "invitation": "Vertakkende vormen en ruimtes onder water.",
+  "objective": "Vertakkende en ronde vormen op verschillende plekken rangschikken, met optionele overlapping en open water ertussen.",
+  "parentNote": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek.",
+  "simplify": "Houd één tak, één koepel en een vis van een ovaal en staart. Sla gedeeltelijke omtrekken, ribbels, bellen en schelp over. Het blad hoeft niet vol.",
+  "transfer": "Teken een andere keer een rotspoel of kleine tuin met vertakkende en ronde vormen. Zoek een nieuwe indeling en kies welke lege ruimtes of overlappingen je houdt, zonder de onderwaterdemonstratie.",
+  "colouringLabel": "Kleine krijtbewegingen, jouw eigen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een fantasieriftuin.",
+      "instruction": "Kijk naar vertakkende lijnen, rond koraal en een klein zwemmend visje.",
+      "spoken": "Laten we een rustige riftuin voor een visje bedenken. We gebruiken vertakkende lijnen en ronde vormen, met een paar planten die deels achter een rots verborgen zijn.",
+      "hint": "Vergelijk de dunne takken met de brede ronde koraalvorm.",
+      "notice": "Bekijk in een voorbeeld vertakkend koraal naast rond koraal of een spons. Kijk naar de openingen tussen de takken en welke vormen ervoor staan. Echt koraal heeft veel vormen; dit zijn twee mogelijkheden."
+    },
+    "seabed": {
+      "title": "Zeebodem",
+      "instruction": "Laat een losse boog over de onderkant van het papier lopen.",
+      "spoken": "Een losse boog wordt de zeebodem in ons fantasierif. Laat erboven ruimte voor verschillende groeiende vormen en een visje.",
+      "hint": "Laat de onderste boog zachtjes op en neer gaan over het papier.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "seabed-rock": {
+      "title": "Rots op de zeebodem",
+      "instruction": "Sluit een lage ronde rots vlak bij het midden.",
+      "spoken": "Een ronde rots ligt vlak bij het midden. Straks laten we hem een paar plantenuiteinden verbergen, zodat sommige vormen vóór andere lijken te staan.",
+      "hint": "Verbind zachte ongelijke bogen tot één lage gesloten rotsvorm.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "coral-main-branch": {
+      "title": "Hoofdtak van het koraal",
+      "instruction": "Laat links een hoge koraaltak omhoog buigen.",
+      "spoken": "Begin met één lange vertakkende lijn links. Laat die omhoog buigen en laat aan beide kanten ruimte voor kleinere vertakkingen.",
+      "hint": "Begin bij de zeebodem en laat de lijn omhoog lopen.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "coral-left-fork": {
+      "title": "Linkervertakking",
+      "instruction": "Laat een kleinere vertakking naar links buigen.",
+      "spoken": "Een kleinere lijn vertakt naar links. Begin op de hoofdtak zodat deze aparte lijnen toch verbonden lijken.",
+      "hint": "Begin op de hoofdlijn en buig dan naar buiten en omhoog.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "coral-right-fork": {
+      "title": "Rechtervertakking",
+      "instruction": "Voeg een tweede vertakking toe die naar rechts loopt.",
+      "spoken": "Nog een vertakking loopt naar rechts. Door van richting te veranderen groeit de structuur zonder dat we voor elke tak een volledig nieuwe vorm tekenen.",
+      "hint": "Laat deze tak een andere richting op lopen.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "coral-left-twig": {
+      "title": "Linkertakje",
+      "instruction": "Voeg een zijtakje vanaf de linkse vertakking toe.",
+      "spoken": "Een takje groeit uit die linkervertakking naar buiten.",
+      "hint": "Begin op de vertakking en maak één kort draaiend lijntje.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "coral-right-twig": {
+      "title": "Rechtertakje",
+      "instruction": "Laat nog een kort takje vanaf de rechtervertakking draaien.",
+      "spoken": "Een draaiend takje maakt de andere vertakking af.",
+      "hint": "Houd dit takje kleiner dan de tak waaraan het vastzit.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "rounded-coral": {
+      "title": "Rond koraal",
+      "instruction": "Maak rechts een brede ronde koraalvorm.",
+      "spoken": "Zet nu tegenover die dunne takken een brede ronde vorm. Verbind grote bobbels tot één gesloten omtrek en laat binnenin ruimte voor kleine gebogen ribbels.",
+      "hint": "Verbind een paar ronde bobbels rond één brede vorm.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "coral-first-ridge": {
+      "title": "Eerste koraalribbel",
+      "instruction": "Laat binnen het ronde koraal één ribbel omhoog buigen.",
+      "spoken": "Een gebogen ribbel binnenin laat structuur zien. Laat hem de buitenvorm volgen in plaats van recht door het ronde koraal te gaan.",
+      "hint": "Houd deze boog binnenin en volg de ronde richting.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "coral-second-ridge": {
+      "title": "Tweede koraalribbel",
+      "instruction": "Herhaal een gebogen ribbel vlakbij met ruimte ertussen.",
+      "spoken": "Een tweede ribbel herhaalt die gebogen richting. Met maar een paar herhaalde streepjes kunnen we structuur laten zien zonder de hele vorm te bedekken.",
+      "hint": "Laat een duidelijke ruimte tussen de twee binnenbogen.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "hidden-seaweed": {
+      "title": "Verborgen zeewier",
+      "instruction": "Laat een golvende plant van achter de rots omhoogkomen.",
+      "spoken": "Deze golvende plant begint boven de rots, waar we hem kunnen zien. De rots verbergt het onderste uiteinde, dus laten we dat deel ongetekend.",
+      "hint": "Buig omhoog vanaf de bovenkant van de rots en kom ernaast terug.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "second-seaweed": {
+      "title": "Tweede zeewierplant",
+      "instruction": "Voeg nog een smalle golvende plant naast de rots toe.",
+      "spoken": "Nog een smalle plant zwaait een andere richting op. Twee golvende randen dicht bij elkaar maken een lintachtige vorm in plaats van één lijn.",
+      "hint": "Houd een smalle ruimte tussen de twee golvende plantranden.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "swimming-fish": {
+      "title": "Zwemmende vis",
+      "instruction": "Zet een schuine ovale vis boven het rif.",
+      "spoken": "Een schuine ovaal wordt het eenvoudige lijf van onze vis boven het rif. Laat links ruimte voor een staart en rechts voor het gezicht.",
+      "hint": "Een brede ovaal mag een beetje hellen alsof hij zwemt.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "fish-tail": {
+      "title": "Staart van de vis",
+      "instruction": "Maak een kleine uitwaaierende staart links.",
+      "spoken": "De staart waaiert achter de vis uit. Gebruik korte schuine lijnen die van het lijf af uit elkaar lopen en ernaar terugkomen.",
+      "hint": "Laat de staart aan het buitenste uiteinde breder uitwaaieren.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "fish-eye": {
+      "title": "Oog van de vis",
+      "instruction": "Voeg een oogje bij het rechteruiteinde toe.",
+      "spoken": "Eén donker stipje bij het rechteruiteinde wordt het oog.",
+      "hint": "Houd het oog binnen de ovaal met papier eromheen.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "fish-fin": {
+      "title": "Vin van de vis",
+      "instruction": "Sluit een kleine gebogen vin binnen de vis.",
+      "spoken": "Als je een vin wilt, past een kleine gebogen vorm binnen het lijf. We kunnen die anders kleuren, of de vis eenvoudiger houden.",
+      "hint": "Houd een kleine gebogen driehoek binnen de grotere ovaal.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "first-bubble": {
+      "title": "Eerste bel",
+      "instruction": "Voeg eventueel een kleine ronde bel boven de vis toe.",
+      "spoken": "Een belletje kan bij ons zelfbedachte onderwaterverhaal komen.",
+      "hint": "Laat wat papier rond deze kleine ronde vorm.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "second-bubble": {
+      "title": "Tweede bel",
+      "instruction": "Zet eventueel een iets grotere bel verder omhoog.",
+      "spoken": "Nog een bel mag iets groter en hoger komen.",
+      "hint": "Laat ruimte tussen de twee ronde bellen.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "seabed-shell": {
+      "title": "Schelp op de zeebodem",
+      "instruction": "Verbind eventueel kleine boogjes tot een schelp op de zeebodem.",
+      "spoken": "Een schelpje kan op de zeebodem rusten. Verbind een paar ronde puntjes bovenaan en sluit dan de onderrand.",
+      "hint": "Kleine verbonden bobbels kunnen samen een schelpomtrek maken.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "fish-stripe": {
+      "title": "Visstreep",
+      "instruction": "Laat één gebogen streep de ronde vorm van de vis volgen.",
+      "spoken": "Een optionele gebogen streep volgt het ronde lijf van de vis. Die kan de zwemmer voller laten lijken, of je laat je vis zonder patroon.",
+      "hint": "Laat de streep zacht buigen in plaats van kaarsrecht over te steken.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    },
+    "colour-choice": {
+      "title": "Zachte rifkleuren.",
+      "instruction": "Kies koraalroze, groene planten en een goudgele vis.",
+      "spoken": "Ik kies zacht koraalroze, groene planten en een goudgele vis voor ons fantasierif. Jouw rif mag zijn eigen rustige kleurenverhaal hebben.",
+      "hint": "Kies verschillende kleuren voor het ronde koraal en de vis.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-rounded-coral": {
+      "title": "Ronde koraalplekjes.",
+      "instruction": "Draai kleine roze bewegingen mee met de ronde vorm van het koraal.",
+      "spoken": "Deze kleine roze plekjes volgen de brede ronde vorm. Ik laat de gebogen ribbels zichtbaar; het dunne vertakkende koraal mag eenvoudige lijnen blijven.",
+      "hint": "Maak kleine gebogen plekjes rond de ronde koraalvorm.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-seaweed": {
+      "title": "Smalle golvende planten.",
+      "instruction": "Maak kleinere groene bewegingen binnen de smalle zeewiervormen.",
+      "spoken": "Het zeewier is smal, dus maak ik kleine groene bewegingen. Ik til mijn krijtje op voordat ik langs elke bocht verderga en stop bij de rots die de onderkant verbergt.",
+      "hint": "Kleine bewegingen passen beter dan lange strepen in een smalle bocht.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reef-fish": {
+      "title": "Een goudgele zwemmer.",
+      "instruction": "Maak lichte goudgele plekjes en een warme staart.",
+      "spoken": "Kleine goudgele plekjes volgen het ovale lijf van onze vis. Ik houd oog en vin vrij en voeg dan wat warm oranje toe aan de staart.",
+      "hint": "Houd de kleine gezichtsdelen en vin zichtbaar.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-shell-fin": {
+      "title": "Kleine rifaccenten.",
+      "instruction": "Kleur de schelp, het vinnetje en een gebogen visstreep.",
+      "spoken": "Als je een schelp, vin of streep hebt toegevoegd, kun je die details kleuren. Ik gebruik roze en oranje met kortere, zachtere bewegingen.",
+      "hint": "Maak de beweging kleiner wanneer een ruimte smaller wordt.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reef-layer": {
+      "title": "Een rots en een zachte laag.",
+      "instruction": "Kleur eventueel de rots en maak één koraalplekje donkerder.",
+      "spoken": "Een grijze rots helpt de groene planten apart te laten lijken. Eén lichte donkerdere koraalplek is een optionele extra laag, geen ruimte die we moeten vullen.",
+      "hint": "Een kleine tweede laag kan één deel van een kleur veranderen.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflect": {
+      "title": "Verschillende vormen en structuren.",
+      "instruction": "Vergelijk de dunne takken met de ronde koraalribbels.",
+      "spoken": "Kijk naar de dunne vertakkende lijnen naast het brede ronde koraal. Een paar verschillende soorten streepjes kunnen verschillende structuren in dezelfde tekening laten zien.",
+      "hint": "Kies één vertakkend streepje en één rond streepje om naar te kijken.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Jouw eigen onderwaterverhaal.",
+      "instruction": "Kleur verder of bedenk nog een klein rifdier.",
+      "spoken": "Jouw visje kan een andere plant, schelp of een zelfbedacht dier ontdekken. Voeg meer toe aan het rif of rond je onderwatertekening hier af.",
+      "hint": "Probeer één andere kleine vorm en laat ruimte rond je vis.",
+      "notice": "Wijs op verzoek naar de ruimtes tussen koraaltakken en help een prettige takgrootte kiezen. Doe één vertakking voor op apart papier. Maak van de vele echte koraalvormen geen eis voor één juiste omtrek."
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "apple",
+  "sourceLessonSha256": "c9c8b4371bd9fd41dda57e0484134a29464d670a4182d0df7009c16718c30742",
+  "sourceTextSha256": "099ae9baacbdfff6a0bcc7df9ec236fdd5e072eebc00a0b1a44a00ab81c226bb",
+  "title": "Appel",
+  "invitation": "Twee bogen worden een herkenbare vrucht.",
+  "objective": "Een ongelijkmatige ronde omtrek opbouwen uit twee bogen en er een klein onderdeel aan vastmaken.",
+  "parentNote": "Laat de twee kanten zien op een echte appel of op het voorbeeld, in plaats van de omtrek van je kind te verbeteren. Bied een eenvoudiger ovaal aan als twee bogen samen maken niet prettig voelt. Een zelfbedachte appel met kleuren of een patroon is net zo goed als een appel naar voorbeeld.",
+  "simplify": "",
+  "transfer": "Hoe zouden die twee bogen veranderen voor een peer?",
+  "colouringLabel": "Rode bogen en een beetje glans",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een picknick op papier.",
+      "instruction": "Kijk naar de twee gebogen kanten van de appel en het kleine kuiltje bovenaan.",
+      "spoken": "Laten we een appel tekenen voor een fantasiepicknick. Twee grote bogen komen samen bij een klein kuiltje, met een steeltje erboven.",
+      "hint": "Volg één kant vanaf de bovenkant naar beneden.",
+      "notice": "Kijk naar een appel of een afbeelding ervan. Zie je het kuiltje waar het steeltje begint?"
+    },
+    "apple-left-side": {
+      "title": "Linkerkant van de appel",
+      "instruction": "Maak vanaf de bovenkant een boog naar buiten en rond de onderkant van de appel.",
+      "spoken": "Begin bij de bovenkant. Buig naar links en om de zijkant heen, en ga dan naar binnen richting de onderkant.",
+      "hint": "Laat de zijkant naar buiten bollen voordat je terug naar binnen buigt.",
+      "notice": "Laat de twee kanten zien op een echte appel of op het voorbeeld, in plaats van de omtrek van je kind te verbeteren. Bied een eenvoudiger ovaal aan als twee bogen samen maken niet prettig voelt. Een zelfbedachte appel met kleuren of een patroon is net zo goed als een appel naar voorbeeld."
+    },
+    "apple-right-side": {
+      "title": "Rechterkant van de appel",
+      "instruction": "Breng de andere kant rond tot aan de bovenkant.",
+      "spoken": "Maak vanaf de onderkant een boog naar buiten en omhoog aan de andere kant. De twee bogen komen bij elkaar en sluiten onze appel.",
+      "hint": "Volg de buitenkant met één brede, ronde beweging.",
+      "notice": "Laat de twee kanten zien op een echte appel of op het voorbeeld, in plaats van de omtrek van je kind te verbeteren. Bied een eenvoudiger ovaal aan als twee bogen samen maken niet prettig voelt. Een zelfbedachte appel met kleuren of een patroon is net zo goed als een appel naar voorbeeld."
+    },
+    "apple-stalk": {
+      "title": "Appelsteeltje",
+      "instruction": "Laat een kort gebogen steeltje omhoogkomen uit het kuiltje.",
+      "spoken": "Een kort lijntje buigt omhoog vanuit het kuiltje. Ik maak het veel kleiner dan de appel.",
+      "hint": "Begin waar de twee grote bogen van je appel bij elkaar komen.",
+      "notice": "Laat de twee kanten zien op een echte appel of op het voorbeeld, in plaats van de omtrek van je kind te verbeteren. Bied een eenvoudiger ovaal aan als twee bogen samen maken niet prettig voelt. Een zelfbedachte appel met kleuren of een patroon is net zo goed als een appel naar voorbeeld."
+    },
+    "apple-leaf": {
+      "title": "Appelblad",
+      "instruction": "Probeer een puntig blad naast het steeltje, als je wilt.",
+      "spoken": "Twee bogen komen samen in een punt en maken zo een blad. Het blad raakt het steeltje.",
+      "hint": "Buig naar buiten tot een punt en dan terug naar het steeltje.",
+      "notice": "Laat de twee kanten zien op een echte appel of op het voorbeeld, in plaats van de omtrek van je kind te verbeteren. Bied een eenvoudiger ovaal aan als twee bogen samen maken niet prettig voelt. Een zelfbedachte appel met kleuren of een patroon is net zo goed als een appel naar voorbeeld."
+    },
+    "leaf-vein": {
+      "title": "Nerf in het blad",
+      "instruction": "Voeg een lijn toe binnen je blad, als je er een hebt getekend.",
+      "spoken": "Als je een blad hebt gemaakt, kan er een lichte lijn door het midden lopen. Anders laat je dit detail weg.",
+      "hint": "Houd het lijntje binnen de gebogen randen van het blad.",
+      "notice": "Laat de twee kanten zien op een echte appel of op het voorbeeld, in plaats van de omtrek van je kind te verbeteren. Bied een eenvoudiger ovaal aan als twee bogen samen maken niet prettig voelt. Een zelfbedachte appel met kleuren of een patroon is net zo goed als een appel naar voorbeeld."
+    },
+    "apple-shine": {
+      "title": "Glans op de appel",
+      "instruction": "Probeer een klein gebogen glanslijntje binnen de appel.",
+      "spoken": "Een klein boogje volgt de linkerkant van de appel. Ik laat hier het papier wit om glans te laten zien.",
+      "hint": "Laat wat ruimte tussen je glansboogje en de buitenrand.",
+      "notice": "Laat de twee kanten zien op een echte appel of op het voorbeeld, in plaats van de omtrek van je kind te verbeteren. Bied een eenvoudiger ovaal aan als twee bogen samen maken niet prettig voelt. Een zelfbedachte appel met kleuren of een patroon is net zo goed als een appel naar voorbeeld."
+    },
+    "apple-dip": {
+      "title": "Kuiltje in de appel",
+      "instruction": "Laat het kuiltje bovenaan zien met een klein boogje, als je wilt.",
+      "spoken": "Een klein boogje bij het steeltje kan het kuiltje duidelijker laten zien. Het is een extra detail.",
+      "hint": "Dit kleine kuiltje hoort bij de bovenkant van de appel.",
+      "notice": "Laat de twee kanten zien op een echte appel of op het voorbeeld, in plaats van de omtrek van je kind te verbeteren. Bied een eenvoudiger ovaal aan als twee bogen samen maken niet prettig voelt. Een zelfbedachte appel met kleuren of een patroon is net zo goed als een appel naar voorbeeld."
+    },
+    "apple-ground": {
+      "title": "Lijn onder de appel",
+      "instruction": "Probeer een lijn onder je appel, of sla die over.",
+      "spoken": "Een lage boog onder de appel kan ons denkbeeldige picknickkleed worden. Laat een kleine opening onder het fruit.",
+      "hint": "De lijn blijft onder de omtrek van je appel.",
+      "notice": "Laat de twee kanten zien op een echte appel of op het voorbeeld, in plaats van de omtrek van je kind te verbeteren. Bied een eenvoudiger ovaal aan als twee bogen samen maken niet prettig voelt. Een zelfbedachte appel met kleuren of een patroon is net zo goed als een appel naar voorbeeld."
+    },
+    "colour-choice": {
+      "title": "Vrolijke picknickkleuren.",
+      "instruction": "Kies rood en groen, of een andere kleur voor je appel.",
+      "spoken": "Ik kies rood voor de appel en groen voor het blad. Gele of groene appels passen ook bij een picknick op papier.",
+      "hint": "Kies de kleur die jij vandaag voor je appel wilt proberen.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-apple-left": {
+      "title": "Laat een beetje glans.",
+      "instruction": "Kleur kleine rode plekjes en laat een wit plekje voor de glans.",
+      "spoken": "Ik maak kleine rode plekjes aan één kant. Het kleine witte plekje blijft ongekleurd: met papier kunnen we glans laten zien.",
+      "hint": "Laat kleine openingen in plaats van harder te drukken om alles te bedekken.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-apple-right": {
+      "title": "Rond de andere kant.",
+      "instruction": "Kleur verder met rode plekjes richting de ronde rand van de appel.",
+      "spoken": "Nu de andere kant. Ik maak kortere bewegingen bij de rand en til mijn krijtje op voordat ik aan het volgende plekje begin.",
+      "hint": "Volg je gebogen omtrek met kleine, zachte bewegingen.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-apple-leaf": {
+      "title": "Een klein groen blad.",
+      "instruction": "Kleur je blad groen, als je er een hebt getekend.",
+      "spoken": "Een paar kleine groene streepjes passen binnen het blad. Laat het dunne lijntje in het midden zichtbaar, of laat je blad wit.",
+      "hint": "Een blad hoeft niet; je mag deze kleur overslaan.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-reflection": {
+      "title": "Onze picknickappel.",
+      "instruction": "Kijk hoe het witte plekje naast je kleur ligt.",
+      "spoken": "Twee grote bogen werden een ronde appel. Kijk hoe de gekleurde plekjes en het witte papier samen in onze picknicktekening staan.",
+      "hint": "Je appel mag ronder, langer of anders van kleur zijn.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Iets voor jouw picknick.",
+      "instruction": "Bedenk nog een picknicktekening, kleur verder of stop hier.",
+      "spoken": "Wat hoort er nog meer bij jouw fantasiepicknick? Probeer een andere vrucht, een kopje of je eigen idee. Je mag stoppen wanneer je wilt.",
+      "hint": "Een andere ronde vorm kan een peer of een perzik worden.",
+      "notice": "Laat de twee kanten zien op een echte appel of op het voorbeeld, in plaats van de omtrek van je kind te verbeteren. Bied een eenvoudiger ovaal aan als twee bogen samen maken niet prettig voelt. Een zelfbedachte appel met kleuren of een patroon is net zo goed als een appel naar voorbeeld."
+    }
+  }
+}

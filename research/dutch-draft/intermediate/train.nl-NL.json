@@ -1,0 +1,223 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "train",
+  "sourceLessonSha256": "c7fc86087e70dd347dd83fff5d392f7e859d9a67a511874ca68385fc15ef8764",
+  "sourceTextSha256": "e303c86b42e6b44c9978501aae3872724cd7c902e965afba042e3711c60af66b",
+  "title": "Speelgoedlocomotief",
+  "invitation": "Wielen en vormen die samenwerken.",
+  "objective": "Lichaamsdelen die over elkaar lijken te liggen, ronde wielen en een gedeelde steunlijn combineren om een speelgoedvoertuig te laten zien.",
+  "parentNote": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail.",
+  "simplify": "",
+  "transfer": "Probeer een andere keer een speelgoedbus. Gebruik wielen en een lang lijf opnieuw en beslis dan welke locomotiefonderdelen je weglaat.",
+  "colouringLabel": "Kleine streepjes, zorgvuldig gekozen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een fantasietreinreis.",
+      "instruction": "Kijk naar ronde wielen onder lange en hoekige vormen.",
+      "spoken": "Onze locomotief op papier is klaar voor een zelfbedachte treinreis. Kijk naar de hoekige cabine, de lange ronde ketel en de wielen eronder.",
+      "hint": "Vergelijk de lange vormen van de locomotief met de ronde wielen.",
+      "notice": "Kijk naar onze speelgoedlocomotief. Welke onderdelen zitten boven de wielen?"
+    },
+    "train-base": {
+      "title": "Basis van de trein",
+      "instruction": "Teken een lange, lage rechthoek voor de basis van de locomotief.",
+      "spoken": "Een lange rechthoek wordt onze basis. Laat bovenaan ruimte voor de locomotief en onderaan voor twee ronde wielen.",
+      "hint": "Maak deze rechthoek veel breder dan hij hoog is.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-cab": {
+      "title": "Cabine van de trein",
+      "instruction": "Maak een hoekige cabine boven één uiteinde.",
+      "spoken": "De hoge cabine komt boven één uiteinde van de basis. Ik stop de verste rand waar de ronde ketel erbij zal komen.",
+      "hint": "Plaats dit hoge blok boven één uiteinde van de lange basis.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-boiler": {
+      "title": "Ketel van de trein",
+      "instruction": "Maak een lange ronde ketel naast de cabine.",
+      "spoken": "Een lange ovaal strekt zich langs de basis uit naast de cabine. De ronde rand zit voor de onderste hoek van de cabine.",
+      "hint": "Vergelijk deze lange lage ovaal met de hogere cabine.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-front-wheel": {
+      "title": "Voorwiel van de trein",
+      "instruction": "Plaats een rond wiel onder de voorkant.",
+      "spoken": "Een rond wiel raakt de onderkant van de basis. De bovenkant steekt een beetje in de basis, zodat het wiel vastzit in plaats van te zweven.",
+      "hint": "Laat de bovenrand van het wiel de basis van de locomotief raken.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-back-wheel": {
+      "title": "Achterwiel van de trein",
+      "instruction": "Voeg een vergelijkbaar wiel onder de cabine toe.",
+      "spoken": "Het andere wiel komt onder de cabine. Vergelijk de onderkanten zodat onze locomotief op een vlak spoor kan rusten.",
+      "hint": "Kijk naar de onderkant van het eerste wiel voordat je dit wiel plaatst.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-front-hub": {
+      "title": "Midden van het voorwiel",
+      "instruction": "Zet een cirkeltje binnen het voorwiel.",
+      "spoken": "Een kleinere cirkel komt vlak bij het midden van het voorwiel. Door ruimte eromheen te laten krijgt het wiel een duidelijke rand.",
+      "hint": "Houd deze cirkel veel kleiner dan het wiel eromheen.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-back-hub": {
+      "title": "Midden van het achterwiel",
+      "instruction": "Voeg een cirkeltje binnen het andere wiel toe.",
+      "spoken": "Nog een kleine cirkel komt binnen het achterwiel. Het grote wiel en kleine midden herhalen een idee dat we al kennen.",
+      "hint": "Zoek het midden van je tweede grote wielcirkel.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-wheel-link": {
+      "title": "Verbinding tussen de wielen",
+      "instruction": "Verbind de wielmiddens met één lange lijn.",
+      "spoken": "Een lijn verbindt de twee kleine wielmiddens. Door van het ene wiel naar het andere te kijken kies ik de richting.",
+      "hint": "Begin bij het ene midden en richt naar het andere.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-window": {
+      "title": "Cabineraam",
+      "instruction": "Teken een klein cabineraam binnen het blok.",
+      "spoken": "Een kleine rechthoek past hoog binnen de cabine. Laat papier eromheen vrij zodat het blok goed zichtbaar blijft.",
+      "hint": "Houd dit raampje boven de ronde ketel.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-cab-roof": {
+      "title": "Dak van de cabine",
+      "instruction": "Laat een korte daklijn boven de cabine uitsteken.",
+      "spoken": "Een lijn steekt aan beide kanten een beetje voorbij de cabine uit. Daardoor is het dak anders dan het raam eronder.",
+      "hint": "Volg de bovenkant van de cabine en laat de lijn iets uitsteken.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-chimney": {
+      "title": "Schoorsteen van de trein",
+      "instruction": "Zet een smalle schoorsteen boven de ketel.",
+      "spoken": "Een hoge smalle rechthoek raakt de bovenkant van de ketel. Door de kleine breedte zien we hoe lang en breed de ketel is.",
+      "hint": "Houd de schoorsteen smal naast de grote locomotiefvormen.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-front-slope": {
+      "title": "Schuine voorkant",
+      "instruction": "Laat een kort lijntje vanaf de voorkant schuin naar beneden lopen.",
+      "spoken": "Een kort schuin lijntje komt voorbij de voorkant van de locomotief naar beneden. Laat het wiel ernaast vrij terwijl je het plaatst.",
+      "hint": "Begin aan het voorste uiteinde van de lange basis.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-front-base": {
+      "title": "Onderkant van de voorkant",
+      "instruction": "Verbind dat schuine lijntje terug met de basis.",
+      "spoken": "Nog een kort lijntje komt terug bij de basis. De twee lijnen maken een klein puntig onderdeel aan de voorkant.",
+      "hint": "Breng de buitenste punt terug naar de onderrand van de locomotief.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-boiler-face": {
+      "title": "Voorkant van de ketel",
+      "instruction": "Maak een korte gebogen naad bij de voorkant van de ketel.",
+      "spoken": "Een kort boogje volgt de ketel bij de voorkant. Het laat een rond uiteinde zien zonder nog een hele lange ovaal toe te voegen.",
+      "hint": "Houd deze boog binnen de ronde ketelvorm.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-front-lamp": {
+      "title": "Lamp voorop",
+      "instruction": "Zet een klein rond lampje bij de voorkant.",
+      "spoken": "Een klein cirkeltje komt bij de voorkant. Door het klein te houden blijven de grote locomotiefdelen de hoofdvormen in onze tekening.",
+      "hint": "Laat een beetje papier rond het kleine lampcirkeltje.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-coupling": {
+      "title": "Koppeling",
+      "instruction": "Probeer een klein haakje achteraan.",
+      "spoken": "Een klein boogje kan vanaf de achterkant van de basis krullen. Onze fantasielocomotief kan met of zonder dit extra haakje rijden.",
+      "hint": "Begin bij de achterrand en buig het lijntje dichtbij.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-first-puff": {
+      "title": "Eerste wolkje",
+      "instruction": "Probeer een klein prentenboekwolkje boven de schoorsteen.",
+      "spoken": "Ronde bobbels kunnen een fantasiewolkje in onze prentenboeklucht maken. Laat een beetje papier tussen het wolkje en de schoorsteen.",
+      "hint": "Verbind zachte boogjes rond een kleine ruimte boven de schoorsteen.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-second-puff": {
+      "title": "Tweede wolkje",
+      "instruction": "Probeer een hoger prentenboekwolkje, als je wilt.",
+      "spoken": "Nog een zacht wolkje kan hoger boven de schoorsteen zweven. Je mag er één, meer of geen tekenen bij onze fantasietrein.",
+      "hint": "Houd deze optionele vorm in de lucht boven de schoorsteen.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-upper-rail": {
+      "title": "Bovenste spoorlijn",
+      "instruction": "Teken een lange spoorlijn onder de wielen.",
+      "spoken": "Een lange lijn ligt net onder beide wielen. Door hun onderkanten te vergelijken kan ik het spoor onder de locomotief plaatsen.",
+      "hint": "Richt onder beide wielen in plaats van door het midden ervan.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "train-lower-rail": {
+      "title": "Onderste spoorlijn",
+      "instruction": "Voeg nog een spoorlijn iets lager toe.",
+      "spoken": "Een tweede lijn volgt onder de eerste. Ik houd een smalle ruimte tussen de lijnen terwijl ze over ons papier lopen.",
+      "hint": "Laat deze lange lijnen dezelfde richting op lopen.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    },
+    "colour-choice": {
+      "title": "Kleuren voor ons locomotiefje.",
+      "instruction": "Kies locomotiefkleuren en een donkerdere laag voor onderaan.",
+      "spoken": "Ik kies een groene locomotief, een rode basis en grijze wielen. Donkergroen kan een schaduwplekje op de ronde ketel maken.",
+      "hint": "Leg een lichte locomotiefkleur en een donkerdere tint klaar.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-engine": {
+      "title": "Groen over de locomotiefvormen.",
+      "instruction": "Kleur de locomotief zonder over het cabineraam te kleuren.",
+      "spoken": "Groene plekjes komen rond het cabineraam en over de ketel. Ik til mijn krijtje op vóór een raam en begin opnieuw op een vrije plek.",
+      "hint": "Korte streepjes helpen om de rand van het kleine raam zichtbaar te houden.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-base-and-wheels": {
+      "title": "Rood onderaan en ronde grijze wielen.",
+      "instruction": "Kleur de basis en elk wiel apart.",
+      "spoken": "Rood komt binnen de lange basis en grijs op de wielen. Ik til mijn krijtje op tussen de vormen zodat de verschillende onderdelen goed zichtbaar blijven.",
+      "hint": "Een rond wiel kan kleine gebogen kleurplekjes binnenin hebben.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-glass-and-shadow": {
+      "title": "Een beetje glas en schaduw.",
+      "instruction": "Voeg licht glas en een donkerdere onderkant van de ketel toe.",
+      "spoken": "Een beetje blauw laat vensterglas zien. Een donkergroene laag bij de onderrand van de ketel laat de lange vorm rond lijken.",
+      "hint": "Laat naast de donkerdere plek wat kleur van de eerste laag en papier zichtbaar.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-reflection": {
+      "title": "Onze locomotief op het spoor.",
+      "instruction": "Kijk naar de wielen onder de verbonden locomotiefvormen.",
+      "spoken": "Onze ronde wielen dragen lange en hoekige locomotiefvormen. Deze kleine trein op papier kan een treinreis volgen die jij bedenkt.",
+      "hint": "Kijk naar het verschil tussen een wiel en de lange basis.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "explore": {
+      "title": "Waar zou jouw trein naartoe gaan?",
+      "instruction": "Bedenk een station, voeg een wagon toe of stop.",
+      "spoken": "Jouw locomotief kan een fantasie-station bezoeken of nog een wagon van papier trekken. Teken verder, kleur verder of rond je reis hier af.",
+      "hint": "Probeer ronde wielen onder een andere lange vorm te verbinden.",
+      "notice": "Vergelijk als daarom wordt gevraagd de hoge cabine, lange basis en ronde wielen in het voorbeeld. Laat de samenhang op je eigen papier zien in plaats van alle machineonderdelen als geheugentaak te benoemen. Dit is een gestileerde speelgoedlocomotief; een wolkje is een optioneel verhaaldetail."
+    }
+  }
+}

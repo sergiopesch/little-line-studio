@@ -1,0 +1,230 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "cup",
+  "sourceLessonSha256": "03ba732b093c60f8894f92993efd4284ea0f75ea01a547a57f784d0d337f5083",
+  "sourceTextSha256": "331f7b47a6cc02ca69a816cfc2e96fa470102e9c54a42dba1b71236ea1ff63c0",
+  "title": "Kop en schotel",
+  "invitation": "Ovale openingen en verborgen randen.",
+  "objective": "De open ovale rand bekijken en zien hoe een oor en schotel rond een kop zitten.",
+  "parentNote": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken.",
+  "simplify": "Teken een kop met één oorboog en een schotelrand in de vorm van een glimlach. De demonstratie laat verborgen schotelranden vanaf het begin weg. Als je kind volledige vormen of overlappende hulplijnen kiest, mogen die blijven; gummen is niet nodig. Versiering, koekjes, stoom en tafelranden zijn optioneel.",
+  "transfer": "Bekijk een andere keer een lege kan of kom. Probeer de opening en het oor of de onderkant zonder de kopdemonstratie en kies welke delen zichtbaar zijn.",
+  "colouringLabel": "Kleine krijtbewegingen, jouw eigen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een klein café op papier.",
+      "instruction": "Kijk naar de platte ovale rand en de gebogen zijkanten van de kop.",
+      "spoken": "Laten we een fantasiecafé op papier maken, met een versierde kop en een koekje. Een platte ovaal helpt de kop rond te laten lijken.",
+      "hint": "Kijk hoe de bovenkant breed en laag is, in plaats van rond.",
+      "notice": "Kijk een beetje van boven naar de kop. Let op de ovale opening, de lege ruimte in het oor en de schotel rond de onderkant. Kijken mag, maar hoeft niet; een fantasiekop is ook welkom."
+    },
+    "saucer-front-edge": {
+      "title": "Voorrand van de schotel",
+      "instruction": "Begin met een brede gebogen schotelrand onderaan.",
+      "spoken": "Begin met de brede voorste boog van een schotel. Laat erboven ruimte voor een kop en rechts een oor.",
+      "hint": "Maak deze eerste boog breed en laag op het papier.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "cup-rim": {
+      "title": "Rand van de kop",
+      "instruction": "Teken een platte ovaal boven de schotel.",
+      "spoken": "Een platte ovaal wordt de rand van de kop. Omdat we een beetje van boven kijken, kunnen we deze ovale opening zien.",
+      "hint": "Teken een ovaal die veel breder dan hoog is.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "cup-left-edge": {
+      "title": "Linkerkant van de kop",
+      "instruction": "Laat de linkerkant van de kop zacht naar beneden buigen.",
+      "spoken": "Breng de linkerkant met een zachte boog vanaf de rand naar beneden. Laat hem bij de onderkant een beetje naar binnen draaien.",
+      "hint": "Begin bij het linkeruiteinde van de rand en buig naar beneden.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "cup-right-edge": {
+      "title": "Rechterkant van de kop",
+      "instruction": "Herhaal een zachte boog naar binnen aan de rechterkant.",
+      "spoken": "Breng de andere kant op een vergelijkbare manier naar beneden. Door hun hoogte te vergelijken kan de kop prettig op de schotel staan.",
+      "hint": "Laat deze kant eindigen bij het onderste uiteinde van de eerste kant.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "cup-bottom": {
+      "title": "Onderkant van de kop",
+      "instruction": "Verbind de onderste uiteinden met een zacht ronde onderkant.",
+      "spoken": "Verbind de twee onderkanten met een zachte boog. Een ronde onderkant past bij de gebogen kanten en de ovale bovenkant.",
+      "hint": "Maak een zachte boog over de opening onder de kop.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "handle-outer-loop": {
+      "title": "Buitenlus van het oor",
+      "instruction": "Maak een breed oor dat rechts naar buiten loopt en terugkomt.",
+      "spoken": "Het oor gaat in een lus naar rechts en buigt terug naar de kop. Laat binnenin genoeg ruimte voor een kleinere lus.",
+      "hint": "Buig vanaf de zijkant naar buiten en weer terug.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "handle-inner-loop": {
+      "title": "Binnenlus van het oor",
+      "instruction": "Maak een kleinere lus binnen het oor.",
+      "spoken": "Een kleinere boog binnenin geeft het oor dikte. De witte ruimte in het midden hoort ook bij de vorm van het oor.",
+      "hint": "Volg de buitenste lus en laat een rand tussen de bogen.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "inner-rim": {
+      "title": "Binnenrand",
+      "instruction": "Voeg een kleinere boog net binnen de rand toe.",
+      "spoken": "Een kleine binnenboog laat wat dikte bij de rand zien. Houd hem dicht bij de platte ovaal in plaats van ver onder op de kop.",
+      "hint": "Volg een deel van de ovaal met een boog vlak ernaast.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "saucer-left-return": {
+      "title": "Linker schotelrand terug",
+      "instruction": "Laat de schotel links terugbuigen naar de kop.",
+      "spoken": "Laat de linkerrand van de schotel terugbuigen naar de kop. We laten het zichtbare deel zien en de kop verbergt het midden.",
+      "hint": "Verbind het linkeruiteinde van de schotel richting de onderkant van de kop.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "saucer-right-return": {
+      "title": "Rechter schotelrand terug",
+      "instruction": "Voeg de zichtbare schotelboog rechts toe.",
+      "spoken": "Herhaal die teruggaande boog rechts. De kop staat ervoor, dus de schotel heeft geen lijn door de kop heen nodig.",
+      "hint": "Buig vanaf het rechteruiteinde van de schotel naar de kop.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "cup-base-arc": {
+      "title": "Voetje van de kop",
+      "instruction": "Voeg een kleine gebogen voet net boven de schotel toe.",
+      "spoken": "Een kleine gebogen voet helpt de kop aansluiten op de schotel. Volg de richting van de ronde onderkant van de kop.",
+      "hint": "Houd dit boogje onder de grote vorm van de kop.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "cup-upper-band": {
+      "title": "Bovenste sierstreep",
+      "instruction": "Laat een zacht gebogen sierlijn rond de kop lopen.",
+      "spoken": "Als je een sierband wilt, laat die dan rond de kop buigen. Die kleine bocht volgt het ronde oppervlak in plaats van plat te lijken.",
+      "hint": "Laat de sierlijn in het midden zacht naar beneden buigen.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "cup-lower-band": {
+      "title": "Onderste sierstreep",
+      "instruction": "Als je een bovenste boog maakte, probeer een onderrand.",
+      "spoken": "Als je de bovenste boog hebt gemaakt, volg er dan onderlangs om een sierband te maken. Anders mag je deze versiering weglaten.",
+      "hint": "Als je een bovenste boog tekende, laat eronder een kleine ruimte.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "cup-decoration": {
+      "title": "Versiering van de kop",
+      "instruction": "Voeg eventueel een hartje onder op de kop toe.",
+      "spoken": "Je kop kan een hartje of een andere eenvoudige versiering krijgen. Zet die onder op de kop, met of zonder sierband.",
+      "hint": "Twee ronde bobbeltjes kunnen samenkomen in een puntje onderaan.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "first-steam": {
+      "title": "Eerste stoomkrul",
+      "instruction": "Voeg een losse stoomkrul boven de kop toe.",
+      "spoken": "Een optionele losse krul kan stoom in ons fantasiecafé laten zien. Het is alleen een tekening; er hoeft geen echte hete drank in de buurt te zijn.",
+      "hint": "Laat één lichte lijn zachtjes boven de kop slingeren.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "second-steam": {
+      "title": "Tweede stoomkrul",
+      "instruction": "Probeer nog een losse krul boven de kop, of sla die over.",
+      "spoken": "Je kunt een losse krul boven de kop toevoegen. Als je al een stoomlijn maakte, laat dan wat ruimte ertussen.",
+      "hint": "Zet de krullen boven de kop met ruimte rond elke krul.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "biscuit": {
+      "title": "Koekje",
+      "instruction": "Zet eventueel een klein ovaal koekje naast de schotel.",
+      "spoken": "Een kleine schuine ovaal kan ons koekje op papier worden. Houd het kleiner dan de schotel zodat de kop de hoofdvorm blijft.",
+      "hint": "Zet een kleine lage ovaal naast de grotere schotel.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "biscuit-dot": {
+      "title": "Stip op het koekje",
+      "instruction": "Voeg eventueel een klein stipje of versiering toe aan het koekje.",
+      "spoken": "Een stipje kan het koekje versieren, als je er een hebt getekend.",
+      "hint": "Houd dit optionele stipje binnen de koekvorm.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "table-left": {
+      "title": "Tafellijn links",
+      "instruction": "Teken links een klein stukje tafellijn.",
+      "spoken": "Een optionele korte lijn links laat een tafel onder onze caféscène zien.",
+      "hint": "Stop deze tafellijn voordat hij de schotel raakt.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "table-right": {
+      "title": "Tafellijn rechts",
+      "instruction": "Voeg rechts voorbij de schotel nog een tafellijn toe.",
+      "spoken": "Je kunt rechts nog een tafellijn toevoegen, of de achtergrond als papier laten.",
+      "hint": "Laat de schotel vóór de tafellijn staan.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    },
+    "colour-choice": {
+      "title": "Kies je cafékleuren.",
+      "instruction": "Kies een kopkleur en eventueel een kleur voor de versiering.",
+      "spoken": "Ik gebruik zacht groenblauw voor de kop en warm geel voor de sierband. Ons fantasiecafé mag alle kleuren hebben die jij mooi vindt.",
+      "hint": "Kies één kopkleur en een kleinere contrasterende kleur voor de versiering.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-cup": {
+      "title": "Ronde krijtbewegingen.",
+      "instruction": "Maak kleine kleurplekjes rond het gebogen lijf van de kop.",
+      "spoken": "Ik maak kleine plekjes rond de kop en til mijn krijtje tussendoor op. Wat licht papier laten kan glanzend keramiek laten zien zonder elke weerspiegeling te tekenen.",
+      "hint": "Laat wat wit papier tussen de gekleurde plekjes.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-band-handle": {
+      "title": "Een sierband en een oor.",
+      "instruction": "Maak kleine bewegingen bij het oor; kleur een band als je die hebt gemaakt.",
+      "spoken": "Als je een band hebt gemaakt, kunnen kleine warme bewegingen die volgen. Ik maak mijn bewegingen korter bij het oor en laat het open midden wit.",
+      "hint": "Laat het lege midden van het oor ongekleurd papier.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-saucer": {
+      "title": "Een schotel eronder.",
+      "instruction": "Volg de lage schotelboog met blauwe plekjes.",
+      "spoken": "Deze kleine blauwe plekjes volgen de lage schotelboog. Ik houd het voetje van de kop vrij zodat de twee vormen apart blijven.",
+      "hint": "Volg de brede, lage richting van de schotel met kleine bewegingen.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-table-layer": {
+      "title": "Een warm koekje en wat schaduw.",
+      "instruction": "Kleur eventueel het koekje en maak één rand van de kop donkerder.",
+      "spoken": "Als je een koekje hebt getekend, kun je het een warme kleur geven. Ik maak ook één rand van de kop lichtjes donkerder; die extra laag is optioneel.",
+      "hint": "Een kleine donkere rand kan naast een lichter deel van de kop liggen.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflect": {
+      "title": "Ronde vormen op papier.",
+      "instruction": "Kijk hoe de ovale rand en gebogen kanten een ronde kop laten zien.",
+      "spoken": "Kijk naar de platte rand en gebogen kanten van de kop. Die eenvoudige vormen laten plat papier een ronde kop suggereren; een gebogen sierband kan daarbij helpen.",
+      "hint": "Volg de vorm van de rand in de lucht en kijk dan naar de gebogen kanten.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Jouw café op papier.",
+      "instruction": "Kleur verder of ontwerp nog een kop voor je café op papier.",
+      "spoken": "Je kunt nog een kop ontwerpen, de versiering veranderen of een papieren hapje toevoegen. Ga verder op je eigen tempo of sluit ons café hier.",
+      "hint": "Probeer een andere sierband, een bloem of nog een schotel.",
+      "notice": "Wijs op verzoek naar de opening in het oor in plaats van een perfecte lus voor te schrijven. Vergelijk de echte rand met een cirkel op apart papier. Verplaats het voorwerp niet terwijl je kind ernaar wil kijken."
+    }
+  }
+}

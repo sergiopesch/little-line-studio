@@ -1,0 +1,209 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "turtle",
+  "sourceLessonSha256": "01f6d0ba16228bd1dddd7647770e562bd49656e67ac3288b491e44dc3610984b",
+  "sourceTextSha256": "4697fc416202a9129d61c2465a8fc49c65ef2518f890611f810d6892d1a12566",
+  "title": "Schildpad",
+  "invitation": "Een groot schild met kleine onderdelen.",
+  "objective": "Een hoofd, poten en staart aan een groot schild vastmaken en ontdekken hoe lijnen een oppervlak in vlakken verdelen.",
+  "parentNote": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak.",
+  "simplify": "",
+  "transfer": "Probeer een andere keer een kever: houd een groot lijf in het midden, maar kies andere onderdelen langs de rand. Laat je kind bepalen welke kenmerken van de schildpad daar niet meer bij horen.",
+  "colouringLabel": "Kleine streepjes, zorgvuldig gekozen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een fantasietocht door de tuin.",
+      "instruction": "Kijk naar het grote schild en de kleinere onderdelen eromheen.",
+      "spoken": "Onze schildpad op papier maakt een fantasietocht door de tuin. Kijk hoe zijn kleine hoofd en pootjes aan een veel groter schild vastzitten.",
+      "hint": "Zoek eerst de grootste vorm en daarna de kleinere onderdelen eromheen.",
+      "notice": "Kijk naar onze schildpad. Welke kleine onderdelen steken buiten het grote schild uit?"
+    },
+    "turtle-shell": {
+      "title": "Schild van de schildpad",
+      "instruction": "Teken een brede ovaal voor het schild.",
+      "spoken": "Een brede ovaal wordt ons schild. Ik laat aan één kant ruimte voor een hoofd en onderaan voor kleine pootjes.",
+      "hint": "Laat papier rond het schild vrij voor de kleinere onderdelen.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-head": {
+      "title": "Hoofd van de schildpad",
+      "instruction": "Voeg een veel kleinere ovaal naast het schild toe.",
+      "spoken": "Een kleinere ovaal raakt één kant. Door het hoofd met het schild te vergelijken, kan ik kiezen hoeveel ruimte het nodig heeft.",
+      "hint": "Laat het kleine hoofd de zijkant van je schild raken.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-front-foot": {
+      "title": "Voorpoot van de schildpad",
+      "instruction": "Maak een klein gebogen pootje onder de voorkant.",
+      "spoken": "Een boog gaat vanaf het schild naar beneden en komt vlakbij terug. Het grootste deel van onze schildpad blijft binnen die grote schildvorm.",
+      "hint": "Maak dit pootje klein naast de brede ovaal.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-back-foot": {
+      "title": "Achterpoot van de schildpad",
+      "instruction": "Voeg nog een pootje toe onder de achterkant.",
+      "spoken": "Een tweede gebogen pootje komt lager aan de achterkant naar buiten. Laat de brede vorm van het schild goed zichtbaar.",
+      "hint": "Kijk onder het schild naar de overkant voor je tweede pootje.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-tail": {
+      "title": "Staart van de schildpad",
+      "instruction": "Verbind twee korte lijntjes voor een staartje.",
+      "spoken": "Twee korte lijntjes komen achter het schild samen in een punt. Het kleine staartje staat tegenover ons veel grotere hoofd aan de andere kant.",
+      "hint": "Houd dit puntje kleiner dan het hoofd.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-eye": {
+      "title": "Oog van de schildpad",
+      "instruction": "Zet een klein oog binnen het hoofd.",
+      "spoken": "Een klein oog komt binnen het hoofd, weg van de rand. Ik stop na één stipje.",
+      "hint": "Zoek een plekje binnen de kleine ovaal van het hoofd.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-mouth": {
+      "title": "Mond van de schildpad",
+      "instruction": "Maak een klein mondboogje bij de rand van het hoofd.",
+      "spoken": "Een kort gebogen mondje geeft onze prentenboekschildpad een uitdrukking. Laat wat ruimte onder het oog.",
+      "hint": "Maak een klein boogje in het onderste deel van het hoofd.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-shell-rim": {
+      "title": "Rand van het schild",
+      "instruction": "Maak een randboog langs de onderkant van het schild.",
+      "spoken": "Deze boog volgt de onderrand van het schild, een stukje naar binnen. De tussenruimte maakt een smal randje rond het schild.",
+      "hint": "Volg de ovaal zonder precies over de buitenrand te tekenen.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-centre-pattern": {
+      "title": "Middenpatroon op het schild",
+      "instruction": "Verbind korte kanten voor een patroon op het schild.",
+      "spoken": "Ik verbind korte kanten in het midden van het schild. Dit is ons tekenpatroon, met ruimte eromheen voor meer lijnen.",
+      "hint": "Begin met een paar verbonden kanten binnen de grote ovaal.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-upper-left": {
+      "title": "Schildlijn linksboven",
+      "instruction": "Verbind het middenpatroon richting linksboven.",
+      "spoken": "Een lijn loopt vanaf een bovenhoek naar het schild. Stop waar die de buitenrand raakt.",
+      "hint": "Begin bij het patroon en richt naar de rand van het schild.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-upper-right": {
+      "title": "Schildlijn rechtsboven",
+      "instruction": "Verbind een andere bovenhoek met het schild.",
+      "spoken": "Nog een lijn loopt vanuit de andere bovenhoek naar buiten. Kijk hoe de ruimtes tussen de lijnen van vorm veranderen.",
+      "hint": "Kijk naar de dichtstbijzijnde schildrand voordat je deze lijn maakt.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-right-pattern": {
+      "title": "Schildlijn rechts",
+      "instruction": "Laat een lijn naar rechts lopen.",
+      "spoken": "De volgende lijn loopt van het patroon naar de rechterrand. Elke verbinding blijft binnen ons grote schild.",
+      "hint": "Stop wanneer deze lijn de buitenste ovaal raakt.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-lower-right": {
+      "title": "Schildlijn rechtsonder",
+      "instruction": "Verbind een onderste hoek richting het randje.",
+      "spoken": "Een lijn loopt schuin omlaag vanaf het patroon naar het randje. Ik stop bij het randje in plaats van eroverheen te gaan.",
+      "hint": "Richt naar de binnenrand bij de onderkant van het schild.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-lower-left": {
+      "title": "Schildlijn linksonder",
+      "instruction": "Verbind de andere onderste hoek met het randje.",
+      "spoken": "Verbind nu de andere onderste hoek. Het patroon mag ongelijke ruimtes hebben en toch bij jouw schildpad passen.",
+      "hint": "Verbind het patroon aan deze kant met het randje.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-left-pattern": {
+      "title": "Schildlijn links",
+      "instruction": "Maak een laatste verbinding aan de linkerkant.",
+      "spoken": "Eén lijn verbindt het midden met de linkerrand. Ons schildpatroon heeft nu ruimtes om in te kleuren.",
+      "hint": "Gebruik een korte lijn tussen het patroon en het schild.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-front-toe": {
+      "title": "Teen op de voorpoot",
+      "instruction": "Probeer een klein teenstreepje, als je wilt.",
+      "spoken": "Een klein lijntje kan de voorpoot een teen geven. Dit extra streepje mag je ook weglaten.",
+      "hint": "Zoek de poot voordat je dit kleine detail maakt.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-back-toe": {
+      "title": "Teen op de achterpoot",
+      "instruction": "Probeer nog een klein teentje, of houd het eenvoudig.",
+      "spoken": "Een klein teentje kan ook op de andere poot komen. Eén lijntje is genoeg voor dit optionele detail.",
+      "hint": "Houd dit kleine streepje binnen de poot die je hebt getekend.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "turtle-ground": {
+      "title": "Grond onder de schildpad",
+      "instruction": "Probeer een korte grondlijn onder de schildpad.",
+      "spoken": "Een lijn eronder kan onze fantasietocht een plek geven. Je schildpad mag ook op gewoon wit papier blijven.",
+      "hint": "Zet de grondlijn onder de poten in plaats van erdoorheen.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    },
+    "colour-choice": {
+      "title": "Kleuren voor onze tuinschildpad.",
+      "instruction": "Kies groentinten, of je eigen schildpadkleuren.",
+      "spoken": "Ik kies groen voor het schild en licht crème voor het hoofd. Jouw schildpad op papier mag de kleuren gebruiken die je hebt.",
+      "hint": "Donkergroen en lichtgroen kunnen samen een eenvoudig paar zijn.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-shell": {
+      "title": "Een breed groen schild.",
+      "instruction": "Maak de kleur op het schild met kleine plekjes.",
+      "spoken": "Korte groene streepjes gaan over het schild. Ik til mijn krijtje op tussen de plekjes en houd de lijnen van ons patroon goed zichtbaar.",
+      "hint": "Laat kleine openingen papier tussen de krijtstreepjes.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-small-parts": {
+      "title": "Kleine onderdelen, kleine bewegingen.",
+      "instruction": "Gebruik kleinere streepjes voor het hoofd en de poten.",
+      "spoken": "Het hoofd en de poten vragen om kleinere bewegingen dan het schild. Ik ga langzamer bij elke rand en til mijn krijtje op voordat ik ergens anders verderga.",
+      "hint": "Voor kleine onderdelen passen kleine streepjes in plaats van een lange beweging.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-shell-shadow": {
+      "title": "Een zacht rond schild.",
+      "instruction": "Voeg een donkerdere laag toe bij de onderkant van het schild.",
+      "spoken": "Een beetje donkerder groen bij de onderrand laat het schild rond lijken. Ik laat de bovenkant lichter zodat beide kleuren zichtbaar zijn.",
+      "hint": "Begin licht; je kunt later nog een laag kiezen.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-reflection": {
+      "title": "Groot schild en kleine onderdelen.",
+      "instruction": "Kijk naar het grote schild met de kleine onderdelen eraan vast.",
+      "spoken": "Ons schild bleef de grootste vorm, met kleine onderdelen die uitsteken. Bedenk waar jouw schildpad op papier tijdens zijn tuintocht heen zou kunnen gaan.",
+      "hint": "Je tekening mag blijven zoals die is.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "explore": {
+      "title": "Waar gaat jouw schildpad naartoe?",
+      "instruction": "Bedenk een plekje in de tuin, kleur verder of stop.",
+      "spoken": "Je kunt je schildpad een blad of een denkbeeldig tuinpad geven. Er is tijd voor jouw ideeën, of je mag hier stoppen.",
+      "hint": "Probeer een ander dier met één grote vorm en kleine onderdelen.",
+      "notice": "Als de verdeling van het schild verwarrend wordt, bied dan de eenvoudigere keuze van een schild zonder patroon aan. Vergelijk tijdens een gevraagde pauze de rand van de middelste vorm met de buitenrand van het schild in het voorbeeld. De veelhoek in het midden hoeft geen vast aantal hoeken te hebben. Maak van het schildpatroon geen tel- of verbetertaak."
+    }
+  }
+}

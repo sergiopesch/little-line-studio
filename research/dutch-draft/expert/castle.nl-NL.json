@@ -1,0 +1,230 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "castle",
+  "sourceLessonSha256": "1ce332b344819f05637dd02e757b865cf669cb8be5d31be2b01faae5c04d1589",
+  "sourceTextSha256": "2fed63ef4f30411d47dc072696f2b26621b929ea69fe6958fc0721f910327f6b",
+  "title": "Kasteel met ophaalbrug",
+  "invitation": "Torens, een poort en een brug.",
+  "objective": "Verbonden gebouwen rangschikken en met een uitstekende brugvorm diepte verkennen.",
+  "parentNote": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid.",
+  "simplify": "Teken één muur, één toren, een boog en een rechthoekige brug. Laat kettingen, gracht, daken en versiering weg als je wilt. Ook een vlak aanzicht laat een kasteel zien.",
+  "transfer": "Teken een andere keer een tuinpoort met een pad ernaartoe. Probeer een nabije en verre rand in die nieuwe omgeving zonder het kasteelvoorbeeld.",
+  "colouringLabel": "Kleine krijtbewegingen, jouw eigen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Over de prentenboekbrug.",
+      "instruction": "Kijk naar twee hoge torens en een brug die naar ons toe breder wordt.",
+      "spoken": "Ons prentenboekkasteel heeft twee torens en een uitnodigende brug. We herhalen enkele vormen en laten de brug dan naar ons toe breder worden.",
+      "hint": "Kijk naar de bij elkaar horende torens en het bredere uiteinde van de brug dichtbij.",
+      "notice": "Bekijk in het voorbeeld waar poort en brug samenkomen. Kijk naar de verre brugrand bij de poort en de bredere rand dichtbij. Torens mogen verschillen; gelijke helften zijn niet verplicht."
+    },
+    "central-wall": {
+      "title": "Middenmuur",
+      "instruction": "Teken een brede rechthoekige muur in het midden.",
+      "spoken": "Begin met een brede muur in het midden. Laat aan beide kanten ruimte voor hogere torens en onderaan voor onze houten brug.",
+      "hint": "Vier verbonden kanten maken de middelste muurvorm.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "left-tower": {
+      "title": "Linkertoren",
+      "instruction": "Voeg een hogere smalle toren naast de linkermuur toe.",
+      "spoken": "Zet een hogere, smallere rechthoek naast de linkermuur. Door de hoogte met de muur te vergelijken krijgt ons kasteel een duidelijke buitenvorm.",
+      "hint": "Maak deze toren hoger en smaller dan de middenmuur.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "right-tower": {
+      "title": "Rechtertoren",
+      "instruction": "Herhaal een hoge toren aan de rechterkant.",
+      "spoken": "Voeg de toren aan de andere kant toe. Vergelijk de hoogte met de eerste; kleine verschillen horen bij een met de hand getekend prentenboekkasteel.",
+      "hint": "Gebruik de eerste toren als losse hoogtehulp.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "left-tower-roof": {
+      "title": "Dak van de linkertoren",
+      "instruction": "Maak een puntig dak boven de linkertoren.",
+      "spoken": "Twee schuine lijnen komen boven de linkertoren samen voor een puntig dak. Laat de onderste uiteinden iets voorbij de torenzijden komen.",
+      "hint": "Ga omhoog naar een punt en dan schuin omlaag aan de andere kant.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "right-tower-roof": {
+      "title": "Dak van de rechtertoren",
+      "instruction": "Voeg nog een puntig dak boven de rechtertoren toe.",
+      "spoken": "Herhaal een puntig dak boven de rechtertoren met dezelfde eenvoudige beweging omhoog en omlaag.",
+      "hint": "Laat beide dakuiteinden voorbij de kanten van de toren komen.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "arched-gate": {
+      "title": "Poortboog",
+      "instruction": "Maak een gebogen poort binnen de middenmuur.",
+      "spoken": "Een poortboog begint met een rechte zijkant, draait rond een ronde bovenkant en komt weer omlaag. Laat ruimte eromheen binnen de muur.",
+      "hint": "Ga omhoog, rond de bovenkant en kom terug naar de grond.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "bridge-left-edge": {
+      "title": "Linkerrand van de brug",
+      "instruction": "Laat één brugrand schuin naar buiten lopen richting de onderkant.",
+      "spoken": "Laat de linkerrand van de brug schuin naar ons toe lopen. Ons uiteinde dichtbij wordt breder dan het uiteinde bij het kasteel.",
+      "hint": "Begin bij de poort en ga schuin naar linksonder.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "bridge-right-edge": {
+      "title": "Rechterrand van de brug",
+      "instruction": "Laat de andere brugrand schuin naar rechts lopen.",
+      "spoken": "De andere kant loopt de tegenovergestelde richting uit. Deze uitlopende randen laten de brug naar voren lijken komen op ons platte papier.",
+      "hint": "Laat onderaan een bredere opening tussen de randen.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "bridge-near-edge": {
+      "title": "Brugrand dichtbij",
+      "instruction": "Verbind het brede nabije uiteinde van de brug.",
+      "spoken": "Verbind het brede uiteinde onderaan om onze brug te sluiten.",
+      "hint": "Verbind de twee onderste brugeinden met één lijn.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "first-bridge-plank": {
+      "title": "Eerste brugplank",
+      "instruction": "Voeg een korte planklijn bij het kasteeluiteinde toe.",
+      "spoken": "Een korte lijn over het smallere deel begint de houten planken.",
+      "hint": "Houd deze plank binnen de twee zijkanten van de brug.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "second-bridge-plank": {
+      "title": "Tweede brugplank",
+      "instruction": "Maak een langere planklijn dichter bij ons.",
+      "spoken": "Deze plank dichtbij is langer omdat de brug hier breder is. De herhaalde lijn volgt de verandering van de brugvorm.",
+      "hint": "Vergelijk deze langere plank met de kortere verder weg.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "moat-left": {
+      "title": "Gracht links",
+      "instruction": "Maak een waterboog links naast de brug.",
+      "spoken": "Een zachte waterboog naast de brug laat een prentenboekgracht zien. Stop voordat je door de houten brugvorm heen tekent.",
+      "hint": "Laat de waterboog bij de linkerkant van de brug komen.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "moat-right": {
+      "title": "Gracht rechts",
+      "instruction": "Voeg ook rechts een waterboog toe.",
+      "spoken": "Nog een waterboog verschijnt aan de andere kant. De brug zit ervoor en verbergt het water er direct onder.",
+      "hint": "Laat de brug tussen de twee waterbogen vrij.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "left-tower-window": {
+      "title": "Raam in de linkertoren",
+      "instruction": "Voeg eventueel een klein boograam links toe.",
+      "spoken": "Een klein boogje maakt een raam in de linkertoren. Gebruik het idee van de ronde bovenkant van de poort op een veel kleinere schaal.",
+      "hint": "Maak een kleine boog met korte kanten binnen de toren.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "right-tower-window": {
+      "title": "Raam in de rechtertoren",
+      "instruction": "Herhaal eventueel een klein raam in de rechtertoren.",
+      "spoken": "Je kunt het kleine boograam in de rechtertoren herhalen, of die toren zonder raam laten.",
+      "hint": "Vergelijk het raampje met de ruimte eromheen.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "castle-flagpole": {
+      "title": "Vlaggenmast",
+      "instruction": "Laat een dunne vlaggenmast boven het linkerdak uitsteken.",
+      "spoken": "Als je een vlag wilt, kan een dunne mast boven het linkerdak uitsteken.",
+      "hint": "Begin bij de dakpunt en teken een kort lijntje omhoog.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "castle-flag": {
+      "title": "Kasteelvlag",
+      "instruction": "Voeg eventueel een kleine puntige vlag boven het linkerdak toe.",
+      "spoken": "Als je een vlaggenmast hebt gemaakt, kunnen twee schuine lijntjes ernaast een vlaggetje maken. Anders laat je deze extra versiering weg.",
+      "hint": "Ga naar buiten tot een punt en kom terug naar de mast.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "left-lifting-chain": {
+      "title": "Linker ophaalketting",
+      "instruction": "Teken een dunne kettinglijn naast de brug.",
+      "spoken": "Je kunt een dunne lijn van de poort naar de brughoek toevoegen. In ons verhaal laat die een ketting voor de ophaalbrug zien.",
+      "hint": "Verbind de linkerkant van de poort richting de linkerbrughoek.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "right-lifting-chain": {
+      "title": "Rechter ophaalketting",
+      "instruction": "Voeg de tweede dunne lijn naast de andere brugrand toe.",
+      "spoken": "Een optionele tweede kettinglijn kan de andere kant volgen. Je mag ze ook allebei weglaten en een eenvoudige houten brug houden.",
+      "hint": "Verbind de rechterkant van de poort richting de rechterbrughoek.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "castle-stone": {
+      "title": "Kasteelsteen",
+      "instruction": "Laat eventueel één rechthoekige steen binnen de muur zien.",
+      "spoken": "Eén kleine rechthoek laat een steen in de muur zien. We hoeven niet elke steen te tekenen om de muur uit stukken opgebouwd te laten lijken.",
+      "hint": "Houd één kleine rechthoek binnen de grotere muurvorm.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    },
+    "colour-choice": {
+      "title": "Kleuren voor een prentenboekkasteel.",
+      "instruction": "Kies steengrijs, warme daken en een houtkleur voor de brug.",
+      "spoken": "Ik gebruik zachtgrijze stenen, warmrode daken en bruin hout. Jouw prentenboekkasteel mag eigen kleuren en een vrolijk vlaggetje hebben.",
+      "hint": "Kies een muurkleur en een andere dakkleur.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-stone-walls": {
+      "title": "Kleine steenplekjes.",
+      "instruction": "Maak kleine grijze plekjes rond de muren en torens.",
+      "spoken": "Ik maak lichtgrijze plekjes, steeds op een klein stukje. Ik laat ruimte rond de deuropening en ramen zodat die openingen duidelijk blijven.",
+      "hint": "Beweeg rond de kleine openingen en til op voordat je vlakbij opnieuw begint.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-pointed-roofs": {
+      "title": "Puntige dakruimtes.",
+      "instruction": "Maak de warme krijtbewegingen korter richting elke dakpunt.",
+      "spoken": "Mijn warmrode bewegingen worden korter bij de puntige daken. Ik stop binnen de rand in plaats van kleur in de punt te duwen.",
+      "hint": "Kleinere bewegingen passen in de smaller wordende dakvorm.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-wooden-bridge": {
+      "title": "Hout naar ons toe.",
+      "instruction": "Maak kleine bruine plekjes op de poort en brug.",
+      "spoken": "Ik kleur de poort en brug met warmbruine plekjes. De planklijnen blijven zichtbaar, zodat het bredere uiteinde dichtbij duidelijk blijft.",
+      "hint": "Houd de bruine plekjes binnen de zijkanten van de brug.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-castle-light": {
+      "title": "Raampjes en schaduw.",
+      "instruction": "Voeg eventueel blauwe ramen, een gele vlag en zachte schaduw toe.",
+      "spoken": "Als je ramen of een vlag hebt gemaakt, kunnen kleine blauwe en gele accenten ze afmaken. Een lichte laag langs een torenrand is nog een optionele schaduw.",
+      "hint": "Kleur ramen die je hebt getekend, of probeer een zachte laag langs een torenrand.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflect": {
+      "title": "Een brug met diepte.",
+      "instruction": "Vergelijk het smalle kasteeluiteinde met het brede uiteinde dichtbij.",
+      "spoken": "Kijk vanaf de poort naar het brede uiteinde van de brug. De uitlopende zijkanten en langere plank dichtbij helpen de brug op papier naar voren komen.",
+      "hint": "Vergelijk de twee planklengtes of volg de uitlopende randen.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Een verhaal achter de poort.",
+      "instruction": "Kleur verder of bedenk een bezoeker voor je kasteel.",
+      "spoken": "Je kunt nog een vlag ontwerpen, een bezoeker toevoegen of een tuin achter de poort bedenken. Ga verder met je verhaal of rond je kasteel hier af.",
+      "hint": "Probeer één klein verhaaldetail zonder de brug te bedekken.",
+      "notice": "Vergelijk de breedte van de brug dichtbij en ver weg in het voorbeeld. Een strook papier kan op een aparte ondergrond een brug laten zien als dat helpt. Vraag hoe de fantasiepoort van je kind werkt; eis geen technische juistheid."
+    }
+  }
+}

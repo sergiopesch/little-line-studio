@@ -1,0 +1,209 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "cactus",
+  "sourceLessonSha256": "ce5982e5cc4d3335922af4b01a36dc50704a8928055ad3a1436d8580ab03e97b",
+  "sourceTextSha256": "60d6cbd32393d8399395be5ef3cc8661a379a59ef4a48e3e2f3049835fb7b197",
+  "title": "Cactus in een pot",
+  "invitation": "Armen die uit één steel groeien.",
+  "objective": "Vertakkende omtrekken aan een centrale steel vastmaken; een plant in een pot plaatsen en enkele oppervlaktestreepjes toevoegen.",
+  "parentNote": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief.",
+  "simplify": "",
+  "transfer": "Bedenk een andere keer een boom met takken. Ontdek hoe één centrale vorm takken kan dragen terwijl de omtrek en oppervlaktestreepjes van de plant veranderen.",
+  "colouringLabel": "Kleine streepjes, zorgvuldig gekozen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een tuintje op de vensterbank.",
+      "instruction": "Kijk naar de hoge steel die uit een brede pot komt.",
+      "spoken": "Een cactus op papier groeit op onze fantasievensterbank. Kijk naar het hoge midden, de kleinere zijarmen en de brede pot eronder.",
+      "hint": "Kijk waar de hoge plant bij zijn kleine pot komt.",
+      "notice": "Kijk naar onze cactus. Waar komen de armen bij de hoofdsteel?"
+    },
+    "cactus-pot-rim": {
+      "title": "Rand van de cactuspot",
+      "instruction": "Teken een brede, smalle ovaal voor de potrand.",
+      "spoken": "Een brede ovaal is het begin van onze pot. De geringe hoogte laat zien dat we een beetje van bovenaf in de opening kijken.",
+      "hint": "Maak deze ovaal veel breder dan hij hoog is.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-pot": {
+      "title": "Cactuspot",
+      "instruction": "Maak vanaf beide kanten van de rand een boog naar beneden.",
+      "spoken": "De pot wordt smaller terwijl hij vanaf de rand naar beneden buigt. Een ronde onderkant verbindt de zijkanten tot één brede pot.",
+      "hint": "Houd de onderkant iets smaller dan de brede rand.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-main-stem": {
+      "title": "Hoofdsteel van de cactus",
+      "instruction": "Laat een hoge steel met een ronde bovenkant groeien.",
+      "spoken": "Een hoge lijn komt uit de pot omhoog, buigt rond en komt terug. Ik houd de breedte kleiner dan de brede opening van de pot.",
+      "hint": "Begin binnen de rand en laat ruimte voor zijarmen.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-left-arm-out": {
+      "title": "Linkerarm naar buiten",
+      "instruction": "Laat een zijarm naar buiten lopen en dan omhoog buigen.",
+      "spoken": "Een kort lijntje komt uit één kant naar buiten en buigt omhoog. Kijk hoe de bocht uit de hoge middensteel groeit.",
+      "hint": "Begin bij de steel voordat je naar buiten en omhoog gaat.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-left-arm-back": {
+      "title": "Linkerarm terug",
+      "instruction": "Rond de bovenkant van de arm af en ga terug naar de steel.",
+      "spoken": "Een klein rond bovenkantje draait terug naar beneden en dan opzij naar de steel. Door terug te gaan krijgt de zijarm wat dikte.",
+      "hint": "Houd een kleine ruimte tussen de twee kanten van de arm.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-right-arm-out": {
+      "title": "Rechterarm naar buiten",
+      "instruction": "Begin aan de andere kant hogerop met nog een arm.",
+      "spoken": "Een tweede arm steekt aan de andere kant uit en buigt omhoog. Ik plaats hem hoger, zodat de twee armen verschillende hoogtes hebben.",
+      "hint": "Kijk naar de overkant van de steel voordat je een hoger beginpunt kiest.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-right-arm-back": {
+      "title": "Rechterarm terug",
+      "instruction": "Rond de andere arm af en breng hem terug.",
+      "spoken": "Maak een boog rond de bovenkant van deze arm en kom terug bij de steel. De verbonden lijnen maken een kleinere vorm naast ons hoge midden.",
+      "hint": "Volg een lijn vlakbij terug naar de hoofdsteel.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-left-spine": {
+      "title": "Doorn links",
+      "instruction": "Voeg een kort doornstreepje toe naast de onderste steel.",
+      "spoken": "Eén kort lijntje steekt aan de zijkant uit. We tekenen onze cactus op papier; we hoeven geen echte plant aan te raken.",
+      "hint": "Begin bij de steelrand en maak één klein streepje.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-right-spine": {
+      "title": "Doorn rechts",
+      "instruction": "Voeg een klein doorntje toe aan de overkant.",
+      "spoken": "Nog een lijntje steekt aan de andere kant uit. Een paar streepjes kunnen een stekelige rand laten zien zonder onze hele tekening te bedekken.",
+      "hint": "Houd dit lijntje veel korter dan een arm.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-upper-left-spine": {
+      "title": "Doorn linksboven",
+      "instruction": "Zet nog een kort doorntje hogerop.",
+      "spoken": "Eén kort streepje zit hoger aan deze kant. Ik laat ruimte tussen de streepjes zodat de omtrek van de steel duidelijk blijft.",
+      "hint": "Kies een vrije plek aan de bovenste steelrand.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-upper-right-spine": {
+      "title": "Doorn rechtsboven",
+      "instruction": "Voeg aan de overkant van de steel een doorntje bovenaan toe.",
+      "spoken": "Een laatste klein doorntje steekt uit de andere bovenrand. Onze plant op papier heeft maar een paar kleine details.",
+      "hint": "Maak één kort streepje naast de bovenkant van de ronde steel.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-stem-texture": {
+      "title": "Lijn in de steel",
+      "instruction": "Teken een zachte boog binnen de hoge steel.",
+      "spoken": "Een lange zachte boog volgt de steel van binnenuit. Hij laat een rond oppervlak zien zonder door de buitenranden heen te gaan.",
+      "hint": "Houd deze boog binnen de hoofdsteel, met ruimte ernaast.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-upper-pot-band": {
+      "title": "Bovenste potstreep",
+      "instruction": "Maak een gebogen streep over de ronde voorkant van de pot.",
+      "spoken": "Een lichte boog loopt over de pot. De bocht volgt de ronde voorkant in plaats van recht te lopen zoals bij een vlakke doos.",
+      "hint": "Houd de uiteinden van deze boog binnen de potranden.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-lower-pot-band": {
+      "title": "Onderste potstreep",
+      "instruction": "Probeer nog een gebogen potstreep, als je wilt.",
+      "spoken": "Nog een lichte streep kan onder de eerste komen. De ruimte ertussen geeft onze pot een optioneel patroon.",
+      "hint": "Volg de eerste gebogen streep een stukje lager.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-flower-centre": {
+      "title": "Midden van de cactusbloem",
+      "instruction": "Probeer een klein bloemenmidden boven de steel.",
+      "spoken": "Een cirkeltje kan het begin van een fantasiebloem boven onze cactus zijn. Jij kiest of je deze extra versiering maakt.",
+      "hint": "Laat wat ruimte boven de ronde steel.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-left-petal": {
+      "title": "Linkerbloemblaadje",
+      "instruction": "Probeer een bloemblaadje naast het kleine bloemenmidden.",
+      "spoken": "Een klein rond bloemblaadje kan aansluiten bij een bloemenmidden, als je dat hebt getekend. Je mag de hele bloem weglaten.",
+      "hint": "Maak een boog naar buiten en kom terug naast het bloemenmidden.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-right-petal": {
+      "title": "Rechterbloemblaadje",
+      "instruction": "Probeer nog een bloemblaadje als je een bloemenmidden hebt.",
+      "spoken": "Als je een bloemenmidden hebt gemaakt, kan nog een bloemblaadje ernaast krullen. Je mag deze fantasiebloem ook weglaten.",
+      "hint": "Als je een midden hebt getekend, laat een rond bloemblaadje de andere kant raken.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "cactus-stone": {
+      "title": "Steentje naast de cactus",
+      "instruction": "Probeer een klein ovaal steentje naast de pot.",
+      "spoken": "Een kleine lage ovaal kan naast onze pot liggen. Dit is een optioneel extraatje voor de fantasievensterbank die je maakt.",
+      "hint": "Zoek een lege plek naast de onderkant van de pot.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    },
+    "colour-choice": {
+      "title": "Groene plant en warme pot.",
+      "instruction": "Kies groentinten voor de plant en een warme kleur voor de pot.",
+      "spoken": "Ik kies groen voor onze cactus op papier en oranje voor de pot. Donkergroen laat één kant wat ronder lijken.",
+      "hint": "Kies een lichter en donkerder streepje; dat kan zelfs met één krijtje.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenlereraar kan je papier niet zien of beoordelen."
+    },
+    "colour-cactus": {
+      "title": "Een groene plant ontstaat.",
+      "instruction": "Maak kleine groene streepjes binnen de steel en armen.",
+      "spoken": "Kleine groene plekjes lopen langs de steel. De smalle armen vragen om kleine bewegingen; til je krijtje op vóór elke nieuwe plek.",
+      "hint": "Hoe kleiner de ruimte, hoe kleiner je krijtbeweging kan zijn.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenlereraar kan je papier niet zien of beoordelen."
+    },
+    "colour-pot": {
+      "title": "Warme kleur voor de pot.",
+      "instruction": "Maak warme kleur binnen de ronde pot.",
+      "spoken": "Korte oranje streepjes kleuren de brede pot. Een bruine rand laat de opening opvallen, terwijl de gebogen potstrepen zichtbaar blijven.",
+      "hint": "Laat kleine witte plekjes en je getekende potlijnen zichtbaar.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenlereraar kan je papier niet zien of beoordelen."
+    },
+    "colour-cactus-shade": {
+      "title": "Een beetje schaduw aan één kant.",
+      "instruction": "Maak een donkerder groene laag langs één kant van de steel.",
+      "spoken": "Een beetje donkergroen aan één kant laat de steel rond lijken. Ik laat het midden lichter zodat de eerste kleur zichtbaar blijft.",
+      "hint": "Voeg een lichte tweede laag toe bij maar één kant.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenlereraar kan je papier niet zien of beoordelen."
+    },
+    "colour-reflection": {
+      "title": "Een hoge plant in zijn pot.",
+      "instruction": "Kijk naar de hoge plant en de brede ronde pot.",
+      "spoken": "Onze cactus heeft een hoog midden, kleinere armen en een pot die onderaan smaller wordt. Hij kan op jouw fantasievensterbank van papier groeien.",
+      "hint": "Kijk hoe de pot en de plant verschillen in breedte.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenlereraar kan je papier niet zien of beoordelen."
+    },
+    "explore": {
+      "title": "Maak ruimte voor jouw cactus.",
+      "instruction": "Bedenk je vensterbank, kleur verder of stop.",
+      "spoken": "Je kunt een fantasieraam of nog een plant op papier toevoegen. Laat je tekening verder groeien, of stop wanneer je eraan toe bent.",
+      "hint": "Probeer een andere plant die uit een brede ovale pot groeit.",
+      "notice": "Wijs alleen op verzoek aan waar de armen in het voorbeeld aansluiten. De omtrek van de hoofdsteel mag zichtbaar blijven door de aansluiting van een arm; gummen is niet nodig. Bied één arm of een eenvoudigere ronde cactus aan als geldig alternatief."
+    }
+  }
+}

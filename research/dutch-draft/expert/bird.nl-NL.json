@@ -1,0 +1,230 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "bird",
+  "sourceLessonSha256": "26f25af9950b5d49b878e4fdb959c3b86a4663a4322a9a11197971c1c2ae0674",
+  "sourceTextSha256": "b242d2730e0dcd6976adcc716891fc8e5a9afe27fe9505c6cb03f5031c6cf7f5",
+  "title": "Vogel op een tak",
+  "invitation": "Kijk waar de pootjes de tak raken.",
+  "objective": "Verbonden lichaamsdelen rond een zitplek plaatsen en ontdekken welke delen elkaar overlappen.",
+  "parentNote": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen.",
+  "simplify": "Eén taklijn, een ovaal, een hoofd en een snavel kunnen het idee laten zien. Poten mogen enkele lijnen zijn; sla de binnenkant van de vleugel en alle optionele details over.",
+  "transfer": "Probeer een andere keer een vogel op een hek vanuit een ander voorbeeld, zonder de oorspronkelijke stappen opnieuw af te spelen. Kijk weer waar de pootjes de zitplek raken; de oorspronkelijke vogel kopiëren is niet nodig.",
+  "colouringLabel": "Kleine krijtbewegingen, jouw eigen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een pauze op een tak.",
+      "instruction": "Kijk naar het kleine hoofd, het grotere lijf en de opgevouwen vleugel.",
+      "spoken": "Onze tuinvogel neemt een rustige pauze. Kijk naar het kleine hoofd boven een groter, schuin lijf; we bouwen die vormen apart op.",
+      "hint": "Zoek eerst de grootste vorm en dan het kleinere hoofd.",
+      "notice": "Bekijk samen een vogelfoto, een prentenboek of ons voorbeeld. Kijk waar de pootjes de tak raken en hoe de vleugel binnen het lijf ligt. Een afbeelding is genoeg; een levende vogel bekijken mag, maar hoeft niet."
+    },
+    "branch-top": {
+      "title": "Bovenkant van de tak",
+      "instruction": "Teken een lange tak die zachtjes naar rechts omhoogloopt.",
+      "spoken": "Begin met de bovenkant van een tak die een beetje naar rechts omhoogloopt. Laat veel papier erboven voor onze vogel.",
+      "hint": "Begin linksonder en beweeg rustig omhoog.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "branch-bottom": {
+      "title": "Onderkant van de tak",
+      "instruction": "Voeg de onderrand toe en volg dezelfde lichte helling.",
+      "spoken": "Volg die helling eronder. De ruimte tussen onze lijnen geeft de tak dikte, in plaats van één enkel stokje.",
+      "hint": "Houd een kleine ruimte tussen de twee takranden.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "branch-left-end": {
+      "title": "Linkeruiteinde van de tak",
+      "instruction": "Verbind de linkeruiteinden met een kleine ronde draai.",
+      "spoken": "Rond dit uiteinde van de tak af met een klein boogje.",
+      "hint": "Verbind de twee linkeruiteinden met een kleine boog.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "branch-right-end": {
+      "title": "Rechteruiteinde van de tak",
+      "instruction": "Sluit het andere uiteinde met nog een kort rond boogje.",
+      "spoken": "Sluit ook het andere uiteinde met een klein boogje.",
+      "hint": "Een kort boogje verbindt de twee rechteruiteinden.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "bird-body": {
+      "title": "Lijf van de vogel",
+      "instruction": "Maak een schuin lijf en laat een kleine opening voor het hoofd.",
+      "spoken": "Maak een groot ovaalachtig lijf en laat rechtsboven een opening. Daar komt straks ons kleinere hoofd aan vast.",
+      "hint": "Volg een schuine ovale vorm en til je potlood op waar het hoofd komt.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "bird-head": {
+      "title": "Hoofd van de vogel",
+      "instruction": "Maak het kleinere hoofd rond en laat een opening voor de snavel.",
+      "spoken": "Maak een kleiner rond hoofd boven de rechterkant van het lijf en laat een kleine opening voor de snavel. Kijk naar het verschil in grootte.",
+      "hint": "Maak dit hoofd kleiner dan de grote ovaal van het lijf.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "bird-beak": {
+      "title": "Snavel van de vogel",
+      "instruction": "Maak een kleine puntige snavel aan de rechterkant.",
+      "spoken": "Twee korte schuine lijnen komen samen in een punt voor de snavel. Houd dit detail veel kleiner dan het hoofd.",
+      "hint": "Ga naar buiten tot een punt en dan terug naar het hoofd.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "bird-eye": {
+      "title": "Oog van de vogel",
+      "instruction": "Zet een donker oogje binnen het hoofd.",
+      "spoken": "Zet één oogje binnen het hoofd, achter de snavel.",
+      "hint": "Een klein stipje is genoeg voor dit zijaanzicht.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "folded-wing": {
+      "title": "Opgevouwen vleugel",
+      "instruction": "Maak een opgevouwen vleugel binnen het grotere lijf.",
+      "spoken": "Laat de vleugel binnen het lijf zitten, als een rond blad. De gebogen omtrek laat een apart onderdeel zien zonder de buitenvorm te veranderen.",
+      "hint": "Houd deze bladvormige boog binnen de grote ovaal van het lijf.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "long-tail": {
+      "title": "Lange staart",
+      "instruction": "Laat twee bogen voor de staart naar linksonder lopen.",
+      "spoken": "De staart zit achter het lijf, dus laten we alleen de zichtbare bogen zien. Ga naar linksonder en kom dan terug richting het lijf.",
+      "hint": "Maak een lange smalle vorm die naar linksonder wijst.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "first-leg": {
+      "title": "Eerste pootje",
+      "instruction": "Teken een kort pootje naar beneden richting de tak.",
+      "spoken": "Maak een kort lijntje vanaf het lijf naar beneden richting onze tak.",
+      "hint": "Houd het pootje dun; één lijn is genoeg.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "first-toe": {
+      "title": "Eerste teentje",
+      "instruction": "Laat een teentje langs de tak lopen.",
+      "spoken": "Laat een teentje langs de bovenkant van de tak lopen.",
+      "hint": "Voeg een kort zijwaarts lijntje toe aan het uiteinde van het pootje.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "second-leg": {
+      "title": "Tweede pootje",
+      "instruction": "Voeg nog een kort pootje iets naar rechts toe.",
+      "spoken": "Voeg het andere pootje vlakbij toe, in dezelfde neerwaartse richting.",
+      "hint": "Laat een kleine ruimte tussen de twee dunne pootjes.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "second-toe": {
+      "title": "Tweede teentje",
+      "instruction": "Geef het tweede pootje een eigen teentje.",
+      "spoken": "Een kort zijwaarts teentje maakt het tweede pootje af.",
+      "hint": "Laat weer een lijntje langs de tak lopen.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "wing-feather": {
+      "title": "Veer in de vleugel",
+      "instruction": "Volg de richting van de vleugel met een zachte binnenboog.",
+      "spoken": "Als je een veerdetail wilt, volg de vleugel dan met één lichte binnenboog. Zo laat je structuur zien zonder veel aparte lijnen te tekenen.",
+      "hint": "Laat één gebogen lijn naar de vleugelpunt lopen.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "tail-feather": {
+      "title": "Veer in de staart",
+      "instruction": "Voeg één lange lijn langs de staart toe.",
+      "spoken": "Je kunt een langere lijn langs de staart toevoegen. Door de richting te herhalen laat je met weinig streepjes veren zien, of laat de staart zonder detail.",
+      "hint": "Volg de lengte van de staart met één lichte lijn.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "branch-twig": {
+      "title": "Takje",
+      "instruction": "Laat een klein takje vanaf de tak omhoog groeien.",
+      "spoken": "Als je een takje wilt, laat het dan vanaf de rechterkant van de tak omhoog buigen. Onze rustplek mag ook een gewone tak blijven.",
+      "hint": "Begin op de tak en laat het takje omhoog lopen.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "twig-leaf": {
+      "title": "Blad aan het takje",
+      "instruction": "Maak eventueel een puntig blad boven de tak.",
+      "spoken": "Als je een blad wilt, maak dan twee puntige bogen boven de rechterkant van de tak. Het blad mag er met of zonder takje zijn.",
+      "hint": "Maak twee bogen die aan beide uiteinden samenkomen.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "sky-cloud": {
+      "title": "Wolk in de lucht",
+      "instruction": "Voeg eventueel een zachte wolk toe in de open lucht.",
+      "spoken": "Je kunt een wolkje toevoegen in de open ruimte. Verbind een paar ronde bobbels en sluit dan de wat vlakkere onderkant.",
+      "hint": "Kleine ronde bobbels kunnen samen één wolkvorm maken.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "chest-patch": {
+      "title": "Borstvlek",
+      "instruction": "Geef de borst eventueel een kleine ovale kleurvlek.",
+      "spoken": "Een kleine ovaal op de borst geeft ons een plek voor warme kleur. Houd hem binnen de grotere vogelvorm.",
+      "hint": "Een smalle ovaal past bij de rechterkant van het lijf.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    },
+    "colour-choice": {
+      "title": "Tuinkleuren.",
+      "instruction": "Kies blauwtinten, een warme borstkleur en een bruine tak.",
+      "spoken": "Ik kies zachtblauwe veren en een warme oranje borst voor onze fantasietuinvogel. Jouw vogel mag andere kleuren hebben.",
+      "hint": "Kies een hoofdkleur voor de veren en één kleinere contrasterende kleur.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-feathers": {
+      "title": "Zachtblauwe veren.",
+      "instruction": "Kleur kleine veerplekjes en til je krijtje op vóór elk nieuw plekje.",
+      "spoken": "Kijk naar deze kleine heen-en-weerbewegingen. Ik til mijn krijtje op voordat ik verderga langs het lijf en houd wat wit papier en het oogje vrij.",
+      "hint": "Beweeg over een klein plekje, til op en begin vlakbij opnieuw.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-wing": {
+      "title": "Volg de vleugel.",
+      "instruction": "Laat korte krijtbewegingen de opgevouwen vleugel volgen.",
+      "spoken": "Ik draai mijn bewegingen mee met de vleugel. Door met de vorm van richting te veranderen voelt dit kleinere onderdeel anders dan het lijf.",
+      "hint": "Volg de lange richting van de vleugel met korte, lichte bewegingen.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-perch": {
+      "title": "Een tak en een blad.",
+      "instruction": "Kleur de tak en het blad als je dat hebt toegevoegd.",
+      "spoken": "De tak is smal, dus worden mijn bruine bewegingen veel kleiner. Als je een blad hebt gemaakt, kun je daar wat groen toevoegen.",
+      "hint": "Maak elke beweging korter wanneer de ruimte smal wordt.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-breast": {
+      "title": "Een beetje warmte.",
+      "instruction": "Voeg een warme borst en eventueel een donkerder vleugel toe.",
+      "spoken": "Als je een borstvlek hebt gemaakt, kun je daar warm oranje toevoegen. Ik maak ook een stukje vleugelblauw donkerder; deze extra laag is optioneel.",
+      "hint": "Druk zacht; een tweede lichte laag kan de kleur donkerder maken.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflect": {
+      "title": "Kijk naar de hele vogel.",
+      "instruction": "Kijk hoe de kleinere vormen binnen de grotere liggen.",
+      "spoken": "Kijk naar onze hele vogel: klein hoofd, groter lijf, opgevouwen vleugel. Je kunt verder kleuren of wat veren als wit papier laten.",
+      "hint": "Kijk van de hele vogel terug naar een favoriet detail.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Waar zou jouw vogel naartoe vliegen?",
+      "instruction": "Kleur verder of bedenk een plek om te bezoeken.",
+      "spoken": "Onze vogel kan hier rusten, of je kunt zijn volgende vlucht bedenken. Teken verder op je eigen tempo, of stop wanneer je wilt.",
+      "hint": "Probeer nog een blad, een andere veerkleur of een open lucht.",
+      "notice": "Wijs op verzoek achtereenvolgens het lijf, de vleugel en de tak in het voorbeeld aan. Vraag: welk onderdeel zit binnen een ander? Doe een zitstok voor op apart papier in plaats van de pootjes van je kind te verplaatsen."
+    }
+  }
+}

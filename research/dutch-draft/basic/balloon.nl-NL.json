@@ -1,0 +1,146 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "balloon",
+  "sourceLessonSha256": "e08680013835bf8efe4a6922a6207a87b60092ebf08c208305b8596edf7d705d",
+  "sourceTextSha256": "86c73977c6dcb0a9db42e6342bfaf273b70527abe30c609f10254d4e6557850e",
+  "title": "Zwevende ballon",
+  "invitation": "Een ronde vorm en een slingerend touwtje.",
+  "objective": "Een ronde omtrek, een klein knoopje en een vloeiende lijn met elkaar verbinden; met korte streepjes binnen een rand kleuren en wit papier voor de glans overlaten.",
+  "parentNote": "Doe een gebogen lijn voor op je eigen papier als je kind hulp wil. Laat je kind de vorm en het patroon van de ballon kiezen. Het knoopje laat zien dat de onderdelen vastzitten; de vorm hoeft niet precies te kloppen. Pauzeer, bekijk opnieuw of gebruik Meer tijd wanneer dat helpt. De tijd is een aanpasbare schatting, geen deadline om iets te leren.",
+  "simplify": "",
+  "transfer": "Zou een gebogen lijn een andere keer de staart van een vlieger kunnen worden?",
+  "colouringLabel": "Een beetje kleur, een beetje glans",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een klein feestje op papier.",
+      "instruction": "Kijk naar de grote ronde vorm boven het kleine knoopje.",
+      "spoken": "Laten we een ballon tekenen voor een fantasiefeestje op papier. Kijk naar de grote ronde vorm, het kleine knoopje en het gebogen touwtje.",
+      "hint": "We hebben alleen een voorbeeld, papier, een potlood en kleuren nodig.",
+      "notice": "Laten we een ballon tekenen voor een fantasiefeestje op papier. Kijk naar de grote ronde vorm, het kleine knoopje en het gebogen touwtje."
+    },
+    "balloon-outline": {
+      "title": "Omtrek van de ballon",
+      "instruction": "Teken een hoge, ronde vorm met ruimte eronder.",
+      "spoken": "Maak een grote ronde vorm en kom terug bij het begin. Ik laat eronder ruimte voor het knoopje en het touwtje.",
+      "hint": "Een brede of wiebelige ballon past ook in jouw tekening.",
+      "notice": "Doe een gebogen lijn voor op je eigen papier als je kind hulp wil. Laat je kind de vorm en het patroon van de ballon kiezen. Het knoopje laat zien dat de onderdelen vastzitten; de vorm hoeft niet precies te kloppen. Pauzeer, bekijk opnieuw of gebruik Meer tijd wanneer dat helpt. De tijd is een aanpasbare schatting, geen deadline om iets te leren."
+    },
+    "balloon-knot": {
+      "title": "Knoopje van de ballon",
+      "instruction": "Maak een klein driehoekje vast aan de onderkant.",
+      "spoken": "Een klein driehoekje raakt de onderkant van onze ballon. Omlaag, opzij en terug naar hetzelfde punt: zo maken we ons knoopje.",
+      "hint": "Laat het driehoekje de onderkant van je ronde vorm raken.",
+      "notice": "Doe een gebogen lijn voor op je eigen papier als je kind hulp wil. Laat je kind de vorm en het patroon van de ballon kiezen. Het knoopje laat zien dat de onderdelen vastzitten; de vorm hoeft niet precies te kloppen. Pauzeer, bekijk opnieuw of gebruik Meer tijd wanneer dat helpt. De tijd is een aanpasbare schatting, geen deadline om iets te leren."
+    },
+    "flowing-string": {
+      "title": "Slingerend touwtje",
+      "instruction": "Laat een gebogen touwtje vanaf het knoopje naar beneden lopen.",
+      "spoken": "Begin bij het knoopje en laat een lijn naar beneden slingeren. Ik verander rustig van richting om een slingerend touwtje te maken.",
+      "hint": "Kijk naar het knoopje voordat je aan je lange gebogen lijn begint.",
+      "notice": "Doe een gebogen lijn voor op je eigen papier als je kind hulp wil. Laat je kind de vorm en het patroon van de ballon kiezen. Het knoopje laat zien dat de onderdelen vastzitten; de vorm hoeft niet precies te kloppen. Pauzeer, bekijk opnieuw of gebruik Meer tijd wanneer dat helpt. De tijd is een aanpasbare schatting, geen deadline om iets te leren."
+    },
+    "left-bow-loop": {
+      "title": "Linkerlus van de strik",
+      "instruction": "Probeer een kleine striklus naast het knoopje, als je wilt.",
+      "spoken": "Een boogje loopt naast het knoopje naar buiten en komt weer terug. Jij kiest of je deze strik wilt.",
+      "hint": "Laat een gebogen lus terugkomen bij het begin.",
+      "notice": "Doe een gebogen lijn voor op je eigen papier als je kind hulp wil. Laat je kind de vorm en het patroon van de ballon kiezen. Het knoopje laat zien dat de onderdelen vastzitten; de vorm hoeft niet precies te kloppen. Pauzeer, bekijk opnieuw of gebruik Meer tijd wanneer dat helpt. De tijd is een aanpasbare schatting, geen deadline om iets te leren."
+    },
+    "right-bow-loop": {
+      "title": "Rechterlus van de strik",
+      "instruction": "Probeer een striklus aan de andere kant, als je wilt.",
+      "spoken": "Nog een lus kan naar rechts krullen en terugkomen bij het knoopje. De lussen mogen verschillend van grootte zijn.",
+      "hint": "Elke lus komt bij het knoopje; elke lus mag er ook alleen staan.",
+      "notice": "Doe een gebogen lijn voor op je eigen papier als je kind hulp wil. Laat je kind de vorm en het patroon van de ballon kiezen. Het knoopje laat zien dat de onderdelen vastzitten; de vorm hoeft niet precies te kloppen. Pauzeer, bekijk opnieuw of gebruik Meer tijd wanneer dat helpt. De tijd is een aanpasbare schatting, geen deadline om iets te leren."
+    },
+    "balloon-shine": {
+      "title": "Glans op de ballon",
+      "instruction": "Voeg een klein glansboogje binnenin toe, als je wilt.",
+      "spoken": "Een klein boogje volgt een stukje van de bovenrand. Later laat ik hier het papier wit om een beetje glans te laten zien.",
+      "hint": "Houd dit kleine boogje binnen je grote ronde omtrek.",
+      "notice": "Doe een gebogen lijn voor op je eigen papier als je kind hulp wil. Laat je kind de vorm en het patroon van de ballon kiezen. Het knoopje laat zien dat de onderdelen vastzitten; de vorm hoeft niet precies te kloppen. Pauzeer, bekijk opnieuw of gebruik Meer tijd wanneer dat helpt. De tijd is een aanpasbare schatting, geen deadline om iets te leren."
+    },
+    "upper-dot": {
+      "title": "Bovenste stip",
+      "instruction": "Voeg een stip toe binnen je ballon, als je wilt.",
+      "spoken": "Een klein stipje kan het begin van een patroon in de ballon zijn. Je mag het patroon ook weglaten.",
+      "hint": "Zoek een plekje binnen de omtrek, weg van de rand.",
+      "notice": "Doe een gebogen lijn voor op je eigen papier als je kind hulp wil. Laat je kind de vorm en het patroon van de ballon kiezen. Het knoopje laat zien dat de onderdelen vastzitten; de vorm hoeft niet precies te kloppen. Pauzeer, bekijk opnieuw of gebruik Meer tijd wanneer dat helpt. De tijd is een aanpasbare schatting, geen deadline om iets te leren."
+    },
+    "middle-dot": {
+      "title": "Middelste stip",
+      "instruction": "Kies nog een plek voor een stip, als je wilt.",
+      "spoken": "Nog een stip kan in het midden komen. Ik til mijn potlood op voordat ik naar een andere plek ga.",
+      "hint": "Laat wat ruimte rond elke stip die je kiest.",
+      "notice": "Doe een gebogen lijn voor op je eigen papier als je kind hulp wil. Laat je kind de vorm en het patroon van de ballon kiezen. Het knoopje laat zien dat de onderdelen vastzitten; de vorm hoeft niet precies te kloppen. Pauzeer, bekijk opnieuw of gebruik Meer tijd wanneer dat helpt. De tijd is een aanpasbare schatting, geen deadline om iets te leren."
+    },
+    "lower-dot": {
+      "title": "Onderste stip",
+      "instruction": "Voeg een laatste stip toe, of laat de ruimte open.",
+      "spoken": "Nog een laatste stip kan wat lager komen. Een paar kleine vormen zijn genoeg voor ons feestje op papier.",
+      "hint": "Je patroon mag één stip, veel stippen of helemaal geen stippen hebben.",
+      "notice": "Doe een gebogen lijn voor op je eigen papier als je kind hulp wil. Laat je kind de vorm en het patroon van de ballon kiezen. Het knoopje laat zien dat de onderdelen vastzitten; de vorm hoeft niet precies te kloppen. Pauzeer, bekijk opnieuw of gebruik Meer tijd wanneer dat helpt. De tijd is een aanpasbare schatting, geen deadline om iets te leren."
+    },
+    "colour-choice": {
+      "title": "Een vrolijke kleur.",
+      "instruction": "Kies rood of een kleur die jij mooi vindt.",
+      "spoken": "Ik kies warm rood voor onze ballon en geel voor de strik. Voor jouw feestje mag je je eigen kleuren kiezen.",
+      "hint": "Kies krijtjes die je al bij de hand hebt.",
+      "notice": "Gebruik de krijtjes die je hebt. Witte plekjes en je eigen kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-body-left": {
+      "title": "Kleine rode stukjes.",
+      "instruction": "Kleur één kant met korte, zachte streepjes.",
+      "spoken": "Korte rode streepjes geven één kant kleur. Ik til mijn krijtje op tussen de stukjes en laat het glansplekje wit. Door lichte streepjes blijft het papier zichtbaar.",
+      "hint": "Maak kleinere, zachtere streepjes als je dichter bij de rand komt.",
+      "notice": "Gebruik de krijtjes die je hebt. Witte plekjes en je eigen kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-body-right": {
+      "title": "Over onze ronde vorm.",
+      "instruction": "Kleur verder over de ballon en blijf binnen de omtrek.",
+      "spoken": "Nu de andere kant. Bij de rand ga ik langzamer en til ik mijn krijtje op voordat ik eroverheen ga. Kleine witte plekjes mogen tussen onze krijtstreepjes blijven.",
+      "hint": "Je omtrek helpt je zien waar je kunt stoppen en je krijtje optillen.",
+      "notice": "Gebruik de krijtjes die je hebt. Witte plekjes en je eigen kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-bow": {
+      "title": "Een kleine gele strik.",
+      "instruction": "Kleur de lussen van je strik geel, als je ze hebt getekend.",
+      "spoken": "Als je een strik hebt gemaakt, probeer dan kleine gele streepjes binnen de lussen. Het knoopje mag wit blijven. Je mag deze kleur ook overslaan.",
+      "hint": "Kleine plekjes vragen om kleine streepjes; je mag ze ook wit laten.",
+      "notice": "Gebruik de krijtjes die je hebt. Witte plekjes en je eigen kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflection": {
+      "title": "Kijk naar je feestje.",
+      "instruction": "Kijk naar de ronde vorm, het gebogen touwtje en de kleur.",
+      "spoken": "Kijk hoe onze grote ronde vorm aan een klein knoopje en een gebogen lijn vastzit. Door jouw kleuren en witte plekjes wordt deze ballon van jou.",
+      "hint": "Je kunt van je tekening genieten zonder iets te veranderen of uit te leggen.",
+      "notice": "Gebruik de krijtjes die je hebt. Witte plekjes en je eigen kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Jouw feestje, jouw idee.",
+      "instruction": "Voeg je eigen ideeën toe, kleur verder of stop hier.",
+      "spoken": "Wat zou er nog bij jouw feestje op papier kunnen? Probeer nog een ballon of iets dat je zelf bedenkt. Blijf tekenen zo lang je wilt, of stop hier.",
+      "hint": "Zou een gebogen lijn een andere keer de staart van een vlieger kunnen worden?",
+      "notice": "Doe een gebogen lijn voor op je eigen papier als je kind hulp wil. Laat je kind de vorm en het patroon van de ballon kiezen. Het knoopje laat zien dat de onderdelen vastzitten; de vorm hoeft niet precies te kloppen. Pauzeer, bekijk opnieuw of gebruik Meer tijd wanneer dat helpt. De tijd is een aanpasbare schatting, geen deadline om iets te leren."
+    }
+  }
+}

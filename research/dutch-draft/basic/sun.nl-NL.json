@@ -1,0 +1,174 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "sun",
+  "sourceLessonSha256": "64a5d4992ca8c3fb589bba3c50477556d6a34b72fae086bbc4471a3cc45cdea0",
+  "sourceTextSha256": "54ea4b368e217df573d6924b2fd96e0d9ed3164553610f1ab2b5fdf10f23b30b",
+  "title": "Vriendelijke zon",
+  "invitation": "Lijnen die vanuit een cirkel naar buiten lopen.",
+  "objective": "Lijnen naar buiten plaatsen rond een vorm in het midden.",
+  "parentNote": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon.",
+  "simplify": "",
+  "transfer": "Kunnen lijnen die vanuit het midden naar buiten lopen je helpen om een vonk of een paardenbloem te tekenen?",
+  "colouringLabel": "Kleur je zon",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een beetje zonneschijn.",
+      "instruction": "Kijk naar het ronde midden en de stralen die naar buiten lopen.",
+      "spoken": "Laten we een vriendelijke zon tekenen voor onze fantasietuin. De echte zon is een ster die de aarde licht en warmte geeft. Kijk eens naar de stralen in onze tekening.",
+      "hint": "We kijken naar de tekening op ons scherm. Kijk nooit rechtstreeks naar de echte zon.",
+      "notice": "Bekijk de tekening van de zon op het scherm. Kijk hoe de stralen vanuit het midden naar buiten gaan."
+    },
+    "round-sun": {
+      "title": "Ronde zon",
+      "instruction": "Teken een rond midden en laat er rondom ruimte over.",
+      "spoken": "Begin met een ronde vorm in het midden. Maak één rustige bocht terug naar het begin. Laat buiten de cirkel ruimte over voor onze zonnestralen.",
+      "hint": "Een cirkel mag wiebelig zijn. Laat eromheen wat papier vrij.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "upward-ray": {
+      "title": "Straal boven",
+      "instruction": "Voeg een korte straal toe boven de cirkel.",
+      "spoken": "Zet een kort lijntje boven de cirkel en laat er een kleine opening tussen. Met deze stralen laten we in onze tekening zien hoe licht zich verspreidt.",
+      "hint": "Een kleine opening mag het ronde midden en de straal van elkaar scheiden.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "downward-ray": {
+      "title": "Straal onder",
+      "instruction": "Voeg een straal toe onder de cirkel.",
+      "spoken": "Nu een lijn onder de cirkel, naar beneden. Kijk hoe deze twee stralen in tegengestelde richtingen lopen.",
+      "hint": "Begin net buiten de onderrand en beweeg dan naar beneden.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "left-ray": {
+      "title": "Straal links",
+      "instruction": "Laat een straal naar links lopen.",
+      "spoken": "Laat een lijn naar links lopen. Houd wat ruimte rond het ronde midden.",
+      "hint": "Zoek de linkerkant van onze tekening. Laat je lijn van de cirkel af lopen.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "right-ray": {
+      "title": "Straal rechts",
+      "instruction": "Laat een straal naar rechts lopen.",
+      "spoken": "En één naar rechts. Onze zonnestralen verspreiden zich rondom het midden.",
+      "hint": "Begin net buiten de cirkel en laat je lijn naar buiten lopen.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "upper-left-ray": {
+      "title": "Straal linksboven",
+      "instruction": "Zet een schuine straal in de ruimte linksboven.",
+      "spoken": "Hier is een ruimte tussen twee stralen. Een schuine lijn past daar mooi tussen. Ik kijk eerst waar er ruimte is en maak dan mijn lijn.",
+      "hint": "Zoek de ruimte tussen de bovenste straal en de straal links.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "upper-right-ray": {
+      "title": "Straal rechtsboven",
+      "instruction": "Voeg nog een schuine straal toe in de ruimte rechtsboven.",
+      "spoken": "Nog een schuine lijn kan in deze ruimte. Hij hoeft niet hetzelfde te zijn als de eerste.",
+      "hint": "Je stralen mogen verschillend van lengte zijn en toch bij je tekening horen.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "lower-left-ray": {
+      "title": "Straal linksonder",
+      "instruction": "Probeer onderaan een zacht gebogen straal, als je wilt.",
+      "spoken": "Hier onderaan kan een zacht gebogen straal komen. Rechte en gebogen lijnen passen allebei bij onze prentenboektekening. Je mag deze straal ook weglaten.",
+      "hint": "Een kleine bocht is genoeg. Deze extra straal mag je ook weglaten.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "lower-right-ray": {
+      "title": "Straal rechtsonder",
+      "instruction": "Voeg een laatste straal toe in een open ruimte, als je wilt.",
+      "spoken": "Een laatste straal kan in deze ruimte komen. Kies je eigen lijn, of laat de ruimte zoals die is.",
+      "hint": "Je zon hoeft niet in elke ruimte een straal te hebben.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "sun-left-eye": {
+      "title": "Linkeroog van de zon",
+      "instruction": "Voeg een klein oog toe aan onze prentenboekzon, als je wilt.",
+      "spoken": "Onze echte zon heeft geen gezicht, maar deze prentenboekzon mag er een hebben. Een klein donker stipje binnen de cirkel wordt een oog, als je wilt.",
+      "hint": "Een stipje of een klein ovaal kan allebei. Je mag het gezicht ook weglaten.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "sun-right-eye": {
+      "title": "Rechteroog van de zon",
+      "instruction": "Voeg rechts een klein oog toe, als je wilt.",
+      "spoken": "Aan de rechterkant binnen je cirkel kan een klein oog komen. Probeer een stipje of een klein ovaal, als je wilt.",
+      "hint": "Houd je oogje binnen de cirkel, met ruimte eromheen.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "sun-smile": {
+      "title": "Glimlach van de zon",
+      "instruction": "Probeer een zacht boogje voor een glimlach, als je wilt.",
+      "spoken": "Een zacht boogje kan onze prentenboekzon laten glimlachen. Zet het in de onderste helft van de cirkel, of laat de mond weg.",
+      "hint": "Een klein boogje is genoeg. Jij kiest of je een glimlach maakt.",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    },
+    "colour-choice": {
+      "title": "Kies een beetje warmte.",
+      "instruction": "Kies geel en oranje, of kleuren die jij mooi vindt.",
+      "spoken": "Laten we onze prentenboekzon een warme gele gloed geven. Ik gebruik geel en een beetje oranje. Jouw zon mag haar eigen kleuren hebben.",
+      "hint": "Probeer een zacht streepje op een kladpapiertje om de kleur van je waskrijt te zien.",
+      "notice": "Laat je kind kleuren kiezen, witte plekjes openlaten of details weglaten. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-centre-left": {
+      "title": "Een beetje kleur met waskrijt.",
+      "instruction": "Kleur één kant met korte, zachte krijtstreepjes.",
+      "spoken": "Kijk hoe korte, rustige krijtstreepjes één kant kleur geven. Beweeg heen en weer en til je krijtje op voordat je aan het volgende stukje begint. Door kleine openingen kan het papier blijven schitteren.",
+      "hint": "Laat de streepjes elkaar een beetje overlappen. Stop en til je krijtje op tussen kleine stukjes.",
+      "notice": "Laat je kind kleuren kiezen, witte plekjes openlaten of details weglaten. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-centre-right": {
+      "title": "Verder over het zonnige midden.",
+      "instruction": "Ga verder over de andere kant; laat het gezicht vrij.",
+      "spoken": "Ga nu verder over de andere kant met lichte krijtstreepjes. Ik laat de ogen en de glimlach vrij, zodat we ons vriendelijke gezicht nog kunnen zien.",
+      "hint": "Draai je papier als dat helpt. Witte plekjes mogen blijven.",
+      "notice": "Laat je kind kleuren kiezen, witte plekjes openlaten of details weglaten. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-rays": {
+      "title": "Warme kleine stralen.",
+      "instruction": "Kleur een paar stralen met rustige oranje streepjes.",
+      "spoken": "Een beetje oranje laat de stralen in onze tekening warm lijken. Volg elke straal met één rustig krijtstreepje en til dan je krijtje op. Kleur er een paar of allemaal.",
+      "hint": "Til je krijtje op tussen de stralen. Kies zelf welke stralen je wilt kleuren.",
+      "notice": "Laat je kind kleuren kiezen, witte plekjes openlaten of details weglaten. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-warmth": {
+      "title": "Een zachte tweede laag.",
+      "instruction": "Probeer een lichte oranje laag bij de rand, als je wilt.",
+      "spoken": "Ik voeg zacht oranje toe bij de rand, over het geel heen. Een lichte tweede laag verandert onze kleur. Probeer het, of houd je zon geel.",
+      "hint": "Een paar zachte streepjes zijn genoeg. Je zon mag geel blijven.",
+      "notice": "Laat je kind kleuren kiezen, witte plekjes openlaten of details weglaten. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflection": {
+      "title": "Kijk naar je zon.",
+      "instruction": "Kijk naar de vormen en kleuren in je hele tekening.",
+      "spoken": "Kijk samen naar je ronde vorm, stralen en krijtstreepjes. Welk deel voelt zonnig? Onze tekening kan zonneschijn brengen in die fantasietuin.",
+      "hint": "Je hoeft vandaag niets te veranderen of uit te leggen.",
+      "notice": "Laat je kind kleuren kiezen, witte plekjes openlaten of details weglaten. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Jouw eigen zonnige wereld.",
+      "instruction": "Voeg je eigen zonnige wereld toe, kleur verder of stop hier.",
+      "spoken": "Zou jouw zon schijnen boven bloemen, een huis of een wereld die je zelf bedenkt? Blijf tekenen of kleuren zo lang je wilt, of stop hier.",
+      "hint": "Kunnen lijnen die vanuit het midden naar buiten lopen je een andere keer helpen om een bloem te tekenen?",
+      "notice": "Doe één beweging naar buiten voor op een apart vel. De stralen hoeven niet even ver uit elkaar te staan, even lang te zijn of een bepaald aantal te hebben. Het gezicht is een fantasie-idee en geen weergave van de echte zon."
+    }
+  }
+}

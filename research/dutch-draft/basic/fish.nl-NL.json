@@ -1,0 +1,167 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "fish",
+  "sourceLessonSha256": "cde7b8ce7a20a9f21a215c20a966a9614b64333cea1019c0dbcb624c1175d025",
+  "sourceTextSha256": "a931949b993bbfe4860b499f006692071fd21b1bdbb41cbb93771f9d82ba6469",
+  "title": "Klein visje",
+  "invitation": "Een lijfje, een staart en een kleine glimlach.",
+  "objective": "Verschillend gevormde onderdelen verbinden en een lijn van het lijf af laten lopen.",
+  "parentNote": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt.",
+  "simplify": "",
+  "transfer": "Kunnen een ovaal en een andere staart samen een ander zwemmend dier worden?",
+  "colouringLabel": "Goudgele plekjes voor onze vijver op papier",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een vijvertje op papier.",
+      "instruction": "Kijk naar de lange ovaal en de staart aan één kant.",
+      "spoken": "Stel je een klein visje voor dat over ons papier zwemt. Zijn ronde lijf heeft aan de ene kant een staart en aan de andere kant een gezicht.",
+      "hint": "Laat naast de ovaal ruimte voor de staart en het gezicht.",
+      "notice": "Bekijk een afbeelding van een vis. Kijk hoe de staart aan het lijf vastzit."
+    },
+    "fish-body": {
+      "title": "Lijf van de vis",
+      "instruction": "Teken een brede ovaal met ruimte aan beide kanten.",
+      "spoken": "Een brede ovaal is het begin van onze vis. Ga rond de zijkanten en kom terug bij het begin. Laat ruimte over voor een staart.",
+      "hint": "Maak je ovaal breder dan hij hoog is.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "fish-tail": {
+      "title": "Staart van de vis",
+      "instruction": "Maak een driehoekige staart die één uiteinde van de ovaal raakt.",
+      "spoken": "Ga vanaf het linkeruiteinde van de ovaal naar buiten, omlaag en terug naar hetzelfde punt. Een driehoek wordt de staart van onze vis.",
+      "hint": "Laat de punt van de driehoek het uiteinde van je ovaal raken.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "fish-eye": {
+      "title": "Oog van de vis",
+      "instruction": "Zet een klein oog bij het andere uiteinde.",
+      "spoken": "Een klein rond oog komt binnen het andere uiteinde. Ik laat ruimte tussen het oog en de buitenrand.",
+      "hint": "Het gezicht komt aan de kant zonder staart.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "fish-mouth": {
+      "title": "Mond van de vis",
+      "instruction": "Maak een klein gebogen mondje bij de voorste rand.",
+      "spoken": "Een klein boogje bij de voorkant wordt een mond voor onze prentenboekvis.",
+      "hint": "Maak de mond veel kleiner dan de ovaal van je vis.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "upper-fin": {
+      "title": "Bovenste vin",
+      "instruction": "Probeer een puntige vin boven het lijf, als je wilt.",
+      "spoken": "Twee schuine lijnen kunnen boven het lijf omhooggaan en weer terugkomen. Jij kiest of je deze bovenste vin maakt.",
+      "hint": "Begin en eindig waar de vin de ovaal raakt.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "lower-fin": {
+      "title": "Onderste vin",
+      "instruction": "Probeer een kleine vin onder het lijf, of sla die over.",
+      "spoken": "Een tweede punt kan onder de ovaal naar beneden wijzen. Hij mag anders van grootte zijn.",
+      "hint": "Laat de omtrek van het lijf zichtbaar tussen de twee uiteinden.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "gill-curve": {
+      "title": "Boogje voor de kieuw",
+      "instruction": "Probeer een kieuwboogje achter het gezicht, als je wilt.",
+      "spoken": "Een gebogen lijn achter het gezicht laat een kieuw zien. Ik laat ruimte rond het oog.",
+      "hint": "Houd dit boogje binnen het lijf, bij het gezicht.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "upper-scale": {
+      "title": "Bovenste schub",
+      "instruction": "Voeg binnenin een klein schubboogje toe, als je wilt.",
+      "spoken": "Een klein boogje opzij kan het begin zijn van een schubbenpatroon binnen het lijf.",
+      "hint": "Eén kort boogje is genoeg om een patroon te beginnen.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "middle-scale": {
+      "title": "Middelste schub",
+      "instruction": "Probeer nog een klein schubboogje, of laat de ruimte open.",
+      "spoken": "Nog een kort boogje komt vlakbij. Ik til mijn potlood op voordat ik de plek kies.",
+      "hint": "Laat een beetje ruimte tussen deze gebogen streepjes.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "lower-scale": {
+      "title": "Onderste schub",
+      "instruction": "Kies nog een schub, of laat je ruimte open.",
+      "spoken": "Nog een boogje kan ons kleine patroon afmaken. Je mag ook met minder schubben stoppen.",
+      "hint": "Je vis mag een paar streepjes hebben, of helemaal geen.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "near-bubble": {
+      "title": "Zeepbel dichtbij",
+      "instruction": "Probeer een ronde bel naast je vis, als je wilt.",
+      "spoken": "Een cirkel buiten de vis kan een bel worden in onze fantasievijver.",
+      "hint": "Zoek wat leeg papier voorbij het gezicht van de vis.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "higher-bubble": {
+      "title": "Zeepbel hogerop",
+      "instruction": "Probeer een kleinere bel hogerop, of sla die over.",
+      "spoken": "Een kleinere cirkel hogerop geeft onze bellen verschillende groottes.",
+      "hint": "Laat ruimte rond elke cirkel in plaats van ze aan elkaar te maken.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    },
+    "colour-choice": {
+      "title": "Warme goudgele kleuren.",
+      "instruction": "Kies oranje en geel, of bedenk je eigen viskleuren.",
+      "spoken": "Ik kies zacht oranje voor onze vis en geel voor zijn staart. In jouw vijver op papier mag een vis met andere kleuren zwemmen.",
+      "hint": "Twee kleuren zijn genoeg; één kleur kan ook.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-fish-middle": {
+      "title": "Zachte plekjes over de ovaal.",
+      "instruction": "Maak oranje plekjes binnen het midden van het lijf.",
+      "spoken": "Zachte oranje streepjes kleuren het brede midden. Ik til mijn krijtje op tussen de plekjes, zodat er nog papier te zien is.",
+      "hint": "Begin in het ruime midden voordat je dichter bij een rand komt.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-fish-face": {
+      "title": "Kleine bewegingen bij het gezicht.",
+      "instruction": "Gebruik kleinere oranje streepjes rond het gezicht van de vis.",
+      "spoken": "Bij het gezicht maak ik kleinere bewegingen. Het donkere oog en de kleine boogjes mogen goed zichtbaar blijven naast de kleur.",
+      "hint": "Ga langzamer met je krijtje als je dicht bij de omtrek komt.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-fish-tail": {
+      "title": "Een klein goudgeel staartje.",
+      "instruction": "Kleur binnen de driehoekige staart met korte gele streepjes.",
+      "spoken": "Korte gele streepjes passen binnen de staart. Ik laat de vinnen wit, zodat onze vis een paar lichtere plekjes krijgt.",
+      "hint": "Bij de smalle punt past een heel kleine beweging; die mag ook wit blijven.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-reflection": {
+      "title": "Zwemmend over ons papier.",
+      "instruction": "Kijk naar de ovaal, de staart en de kleine gekleurde plekjes.",
+      "spoken": "Onze ovaal en driehoek lijken nu op een vis die door een fantasievijver zwemt. De kleine witte plekjes mogen blijven.",
+      "hint": "Kijk hoe de kleine staart het grote lijf raakt.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Jouw vijver, jouw idee.",
+      "instruction": "Bedenk iets of iemand voor in de vijver, kleur verder of stop hier.",
+      "spoken": "In onze vijver op papier kan nog een vis zwemmen, een plantje zwaaien of jouw eigen idee komen. Teken verder, of stop met dit kleine visje.",
+      "hint": "Probeer een kortere ovaal voor een andere fantasievis.",
+      "notice": "Bekijk samen op het voorbeeld hoe de staart aan het lijf vastzit. De plek van het oog bepaalt welke kant de vis op kijkt; een andere indeling van je kind hoeft niet verbeterd te worden. Doe een eenvoudige staart apart voor als je kind daarom vraagt."
+    }
+  }
+}

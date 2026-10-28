@@ -1,0 +1,223 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "robot",
+  "sourceLessonSha256": "33e324d6b23268acee520d1bd465d8039f643ab9146095c740344591eda07cb2",
+  "sourceTextSha256": "5a02997428ef9e1e413da655cc38a2998b3450a05b02aa691a74edf36d6c5d35",
+  "title": "Vriendelijke robot",
+  "invitation": "Verbind vormen voor een taak die jij bedenkt.",
+  "objective": "Losse vormen met korte verbindingslijnen samenbrengen en kleine onderdelen binnen een hoofd en bedieningspaneel plaatsen.",
+  "parentNote": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak.",
+  "simplify": "",
+  "transfer": "Bedenk een andere keer een andere machine. Gebruik verbonden vormen en een paneel opnieuw en kies een nieuwe lijfvorm en een andere manier om te bewegen.",
+  "colouringLabel": "Kleine streepjes, zorgvuldig gekozen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een robot voor een taak die jij bedenkt.",
+      "instruction": "Kijk naar grote blokken die met kleine lijntjes zijn verbonden.",
+      "spoken": "Onze vriendelijke robot op papier maakt zich klaar voor een taak die jij bedenkt. Kijk naar de grote blokken die met veel kleinere nek- en ledemaatlijnen zijn verbonden.",
+      "hint": "Vergelijk de grote blokken voordat je naar kleine knopjes kijkt.",
+      "notice": "Kijk naar onze robot. Welke kleine lijntjes verbinden zijn grotere vormen?"
+    },
+    "robot-body": {
+      "title": "Lijf van de robot",
+      "instruction": "Verbind vier kanten voor een breed robotlijf.",
+      "spoken": "Een brede rechthoek wordt het lijf. Ik laat papier bovenaan voor een kleiner hoofd en aan de zijkanten voor armen.",
+      "hint": "Laat genoeg papier rond je grote blok voor kleine verbindende onderdelen.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-head": {
+      "title": "Hoofd van de robot",
+      "instruction": "Zet een kleiner blok boven het lijf.",
+      "spoken": "Een kleinere rechthoek zit boven het lijf met een opening ertussen. Daar komt straks een korte nek.",
+      "hint": "Vergelijk de breedte van je hoofd met het bredere lijf eronder.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-left-neck": {
+      "title": "Linkerkant van de nek",
+      "instruction": "Verbind één kant van een korte nek.",
+      "spoken": "Een kort lijntje verbindt het hoofd met het lijf. Kleine verbindingen helpen onze losse grote vormen één robot op papier te worden.",
+      "hint": "Verbind de onderkant van het hoofd met de bovenkant van het lijf.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-right-neck": {
+      "title": "Rechterkant van de nek",
+      "instruction": "Laat een kleine opening naast de andere neklijn.",
+      "spoken": "Een tweede kort lijntje verbindt dezelfde twee blokken. De smalle ruimte ertussen geeft onze nek wat breedte.",
+      "hint": "Houd deze korte neklijnen dicht bij elkaar.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-left-eye": {
+      "title": "Linkeroog van de robot",
+      "instruction": "Teken een klein rond oog binnen het hoofd.",
+      "spoken": "Eén cirkeltje komt binnen het hoofd. Laat aan de overkant ruimte voor nog een oog en eronder voor een mond.",
+      "hint": "Houd je oog ruim binnen het kleinere blok.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-right-eye": {
+      "title": "Rechteroog van de robot",
+      "instruction": "Zet nog een rond oog aan de overkant van het gezicht.",
+      "spoken": "Het andere oog komt tegenover het eerste. Ik kijk naar de ruimte ertussen in plaats van te proberen exacte cirkels te maken.",
+      "hint": "Laat een prettige opening tussen de twee oogjes.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-mouth": {
+      "title": "Mond van de robot",
+      "instruction": "Maak een klein mondboogje in de onderste helft van het gezicht.",
+      "spoken": "Een lichte boog komt onder de ogen. Die geeft onze zelfbedachte robot een vriendelijke uitdrukking zonder het gezicht te vullen.",
+      "hint": "Gebruik de open ruimte onder in het hoofd.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-antenna": {
+      "title": "Antenne van de robot",
+      "instruction": "Laat een kort antennelijntje boven het hoofd lopen.",
+      "spoken": "Een kort lijntje komt omhoog vanuit het midden van het hoofd. Het is veel smaller dan de grote blokvormen waarmee we begonnen.",
+      "hint": "Begin boven op het hoofd en beweeg omhoog.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-antenna-tip": {
+      "title": "Antennepunt",
+      "instruction": "Probeer een klein rond antennepuntje, als je wilt.",
+      "spoken": "Een klein cirkeltje kan bij het uiteinde van de antenne komen. Dit optionele detail geeft onze robot nog een kleine ronde vorm.",
+      "hint": "Plaats het cirkeltje vlak bij het uiteinde van de antenne.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-left-arm": {
+      "title": "Linkerarm van de robot",
+      "instruction": "Laat een arm vanaf één kant van het lijf naar buiten lopen.",
+      "spoken": "Een lijn gaat vanaf het lijf naar buiten en omlaag. Ik laat bij het uiteinde ruimte voor een klein rond handje.",
+      "hint": "Begin bij de rand van het lijf en beweeg naar de ruimte ernaast.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-right-arm": {
+      "title": "Rechterarm van de robot",
+      "instruction": "Laat de andere arm onder een andere hoek omhoog gaan.",
+      "spoken": "De andere arm steekt een beetje omhoog. Door verschillende richtingen krijgt onze fantasierobot een houding in plaats van twee identieke rechte armen.",
+      "hint": "Probeer een andere richting dan bij de eerste arm.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-left-hand": {
+      "title": "Linkerhand van de robot",
+      "instruction": "Zet een rond handje bij het uiteinde van één arm.",
+      "spoken": "Een kleine cirkel komt bij het uiteinde van de lagere arm. Laat de lijn hem raken zodat de hand bij onze robot hoort.",
+      "hint": "Laat het handcirkeltje bij de armlijn komen.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-right-hand": {
+      "title": "Rechterhand van de robot",
+      "instruction": "Voeg een ronde hand toe aan de andere arm.",
+      "spoken": "Nog een handje komt aan de andere arm. Vergelijk beide handen met het veel grotere hoofd en lijf.",
+      "hint": "Houd dit kleine cirkeltje verbonden met de tweede arm.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-left-leg": {
+      "title": "Linkerbeen van de robot",
+      "instruction": "Teken een been vanaf het lijf naar beneden.",
+      "spoken": "Een rechte lijn komt vanaf het lijf naar beneden. Ik laat papier eronder voor een korte voetlijn.",
+      "hint": "Begin bij de onderrand van het lijf en beweeg naar beneden.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-right-leg": {
+      "title": "Rechterbeen van de robot",
+      "instruction": "Laat ruimte voordat je het tweede been tekent.",
+      "spoken": "Nog een been komt aan de overkant van het eerste naar beneden. De ruimte tussen de lijnen laat ons twee aparte benen zien.",
+      "hint": "Laat wat papier tussen je twee lange beenlijnen.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-left-foot": {
+      "title": "Linkervoet van de robot",
+      "instruction": "Laat vanaf één been een korte voetlijn naar buiten gaan.",
+      "spoken": "Een korte lijn gaat bij het uiteinde van één been opzij. De hoek helpt ons robotje op het papier staan.",
+      "hint": "Begin waar het been eindigt en beweeg een stukje opzij.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-right-foot": {
+      "title": "Rechtervoet van de robot",
+      "instruction": "Laat de andere voet naar de andere kant wijzen.",
+      "spoken": "De andere voet gaat de tegenovergestelde kant op. Vergelijk hun onderkanten zodat onze robot stevig lijkt te staan.",
+      "hint": "Maak een korte lijn vanaf het uiteinde van het tweede been.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-panel": {
+      "title": "Bedieningspaneel",
+      "instruction": "Maak een klein bedieningspaneel binnen het lijf.",
+      "spoken": "Een kleinere rechthoek komt binnen het grote lijf. Laat er een rand omheen zodat we beide blokvormen kunnen zien.",
+      "hint": "Zoek het midden van het lijf en laat ruimte rond je kleine blok.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-left-button": {
+      "title": "Linkerknop",
+      "instruction": "Zet een klein knopje binnen het paneel.",
+      "spoken": "Een stipje komt binnen het paneel. Eén klein streepje is genoeg; het hoeft geen echte machine te bedienen.",
+      "hint": "Houd dit kleine stipje binnen de kleinste rechthoek.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "robot-right-button": {
+      "title": "Rechterknop",
+      "instruction": "Probeer nog een knopje, als je wilt.",
+      "spoken": "Een tweede stip kan aan de andere kant van het paneel komen. Eén knop, meerdere knoppen of een leeg paneel kan bij jouw fantasierobot passen.",
+      "hint": "Laat wat papier tussen de knoppen die je kiest.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    },
+    "colour-choice": {
+      "title": "Metaalkleuren en vrolijke details.",
+      "instruction": "Kies een lichte kleur voor het lijf en kleine vrolijke details.",
+      "spoken": "Ik kies lichtgrijs metaal, een blauw paneel en gele handen. Dit is een zelfbedachte robot; jouw kleuren kunnen zijn eigen taak laten zien.",
+      "hint": "Kies één kleur voor het grote vlak en een andere voor kleinere details.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-metal": {
+      "title": "Zachte plekjes op het metaal.",
+      "instruction": "Maak lichte kleur rond het gezicht en het paneel.",
+      "spoken": "Kleine grijze plekjes laten de ogen, mond en het paneel vrij. Ik til mijn krijtje tussen de plekken op in plaats van over alle blokken tegelijk te kleuren.",
+      "hint": "Korte streepjes passen naast de kleinere vormen binnen de grote blokken.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-control-panel": {
+      "title": "Kleine handen en een paneel.",
+      "instruction": "Kleur het kleine paneel en de ronde handen apart.",
+      "spoken": "Blauw past binnen het paneel en geel in elke hand. Voor deze kleine vormen maak ik veel kleinere streepjes dan voor het lijf.",
+      "hint": "Til je krijtje op voordat je van vorm of kleur wisselt en begin dan een klein plekje.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-metal-shade": {
+      "title": "Een donkere metaalrand.",
+      "instruction": "Voeg een donkerdere strook toe langs één blokrand.",
+      "spoken": "Een beetje donkerder blauwgrijs aan één kant laat een schaduwrand zien. Door het midden licht te laten blijven onze vlakke blokken duidelijk.",
+      "hint": "Probeer één lichte tweede laag bij de kant die jij kiest.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-reflection": {
+      "title": "Grote blokken en kleine verbindingen.",
+      "instruction": "Kijk naar grote blokken die met kleine lijntjes zijn verbonden.",
+      "spoken": "De grote blokken van onze robot hebben kleine verbindingen en details. Zijn geheven arm geeft hem een houding, klaar voor een taak die jij bedenkt.",
+      "hint": "Kijk hoe een andere armrichting de houding verandert.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "explore": {
+      "title": "Een taak voor jouw robot op papier.",
+      "instruction": "Kies een robottaak, voeg ideeën toe of stop.",
+      "spoken": "Misschien plant jouw robot bloemen van papier of draagt hij fantasieboeken. Voeg je eigen idee toe, kleur verder of stop zonder een taak te kiezen.",
+      "hint": "Probeer de richting van een verbonden vorm te veranderen voor een andere houding.",
+      "notice": "Als een verbindingslijn lastig is, nodig je kind uit om naar de bijbehorende opening in het voorbeeld te kijken of de vormen elkaar te laten raken. Zie de robot als een zelfbedachte tekening, niet als een echte metgezel met gezag of gevoelens. Je kind bepaalt de verzonnen taak."
+    }
+  }
+}

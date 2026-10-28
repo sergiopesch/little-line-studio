@@ -1,0 +1,216 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "dog",
+  "sourceLessonSha256": "be87cb26bfecf09fc5b5f37618e73b3a5791f98567edde3ae653e3f701263ffe",
+  "sourceTextSha256": "eaa887d56f9c3aeb83b1d2bc8c0e06f3ef68073a0855063f617fd8e157bc2798",
+  "title": "Zittende hond",
+  "invitation": "Verbind vormen voor een zittende pup.",
+  "objective": "Hoofd, lijf en poten verbinden zodat een zittende houding ontstaat; kleine gezichtsonderdelen binnen een grotere vorm plaatsen.",
+  "parentNote": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten.",
+  "simplify": "",
+  "transfer": "Nodig je kind een andere keer uit om een zittend konijn te tekenen met een hoofd, lijf en pootjes, maar met andere oren. Begin zonder het hondenvoorbeeld en bied hulp als daarom wordt gevraagd.",
+  "colouringLabel": "Kleine streepjes, zorgvuldig gekozen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een pup in het park.",
+      "instruction": "Kijk naar het hoofd boven de poten van de zittende pup.",
+      "spoken": "Onze prentenboekpup wacht in een park op papier. Kijk naar het brede hoofd, de hangende oren en het lijf eronder.",
+      "hint": "Kijk eerst naar de grote vormen en dan naar de kleine details.",
+      "notice": "Bekijk de zittende hond in ons voorbeeld. Wat zit hoger: het hoofd of de pootjes?"
+    },
+    "dog-head": {
+      "title": "Hoofd van de hond",
+      "instruction": "Teken een brede ovaal voor het hoofd van de pup.",
+      "spoken": "Begin met een brede ovaal en laat onderaan meer papier vrij dan bovenaan. In die ruimte komt het lijf van onze zittende pup.",
+      "hint": "Onder een rond hoofd is ruimte nodig voor het lijf.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-left-ear": {
+      "title": "Linkeroor van de hond",
+      "instruction": "Maak een hangend oor naast de linkerkant.",
+      "spoken": "Maak een boog naar buiten, omlaag en terug naast het hoofd. Dit oor hangt lager dan de bovenkant van het gezicht.",
+      "hint": "Laat je oorboog terugkomen bij de zijkant van het hoofd.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-right-ear": {
+      "title": "Rechteroor van de hond",
+      "instruction": "Voeg het andere hangende oor aan de overkant van het hoofd toe.",
+      "spoken": "Maak nog een hangende boog aan de andere kant. Kijk hoe groot die is naast het eerste oor; ze mogen verschillen.",
+      "hint": "Kijk naar de overkant van het hoofd om je tweede oor te plaatsen.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-body": {
+      "title": "Lijf van de hond",
+      "instruction": "Maak een hoger lijf onder het hoofd.",
+      "spoken": "Het lijf begint achter het hoofd. Ik laat de bovenrand die je niet ziet weg, zodat het hoofd ervoor zit.",
+      "hint": "Begin onder het hoofd en maak een boog rond een hogere vorm.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-left-leg": {
+      "title": "Linkervoorpoot",
+      "instruction": "Teken een voorpoot naar beneden richting de voetjes.",
+      "spoken": "Een lange lijn loopt binnen het lijf naar beneden. Laat onderaan wat ruimte voor een rond voetje.",
+      "hint": "Begin binnen het lijf en beweeg naar de onderkant.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-right-leg": {
+      "title": "Rechtervoorpoot",
+      "instruction": "Laat ruimte naast de andere voorpoot.",
+      "spoken": "Teken de andere voorpoot aan de overkant. De ruimte tussen deze twee lijnen helpt de poten uit elkaar te houden.",
+      "hint": "Laat wat papier tussen je twee pootlijnen.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-left-paw": {
+      "title": "Linkervoetje",
+      "instruction": "Zet een klein, breed voetje onder één poot.",
+      "spoken": "Een korte, brede ovaal raakt de onderkant van de eerste poot. Omdat het voetje klein is, lijkt het lijf groter.",
+      "hint": "Laat je kleine ovaal het uiteinde van een poot raken.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-right-paw": {
+      "title": "Rechtervoetje",
+      "instruction": "Zet nog een klein voetje naast het eerste.",
+      "spoken": "Voeg het andere voetje toe. Vergelijk de onderkanten, zonder te proberen precies dezelfde vormen te maken.",
+      "hint": "Kijk naar het eerste voetje voordat je het tweede plaatst.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-left-haunch": {
+      "title": "Linkerachterpoot",
+      "instruction": "Maak een gebogen achterpoot naast het lijf.",
+      "spoken": "Een boog buigt naast het lijf naar buiten en komt vlak bij de grond terug. Zo lijkt onze pup te zitten.",
+      "hint": "Laat een ronde boog buiten de voorpoot komen.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-right-haunch": {
+      "title": "Rechterachterpoot",
+      "instruction": "Voeg een ronde zittende poot aan de andere kant toe.",
+      "spoken": "Maak die gebogen lijn nog eens aan de andere kant en laat de voorpoten in het midden vrij.",
+      "hint": "De zittende achterpoten komen buiten de twee voorpoten.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-tail": {
+      "title": "Staart van de hond",
+      "instruction": "Laat een staart naast de pup naar buiten krullen.",
+      "spoken": "Een staart krult vanaf één kant naar buiten. Ik verander zachtjes van richting in plaats van een scherpe hoek te maken.",
+      "hint": "Volg één boog van het lijf af en buig dan terug.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-left-eye": {
+      "title": "Linkeroog van de hond",
+      "instruction": "Zet een oogje binnen het hoofd.",
+      "spoken": "Een klein oog komt binnen het hoofd, boven de ruimte voor de neus. Eén klein streepje of stipje is genoeg.",
+      "hint": "Laat onder dit oog ruimte voor de neus van de pup.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-right-eye": {
+      "title": "Rechteroog van de hond",
+      "instruction": "Zet het andere oog aan de overkant van het gezicht.",
+      "spoken": "Kijk naar de overkant van het gezicht voor het tweede oog. Een beetje ruimte tussen de ogen houdt het gezicht open.",
+      "hint": "Gebruik het eerste oog om een prettige plek voor het tweede te vinden.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-nose": {
+      "title": "Neus van de hond",
+      "instruction": "Verbind drie korte lijntjes voor een neusje.",
+      "spoken": "Een kleine omgekeerde driehoek past onder de ogen. Ik verbind de hoeken en houd hem kleiner dan het hoofd.",
+      "hint": "Drie korte kanten maken een driehoekje met de punt naar beneden.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-nose-line": {
+      "title": "Lijntje onder de neus",
+      "instruction": "Maak een kort lijntje vanaf de neus naar beneden.",
+      "spoken": "Een kort lijntje komt onder de neus vandaan. Stop voordat je bij de onderkant van het gezicht komt.",
+      "hint": "Begin bij de neus en maak maar een kort streepje.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-left-mouth": {
+      "title": "Linkerkant van de mond",
+      "instruction": "Laat een mondboogje naar één kant krullen.",
+      "spoken": "Maak vanaf dat korte lijntje een boogje naar één kant. De bocht geeft onze prentenboekpup een zachte uitdrukking.",
+      "hint": "Begin aan het uiteinde van het kleine neuslijntje.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-right-mouth": {
+      "title": "Rechterkant van de mond",
+      "instruction": "Laat de andere kant van het mondje krullen.",
+      "spoken": "Een tweede klein boogje buigt de andere kant op. Laat wat papier tussen de mond en de rand van het hoofd.",
+      "hint": "Maak vanaf hetzelfde middenpunt een boogje naar de andere kant.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-collar": {
+      "title": "Halsband",
+      "instruction": "Probeer een gebogen halsband onder het hoofd, als je wilt.",
+      "spoken": "Een lichte boog kan een halsband onder het hoofd laten zien. Jij kiest of je dit extra detail maakt.",
+      "hint": "Houd de halsband dicht bij de plek waar hoofd en lijf bij elkaar komen.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "dog-patch": {
+      "title": "Vlek op de vacht",
+      "instruction": "Probeer een ovale vlek op de vacht, of laat die weg.",
+      "spoken": "Een kleine ovaal kan een vlek op de vacht worden. Jouw pup mag vlekken hebben of een effen vacht.",
+      "hint": "Zoek een vrije plek binnen het lijf voor je vlek.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    },
+    "colour-choice": {
+      "title": "Kleuren voor een pup op papier.",
+      "instruction": "Kies een vachtkleur voor je pup op papier.",
+      "spoken": "Ik kies lichtbruin en bruin, als een zandkleurige vacht. Andere kleuren en kleine witte plekjes passen ook bij jouw pup.",
+      "hint": "Kies twee kleuren, of gebruik één krijtje wat lichter.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-coat": {
+      "title": "Zachte plekjes voor de vacht.",
+      "instruction": "Kleur de vacht in kleine, lichte plekjes.",
+      "spoken": "Ik kleur rond het gezicht en dan over het lijf. Korte streepjes en mijn krijtje tussendoor optillen helpen om de ogen en neus vrij te houden.",
+      "hint": "Maak kleinere bewegingen als je dicht bij een omtrek komt.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-ears": {
+      "title": "Iets donkerder op de oren.",
+      "instruction": "Geef de oren een iets donkerdere laag.",
+      "spoken": "Donkerder bruin laat de oren afsteken tegen het gezicht. Ik voeg ook wat toe naast het lijf en laat het midden lichter.",
+      "hint": "Een lichte eerste laag laat ruimte voor een donkerdere tweede kleur.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-patch": {
+      "title": "Een vlek, als je wilt.",
+      "instruction": "Kleur je vachtvlek, als je die hebt getekend.",
+      "spoken": "Als je een vlek hebt getekend, maak dan kleine bruine streepjes binnenin. Een effen vacht kan ook; je mag deze kleur overslaan.",
+      "hint": "Houd je vlek klein genoeg om binnen de eigen omtrek te passen.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-reflection": {
+      "title": "Kijk naar je pup.",
+      "instruction": "Kijk naar het grote lijf en de kleinere voetjes.",
+      "spoken": "Onze pup heeft grote vormen en kleinere details. Kijk hoe de hangende oren naast het gezicht zitten in ons park op papier.",
+      "hint": "Geniet van je tekening zonder iets te hoeven veranderen of uitleggen.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "explore": {
+      "title": "Een park voor jouw pup.",
+      "instruction": "Geef je pup een plek om te zitten, of stop hier.",
+      "spoken": "In jouw park op papier kan een pad komen of iets dat je zelf bedenkt. Teken verder, kleur verder of stop wanneer je wilt.",
+      "hint": "Probeer nog een zittend dier met een groot hoofd en kleine voetjes.",
+      "notice": "Wijs als je kind om hulp vraagt aan hoe de borst van het voorbeeld boven de voorpoten zit. Geef de gevraagde tip of doe het voor op je eigen papier. Beweeg de hand van je kind niet en eis geen gelijke poten."
+    }
+  }
+}

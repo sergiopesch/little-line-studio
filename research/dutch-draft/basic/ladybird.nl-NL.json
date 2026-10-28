@@ -1,0 +1,188 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "ladybird",
+  "sourceLessonSha256": "29f1c16e76eeced2c2d731100e65384a5e4e1ef5079818558cb94884b34c2092",
+  "sourceTextSha256": "fbb0b5b0ca9c15f5eaf42c4863af38d4538b4603f074548cc8837a5b35af970b",
+  "title": "Lieveheersbeestje",
+  "invitation": "Kleine stippen en pootjes rond een ovaal.",
+  "objective": "Een gesloten vorm verdelen en er korte lijnen rondom aan vastmaken.",
+  "parentNote": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt.",
+  "simplify": "",
+  "transfer": "Zou een groot lijf met onderdelen eromheen je kunnen helpen om een kever te bedenken?",
+  "colouringLabel": "Rode vleugels en kleine donkere plekjes",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Bezoek in de tuin.",
+      "instruction": "Kijk naar het ovale lijf, het kleine hoofd en de lijn in het midden.",
+      "spoken": "Laten we een lieveheersbeestje tekenen naast een tuinpad dat we bedenken. Zijn grote ovale lijf heeft bovenaan een klein hoofd en een lijn door het midden.",
+      "hint": "Vergelijk het kleine hoofd met het grotere ovale lijf.",
+      "notice": "Bekijk een afbeelding van een lieveheersbeestje. Kijk naar de lijn tussen de twee dekschilden."
+    },
+    "ladybird-body": {
+      "title": "Lijf van het lieveheersbeestje",
+      "instruction": "Teken een hoge ovaal en laat ruimte langs de zijkanten.",
+      "spoken": "Een hoge ovaal is het begin van ons lieveheersbeestje. Laat eromheen ruimte voor een hoofd en kleine pootjes.",
+      "hint": "Maak de ovaal helemaal rond en kom terug bij het begin.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "ladybird-head": {
+      "title": "Hoofd van het lieveheersbeestje",
+      "instruction": "Maak een rond hoofdje boven aan de ovaal.",
+      "spoken": "Een klein boogje sluit bovenaan aan op de ovaal. Ik maak het hoofd smaller dan het lijf.",
+      "hint": "Laat beide uiteinden van het hoofd bij het lijf komen.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "wing-division": {
+      "title": "Lijn tussen de vleugels",
+      "instruction": "Trek een lijn door het midden van de ovaal.",
+      "spoken": "Een lijn gaat van de bovenkant van de ovaal naar de onderkant. Zo zie je twee dekschilden naast elkaar.",
+      "hint": "Kijk naar de ruimte aan beide kanten van je lijn.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "left-feeler": {
+      "title": "Linker voelspriet",
+      "instruction": "Probeer een korte voelspriet boven het hoofd, als je wilt.",
+      "spoken": "Een klein gebogen voelsprietje kan boven het hoofd uitsteken. Jij kiest of je dit detail maakt.",
+      "hint": "Begin op het hoofd en buig naar een leeg stukje papier.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "right-feeler": {
+      "title": "Rechter voelspriet",
+      "instruction": "Probeer nog een voelspriet aan de andere kant, of sla die over.",
+      "spoken": "Nog een voelspriet kan de andere kant op buigen. De boogjes mogen verschillend zijn.",
+      "hint": "Houd beide voelsprieten kleiner dan het ovale lijf.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "left-upper-spot": {
+      "title": "Linkerstip boven",
+      "instruction": "Zet een ronde stip binnen één kant, als je wilt.",
+      "spoken": "Een kleine ronde stip komt binnen één dekschild, een stukje van de rand af.",
+      "hint": "Kies binnen de ovaal een plek voor je stip.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "right-spot": {
+      "title": "Rechterstip",
+      "instruction": "Probeer een stip aan de andere kant, als je wilt.",
+      "spoken": "Als je wilt, kan een tweede stip op het andere dekschild komen. Jij kiest de plek.",
+      "hint": "Laat ruimte rond elke stip die je wilt tekenen.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "left-lower-spot": {
+      "title": "Linkerstip onder",
+      "instruction": "Probeer een stip lagerop, of laat de ruimte open.",
+      "spoken": "Nog een stip kan wat lager komen. Het patroon van jouw lieveheersbeestje mag minder stippen hebben.",
+      "hint": "Het patroon hoeft niet hetzelfde te zijn als mijn voorbeeld.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "left-upper-leg": {
+      "title": "Linkerpootje boven",
+      "instruction": "Probeer een klein gebogen pootje aan de zijkant, als je wilt.",
+      "spoken": "Een kort lijntje gaat naar buiten en maakt dan een knik. Zo kunnen we aan de kleine pootjes van ons lieveheersbeestje beginnen.",
+      "hint": "Begin bij de rand van het lijf en houd het pootje kort.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "left-middle-leg": {
+      "title": "Linkerpootje midden",
+      "instruction": "Voeg aan deze kant een middelste pootje toe, of sla het over.",
+      "spoken": "Nog een klein geknikt lijntje gaat vanuit het midden van deze kant naar buiten.",
+      "hint": "Zet dit korte pootje naast het midden van het lijf.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "left-lower-leg": {
+      "title": "Linkerpootje onder",
+      "instruction": "Probeer een onderste pootje dat naar buiten wijst, als je wilt.",
+      "spoken": "Een onderste pootje wijst naar buiten en buigt naar beneden.",
+      "hint": "Elk pootje mag op zijn eigen manier buigen.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "right-upper-leg": {
+      "title": "Rechterpootje boven",
+      "instruction": "Probeer een pootje aan de andere kant, of sla het over.",
+      "spoken": "Aan de andere kant loopt een kort geknikt lijntje naar buiten.",
+      "hint": "Zoek wat lege ruimte naast de ovaal.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "right-middle-leg": {
+      "title": "Rechterpootje midden",
+      "instruction": "Probeer nog een pootje naast het midden, als je wilt.",
+      "spoken": "Nog een kort pootje kan naast het midden buigen, als je wilt.",
+      "hint": "Til je potlood op voordat je naar deze nieuwe plek gaat.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "right-lower-leg": {
+      "title": "Rechterpootje onder",
+      "instruction": "Kies nog een laatste onderste pootje, of rond je omtrek af.",
+      "spoken": "Nog één pootje onderaan kan mijn voorbeeld afmaken. Jouw tekening mag minder details hebben.",
+      "hint": "Laat wat ruimte op het papier rond de pootjes.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    },
+    "colour-choice": {
+      "title": "Rood bezoek in de tuin.",
+      "instruction": "Kies rood en een donker krijtje, of je eigen kleuren.",
+      "spoken": "Ik kies rode dekschilden en zachte donkergrijze details. Jij mag de kleuren voor jouw tuinbezoeker kiezen.",
+      "hint": "Bewaar het donkere krijtje voor de kleinere onderdelen.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-left-wing": {
+      "title": "Eén kant tegelijk.",
+      "instruction": "Kleur één kant rood met korte streepjes en til je krijtje tussendoor op.",
+      "spoken": "Ik kleur één kant met korte rode plekjes en laat ruimte bij de stippen. De middenlijn helpt me zien waar ik kan stoppen.",
+      "hint": "Kleinere streepjes helpen naast een stip of middenlijn.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-right-wing": {
+      "title": "Rood aan de andere kant.",
+      "instruction": "Maak kleine rode plekjes binnen het andere dekschild.",
+      "spoken": "Nu krijgt de andere kant rode plekjes. Ik til mijn krijtje op tussen de plekjes en laat kleine witte openingen in plaats van alles snel te bedekken.",
+      "hint": "Witte openingen mogen tussen je zachte krijtstreepjes blijven.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-ladybird-head": {
+      "title": "Een klein donker hoofd.",
+      "instruction": "Maak kleine donkere streepjes binnen het hoofdje.",
+      "spoken": "Het hoofd is een kleine ruimte, dus maak ik kleine donkere bewegingen. De dunne voelsprieten en pootjes blijven potloodlijnen.",
+      "hint": "Maak je beweging korter waar de ruimte smaller wordt.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-ladybird-spots": {
+      "title": "Kleine donkere stippen.",
+      "instruction": "Kleur je stippen, als je die hebt gemaakt.",
+      "spoken": "Als je stippen hebt getekend, passen er kleine donkere plekjes binnenin. Je mag sommige stippen wit laten of deze kleur overslaan.",
+      "hint": "Gebruik de stipvormen die je zelf hebt getekend om in te kleuren.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "colour-reflection": {
+      "title": "Uitrusten naast ons pad.",
+      "instruction": "Kijk naar de grote ovaal en de kleine details.",
+      "spoken": "Kijk hoe een grote ovaal de kleinere streepjes en stippen bij elkaar houdt. Ons lieveheersbeestje kan hier rusten naast zijn denkbeeldige tuinpad.",
+      "hint": "Zoek één plek waar een klein detail je tekening verandert.",
+      "notice": "Bied de krijtjes aan die jullie al hebben. De tekenleraar laat zien hoe je binnen de randen kunt kleuren; de kleuren, witte plekjes en streepjes van je kind mogen anders zijn. Met Meer tijd blijft de stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Een plek om te rusten.",
+      "instruction": "Bedenk een tuinpad, kleur verder of stop hier.",
+      "spoken": "Jouw tuinbezoeker kan rusten op een blad of naast een pad dat je zelf bedenkt. Teken zo lang je wilt verder, of stop hier.",
+      "hint": "Een lange zachte boog kan een tuinpad worden.",
+      "notice": "Het voorbeeld kan zes pootjes laten zien zonder van de tekening van je kind een teloefening te maken. Weggelaten pootjes en zelfbedachte details zijn geen fouten. Doe zelf een eenvoudige middenlijn voor als je kind daarom vraagt."
+    }
+  }
+}

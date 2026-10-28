@@ -1,0 +1,181 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "rainbow",
+  "sourceLessonSha256": "37cdf3f38104908042c73221b128e68df0419ab19d577bc852e9350debbd0ffa",
+  "sourceTextSha256": "901ea475f90232900935635835794d64d7824418962aa74c4d437430b85fc5a2",
+  "title": "Regenboog",
+  "invitation": "Bogen, kleuren en ruimte om te fantaseren.",
+  "objective": "Bogen naast elkaar maken en letten op wat binnen en buiten ligt.",
+  "parentNote": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben.",
+  "simplify": "",
+  "transfer": "Kunnen een grote en een kleinere boog samen de ingang van een tunnel vormen?",
+  "colouringLabel": "Eén gebogen kleurstrook tegelijk",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Kleur na een bui.",
+      "instruction": "Kijk hoe de ene boog binnen de andere past.",
+      "spoken": "Laten we een regenboog tekenen boven onze fantasietuin. Zonlicht dat door kleine waterdruppels gaat, kan veel kleuren laten zien. Kijk hoe de bogen in elkaar passen.",
+      "hint": "We kunnen kijken naar deze tekening op ons scherm.",
+      "notice": "Bekijk het voorbeeld van de regenboog. Kijk hoe de ene boog binnen de andere ligt."
+    },
+    "outer-arch": {
+      "title": "Buitenste boog",
+      "instruction": "Maak één grote boog: omhoog, eroverheen en omlaag.",
+      "spoken": "Begin laag aan de linkerkant, ga omhoog en eroverheen, en dan weer omlaag. Een ruime boog laat plaats voor onze kleinere bogen.",
+      "hint": "Probeer de beweging boven je papier voordat je een lijn maakt.",
+      "notice": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben."
+    },
+    "second-arch": {
+      "title": "Tweede boog",
+      "instruction": "Teken een kleinere boog binnen de eerste en laat wat ruimte ertussen.",
+      "spoken": "Binnenin komt nog een boog. Volg dezelfde ronding en houd een beetje ruimte tussen de lijnen. Daar komt straks kleur.",
+      "hint": "Kijk naar de ruimte terwijl je de bocht volgt.",
+      "notice": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben."
+    },
+    "third-arch": {
+      "title": "Derde boog",
+      "instruction": "Voeg een boog toe binnen de vorige.",
+      "spoken": "Voeg een kleinere boog toe en laat nog een strookje voor kleur over. Ik kijk naar de ruimte terwijl ik de boog teken.",
+      "hint": "Een strook mag op de ene plek breder zijn dan op de andere.",
+      "notice": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben."
+    },
+    "fourth-arch": {
+      "title": "Vierde boog",
+      "instruction": "Volg de ronding met nog een kleinere boog.",
+      "spoken": "En nog een boog binnenin. Beweeg je hand rustig over de bovenkant en laat de lijn dan naar beneden lopen.",
+      "hint": "Beweeg je hele hand zachtjes mee rond de bovenkant.",
+      "notice": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben."
+    },
+    "fifth-arch": {
+      "title": "Vijfde boog",
+      "instruction": "Probeer nog een boog binnenin, als je ruimte hebt.",
+      "spoken": "Hier komt een kleinere boog. Laat een kleine opening in het midden, of stop met bogen toevoegen wanneer je wilt.",
+      "hint": "Laat een boog weg als je weinig ruimte over hebt.",
+      "notice": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben."
+    },
+    "sixth-arch": {
+      "title": "Zesde boog",
+      "instruction": "Voeg een kleinere boog toe, als je wilt.",
+      "spoken": "Volg de ronding nog een keer. De lijnen naast elkaar mogen wiebelen; ze hoeven niet precies hetzelfde te zijn.",
+      "hint": "Een klein wiebeltje mag blijven zoals het is.",
+      "notice": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben."
+    },
+    "seventh-arch": {
+      "title": "Zevende boog",
+      "instruction": "Maak nog een klein strookje, als er ruimte is.",
+      "spoken": "Met een kleine boog maken we nog een kleurstrook. Als het midden te vol wordt, laat je deze boog gewoon weg.",
+      "hint": "Jouw tekening mag minder stroken hebben dan ons voorbeeld.",
+      "notice": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben."
+    },
+    "inner-arch": {
+      "title": "Binnenste boog",
+      "instruction": "Voeg een laatste kleine boog toe, of laat de opening zo.",
+      "spoken": "Onze laatste kleine boog laat onderaan een opening. Met acht lijnen heeft ons voorbeeld zeven ruimtes voor kleur.",
+      "hint": "Laat onder je kleinste boog een opening, als je wilt.",
+      "notice": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben."
+    },
+    "left-cloud": {
+      "title": "Linkerwolk",
+      "instruction": "Verbind zachte wolkenbobbeljes rond de uiteinden links.",
+      "spoken": "Laten we rond deze uiteinden een wolk maken. Verbind een paar zachte bobbels en maak eronder een boog. In onze tekening verdwijnt de regenboog achter de wolk.",
+      "hint": "Laat de wolkenbobbeljes bij de uiteinden van je bogen komen.",
+      "notice": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben."
+    },
+    "right-cloud": {
+      "title": "Rechterwolk",
+      "instruction": "Voeg een wolk toe rond de andere uiteinden, als je wilt.",
+      "spoken": "Ook rond de andere uiteinden kan een wolk komen. Verbind de bobbels met een boog aan de onderkant, of laat deze wolk weg.",
+      "hint": "Elke wolk mag zijn eigen grootte en bobbels hebben.",
+      "notice": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben."
+    },
+    "colour-choice": {
+      "title": "Kies je krijtjes.",
+      "instruction": "Pak de kleuren die je hebt; een paar zijn genoeg.",
+      "spoken": "Onze tekening gebruikt zeven kleuren met een naam. In echte regenbogen lopen kleuren in elkaar over. Gebruik de krijtjes die je hebt; minder kleuren zijn ook goed.",
+      "hint": "Kies kleuren die je bij de hand hebt. Je mag stroken wit laten.",
+      "notice": "Doe de kleuren voor die op het papier van je kind beschikbaar zijn. Minder kleurbanen, fantasiekleuren en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open."
+    },
+    "colour-red": {
+      "title": "Rood aan de buitenkant.",
+      "instruction": "Volg de buitenste strook met korte rode boogjes.",
+      "spoken": "Ik begin met rood aan de buitenkant. Korte gebogen streepjes volgen de boog. Til je krijtje op, schuif een stukje op en kleur dan het volgende stukje.",
+      "hint": "Volg de bocht rustig. Kleine witte plekjes mogen blijven.",
+      "notice": "Doe de kleuren voor die op het papier van je kind beschikbaar zijn. Minder kleurbanen, fantasiekleuren en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open."
+    },
+    "colour-orange": {
+      "title": "Oranje naast rood.",
+      "instruction": "Kleur de volgende strook oranje, stukje voor stukje.",
+      "spoken": "Oranje komt net binnen het rood. Ik verander van richting voor het volgende stukje en til mijn krijtje op tussen de bewegingen.",
+      "hint": "Probeer een paar streepjes, til je krijtje op en ga een stukje verder.",
+      "notice": "Doe de kleuren voor die op het papier van je kind beschikbaar zijn. Minder kleurbanen, fantasiekleuren en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open."
+    },
+    "colour-yellow": {
+      "title": "Een strook geel.",
+      "instruction": "Laat geel de volgende gebogen strook volgen.",
+      "spoken": "Hier komt geel, langs dezelfde ronding. Met een lichte hand wordt de kleur zacht. We kunnen het papier erdoorheen zien.",
+      "hint": "Je kunt je papier draaien om bij de bocht te komen.",
+      "notice": "Doe de kleuren voor die op het papier van je kind beschikbaar zijn. Minder kleurbanen, fantasiekleuren en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open."
+    },
+    "colour-green": {
+      "title": "Groen volgt de bocht.",
+      "instruction": "Voeg groen toe binnen de gele strook.",
+      "spoken": "Groen komt binnen het geel. Ik volg een klein stukje van de bocht, til mijn krijtje op en begin opnieuw. Elk stukje hoort bij onze regenboog.",
+      "hint": "Kijk waar de ene kleur eindigt voordat je aan de volgende begint.",
+      "notice": "Doe de kleuren voor die op het papier van je kind beschikbaar zijn. Minder kleurbanen, fantasiekleuren en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open."
+    },
+    "colour-blue": {
+      "title": "Een beetje blauw.",
+      "instruction": "Volg de volgende strook binnenin met blauw.",
+      "spoken": "Nu buigt blauw binnen het groen. De stroken worden kleiner, dus maak ik kortere bewegingen met mijn krijtje. Kleine openingen zijn welkom.",
+      "hint": "Maak kortere streepjes waar de bocht klein wordt.",
+      "notice": "Doe de kleuren voor die op het papier van je kind beschikbaar zijn. Minder kleurbanen, fantasiekleuren en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open."
+    },
+    "colour-indigo": {
+      "title": "Een donkerblauwe strook.",
+      "instruction": "Probeer donkerblauw in de volgende strook, als je dat hebt.",
+      "spoken": "Dit donkerblauw heet indigo. Ik gebruik het in de volgende strook. Een ander blauw, of een kleur die jij kiest, kan ook.",
+      "hint": "Gebruik blauw dat je hebt; je hebt geen speciaal krijtje nodig.",
+      "notice": "Doe de kleuren voor die op het papier van je kind beschikbaar zijn. Minder kleurbanen, fantasiekleuren en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open."
+    },
+    "colour-violet": {
+      "title": "Violet aan de binnenkant.",
+      "instruction": "Kleur de binnenste strook violet of paars.",
+      "spoken": "Violet, een paarse kleur, volgt onze binnenste strook. Korte zachte streepjes laten het midden open. Ik laat de wolken wit, net als ons papier.",
+      "hint": "Laat de wolken wit, of kies je eigen kleuren.",
+      "notice": "Doe de kleuren voor die op het papier van je kind beschikbaar zijn. Minder kleurbanen, fantasiekleuren en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open."
+    },
+    "colour-reflection": {
+      "title": "Kijk naar je kleurenbogen.",
+      "instruction": "Kijk hoe je kleuren de bogen volgen.",
+      "spoken": "Kijk samen naar de bogen en kleuren. Elke kleinere boog zit binnen een andere. Welke kleur zou jij nog eens willen gebruiken?",
+      "hint": "Je hoeft niets aan je tekening te veranderen of uit te leggen.",
+      "notice": "Doe de kleuren voor die op het papier van je kind beschikbaar zijn. Minder kleurbanen, fantasiekleuren en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open."
+    },
+    "explore": {
+      "title": "Jouw tuin, jouw idee.",
+      "instruction": "Voeg je eigen wereld toe, kleur verder of stop hier.",
+      "spoken": "Wat zou er onder jouw regenboog kunnen groeien? Voeg een tuin, een pad of iets dat je zelf bedenkt toe. Blijf tekenen zo lang je wilt, of stop hier.",
+      "hint": "Zouden twee van deze bogen een andere keer een tunnel kunnen worden?",
+      "notice": "Doe een boog voor in de lucht. Bied aan om een grotere eerste boog te maken als je kind meer ruimte wil. Zeven kleuren, een vaste kleurvolgorde, gelijke tussenruimtes en symmetrische wolken zijn niet nodig voor deze bewegingsoefening; een fantasie-regenboog mag alle kleuren hebben."
+    }
+  }
+}

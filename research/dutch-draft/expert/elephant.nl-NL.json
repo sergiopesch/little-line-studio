@@ -1,0 +1,230 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "elephant",
+  "sourceLessonSha256": "47b927352428de92ccb2e9d71c529d19b8d493d56a2b73a4c1da01951a88eef4",
+  "sourceTextSha256": "bb67a83b0944de02aa114ff7b288fe8ceff6358d94f4e5891a5dce088647bc61",
+  "title": "Olifant van opzij",
+  "invitation": "Grote vormen en deels verborgen poten.",
+  "objective": "Grote en kleine onderdelen vergelijken en poten dichtbij en deels verborgen poten weergeven.",
+  "parentNote": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn.",
+  "simplify": "Gebruik twee zichtbare poten, één slurflijn en geen slagtand of teennagels. Een opstelling met vier poten is een optionele uitdaging, geen vereiste om het goed te doen.",
+  "transfer": "Teken een andere keer een neushoorn of een ander groot dier van opzij. Kijk naar de grootte van lijf en hoofd en naar overlappende poten, in plaats van de onderdelen van de olifant onveranderd te herhalen.",
+  "colouringLabel": "Kleine krijtbewegingen, jouw eigen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een olifant en een plas.",
+      "instruction": "Kijk naar het grote lijf, het brede oor en de lange krullende slurf.",
+      "spoken": "Onze olifant bezoekt een kleine plas in een fantasielandschap. We vergelijken eerst de grote vormen voordat we de dunnere slurf en poten toevoegen.",
+      "hint": "Zoek de grootste vorm en kijk dan naar het kleinere hoofd.",
+      "notice": "Bekijk een olifant van opzij. Kijk naar de grootte van het hoofd naast het lijf, waar de slurf begint en welke poten overlappen. Deze tekening gebruikt eenvoudige vormen en geen precieze anatomie."
+    },
+    "elephant-body": {
+      "title": "Lijf van de olifant",
+      "instruction": "Maak de zichtbare randen van het lijf en til op voor hoofd en poten.",
+      "spoken": "Maak een brede lichaamsvorm. Til op waar het hoofd en de poten komen en laat daar openingen; die onderdelen tekenen we straks ervoor.",
+      "hint": "Volg een brede ronde vorm en til op waar onderdelen op de voorgrond komen.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "elephant-head": {
+      "title": "Hoofd van de olifant",
+      "instruction": "Maak de hoofdranden en laat ruimte voor oor en slurf.",
+      "spoken": "Maak rechts een kleiner hoofd. Til op waar het brede oor en de slurf komen, zodat we niet door die voorste vormen heen tekenen.",
+      "hint": "Maak het hoofd kleiner dan de grote ovaal van het lijf.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "large-ear": {
+      "title": "Groot oor",
+      "instruction": "Maak een breed gebogen oor naast het hoofd.",
+      "spoken": "Het oor is een brede gebogen vorm naast het hoofd. Buig naar buiten, omlaag en terug; laat genoeg ruimte voor een beetje kleur straks.",
+      "hint": "Maak het oor rond naar buiten voordat je de boog terugbrengt.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "trunk-outer-edge": {
+      "title": "Buitenrand van de slurf",
+      "instruction": "Laat de buitenkant van de slurf omlaag en rond buigen.",
+      "spoken": "Begin bij het gezicht en laat een lange boog naar beneden lopen, dan zacht omhoog draaien. Dit is de buitenkant van de slurf.",
+      "hint": "Volg één lange neerwaartse boog met een draai omhoog.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "trunk-inner-edge": {
+      "title": "Binnenrand van de slurf",
+      "instruction": "Volg met een tweede boog om de slurf dikte te geven.",
+      "spoken": "Teken de andere rand vlakbij. Houd wat ruimte tussen de bogen zodat deze lange slurf dikte krijgt in plaats van één lijn te worden.",
+      "hint": "Laat de tweede boog de eerste volgen zonder die te raken.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "trunk-tip": {
+      "title": "Punt van de slurf",
+      "instruction": "Rond de punt af om de twee slurfranden te verbinden.",
+      "spoken": "Een kleine ronde draai verbindt de twee randen bij de punt van de slurf.",
+      "hint": "Verbind de twee open uiteinden met één boogje.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "elephant-eye": {
+      "title": "Oog van de olifant",
+      "instruction": "Zet een oogje boven de wang.",
+      "spoken": "Eén stipje boven de wang wordt het oog.",
+      "hint": "Houd het oog klein binnen het ronde hoofd.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "near-front-leg": {
+      "title": "Voorpoot dichtbij",
+      "instruction": "Teken een brede voorpoot met een zacht afgeronde voet.",
+      "spoken": "Breng twee kanten naar beneden voor de voorpoot dichtbij en rond dan de voet af. De brede vorm laat de poot stevig lijken onder onze olifant.",
+      "hint": "Ga omlaag, rond de voet af en kom aan de andere kant weer omhoog.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "near-back-leg": {
+      "title": "Achterpoot dichtbij",
+      "instruction": "Voeg nog een brede poot toe onder de achterkant van het lijf.",
+      "spoken": "Voeg op dezelfde manier een brede achterpoot toe. Kijk naar de ruimte tussen de voor- en achterpoot voordat je hem plaatst.",
+      "hint": "Laat een brede opening tussen de twee poten dichtbij.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "far-front-leg": {
+      "title": "Voorpoot verder weg",
+      "instruction": "Laat een verder gelegen pootje net achter de voorpoot zien.",
+      "spoken": "Een kleiner zichtbaar stukje achter de voorpoot laat nog een poot verder weg zien. Het verborgen deel hoeven we niet te tekenen.",
+      "hint": "Teken alleen het stukje poot dat achter de dichtstbijzijnde zichtbaar is.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "far-back-leg": {
+      "title": "Achterpoot verder weg",
+      "instruction": "Voeg een stukje van een verdere poot achter de achterpoot toe.",
+      "spoken": "Herhaal dat idee achter de achterpoot: laat het zichtbare stukje zien en laat de poot dichtbij de rest verbergen.",
+      "hint": "Een kleine gedeeltelijke vorm is genoeg voor de poot verder weg.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "elephant-tail": {
+      "title": "Staart van de olifant",
+      "instruction": "Laat een dunne staart vanaf de achterkant naar beneden buigen.",
+      "spoken": "Maak een dunne staart die vanaf de achterkant omlaag buigt. Deze lichte lijn verschilt van het brede lijf en de stevige poten.",
+      "hint": "Gebruik een lichte boog helemaal links aan het lijf.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "tail-tuft": {
+      "title": "Staartpluimpje",
+      "instruction": "Geef de staart een klein rond pluimpje.",
+      "spoken": "Een rond pluimpje maakt het uiteinde van de staart af.",
+      "hint": "Sluit een kleine vorm rond het uiteinde van de staart.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "small-tusk": {
+      "title": "Kleine slagtand",
+      "instruction": "Maak een kleine puntige slagtand naast de slurf.",
+      "spoken": "Als je een slagtand wilt, laat twee boogjes dan samenkomen in een punt. Houd hem kleiner dan de slurf en laat hem licht.",
+      "hint": "Buig naar buiten tot een punt en kom terug naast de slurf.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "trunk-crease": {
+      "title": "Plooi in de slurf",
+      "instruction": "Voeg een klein gebogen plooitje over de slurf toe.",
+      "spoken": "Een klein boogje over de slurf kan een plooi laten zien, als je wilt.",
+      "hint": "Houd dit plooitje kort en binnen de slurf.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "first-toenail": {
+      "title": "Eerste teennagel",
+      "instruction": "Maak een kleine ronde teennagel op de voorvoet.",
+      "spoken": "Als je teennagels wilt, kan een klein rond boogje er één laten zien.",
+      "hint": "Gebruik een klein omgekeerd kommetje bij de voet.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "second-toenail": {
+      "title": "Tweede teennagel",
+      "instruction": "Probeer een teennageltje binnen de voorvoet, of sla het over.",
+      "spoken": "Je kunt een klein boogje binnen de voorvoet toevoegen, als je wilt. Laat ruimte rond de teennagels die je al koos.",
+      "hint": "Gebruik de onderrand van de voet om dit boogje te plaatsen.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "elephant-ground": {
+      "title": "Grond onder de olifant",
+      "instruction": "Teken een lage grondboog onder de voeten.",
+      "spoken": "Je mag een lage grondboog onder de voeten toevoegen. Laat rechts ruimte als je een kleine verhaalplas wilt.",
+      "hint": "Houd de grondlijn onder de voeten.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "grass-blade": {
+      "title": "Grasspriet",
+      "instruction": "Voeg een klein gebogen grassprietje toe.",
+      "spoken": "Je kunt een klein gebogen lijntje voor gras toevoegen, of deze ruimte openlaten.",
+      "hint": "Laat een klein lijntje vanaf de grond omhooggaan en draaien.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "nearby-puddle": {
+      "title": "Plas dichtbij",
+      "instruction": "Voeg eventueel een lage ovale plas rechts toe.",
+      "spoken": "Een platte ovaal wordt onze verhaalplas. De lage vorm laat zien dat het water langs de grond ligt, in plaats van een hoge ronde bal te zijn.",
+      "hint": "Maak de plas breed en laag naast de olifant.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    },
+    "colour-choice": {
+      "title": "Zachte grijstinten en waterblauw.",
+      "instruction": "Kies een hoofdgrijs en een beetje blauw voor water.",
+      "spoken": "Ik gebruik zachtgrijs voor onze olifant en een beetje blauw voor de plas. Houd een lichter krijtje bij de hand als je wilt.",
+      "hint": "Een hoofdkleur voor het lijf en één beetje waterkleur zijn genoeg.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-large-body": {
+      "title": "Kleur de grootste vorm.",
+      "instruction": "Maak lichtgrijze plekjes over het grote ronde lijf.",
+      "spoken": "Ik begin in de grootste ruimte met lichte heen-en-weerplekjes. Door tussen de plekjes op te tillen blijft de beweging prettig en de structuur van het papier zichtbaar.",
+      "hint": "Kleur steeds een klein stukje met zachte druk.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-head-trunk": {
+      "title": "Een kleiner gezicht en een slurf.",
+      "instruction": "Gebruik kortere bewegingen binnen het hoofd en de smalle slurf.",
+      "spoken": "Ik maak de bewegingen korter voor het hoofd en de slurf. Ik houd het oog vrij en laat de slagtand licht papier.",
+      "hint": "Maak elke beweging kleiner wanneer de omtrek smaller wordt.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-ear-legs": {
+      "title": "Laat overlappende vormen uitkomen.",
+      "instruction": "Geef het oor een donkerder grijs naast het lichtere lijf.",
+      "spoken": "Iets donkerder grijs helpt het oor afsteken tegen het lijf. Kleine plekjes in de poten dichtbij houden die stevige vormen duidelijk.",
+      "hint": "Een zacht kleurverschil kan overlappende onderdelen scheiden.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-water-layer": {
+      "title": "Een beetje water en schaduw.",
+      "instruction": "Voeg eventueel blauw water en een lichte grijze buiklaag toe.",
+      "spoken": "Als je een plas hebt getekend, mag je die blauw kleuren. Ik laat ook een optionele zachte grijze laag onder het lijf zien.",
+      "hint": "Een tweede lichte laag kan een donkerdere onderkant laten zien.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflect": {
+      "title": "Grote vormen, kleine details.",
+      "instruction": "Vergelijk het grote lijf met de dunnere slurf en staart.",
+      "spoken": "Kijk naar de verschillende groottes: breed lijf, kleiner hoofd, dunne slurf en staart. Die vergelijkingen dragen onze olifanttekening zonder veel details.",
+      "hint": "Vergelijk de grootste vorm met één van de kleinste details.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Een landschap voor jouw olifant.",
+      "instruction": "Kleur verder of bedenk meer landschap rond de plas.",
+      "spoken": "Je kunt gras, een grotere plas of je eigen fantasielandschap toevoegen. Kleur verder op je eigen tempo, of stop hier met je olifant.",
+      "hint": "Probeer één landschapsdetail, of laat veel witte ruimte.",
+      "notice": "Vergelijk het lijf en het hoofd in het voorbeeld zonder een verhouding voor te schrijven. Laat op apart papier zien hoe een smalle poot achter een andere tevoorschijn kan komen. Help een grotere slurfbeweging te kiezen als kleine boogjes lastig zijn."
+    }
+  }
+}

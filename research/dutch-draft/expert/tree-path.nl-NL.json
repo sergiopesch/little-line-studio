@@ -1,0 +1,230 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "tree-path",
+  "sourceLessonSha256": "dc8249c5a08809a015ec305e1795812d96621f99577eca073076cac9a3b700b7",
+  "sourceTextSha256": "137d2bbb2219b366045db561b9c6ca0251ede61e785d2dec76f5cdac7b8dcb46",
+  "title": "Boom naast een slingerpad",
+  "invitation": "Een pad dat de verte in slingert.",
+  "objective": "Ontdekken hoe de randen van een pad dichter bij elkaar kunnen komen verder in de tekening.",
+  "parentNote": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor.",
+  "simplify": "Gebruik een recht pad met twee randen, een eenvoudige stam en één boomkruin. Paden die overal even breed zijn en fantasieaanzichten zijn welkom; sla alle landschapsdetails over.",
+  "transfer": "Probeer een andere keer een rivier of spoorweg die in een ander landschap verdwijnt. Ontdek hoe de ruimte tussen twee randen kan veranderen, zonder het boom-en-padvoorbeeld.",
+  "colouringLabel": "Kleine krijtbewegingen, jouw eigen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een pad naar een verzonnen plek.",
+      "instruction": "Kijk naar het brede pad dichtbij en het smalle uiteinde ver weg.",
+      "spoken": "Ons slingerpad leidt naar een plek die we kunnen bedenken. Kijk hoe het dichtbij breed is en veel smaller wordt als het wegloopt.",
+      "hint": "Vergelijk het brede onderste uiteinde met het kleine verre uiteinde.",
+      "notice": "Bekijk een foto van een pad vanaf de grond. Kijk of de zichtbare randen dichtbij verder uit elkaar staan en ver weg dichter bij elkaar komen. Dit is één manier om afstand te laten zien, geen verplichte regel voor fantasielandschappen."
+    },
+    "distant-hill": {
+      "title": "Heuvel in de verte",
+      "instruction": "Maak een lage verre heuvel over het bovenste deel van het landschap.",
+      "spoken": "Begin met een lage heuvel in de verte. Laat eronder veel ruimte voor het slingerpad en een boom dichtbij.",
+      "hint": "Houd deze verre heuvel bij het bovenste deel van het papier.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "path-left-edge": {
+      "title": "Linkerrand van het pad",
+      "instruction": "Laat één slingerende padrand naar de verre heuvel lopen.",
+      "spoken": "Begin onderaan en laat deze padrand naar de heuvel slingeren. Een lange prettige boog kan van richting veranderen zonder een scherpe hoek te maken.",
+      "hint": "Laat een losse boog vanaf de voorgrond naar de heuvel slingeren.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "path-right-edge": {
+      "title": "Rechterrand van het pad",
+      "instruction": "Houd het pad dichtbij breder en ver weg smaller.",
+      "spoken": "Voeg de andere rand toe. Laat onderaan een brede opening en ver weg een smalle opening; die verandering helpt afstand te laten zien.",
+      "hint": "Vergelijk de ruimte onderaan met de ruimte bij de heuvel.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "trunk-left-edge": {
+      "title": "Linkerrand van de stam",
+      "instruction": "Teken links een zacht gebogen boomstam.",
+      "spoken": "Laat links van het pad een boomstam omhoog komen. Een boog die zacht van richting verandert kan minder op een kaarsrechte paal lijken.",
+      "hint": "Begin bij de grond en laat de stam omhoog buigen.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "trunk-right-edge": {
+      "title": "Rechterrand van de stam",
+      "instruction": "Voeg de andere kant van de stam vlakbij toe.",
+      "spoken": "Teken de andere kant en laat ruimte tussen de randen. Laat de stam bij de grond wat breder worden.",
+      "hint": "Houd de opening bij de onderkant van de stam breder.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "left-branch": {
+      "title": "Linkertak",
+      "instruction": "Laat een tak naar linksboven buigen.",
+      "spoken": "Een tak buigt vanaf de stam naar buiten en omhoog. Laat ruimte rond de punt voor de bladerkruin die we straks tekenen.",
+      "hint": "Laat de tak naar buiten lopen voordat hij omhoog draait.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "right-branch": {
+      "title": "Rechtertak",
+      "instruction": "Laat nog een tak naar rechtsboven buigen.",
+      "spoken": "Nog een tak loopt naar rechts. Verschillende richtingen helpen onze boom uit te spreiden in plaats van alle bladeren één kant op te laten leunen.",
+      "hint": "Laat deze tak een andere richting op draaien.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "leafy-crown": {
+      "title": "Bladerkruin",
+      "instruction": "Verbind grote ronde bobbels rond de takken.",
+      "spoken": "Maak de bladerkruin met grote ronde bobbels. Denk eerst aan de hele bladmassa; we hebben geen aparte lijn voor elk blad nodig.",
+      "hint": "Verbind een paar ruime ronde bobbels rond de takpunten.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "left-root": {
+      "title": "Linkerwortel",
+      "instruction": "Laat een korte wortel langs de grond naar buiten draaien.",
+      "spoken": "Een kleine wortel draait langs de grond naar links.",
+      "hint": "Laat dit boogje van de stam af lopen.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "right-root": {
+      "title": "Rechterwortel",
+      "instruction": "Voeg aan de andere kant een korte uitstekende wortel toe.",
+      "spoken": "Een wortel aan de andere kant helpt de boom een plek in het landschap te krijgen.",
+      "hint": "Laat een kleine wortel naar rechts buigen.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "trunk-bark": {
+      "title": "Boomschors",
+      "instruction": "Laat één golvende schorslijn de hoge richting van de stam volgen.",
+      "spoken": "Als je schorsstructuur wilt, kan één golvende lijn de hoge richting van de stam volgen. Je hoeft niet de hele boom met streepjes te bedekken.",
+      "hint": "Eén lichte golvende lijn is genoeg om structuur te laten zien.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "leafy-cluster": {
+      "title": "Bladgroep",
+      "instruction": "Voeg eventueel een kleine bladgroep binnen de kruin toe.",
+      "spoken": "Een kleinere ronde groep binnenin kan een groep bladeren laten zien. Houd de buitenste kruin duidelijk zodat de boom één vorm blijft.",
+      "hint": "Herhaal een paar kleinere bobbels binnen de grote bladerkruin.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "near-path-stone": {
+      "title": "Steen dichtbij",
+      "instruction": "Zet een grotere platte steen onderaan dichtbij.",
+      "spoken": "Je mag een platte steen dichtbij plaatsen. Houd hem naast het pad zodat de slingerroute vrij blijft voor de fantasietocht.",
+      "hint": "Maak een lage ovaal vooraan in het landschap.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "far-path-stone": {
+      "title": "Steen ver weg",
+      "instruction": "Probeer een klein steentje naast het bovenste pad, als je wilt.",
+      "spoken": "Je kunt een klein ver steentje toevoegen. Als je een steen dichtbij maakte, geeft het verschil in grootte nog een manier om afstand te laten zien.",
+      "hint": "Zet een kleine ovaal naast het bovenste deel van het pad.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "tree-grass": {
+      "title": "Gras bij de boom",
+      "instruction": "Voeg een klein gebogen grasstreepje naast de boom toe.",
+      "spoken": "Een klein gebogen grasstreepje kan naast de wortels komen, als je wilt.",
+      "hint": "Houd dit kleine grasstreepje bij de grond.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "path-grass": {
+      "title": "Gras bij het pad",
+      "instruction": "Laat nog een grasstreepje naast het pad staan.",
+      "spoken": "Je kunt nog een klein grasstreepje naast het pad toevoegen, of de ruimte openlaten.",
+      "hint": "Een kleine draai omhoog is genoeg om gras te laten zien.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "distant-bush": {
+      "title": "Struik in de verte",
+      "instruction": "Teken eventueel een klein rond struikje bij de heuvel.",
+      "spoken": "Een klein rond struikje bij de heuvel blijft klein in ons landschap. Die kleinere verre vormen ondersteunen hetzelfde diepte-idee als het smaller wordende pad.",
+      "hint": "Gebruik een paar bobbeltjes voor dit verre struikje.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "landscape-cloud": {
+      "title": "Wolk in het landschap",
+      "instruction": "Voeg eventueel een zachte wolk toe in de open lucht.",
+      "spoken": "Een wolkje kan in de open lucht komen. Verbind ronde bobbels en sluit ze met een zachte onderste lijn.",
+      "hint": "Laat wat open lucht rond dit wolkje.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "fallen-tree-leaf": {
+      "title": "Gevallen boomblad",
+      "instruction": "Zet eventueel een klein blad bij de boom.",
+      "spoken": "Eén gevallen blad kan bij de boom liggen. Twee korte bogen die samenkomen in een punt maken dit kleine landschapsdetail.",
+      "hint": "Gebruik twee boogjes die bij beide uiteinden samenkomen.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "landscape-sun": {
+      "title": "Zon in het landschap",
+      "instruction": "Teken eventueel een kleine zon in de open lucht.",
+      "spoken": "Je kunt een kleine zon toevoegen aan dit fantasielandschap. Gebruik onze tekening op papier als voorbeeld, nooit de echte zon.",
+      "hint": "Een kleine ronde vorm past in een open stukje lucht.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    },
+    "colour-choice": {
+      "title": "Kleuren voor een groen landschap.",
+      "instruction": "Kies groene bladeren, een bruine stam en een warm pad.",
+      "spoken": "Ik gebruik groene bladeren, een bruine stam en een warm zandkleurig pad. Jouw fantasielandschap mag ander weer, een ander seizoen en andere kleuren hebben.",
+      "hint": "Kies een bladkleur en een andere kleur voor het pad.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-leafy-crown": {
+      "title": "Kleine bladplekjes.",
+      "instruction": "Maak groene plekjes rond de ronde boomkruin.",
+      "spoken": "Ik kleur kleine plekjes in de grote bladerkruin en til mijn krijtje op voordat ik verderga. De witte openingen houden de krijtstructuur licht en open.",
+      "hint": "Maak kleine plekjes binnen de grote ronde bladvorm.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-tree-trunk": {
+      "title": "Een smalle bruine stam.",
+      "instruction": "Maak korte bewegingen in de hoge richting van de stam.",
+      "spoken": "De stam is veel smaller dan de bladeren, dus worden mijn bewegingen kleiner. Ik volg de hoge richting en laat de schorslijn zichtbaar.",
+      "hint": "Maak de bewegingen korter en volg de stam omhoog.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-winding-path": {
+      "title": "Kleur richting de verte.",
+      "instruction": "Maak de kleurplekjes kleiner waar het pad smaller wordt.",
+      "spoken": "Kijk hoe de bewegingen kleiner worden richting het verre uiteinde. Het kleuren volgt hetzelfde breder-en-smaller-idee als onze twee padranden.",
+      "hint": "Grote ruimtes dichtbij en kleine ruimtes ver weg vragen om verschillende bewegingen.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-landscape-layer": {
+      "title": "Een beetje bladschaduw.",
+      "instruction": "Probeer een donkerdere bladlaag en kleur eventuele extra details.",
+      "spoken": "Een lichte groene laag kan een deel van de kruin donkerder maken. Als je een steen of zon op papier hebt toegevoegd, kunnen grijs en geel die details kleuren.",
+      "hint": "Maak een lichte laag binnen de kruin; kleur extra vormen alleen als je die hebt gemaakt.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "colour-reflect": {
+      "title": "Een landschap met diepte.",
+      "instruction": "Kijk naar het smallere pad en eventuele stenen van verschillende grootte.",
+      "spoken": "Volg het smallere pad met je ogen. Als je stenen van verschillende grootte toevoegde, laten die hetzelfde idee zien van een landschap dat verder weg loopt.",
+      "hint": "Vergelijk een vorm dichtbij met een kleinere vorm ver weg.",
+      "notice": "Gebruik de krijtjes die je hebt en maak bewegingen die prettig voelen. Witte plekken en andere kleuren zijn welkom. Met Meer tijd blijft elke stap open, zonder tijdslimiet."
+    },
+    "explore": {
+      "title": "Waar leidt jouw pad naartoe?",
+      "instruction": "Kleur verder of bedenk wat er achter de heuvel ligt.",
+      "spoken": "Jouw pad kan naar een tuin, een huisje of een volledig verzonnen plek leiden. Verken het landschap verder of stop wanneer je wilt.",
+      "hint": "Voeg één idee in de verte toe en houd de vorm kleiner dan voorwerpen dichtbij.",
+      "notice": "Wijs met twee vingers boven een voorbeeld de breedte van het pad op twee plekken aan. Vraag of je kind een bestemming dichtbij of ver weg wil. Doe op verzoek een rustigere slingerbeweging apart voor."
+    }
+  }
+}

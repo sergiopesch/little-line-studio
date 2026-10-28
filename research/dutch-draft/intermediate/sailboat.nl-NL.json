@@ -1,0 +1,202 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "sailboat",
+  "sourceLessonSha256": "d12bae439685861cacc60c810baff05d72cfcc775c648fa9c375c9fc7785bbae",
+  "sourceTextSha256": "e4f12a54aa2baf4ea4b3a00c239c2b23acaa65392af2d24e620bba8c5263fc35",
+  "title": "Zeilboot",
+  "invitation": "Een romp, een mast en bollende zeilen.",
+  "objective": "Gedeelde randen en aansluitpunten gebruiken om romp, mast en zeilen te plaatsen; de boot onderscheiden van het water eromheen.",
+  "parentNote": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel.",
+  "simplify": "",
+  "transfer": "Bedenk een andere keer een boot met één zeil. Laat je kind bepalen wat er verandert als één zeil wegblijft.",
+  "colouringLabel": "Kleine streepjes, zorgvuldig gekozen kleuren",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Een boot voor onze baai.",
+      "instruction": "Kijk naar de hoge zeilen boven een brede, lage boot.",
+      "spoken": "Onze zeilboot op papier vertrekt over een zelfbedachte rustige baai. Kijk naar de hoge zeilen boven de brede, lage romp.",
+      "hint": "Vergelijk de hoge vormen met de brede boot eronder.",
+      "notice": "Kijk naar de zeilen in ons voorbeeld. Welke rand zit naast de rechtopstaande mast?"
+    },
+    "boat-deck": {
+      "title": "Bovenkant van de boot",
+      "instruction": "Teken een brede lijn voor de bovenkant van de boot.",
+      "spoken": "Een lange lijn wordt de bovenkant van onze romp. Ik laat veel papier erboven voor de zeilen.",
+      "hint": "Geef je lijn meer ruimte boven dan onder.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-hull": {
+      "title": "Romp van de boot",
+      "instruction": "Maak onderlangs een boog terug naar het andere uiteinde.",
+      "spoken": "Een brede boog verbindt de uiteinden langs de onderkant. De rechte bovenkant en gebogen onderkant maken samen een gesloten romp om in te kleuren.",
+      "hint": "Laat de boog terugkomen bij het andere uiteinde van de lijn.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-mast": {
+      "title": "Mast van de boot",
+      "instruction": "Teken een hoge mast omhoog vanaf de romp.",
+      "spoken": "Een hoge lijn komt omhoog vanaf ongeveer het midden van de romp. Door die hoogte hebben de zeilen ruimte om uit te staan.",
+      "hint": "Begin boven op de boot en beweeg naar de ruimte erboven.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-left-sail-edge": {
+      "title": "Rand van linkerzeil",
+      "instruction": "Laat vanaf de mast een lijn schuin naar links beneden lopen.",
+      "spoken": "Vanaf de top van de mast loopt een lijn schuin naar links beneden. Stop iets boven de romp zodat het zeil apart blijft.",
+      "hint": "Laat wat papier tussen deze zeilhoek en de boot.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-left-sail-base": {
+      "title": "Onderkant van linkerzeil",
+      "instruction": "Verbind de onderste zeilhoek terug met de mast.",
+      "spoken": "Een korte lijn gaat terug naar de mast en sluit een driehoek. Drie verbonden randen geven dit zeil een eigen ruimte.",
+      "hint": "Verbind de buitenste zeilhoek met de hoge lijn in het midden.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-right-sail-edge": {
+      "title": "Rand van rechterzeil",
+      "instruction": "Laat een lijn schuin omlaag lopen aan de andere kant van de mast.",
+      "spoken": "Nog een lijn loopt vanaf de top schuin naar rechts beneden. Vergelijk hoe ver dit zeil uitsteekt naast het eerste.",
+      "hint": "Begin boven aan de mast en richt naar de andere kant.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-right-sail-base": {
+      "title": "Onderkant van rechterzeil",
+      "instruction": "Sluit het tweede zeil met een korte lijn.",
+      "spoken": "Een korte lijn komt weer bij de mast. Beide zeilen delen de middenlijn en hebben elk hun eigen ruimte aan een kant.",
+      "hint": "Verbind de zeilhoek terug met de mast.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-left-porthole": {
+      "title": "Linker bootraampje",
+      "instruction": "Teken een klein rond raampje binnen de romp.",
+      "spoken": "Een kleine cirkel zit binnen de boot. Ik laat er ruimte omheen zodat de omtrek van de romp duidelijk blijft.",
+      "hint": "Zoek een plek onder de rechte bovenlijn van de romp.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-right-porthole": {
+      "title": "Rechter bootraampje",
+      "instruction": "Zet nog een raampje verderop in de romp.",
+      "spoken": "Een tweede kleine cirkel komt verderop. De ruimte tussen de raampjes helpt me hun plek kiezen.",
+      "hint": "Kijk langs de romp in plaats van naar de zeilen.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-bow-detail": {
+      "title": "Detail bij de boeg",
+      "instruction": "Voeg een kort boogje bij de voorkant van de boot toe.",
+      "spoken": "Een kort boogje volgt de romp bij één uiteinde. Doordat het binnenin blijft, geeft het een detail zonder de grote vorm te veranderen.",
+      "hint": "Volg van binnenuit een klein stukje van de gebogen romprand.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-water": {
+      "title": "Water bij de boot",
+      "instruction": "Laat een zachte golflijn onder de boot lopen.",
+      "spoken": "Een golf buigt onder onze boot op en neer. Ik herhaal een zacht boogje in plaats van veel scherpe punten te maken.",
+      "hint": "Laat de golflijn aan beide kanten voorbij de romp uitsteken.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-flag": {
+      "title": "Vlaggetje",
+      "instruction": "Probeer een klein vlaggetje boven aan de mast.",
+      "spoken": "Een klein puntig vlaggetje kan bij de masttop komen. Jouw boot op papier kan ook zonder vlag varen.",
+      "hint": "Houd dit optionele vlaggetje klein naast de grote zeilen.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-second-wave": {
+      "title": "Tweede golf",
+      "instruction": "Probeer nog een lage golf, als je wilt.",
+      "spoken": "Nog een golf kan onder de eerste buigen. Door ruimte ertussen blijft ons fantasiewater open en rustig.",
+      "hint": "Maak een zachte bocht onder de eerste golf.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-sun": {
+      "title": "Zon bij de boot",
+      "instruction": "Probeer een kleine zon in je fantasielucht.",
+      "spoken": "Een kleine cirkel kan zonneschijn worden in onze fantasiebaai. Het is een symbool op papier; we kijken niet naar de echte zon.",
+      "hint": "Gebruik je papier of onze afbeelding voor deze optionele cirkel.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-cloud": {
+      "title": "Wolk bij de boot",
+      "instruction": "Probeer een zachte wolkvorm op een vrije plek.",
+      "spoken": "Een paar ronde boogjes kunnen samen een wolk vormen. Zoek een vrije plek in de lucht waar de wolk niet door de hoge zeilen heen gaat.",
+      "hint": "Verbind zachte bobbels tot een kleine vorm in de lucht.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-bird-left-wing": {
+      "title": "Linkervleugel van de vogel",
+      "instruction": "Probeer een klein vleugeltje in de lucht.",
+      "spoken": "Een klein gebogen lijntje kan het begin zijn van een vogel ver weg op papier. Het mag klein blijven naast de grote zeilen.",
+      "hint": "Houd dit boogje op een vrije plek in de lucht.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "boat-bird-right-wing": {
+      "title": "Rechtervleugel van de vogel",
+      "instruction": "Probeer nog een vleugeltje naast het eerste.",
+      "spoken": "Nog een klein boogje kan een vogelvormig streepje maken. Als je het eerste wegliet, zijn beide boogjes optioneel.",
+      "hint": "Verbind twee kleine boogjes, of laat je lucht leeg.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    },
+    "colour-choice": {
+      "title": "Kleuren voor een reis op papier.",
+      "instruction": "Kies een kleur voor de romp en zachte kleuren voor de zeilen.",
+      "spoken": "Ik kies een rode romp, een crème zeil en een lichtblauw zeil. Jouw fantasieboot mag zijn eigen kleurenplan hebben.",
+      "hint": "Kies kleuren waarmee je de verschillende delen van de boot kunt zien.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-hull": {
+      "title": "Een warme rode romp.",
+      "instruction": "Kleur binnen de gebogen romp met korte streepjes.",
+      "spoken": "Kleine rode plekjes volgen de brede romp. Ik til mijn krijtje op vóór de raampjes en maak kleinere streepjes bij de puntige uiteinden.",
+      "hint": "Stop vóór de rand en begin aan een nieuw plekje.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-sails": {
+      "title": "Lichte kleur in de zeilen.",
+      "instruction": "Maak lichte zeilkleuren binnen de driehoeken.",
+      "spoken": "Licht crème en blauw houden de zeilen luchtig. Ik kleur kleine plekjes binnen elke driehoek en houd de mast goed zichtbaar.",
+      "hint": "Kleine streepjes passen makkelijker bij een smalle zeilhoek.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-hull-shade": {
+      "title": "De ronde onderkant van onze boot.",
+      "instruction": "Maak een donkerdere laag langs de onderkant van de romp.",
+      "spoken": "Een beetje bruin over het onderste rood laat de onderkant van de boot rond lijken. Ik laat het rood bovenaan bij de raampjes lichter.",
+      "hint": "Gebruik een lichte laag zodat er nog wat rood doorheen te zien is.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "colour-reflection": {
+      "title": "Hoge zeilen en een brede romp.",
+      "instruction": "Kijk naar de hoge zeilen boven de brede romp.",
+      "spoken": "Onze hoge driehoeken staan boven één brede, gebogen boot. Stel je voor hoe dit zeilbootje over jouw eigen baai op papier vaart.",
+      "hint": "Kijk hoe je hoge en brede vormen bij elkaar komen.",
+      "notice": "Jouw krijtjes en witte plekjes zijn welkom. Met Meer tijd blijft elke stap open; de tekenleraar kan je papier niet zien of beoordelen."
+    },
+    "explore": {
+      "title": "Waar zou jouw boot naartoe varen?",
+      "instruction": "Bedenk een bestemming, kleur verder of stop.",
+      "spoken": "Waar zou jouw boot op papier naartoe kunnen gaan? Voeg een eiland toe of bedenk een andere bestemming, zonder dat je ons een antwoord hoeft te vertellen.",
+      "hint": "Probeer een hoge vorm boven een brede, lage vorm.",
+      "notice": "Trek als daarom wordt gevraagd de omtrek van een zeil uit het voorbeeld na in de lucht en laat zien dat de mast één rand vormt. Eis niet dat je kind een zeil met een opening opnieuw tekent. Gedeelde randen zijn het voorgestelde leerdoel; de volgorde van de stappen is geen algemene tekenregel."
+    }
+  }
+}

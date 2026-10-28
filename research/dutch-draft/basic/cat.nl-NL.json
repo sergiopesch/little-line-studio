@@ -1,0 +1,181 @@
+{
+  "locale": "nl-NL",
+  "status": "assistant-draft-awaiting-native-human-review",
+  "lessonId": "cat",
+  "sourceLessonSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+  "sourceTextSha256": "96e666b4c153d80e786a50f969db26863f9bc44ce1ad172eef1ee5a14dbb28d8",
+  "title": "Nieuwsgierig kattengezicht",
+  "invitation": "Een rond gezicht met een eigen uitdrukking.",
+  "objective": "Een ronde omtrek combineren met gezichtsonderdelen op hun plek en lijnen die eraan vastzitten.",
+  "parentNote": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent.",
+  "simplify": "",
+  "transfer": "Stel een andere keer een ander dier voor zonder dezelfde demonstratie: welke vormen kunnen helpen om een beer te tekenen? Laat de mogelijkheid om opnieuw te kijken beschikbaar als je kind dat wil.",
+  "colouringLabel": "Kleur je kat",
+  "pilotPhases": [
+    {
+      "id": "observe",
+      "label": "Kijken"
+    },
+    {
+      "id": "draw",
+      "label": "Tekenen"
+    },
+    {
+      "id": "colour",
+      "label": "Kleuren"
+    },
+    {
+      "id": "explore",
+      "label": "Jouw ideeën"
+    }
+  ],
+  "stages": {
+    "notice": {
+      "title": "Kijk eens rustig.",
+      "instruction": "Zoek een rond hoofd, twee oren en de kleine onderdelen binnenin.",
+      "spoken": "Laten we naar onze kat kijken. Een grote ronde vorm is het hoofd, en bovenop staan twee kleine oren. We bouwen de tekening met deze eenvoudige vormen, één voor één.",
+      "hint": "Kijk waar de oren aan het hoofd vastzitten en zoek dan de kleine ogen binnenin.",
+      "notice": "Bekijk samen een afbeelding van een kat. Waar zitten de oren aan de kop vast?"
+    },
+    "round-head": {
+      "title": "Rond hoofd",
+      "instruction": "Maak een breed, rond hoofd. Laat binnenin ruimte voor het gezicht.",
+      "spoken": "We beginnen met een breed, rond hoofd. Kijk hoe mijn lijn helemaal rondgaat en terugkomt bij het begin. In deze grote vorm is ruimte voor het gezicht.",
+      "hint": "Beweeg je hele hand mee met de bocht. Een kleine opening is ook goed.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "left-ear": {
+      "title": "Linkeroor",
+      "instruction": "Voeg een kleine driehoek toe voor het linkeroor.",
+      "spoken": "Een kleine driehoek wordt ons eerste oor. Omhoog naar een punt en dan omlaag naar het hoofd. Katten kunnen hun oren naar geluiden draaien. Ons getekende oor blijft stil.",
+      "hint": "Zoek de bovenkant links van het hoofd. Maak de punt van je driehoek niet te scherp.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "right-ear": {
+      "title": "Rechteroor",
+      "instruction": "Voeg de andere driehoek rechtsboven toe.",
+      "spoken": "Maak nu een driehoek aan de andere kant. Laat een beetje ruimte tussen de oren.",
+      "hint": "Je oren mogen verschillend van grootte zijn. Kijk waar elk oor aan het hoofd vastzit.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "left-eye": {
+      "title": "Linkeroog",
+      "instruction": "Zet een klein, donker oog binnen het hoofd.",
+      "spoken": "Zet een klein, donker oog binnen het hoofd, iets boven het midden. Een klein ovaal is genoeg. Kijk hoeveel ruimte we eromheen laten.",
+      "hint": "Maak een stipje of een ovaal. Laat eronder wat ruimte over voor de neus.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "right-eye": {
+      "title": "Rechteroog",
+      "instruction": "Voeg het tweede oog toe, met een beetje ruimte ertussen.",
+      "spoken": "Zet het andere oogje tegenover het eerste. Laat er wat ruimte tussen.",
+      "hint": "Kijk recht tegenover je eerste oog. De ogen hoeven niet hetzelfde te zijn.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "little-nose": {
+      "title": "Neusje",
+      "instruction": "Teken een heel klein driehoekje onder de ogen voor de neus.",
+      "spoken": "Teken onder de ogen een klein driehoekje met de punt naar beneden. Dat is de neus. Rond deze kleine vorm blijft nog wat ruimte over in het ronde gezicht.",
+      "hint": "Een driehoekje of stipje kan tussen de ogen staan, iets lager.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "curved-mouth": {
+      "title": "Gebogen mond",
+      "instruction": "Maak twee kleine boogjes onder de neus die samen de mond vormen.",
+      "spoken": "Kijk hoe twee kleine boogjes onder de neus bij elkaar komen, een beetje als een zachte letter W. Zo krijgt onze tekening een vriendelijke mond. Jouw kat mag ook een andere uitdrukking krijgen.",
+      "hint": "Probeer één boogje en dan nog een ernaast. Eén boogje is ook goed.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "left-whisker-upper": {
+      "title": "Linkersnorhaar boven",
+      "instruction": "Laat een snorhaar vanaf de linkerwang naar buiten lopen.",
+      "spoken": "Laat vanaf de linkerwang een lichte lijn naar buiten lopen. Dat is een snorhaar. Echte katten gebruiken hun snorharen om voorwerpen dichtbij te voelen. Onze lijnen laten die bijzondere haren zien.",
+      "hint": "Begin bij de wang en laat je lijn naar buiten lopen.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "left-whisker-middle": {
+      "title": "Linkersnorhaar midden",
+      "instruction": "Voeg nog een linkersnorhaar toe en laat wat ruimte ertussen.",
+      "spoken": "Nog een lichte lijn onder de eerste. Laat er een beetje ruimte tussen.",
+      "hint": "Laat een kleine opening tussen je lijnen. Deze extra snorhaar mag je ook weglaten.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "left-whisker-lower": {
+      "title": "Linkersnorhaar onder",
+      "instruction": "Probeer een derde linkersnorhaar die een beetje schuin naar beneden loopt.",
+      "spoken": "Nog een lijn kan schuin naar beneden lopen, als een klein waaiertje. Je mag hem ook weglaten.",
+      "hint": "Een korte lijn kan ook. Je mag deze extra snorhaar weglaten.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "right-whisker-upper": {
+      "title": "Rechtersnorhaar boven",
+      "instruction": "Laat een snorhaar vanaf de rechterwang naar buiten lopen.",
+      "spoken": "Nu gaan we naar de andere wang. Begin bij het gezicht en maak een lijn naar rechts. Kijk hoe de snorharen onze kat breder laten lijken dan zijn ronde hoofd.",
+      "hint": "Beweeg weg van de rechterwang. Een gebogen of rechte lijn kan allebei.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "right-whisker-middle": {
+      "title": "Rechtersnorhaar midden",
+      "instruction": "Voeg nog een rechtersnorhaar toe met wat ruimte ernaast.",
+      "spoken": "Voeg nog een lichte snorhaar toe en laat een beetje ruimte. Je mag hem ook weglaten.",
+      "hint": "Geef elke lijn wat ruimte. Je mag dit detail weglaten.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "right-whisker-lower": {
+      "title": "Rechtersnorhaar onder",
+      "instruction": "Eindig met nog een rechtersnorhaar, als je wilt.",
+      "spoken": "Een laatste snorhaar kan schuin naar beneden lopen. De twee kanten mogen verschillend zijn.",
+      "hint": "De twee kanten mogen verschillend zijn. Kies zelf hoeveel snorharen je wilt.",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    },
+    "colour-choice": {
+      "title": "Kies je kleuren.",
+      "instruction": "Kies de kleuren van je kat. Ons voorbeeld wordt warm oranje, roze en crème.",
+      "spoken": "Nu geven we onze kat kleur. Ik kies warm oranje, roze en crème, zoals in een prentenboek. Kies kleuren die jij mooi vindt. Wit papier mag ook zichtbaar blijven.",
+      "hint": "Probeer je kleur eventueel eerst op een kladpapiertje om te zien hoe die eruitziet.",
+      "notice": "Laat je kind zelf kiezen of en met welke kleuren het wil kleuren. Met Meer tijd blijft dit moment open, zo lang als nodig is."
+    },
+    "colour-fur": {
+      "title": "Zachte kleur aan één kant.",
+      "instruction": "Kleur de linkerhelft van de vacht met zachte, overlappende streepjes.",
+      "spoken": "Kijk hoe zachte streepjes kleur geven aan de linkerwang en het oor. Kleine streepjes over elkaar maken een zacht stukje vacht. Ik laat de ogen en mond vrij, zodat we ze kunnen zien.",
+      "hint": "Lichte streepjes kunnen naast en over elkaar staan. Met Meer tijd krijg je zo veel tijd als je wilt.",
+      "notice": "Laat je kind zelf kiezen of en met welke kleuren het wil kleuren. Met Meer tijd blijft dit moment open, zo lang als nodig is."
+    },
+    "colour-fur-right": {
+      "title": "Kleur de andere kant.",
+      "instruction": "Kleur ook de andere helft van het gezicht en het oor.",
+      "spoken": "Kleur nu ook de andere wang en het oor. Als we steeds een klein stukje doen, kunnen we kiezen waar elk streepje komt. Witte plekjes mogen ook bij de vacht horen.",
+      "hint": "Draai je papier als dat prettig voelt. Je kleur mag licht, donker of vlekkerig zijn.",
+      "notice": "Laat je kind zelf kiezen of en met welke kleuren het wil kleuren. Met Meer tijd blijft dit moment open, zo lang als nodig is."
+    },
+    "colour-details": {
+      "title": "Kleur de kleine details.",
+      "instruction": "Probeer crème rond de mond en roze binnen de oren en op de neus.",
+      "spoken": "Ik maak het rond de mond crème en doe dan wat roze binnen de oren en op de neus. In kleine vakjes zijn maar een paar kleine streepjes nodig. Kijk hoe deze lichtere plekjes opvallen.",
+      "hint": "Een paar zachte streepjes zijn genoeg voor een klein plekje. Kies je eigen kleuren of laat het zoals het is.",
+      "notice": "Laat je kind zelf kiezen of en met welke kleuren het wil kleuren. Met Meer tijd blijft dit moment open, zo lang als nodig is."
+    },
+    "colour-patterns": {
+      "title": "Nog wat patronen.",
+      "instruction": "Voeg een paar donkere strepen of wangvlekjes toe, als je wilt.",
+      "spoken": "Een paar donkeroranje streepjes maken een patroon op het voorhoofd en de wangen van mijn kat. De streepjes volgen de ronde vorm van het gezicht. Probeer je eigen patroon, of laat je kat zoals die is.",
+      "hint": "Eén streep of vlekje kan al genoeg zijn. Je kat hoeft geen patroon te hebben.",
+      "notice": "Laat je kind zelf kiezen of en met welke kleuren het wil kleuren. Met Meer tijd blijft dit moment open, zo lang als nodig is."
+    },
+    "colour-reflection": {
+      "title": "Kijk eens rustig.",
+      "instruction": "Kijk naar de hele tekening. Welk streepje of welke kleur vind je mooi?",
+      "spoken": "Kijk naar de hele tekening. We gebruikten grote vormen, kleine details en laagjes kleur. Welk streepje vind jij mooi? Je kunt verder kleuren, een idee toevoegen of hier stoppen.",
+      "hint": "Je hoeft niets uit te leggen of te veranderen. Je hoeft niet snel klaar te zijn.",
+      "notice": "Laat je kind zelf kiezen of en met welke kleuren het wil kleuren. Met Meer tijd blijft dit moment open, zo lang als nodig is."
+    },
+    "explore": {
+      "title": "Maak er iets van jezelf van.",
+      "instruction": "Kleur verder, bedenk een huis voor je kat of stop hier.",
+      "spoken": "Onze kat is klaar voor jouw eigen ideeën. Misschien een hoed, een fijn huis of meer kleur. Je kunt zo lang doorgaan als je wilt, of hier stoppen.",
+      "hint": "Een klein detail kan een verhaal vertellen. Wat zou jij willen toevoegen?",
+      "notice": "Wijs links en rechts aan op het voorbeeld als dat helpt. Doe een oor voor op je eigen vel als je kind daarom vraagt. Verander de gezichtsuitdrukking van je kind niet en sta er niet op dat het evenveel snorharen tekent."
+    }
+  }
+}
