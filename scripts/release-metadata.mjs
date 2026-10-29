@@ -1,5 +1,8 @@
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import { isDeepStrictEqual } from "node:util";
 
 export const sha256 = bytes => createHash("sha256").update(bytes).digest("hex");
 
@@ -13,7 +16,18 @@ export function sourceIdentity(root, env = process.env) {
   if (head) {
     if (revision && revision !== head) throw new Error("Vercel commit differs from checkout");
     revision ??= head;
-    try { dirty = Boolean(git("status", "--porcelain", "--untracked-files=normal")); } catch { /* Unknown stays unknown. */ }
+    try {
+      const status = git("status", "--porcelain", "--untracked-files=normal");
+      dirty = Boolean(status);
+      // Vercel may reserialize its config before invoking the build. Permit only
+      // that unstaged, value-identical rewrite, retaining every other dirty check.
+      if (env.VERCEL === "1" && status === "M vercel.json" && !git("diff", "--summary", "--", "vercel.json")) {
+        dirty = !isDeepStrictEqual(
+          JSON.parse(git("show", "HEAD:vercel.json")),
+          JSON.parse(readFileSync(path.join(root, "vercel.json"), "utf8")),
+        );
+      }
+    } catch { /* Unknown stays unknown. */ }
   } else if (env.VERCEL === "1" && revision) {
     // Vercel source archives carry the deployment commit without a Git checkout.
     dirty = false;

@@ -14,6 +14,10 @@ test("the public release marker fingerprints the built HTML and exposes only rel
   assert.equal(release.indexSha256, sha256(document));
   assert.ok(release.revision === null || /^[a-f0-9]{40}$/.test(release.revision));
   assert.ok(release.dirty === null || typeof release.dirty === "boolean");
+  if (process.env.VERCEL === "1" && process.env.VERCEL_GIT_COMMIT_SHA) {
+    assert.equal(release.revision, process.env.VERCEL_GIT_COMMIT_SHA);
+    assert.equal(release.dirty, false, "Vercel must publish the committed source and configuration");
+  }
   const vercel = JSON.parse(await readFile(new URL("../vercel.json", import.meta.url), "utf8"));
   assert.ok(vercel.headers.find(h => h.source === "/release.json").headers.some(h => h.key === "Cache-Control" && h.value === "no-cache"));
 });

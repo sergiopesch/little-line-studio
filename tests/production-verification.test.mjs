@@ -43,6 +43,42 @@ test("release identity distinguishes clean Git, modified source and unidentified
   assert.throws(() => releaseMetadata(root, document, { VERCEL_GIT_COMMIT_SHA: commit }), /differs/);
 });
 
+test("Vercel config reserialization preserves identity without accepting source or configuration changes", t => {
+  const root = mkdtempSync(path.join(tmpdir(), "little-line-vercel-identity-"));
+  t.after(() => rmSync(root, { recursive: true, force: true }));
+  const git = (...args) => execFileSync("git", args, { cwd: root, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
+  const config = { outputDirectory: "dist/client", headers: [{ source: "/", headers: [{ key: "Cache-Control", value: "no-cache" }] }] };
+  const writeConfig = value => writeFileSync(path.join(root, "vercel.json"), value);
+  git("init");
+  git("config", "user.name", "Release fixture");
+  git("config", "user.email", "fixture@example.invalid");
+  writeConfig(JSON.stringify(config, null, 2) + "\n");
+  writeFileSync(path.join(root, "source.txt"), "source");
+  git("add", ".");
+  git("-c", "commit.gpgsign=false", "commit", "-m", "fixture");
+  const env = { VERCEL: "1", VERCEL_GIT_COMMIT_SHA: git("rev-parse", "HEAD") };
+  const dirty = () => releaseMetadata(root, document, env).dirty;
+
+  writeConfig(JSON.stringify({ headers: config.headers, outputDirectory: config.outputDirectory }));
+  assert.equal(dirty(), false, "formatting and object key order do not change Vercel configuration");
+  assert.equal(releaseMetadata(root, document, {}).dirty, true, "local edits remain dirty");
+  git("add", "vercel.json");
+  assert.equal(dirty(), true, "staged config edits remain dirty");
+  git("reset", "HEAD", "--", "vercel.json");
+  writeFileSync(path.join(root, "source.txt"), "changed");
+  assert.equal(dirty(), true, "other tracked changes remain dirty");
+  writeFileSync(path.join(root, "source.txt"), "source");
+  writeFileSync(path.join(root, "new-source.js"), "new source");
+  assert.equal(dirty(), true, "untracked source remains dirty");
+  rmSync(path.join(root, "new-source.js"));
+  writeConfig(JSON.stringify({ ...config, outputDirectory: "." }));
+  assert.equal(dirty(), true, "changed configuration values remain dirty");
+  writeConfig("invalid JSON");
+  assert.equal(dirty(), true, "unreadable configuration fails closed");
+  rmSync(path.join(root, "vercel.json"));
+  assert.equal(dirty(), true, "deleted configuration remains dirty");
+});
+
 function fixtureFetch(change = () => {}) {
   return async (url, options) => {
     assert.equal(options.redirect, "manual");

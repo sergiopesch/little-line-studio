@@ -47,6 +47,13 @@ export default defineConfig(({ command, mode }) => {
     preview: { host: "127.0.0.1", headers: securityHeaders },
     build: {
       outDir: "dist/client",
+      modulePreload: {
+        // WebKit can retain a failed preloaded entry that imports shared code
+        // from its importer. Let import() fetch that entry so an explicit retry
+        // can recover; preserve CSS and shared dependency preloads.
+        resolveDependencies: (entry, dependencies, { hostType }) =>
+          hostType === "js" ? dependencies.filter(dependency => dependency !== entry) : dependencies,
+      },
     },
     optimizeDeps: {
       include: ["react", "react-dom/client"],
