@@ -5,7 +5,7 @@ test("a failed board pauses safely and loads after restarting the lesson", async
   await page.goto("/");
   const boardModule = "**/src/DemonstrationBoard.jsx";
   await page.route(boardModule, route => route.abort("failed"));
-  await page.getByRole("button", { name: "Explore Basic drawing: 10 drawings", exact: true }).click();
+  await page.getByRole("button", { name: /^Basic drawing 10 drawings Explore(?: Basic)?$/ }).click();
   await page.getByRole("button", { name: "Nederlands Dutch", exact: true }).click();
   await page.locator("button.drawing-choice").first().click();
   await page.locator(".entry-supervision input").check();
@@ -47,7 +47,7 @@ test("a failed language download can be retried without changing language early"
   await page.goto("/");
   const module = "**/src/german-lessons.js";
   await page.route(module, route => route.abort("failed"));
-  await page.getByRole("button", { name: "Explore Basic drawing: 10 drawings", exact: true }).click();
+  await page.getByRole("button", { name: /^Basic drawing 10 drawings Explore(?: Basic)?$/ }).click();
   await page.getByRole("button", { name: "Deutsch German", exact: true }).click();
   await expect(page.getByRole("alert")).toBeVisible();
   await expect(page.locator("html")).toHaveAttribute("lang", "en-GB");

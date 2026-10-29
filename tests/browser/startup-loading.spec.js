@@ -17,7 +17,7 @@ test("slow studio loading stays silent, can be canceled, and commits only the la
   await page.route(studio, async route => { waiting = true; await delay; await route.continue(); });
   try {
     await page.goto("/");
-    const basic = page.getByRole("button", { name: "Explore Basic drawing: 10 drawings", exact: true });
+    const basic = page.getByRole("button", { name: /^Basic drawing 10 drawings Explore(?: Basic)?$/ });
     await expect(basic).toBeVisible();
     expect(heavyRequests, "home does not request the studio, board or recordings").toEqual([]);
     await basic.click();
@@ -33,7 +33,7 @@ test("slow studio loading stays silent, can be canceled, and commits only the la
     await expect(page.locator(".home-page")).toBeVisible();
     await expect(page.locator(".catalogue-page")).toHaveCount(0);
     await expect(page.locator("audio")).toHaveCount(0);
-    await page.getByRole("button", { name: "Explore Intermediate drawing: 10 drawings", exact: true }).click();
+    await page.getByRole("button", { name: /^Intermediate drawing 10 drawings Explore(?: Intermediate)?$/ }).click();
     await page.getByRole("button", { name: "Deutsch German", exact: true }).click();
     await expect(page.getByRole("status")).toHaveText("Loading lessons…");
     await page.getByRole("button", { name: "English British", exact: true }).click();

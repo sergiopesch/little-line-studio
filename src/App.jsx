@@ -611,7 +611,7 @@ export function App({ initialSelection = null }) {
                 <button
                   className="header-button"
                   onClick={musicOn ? muteMusic : enableMusic}
-                  aria-label={t(musicOn ? "Mute background music" : "Enable background music")}
+                  aria-label={`${t("Music")} ${t(musicOn ? "on" : "off")}: ${t(musicOn ? "Mute background music" : "Enable background music")}`}
                   aria-pressed={musicOn}
                 >
                   <MusicNotesIcon size={22} />
@@ -622,7 +622,7 @@ export function App({ initialSelection = null }) {
                 className="header-button"
                 onClick={pause}
                 disabled={lesson.phase !== "drawing"}
-                aria-label={t("Pause lesson")}
+                aria-label={`${t("lesson.pause")}: ${t("Pause lesson")}`}
               >
                 <PauseIcon size={22} />
                 <span className="button-label">{t("lesson.pause")}</span>
@@ -630,7 +630,7 @@ export function App({ initialSelection = null }) {
               <button
                 className="header-button"
                 onClick={() => openOverlay("settings")}
-                aria-label={t("Parent settings")}
+                aria-label={`${t("Grown-ups")}: ${t("Parent settings")}`}
               >
                 <GearSixIcon size={22} />
                 <span className="button-label">{t("Grown-ups")}</span>
@@ -661,7 +661,7 @@ export function App({ initialSelection = null }) {
                       replay();
                     }}
                     disabled={!active || !voiceAvailable}
-                    aria-label={t("Hear this instruction again")}
+                    aria-label={`${t("lesson.replayInstruction")}: ${t("Hear this instruction again")}`}
                   >
                     <SpeakerHighIcon size={21} />
                     <span>{t("lesson.replayInstruction")}</span>

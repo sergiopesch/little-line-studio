@@ -548,14 +548,14 @@ h2:focus {
   font-size: 12px;
 }
 
-/* The lesson is a height-aware grid. Only the board gives up space. */
+/* The board gives up spare space, but short windows can scroll before it vanishes. */
 .studio {
   width: 100%;
   max-width: 1440px;
   margin: auto;
   padding: 0 clamp(12px, 2.5vw, 32px) 8px;
-  height: 100dvh;
-  min-height: 400px;
+  height: auto;
+  min-height: max(400px, 100dvh);
   display: grid;
   grid-template-rows: 64px minmax(0, 1fr) 36px;
   gap: 8px;
@@ -582,7 +582,7 @@ h2:focus {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   grid-template-rows: auto minmax(0, 1fr) auto;
-  min-height: 0;
+  min-height: min-content;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 16px;
@@ -662,7 +662,7 @@ h2:focus {
 .workspace {
   display: grid;
   grid-template-rows: 34px minmax(0, 1fr) 42px;
-  min-height: 0;
+  min-height: min-content;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   background: var(--surface-soft);
@@ -680,7 +680,7 @@ h2:focus {
 }
 .board-surface {
   position: relative;
-  min-height: 0;
+  min-height: 120px;
   isolation: isolate;
 }
 .demonstration-board {
@@ -927,16 +927,6 @@ h2:focus {
   border-radius: 11px;
   background: var(--surface-soft);
   margin: 18px 0 0;
-}
-.settings-modal[open] {
-  display: grid;
-  grid-template-rows: auto auto minmax(0, 1fr) auto;
-  overflow: hidden;
-}
-.settings-modal [role="tabpanel"] {
-  min-height: 0;
-  overflow-y: auto;
-  scrollbar-width: thin;
 }
 .settings-modal .settings-tabs {
   margin-top: 14px;
