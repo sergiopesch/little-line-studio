@@ -3,6 +3,33 @@ import assert from "node:assert/strict";
 import { LANGUAGES } from "../src/languages.js";
 import { UI_DICTIONARIES, translate } from "../src/ui-translations.js";
 import SPANISH_UI from "../src/spanish-ui.es-419.json" with { type: "json" };
+import { UI_MESSAGE_SOURCES, resolveUIMessage } from "../src/ui-message-sources.js";
+import contexts from "../docs/localization/message-context.json" with { type: "json" };
+
+test("contextual messages have audience guidance and explicit local entries", () => {
+  assert.deepEqual(Object.keys(contexts).sort(), Object.keys(UI_MESSAGE_SOURCES).sort());
+  for (const [id, source] of Object.entries(UI_MESSAGE_SOURCES)) {
+    for (const field of ["audience", "intent", "constraint"]) assert.ok(contexts[id][field]?.trim(), `${id}: ${field}`);
+    for (const [locale, dictionary] of Object.entries(UI_DICTIONARIES)) {
+      if (dictionary) assert.ok(Object.hasOwn(dictionary, id) && dictionary[id].trim(), `${locale}: ${id}`);
+      assert.equal(translate(locale, id), dictionary ? dictionary[id] : source);
+    }
+    assert.equal(translate("unknown", id), source, "fallback never exposes a known message ID");
+  }
+});
+
+test("identical English words can be adapted independently by context", () => {
+  const dictionary = {
+    "Stop voice check": "Legacy sample stop",
+    "setup.stopVoicePreview": "Stop greeting preview",
+    "settings.stopVoicePreview": "Stop settings sample",
+  };
+  assert.equal(resolveUIMessage(dictionary, "setup.stopVoicePreview"), "Stop greeting preview");
+  assert.equal(resolveUIMessage(dictionary, "settings.stopVoicePreview"), "Stop settings sample");
+  assert.equal(resolveUIMessage(dictionary, "Stop voice check"), "Legacy sample stop");
+  assert.equal(resolveUIMessage({ "Stop voice check": "Legacy sample stop" }, "setup.stopVoicePreview"), "Legacy sample stop");
+  assert.equal(resolveUIMessage(Object.create(dictionary), "setup.stopVoicePreview"), "Stop voice check");
+});
 
 test("every selectable language explicitly registers static UI copy", () => {
   assert.deepEqual(Object.keys(UI_DICTIONARIES).sort(), LANGUAGES.map(({ id }) => id).sort());

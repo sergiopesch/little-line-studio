@@ -203,5 +203,13 @@
   "Estimates are a guide. More time is always yours.": "Los tiempos son orientativos. Siempre puedes tomar más tiempo.",
   "The drawing demonstration is unavailable.": "La demostración de dibujo no está disponible.",
   "You can keep using the written instructions together. Your drawing stays on paper.": "Pueden continuar juntos con las instrucciones escritas. Su dibujo queda en el papel.",
-  "Try loading the demonstration again": "Intentar cargar la demostración de nuevo"
+  "Try loading the demonstration again": "Intentar cargar la demostración de nuevo",
+  "lesson.pause": "Pausar",
+  "lesson.moreTime": "Más tiempo",
+  "lesson.replayInstruction": "Escuchar de nuevo",
+  "lesson.replayDemonstration": "Mostrar de nuevo",
+  "help.playHint": "Escuchar la pista",
+  "help.stopHint": "Detener la pista",
+  "setup.stopVoicePreview": "Detener la prueba de voz",
+  "settings.stopVoicePreview": "Detener la prueba de voz"
 }

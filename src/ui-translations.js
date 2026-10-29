@@ -4,6 +4,7 @@ import { FRENCH_UI } from "./french-ui.fr-FR.js";
 import GERMAN_UI from "./german-ui.de-DE.json" with { type: "json" };
 import ITALIAN_UI from "./italian-ui.it-IT.json" with { type: "json" };
 import DUTCH_UI from "./dutch-ui.nl-NL.json" with { type: "json" };
+import { resolveUIMessage } from "./ui-message-sources.js";
 
 // Explicit English entries distinguish shared source copy from a forgotten locale.
 // Keep this independent of React and lesson/audio data so fallbacks can use it too.
@@ -21,5 +22,5 @@ export const UI_DICTIONARIES = Object.freeze({
 
 export function translate(locale, text) {
   const dictionary = Object.hasOwn(UI_DICTIONARIES, locale) ? UI_DICTIONARIES[locale] : null;
-  return dictionary && Object.hasOwn(dictionary, text) ? dictionary[text] : text;
+  return resolveUIMessage(dictionary, text);
 }

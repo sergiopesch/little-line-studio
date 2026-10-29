@@ -1,0 +1,10 @@
+{
+  "lesson.pause": { "audience": "child and supervising adult", "intent": "Stop the lesson, demonstration and sound; an adult confirms before resuming.", "constraint": "Do not imply ending, losing work or advancing." },
+  "lesson.moreTime": { "audience": "child and supervising adult", "intent": "Hold this stage until Continue lesson is chosen, with no time limit.", "constraint": "Do not imply buying time, a fixed extra interval or stopping music." },
+  "lesson.replayInstruction": { "audience": "child and supervising adult", "intent": "Hear this spoken instruction again.", "constraint": "Distinguish listening from showing the drawing movement." },
+  "lesson.replayDemonstration": { "audience": "child and supervising adult", "intent": "Show this drawing movement again, preserving earlier stages.", "constraint": "Do not imply restarting the whole lesson or erasing paper." },
+  "help.playHint": { "audience": "child and supervising adult", "intent": "Play the requested explanation while music continues softly.", "constraint": "Refer to listening to help, not revealing an answer or grading." },
+  "help.stopHint": { "audience": "child and supervising adult", "intent": "Stop the spoken hint; the help dialog remains open.", "constraint": "Do not imply closing Help, stopping music or ending the lesson." },
+  "setup.stopVoicePreview": { "audience": "supervising adult with child", "intent": "Stop the greeting preview before the lesson begins.", "constraint": "This does not disable narration or start the lesson. Can differ from the settings control." },
+  "settings.stopVoicePreview": { "audience": "supervising adult", "intent": "Stop the voice sample played from parent settings.", "constraint": "This does not disable narration. Can differ from the pre-lesson greeting control." }
+}

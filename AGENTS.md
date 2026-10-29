@@ -9,4 +9,5 @@ This is the standalone public Vercel repository. Preserve the parent-supervised,
 - Never generate paid media without explicit authorization and a bounded budget. Builds and tests must remain offline with respect to generation services.
 - Change only files needed for the task. Keep credentials, media caches, provider receipts, output and local deployment configuration out of Git.
 - Run `npm run check` after implementation changes. For deployment changes, verify the live headers, missing/private paths, audio range playback and English/Spanish browser flows. Update relevant documentation.
+- For locale additions or wording, message-context, or narration changes, read `docs/localization/README.md` and the relevant locale guide; keep source-linked text, recording identity and review evidence aligned.
 - Vercel publishes only `dist/client`, with headers from `vercel.json` checked against `config/security.js`. Do not reintroduce legacy Sites identifiers or packaging into this repository.

@@ -205,5 +205,13 @@
   "This lesson is being prepared.": "Esta clase está en preparación.",
   "The drawing demonstration is unavailable.": "La demostración de dibujo no está disponible.",
   "You can keep using the written instructions together. Your drawing stays on paper.": "Podéis continuar juntos con las instrucciones escritas. Tu dibujo se queda en el papel.",
-  "Try loading the demonstration again": "Volver a cargar la demostración"
+  "Try loading the demonstration again": "Volver a cargar la demostración",
+  "lesson.pause": "Pausar",
+  "lesson.moreTime": "Más tiempo",
+  "lesson.replayInstruction": "Escuchar de nuevo",
+  "lesson.replayDemonstration": "Mostrar de nuevo",
+  "help.playHint": "Escuchar la pista",
+  "help.stopHint": "Detener la pista",
+  "setup.stopVoicePreview": "Detener la prueba de voz",
+  "settings.stopVoicePreview": "Detener la prueba de voz"
 }

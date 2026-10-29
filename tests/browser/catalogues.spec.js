@@ -1,4 +1,5 @@
 import { test, expect } from "./fixtures.js";
+import { UI_DICTIONARIES } from "../../src/ui-translations.js";
 
 for (const [name, locale, setupTitle] of [
   ["English British", "en-GB", "Ready to draw together?"],
@@ -37,6 +38,7 @@ for (const [name, locale, setupTitle] of [
     await page.locator("details.entry-sound summary").click();
     await page.locator(".entry-sound-check").first().click();
     await expect.poll(() => page.locator("audio").first().evaluate(audio => !audio.paused && audio.currentTime > 0.2 && audio.duration > 0)).toBe(true);
+    await expect(page.locator(".entry-sound-check").first()).toHaveText(UI_DICTIONARIES[locale]?.["setup.stopVoicePreview"] ?? "Stop voice check");
     await page.locator(".entry-sound-check").first().click();
     await expect.poll(() => page.locator("audio").first().evaluate(audio => audio.paused)).toBe(true);
     await expect(page.locator(".entry-confirmation-actions .primary")).toBeDisabled();

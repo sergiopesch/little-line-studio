@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 1,
+  "lessonId": "cat",
+  "assessedAt": "2026-10-29",
+  "locales": {
+    "en-GB": {
+      "locale": "en-GB",
+      "sourceSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "localizedSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "audioSha256": "576435b3fbf7807c45411637cdaba084b68876e58ce6eb653e5aa35673cc7771",
+      "interfaceSha256": "e4f2f2dfce37ccef17196f158920c76ebb06a9ea6c0afc403ffcf6c33f6a995c",
+      "stageIds": [
+        "notice",
+        "round-head",
+        "left-ear",
+        "right-ear",
+        "left-eye",
+        "right-eye",
+        "little-nose",
+        "curved-mouth",
+        "left-whisker-upper",
+        "left-whisker-middle",
+        "left-whisker-lower",
+        "right-whisker-upper",
+        "right-whisker-middle",
+        "right-whisker-lower",
+        "colour-choice",
+        "colour-fur",
+        "colour-fur-right",
+        "colour-details",
+        "colour-patterns",
+        "colour-reflection",
+        "explore"
+      ],
+      "reviewType": "assistant-text-only",
+      "nativeReview": "pending",
+      "humanListening": "pending",
+      "assessment": "All 21 stages were inspected across screen text, spoken script, hints and adult guidance. The sequence preserves left/right placement, optional extra whiskers, colour choice, readable face details and open exploration. The three English variants currently share this text; they have independent recording identities.",
+      "followUps": [
+        {
+          "stageId": "round-head",
+          "reason": "The adult note says “the child’s expression”; the intended referent is the expression on the drawn cat, not the child’s face.",
+          "proposal": "Consider “Let your child choose the cat’s expression” when the adult-note source is next edited; reconcile its localized notes at the same time."
+        }
+      ]
+    },
+    "en-IE": {
+      "locale": "en-IE",
+      "sourceSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "localizedSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "audioSha256": "cb7ae640d08851af9cae8d1e368f6c58c8538fcfdd65ac4edf4a340663ad70f9",
+      "interfaceSha256": "e4f2f2dfce37ccef17196f158920c76ebb06a9ea6c0afc403ffcf6c33f6a995c",
+      "stageIds": [
+        "notice",
+        "round-head",
+        "left-ear",
+        "right-ear",
+        "left-eye",
+        "right-eye",
+        "little-nose",
+        "curved-mouth",
+        "left-whisker-upper",
+        "left-whisker-middle",
+        "left-whisker-lower",
+        "right-whisker-upper",
+        "right-whisker-middle",
+        "right-whisker-lower",
+        "colour-choice",
+        "colour-fur",
+        "colour-fur-right",
+        "colour-details",
+        "colour-patterns",
+        "colour-reflection",
+        "explore"
+      ],
+      "reviewType": "assistant-text-only",
+      "nativeReview": "pending",
+      "humanListening": "pending",
+      "assessment": "All 21 shared-English stages and their locale-specific recording references were inspected. Teaching meaning is shared with British English, while accent and prosody require independent listening. No dialect rewrite or substituted British recording is introduced.",
+      "followUps": [
+        {
+          "stageId": "round-head",
+          "reason": "The adult note says “the child’s expression”; the intended referent is the expression on the drawn cat, not the child’s face.",
+          "proposal": "Consider “Let your child choose the cat’s expression” when the adult-note source is next edited; reconcile its localized notes at the same time."
+        }
+      ]
+    },
+    "en-GB-x-scotland": {
+      "locale": "en-GB-x-scotland",
+      "sourceSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "localizedSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "audioSha256": "1f6cf6da02025481bbc2224577d2dd206a8cacf38281d74c1fd467b8cd22393b",
+      "interfaceSha256": "e4f2f2dfce37ccef17196f158920c76ebb06a9ea6c0afc403ffcf6c33f6a995c",
+      "stageIds": [
+        "notice",
+        "round-head",
+        "left-ear",
+        "right-ear",
+        "left-eye",
+        "right-eye",
+        "little-nose",
+        "curved-mouth",
+        "left-whisker-upper",
+        "left-whisker-middle",
+        "left-whisker-lower",
+        "right-whisker-upper",
+        "right-whisker-middle",
+        "right-whisker-lower",
+        "colour-choice",
+        "colour-fur",
+        "colour-fur-right",
+        "colour-details",
+        "colour-patterns",
+        "colour-reflection",
+        "explore"
+      ],
+      "reviewType": "assistant-text-only",
+      "nativeReview": "pending",
+      "humanListening": "pending",
+      "assessment": "All 21 shared-English stages and independent Scottish recording references were inspected. Geometry, optional details, colouring and open exploration stay aligned. No claim of native accent or listening approval is made.",
+      "followUps": [
+        {
+          "stageId": "round-head",
+          "reason": "The adult note says “the child’s expression”; the intended referent is the expression on the drawn cat, not the child’s face.",
+          "proposal": "Consider “Let your child choose the cat’s expression” when the adult-note source is next edited; reconcile its localized notes at the same time."
+        }
+      ]
+    },
+    "es-419": {
+      "locale": "es-419",
+      "sourceSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "localizedSha256": "b496689f028af16f63306b9452726af0023ac4b42773fa1103cdcbfc056ef415",
+      "audioSha256": "e6649525849bd0ef711b74316e900fa25dcf7fd914d56ab5f4d1204009b1c9ba",
+      "interfaceSha256": "94c446c6dd7b41b28587bc401337f040c9805794e917550bd8ecddcd0042c305",
+      "stageIds": [
+        "notice",
+        "round-head",
+        "left-ear",
+        "right-ear",
+        "left-eye",
+        "right-eye",
+        "little-nose",
+        "curved-mouth",
+        "left-whisker-upper",
+        "left-whisker-middle",
+        "left-whisker-lower",
+        "right-whisker-upper",
+        "right-whisker-middle",
+        "right-whisker-lower",
+        "colour-choice",
+        "colour-fur",
+        "colour-fur-right",
+        "colour-details",
+        "colour-patterns",
+        "colour-reflection",
+        "explore"
+      ],
+      "reviewType": "assistant-text-only",
+      "nativeReview": "pending",
+      "humanListening": "pending",
+      "assessment": "All 21 localized stages were compared with the source. Optional whiskers, left/right placement, drawing on paper and the colour-choice invitation remain explicit. Regional vocabulary differs deliberately from Spain. One eye-placement phrase merits a clarity check.",
+      "followUps": [
+        {
+          "stageId": "right-eye",
+          "reason": "“Frente al primero” may be less spatially explicit than the caption and hint; the intended action is placing the second eye across the face.",
+          "proposal": "Evaluate “al otro lado de la cara” with a fluent/native listener. Any spoken edit needs a newly matched recording before release."
+        },
+        {
+          "stageId": "round-head",
+          "reason": "The adult note says “the child’s expression”; the intended referent is the expression on the drawn cat, not the child’s face.",
+          "proposal": "Consider “Let your child choose the cat’s expression” when the adult-note source is next edited; reconcile its localized notes at the same time."
+        }
+      ]
+    },
+    "es-ES": {
+      "locale": "es-ES",
+      "sourceSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "localizedSha256": "2a3958730740055425f0ea7e8fea52ebfb8ebf958559481a7dec996d55eb6317",
+      "audioSha256": "0a3599e113e039d9b2f7ffaf29112c6dcf736e4c072912e75c5170d78450e17b",
+      "interfaceSha256": "94c446c6dd7b41b28587bc401337f040c9805794e917550bd8ecddcd0042c305",
+      "stageIds": [
+        "notice",
+        "round-head",
+        "left-ear",
+        "right-ear",
+        "left-eye",
+        "right-eye",
+        "little-nose",
+        "curved-mouth",
+        "left-whisker-upper",
+        "left-whisker-middle",
+        "left-whisker-lower",
+        "right-whisker-upper",
+        "right-whisker-middle",
+        "right-whisker-lower",
+        "colour-choice",
+        "colour-fur",
+        "colour-fur-right",
+        "colour-details",
+        "colour-patterns",
+        "colour-reflection",
+        "explore"
+      ],
+      "reviewType": "assistant-text-only",
+      "nativeReview": "pending",
+      "humanListening": "pending",
+      "assessment": "All 21 stages were compared with the English and Latin American versions. Spain-specific vocabulary, eye placement and letter name are already adapted. The child/family distinction is preserved in the text; spoken cadence remains a listening task.",
+      "followUps": [
+        {
+          "stageId": "round-head",
+          "reason": "The adult note says “the child’s expression”; the intended referent is the expression on the drawn cat, not the child’s face.",
+          "proposal": "Consider “Let your child choose the cat’s expression” when the adult-note source is next edited; reconcile its localized notes at the same time."
+        }
+      ]
+    },
+    "fr-FR": {
+      "locale": "fr-FR",
+      "sourceSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "localizedSha256": "f42719331794ab923de04e1f3c4fa591bc9a7278a640148ac5419bcf54fa17db",
+      "audioSha256": "2138e446fa4d7d2b50c8fcef663cb86aafedd78ed3c4d021fbe158211d076f9f",
+      "interfaceSha256": "94d5f636953f923b465abeb0f98fb2cf64ad00d2f846d916b3e0ab22929ca456",
+      "stageIds": [
+        "notice",
+        "round-head",
+        "left-ear",
+        "right-ear",
+        "left-eye",
+        "right-eye",
+        "little-nose",
+        "curved-mouth",
+        "left-whisker-upper",
+        "left-whisker-middle",
+        "left-whisker-lower",
+        "right-whisker-upper",
+        "right-whisker-middle",
+        "right-whisker-lower",
+        "colour-choice",
+        "colour-fur",
+        "colour-fur-right",
+        "colour-details",
+        "colour-patterns",
+        "colour-reflection",
+        "explore"
+      ],
+      "reviewType": "assistant-text-only",
+      "nativeReview": "pending",
+      "humanListening": "pending",
+      "assessment": "All 21 stages preserve the drawing sequence, optional extra moustaches, independent colour choices and open exploration. Child and adult forms are distinct. One caption should be reviewed for whether it clearly identifies the second ear.",
+      "followUps": [
+        {
+          "stageId": "colour-fur-right",
+          "reason": "“L’autre moitié du visage et de l’oreille” can suggest the other half of one ear, while the spoken cue describes the other cheek and ear.",
+          "proposal": "Consider “Colorie aussi l’autre moitié du visage et l’autre oreille.” Check it against the right-side demonstration before editing the caption."
+        },
+        {
+          "stageId": "round-head",
+          "reason": "The adult note says “the child’s expression”; the intended referent is the expression on the drawn cat, not the child’s face.",
+          "proposal": "Consider “Let your child choose the cat’s expression” when the adult-note source is next edited; reconcile its localized notes at the same time."
+        }
+      ]
+    },
+    "de-DE": {
+      "locale": "de-DE",
+      "sourceSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "localizedSha256": "01b83446dd9cdd8fe5f4274687a0bcf7c5ea44c7bf20471a977da7fe4641fdfc",
+      "audioSha256": "a8b733c5c26e3e62a483b88aeb62b711254eaa86101de7773daefec0dfe705c8",
+      "interfaceSha256": "0c030a7603adbfdc25634e054ddaa5750968ec9ebf463e234b29170f521cbf3f",
+      "stageIds": [
+        "notice",
+        "round-head",
+        "left-ear",
+        "right-ear",
+        "left-eye",
+        "right-eye",
+        "little-nose",
+        "curved-mouth",
+        "left-whisker-upper",
+        "left-whisker-middle",
+        "left-whisker-lower",
+        "right-whisker-upper",
+        "right-whisker-middle",
+        "right-whisker-lower",
+        "colour-choice",
+        "colour-fur",
+        "colour-fur-right",
+        "colour-details",
+        "colour-patterns",
+        "colour-reflection",
+        "explore"
+      ],
+      "reviewType": "assistant-text-only",
+      "nativeReview": "pending",
+      "humanListening": "pending",
+      "assessment": "All 21 stages were inspected. Directions, optionality, cream/pink detail placement and the freedom to leave white areas are preserved. The child/adult/family forms are context-dependent. Full native and perceptual listening remain pending.",
+      "followUps": [
+        {
+          "stageId": "notice",
+          "reason": "Formal Sie in adult notes and informal ihr in family UI can be appropriate for different audiences, but their transition should be evaluated in the complete flow.",
+          "proposal": "Ask a German-speaking adult to review setup, settings and Cat together before choosing any broader register change."
+        }
+      ]
+    },
+    "it-IT": {
+      "locale": "it-IT",
+      "sourceSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "localizedSha256": "8085afd867e4c267b8082d235c2846821a597a8ab8acab00a0dc4f4db315ee7d",
+      "audioSha256": "cc0ef138e155c9c36a6202e32c427f75b0cc070922f19bbc0caf7b53c2beac45",
+      "interfaceSha256": "c89dda91e7d126abe25acd8d9d63b2eeb410861d7f05533c9a438bc2a40cd0f4",
+      "stageIds": [
+        "notice",
+        "round-head",
+        "left-ear",
+        "right-ear",
+        "left-eye",
+        "right-eye",
+        "little-nose",
+        "curved-mouth",
+        "left-whisker-upper",
+        "left-whisker-middle",
+        "left-whisker-lower",
+        "right-whisker-upper",
+        "right-whisker-middle",
+        "right-whisker-lower",
+        "colour-choice",
+        "colour-fur",
+        "colour-fur-right",
+        "colour-details",
+        "colour-patterns",
+        "colour-reflection",
+        "explore"
+      ],
+      "reviewType": "assistant-text-only",
+      "nativeReview": "pending",
+      "humanListening": "pending",
+      "assessment": "All 21 stages preserve the two-ear/eye structure, downward nose point, optional extra whiskers and colouring sequence. The adult note already names the cat’s expression explicitly. Caption, speech and hint use different lengths without changing the action.",
+      "followUps": [
+        {
+          "stageId": "right-eye",
+          "reason": "“Di fronte al primo” is supported by the hint, but placement should be checked while watching the second eye appear.",
+          "proposal": "Ask the reviewer whether “dall’altra parte del viso” would be clearer for the intended children. Keep the current recording until a wording change is approved and matched."
+        }
+      ]
+    },
+    "nl-NL": {
+      "locale": "nl-NL",
+      "sourceSha256": "be0d4db1720de78a9d395c2c0103340a1e0d1ea089bf127fb27d7e1ca281b9f1",
+      "localizedSha256": "2c83bfad0eb3ad1343e6fd753cbc42bb47b626dcff69d62f49569a68a1356685",
+      "audioSha256": "5b11d129e68386219f80046818eafa1c9240636823ade8c8bb8a8dedaf897a56",
+      "interfaceSha256": "e8e013bacc0111f88e1a5017284d53735a1ccab1715bdf4c2b96345a558bc560",
+      "stageIds": [
+        "notice",
+        "round-head",
+        "left-ear",
+        "right-ear",
+        "left-eye",
+        "right-eye",
+        "little-nose",
+        "curved-mouth",
+        "left-whisker-upper",
+        "left-whisker-middle",
+        "left-whisker-lower",
+        "right-whisker-upper",
+        "right-whisker-middle",
+        "right-whisker-lower",
+        "colour-choice",
+        "colour-fur",
+        "colour-fur-right",
+        "colour-details",
+        "colour-patterns",
+        "colour-reflection",
+        "explore"
+      ],
+      "reviewType": "assistant-text-only",
+      "nativeReview": "pending",
+      "humanListening": "pending",
+      "assessment": "All 21 stages preserve left/right placement, optional whiskers, independent colours and the option to finish. The visual/spoken distinction is intact. The recurring parent note has a referent ambiguity worth correcting in a coordinated editorial update.",
+      "followUps": [
+        {
+          "stageId": "round-head",
+          "reason": "“Verander de gezichtsuitdrukking van je kind niet” can refer to the child’s own facial expression; the intended subject is the drawn cat.",
+          "proposal": "Consider “Laat je kind zelf de gezichtsuitdrukking van de getekende kat kiezen.” Reconcile the repeated adult note in every affected stage and its source record before release."
+        }
+      ]
+    }
+  }
+}

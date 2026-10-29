@@ -208,6 +208,14 @@
     "Lesson timeline": "Cronologia della lezione",
     "Guided lesson progress": "Avanzamento della lezione guidata",
     "Colouring": "Colorare",
-    "Your own time": "Il tuo momento"
+    "Your own time": "Il tuo momento",
+    "lesson.pause": "Pausa",
+    "lesson.moreTime": "Più tempo",
+    "lesson.replayInstruction": "Ascolta di nuovo",
+    "lesson.replayDemonstration": "Mostra di nuovo",
+    "help.playHint": "Ascolta il suggerimento",
+    "help.stopHint": "Interrompi il suggerimento",
+    "setup.stopVoicePreview": "Interrompi la prova della voce",
+    "settings.stopVoicePreview": "Interrompi la prova della voce"
   }
 }

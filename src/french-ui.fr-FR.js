@@ -206,5 +206,13 @@ export const FRENCH_UI = Object.freeze({
   "Paused · nothing moves ahead": "En pause · rien n’avance",
   "More time · estimate paused": "Plus de temps · estimation en pause",
   "Less than a minute left": "Moins d’une minute restante",
-  "Estimates are a guide. More time is always yours.": "Les durées sont indicatives. Tu peux toujours prendre plus de temps."
+  "Estimates are a guide. More time is always yours.": "Les durées sont indicatives. Tu peux toujours prendre plus de temps.",
+  "lesson.pause": "Pause",
+  "lesson.moreTime": "Plus de temps",
+  "lesson.replayInstruction": "Réécouter",
+  "lesson.replayDemonstration": "Montrer à nouveau",
+  "help.playHint": "Écouter l’indice",
+  "help.stopHint": "Arrêter l’indice",
+  "setup.stopVoicePreview": "Arrêter l’essai de la voix",
+  "settings.stopVoicePreview": "Arrêter l’essai de la voix"
 });
