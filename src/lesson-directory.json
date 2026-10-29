@@ -1,0 +1,122 @@
+[
+  {
+    "id": "cat",
+    "level": "basic"
+  },
+  {
+    "id": "sun",
+    "level": "basic"
+  },
+  {
+    "id": "rainbow",
+    "level": "basic"
+  },
+  {
+    "id": "balloon",
+    "level": "basic"
+  },
+  {
+    "id": "flower",
+    "level": "basic"
+  },
+  {
+    "id": "apple",
+    "level": "basic"
+  },
+  {
+    "id": "fish",
+    "level": "basic"
+  },
+  {
+    "id": "ladybird",
+    "level": "basic"
+  },
+  {
+    "id": "ice-cream",
+    "level": "basic"
+  },
+  {
+    "id": "mushroom",
+    "level": "basic"
+  },
+  {
+    "id": "dog",
+    "level": "intermediate"
+  },
+  {
+    "id": "turtle",
+    "level": "intermediate"
+  },
+  {
+    "id": "butterfly",
+    "level": "intermediate"
+  },
+  {
+    "id": "owl",
+    "level": "intermediate"
+  },
+  {
+    "id": "sailboat",
+    "level": "intermediate"
+  },
+  {
+    "id": "rocket",
+    "level": "intermediate"
+  },
+  {
+    "id": "house",
+    "level": "intermediate"
+  },
+  {
+    "id": "train",
+    "level": "intermediate"
+  },
+  {
+    "id": "cactus",
+    "level": "intermediate"
+  },
+  {
+    "id": "robot",
+    "level": "intermediate"
+  },
+  {
+    "id": "bird",
+    "level": "expert"
+  },
+  {
+    "id": "fox",
+    "level": "expert"
+  },
+  {
+    "id": "elephant",
+    "level": "expert"
+  },
+  {
+    "id": "rabbit",
+    "level": "expert"
+  },
+  {
+    "id": "cup",
+    "level": "expert"
+  },
+  {
+    "id": "fruit-bowl",
+    "level": "expert"
+  },
+  {
+    "id": "tree-path",
+    "level": "expert"
+  },
+  {
+    "id": "castle",
+    "level": "expert"
+  },
+  {
+    "id": "lighthouse",
+    "level": "expert"
+  },
+  {
+    "id": "coral",
+    "level": "expert"
+  }
+]

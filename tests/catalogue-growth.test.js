@@ -37,10 +37,14 @@ test("drawing counts use localized singular and plural forms", () => {
 
 async function renderFixture(catalogue) {
   const compiled = await build({
-    stdin: { contents: 'export { Home, Catalogue } from "./src/Home.jsx"; export { LocaleContext } from "./src/i18n.jsx";', resolveDir: process.cwd() },
+    stdin: { contents: 'export { Home } from "./src/Home.jsx"; export { Catalogue } from "./src/Catalogue.jsx"; export { LocaleContext } from "./src/i18n.jsx";', resolveDir: process.cwd() },
     bundle: true, write: false, platform: "node", format: "cjs", jsx: "automatic", loader: { ".css": "empty" },
     external: ["react", "react/jsx-runtime", "react-dom", "react-dom/server"],
     plugins: [{ name: "catalogue-growth", setup(builder) {
+      builder.onResolve({ filter: /lesson-directory\.json$/ }, () => ({ path: "directory", namespace: "directory-fixture" }));
+      builder.onLoad({ filter: /.*/, namespace: "directory-fixture" }, () => ({
+        contents: JSON.stringify(catalogue.map(({ id, level }) => ({ id, level }))), loader: "json",
+      }));
       builder.onResolve({ filter: /lesson-catalogue\.js$/ }, args => args.namespace === "catalogue-fixture" ? undefined : { path: "catalogue", namespace: "catalogue-fixture" });
       builder.onLoad({ filter: /.*/, namespace: "catalogue-fixture" }, () => ({
         contents: `export * from './src/lesson-catalogue.js'; export const LESSONS = ${JSON.stringify(catalogue)};`,

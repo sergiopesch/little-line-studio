@@ -1,6 +1,24 @@
 import { test, expect } from "@playwright/test";
 import { audioSilent } from "./fixtures.js";
 
+test("a failed compiled studio download retries from the language picker without starting audio", async ({ page }) => {
+  const studio = "**/assets/App-*.js";
+  let blocked = 0;
+  await page.route(studio, route => { blocked++; return route.abort("failed"); });
+  await page.goto("/");
+  await page.getByRole("button", { name: "Explore Basic drawing: 10 drawings", exact: true }).click();
+  await page.getByRole("button", { name: "English British", exact: true }).click();
+  await expect(page.getByRole("alert")).toBeVisible();
+  expect(blocked).toBeGreaterThan(0);
+  await expect(page.locator("html")).toHaveAttribute("lang", "en-GB");
+  await expect(page.locator("audio")).toHaveCount(0);
+  await page.unroute(studio);
+  await page.getByRole("button", { name: "English British", exact: true }).click();
+  await expect(page.locator(".catalogue-page")).toBeVisible();
+  await expect.poll(() => audioSilent(page)).toBe(true);
+  await expect(page.getByRole("alert")).toHaveCount(0);
+});
+
 test("a failed compiled drawing download pauses and recovers after a supervised restart", async ({ page }) => {
   const board = "**/assets/DemonstrationBoard-*.js";
   let blocked = 0;

@@ -9,7 +9,7 @@ test("partial Spanish catalogue offers released drawings and labels unavailable 
   // Use a single released lesson so the result is independent of the active release.
   const compiled = await build({
     stdin: {
-      contents: 'export { Catalogue } from "./src/Home.jsx"; export { LanguagePicker } from "./src/LanguagePicker.jsx"; export { LocaleContext } from "./src/i18n.jsx"; export { LESSONS, getLevel } from "./src/lesson-catalogue.js";',
+      contents: 'export { Catalogue } from "./src/Catalogue.jsx"; export { LanguagePicker } from "./src/LanguagePicker.jsx"; export { LocaleContext } from "./src/i18n.jsx"; export { LESSONS, getLevel } from "./src/lesson-catalogue.js";',
       resolveDir: process.cwd(), sourcefile: "partial-fixture.js",
     },
     bundle: true, write: false, platform: "node", format: "cjs",

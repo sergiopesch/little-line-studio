@@ -1,6 +1,8 @@
+import { availability, validAvailability, isLessonReleased } from "./locale-availability.js";
+export { validAvailability, isLessonReleased } from "./locale-availability.js";
 import englishIndex from "./narration-index.json" with { type: "json" };
 import englishDurations from "./narration-durations.json" with { type: "json" };
-import { LOCALES, getLocale } from "./locale-registry.js";
+import { getLocale } from "./locale-registry.js";
 import { LESSONS, getLesson } from "./lesson-catalogue.js";
 
 export const isNarrationPath = (value) =>
@@ -19,20 +21,10 @@ export function hasCompleteNarration(lessons, index, durations) {
     Number.isFinite(durations?.[key]) && durations[key] > 0);
 }
 
-export function validAvailability(descriptor, locale, knownLessons = LESSONS) {
-  if (descriptor?.schemaVersion !== 1 || descriptor.locale !== locale ||
-      !Array.isArray(descriptor.lessons) || !Array.isArray(knownLessons)) return false;
-  const known = new Set(knownLessons.map((lesson) => lesson.id));
-  return descriptor.lessons.every((id, index, ids) =>
-    typeof id === "string" && known.has(id) && (index === 0 || ids[index - 1] < id));
-}
-
 export function validSpanishAvailability(descriptor, knownLessons = LESSONS) {
   return validAvailability(descriptor, "es-419", knownLessons);
 }
 
-const availability = Object.freeze(Object.fromEntries(LOCALES.filter(locale => locale.availability)
-  .map(locale => [locale.id, locale.availability])));
 const spanishAvailability = getLocale("es-419").availability;
 
 export function spanishLessonReleased(lesson, {
@@ -53,12 +45,6 @@ export function spanishLessonAvailable(lesson, {
   if (!spanishLessonReleased(lesson, { descriptor, knownLessons })) return false;
   const authored = knownLessons.find((item) => item.id === lesson.id);
   return hasCompleteNarration([authored], index, durations);
-}
-
-export function isLessonReleased(locale, lesson) {
-  if (locale === "en-GB") return Boolean(getLesson(lesson?.id));
-  const descriptor = availability[locale];
-  return Boolean(validAvailability(descriptor, locale) && getLesson(lesson?.id) && descriptor.lessons.includes(lesson.id));
 }
 
 export function releasedLessons(locale, lessons = LESSONS) {
