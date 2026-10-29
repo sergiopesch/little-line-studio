@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   verify:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
@@ -23,6 +23,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
+          python3 -c "import subprocess; v = subprocess.check_output(['ffmpeg', '-version'], text=True).splitlines()[0]; print(v); assert v.startswith('ffmpeg version 8.'), 'Offline media fixtures are qualified with FFmpeg 8.x'"
           npx playwright install --with-deps chromium
       - name: Build and verify content, media and controller
         run: npm run check
