@@ -35,7 +35,7 @@ test('Dutch UI draft covers the source keys and preserves variable content', () 
   validateUI(ui);
   const incomplete = structuredClone(ui); delete incomplete.strings['Pause'];
   assert.throws(() => validateUI(incomplete), /incomplete/);
-  assert.match(DUTCH_DYNAMIC.catalogueRange('Beginner', 1, 6), /1 tot en met 6 van 10/);
+  assert.match(DUTCH_DYNAMIC.catalogueRange('Beginner', 1, 6, 10), /1 tot en met 6 van 10/);
   assert.match(DUTCH_DYNAMIC.boardAction('Kat', 3), /Kat.*3/);
   assert.match(DUTCH_DYNAMIC.stepColour(2, 5), /2 VAN 5/);
   assert.match(DUTCH_DYNAMIC.duration(7), /7 minuten/);

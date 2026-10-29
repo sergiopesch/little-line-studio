@@ -2,6 +2,27 @@
 
 Use Node.js 24 and `npm ci`. `npm run dev` serves the lesson on localhost. `npm run check` builds and runs the tests; `npm run preview` serves the production output. Production builds require a valid tldraw key to enable the lesson, as explained in [deployment](deployment.md).
 
+## Regression checks
+
+Run `npm run check` for the production build and Node tests. Install Python 3 and FFmpeg 8.x to run the audio fixture tests rather than skip them. The offline loop checks are qualified with FFmpeg 8.x: FFmpeg 6.1 produces different normalization and decoded-length results and fails the existing guards. CI uses the explicit [Ubuntu 26.04 runner](https://github.com/actions/runner-images/blob/main/README.md) and checks the FFmpeg major version; it does not relax loudness or continuity limits to accommodate another encoder. With no tldraw key, this command verifies the deliberately restricted licence-review build; it does not prove that the licensed lesson bundle renders.
+
+Run the browser suite separately:
+
+```bash
+npx playwright install chromium  # once; use --with-deps on a clean Linux machine
+npm run test:browser
+```
+
+Playwright is a pinned development dependency, absent from the application bundle. The suite launches this checkout on port 5186 with `--strictPort` and refuses to reuse another server. It exercises the full localhost lesson in desktop Chromium and a small touch viewport with reduced motion. It checks all nine language catalogues and real sample playback; adult setup, pause/resume, More time, Replay, settings, keyboard focus and Help music continuity; failed board/language/narration downloads; and the document visibility interruption handler. Each test uses a fresh browser context. No provider generation credentials are used.
+
+Screenshots, failure traces and the HTML report stay in ignored `output/playwright/`. Open the report with `npx playwright show-report output/playwright/report`. `.github/workflows/check.yml` runs both suites on pull requests and main, with read-only repository permission and no application secrets, and retains browser evidence for seven days. A passing check is evidence, not an enforced merge requirement unless branch protection is configured separately.
+
+These Chromium checks do not establish Safari/iOS audio balance, physical-device interruption behavior, native-speaker approval or perceived recording quality. Before changing the audio backend, validate those properties on real devices. The current tldraw evaluation licence also still needs replacement before its documented expiry; neither test mode nor these changes bypass licence enforcement.
+
+Board imports remain deferred until lesson selection. A failed import is retained by the current attempt so the error boundary can pause safely; selecting or restarting a lesson explicitly requests a fresh promise. Written instructions remain available after the adult confirms. Starting the next attempt does not automatically resume playback.
+
+Catalogue counts come from lesson data, and teaching-pack registration rejects duplicate/mismatched identities instead of enforcing a fixed total. The synthetic growth test checks an eleventh Basic drawing and empty collections without adding unpublished lessons to the real catalogue. Localized dynamic labels must still match their source files in `research/`; count changes do not waive content, narration or release validation for future lessons.
+
 ## Content workflow
 
 Follow the [lesson template](../DRAWING_LESSON_TEMPLATE.md). Lesson geometry, instructions, demonstrations and prepared media must remain consistent. When drawing geometry changes, run `npm run update:previews`, review the catalogue against the native board, then run the full checks. Builds reject stale precomputed outlines.

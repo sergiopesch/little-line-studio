@@ -74,6 +74,8 @@ npm run check     # build, verify prepared audio, run the test suite
 npm run preview   # inspect the production build locally
 ```
 
+For the desktop and small-screen browser regression suite, run `npx playwright install chromium` once, then `npm run test:browser`. It starts its own local development server and needs no licence key or generation credentials. See [verification and evidence](docs/development.md#regression-checks).
+
 The audio and graphics are included, so normal development and playback require no AI-provider account or generation credits. Offline generation tools are separate and require explicit credentials and a bounded budget; see [development](docs/development.md).
 
 ## How it is built

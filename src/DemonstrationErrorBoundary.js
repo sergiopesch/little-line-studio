@@ -3,10 +3,11 @@ import { FRENCH_UI } from "./french-ui.fr-FR.js";
 import SPAIN_UI from "./spanish-ui.es-ES.json" with { type: "json" };
 import GERMAN_UI from "./german-ui.de-DE.json" with { type: "json" };
 import ITALIAN_UI from "./italian-ui.it-IT.json" with { type: "json" };
+import DUTCH_UI from "./dutch-ui.nl-NL.json" with { type: "json" };
 
 export function DemonstrationFailure({ onRetry, locale = "en-GB" }) {
   const spanish = locale === "es-419";
-  const dictionary = { "fr-FR": FRENCH_UI, "es-ES": SPAIN_UI, "de-DE": GERMAN_UI, "it-IT": ITALIAN_UI }[locale];
+  const dictionary = { "fr-FR": FRENCH_UI, "es-ES": SPAIN_UI, "de-DE": GERMAN_UI, "it-IT": ITALIAN_UI, "nl-NL": DUTCH_UI }[locale];
   const translate = (text) => dictionary?.[text] ?? text;
   return createElement(
     "div",

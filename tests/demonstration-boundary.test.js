@@ -47,3 +47,21 @@ test("a caught board failure notifies the owner without passing private exceptio
     new DemonstrationErrorBoundary({}).componentDidCatch(),
   );
 });
+
+test("board recovery instructions are localized for all released language options", () => {
+  for (const [locale, message] of [
+    ["en-GB", "The drawing demonstration is unavailable."],
+    ["en-IE", "The drawing demonstration is unavailable."],
+    ["en-GB-x-scotland", "The drawing demonstration is unavailable."],
+    ["es-419", "La demostración de dibujo no está disponible."],
+    ["es-ES", "La demostración de dibujo no está disponible."],
+    ["fr-FR", "La démonstration de dessin n’est pas disponible."],
+    ["de-DE", "Die Zeichenvorführung ist nicht verfügbar."],
+    ["it-IT", "La dimostrazione di disegno non è disponibile."],
+    ["nl-NL", "De tekendemonstratie is niet beschikbaar."],
+  ]) {
+    const markup = renderToStaticMarkup(createElement(DemonstrationFailure, { locale }));
+    assert.ok(markup.includes(message), locale);
+    if (!locale.startsWith("en-")) assert.doesNotMatch(markup, /written instructions|drawing demonstration/);
+  }
+});

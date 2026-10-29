@@ -39,7 +39,7 @@ test('draft German UI covers the established source keys and preserves dynamic a
   for (const key of sourceKeys) assert.ok(Object.hasOwn(ui.strings, key), key);
   for (const [key, value] of Object.entries(ui.strings)) assert.ok(typeof value === 'string' && value.trim(), key);
   assert.deepEqual(Object.keys(GERMAN_DYNAMIC).sort(), Object.keys(FRENCH_DYNAMIC).sort());
-  assert.match(GERMAN_DYNAMIC.catalogueRange('Anfänger', 1, 6), /1 bis 6 von 10/);
+  assert.match(GERMAN_DYNAMIC.catalogueRange('Anfänger', 1, 6, 10), /1 bis 6 von 10/);
   assert.match(GERMAN_DYNAMIC.duration(7), /7 Minuten/);
   assert.match(GERMAN_DYNAMIC.boardAction('Katze', 3), /Katze.*3/);
   assert.match(GERMAN_DYNAMIC.stepColour(2, 5), /2 VON 5/);

@@ -27,7 +27,7 @@ test('draft checks reject stale sources, missing stages and mismatched pilot wor
 test('Spain dynamic copy preserves variable information', async () => {
   const { SPAIN_DYNAMIC: d } = await import('../research/spanish-spain-draft/dynamic.es-ES.js');
   assert.match(d.duration(7), /7 minutos/);
-  assert.match(d.catalogueRange('Básico', 1, 6), /1 al 6 de 10/);
+  assert.match(d.catalogueRange('Básico', 1, 6, 10), /1 al 6 de 10/);
   assert.match(d.boardAction('Gato', 3), /Gato.*3.*papel/);
   assert.equal(d.stepColour(2, 5), 'COLOREAR 2 DE 5');
 });
