@@ -43,13 +43,13 @@ test("Help preserves music; pause, settings and finish preserve family control",
 
   await page.getByRole("button", { name: "More time", exact: true }).click();
   await expect(page.getByRole("button", { name: "Continue lesson", exact: true })).toBeVisible();
-  await page.getByRole("button", { name: "Pause lesson", exact: true }).click();
+  await page.getByRole("button", { name: "Pause: Pause lesson", exact: true }).click();
   await expect.poll(() => audioSilent(page)).toBe(true);
   await expect(page.getByRole("button", { name: "Continue together", exact: true })).toBeDisabled();
   await page.locator(".pause-modal input").check();
   await page.getByRole("button", { name: "Continue together", exact: true }).click();
   await expect(page.getByRole("button", { name: "Continue lesson", exact: true })).toBeVisible();
-  await page.getByRole("button", { name: "Parent settings", exact: true }).click();
+  await page.getByRole("button", { name: "Grown-ups: Parent settings", exact: true }).click();
   await expect.poll(() => audioSilent(page)).toBe(true);
   await page.getByRole("tab", { name: "Sound", exact: true }).focus();
   await page.keyboard.press("ArrowRight");

@@ -37,7 +37,8 @@ export function Catalogue({
       <header className="site-header">
         <Brand onClick={onHome} />
         <div className="catalogue-header-actions">
-          <button className="catalogue-language" onClick={onLanguage} aria-label={t("Change lesson language")}>
+          <button className="catalogue-language" onClick={onLanguage}
+            aria-label={`${language.name} ${t(language.region)}: ${t("Change lesson language")}`}>
             <LanguageFlag language={language} /> {language.name} <span>{t(language.region)}</span>
           </button>
           <button className="quiet-button" onClick={onPrivacy}>{t("For grown-ups")}</button>
@@ -90,8 +91,7 @@ export function Catalogue({
           </>;
           return available ? (
             <button className="drawing-choice" key={original.id}
-              onClick={() => onSelect(original.id)}
-              aria-label={dynamic ? dynamic.drawTitle(title) : locale === "es-419" ? `Dibujar ${title}` : `Draw ${title}`}>
+              onClick={() => onSelect(original.id)}>
               {content}
             </button>
           ) : (

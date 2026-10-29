@@ -29,7 +29,7 @@ export { expect };
 
 export async function enterLesson(page, language = "English British") {
   await page.goto("/");
-  await page.getByRole("button", { name: "Explore Basic drawing: 10 drawings", exact: true }).click();
+  await page.getByRole("button", { name: /^Basic drawing 10 drawings Explore(?: Basic)?$/ }).click();
   await page.getByRole("button", { name: language, exact: true }).click();
   await page.locator("button.drawing-choice").first().click();
   await expect(page.locator(".entry-confirmation-actions .primary")).toBeDisabled();

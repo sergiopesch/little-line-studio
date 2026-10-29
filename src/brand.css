@@ -202,13 +202,13 @@ h2,
   border-radius: 999px;
 }
 .catalogue-page {
-  height: 100dvh;
-  min-height: 460px;
+  height: auto;
+  min-height: max(460px, 100dvh);
   max-width: 1440px;
   margin: auto;
   padding: 20px 4%;
   display: grid;
-  grid-template-rows: 58px auto minmax(0, 1fr) 50px;
+  grid-template-rows: minmax(58px, auto) auto minmax(min-content, 1fr) minmax(50px, auto);
   gap: 18px;
 }
 .catalogue-heading {
@@ -270,7 +270,7 @@ h2,
 }
 .drawing-choice {
   min-width: 0;
-  min-height: 0;
+  min-height: min-content;
   height: 100%;
   max-height: 360px;
   display: grid;
@@ -482,7 +482,7 @@ button.drawing-choice:not(:disabled):active {
   }
   .drawing-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-template-rows: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(min-content, 1fr));
     gap: 12px 22px;
   }
   .drawing-choice {
@@ -1108,4 +1108,27 @@ button.drawing-choice:not(:disabled):active {
   .setup-card .kit-list svg {
     flex-shrink: 0;
   }
+}
+
+/* Let translated cards grow at high zoom instead of covering the next row. */
+@media (max-width: 620px) {
+  .catalogue-page { grid-template-rows: minmax(48px, auto) auto minmax(min-content, 1fr) minmax(38px, auto); }
+}
+@media (max-height: 500px) and (min-width: 621px) {
+  .catalogue-page { grid-template-rows: minmax(42px, auto) auto minmax(min-content, 1fr) minmax(36px, auto); }
+}
+.catalogue-page .site-header,
+.catalogue-header-actions,
+.catalogue-footer,
+.level-tabs {
+  flex-wrap: wrap;
+}
+.drawing-choice,
+.drawing-choice-copy,
+.catalogue-heading > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.drawing-grid {
+  min-height: min-content;
 }

@@ -6,7 +6,7 @@ test("a failed compiled studio download retries from the language picker without
   let blocked = 0;
   await page.route(studio, route => { blocked++; return route.abort("failed"); });
   await page.goto("/");
-  await page.getByRole("button", { name: "Explore Basic drawing: 10 drawings", exact: true }).click();
+  await page.getByRole("button", { name: /^Basic drawing 10 drawings Explore(?: Basic)?$/ }).click();
   await page.getByRole("button", { name: "English British", exact: true }).click();
   await expect(page.getByRole("alert")).toBeVisible();
   expect(blocked).toBeGreaterThan(0);
@@ -24,7 +24,7 @@ test("a failed compiled drawing download pauses and recovers after a supervised 
   let blocked = 0;
   await page.route(board, route => { blocked++; return route.abort("failed"); });
   await page.goto("/");
-  await page.getByRole("button", { name: "Explore Basic drawing: 10 drawings", exact: true }).click();
+  await page.getByRole("button", { name: /^Basic drawing 10 drawings Explore(?: Basic)?$/ }).click();
   await page.getByRole("button", { name: "Nederlands Dutch", exact: true }).click();
   await page.locator("button.drawing-choice").first().click();
   await page.locator(".entry-supervision input").check();
@@ -51,7 +51,7 @@ test("a failed compiled language download retries without changing language earl
   let blocked = 0;
   await page.route(languageModule, route => { blocked++; return route.abort("failed"); });
   await page.goto("/");
-  await page.getByRole("button", { name: "Explore Basic drawing: 10 drawings", exact: true }).click();
+  await page.getByRole("button", { name: /^Basic drawing 10 drawings Explore(?: Basic)?$/ }).click();
   await page.getByRole("button", { name: "Deutsch German", exact: true }).click();
   await expect(page.getByRole("alert")).toBeVisible();
   expect(blocked, "the compiled language request was actually interrupted").toBeGreaterThan(0);

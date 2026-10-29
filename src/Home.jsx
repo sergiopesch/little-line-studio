@@ -7,7 +7,6 @@ import {
 import { LEVELS } from "./lesson-levels.js";
 import LESSONS from "./lesson-directory.json";
 import { LanguageCarousel } from "./LanguagePicker.jsx";
-import { dynamicLocale } from "./locale-dynamic.js";
 import { drawingCount } from "./catalogue-counts.js";
 
 const levelCounts = Object.fromEntries(LEVELS.map(({ id }) => [id, LESSONS.filter(lesson => lesson.level === id).length]));
@@ -34,7 +33,6 @@ export function Brand({ onClick }) {
 
 export function Home({ onExplore, onPrivacy, onHow }) {
   const { t, locale } = useLocale();
-  const dynamic = dynamicLocale(locale)?.copy;
   return (
     <main className="home-page home-with-languages">
       <header className="site-header">
@@ -71,7 +69,6 @@ export function Home({ onExplore, onPrivacy, onHow }) {
             key={level.id}
             className="level-choice"
             onClick={() => onExplore(level.id)}
-            aria-label={dynamic ? dynamic.levelExplore(t(level.name), drawingCount(locale, levelCounts[level.id])) : `${locale === "es-419" ? "Explorar" : "Explore"} ${t(level.name)}: ${drawingCount(locale, levelCounts[level.id])}`}
           >
             <span className="level-picture">
               <img

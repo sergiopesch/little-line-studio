@@ -1,5 +1,5 @@
 import { useLocale } from "./i18n.jsx";
-import { useEffect, useId, useRef } from "react";
+import { useEffect, useId, useLayoutEffect, useRef } from "react";
 import { XIcon } from "@phosphor-icons/react";
 
 export function Modal({ title, onClose, children, className = "" }) {
@@ -9,10 +9,10 @@ export function Modal({ title, onClose, children, className = "" }) {
   const openerRef = useRef(null);
   const closeRef = useRef(onClose);
   closeRef.current = onClose;
-  useEffect(() => {
+  useLayoutEffect(() => {
     // Strict Mode can reopen before the browser finishes restoring focus.
     // Retain the original opener instead of capturing an element in the dialog.
-    const previous = openerRef.current ??= document.activeElement;
+    openerRef.current ??= document.activeElement;
     const dialog = ref.current;
     dialog.showModal();
     dialog.querySelector("h2")?.focus();
@@ -23,9 +23,16 @@ export function Modal({ title, onClose, children, className = "" }) {
     dialog.addEventListener("cancel", cancel);
     return () => {
       dialog.removeEventListener("cancel", cancel);
+      // Close before React removes the node. WebKit can otherwise retain the
+      // modal's inert focus state and reject focus on the next page heading.
       dialog.close();
-      if (previous?.isConnected) previous.focus?.();
     };
+  }, []);
+  useEffect(() => () => {
+    // Lesson controls become enabled during the closing render. Restore only
+    // after that commit, and never to an opener removed by page navigation.
+    const previous = openerRef.current;
+    if (previous?.isConnected) previous.focus?.();
   }, []);
   useEffect(() => {
     ref.current.scrollTop = 0;

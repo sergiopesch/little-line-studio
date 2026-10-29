@@ -15,7 +15,7 @@ for (const [name, locale, setupTitle] of [
   test(`${name}: all collections and a real voice sample`, async ({ page }) => {
     await page.goto("/");
     await expect(page.locator(".home-page")).toBeVisible();
-    await page.getByRole("button", { name: "Explore Basic drawing: 10 drawings", exact: true }).click();
+    await page.getByRole("button", { name: /^Basic drawing 10 drawings Explore(?: Basic)?$/ }).click();
     await page.getByRole("button", { name, exact: true }).click();
     await expect(page.locator(".catalogue-page")).toBeVisible();
     await expect(page.locator("html")).toHaveAttribute("lang", locale);
@@ -25,7 +25,7 @@ for (const [name, locale, setupTitle] of [
       for (let index = 0; index < 3; index++) {
         await expect(page.locator(".drawing-choice--preparing")).toHaveCount(0);
         await expect(page.locator("button.drawing-choice")).toHaveCount(index < 2 ? 4 : 2);
-        labels.push(...await page.locator("button.drawing-choice").evaluateAll(nodes => nodes.map(node => node.getAttribute("aria-label"))));
+        labels.push(...await page.locator("button.drawing-choice").evaluateAll(nodes => nodes.map(node => node.textContent)));
         if (index < 2) await page.locator(".catalogue-pagination button").last().click();
       }
       expect(new Set(labels).size).toBe(10);
