@@ -40,6 +40,8 @@ for (const language of LANGUAGES) {
     for (const viewport of [{ width: 640, height: 512 }, { width: 320, height: 256 }, { width: 844, height: 390 }]) {
       await page.setViewportSize(viewport);
       await expectReflow(page);
+      for (const control of await page.locator(".topbar button, .lesson-toolbar button, .listen-button, .session-strip button").all())
+        await expect(control, "lesson controls remain available after resizing").toBeVisible();
       await expect.poll(() => page.locator(".demonstration-board").evaluate(node => node.getBoundingClientRect().height), { message: "board retains useful drawing space" }).toBeGreaterThanOrEqual(120);
       await expectReachableControls(page, page.locator("main"));
     }

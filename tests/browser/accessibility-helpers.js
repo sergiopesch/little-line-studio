@@ -23,35 +23,47 @@ export async function expectReflow(page) {
 // Visibility alone does not detect labels painting over another card or controls
 // hidden under a fixed footer. Check their actual painted text and hit target.
 export async function expectReachableControls(page, scope) {
-  const controls = scope.locator("button:visible, input:visible, summary:visible, a:visible");
-  for (const control of await controls.all()) {
-    await control.scrollIntoViewIfNeeded();
-    const result = await control.evaluate(node => {
-      const target = node.matches('input[type="checkbox"], input[type="radio"]') ? node.closest("label") ?? node : node;
-      const box = target.getBoundingClientRect();
-      const x = Math.max(0, Math.min(innerWidth - 1, box.x + box.width / 2));
-      const y = Math.max(0, Math.min(innerHeight - 1, box.y + box.height / 2));
-      const hit = document.elementFromPoint(x, y);
-      const clipped = [];
-      const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT);
-      for (let text; (text = walker.nextNode());) {
-        const parent = text.parentElement;
-        const style = getComputedStyle(parent);
-        if (!text.textContent.trim() || !parent.checkVisibility() || parseFloat(style.fontSize) === 0 || parent.closest("svg")) continue;
-        const range = document.createRange();
-        range.selectNodeContents(text);
-        for (const rect of range.getClientRects()) {
-          if (rect.width && rect.height && (rect.left < box.left - 1 || rect.right > box.right + 1 || rect.top < box.top - 2 || rect.bottom > box.bottom + 2))
-            clipped.push(text.textContent.trim());
-        }
+  // Keep element identities: the SDK's responsive watermark can disappear after
+  // a resize, shifting every later nth() locator in a live visibility query.
+  const controls = await scope.locator("button:visible, input:visible, summary:visible, a:visible").elementHandles();
+  try {
+    for (const control of controls) {
+      if (!await control.isVisible()) continue;
+      try {
+        await control.scrollIntoViewIfNeeded({ timeout: 5000 });
+      } catch (error) {
+        if (!await control.isVisible()) continue;
+        throw error;
       }
-      return { label: node.getAttribute("aria-label") || node.textContent.trim(), clipped,
-        reachable: Boolean(hit && target.contains(hit)), width: box.width, height: box.height };
-    });
-    expect(result.clipped, `${result.label}: text remains within its control`).toEqual([]);
-    expect(result.reachable, `${result.label}: control is reachable after scrolling`).toBe(true);
-    expect(result.width, `${result.label}: minimum target width`).toBeGreaterThanOrEqual(24);
-    expect(result.height, `${result.label}: minimum target height`).toBeGreaterThanOrEqual(24);
+      const result = await control.evaluate(node => {
+        const target = node.matches('input[type="checkbox"], input[type="radio"]') ? node.closest("label") ?? node : node;
+        const box = target.getBoundingClientRect();
+        const x = Math.max(0, Math.min(innerWidth - 1, box.x + box.width / 2));
+        const y = Math.max(0, Math.min(innerHeight - 1, box.y + box.height / 2));
+        const hit = document.elementFromPoint(x, y);
+        const clipped = [];
+        const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT);
+        for (let text; (text = walker.nextNode());) {
+          const parent = text.parentElement;
+          const style = getComputedStyle(parent);
+          if (!text.textContent.trim() || !parent.checkVisibility() || parseFloat(style.fontSize) === 0 || parent.closest("svg")) continue;
+          const range = document.createRange();
+          range.selectNodeContents(text);
+          for (const rect of range.getClientRects()) {
+            if (rect.width && rect.height && (rect.left < box.left - 1 || rect.right > box.right + 1 || rect.top < box.top - 2 || rect.bottom > box.bottom + 2))
+              clipped.push(text.textContent.trim());
+          }
+        }
+        return { label: node.getAttribute("aria-label") || node.textContent.trim(), clipped,
+          reachable: Boolean(hit && target.contains(hit)), width: box.width, height: box.height };
+      });
+      expect(result.clipped, `${result.label}: text remains within its control`).toEqual([]);
+      expect(result.reachable, `${result.label}: control is reachable after scrolling`).toBe(true);
+      expect(result.width, `${result.label}: minimum target width`).toBeGreaterThanOrEqual(24);
+      expect(result.height, `${result.label}: minimum target height`).toBeGreaterThanOrEqual(24);
+    }
+  } finally {
+    await Promise.all(controls.map(control => control.dispose()));
   }
 }
 
