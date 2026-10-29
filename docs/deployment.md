@@ -1,10 +1,18 @@
-# Deploying Little Line Studio
+# Deploying Trazolino
 
 The repository is a standalone Vite application. It needs no database, server API or runtime AI credentials.
 
+## Project identity
+
+The product is **Trazolino**, with canonical origin **https://trazolino.org** and repository **https://github.com/sergiopesch/trazolino**. The existing Vercel project is renamed in place, preserving deployment history, environment settings and Git integration. `www.trazolino.org` redirects to the apex domain. The previous `little-line-studio.vercel.app` address remains attached for existing links.
+
+Existing local checkout paths, drawing metadata keys and the shared narration-generation lock retain their compatibility names. Do not rename a shared lock or recreate the repository/project as part of branding: existing generation processes and specialist checkouts must keep coordinating against the same resources. Historical release records retain their original names and commit identities.
+
+After a repository rename, update existing clone remotes with `git remote set-url origin https://github.com/sergiopesch/trazolino.git`. Verify a fresh branch deployment and the post-merge production workflow against the new repository identity. The production workflow verifies the custom domain directly.
+
 ## Vercel settings
 
-Import `sergiopesch/little-line-studio` into the intended Vercel account/team. Use the repository root and the Vite framework preset. The committed configuration supplies:
+Import `sergiopesch/trazolino` into the intended Vercel account/team. Use the repository root and the Vite framework preset. The committed configuration supplies:
 
 | Setting | Value |
 | --- | --- |
@@ -19,6 +27,8 @@ Import `sergiopesch/little-line-studio` into the intended Vercel account/team. U
 The host applies the same restrictive Content Security Policy as local preview. Microphone, camera, geolocation and related browser capabilities are disabled. Content-addressed media and bundled assets are cacheable; the entry document is revalidated. The policy blocks tldraw's optional external diagnostics while leaving local licence validation unchanged.
 
 The homepage and social preview use the production URL in `index.html`. If the production domain changes, update the canonical, Open Graph and Twitter image URLs together. The branded social card is `public/brand/social-card.png` (1200 × 630). Search indexing is disabled: the homepage declares `noindex, nofollow`, and Vercel sends `X-Robots-Tag: noindex` for the social card. `robots.txt` allows crawlers to fetch those resources so they can see the indexing rules and sharing services can read the preview; it disallows other paths. Crawling and indexing are separate, and search services may take time to reflect changes.
+
+The sharing card can be rebuilt with `npm run update:social-card` after installing the pinned Playwright Chromium browser. It uses only the existing local artwork and font; its renderer is in `scripts/render-social-card.mjs`.
 
 ## Production licence
 
@@ -44,7 +54,7 @@ From the checkout matching the deployed revision, install the pinned browser bin
 
 ```bash
 npx playwright install chromium firefox webkit
-npm run verify:production -- --url https://little-line-studio.vercel.app --commit <full-40-character-deployed-commit>
+npm run verify:production -- --url https://trazolino.org --commit <full-40-character-deployed-commit>
 ```
 
 On a clean Linux runner, use `npx playwright install --with-deps chromium firefox webkit` to install the required system libraries too. The expected commit is explicit: use the merged commit on `main`, not the pre-merge feature-branch SHA. HTTPS is required except for loopback fixture servers. Protected previews fail visibly; the command does not request a bypass, send credentials or follow authentication redirects.

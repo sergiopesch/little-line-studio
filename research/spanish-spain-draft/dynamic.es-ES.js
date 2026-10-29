@@ -2,7 +2,7 @@
 export const SPAIN_LANGUAGE_DRAFT = Object.freeze({ id: 'es-ES', name: 'Castellano', region: 'España', flag: '🇪🇸', ready: false });
 
 export const SPAIN_DYNAMIC = Object.freeze({
-  documentTitle: 'Little Line Studio — Todo dibujo empieza con una pequeña línea',
+  documentTitle: 'Trazolino — Todo dibujo empieza con una pequeña línea',
   errorTitle: 'Hagamos una pequeña pausa.',
   errorBody: 'No se ha podido abrir la clase. Tu dibujo en papel es tuyo. Pide a la persona adulta que vuelva a cargar la página cuando estéis preparados.',
   errorReload: 'Volver a cargar la clase',

@@ -17,7 +17,7 @@ export function Brand({ onClick }) {
     <button
       className="brand"
       onClick={onClick}
-      aria-label={t("Little Line Studio home")}
+      aria-label={t("Trazolino home")}
     >
       <img
         className="brand-pencil"
@@ -26,7 +26,7 @@ export function Brand({ onClick }) {
         height="44"
         alt=""
       />
-      <span className="wordmark">little line studio</span>
+      <span className="wordmark">Trazolino</span>
     </button>
   );
 }

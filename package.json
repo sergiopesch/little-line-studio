@@ -1,5 +1,5 @@
 {
-  "name": "little-line-studio",
+  "name": "trazolino",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -11,6 +11,7 @@
     "test": "node --test --test-isolation=none tests/*.test.js tests/*.test.mjs",
     "update:previews": "node scripts/generate-preview-outlines.mjs --write",
     "update:directory": "node scripts/generate-lesson-directory.mjs --write",
+    "update:social-card": "node scripts/render-social-card.mjs",
     "check": "npm run build && npm test",
     "test:browser": "playwright test",
     "verify:production": "node scripts/verify-production.mjs",

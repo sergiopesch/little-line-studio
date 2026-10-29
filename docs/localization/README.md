@@ -1,4 +1,4 @@
-# Localizing Little Line Studio
+# Localizing Trazolino
 
 Preserve the teaching intention and family controls while authoring natural wording for each locale. These guides record project editorial choices drawn from the current Cat lesson; they are assistant-authored working guidance, not native-speaker approval.
 

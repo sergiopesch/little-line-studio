@@ -1,4 +1,4 @@
-# Evidence-informed teaching design for DrawingTeacher
+# Evidence-informed teaching design for Trazolino
 
 Research date: 25 October 2026. Intended audience: children ages 3–10 drawing alongside a supervising parent. Status: research and proposed design; no application has been implemented or evaluated.
 

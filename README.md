@@ -2,15 +2,15 @@
   <img src="public/brand/pencil.webp" width="96" alt="A friendly drawing pencil" />
 </p>
 
-# Little Line Studio
+# Trazolino
 
 **A little guidance on screen. A world of imagination on paper.**
 
-Little Line Studio is a parent-supervised drawing teacher. Children draw on real paper while a read-only teaching board demonstrates one small part at a time, with prepared narration, quiet practice and room to make the drawing their own.
+Trazolino is a parent-supervised drawing teacher. Children draw on real paper while a read-only teaching board demonstrates one small part at a time, with prepared narration, quiet practice and room to make the drawing their own.
 
-[Try Little Line Studio](https://little-line-studio.vercel.app) · [Run locally](#run-locally) · [Deployment guide](docs/deployment.md) · [Lesson authoring guide](DRAWING_LESSON_TEMPLATE.md)
+[Try Trazolino](https://trazolino.org) · [Run locally](#run-locally) · [Deployment guide](docs/deployment.md) · [Lesson authoring guide](DRAWING_LESSON_TEMPLATE.md)
 
-![Little Line Studio home, with Basic, Intermediate and Expert drawing collections](docs/media/home.png)
+![Trazolino home, with Basic, Intermediate and Expert drawing collections](docs/media/home.png)
 
 ## Our goal
 
@@ -22,7 +22,7 @@ We are building toward accessible, multilingual drawing practice with clear adul
 
 ![A real lesson demonstration draws a flower on the teaching board](docs/media/lesson-demo.gif)
 
-*Recorded from the app. The silent GIF shows a short excerpt; the live lesson includes narration, generous practice time and optional music.*
+*Captured from the app with reduced motion. The silent GIF shows a few sample steps; the live lesson includes narration, generous practice time and optional music.*
 
 1. Choose a collection, language and drawing.
 2. Gather paper and pencils. An adult confirms they will stay for the session.
@@ -61,8 +61,8 @@ Application code controls the authored sequence. Voice recordings have no author
 Use **Node.js 24** and npm:
 
 ```bash
-git clone https://github.com/sergiopesch/little-line-studio.git
-cd little-line-studio
+git clone https://github.com/sergiopesch/trazolino.git
+cd trazolino
 npm ci
 npm run dev
 ```

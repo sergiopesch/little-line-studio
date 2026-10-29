@@ -16,7 +16,7 @@ export const FRENCH_UI = Object.freeze({
   "Loading Spanish lessons…": "Chargement des leçons en espagnol…",
   "Spanish lessons could not load. Please try again.": "Impossible de charger les leçons en espagnol. Réessaie.",
   "Close dialog": "Fermer la boîte de dialogue",
-  "Little Line Studio home": "Accueil de Little Line Studio",
+  "Trazolino home": "Accueil de Trazolino",
   "About the studio": "À propos du studio",
   "How it works": "Comment ça marche",
   "For grown-ups": "Pour les adultes",

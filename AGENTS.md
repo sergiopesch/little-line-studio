@@ -1,4 +1,4 @@
-# Little Line Studio
+# Trazolino
 
 This is the standalone public Vercel repository. Preserve the parent-supervised, paper-first drawing experience and existing product direction.
 

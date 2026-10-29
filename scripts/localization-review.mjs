@@ -102,7 +102,7 @@ export function renderPacket(packet, record, contexts) {
       lines.push(`**${field} — source:** ${source.steps[i][field]}`, '', `**${field} — local:** ${step[field]}`, '');
     }
     for (const clip of clips.filter(clip => clip.key.startsWith(`${lesson.id}/${step.id}/`))) {
-      lines.push(`[Listen: ${clip.key}](https://little-line-studio.vercel.app${clip.src}) — ${clip.durationMs} ms; voice ${clip.voiceId}; SHA-256 ${clip.sha256}`, '');
+      lines.push(`[Listen: ${clip.key}](https://trazolino.org${clip.src}) — ${clip.durationMs} ms; voice ${clip.voiceId}; SHA-256 ${clip.sha256}`, '');
     }
   }
   lines.push('## Interface message context', '');
@@ -112,7 +112,7 @@ export function renderPacket(packet, record, contexts) {
       `Audience: ${context.audience}. ${context.intent} ${context.constraint}`, '');
   }
   lines.push('## Music and in-app listening', '',
-    `[Listen to the lesson music](https://little-line-studio.vercel.app${packet.music.src}) — ${packet.music.durationMs} ms; SHA-256 ${packet.music.sha256}`, '',
+    `[Listen to the lesson music](https://trazolino.org${packet.music.src}) — ${packet.music.durationMs} ms; SHA-256 ${packet.music.sha256}`, '',
     'Audition the actual app as well as individual clips: instruction → quiet practice → Help → spoken hint → Stop hint → return; check music continuity and a comfortable voice/music balance. Then test Pause, resume, mute, tab hiding/device locking and a full music loop. Record the physical device, OS/browser, speaker/headphones and volume setting.', '',
     'Check keyboard navigation, visible focus, large text, reduced motion and a screen reader. With an adult and child, observe comprehension, optional details, time to draw and the freedom to stop. Do not record identifying child data.', '');
   lines.push('## Reviewer response', '',
