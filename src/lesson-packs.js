@@ -17,24 +17,27 @@ export const COMPLETE_REGISTRATIONS = Object.freeze([
   ...EXPERT_COMPLETE_REGISTRATIONS,
 ]);
 
-export const TEACHING_PACKS = Object.freeze([
-  CAT_TEACHING_PACK,
-  SUN_TEACHING_PACK,
-  RAINBOW_TEACHING_PACK,
-  BALLOON_TEACHING_PACK,
-  ...COMPLETE_REGISTRATIONS.map((entry) => entry.pack),
+export function createTeachingPackRegistry(entries) {
+  const registry = new Map();
+  for (const { id, pack, appearance } of entries) {
+    if (typeof id !== "string" || !id.trim() || pack?.lessonId !== id ||
+        !appearance || typeof appearance !== "object" || Array.isArray(appearance))
+      throw new TypeError("Each teaching pack needs a matching lesson identity and appearance.");
+    if (registry.has(id)) throw new TypeError(`Duplicate teaching pack: ${id}`);
+    registry.set(id, { pack, appearance });
+  }
+  return registry;
+}
+
+const registrations = createTeachingPackRegistry([
+  { id: "cat", pack: CAT_TEACHING_PACK, appearance: CAT_APPEARANCE },
+  { id: "sun", pack: SUN_TEACHING_PACK, appearance: SUN_APPEARANCE },
+  { id: "rainbow", pack: RAINBOW_TEACHING_PACK, appearance: RAINBOW_APPEARANCE },
+  { id: "balloon", pack: BALLOON_TEACHING_PACK, appearance: BALLOON_APPEARANCE },
+  ...COMPLETE_REGISTRATIONS,
 ]);
 
-const registrations = new Map([
-  ["cat", { pack: CAT_TEACHING_PACK, appearance: CAT_APPEARANCE }],
-  ["sun", { pack: SUN_TEACHING_PACK, appearance: SUN_APPEARANCE }],
-  ["rainbow", { pack: RAINBOW_TEACHING_PACK, appearance: RAINBOW_APPEARANCE }],
-  ["balloon", { pack: BALLOON_TEACHING_PACK, appearance: BALLOON_APPEARANCE }],
-  ...COMPLETE_REGISTRATIONS.map(({ id, pack, appearance }) => [id, { pack, appearance }]),
-]);
-
-if (TEACHING_PACKS.length !== 30 || registrations.size !== 30)
-  throw new TypeError("Every drawing must have exactly one complete teaching pack.");
+export const TEACHING_PACKS = Object.freeze([...registrations.values()].map(({ pack }) => pack));
 
 export function applyLessonPack(lesson) {
   const registration = registrations.get(lesson?.id);

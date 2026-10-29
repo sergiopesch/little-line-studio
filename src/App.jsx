@@ -1,6 +1,6 @@
 import { LocaleContext, translate } from "./i18n.jsx";
 import {
-  lazy,
+  use,
   Suspense,
   useCallback,
   useEffect,
@@ -53,7 +53,12 @@ function loadDemonstrationBoard() {
   });
   return boardPromise;
 }
-const DemonstrationBoard = lazy(loadDemonstrationBoard);
+// Keep the component identity stable, but give each explicit lesson attempt its
+// own promise. React.lazy would retain a rejected import across restarts.
+function DemonstrationBoard({ module, ...props }) {
+  const { default: Board } = use(module);
+  return <Board {...props} />;
+}
 const identityLesson = (lesson) => lesson;
 const identityTitle = (lesson) => lesson?.title ?? null;
 
@@ -72,6 +77,7 @@ export function App() {
   const [demoPlaying, setDemoPlaying] = useState(false);
   const [boardReady, setBoardReady] = useState(false);
   const [boardUnavailable, setBoardUnavailable] = useState(false);
+  const [boardModule, setBoardModule] = useState(null);
   const [replayKey, setReplayKey] = useState(0);
   const [supervised, setSupervised] = useState(false);
   const [cataloguePage, setCataloguePage] = useState(0);
@@ -305,11 +311,17 @@ export function App() {
     setCataloguePage(0);
     dispatch({ type: "OPEN_CATALOGUE", level: levelId });
   }
+  function prepareBoard() {
+    const module = loadDemonstrationBoard();
+    setBoardModule(module);
+    // Prefetch at selection; the boundary handles any rejection when rendered.
+    void module.catch(() => {});
+  }
   function selectLesson(lessonId) {
     const candidate = getLesson(lessonId);
     if (lesson.phase !== "catalogue" || candidate?.level !== lesson.level ||
         !isLessonAvailable(languageId, candidate, localeNarration)) return;
-    void loadDemonstrationBoard().catch(() => {});
+    prepareBoard();
     quiet();
     audioRef.current?.stopAll();
     const pilot = candidate.pilot === true;
@@ -385,6 +397,7 @@ export function App() {
   }
   function reset(toSetup = false) {
     if (toSetup && !isLessonAvailable(languageId, getLesson(lesson.lessonId), localeNarration)) return;
+    if (toSetup) prepareBoard();
     languageLoad.cancel();
     setLanguagePending(null);
     setLanguageError(false);
@@ -683,6 +696,7 @@ export function App() {
                     }
                   >
                     <DemonstrationBoard
+                      module={boardModule}
                       key={`${selectedLesson.id}-${session}`}
                       lesson={selectedLesson}
                       stepIndex={lesson.step}

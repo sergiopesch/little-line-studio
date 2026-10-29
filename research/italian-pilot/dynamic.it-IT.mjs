@@ -8,8 +8,8 @@ const template = (key, values = {}) => dictionary.templates[key].replace(/\{(\w+
 export const ITALIAN_DYNAMIC = Object.freeze({
   documentTitle: template('documentTitle'), errorTitle: template('errorTitle'),
   errorBody: template('errorBody'), errorReload: template('errorReload'),
-  levelExplore: level => template('levelExplore', { level }),
-  catalogueRange: (level, first, last) => template('catalogueRange', { level, first, last }),
+  levelExplore: (level, count) => template('levelExplore', { level, count }),
+  catalogueRange: (level, first, last, total) => template('catalogueRange', { level, first, last, total }),
   drawTitle: title => template('drawTitle', { title }),
   pageCount: (page, total) => template('pageCount', { page, total }),
   duration: minutes => template('duration', { minutes }), remaining: minutes => template('remaining', { minutes }),

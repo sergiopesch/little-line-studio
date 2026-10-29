@@ -6,10 +6,13 @@ export function Modal({ title, onClose, children, className = "" }) {
   const { t } = useLocale();
   const ref = useRef(null);
   const titleId = useId();
+  const openerRef = useRef(null);
   const closeRef = useRef(onClose);
   closeRef.current = onClose;
   useEffect(() => {
-    const previous = document.activeElement;
+    // Strict Mode can reopen before the browser finishes restoring focus.
+    // Retain the original opener instead of capturing an element in the dialog.
+    const previous = openerRef.current ??= document.activeElement;
     const dialog = ref.current;
     dialog.showModal();
     dialog.querySelector("h2")?.focus();

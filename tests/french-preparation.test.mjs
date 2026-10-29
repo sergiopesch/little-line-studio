@@ -30,7 +30,7 @@ test('French UI covers the established dictionary and preserves dynamic informat
   const keys = [...source.matchAll(/^  ("(?:[^"\\]|\\.)*"): /gm)].map((match) => JSON.parse(match[1]));
   assert.ok(keys.length >= 196);
   for (const key of keys) assert.ok(typeof FRENCH_UI[key] === 'string' && FRENCH_UI[key].trim(), key);
-  assert.match(FRENCH_DYNAMIC.catalogueRange('Débutant', 1, 6), /1 à 6 sur 10/);
+  assert.match(FRENCH_DYNAMIC.catalogueRange('Débutant', 1, 6, 10), /1 à 6 sur 10/);
   assert.match(FRENCH_DYNAMIC.duration(7), /7 minutes/);
   assert.match(FRENCH_DYNAMIC.boardAction('Chat', 3), /Chat.*3/);
   assert.match(FRENCH_DYNAMIC.stepColour(2, 5), /2 SUR 5/);

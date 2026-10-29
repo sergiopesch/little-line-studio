@@ -41,7 +41,7 @@ test('Italian UI draft covers the established static dictionary and dynamic plac
     for (const match of content.matchAll(/\bt\(\s*"([^"\n]+)"\s*\)/g)) assert.ok(ui.strings[match[1]], `${file}: ${match[1]}`);
   }
   assert.deepEqual(Object.keys(dynamic.templates).sort(), Object.keys(FRENCH_DYNAMIC).sort());
-  const parameters = { levelExplore: ['level'], catalogueRange: ['level', 'first', 'last'], drawTitle: ['title'],
+  const parameters = { levelExplore: ['level', 'count'], catalogueRange: ['level', 'first', 'last', 'total'], drawTitle: ['title'],
     pageCount: ['page', 'total'], duration: ['minutes'], remaining: ['minutes'], together: ['elapsed'],
     preview: ['title'], boardColour: ['title'], boardReference: ['title'], boardAction: ['title', 'action'],
     stepColour: ['index', 'total'], stepDrawing: ['index', 'total'], stepGeneric: ['index', 'total'] };
@@ -52,7 +52,7 @@ test('Italian UI draft covers the established static dictionary and dynamic plac
 
 test('Italian dynamic labels retain stage identities and time estimates', async () => {
   const { ITALIAN_DYNAMIC, stageLabel, demonstrationLabel, timelineEstimate } = await import('../research/italian-pilot/dynamic.it-IT.mjs');
-  assert.match(ITALIAN_DYNAMIC.catalogueRange('Principiante', 1, 6), /1 a 6 di 10/);
+  assert.match(ITALIAN_DYNAMIC.catalogueRange('Principiante', 1, 6, 10), /1 a 6 di 10/);
   assert.match(ITALIAN_DYNAMIC.duration(7), /7 minuti/);
   assert.match(ITALIAN_DYNAMIC.boardAction('Gatto', 3), /Gatto.*3/);
   assert.equal(stageLabel(source, 0), 'GUARDA');
