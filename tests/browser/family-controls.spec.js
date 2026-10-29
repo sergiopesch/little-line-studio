@@ -1,5 +1,30 @@
 import { test, expect, enterLesson, audioSilent } from "./fixtures.js";
 
+test("the music level falls beneath a Help hint and recovers without restarting", async ({ page }, testInfo) => {
+  await enterLesson(page);
+  const music = page.locator("audio").last();
+  await expect.poll(() => page.locator("audio").evaluateAll(nodes => nodes.every(audio => !audio.paused && audio.currentTime > 2))).toBe(true);
+  const teaching = await music.evaluate(audio => audio.volume);
+  expect(teaching).toBeGreaterThan(0);
+  // Help during an instruction is already ducked. Hold the first stage and
+  // let its actual recording finish so this checks a real quiet-to-hint change.
+  await page.getByRole("button", { name: "More time", exact: true }).click();
+  await expect.poll(() => page.locator("audio").first().evaluate(audio => audio.paused), { timeout: 30000 }).toBe(true);
+  await expect.poll(() => music.evaluate(audio => audio.volume)).toBeGreaterThan(teaching * 2);
+  await page.getByRole("button", { name: "Help", exact: true }).click();
+  const quiet = await music.evaluate(audio => ({ volume: audio.volume, time: audio.currentTime, source: audio.src }));
+  await page.getByRole("button", { name: "Hear the hint", exact: true }).click();
+  await expect.poll(() => page.locator("audio").first().evaluate(audio => !audio.paused && audio.currentTime > 0.2)).toBe(true);
+  await expect.poll(() => music.evaluate(audio => audio.volume)).toBeLessThan(quiet.volume * 0.8);
+  const hint = await music.evaluate(audio => ({ volume: audio.volume, time: audio.currentTime, source: audio.src, paused: audio.paused }));
+  expect(hint.paused).toBe(false);
+  expect(hint.source).toBe(quiet.source);
+  expect(hint.time).toBeGreaterThan(quiet.time);
+  await page.getByRole("button", { name: "Stop hint", exact: true }).click();
+  await expect.poll(() => music.evaluate(audio => audio.volume)).toBeGreaterThan(hint.volume * 1.5);
+  await testInfo.attach("music-transition", { body: JSON.stringify({ teaching, quiet, hint }), contentType: "application/json" });
+});
+
 test("Help preserves music; pause, settings and finish preserve family control", async ({ page }, testInfo) => {
   await enterLesson(page);
   await expect.poll(() => page.locator("audio").evaluateAll(nodes => nodes.every(audio => !audio.paused && audio.currentTime > 0.2))).toBe(true);

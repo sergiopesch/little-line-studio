@@ -12,6 +12,7 @@
     "update:previews": "node scripts/generate-preview-outlines.mjs --write",
     "check": "npm run build && npm test",
     "test:browser": "playwright test",
+    "verify:production": "node scripts/verify-production.mjs",
     "review:localization": "node scripts/localization-review.mjs"
   },
   "dependencies": {

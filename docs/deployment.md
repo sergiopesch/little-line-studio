@@ -38,9 +38,30 @@ No `ELEVENLABS_API_KEY`, OpenAI key or generation credentials belong in Vercel. 
 
 With Git integration, pushes to `main` trigger production builds, and other branches create previews. The build includes the test gate. Native listening, family acceptance and educational review remain separate from automated checks.
 
+## Repeatable production verification
+
+From the checkout matching the deployed revision, install the pinned browser binaries and run:
+
+```bash
+npx playwright install chromium firefox webkit
+npm run verify:production -- --url https://little-line-studio.vercel.app --commit <full-40-character-deployed-commit>
+```
+
+On a clean Linux runner, use `npx playwright install --with-deps chromium firefox webkit` to install the required system libraries too. The expected commit is explicit: use the merged commit on `main`, not the pre-merge feature-branch SHA. HTTPS is required except for loopback fixture servers. Protected previews fail visibly; the command does not request a bypass, send credentials or follow authentication redirects.
+
+After content validation, the build writes a public `release.json` containing only a schema version, Git revision, dirty-checkout flag and SHA-256 of the built HTML. Vercel source archives use the documented [`VERCEL_GIT_COMMIT_SHA`](https://vercel.com/docs/environment-variables/system-environment-variables) identity; local builds use Git and mark uncommitted changes. Unidentified archives cannot pass production verification. The marker is diagnostic evidence, not a security attestation. No licence key, provider credential, repository path or account information is included.
+
+The command checks the release marker against the expected commit and served HTML, the compiled JavaScript entry, all seven security headers, six private/missing paths and a real 100-byte MP3 range request. It then runs the nine catalogues and voice samples, English family controls, Spanish interruption handling and compiled drawing-download recovery across all five browser configurations. Browser failures, skipped checks and retries fail verification. A second HTTP pass rejects a deployment whose revision or HTML fingerprint changed during the run.
+
+Each invocation creates a unique ignored directory in `output/production-verification/`, with `summary.json`, Playwright's `browser.json`, a lesson screenshot per browser and failure traces. `--output /absolute/directory` chooses a different parent directory; previous reports are retained. Failed runs also write a summary and return a nonzero exit code. Do not commit the generated reports or traces. Run this command explicitly after the deployment is Ready; it is not a scheduled monitor and does not automatically promote or roll back a release.
+
+The public-site checks require a properly licensed active lesson. A restricted no-key build may pass content validation but will fail the lesson browser checks as expected. Headless browser playback and volume-state evidence do not replace real iPhone/iPad listening, device locking, native-language review or family testing.
+
 ## Recovery
 
 In the Vercel deployment history, select the last known-good production deployment and roll back or promote it. Confirm the production alias and repeat the live smoke checks. A rollback does not renew an expired SDK licence: update the environment and rebuild if licensing is the cause.
+
+Releases predating `release.json` cannot pass the new commit-bound command. For those rollback targets, verify the revision through Vercel and perform the original release checklist above; do not fabricate a marker or label an unidentified build verified.
 
 This repository starts from the reviewed application snapshot `7338c163e3315bd157e6d2d8a5d1acf07d9b872f` and intentionally has fresh public Git history. The previous Sites checkout and deployment remain separate; Vercel does not use the old Sites identity or Worker packaging.
 
