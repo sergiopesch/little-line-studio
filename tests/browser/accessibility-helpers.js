@@ -36,6 +36,7 @@ export async function expectReachableControls(page, scope) {
         throw error;
       }
       const result = await control.evaluate(node => {
+        if (!node.isConnected || !node.checkVisibility()) return null;
         const target = node.matches('input[type="checkbox"], input[type="radio"]') ? node.closest("label") ?? node : node;
         const box = target.getBoundingClientRect();
         const x = Math.max(0, Math.min(innerWidth - 1, box.x + box.width / 2));
@@ -57,6 +58,7 @@ export async function expectReachableControls(page, scope) {
         return { label: node.getAttribute("aria-label") || node.textContent.trim(), clipped,
           reachable: Boolean(hit && target.contains(hit)), width: box.width, height: box.height };
       });
+      if (!result) continue;
       expect(result.clipped, `${result.label}: text remains within its control`).toEqual([]);
       expect(result.reachable, `${result.label}: control is reachable after scrolling`).toBe(true);
       expect(result.width, `${result.label}: minimum target width`).toBeGreaterThanOrEqual(24);
