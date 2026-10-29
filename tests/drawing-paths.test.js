@@ -168,6 +168,19 @@ test("distance resampling and partial playback preserve authored stylus pressure
   assert.deepEqual(source, [{ x: 0, y: 0, z: 0.1 }, { x: 10, y: 0, z: 0.9 }]);
 });
 
+test("malformed sampling inputs fail instead of producing invalid geometry or an unbounded loop", () => {
+  const points = [{ x: 0, y: 0 }, { x: 10, y: 0 }];
+  for (const spacing of [0, -1, NaN, Infinity])
+    assert.throws(() => sampleEvenly(points, spacing), /positive finite spacing/);
+  assert.throws(() => sampleEvenly([]), /finite authored points/);
+  assert.throws(() => sampleEvenly([{ x: 0, y: 0 }, { x: Infinity, y: 1 }]), /finite authored points/);
+  assert.throws(() => pointsAtProgress({ points: [] }, 0.5), /authored points/);
+  assert.throws(() => pointsAtProgress({ points }, NaN), /finite progress/);
+  assert.deepEqual(sampleEvenly(points, 5), [
+    { x: 0, y: 0 }, { x: 5, y: 0, z: 0.5 }, { x: 10, y: 0, z: 0.5 }, { x: 10, y: 0 },
+  ]);
+});
+
 test("every cat colouring phase keeps all 13 tldraw marks complete without replaying a drawing", () => {
   const cat = LESSONS.find((lesson) => lesson.id === "cat");
   const colourStages = cat.steps

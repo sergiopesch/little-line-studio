@@ -9,7 +9,7 @@ export default defineConfig({
   forbidOnly: true,
   // Production recovery targets compiled chunks; local import-failure tests
   // remain in the development suite.
-  testMatch: ["accessibility.spec.js", "catalogues.spec.js", "family-controls.spec.js", "production-recovery.spec.js", "startup-loading.spec.js"],
+  testMatch: ["accessibility.spec.js", "catalogues.spec.js", "family-controls.spec.js", "drawing-renderer.spec.js", "production-recovery.spec.js", "startup-loading.spec.js"],
   testIgnore: [],
   outputDir: `${process.env.LLS_PRODUCTION_OUTPUT}/artifacts`,
   reporter: [["list"], ["json", { outputFile: `${process.env.LLS_PRODUCTION_OUTPUT}/browser.json` }]],

@@ -50,7 +50,9 @@ export default function LessonPreview({
         context.lineWidth = previewOutlineWidth(style, scale);
       }
       context.beginPath();
-      context.moveTo(stroke.points[0].x, stroke.points[0].y);
+      const origin = stroke.points[0];
+      if (!origin) throw new TypeError("An outline preview needs an authored origin.");
+      context.moveTo(origin.x, origin.y);
       for (const point of stroke.points.slice(1)) context.lineTo(point.x, point.y);
       if (stroke.closed) context.closePath();
       if (style.fill !== "none") {
