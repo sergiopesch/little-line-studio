@@ -4,6 +4,19 @@ import { readFile, access, readdir } from "node:fs/promises";
 import config from "../vite.config.mjs";
 import { securityHeaders } from "../config/security.js";
 import { REVIEW_STAGES } from "../src/review-tour.js";
+import { sha256 } from "../scripts/release-metadata.mjs";
+
+test("the public release marker fingerprints the built HTML and exposes only release identity", async () => {
+  const document = await readFile(new URL("../dist/client/index.html", import.meta.url));
+  const release = JSON.parse(await readFile(new URL("../dist/client/release.json", import.meta.url), "utf8"));
+  assert.deepEqual(Object.keys(release).sort(), ["dirty", "indexSha256", "revision", "schemaVersion"]);
+  assert.equal(release.schemaVersion, 1);
+  assert.equal(release.indexSha256, sha256(document));
+  assert.ok(release.revision === null || /^[a-f0-9]{40}$/.test(release.revision));
+  assert.ok(release.dirty === null || typeof release.dirty === "boolean");
+  const vercel = JSON.parse(await readFile(new URL("../vercel.json", import.meta.url), "utf8"));
+  assert.ok(vercel.headers.find(h => h.source === "/release.json").headers.some(h => h.key === "Cache-Control" && h.value === "no-cache"));
+});
 
 test("Vercel enforces the same headers as the preview", async () => {
   const vercel = JSON.parse(await readFile(new URL("../vercel.json", import.meta.url), "utf8"));

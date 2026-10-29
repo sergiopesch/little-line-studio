@@ -12,6 +12,7 @@ import { securityHeaders } from "../config/security.js";
 import { LESSONS } from "../src/lesson-catalogue.js";
 import { localizeLesson } from "../src/spanish-lessons.js";
 import { validateNarrationDerivatives } from "./validate-narration-derivatives.mjs";
+import { releaseMetadata } from "./release-metadata.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
@@ -305,6 +306,7 @@ for (const [name, value] of Object.entries(securityHeaders)) {
 
 // A completion receipt makes failed validation distinguishable from a usable build.
 // Keep it outside the directory published by Vercel.
+writeFileSync(path.join(dist, "client", "release.json"), JSON.stringify(releaseMetadata(root, readFileSync(index))) + "\n");
 writeFileSync(path.join(dist, "validated.json"), JSON.stringify({
   schemaVersion: 1,
   spanishLessons: availability.lessons.length,

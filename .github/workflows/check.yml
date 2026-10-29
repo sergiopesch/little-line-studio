@@ -24,7 +24,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
           python3 -c "import subprocess; v = subprocess.check_output(['ffmpeg', '-version'], text=True).splitlines()[0]; print(v); assert v.startswith('ffmpeg version 8.'), 'Offline media fixtures are qualified with FFmpeg 8.x'"
-          npx playwright install --with-deps chromium
+          npx playwright install --with-deps chromium firefox webkit
       - name: Build and verify content, media and controller
         run: npm run check
       - name: Verify browser flows

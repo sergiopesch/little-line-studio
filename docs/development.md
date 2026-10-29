@@ -9,15 +9,17 @@ Run `npm run check` for the production build and Node tests. Install Python 3 an
 Run the browser suite separately:
 
 ```bash
-npx playwright install chromium  # once; use --with-deps on a clean Linux machine
+npx playwright install chromium firefox webkit  # once; use --with-deps on a clean Linux machine
 npm run test:browser
 ```
 
-Playwright is a pinned development dependency, absent from the application bundle. The suite launches this checkout on port 5186 with `--strictPort` and refuses to reuse another server. It exercises the full localhost lesson in desktop Chromium and a small touch viewport with reduced motion. It checks all nine language catalogues and real sample playback; adult setup, pause/resume, More time, Replay, settings, keyboard focus and Help music continuity; failed board/language/narration downloads; and the document visibility interruption handler. Each test uses a fresh browser context. No provider generation credentials are used.
+Playwright is a pinned development dependency, absent from the application bundle. The suite launches this checkout on port 5186 with `--strictPort` and refuses to reuse another server. It exercises desktop Chromium, Firefox and WebKit, plus small touch viewports in Chromium and WebKit with reduced motion. It checks all nine language catalogues and real sample playback; adult setup, pause/resume, More time, Replay, settings, keyboard focus and Help music continuity; failed board/language/narration downloads; and the document visibility interruption handler. Each test uses a fresh browser context. No provider generation credentials are used.
 
 Screenshots, failure traces and the HTML report stay in ignored `output/playwright/`. Open the report with `npx playwright show-report output/playwright/report`. `.github/workflows/check.yml` runs both suites on pull requests and main, with read-only repository permission and no application secrets, and retains browser evidence for seven days. A passing check is evidence, not an enforced merge requirement unless branch protection is configured separately.
 
-These Chromium checks do not establish Safari/iOS audio balance, physical-device interruption behavior, native-speaker approval or perceived recording quality. Before changing the audio backend, validate those properties on real devices. The current tldraw evaluation licence also still needs replacement before its documented expiry; neither test mode nor these changes bypass licence enforcement.
+The Linux WebKit and touch-viewport checks do not establish Safari/iOS audio balance, physical-device interruption behavior, native-speaker approval or perceived recording quality. Before changing the audio backend, validate those properties on real devices. The current tldraw evaluation licence also still needs replacement before its documented expiry; neither test mode nor these changes bypass licence enforcement.
+
+The development server and a deployed bundle have separate verification commands. After deployment, use [`npm run verify:production`](deployment.md#repeatable-production-verification) against the exact public origin and expected full commit. It does not start a local server, use provider credentials or disable deployment protection.
 
 Board imports remain deferred until lesson selection. A failed import is retained by the current attempt so the error boundary can pause safely; selecting or restarting a lesson explicitly requests a fresh promise. Written instructions remain available after the adult confirms. Starting the next attempt does not automatically resume playback.
 
