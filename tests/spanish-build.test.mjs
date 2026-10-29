@@ -5,6 +5,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import test from "node:test";
+import { LOCALES } from "../src/locale-registry.js";
 
 const lessons = [
   { id: "cat", steps: [
@@ -34,6 +35,13 @@ function fixture(t, selected = ["cat"]) {
   writeFileSync(path.join(root, "package.json"), JSON.stringify({ type: "module" }));
   writeFileSync(path.join(root, "src/lesson-catalogue.js"), `export const LESSONS = ${JSON.stringify(lessons)};\n`);
   writeFileSync(path.join(root, "src/spanish-lessons.js"), "export const localizeLesson = (lesson) => lesson;\n");
+  // The miniature project supplies its own resources; the production registry
+  // is independently checked against every real catalogue and voice.
+  const adapters = { "fr-FR": "french", "es-ES": "spanish-spain", "de-DE": "german", "it-IT": "italian", "nl-NL": "dutch" };
+  writeFileSync(path.join(root, "src/locale-registry.js"), `export const LOCALES = [${LOCALES.map(({ id, voiceId, sampleFile, assetSuffix }) => {
+    const data = JSON.stringify({ id, voiceId, sampleFile, assetSuffix });
+    return `{...${data}, loadText: () => ${adapters[id] ? `import("./${adapters[id]}-lessons.js")` : "Promise.resolve({localizeLesson: lesson => lesson})"}}`;
+  }).join(",")}];\n`);
   writeFileSync(path.join(root, "src/spanish-narration-sample.txt"), `${sample}\n`);
   writeFileSync(path.join(root, "config/security.js"), 'export const securityHeaders = {"X-Fixture": "yes"};\n');
   writeFileSync(path.join(root, "vercel.json"), JSON.stringify({ headers: [{ source: "/(.*)", headers: [{key: "X-Fixture", value: "yes"}] }] }));

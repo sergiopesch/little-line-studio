@@ -9,6 +9,10 @@ import {
 import { REVIEW_STAGES } from "./review-tour.js";
 import "./review.css";
 
+// This entry has English review copy only. Keep lesson resources out of the
+// restricted build, including the locale registry's lazy module references.
+export const dynamicLocale = () => null;
+
 export function SiteEntry() {
   const [stageIndex, setStageIndex] = useState(0);
   const stage = REVIEW_STAGES[stageIndex];
