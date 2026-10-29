@@ -61,6 +61,8 @@ Vercel may reserialize `vercel.json` before the build. The release identity acce
 
 Dynamic module entries load through `import()` rather than also being module-preloaded. This prevents a failed preload from blocking an explicit retry in WebKit when the module imports shared code from its importer. CSS and shared dependency preloads remain enabled. The production suite interrupts both compiled drawing and language downloads, then verifies recovery without bypassing supervision or changing language early.
 
+The console gate records the known tldraw 5.5.2 optional diagnostic as expected only when the browser also reports an enforced `connect-src` policy violation for that CDN. Its report omits URL queries. Licence/runtime errors, other endpoints and other SDK versions still fail. No diagnostic request is permitted, and the application's privacy policy is unchanged.
+
 ## Recovery
 
 In the Vercel deployment history, select the last known-good production deployment and roll back or promote it. Confirm the production alias and repeat the live smoke checks. A rollback does not renew an expired SDK licence: update the environment and rebuild if licensing is the cause.
