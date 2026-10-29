@@ -27,3 +27,20 @@ test("a failed compiled drawing download pauses and recovers after a supervised 
   await expect(page.locator(".demonstration-board")).toBeVisible();
   await expect(page.locator(".demonstration-unavailable")).toHaveCount(0);
 });
+
+test("a failed compiled language download retries without changing language early", async ({ page }) => {
+  const languageModule = "**/assets/german-lessons-*.js";
+  let blocked = 0;
+  await page.route(languageModule, route => { blocked++; return route.abort("failed"); });
+  await page.goto("/");
+  await page.getByRole("button", { name: "Explore Basic drawing: 10 drawings", exact: true }).click();
+  await page.getByRole("button", { name: "Deutsch German", exact: true }).click();
+  await expect(page.getByRole("alert")).toBeVisible();
+  expect(blocked, "the compiled language request was actually interrupted").toBeGreaterThan(0);
+  await expect(page.locator("html")).toHaveAttribute("lang", "en-GB");
+  await page.unroute(languageModule);
+  await page.getByRole("button", { name: "Deutsch German", exact: true }).click();
+  await expect(page.locator(".catalogue-page")).toBeVisible();
+  await expect(page.locator("html")).toHaveAttribute("lang", "de-DE");
+  await expect(page.getByRole("alert")).toHaveCount(0);
+});

@@ -59,6 +59,8 @@ The public-site checks require a properly licensed active lesson. A restricted n
 
 Vercel may reserialize `vercel.json` before the build. The release identity accepts that unstaged rewrite only when its parsed configuration is identical to the committed file and there are no other checkout changes or file-mode changes. Actual configuration changes, staged edits, other source changes and untracked files still mark the release dirty. The Vercel build also checks this identity before publishing.
 
+Dynamic module entries load through `import()` rather than also being module-preloaded. This prevents a failed preload from blocking an explicit retry in WebKit when the module imports shared code from its importer. CSS and shared dependency preloads remain enabled. The production suite interrupts both compiled drawing and language downloads, then verifies recovery without bypassing supervision or changing language early.
+
 ## Recovery
 
 In the Vercel deployment history, select the last known-good production deployment and roll back or promote it. Confirm the production alias and repeat the live smoke checks. A rollback does not renew an expired SDK licence: update the environment and rebuild if licensing is the cause.
