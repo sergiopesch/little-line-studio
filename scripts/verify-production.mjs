@@ -24,8 +24,10 @@ if (values.help) {
   const output = await mkdtemp(path.join(parent, `${target.commit.slice(0, 12)}-`));
   const report = { schemaVersion: 1, ...target, verifier: sourceIdentity(root, {}), startedAt: new Date().toISOString(), status: "failed" };
   try {
-    if (values.wait) report.waitedForRelease = await waitForProduction(target, { timeoutMs: Number(values.wait) * 1000 });
-    report.before = await checkProductionHttp(target);
+    report.before = values.wait
+      ? await waitForProduction(target, { timeoutMs: Number(values.wait) * 1000 })
+      : await checkProductionHttp(target);
+    if (values.wait) report.waitedForRelease = report.before.release;
     console.log(`Verified release ${target.commit}; checking all browser projects.`);
     const exit = await new Promise((resolve, reject) => {
       const child = spawn(process.execPath, [path.join(root, "node_modules/@playwright/test/cli.js"), "test", "--config", "playwright.production.config.js"], {

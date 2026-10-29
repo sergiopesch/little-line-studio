@@ -78,3 +78,8 @@ export type PlaybackCommand = {
   | { readonly type: "VOICE_DONE" | "DEMO_DONE" | "HOLD" | "CONTINUE" | "EXTEND" | "REPLAY" }
   | { readonly type: "TICK"; readonly elapsedMs: number; readonly active?: boolean }
 );
+
+export interface NarrationData {
+  readonly index: Readonly<Record<string, string>>;
+  readonly durations: Readonly<Record<string, number>>;
+}

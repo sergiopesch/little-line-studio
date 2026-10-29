@@ -16,33 +16,57 @@ export function productionTarget(value, commit) {
 
 export function verifyRelease(release, commit) {
   assert.equal(release.schemaVersion, 1, "Unsupported release marker");
+  assert.match(release.revision ?? "", /^[a-f0-9]{40}$/, "Invalid release identity");
   assert.equal(release.revision, commit, "The deployed commit differs from the requested commit");
   assert.equal(release.dirty, false, "The deployed build must identify a clean source revision");
   assert.match(release.indexSha256, /^[a-f0-9]{64}$/, "Missing build fingerprint");
   return release;
 }
 
-export async function checkProductionHttp(target, fetcher = fetch) {
+// Only readiness checks opt into these bounded, retriable propagation failures.
+// Headers, malformed markers, private paths and media failures remain fatal.
+export class ProductionPropagationError extends Error {}
+
+export async function checkProductionHttp(target, fetcher = fetch, { propagation = false, signal } = {}) {
   const checks = [];
-  const get = async (path, status, headers = {}) => {
-    const response = await fetcher(new URL(path, target.origin), {
-      redirect: "manual", signal: AbortSignal.timeout(15000), headers: { "Cache-Control": "no-cache", ...headers },
-    });
+  const get = async (path, status, headers = {}, mayPropagate = false) => {
+    let response;
+    try {
+      const timeout = AbortSignal.timeout(15000);
+      response = await fetcher(new URL(path, target.origin), {
+        redirect: "manual", signal: signal ? AbortSignal.any([signal, timeout]) : timeout,
+        headers: { "Cache-Control": "no-cache", ...headers },
+      });
+    } catch (error) {
+      if (propagation && mayPropagate)
+        throw new ProductionPropagationError("Release request failed or timed out", { cause: error });
+      throw error;
+    }
+    if (propagation && mayPropagate && (response.status === 404 || response.status >= 500)) {
+      await response.body?.cancel();
+      throw new ProductionPropagationError(`Release request returned HTTP ${response.status}`);
+    }
     assert.equal(response.status, status, `${path}: unexpected status (redirects and protected deployments are rejected)`);
     for (const [name, value] of Object.entries(securityHeaders))
       assert.equal(response.headers.get(name), value, `${path}: ${name}`);
     checks.push({ path: path.split("?")[0], status, securityHeaders: "passed" });
     return response;
   };
-  const marker = await get(`/release.json?verification=${randomUUID()}`, 200);
+  const marker = await get(`/release.json?verification=${randomUUID()}`, 200, {}, true);
   assert.match(marker.headers.get("content-type") ?? "", /application\/json/);
-  const release = verifyRelease(await marker.json(), target.commit);
-  const home = await get("/", 200);
+  const candidate = await marker.json();
+  // Validate even an older marker before deciding it is safe to wait.
+  const release = verifyRelease(candidate, propagation ? candidate?.revision : target.commit);
+  if (propagation && release.revision !== target.commit)
+    throw new ProductionPropagationError(`Production still serves ${release.revision}`);
+  const home = await get("/", 200, {}, true);
   const document = await home.text();
+  if (propagation && sha256(document) !== release.indexSha256)
+    throw new ProductionPropagationError("The HTML and release marker belong to different builds");
   assert.equal(sha256(document), release.indexSha256, "The HTML and release marker belong to different builds");
   const asset = document.match(/<script\b[^>]*\bsrc="(\/assets\/[^"?#]+\.js)"/)?.[1];
   assert.ok(asset, "Missing compiled application entry");
-  const script = await get(asset, 200);
+  const script = await get(asset, 200, {}, true);
   assert.match(script.headers.get("content-type") ?? "", /(?:javascript|ecmascript)/);
   await script.body?.cancel();
   for (const path of ["/.env.local", "/src/main.jsx", "/scripts/prepare-build.mjs", "/research/localization-pilot/cat.json", "/validated.json", "/missing-verification.mp3"])
