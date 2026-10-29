@@ -22,11 +22,17 @@ jobs:
       - name: Install audio fixture and browser dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg
+          sudo apt-get install -y ffmpeg pulseaudio pulseaudio-utils
           python3 -c "import subprocess; v = subprocess.check_output(['ffmpeg', '-version'], text=True).splitlines()[0]; print(v); assert v.startswith('ffmpeg version 8.'), 'Offline media fixtures are qualified with FFmpeg 8.x'"
           npx playwright install --with-deps chromium firefox webkit
       - name: Build and verify content, media and controller
         run: npm run check
+      - name: Start virtual audio output
+        run: |
+          pulseaudio --start --exit-idle-time=-1
+          pactl load-module module-null-sink sink_name=browser_checks
+          pactl set-default-sink browser_checks
+          pactl list short sinks
       - name: Verify browser flows
         run: npm run test:browser
       - name: Keep browser evidence

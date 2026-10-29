@@ -17,6 +17,8 @@ Playwright is a pinned development dependency, absent from the application bundl
 
 Screenshots, failure traces and the HTML report stay in ignored `output/playwright/`. Open the report with `npx playwright show-report output/playwright/report`. `.github/workflows/check.yml` runs both suites on pull requests and main, with read-only repository permission and no application secrets, and retains browser evidence for seven days. A passing check is evidence, not an enforced merge requirement unless branch protection is configured separately.
 
+The headless CI runner starts a PulseAudio null sink so Firefox has a functioning audio output device. The browsers still fetch and decode the actual MP3s and advance their real media clocks; tests do not fake playback success. The virtual sink discards output and cannot establish perceived sound quality. Desktop runs normally use the existing sound service.
+
 The Linux WebKit and touch-viewport checks do not establish Safari/iOS audio balance, physical-device interruption behavior, native-speaker approval or perceived recording quality. Before changing the audio backend, validate those properties on real devices. The current tldraw evaluation licence also still needs replacement before its documented expiry; neither test mode nor these changes bypass licence enforcement.
 
 The development server and a deployed bundle have separate verification commands. After deployment, use [`npm run verify:production`](deployment.md#repeatable-production-verification) against the exact public origin and expected full commit. It does not start a local server, use provider credentials or disable deployment protection.
