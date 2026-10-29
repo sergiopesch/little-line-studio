@@ -1,33 +1,46 @@
 // Offline review packets from published text and assets. No provider requests.
 import { createHash } from 'node:crypto';
-import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
+import { readFileSync, mkdirSync, mkdtempSync, writeFileSync } from 'node:fs';
+import path from 'node:path';
+import { parseArgs, isDeepStrictEqual } from 'node:util';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { LANGUAGES } from '../src/languages.js';
 import { getLesson, narrationKey } from '../src/lesson-catalogue.js';
+import { getLocale } from '../src/locale-registry.js';
+import { releasedLessons } from '../src/narration-locales.js';
 import { translate } from '../src/ui-translations.js';
 import { UI_MESSAGE_SOURCES } from '../src/ui-message-sources.js';
 
 const root = new URL('../', import.meta.url);
 const readJSON = path => JSON.parse(readFileSync(new URL(path, root), 'utf8'));
 export const fingerprint = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
-const textModules = {
-  'es-419': '../src/spanish-lessons.js', 'es-ES': '../src/spanish-spain-lessons.js',
-  'fr-FR': '../src/french-lessons.js', 'de-DE': '../src/german-lessons.js',
-  'it-IT': '../src/italian-lessons.js', 'nl-NL': '../src/dutch-lessons.js',
-};
 const fail = message => { throw new Error(message); };
 
-export async function loadPilot(locale) {
-  if (!LANGUAGES.some(language => language.id === locale)) fail(`Unknown locale: ${locale}`);
-  if (!Object.hasOwn(textModules, locale) && !['en-GB', 'en-IE', 'en-GB-x-scotland'].includes(locale))
-    fail(`Missing text adapter: ${locale}`);
-  const source = getLesson('cat');
-  const lesson = Object.hasOwn(textModules, locale)
-    ? (await import(textModules[locale])).localizeLesson(source, locale) : source;
-  const suffix = locale === 'en-GB' ? '' : `.${locale}`;
-  const index = readJSON(`src/narration-index${suffix}.json`);
-  const durations = readJSON(`src/narration-durations${suffix}.json`);
-  const manifest = readJSON(`src/narration-manifest${suffix}.json`);
+export const loadPilot = locale => loadLessonReview(locale, 'cat');
+
+export async function loadLessonReview(locale, lessonId, { metadata = new Map(), assets = new Map() } = {}) {
+  const definition = getLocale(locale);
+  if (!definition) fail(`Unknown locale: ${locale}`);
+  const source = getLesson(lessonId);
+  if (!source || !releasedLessons(locale).some(lesson => lesson.id === lessonId)) fail(`Unreleased lesson: ${locale}/${lessonId}`);
+  const lesson = (await definition.loadText()).localizeLesson(source, locale);
+  const suffix = definition.assetSuffix;
+  const json = filename => {
+    if (!metadata.has(filename)) metadata.set(filename, readJSON(filename));
+    return metadata.get(filename);
+  };
+  const index = json(`src/narration-index${suffix}.json`);
+  const durations = json(`src/narration-durations${suffix}.json`);
+  const manifest = json(`src/narration-manifest${suffix}.json`);
+  const checkAsset = clip => {
+    if (!assets.has(clip.src)) {
+      const bytes = readFileSync(new URL(`public${clip.src}`, root));
+      assets.set(clip.src, { bytes: bytes.length, sha256: createHash('sha256').update(bytes).digest('hex') });
+    }
+    const actual = assets.get(clip.src);
+    if (actual.bytes !== clip.bytes || actual.sha256 !== clip.sha256 || !clip.src.includes(clip.sha256))
+      fail(`Changed recording: ${locale}/${clip.src}`);
+  };
   const clips = lesson.steps.flatMap((step, i) => ['instruction', 'hint'].map(kind => {
     const key = narrationKey(lesson, i, kind);
     const clip = manifest.clips[key];
@@ -36,14 +49,18 @@ export async function loadPilot(locale) {
         clip.text !== (kind === 'instruction' ? step.spoken : step.hint) ||
         !Number.isFinite(clip.duration) || clip.duration <= 0 ||
         ((kind === 'instruction' || Object.hasOwn(durations, key)) && Math.round(clip.duration * 1000) !== durations[key]) ||
-        typeof clip.voiceId !== 'string' || !clip.voiceId) fail(`Unmatched recording: ${locale}/${key}`);
-    const bytes = readFileSync(new URL(`public${clip.src}`, root));
-    if (bytes.length !== clip.bytes || createHash('sha256').update(bytes).digest('hex') !== clip.sha256)
-      fail(`Changed recording: ${locale}/${key}`);
+        clip.voiceId !== definition.voiceId) fail(`Unmatched recording: ${locale}/${key}`);
+    checkAsset(clip);
     return { key, src: clip.src, sha256: clip.sha256, bytes: clip.bytes, durationMs: Math.round(clip.duration * 1000), voiceId: clip.voiceId, text: clip.text };
   }));
   const messages = Object.entries(UI_MESSAGE_SOURCES).map(([id, source]) => ({ id, source, local: translate(locale, id) }));
-  return { locale, source, lesson, clips, messages };
+  const musicClip = json('src/music-manifest.json').lessons[lesson.musicId];
+  if (!musicClip || !/^\/music\/clip-[a-f0-9]{64}\.mp3$/.test(musicClip.src) ||
+      json('src/lesson-music-index.json')[lesson.musicId] !== musicClip.src ||
+      !Number.isFinite(musicClip.duration) || musicClip.duration <= 0) fail(`Unmatched music: ${lessonId}`);
+  checkAsset(musicClip);
+  const music = { src: musicClip.src, sha256: musicClip.sha256, bytes: musicClip.bytes, durationMs: Math.round(musicClip.duration * 1000) };
+  return { locale, source, lesson, clips, messages, music };
 }
 
 export function pilotIdentity({ source, lesson, clips, messages }) {
@@ -65,13 +82,15 @@ export function verifyPilot(packet, record) {
 }
 
 export function renderPacket(packet, record, contexts) {
-  verifyPilot(packet, record);
+  if (record) verifyPilot(packet, record);
+  const identity = pilotIdentity(packet);
   const { locale, source, lesson, clips } = packet;
-  const lines = [`# Cat localization review — ${locale}`, '',
-    'Assistant text assessment only. Native-speaker review and human listening: pending.', '',
-    `Source fingerprint: ${record.sourceSha256}`, `Localized fingerprint: ${record.localizedSha256}`, `Audio fingerprint: ${record.audioSha256}`, `Interface fingerprint: ${record.interfaceSha256}`, '',
-    '## Editorial assessment', '', record.assessment, '', '### Follow-ups (proposals, not published edits)', ''];
-  for (const note of record.followUps) lines.push(`- **${note.stageId}:** ${note.reason} Proposal: ${note.proposal}`);
+  const lines = [`# ${source.title} localization review — ${locale}`, '',
+    'Native-speaker review and human listening: pending. This extraction does not approve wording, pronunciation or audio quality.', '',
+    `Source fingerprint: ${identity.sourceSha256}`, `Localized fingerprint: ${identity.localizedSha256}`, `Audio fingerprint: ${identity.audioSha256}`, `Interface fingerprint: ${identity.interfaceSha256}`, '',
+    '## Editorial assessment', '', record?.assessment ?? 'No new assistant assessment is recorded in this workflow. The source catalogue retains its existing editorial provenance.', '',
+    '### Follow-ups (proposals, not published edits)', ''];
+  for (const note of record?.followUps ?? []) lines.push(`- **${note.stageId}:** ${note.reason} Proposal: ${note.proposal}`);
   lines.push('', '## Lesson context', '');
   for (const field of ['title', 'invitation', 'objective', 'parentNote', 'simplify', 'transfer', 'colouringLabel', 'pilotPhases']) {
     const format = value => typeof value === 'string' ? value : JSON.stringify(value);
@@ -92,29 +111,65 @@ export function renderPacket(packet, record, contexts) {
     lines.push(`### ${id}`, '', `Source: ${sourceText}`, '', `Local: ${local}`, '',
       `Audience: ${context.audience}. ${context.intent} ${context.constraint}`, '');
   }
+  lines.push('## Music and in-app listening', '',
+    `[Listen to the lesson music](https://little-line-studio.vercel.app${packet.music.src}) — ${packet.music.durationMs} ms; SHA-256 ${packet.music.sha256}`, '',
+    'Audition the actual app as well as individual clips: instruction → quiet practice → Help → spoken hint → Stop hint → return; check music continuity and a comfortable voice/music balance. Then test Pause, resume, mute, tab hiding/device locking and a full music loop. Record the physical device, OS/browser, speaker/headphones and volume setting.', '',
+    'Check keyboard navigation, visible focus, large text, reduced motion and a screen reader. With an adult and child, observe comprehension, optional details, time to draw and the freedom to stop. Do not record identifying child data.', '');
   lines.push('## Reviewer response', '',
     'Record locale, stage/message ID, current wording, proposed wording, reason, recording hash, reviewer role/name and date. Keep text review, pronunciation listening and in-app voice/music testing separate. A packet or changed fingerprint alone does not establish approval.', '');
   return lines.join('\n');
 }
 
-export async function writeReviewPackets() {
+export function reviewForm(packet) {
+  return { schemaVersion: 1, locale: packet.locale, lessonId: packet.lesson.id,
+    identity: { ...pilotIdentity(packet), musicSha256: packet.music.sha256 },
+    reviews: ['editorial', 'native-language', 'device-audio', 'accessibility', 'family'].map(type => ({
+      type, status: 'pending', reviewer: '', date: '', deviceAndSetup: '', observations: '', issues: [],
+    })) };
+}
+
+export function verifyReviewIdentity(packet, form) {
+  if (form?.schemaVersion !== 1 || form.locale !== packet.locale || form.lessonId !== packet.lesson.id ||
+      !isDeepStrictEqual(form.identity, reviewForm(packet).identity))
+    fail('Stale or mismatched review form; review the changed text, recordings, music or controls again');
+  // This checks identity only. It cannot certify a person's qualifications or listening.
+  return true;
+}
+
+export async function writeReviewPackets({ output = fileURLToPath(new URL('output/localization-review/', root)) } = {}) {
   const evidence = readJSON('research/localization-pilot/cat.json');
   const contexts = readJSON('docs/localization/message-context.json');
   if (fingerprint(Object.keys(evidence.locales).sort()) !== fingerprint(LANGUAGES.map(l => l.id).sort())) fail('Pilot locale coverage changed');
-  // Validate every locale before replacing any packet.
+  // Validate every locale before creating a new packet directory.
   const packets = [];
+  const cache = { metadata: new Map(), assets: new Map() };
   for (const { id } of LANGUAGES) {
-    const packet = await loadPilot(id);
-    packets.push([id, renderPacket(packet, evidence.locales[id], contexts)]);
+    for (const lesson of releasedLessons(id)) {
+      const packet = await loadLessonReview(id, lesson.id, cache);
+      const record = lesson.id === 'cat' ? evidence.locales[id] : null;
+      packets.push({ packet, record, content: renderPacket(packet, record, contexts) });
+    }
   }
-  const output = new URL('output/localization-review/', root);
   mkdirSync(output, { recursive: true });
-  for (const [locale, content] of packets) writeFileSync(new URL(`${locale}.md`, output), content);
-  writeFileSync(new URL('README.md', output), '# Cat review packets\n\nAssistant text assessment; native-speaker review and human listening pending.\n\n' + packets.map(([id]) => `- [${id}](${id}.md)`).join('\n') + '\n');
-  return { locales: packets.length, stagesPerLocale: getLesson('cat').steps.length, output: fileURLToPath(output) };
+  const destination = mkdtempSync(path.join(path.resolve(output), 'catalogue-'));
+  const entries = [];
+  for (const { packet, record, content } of packets) {
+    const base = `${packet.locale}/${packet.lesson.id}`;
+    mkdirSync(path.join(destination, packet.locale), { recursive: true });
+    writeFileSync(path.join(destination, `${base}.md`), content);
+    writeFileSync(path.join(destination, `${base}.review.json`), JSON.stringify(reviewForm(packet), null, 2) + '\n');
+    entries.push({ locale: packet.locale, lessonId: packet.lesson.id, title: packet.lesson.title, level: packet.lesson.level,
+      stages: packet.lesson.steps.length, recordings: packet.clips.length, packet: `${base}.md`, form: `${base}.review.json`,
+      assistantAssessment: record ? 'recorded-cat-pilot' : 'not-recorded-in-this-workflow',
+      nativeReview: 'pending', humanListening: 'pending', followUps: record?.followUps ?? [], identity: reviewForm(packet).identity });
+  }
+  writeFileSync(path.join(destination, 'catalogue.json'), JSON.stringify({ schemaVersion: 1, entries }, null, 2) + '\n');
+  writeFileSync(path.join(destination, 'README.md'), '# Complete catalogue review packets\n\nExtraction and asset checks only; native-speaker review and human listening remain pending. Review forms are identity-bound worksheets, not approval certificates. Preserve this directory when recording feedback; later runs create a separate directory.\n\n' +
+    entries.map(e => `- [${e.locale} · ${e.level} · ${e.title}](${e.packet}) — [review form](${e.form})`).join('\n') + '\n');
+  return { locales: LANGUAGES.length, packets: entries.length, recordingReferences: entries.reduce((n, e) => n + e.recordings, 0), output: destination };
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-  if (process.argv.length !== 2) fail('Usage: node scripts/localization-review.mjs');
-  console.log(JSON.stringify(await writeReviewPackets(), null, 2));
+  const { values } = parseArgs({ options: { output: { type: 'string' } } });
+  console.log(JSON.stringify(await writeReviewPackets(values), null, 2));
 }

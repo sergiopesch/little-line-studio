@@ -216,8 +216,8 @@ test("packaged entry matches production configuration and ships only static publ
       "no-key review explains that the hosted lesson is disabled",
     );
     assert.ok(
-      !/DemonstrationBoard|sanitizeSvg/.test(files.join("\n")),
-      "no-key build excludes board and SDK chunks",
+      !/DemonstrationBoard|sanitizeSvg|narration-|(?:german|spanish|french|dutch|italian)-lessons/.test(files.join("\n")),
+      "no-key build excludes board, SDK and localized lesson chunks",
     );
     assert.ok(
       !/tldraw\.com\/app|No tldraw license key provided|STEALTH_NO_TLDRAW/.test(

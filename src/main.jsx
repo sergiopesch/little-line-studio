@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { SiteEntry } from "@site-entry";
+import { SiteEntry, dynamicLocale } from "@site-entry";
 import "@fontsource/nunito/latin-400.css";
 import "@fontsource/nunito/latin-600.css";
 import "@fontsource/nunito/latin-700.css";
@@ -8,7 +8,6 @@ import "@fontsource/nunito/latin-800.css";
 import "@fontsource/nunito/latin-900.css";
 import "./styles.css";
 import "./brand.css";
-import { dynamicLocale } from "./locale-dynamic.js";
 
 class LessonBoundary extends React.Component {
   state = { failed: false };

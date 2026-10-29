@@ -1,3 +1,4 @@
+import { LOCALES, getLocale, DEFAULT_LOCALE } from "./locale-registry.js";
 import { isNarrationPath } from "./narration-locales.js";
 
 export function createNarrationRegistry(load) {
@@ -22,60 +23,16 @@ export function createNarrationRegistry(load) {
   };
 }
 
-export function createSpanishNarrationRegistry(load = () => import("./spanish-narration.js")) {
+export function createSpanishNarrationRegistry(load = getLocale("es-419").loadNarration) {
   return createNarrationRegistry(load);
 }
 
-const registry = createSpanishNarrationRegistry();
+const locales = Object.fromEntries(LOCALES.filter(locale => locale.id !== DEFAULT_LOCALE)
+  .map(locale => [locale.id, createNarrationRegistry(locale.loadNarration)]));
+const registry = locales["es-419"];
 export const loadSpanishNarration = () => registry.load();
 export const authorizeSpanishNarration = (narration) => registry.authorize(narration);
 export const isSpanishAuthoredClip = (source) => registry.contains(source);
-
-const locales = {
-  "es-419": registry,
-  "es-ES": createNarrationRegistry(async () => {
-    const [index, durations] = await Promise.all([
-      import("./narration-index.es-ES.json"), import("./narration-durations.es-ES.json"),
-    ]);
-    return { index: index.default, durations: durations.default };
-  }),
-  "de-DE": createNarrationRegistry(async () => {
-    const [index, durations] = await Promise.all([
-      import("./narration-index.de-DE.json"), import("./narration-durations.de-DE.json"),
-    ]);
-    return { index: index.default, durations: durations.default };
-  }),
-  "it-IT": createNarrationRegistry(async () => {
-    const [index, durations] = await Promise.all([
-      import("./narration-index.it-IT.json"), import("./narration-durations.it-IT.json"),
-    ]);
-    return { index: index.default, durations: durations.default };
-  }),
-  "nl-NL": createNarrationRegistry(async () => {
-    const [index, durations] = await Promise.all([
-      import("./narration-index.nl-NL.json"), import("./narration-durations.nl-NL.json"),
-    ]);
-    return { index: index.default, durations: durations.default };
-  }),
-  "fr-FR": createNarrationRegistry(async () => {
-    const [index, durations] = await Promise.all([
-      import("./narration-index.fr-FR.json"), import("./narration-durations.fr-FR.json"),
-    ]);
-    return { index: index.default, durations: durations.default };
-  }),
-  "en-IE": createNarrationRegistry(async () => {
-    const [index, durations] = await Promise.all([
-      import("./narration-index.en-IE.json"), import("./narration-durations.en-IE.json"),
-    ]);
-    return { index: index.default, durations: durations.default };
-  }),
-  "en-GB-x-scotland": createNarrationRegistry(async () => {
-    const [index, durations] = await Promise.all([
-      import("./narration-index.en-GB-x-scotland.json"), import("./narration-durations.en-GB-x-scotland.json"),
-    ]);
-    return { index: index.default, durations: durations.default };
-  }),
-};
 
 export function loadLocaleNarration(locale) {
   if (!Object.hasOwn(locales, locale)) throw new TypeError("Unknown narration locale.");

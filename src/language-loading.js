@@ -1,33 +1,17 @@
 import { narrationForLocale } from "./narration-locales.js";
-import { loadSpanishNarration, loadLocaleNarration } from "./narration-registry.js";
+import { loadLocaleNarration } from "./narration-registry.js";
+import { getLocale, DEFAULT_LOCALE } from "./locale-registry.js";
 
-export async function loadSpanishLanguage(lessons, {
-  loadText = () => import("./spanish-lessons.js"),
-  loadNarration = loadSpanishNarration,
-  validate = narrationForLocale,
-} = {}) {
-  const [text, narration] = await Promise.all([loadText(), loadNarration()]);
-  if (!Array.isArray(lessons) || !lessons.length ||
-      !validate("es-419", lessons, narration).ready ||
-      typeof text.localizeLesson !== "function" || typeof text.localizedLessonTitle !== "function")
-    throw new TypeError("The Spanish lessons could not be verified.");
-  for (const lesson of lessons) text.localizeLesson(lesson, "es-419");
-  return { localizeLesson: text.localizeLesson, localizedTitle: text.localizedLessonTitle, narration };
+export function loadSpanishLanguage(lessons, options) {
+  return loadLocaleLanguage("es-419", lessons, options);
 }
 
-const identityText = { localizeLesson: (lesson) => lesson, localizedLessonTitle: (lesson) => lesson?.title ?? null };
-
 export async function loadLocaleLanguage(locale, lessons, {
-  loadText = () => locale === "fr-FR" ? import("./french-lessons.js")
-    : locale === "es-ES" ? import("./spanish-spain-lessons.js")
-    : locale === "de-DE" ? import("./german-lessons.js")
-    : locale === "it-IT" ? import("./italian-lessons.js")
-    : locale === "nl-NL" ? import("./dutch-lessons.js") : Promise.resolve(identityText),
+  loadText = () => getLocale(locale).loadText(),
   loadNarration = () => loadLocaleNarration(locale),
   validate = narrationForLocale,
 } = {}) {
-  if (locale === "es-419") return loadSpanishLanguage(lessons);
-  if (!["fr-FR", "es-ES", "de-DE", "it-IT", "nl-NL", "en-IE", "en-GB-x-scotland"].includes(locale)) throw new TypeError("Unknown language.");
+  if (!getLocale(locale) || locale === DEFAULT_LOCALE) throw new TypeError("Unknown language.");
   const [text, narration] = await Promise.all([loadText(), loadNarration()]);
   if (!Array.isArray(lessons) || !lessons.length || !validate(locale, lessons, narration).ready ||
       typeof text.localizeLesson !== "function" || typeof text.localizedLessonTitle !== "function")

@@ -1,22 +1,14 @@
+import { LOCALES, DEFAULT_LOCALE } from "./locale-registry.js";
 import { LESSONS } from "./lesson-catalogue.js";
 import { releasedLessons } from "./narration-locales.js";
 
 // The build validates the release descriptor against the prepared Spanish audio.
 const spanishCount = releasedLessons("es-419").length;
 const ready = (locale) => releasedLessons(locale).length > 0;
-export const LANGUAGES = Object.freeze([
-  Object.freeze({ id: "en-GB", name: "English", region: "British", flag: "🇬🇧", ready: true }),
-  Object.freeze({ id: "en-IE", name: "English", region: "Irish", flag: "🇮🇪", ready: ready("en-IE") }),
-  Object.freeze({ id: "en-GB-x-scotland", name: "English", region: "Scottish", flag: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", ready: ready("en-GB-x-scotland") }),
-  Object.freeze({ id: "es-419", name: "Castellano", region: "Latinoamérica", flag: "🇻🇪", ready: spanishCount > 0 }),
-  Object.freeze({ id: "es-ES", name: "Castellano", region: "España", flag: "🇪🇸", ready: ready("es-ES") }),
-  Object.freeze({ id: "fr-FR", name: "Français", region: "French", flag: "🇫🇷", ready: ready("fr-FR") }),
-  Object.freeze({ id: "de-DE", name: "Deutsch", region: "German", flag: "🇩🇪", ready: ready("de-DE") }),
-  Object.freeze({ id: "it-IT", name: "Italiano", region: "Italian", flag: "🇮🇹", ready: ready("it-IT") }),
-  Object.freeze({ id: "nl-NL", name: "Nederlands", region: "Dutch", flag: "🇳🇱", ready: ready("nl-NL") }),
-]);
+export const LANGUAGES = Object.freeze(LOCALES.map(({ id, name, region, flag }) =>
+  Object.freeze({ id, name, region, flag, ready: id === DEFAULT_LOCALE || ready(id) })));
 
-export const DEFAULT_LANGUAGE = "en-GB";
+export const DEFAULT_LANGUAGE = DEFAULT_LOCALE;
 export const getLanguage = (id) => LANGUAGES.find((language) => language.id === id) ?? null;
 export const languageAvailableForLevel = (id, levelId) =>
   Boolean(getLanguage(id)?.ready && releasedLessons(id).some((lesson) => lesson.level === levelId));

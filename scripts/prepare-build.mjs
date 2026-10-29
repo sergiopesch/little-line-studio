@@ -12,13 +12,14 @@ import { securityHeaders } from "../config/security.js";
 import { LESSONS } from "../src/lesson-catalogue.js";
 import { localizeLesson } from "../src/spanish-lessons.js";
 import { validateNarrationDerivatives } from "./validate-narration-derivatives.mjs";
+import { LOCALES } from "../src/locale-registry.js";
 import { releaseMetadata } from "./release-metadata.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
 const index = path.join(dist, "client", "index.html");
 
-for (const suffix of ['', '.es-419', '.en-IE', '.en-GB-x-scotland', '.fr-FR', '.es-ES', '.de-DE', '.it-IT', '.nl-NL']) {
+for (const { assetSuffix: suffix } of LOCALES) {
   const manifestPath = path.join(root, 'src', `narration-manifest${suffix}.json`);
   if (existsSync(manifestPath)) {
     validateNarrationDerivatives(JSON.parse(readFileSync(manifestPath, 'utf8')), path.join(dist, 'client'));
@@ -270,22 +271,9 @@ async function validateAdditionalLocale(locale, voice, sampleFile, translateLess
 }
 
 const additionalLocales = {};
-for (const [locale, voice, sample] of [
-  ["en-IE", "t6WJWTYTryhcQnrBHdCr", "narration-sample.en.txt"],
-  ["en-GB-x-scotland", "M6KCOw7VXEJAZwuYFLuz", "narration-sample.en.txt"],
-  ["fr-FR", "tKaoyJLW05zqV0tIH9FD", "narration-sample.fr-FR.txt"],
-  ["es-ES", "BkOojM1ZhtSAHgsAkMx2", "narration-sample.es-ES.txt"],
-  ["de-DE", "5bVYvsqKAWO1hDgOO72l", "narration-sample.de-DE.txt"],
-  ["it-IT", "wOXFTxgu7FQDBb1dsL7I", "narration-sample.it-IT.txt"],
-  ["nl-NL", "DiUBVrSFwkMaPz4XqWvR", "narration-sample.nl-NL.txt"],
-]) {
-  const translator = locale === "fr-FR"
-    ? async (lesson, id) => (await import("../src/french-lessons.js")).localizeLesson(lesson, id)
-    : locale === "es-ES" ? async (lesson, id) => (await import("../src/spanish-spain-lessons.js")).localizeLesson(lesson, id)
-    : locale === "de-DE" ? async (lesson, id) => (await import("../src/german-lessons.js")).localizeLesson(lesson, id)
-    : locale === "it-IT" ? async (lesson, id) => (await import("../src/italian-lessons.js")).localizeLesson(lesson, id)
-    : locale === "nl-NL" ? async (lesson, id) => (await import("../src/dutch-lessons.js")).localizeLesson(lesson, id)
-    : (lesson) => lesson;
+for (const { id: locale, voiceId: voice, sampleFile: sample, loadText } of LOCALES) {
+  if (["en-GB", "es-419"].includes(locale)) continue;
+  const translator = async (lesson, id) => (await loadText()).localizeLesson(lesson, id);
   additionalLocales[locale] = await validateAdditionalLocale(locale, voice, sample, translator);
 }
 
