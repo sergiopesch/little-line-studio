@@ -138,14 +138,14 @@ export class StudioAudio {
   }
 
   // Call for every lesson selection, including another lesson in the same level.
-  selectMusic(level: string, musicId: string | null = null) {
+  selectMusic(level: string | null, musicId: string | null = null) {
     if (this._disposed) return;
     this._resetMusicMedia();
-    if (!["basic", "intermediate", "expert"].includes(level))
+    if (level === null || !["basic", "intermediate", "expert"].includes(level))
       this._enabled = false;
     const authored = musicId === null ? undefined : this._lessonMusicAssets.get(musicId);
     this._musicSource = authored && authored.level === level
-      ? authored.source : this._musicAssets.get(level) ?? null;
+      ? authored.source : level === null ? null : this._musicAssets.get(level) ?? null;
     this._step = 0;
     this._syncMusic();
     if (this._enabled && !this._musicSource && !this._context)

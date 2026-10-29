@@ -36,7 +36,7 @@ test('Italian UI draft covers the established static dictionary and dynamic plac
   assert.equal(ui.status, 'assistant-draft-awaiting-native-human-review');
   assert.deepEqual(Object.keys(ui.strings).sort(), Object.keys(FRENCH_UI).sort());
   for (const text of Object.values(ui.strings)) assert.ok(typeof text === 'string' && text.trim());
-  for (const file of readdirSync(new URL('../src/', import.meta.url)).filter(name => /\.(?:jsx|js)$/.test(name))) {
+  for (const file of readdirSync(new URL('../src/', import.meta.url), { recursive: true }).filter(name => /\.[jt]sx?$/.test(name))) {
     const content = readFileSync(new URL(`../src/${file}`, import.meta.url), 'utf8');
     for (const match of content.matchAll(/\bt\(\s*"([^"\n]+)"\s*\)/g)) assert.ok(ui.strings[match[1]], `${file}: ${match[1]}`);
   }

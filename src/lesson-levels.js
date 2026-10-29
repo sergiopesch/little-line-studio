@@ -1,3 +1,4 @@
+/** @type {readonly import("./browser/ui-contracts.ts").LevelView[]} */
 export const LEVELS = Object.freeze([
   {
     id: "basic",

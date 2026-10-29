@@ -43,7 +43,7 @@ test('Dutch UI draft covers the source keys and preserves variable content', () 
 
 test('Dutch source covers static translation call sites and accessibility helpers', async () => {
   const { readdirSync } = await import('node:fs');
-  for (const filename of readdirSync('src').filter((name) => /\.(js|jsx)$/.test(name))) {
+  for (const filename of readdirSync('src', { recursive: true }).filter((name) => /\.[jt]sx?$/.test(name))) {
     const source = readFileSync(`src/${filename}`, 'utf8');
     for (const match of source.matchAll(/\bt\(\s*("(?:[^"\\]|\\.)*")/g)) {
       const key = JSON.parse(match[1]);
