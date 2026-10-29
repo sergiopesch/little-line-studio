@@ -12,11 +12,14 @@
     "update:previews": "node scripts/generate-preview-outlines.mjs --write",
     "update:directory": "node scripts/generate-lesson-directory.mjs --write",
     "update:social-card": "node scripts/render-social-card.mjs",
-    "check": "npm run build && npm test",
+    "check": "npm run typecheck && npm run build && npm test",
     "test:browser": "playwright test",
     "verify:production": "node scripts/verify-production.mjs",
     "review:localization": "node scripts/localization-review.mjs",
-    "test:accessibility": "playwright test accessibility.spec.js"
+    "test:accessibility": "playwright test accessibility.spec.js",
+    "typecheck": "tsc --noEmit",
+    "agent": "node scripts/agent-workspace.mjs",
+    "verify:engine-parity": "node scripts/verify-engine-parity.mjs"
   },
   "dependencies": {
     "@fontsource/nunito": "^5.3.0",
@@ -35,6 +38,7 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",
-    "@playwright/test": "1.64.1"
+    "@playwright/test": "1.64.1",
+    "typescript": "7.0.2"
   }
 }

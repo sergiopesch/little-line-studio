@@ -2,6 +2,10 @@
 
 Use Node.js 24 and `npm ci`. `npm run dev` serves the lesson on localhost. `npm run check` builds and runs the tests; `npm run preview` serves the production output. Production builds require a valid tldraw key to enable the lesson, as explained in [deployment](deployment.md).
 
+## Shared platform core
+
+Lesson progression and pacing now live in `src/core/` under strict TypeScript checking. The family UI uses the existing compatibility entries; the local agent workspace uses the same engine for isolated rehearsals. See [platform architecture and local agent examples](platform.md) and the [domain vocabulary](../CONTEXT.md). Run `npm run typecheck` for a focused compiler check, or `npm run check` for the required full build and verification. The rest of the JSX application is still JavaScript.
+
 ## Regression checks
 
 Run `npm run check` for the production build and Node tests. Install Python 3 and FFmpeg 8.x to run the audio fixture tests rather than skip them. The offline loop checks are qualified with FFmpeg 8.x: FFmpeg 6.1 produces different normalization and decoded-length results and fails the existing guards. CI uses the explicit [Ubuntu 26.04 runner](https://github.com/actions/runner-images/blob/main/README.md) and checks the FFmpeg major version; it does not relax loudness or continuity limits to accommodate another encoder. With no tldraw key, this command verifies the deliberately restricted licence-review build; it does not prove that the licensed lesson bundle renders.

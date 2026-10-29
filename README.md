@@ -80,7 +80,7 @@ The audio and graphics are included, so normal development and playback require 
 
 ## How it is built
 
-React 19 and Vite power the interface. The genuine tldraw SDK renders the read-only teacher board. Authored lesson data and a deterministic controller coordinate demonstration, narration and practice. Fonts, graphics and prepared audio are served from the same origin.
+React 19 and Vite power the interface. The genuine tldraw SDK renders the read-only teacher board. Authored lesson data and a shared TypeScript core coordinate demonstration, narration and practice. A local agent workspace can inspect public localized lessons and rehearse the same rules within an explicit content grant; it has no access to family sessions. See the [platform architecture, examples and security boundary](docs/platform.md). Fonts, graphics and prepared audio are served from the same origin.
 
 ```text
 src/          Interface, lesson content, controller and media manifests
