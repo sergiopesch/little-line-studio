@@ -621,8 +621,10 @@ class RealLoopTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary, patch.object(a,'ROOT',Path(temporary)):
             root=Path(temporary)
             source_file=root/'source.mp3'
+            # Nonzero loudness range keeps measured-linear normalization valid
+            # across FFmpeg versions; a constant tone can select dynamic mode.
             subprocess.run([ffmpeg,'-nostdin','-v','error','-f','lavfi','-i','sine=frequency=440:duration=90',
-                '-af','volume=0.4,afade=t=out:st=80:d=10','-ar','44100','-ac','2',
+                '-af',"volume='0.3+0.1*sin(2*PI*t/12)':eval=frame,afade=t=out:st=80:d=10",'-ar','44100','-ac','2',
                 '-codec:a','libmp3lame','-b:a','128k',str(source_file)],check=True)
             data=source_file.read_bytes(); digest=a.sha(data)
             source={'src':f'/music/clip-{digest}.mp3','sha256':digest,'bytes':len(data),
