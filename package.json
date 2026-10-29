@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/generate-preview-outlines.mjs --check",
+    "prebuild": "node scripts/generate-lesson-directory.mjs --check && node scripts/generate-preview-outlines.mjs --check",
     "build": "vite build && node scripts/prepare-build.mjs",
     "preview": "vite preview",
     "test": "node --test --test-isolation=none tests/*.test.js tests/*.test.mjs",
     "update:previews": "node scripts/generate-preview-outlines.mjs --write",
+    "update:directory": "node scripts/generate-lesson-directory.mjs --write",
     "check": "npm run build && npm test",
     "test:browser": "playwright test",
     "verify:production": "node scripts/verify-production.mjs",

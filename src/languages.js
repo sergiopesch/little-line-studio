@@ -1,6 +1,8 @@
 import { LOCALES, DEFAULT_LOCALE } from "./locale-registry.js";
-import { LESSONS } from "./lesson-catalogue.js";
-import { releasedLessons } from "./narration-locales.js";
+import LESSONS from "./lesson-directory.json" with { type: "json" };
+import { isLessonReleased } from "./locale-availability.js";
+
+const releasedLessons = locale => LESSONS.filter(lesson => isLessonReleased(locale, lesson));
 
 // The build validates the release descriptor against the prepared Spanish audio.
 const spanishCount = releasedLessons("es-419").length;

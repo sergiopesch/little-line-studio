@@ -30,7 +30,9 @@ import { LESSONS, getLesson, getLevel, narrationKey } from "./lesson-catalogue.j
 import { Modal } from "./Modal.jsx";
 import { LessonPreview } from "./LessonPreview.jsx";
 import DemonstrationErrorBoundary from "./DemonstrationErrorBoundary.js";
-import { Home, Brand, Catalogue } from "./Home.jsx";
+import { Home, Brand } from "./Home.jsx";
+import { Catalogue } from "./Catalogue.jsx";
+import { HowItWorks } from "./HowItWorks.jsx";
 import { Onboarding } from "./Onboarding.jsx";
 import { LanguagePicker } from "./LanguagePicker.jsx";
 import { DEFAULT_LANGUAGE, getLanguage, languageAvailableForLevel } from "./languages.js";
@@ -43,7 +45,6 @@ import { useScriptedPlayback } from "./useScriptedPlayback.js";
 import { useLessonClock } from "./useLessonClock.js";
 import { dynamicLocale } from "./locale-dynamic.js";
 import LessonTimeline from "./LessonTimeline.jsx";
-import "./cat-pilot.css";
 
 let boardPromise;
 function loadDemonstrationBoard() {
@@ -62,14 +63,31 @@ function DemonstrationBoard({ module, ...props }) {
 const identityLesson = (lesson) => lesson;
 const identityTitle = (lesson) => lesson?.title ?? null;
 
-export function App() {
-  const [lesson, dispatch] = useReducer(lessonReducer, initialLesson);
+// Loading validates the complete authored locale, but only the latest visible
+// choice may authorize its clips and mount a session.
+export async function prepareInitialSelection(languageId, level) {
+  if (!getLevel(level) || !languageAvailableForLevel(languageId, level))
+    throw new TypeError("Unavailable language or level.");
+  const data = languageId === DEFAULT_LANGUAGE
+    ? { localizeLesson: identityLesson, localizedTitle: identityTitle, narration: null }
+    : await loadLocaleLanguage(languageId, releasedLessons(languageId));
+  return { languageId, level, ...data };
+}
+
+export function activateInitialSelection(selection) {
+  return selection.languageId === DEFAULT_LANGUAGE ||
+    authorizeLocaleNarration(selection.languageId, selection.narration);
+}
+
+export function App({ initialSelection = null }) {
+  const [lesson, dispatch] = useReducer(lessonReducer, initialSelection, selection => selection
+    ? lessonReducer(initialLesson, { type: "OPEN_CATALOGUE", level: selection.level }) : initialLesson);
   const [overlay, setOverlay] = useState(null);
   const [languageLevel, setLanguageLevel] = useState(null);
-  const [languageId, setLanguageId] = useState(DEFAULT_LANGUAGE);
-  const [localizeLesson, setLocalizeLesson] = useState(() => identityLesson);
-  const [localizedTitle, setLocalizedTitle] = useState(() => identityTitle);
-  const [localeNarration, setLocaleNarration] = useState(null);
+  const [languageId, setLanguageId] = useState(initialSelection?.languageId ?? DEFAULT_LANGUAGE);
+  const [localizeLesson, setLocalizeLesson] = useState(() => initialSelection?.localizeLesson ?? identityLesson);
+  const [localizedTitle, setLocalizedTitle] = useState(() => initialSelection?.localizedTitle ?? identityTitle);
+  const [localeNarration, setLocaleNarration] = useState(initialSelection?.narration ?? null);
   const [languagePending, setLanguagePending] = useState(null);
   const [languageError, setLanguageError] = useState(false);
   const [languageLoad] = useState(createLatestLanguageRequest);
@@ -979,25 +997,7 @@ export function App() {
         <Privacy onClose={closeOverlay} />
       )}
       {modal === "how" && (
-        <Modal title={t("A little step. Then your turn.")} onClose={closeOverlay}>
-          <ol className="how-steps">
-            <li>
-              <strong>{t("Choose together.")}</strong> {t("Pick any level and a drawing that interests you.")}
-            </li>
-            <li>
-              <strong>{t("Watch and listen.")}</strong> {t("We show one little part. Voice is optional.")}
-            </li>
-            <li>
-              <strong>{t("Try it on paper.")}</strong> {t("A quiet drawing break follows each demonstration. The next part starts gently on its own.")}
-            </li>
-          </ol>
-          <p className="gentle-note">
-            {t("A grown-up stays alongside throughout. More time waits for you; Pause stops everything. Every picture can be different.")}
-          </p>
-          <button className="primary wide" onClick={closeOverlay}>
-            {t("Let’s explore")} <ArrowRightIcon size={21} />
-          </button>
-        </Modal>
+        <HowItWorks onClose={closeOverlay} />
       )}
       {modal === "leave" && (
         <Modal title={t("Finish this little drawing?")} onClose={closeOverlay}>

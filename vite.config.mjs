@@ -3,6 +3,7 @@ import { fileURLToPath } from "node:url";
 import react from "@vitejs/plugin-react";
 import { randomBytes } from "node:crypto";
 import { securityHeaders } from "./config/security.js";
+import { startupBudgetPlugin } from "./config/startup-budget.js";
 
 const previewNonce = randomBytes(18).toString("base64");
 
@@ -73,6 +74,6 @@ export default defineConfig(({ command, mode }) => {
         clientFiles: ["./src/main.jsx"],
       },
     },
-    plugins: [react()],
+    plugins: [react(), startupBudgetPlugin()],
   };
 });
