@@ -13,7 +13,11 @@ export function sourceIdentity(root, env = process.env) {
   if (head) {
     if (revision && revision !== head) throw new Error("Vercel commit differs from checkout");
     revision ??= head;
-    try { dirty = Boolean(git("status", "--porcelain", "--untracked-files=normal")); } catch { /* Unknown stays unknown. */ }
+    try {
+      const status = git("status", "--porcelain", "--untracked-files=normal");
+      dirty = Boolean(status);
+      if (env.VERCEL === "1" && dirty) console.warn("Release identity build-file diagnostic:", status);
+    } catch { /* Unknown stays unknown. */ }
   } else if (env.VERCEL === "1" && revision) {
     // Vercel source archives carry the deployment commit without a Git checkout.
     dirty = false;
