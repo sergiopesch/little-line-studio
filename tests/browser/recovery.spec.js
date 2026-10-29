@@ -3,13 +3,15 @@ import { enterLesson, audioSilent } from "./fixtures.js";
 
 test("a failed board pauses safely and loads after restarting the lesson", async ({ page }) => {
   await page.goto("/");
-  const boardModule = "**/src/DemonstrationBoard.jsx";
-  await page.route(boardModule, route => route.abort("failed"));
+  const boardModule = /\/src\/DemonstrationBoard\.(?:jsx|tsx)(?:\?.*)?$/;
+  let blockedRequests = 0;
+  await page.route(boardModule, route => { blockedRequests++; return route.abort("failed"); });
   await page.getByRole("button", { name: /^Basic drawing 10 drawings Explore(?: Basic)?$/ }).click();
   await page.getByRole("button", { name: "Nederlands Dutch", exact: true }).click();
   await page.locator("button.drawing-choice").first().click();
   await page.locator(".entry-supervision input").check();
   await page.locator(".entry-confirmation-actions .primary").click();
+  await expect.poll(() => blockedRequests).toBeGreaterThan(0);
   await expect(page.locator(".pause-modal")).toBeVisible();
   await expect.poll(() => page.locator("audio").evaluateAll(nodes => nodes.every(audio => audio.paused))).toBe(true);
   await expect(page.locator(".pause-modal .primary")).toBeDisabled();

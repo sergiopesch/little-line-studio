@@ -22,7 +22,8 @@ test("the shared core and agent protocol have no browser, provider, network or f
   const modules = Object.keys(result.metafile.inputs);
   assert.ok(modules.includes("src/core/lesson-engine.ts"));
   assert.ok(modules.includes("src/core/scripted-session.ts"));
+  assert.ok(modules.includes("src/demonstration-state.ts"));
   assert.ok(modules.every(path => path.startsWith("src/core/") || path.startsWith("src/agent/") ||
-    path === "src/demonstration-state.js" || path === "src/narration-policy.js"));
+    path === "src/demonstration-state.js" || path === "src/demonstration-state.ts" || path === "src/narration-policy.js"));
   assert.deepEqual(Object.values(result.metafile.outputs).flatMap(output => output.imports), []);
 });

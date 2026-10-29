@@ -81,6 +81,7 @@ test("installed SDK retains native draw rendering and registers matching grain d
       new native(editor).getCanvasSvgDefs().filter((def) => def.key !== hatch).map((def) => def.key));
   }
   const replacements = new Map([["draw", CrayonDrawShapeUtil], ["geo", NoHatchGeoShapeUtil], ["arrow", NoHatchArrowShapeUtil]]);
+  assert.equal(NoHatchArrowShapeUtil.prototype.onTranslateStart, ArrowShapeUtil.prototype.onTranslateStart);
   for (const native of defaultShapeUtils) {
     if (native.prototype.getCanvasSvgDefs === ShapeUtil.prototype.getCanvasSvgDefs) continue;
     const selected = replacements.get(native.type) || native;
@@ -108,4 +109,15 @@ test("installed SDK retains native draw rendering and registers matching grain d
 `,
   });
   assert.equal(result.status, 0, result.stderr || result.error?.message);
+});
+
+test("unknown native shape metadata cannot supply paint URLs or nonnumeric drawing widths", () => {
+  for (const style of [null, false, "#ffaa00", [], { ink: "url(https://invalid.example/paint)" }, { ink: 123 }])
+    assert.deepEqual(nativeAppearanceDisplayValues({ meta: { littleLineAppearance: style } }), {});
+  for (const width of ["3", NaN, Infinity, -1, 21]) {
+    const display = nativeAppearanceDisplayValues({ meta: { littleLineAppearance: { ink: "#ffaa00", width, grainVariant: "1" } } });
+    assert.deepEqual(display, { strokeColor: "#ffaa00" });
+  }
+  assert.equal(crayonPaintIds("#ffaa00", "1"), null);
+  assert.equal(crayonPaintIds("#ffaa00", 3), null);
 });

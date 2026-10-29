@@ -18,6 +18,11 @@
     "tests/types-browser/**/*.ts",
     "src/*.tsx",
     "src/i18n.ts",
-    "tests/types-browser/**/*.tsx"
+    "tests/types-browser/**/*.tsx",
+    "src/drawing/**/*.ts",
+    "src/lesson-geometry.ts",
+    "src/outline-marks.ts",
+    "src/crayon-appearance.ts",
+    "src/crayon-grain.ts"
   ]
 }
