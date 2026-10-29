@@ -5,6 +5,7 @@ import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
 import { LESSONS } from '../src/lesson-catalogue.js';
 import { FRENCH_UI } from '../src/french-ui.fr-FR.js';
+import SPANISH_UI from '../src/spanish-ui.es-419.json' with { type: 'json' };
 import { FRENCH_DYNAMIC, demonstrationLabel, stageLabel, timelineEstimate } from '../src/french-dynamic.fr-FR.js';
 
 const hash = (value) => createHash('sha256').update(JSON.stringify(value)).digest('hex');
@@ -26,8 +27,7 @@ test('French exporter fails closed until the reviewed catalogue is complete', ()
 });
 
 test('French UI covers the established dictionary and preserves dynamic information', () => {
-  const source = readFileSync('src/i18n.jsx', 'utf8');
-  const keys = [...source.matchAll(/^  ("(?:[^"\\]|\\.)*"): /gm)].map((match) => JSON.parse(match[1]));
+  const keys = Object.keys(SPANISH_UI);
   assert.ok(keys.length >= 196);
   for (const key of keys) assert.ok(typeof FRENCH_UI[key] === 'string' && FRENCH_UI[key].trim(), key);
   assert.match(FRENCH_DYNAMIC.catalogueRange('Débutant', 1, 6, 10), /1 à 6 sur 10/);

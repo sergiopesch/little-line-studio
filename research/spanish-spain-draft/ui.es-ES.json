@@ -1,7 +1,7 @@
 {
   "locale": "es-ES",
   "status": "draft-awaiting-editorial-and-native-review",
-  "sourceDictionarySha256": "5b10a4dbcdd192a186c7cd61a1548922bcb268987419b1462199f8935fd5a0a6",
+  "sourceDictionarySha256": "e385292a2b1deb270693fefab40f7dbf6500b4fc0a21144471d7f76ca2e82cbf",
   "strings": {
     "Loading lessons…": "Cargando las clases…",
     "The selected voice is being prepared. Read the steps together for now.": "La voz elegida está en preparación. Por ahora, leed los pasos juntos.",
