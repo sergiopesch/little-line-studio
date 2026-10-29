@@ -40,7 +40,7 @@ test("sharing metadata points to a real preview while search indexing stays disa
   const robots = await readFile(new URL("../dist/client/robots.txt", import.meta.url), "utf8");
   const vercel = JSON.parse(await readFile(new URL("../vercel.json", import.meta.url), "utf8"));
   const meta = (key) => document.match(new RegExp(`<meta (?:name|property)="${key}" content="([^"]+)"`))?.[1];
-  const site = "https://little-line-studio.vercel.app/";
+  const site = "https://trazolino.org/";
   assert.match(meta("robots"), /\bnoindex\b/);
   assert.equal(meta("og:url"), site);
   assert.equal(meta("og:title"), meta("twitter:title"));
@@ -148,7 +148,7 @@ test("packaged entry matches production configuration and ships only static publ
   const lessonSelected = /LessonEntry\.jsx$/.test(entry);
   assert.ok(lessonSelected || /LicenceReview\.jsx$/.test(entry));
   const document = await readFile(new URL("../dist/client/index.html", import.meta.url), "utf8");
-  assert.match(document, /Little Line Studio/);
+  assert.match(document, /Trazolino/);
   await access(new URL("../dist/validated.json", import.meta.url));
   for (const privatePath of [".env.local", ".git/config", "src/main.jsx", "scripts/prepare-build.mjs", "validated.json"]) {
     await assert.rejects(access(new URL(`../dist/client/${privatePath}`, import.meta.url)));

@@ -1,6 +1,6 @@
 // Draft only: language and accessibility review by a native speaker is pending.
 export const DUTCH_DYNAMIC = Object.freeze({
-  documentTitle: 'Little Line Studio — Elke tekening begint met een klein lijntje',
+  documentTitle: 'Trazolino — Elke tekening begint met een klein lijntje',
   errorTitle: 'Laten we even pauzeren.',
   errorBody: 'De les kon niet worden geopend. Je tekening op papier blijft van jou. Vraag de volwassene bij je om de pagina opnieuw te laden als jullie er klaar voor zijn.',
   errorReload: 'Les opnieuw laden',

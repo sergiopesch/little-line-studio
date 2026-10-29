@@ -1,7 +1,7 @@
 {
   "locale": "es-ES",
   "status": "draft-awaiting-editorial-and-native-review",
-  "sourceDictionarySha256": "dfa766f4ca2bcbb2737e56a8c101a7818e1313229207647eddb9e2295539c0a9",
+  "sourceDictionarySha256": "dac35f60071b0191e9ae25c5490f574d84f7399b0c5a48f1955b7974e39cf23d",
   "strings": {
     "Loading lessons…": "Cargando las clases…",
     "The selected voice is being prepared. Read the steps together for now.": "La voz elegida está en preparación. Por ahora, leed los pasos juntos.",
@@ -14,7 +14,7 @@
     "Loading Spanish lessons…": "Cargando las clases en español…",
     "Spanish lessons could not load. Please try again.": "No se pudieron cargar las clases en español. Inténtalo de nuevo.",
     "Close dialog": "Cerrar ventana",
-    "Little Line Studio home": "Inicio de Little Line Studio",
+    "Trazolino home": "Inicio de Trazolino",
     "About the studio": "Acerca del estudio",
     "How it works": "Cómo funciona",
     "For grown-ups": "Para adultos",
@@ -219,5 +219,5 @@
     "setup.stopVoicePreview": "Detener la prueba de voz",
     "settings.stopVoicePreview": "Detener la prueba de voz"
   },
-  "sourceFrenchDictionarySha256": "970085efa70445e82be142be1984978df6311b4432d74ae63bec635085337911"
+  "sourceFrenchDictionarySha256": "4a8eeedcb45c9f1c393c4d49d1ba9f48cbfe967dc970c11d544d1f46b958dd5a"
 }

@@ -14,7 +14,7 @@ const { values } = parseArgs({ options: {
   url: { type: "string" }, commit: { type: "string" }, output: { type: "string" }, wait: { type: "string" }, help: { type: "boolean" },
 } });
 if (values.help) {
-  console.log("npm run verify:production -- --url https://little-line-studio.vercel.app --commit <full SHA> [--wait <1-900 seconds>] [--output <report parent directory>]");
+  console.log("npm run verify:production -- --url https://trazolino.org --commit <full SHA> [--wait <1-900 seconds>] [--output <report parent directory>]");
 } else {
   const target = productionTarget(values.url, values.commit);
   if (values.wait !== undefined && (!/^\d+$/.test(values.wait) || Number(values.wait) < 1 || Number(values.wait) > 900))

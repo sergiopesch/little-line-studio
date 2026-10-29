@@ -1,6 +1,6 @@
 // French dynamic strings; independent native-speaker review remains pending.
 export const FRENCH_DYNAMIC = Object.freeze({
-  documentTitle: "Little Line Studio — Chaque dessin commence par un petit trait",
+  documentTitle: "Trazolino — Chaque dessin commence par un petit trait",
   errorTitle: "Prenons une petite pause.",
   errorBody: "La leçon n’a pas pu s’ouvrir. Ton dessin sur papier est à toi. Demande à l’adulte qui t’accompagne de recharger la page quand vous serez prêts.",
   errorReload: "Recharger la leçon",

@@ -1,6 +1,6 @@
 // Independent German language review remains pending.
 export const GERMAN_DYNAMIC = Object.freeze({
-  documentTitle: 'Little Line Studio – Jede Zeichnung beginnt mit einer kleinen Linie',
+  documentTitle: 'Trazolino – Jede Zeichnung beginnt mit einer kleinen Linie',
   errorTitle: 'Machen wir eine kleine Pause.',
   errorBody: 'Die Zeichenstunde konnte nicht geöffnet werden. Deine Zeichnung auf Papier gehört dir. Bitte die erwachsene Person bei dir, die Seite neu zu laden, wenn ihr bereit seid.',
   errorReload: 'Zeichenstunde neu laden',

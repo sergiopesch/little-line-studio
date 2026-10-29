@@ -17,6 +17,8 @@ for (const language of LANGUAGES) {
     const catalogue = page.locator(".catalogue-page");
     await expect(catalogue).toBeVisible();
     await expect(page.locator("html")).toHaveAttribute("lang", language.id);
+    await expect(page).toHaveTitle(/^Trazolino/);
+    await expect(page.getByRole("button", { name: t("Trazolino home"), exact: true })).toBeVisible();
     await expectReflow(page);
     await expectReachableControls(page, catalogue);
     await auditAccessibility(page, testInfo, "catalogue");
@@ -85,7 +87,7 @@ test("homepage, information dialogs and language picker pass automated accessibi
 test("keyboard-only entry, lesson and dialogs preserve family control", async ({ page }) => {
   test.setTimeout(90000);
   await page.goto("/");
-  await expect(page).toHaveTitle(/Little Line Studio/);
+  await expect(page).toHaveTitle(/Trazolino/);
   await expect(page.locator("#home-title")).toBeFocused();
   await expect(page.locator("vite-error-overlay")).toHaveCount(0);
   for (const name of ["How it works", "For grown-ups"]) {

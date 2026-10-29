@@ -4,7 +4,7 @@ export const REVIEW_STAGES = [
     label: "Ready together",
     title: "Start with a grown-up beside you.",
     caption:
-      "The adult chooses a starting age group and acknowledges staying throughout. Paper and a pencil are all the child needs.",
+      "The adult chooses a drawing and acknowledges staying throughout. Paper and a pencil are all the child needs.",
     image: "/review/tour-prepare.jpg",
     alt: "Local prototype setup requiring an adult acknowledgement before the drawing lesson can start.",
   },
@@ -13,7 +13,7 @@ export const REVIEW_STAGES = [
     label: "One round shape",
     title: "Begin with one small instruction.",
     caption:
-      "A round head is the first drawing movement. In the local prototype, tldraw reveals the stroke slowly, then the lesson waits for us to choose Next.",
+      "A round head is the first drawing movement. Trazolino demonstrates one small part at a time. More time holds the current part until the family chooses to continue.",
     image: "/review/tour-head.jpg",
     alt: "Local tldraw teaching board showing one round cat head and the instruction to draw one round shape on paper.",
   },

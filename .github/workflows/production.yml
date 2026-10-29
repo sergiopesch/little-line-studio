@@ -17,7 +17,7 @@ concurrency:
 jobs:
   production:
     if: >-
-      github.repository == 'sergiopesch/little-line-studio' &&
+      github.repository == 'sergiopesch/trazolino' &&
       ((github.event_name == 'workflow_run' &&
         github.event.workflow_run.conclusion == 'success' &&
         github.event.workflow_run.event == 'push' &&
@@ -47,7 +47,7 @@ jobs:
           pactl load-module module-null-sink sink_name=browser_checks
           pactl set-default-sink browser_checks
       - name: Wait for the merged release and verify the public demo
-        run: npm run verify:production -- --url https://little-line-studio.vercel.app --commit "$RELEASE_COMMIT" --wait 600
+        run: npm run verify:production -- --url https://trazolino.org --commit "$RELEASE_COMMIT" --wait 600
       - name: Retain production verification evidence
         if: always()
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6

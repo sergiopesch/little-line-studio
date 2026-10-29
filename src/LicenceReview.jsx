@@ -23,7 +23,7 @@ export function SiteEntry() {
           <span className="brand-mark">
             <PencilSimpleIcon size={25} weight="duotone" />
           </span>
-          <span className="wordmark">little line studio</span>
+          <span className="wordmark">Trazolino</span>
         </div>
         <span className="review-badge">Hobby licence review</span>
       </header>
@@ -54,7 +54,7 @@ export function SiteEntry() {
             src="/review/tour-finish.jpg"
             width="1280"
             height="960"
-            alt="Actual local DrawingTeacher prototype, with a completed cat on its tldraw demonstration board and family-controlled lesson buttons."
+            alt="Actual local Trazolino prototype, with a completed cat on its tldraw demonstration board and family-controlled lesson buttons."
             fetchPriority="high"
           />
           <figcaption>
@@ -237,7 +237,7 @@ export function SiteEntry() {
         </figure>
       </section>
       <footer className="review-footer">
-        <span>Little Line Studio · a personal family project</span>
+        <span>Trazolino · a personal family project</span>
         <a
           href="https://tldraw.dev/get-a-license/hobby"
           target="_blank"

@@ -2,7 +2,7 @@
   "locale": "it-IT",
   "status": "assistant-draft-awaiting-native-human-review",
   "templates": {
-    "documentTitle": "Little Line Studio — Ogni disegno comincia con una piccola linea",
+    "documentTitle": "Trazolino — Ogni disegno comincia con una piccola linea",
     "errorTitle": "Facciamo una piccola pausa.",
     "errorBody": "Non è stato possibile aprire la lezione. Il disegno sulla carta è tuo. Chiedi all’adulto che ti accompagna di ricaricare la pagina quando siete pronti.",
     "errorReload": "Ricarica la lezione",

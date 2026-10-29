@@ -206,8 +206,8 @@ export function App({ initialSelection = null }) {
   useEffect(() => {
     document.documentElement.lang = language.id;
     document.title = dynamicLocale(language.id)?.copy.documentTitle ?? (language.id === "es-419"
-      ? "Little Line Studio — Todo dibujo comienza con una pequeña línea"
-      : "Little Line Studio — Every drawing starts with a little line");
+      ? "Trazolino — Todo dibujo comienza con una pequeña línea"
+      : "Trazolino — Every drawing starts with a little line");
   }, [language.id]);
 
   useEffect(() => {
