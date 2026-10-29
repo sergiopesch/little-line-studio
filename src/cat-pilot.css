@@ -214,6 +214,10 @@
   .cat-pilot .lesson-toolbar button > span { min-width: 0; overflow-wrap: anywhere; }
 }
 
+@media (max-width: 400px) {
+  .cat-pilot .guided-actions { grid-template-columns: minmax(0, 1fr); }
+}
+
 /* Extremely narrow landscape windows can scroll through a stacked lesson. */
 @media (width < 400px) and (max-height: 500px) and (orientation: landscape) {
   .studio.cat-pilot {
