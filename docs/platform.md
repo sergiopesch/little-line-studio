@@ -1,6 +1,6 @@
 # Shared lesson platform
 
-The family interface and local agent workspace now use the same lesson progression and pacing engine. This is the first executable stage of the platform migration: a strict TypeScript core, the existing React adapter, and an offline agent adapter. It preserves the current family experience while making authored lessons inspectable and testable without a browser.
+The family interface and local agent workspace now use the same lesson progression and pacing engine. The platform now has a strict TypeScript core, typed browser playback and language-loading adapters, the existing React interface, and an offline agent adapter. It preserves the current family experience while making authored lessons inspectable and testable without a browser.
 
 ## Architecture
 
@@ -20,7 +20,9 @@ flowchart TD
 
 The browser still owns media effects, visibility handling, rendering, input gestures and its session state. It does not import the agent workspace. The agent adapter has no reference to browser state, audio controllers or deployment/generation tools. Its rehearsal creates temporary state inside the call, supplies simulated media completion, and runs the same reducers until open exploration. This is not an audio audition or rendering test.
 
-The core and protocol run under strict TypeScript with unchecked-index and optional-property checking. The existing JSX application and authored JavaScript data are not yet fully typechecked. JavaScript compatibility entries remain intentionally small. TypeScript is a pinned development dependency; it adds no runtime framework or service. Node 24 executes erasable TypeScript directly; Vite handles the browser bundle. See [Node's TypeScript support](https://nodejs.org/api/typescript.html) and [strict checking](https://www.typescriptlang.org/tsconfig/strict.html).
+The core, protocol and browser playback/loading adapters run under strict TypeScript with unchecked-index and optional-property checking. `npm run typecheck` runs both `tsconfig.json` (browser-independent core/protocol) and `tsconfig.browser.json` (DOM and React bindings). `src/browser/` owns typed media lifecycle state, playback hooks, validated language-loading results and generic latest-request cancellation. `src/core/lesson-clock.ts` retains the independent active together-time reducer. Existing `.js` entries re-export these implementations for the UI, tools and tests.
+
+The existing JSX application, locale registry and authored JavaScript data are not yet fully typechecked. Static contracts do not validate imported or runtime data: exact authored-clip membership, locale completeness and latest-request checks remain in place. Type fixtures cover invalid media bindings, callbacks, narration data, clock identities and unknown thrown values. React type definitions are pinned to the installed React 19.2 API line, following [React's TypeScript guidance](https://react.dev/learn/typescript); runtime dependencies are unchanged. JavaScript compatibility entries remain intentionally small. TypeScript is a pinned development dependency; it adds no runtime framework or service. Node 24 executes erasable TypeScript directly; Vite handles the browser bundle. See [Node's TypeScript support](https://nodejs.org/api/typescript.html) and [strict checking](https://www.typescriptlang.org/tsconfig/strict.html).
 
 ## Local agent interface
 
@@ -72,7 +74,7 @@ These are application guarantees for the supported JSON interface. They are **no
 
 The family app continues to have no microphone/camera capture, uploads, accounts, stored child profiles, analytics integration or runtime cloud AI. There is no family-session data path into the agent workspace. Public lesson text is public material, not protected personal information. The local supervision checkbox remains a declaration, not a security credential.
 
-Live assistance is a separate product/security decision. Before implementing it, define the exact information a parent can share, a visible preview, authenticated server-side authorization where applicable, narrow expiring grants, immediate revocation, data retention and independent abuse testing. An agent's own request or a browser-only role flag must never establish that authority. The present implementation deliberately provides no live-session command or network bridge.
+Live assistance is a separate product/security decision. Before implementing it, define the exact information a parent can share, a visible preview, authenticated server-side authorization where applicable, narrow expiring grants, immediate revocation, data retention and independent abuse testing. An agent's own request or a browser-only role flag must never establish that authority. The present implementation deliberately provides no live-session command or network bridge. The [parent-permission design for review](parent-permissions.md) specifies a proposed one-shot sharing preview, host-enforced scope, expiry, revocation and acceptance cases; it is not an implemented permission system.
 
 ## Verification and comparison
 
@@ -96,4 +98,4 @@ Passing these checks establishes bounded compatibility, rejection behavior and t
 
 The existing React/tldraw experience and authored rules already work. A shared typed core gives both callers identical semantics without introducing a second implementation to keep synchronized. A whole-app Rust rewrite would introduce renderer/binding and parity work without a measured current need. A future Rust or WebAssembly component can be evaluated at a narrow computational boundary using the same compatibility tests; it should earn its place through a measured benefit.
 
-Next stages can migrate the React adapter and catalogue contracts incrementally, or add a protocol transport around the existing restricted workspace. Neither requires opening family-session access. Preserve the authored content, localization identities, audio timing and product controls throughout.
+Next stages can migrate the remaining JSX components and catalogue contracts incrementally. A protocol transport around the restricted workspace should be evaluated separately against the parent-permission design. Neither requires opening family-session access. Preserve the authored content, localization identities, audio timing and product controls throughout.

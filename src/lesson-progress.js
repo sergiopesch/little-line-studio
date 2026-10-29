@@ -1,8 +1,5 @@
-import {
-  getStepTiming,
-  MAX_ACTIVE_TICK_MS,
-  UNEXPECTED_DELAY_MS,
-} from "./scripted-session.js";
+import { getStepTiming } from "./scripted-session.js";
+export { createLessonClock, lessonClockReducer } from "./core/lesson-clock.ts";
 
 const PHASES = Object.freeze([
   Object.freeze({ key: "drawing", label: "Drawing" }),
@@ -29,82 +26,6 @@ function phaseFor(step) {
   return ["colour", "color", "colouring"].includes(step.kind)
     ? "colouring"
     : "drawing";
-}
-
-function clockMatches(clock, event) {
-  return (
-    clock.session === event.session &&
-    clock.stepIndex === event.stepIndex &&
-    clock.run === event.run &&
-    clock.stage === event.stage
-  );
-}
-
-export function createLessonClock({ session } = {}) {
-  return {
-    session,
-    stepIndex: null,
-    run: null,
-    stage: null,
-    active: false,
-    textOnly: false,
-    elapsedMs: 0,
-    stageElapsedMs: 0,
-  };
-}
-
-// The actual narration restarts after interruption; a paused demonstration and
-// text-only reading resume their existing progress instead. Together-time keeps
-// both attempts, while a fresh voiced attempt receives its full estimate again.
-export function lessonClockReducer(clock, event) {
-  if (event.type === "SYNC") {
-    const matches = clockMatches(clock, event);
-    const active = event.active === true;
-    const textOnly = event.textOnly === true;
-    const restartedVoice =
-      matches &&
-      !clock.active &&
-      active &&
-      event.stage === "instruction" &&
-      !textOnly;
-    const elapsedMs = clock.session === event.session ? clock.elapsedMs : 0;
-    const stageElapsedMs = matches && !restartedVoice ? clock.stageElapsedMs : 0;
-    if (
-      matches &&
-      clock.active === active &&
-      clock.textOnly === textOnly &&
-      clock.elapsedMs === elapsedMs &&
-      clock.stageElapsedMs === stageElapsedMs
-    )
-      return clock;
-    return {
-      session: event.session,
-      stepIndex: event.stepIndex,
-      run: event.run,
-      stage: event.stage,
-      active,
-      textOnly,
-      elapsedMs,
-      stageElapsedMs,
-    };
-  }
-  if (
-    event.type !== "TICK" ||
-    !clockMatches(clock, event) ||
-    !clock.active ||
-    event.hidden === true ||
-    typeof event.deltaMs !== "number" ||
-    !Number.isFinite(event.deltaMs) ||
-    event.deltaMs <= 0 ||
-    event.deltaMs > UNEXPECTED_DELAY_MS
-  )
-    return clock;
-  const amount = Math.min(event.deltaMs, MAX_ACTIVE_TICK_MS);
-  return {
-    ...clock,
-    elapsedMs: addMs(clock.elapsedMs, amount),
-    stageElapsedMs: addMs(clock.stageElapsedMs, amount),
-  };
 }
 
 function timingBudget(timing) {
