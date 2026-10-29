@@ -4,7 +4,7 @@ Use Node.js 24 and `npm ci`. `npm run dev` serves the lesson on localhost. `npm 
 
 ## Shared platform core
 
-Lesson progression and pacing now live in `src/core/` under strict TypeScript checking. The family UI uses the existing compatibility entries; the local agent workspace uses the same engine for isolated rehearsals. See [platform architecture and local agent examples](platform.md) and the [domain vocabulary](../CONTEXT.md). Run `npm run typecheck` for a focused compiler check, or `npm run check` for the required full build and verification. The rest of the JSX application is still JavaScript.
+Lesson progression and pacing now live in `src/core/` under strict TypeScript checking. The family UI uses the existing compatibility entries; the local agent workspace uses the same engine for isolated rehearsals. See [platform architecture and local agent examples](platform.md) and the [domain vocabulary](../CONTEXT.md). Run `npm run typecheck` for a focused compiler check, or `npm run check` for the required full build and verification. Family screens, settings, supervision controls, entry loading and error handling now use strict TypeScript too. Edit their `.tsx` implementations; the matching `.jsx` files preserve existing import paths. Browser checking uses Vite bundler resolution, while the shared core remains independent of browser globals. SDK drawing internals and authored JavaScript producers remain a later migration. Type fixtures under `tests/types-browser/` verify both valid calls and rejected UI contract violations.
 
 ## Regression checks
 

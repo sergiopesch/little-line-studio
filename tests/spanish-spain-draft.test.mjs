@@ -87,7 +87,7 @@ test('Spain draft describes every stage and keeps dynamic progress in Spanish', 
 test('Spain UI draft covers directly translated source labels', () => {
   const { ui } = readDraft();
   const keys = new Set();
-  for (const file of readdirSync(new URL('../src', import.meta.url)).filter((name) => /\.(jsx|js)$/.test(name))) {
+  for (const file of readdirSync(new URL('../src', import.meta.url), { recursive: true }).filter((name) => /\.[jt]sx?$/.test(name))) {
     const source = readFileSync(new URL(`../src/${file}`, import.meta.url), 'utf8');
     for (const match of source.matchAll(/\bt\(\s*("(?:[^"\\]|\\.)*")\s*\)/g)) keys.add(JSON.parse(match[1]));
   }

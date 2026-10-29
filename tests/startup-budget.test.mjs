@@ -20,6 +20,12 @@ test("startup budget counts static shared chunks once and excludes lazy chunks",
   bundle["shared.js"].code = "";
   bundle["shared.js"].modules["/project/src/narration-index.json"] = {};
   assert.throws(() => checkStartupBudget(bundle), /Lesson resources/);
+  delete bundle["shared.js"].modules["/project/src/narration-index.json"];
+  for (const path of ["/project/src/App.tsx", "/project/src/Catalogue.tsx"]) {
+    bundle["shared.js"].modules[path] = {};
+    assert.throws(() => checkStartupBudget(bundle), /Lesson resources/);
+    delete bundle["shared.js"].modules[path];
+  }
   delete bundle["shared.js"];
   assert.throws(() => checkStartupBudget(bundle), /Missing startup chunk/);
   assert.throws(() => checkStartupBudget({}), /No application entry/);
@@ -52,6 +58,6 @@ test("the real licensed entry keeps lesson data and the SDK behind dynamic impor
   const inputs = [...seen].flatMap(path => Object.keys(outputs[path].inputs));
   assert.ok(inputs.includes("src/StudioEntry.jsx"));
   assert.ok(inputs.includes("src/lesson-directory.json"));
-  assert.equal(inputs.filter(path => /^(?:src\/(?:App\.jsx|Catalogue\.jsx|lesson-catalogue\.js|lessons\/|narration-(?:index|durations))|node_modules\/(?:@tldraw|tldraw)\/)/.test(path)).length, 0);
+  assert.equal(inputs.filter(path => /^(?:src\/(?:App\.(?:jsx|tsx)|Catalogue\.(?:jsx|tsx)|lesson-catalogue\.js|lessons\/|narration-(?:index|durations))|node_modules\/(?:@tldraw|tldraw)\/)/.test(path)).length, 0);
   assert.ok(Object.values(outputs).some(output => output.entryPoint === "src/App.jsx"));
 });

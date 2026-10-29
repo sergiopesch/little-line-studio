@@ -25,7 +25,7 @@ export function checkStartupBudget(bundle) {
   // while rejecting the previous 1.10 MB / 331 kB gzip startup.
   if (bytes > 400_000 || gzipBytes > 115_000)
     throw new Error(`Startup JavaScript exceeds budget: ${bytes} bytes, ${gzipBytes} gzip bytes (limits 400000 / 115000).`);
-  const forbidden = /(?:\/src\/(?:App\.jsx|Catalogue\.jsx|lesson-catalogue\.js|lessons\/|curriculum-scripts\.json|narration-(?:index|durations)[^/]*\.json)|\/node_modules\/(?:@tldraw|tldraw)\/)/;
+  const forbidden = /(?:\/src\/(?:App\.(?:jsx|tsx)|Catalogue\.(?:jsx|tsx)|lesson-catalogue\.js|lessons\/|curriculum-scripts\.json|narration-(?:index|durations)[^/]*\.json)|\/node_modules\/(?:@tldraw|tldraw)\/)/;
   const leaked = chunks.flatMap(chunk => Object.keys(chunk.modules)).filter(id => forbidden.test(id.replaceAll("\\", "/")));
   if (leaked.length) throw new Error(`Lesson resources loaded at startup: ${leaked.join(", ")}`);
   return { bytes, gzipBytes, chunks: chunks.length };

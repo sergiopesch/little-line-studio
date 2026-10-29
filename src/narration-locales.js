@@ -51,6 +51,7 @@ export function releasedLessons(locale, lessons = LESSONS) {
   return lessons.filter((lesson) => isLessonReleased(locale, lesson));
 }
 
+/** @param {import("./core/contracts.ts").NarrationData | null} localeNarration */
 export function isLessonAvailable(locale, lesson, localeNarration = null) {
   if (locale === "en-GB") return isLessonReleased(locale, lesson);
   if (locale === "es-419") return spanishLessonAvailable(lesson, localeNarration ?? {});
@@ -59,7 +60,10 @@ export function isLessonAvailable(locale, lesson, localeNarration = null) {
     hasCompleteNarration([authored], localeNarration?.index, localeNarration?.durations));
 }
 
-/** @param {import("./core/contracts.ts").NarrationData | null} localeNarration */
+/**
+ * @param {import("./core/contracts.ts").NarrationData | null} localeNarration
+ * @returns {import("./core/contracts.ts").NarrationData & {ready: boolean}}
+ */
 export function narrationForLocale(locale, lessons, localeNarration = null) {
   if (locale === "en-GB") return { ready: true, index: englishIndex, durations: englishDurations };
   if (availability[locale] && Array.isArray(lessons) && lessons.length > 0 &&

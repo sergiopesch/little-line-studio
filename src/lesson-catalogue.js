@@ -3,6 +3,7 @@ import { intermediateLessons } from "./lessons/intermediate.js";
 import { expertLessons } from "./lessons/expert.js";
 
 export { LEVELS, getLevel } from "./lesson-levels.js";
+/** @type {readonly import("./browser/ui-contracts.ts").LessonView[]} */
 export const LESSONS = Object.freeze([
   ...basicLessons,
   ...intermediateLessons,

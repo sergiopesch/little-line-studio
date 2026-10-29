@@ -71,6 +71,7 @@ function appearanceMeta(style) {
   } : {};
 }
 
+/** @param {import("./browser/ui-contracts.ts").DemonstrationBoardProps} props */
 export default function DemonstrationBoard({
   lesson,
   stepIndex = 0,

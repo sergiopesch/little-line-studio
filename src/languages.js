@@ -7,6 +7,7 @@ const releasedLessons = locale => LESSONS.filter(lesson => isLessonReleased(loca
 // The build validates the release descriptor against the prepared Spanish audio.
 const spanishCount = releasedLessons("es-419").length;
 const ready = (locale) => releasedLessons(locale).length > 0;
+/** @type {readonly import("./browser/ui-contracts.ts").LanguageView[]} */
 export const LANGUAGES = Object.freeze(LOCALES.map(({ id, name, region, flag }) =>
   Object.freeze({ id, name, region, flag, ready: id === DEFAULT_LOCALE || ready(id) })));
 
