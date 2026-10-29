@@ -607,7 +607,7 @@ export function App() {
                 aria-label={t("Pause lesson")}
               >
                 <PauseIcon size={22} />
-                <span className="button-label">{t("Pause")}</span>
+                <span className="button-label">{t("lesson.pause")}</span>
               </button>
               <button
                 className="header-button"
@@ -646,7 +646,7 @@ export function App() {
                     aria-label={t("Hear this instruction again")}
                   >
                     <SpeakerHighIcon size={21} />
-                    <span>{t("Listen again")}</span>
+                    <span>{t("lesson.replayInstruction")}</span>
                   </button>
                 </div>
                 <div aria-live="polite" aria-atomic="true">
@@ -761,7 +761,7 @@ export function App() {
                   disabled={!active}
                 >
                   <ArrowCounterClockwiseIcon size={23} />
-                  <span>{t("Show again")}</span>
+                  <span>{t("lesson.replayDemonstration")}</span>
                 </button>
                 <button
                   className="lesson-button"
@@ -787,7 +787,7 @@ export function App() {
                       <HeartIcon size={22} />
                     )}
                     <span>
-                      {t(playback.state?.hold ? "Continue lesson" : "More time")}
+                      {t(playback.state?.hold ? "Continue lesson" : "lesson.moreTime")}
                     </span>
                   </button>
                 )}
@@ -934,7 +934,7 @@ export function App() {
             }
           >
             {speaking ? <StopIcon size={20} /> : <SpeakerHighIcon size={21} />}{" "}
-            {t(speaking ? "Stop hint" : "Hear the hint")}
+            {t(speaking ? "help.stopHint" : "help.playHint")}
           </button>
           <div className="gentle-note">
             <strong>{t(step.notice === selectedLesson.parentNote ? "For this drawing" : "Try it together")}</strong>

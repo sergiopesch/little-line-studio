@@ -205,5 +205,13 @@
   "Paused · nothing moves ahead": "Pausiert · nichts läuft weiter",
   "More time · estimate paused": "Mehr Zeit · Schätzung pausiert",
   "Less than a minute left": "Weniger als eine Minute verbleibt",
-  "Estimates are a guide. More time is always yours.": "Zeitangaben sind nur eine Orientierung. Du kannst dir immer mehr Zeit nehmen."
+  "Estimates are a guide. More time is always yours.": "Zeitangaben sind nur eine Orientierung. Du kannst dir immer mehr Zeit nehmen.",
+  "lesson.pause": "Pause",
+  "lesson.moreTime": "Mehr Zeit",
+  "lesson.replayInstruction": "Noch einmal anhören",
+  "lesson.replayDemonstration": "Noch einmal zeigen",
+  "help.playHint": "Hinweis anhören",
+  "help.stopHint": "Hinweis stoppen",
+  "setup.stopVoicePreview": "Stimmprobe stoppen",
+  "settings.stopVoicePreview": "Stimmprobe stoppen"
 }

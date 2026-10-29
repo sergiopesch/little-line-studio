@@ -8,7 +8,7 @@ import availability from '../src/narration-availability.es-ES.json' with { type:
 import { buildTextInventory } from '../scripts/plan-spanish-spain-offline.mjs';
 
 test('Spain draft covers current teaching, UI and pilot and follows release availability', () => {
-  assert.deepEqual(validateDraft(readDraft()), { lessons: 30, stages: 730, narrationKeys: 1460, uiStrings: 207, pilotClips: 13 });
+  assert.deepEqual(validateDraft(readDraft()), { lessons: 30, stages: 730, narrationKeys: 1460, uiStrings: 215, pilotClips: 13 });
   assert.equal(getLanguage('es-ES').ready, availability.lessons.length > 0);
 });
 

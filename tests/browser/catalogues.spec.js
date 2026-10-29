@@ -1,9 +1,16 @@
 import { test, expect } from "./fixtures.js";
+import { UI_DICTIONARIES } from "../../src/ui-translations.js";
 
-for (const [name, locale] of [
-  ["English British", "en-GB"], ["English Irish", "en-IE"], ["English Scottish", "en-GB-x-scotland"],
-  ["Castellano Latinoamérica", "es-419"], ["Castellano España", "es-ES"], ["Français French", "fr-FR"],
-  ["Deutsch German", "de-DE"], ["Italiano Italian", "it-IT"], ["Nederlands Dutch", "nl-NL"],
+for (const [name, locale, setupTitle] of [
+  ["English British", "en-GB", "Ready to draw together?"],
+  ["English Irish", "en-IE", "Ready to draw together?"],
+  ["English Scottish", "en-GB-x-scotland", "Ready to draw together?"],
+  ["Castellano Latinoamérica", "es-419", "¿Listos para dibujar juntos?"],
+  ["Castellano España", "es-ES", "¿Listos para dibujar juntos?"],
+  ["Français French", "fr-FR", "Prêts à dessiner ensemble ?"],
+  ["Deutsch German", "de-DE", "Bereit, gemeinsam zu zeichnen?"],
+  ["Italiano Italian", "it-IT", "Pronti a disegnare insieme?"],
+  ["Nederlands Dutch", "nl-NL", "Klaar om samen te tekenen?"],
 ]) {
   test(`${name}: all collections and a real voice sample`, async ({ page }) => {
     await page.goto("/");
@@ -26,10 +33,12 @@ for (const [name, locale] of [
     }
     await page.locator(".level-tabs button").first().click();
     await page.locator("button.drawing-choice").first().click();
+    await expect(page.getByRole("heading", { name: setupTitle, exact: true })).toBeVisible();
     await expect(page.locator(".entry-confirmation-actions .primary")).toBeDisabled();
     await page.locator("details.entry-sound summary").click();
     await page.locator(".entry-sound-check").first().click();
     await expect.poll(() => page.locator("audio").first().evaluate(audio => !audio.paused && audio.currentTime > 0.2 && audio.duration > 0)).toBe(true);
+    await expect(page.locator(".entry-sound-check").first()).toHaveText(UI_DICTIONARIES[locale]?.["setup.stopVoicePreview"] ?? "Stop voice check");
     await page.locator(".entry-sound-check").first().click();
     await expect.poll(() => page.locator("audio").first().evaluate(audio => audio.paused)).toBe(true);
     await expect(page.locator(".entry-confirmation-actions .primary")).toBeDisabled();

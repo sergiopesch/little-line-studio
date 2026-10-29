@@ -1,7 +1,7 @@
 {
   "locale": "es-ES",
   "status": "draft-awaiting-editorial-and-native-review",
-  "sourceDictionarySha256": "5b10a4dbcdd192a186c7cd61a1548922bcb268987419b1462199f8935fd5a0a6",
+  "sourceDictionarySha256": "dfa766f4ca2bcbb2737e56a8c101a7818e1313229207647eddb9e2295539c0a9",
   "strings": {
     "Loading lessons…": "Cargando las clases…",
     "The selected voice is being prepared. Read the steps together for now.": "La voz elegida está en preparación. Por ahora, leed los pasos juntos.",
@@ -209,7 +209,15 @@
     "This lesson is being prepared.": "Esta clase está en preparación.",
     "The drawing demonstration is unavailable.": "La demostración de dibujo no está disponible.",
     "You can keep using the written instructions together. Your drawing stays on paper.": "Podéis continuar juntos con las instrucciones escritas. Tu dibujo se queda en el papel.",
-    "Try loading the demonstration again": "Volver a cargar la demostración"
+    "Try loading the demonstration again": "Volver a cargar la demostración",
+    "lesson.pause": "Pausar",
+    "lesson.moreTime": "Más tiempo",
+    "lesson.replayInstruction": "Escuchar de nuevo",
+    "lesson.replayDemonstration": "Mostrar de nuevo",
+    "help.playHint": "Escuchar la pista",
+    "help.stopHint": "Detener la pista",
+    "setup.stopVoicePreview": "Detener la prueba de voz",
+    "settings.stopVoicePreview": "Detener la prueba de voz"
   },
-  "sourceFrenchDictionarySha256": "70e034b1363a7cf64ff3f6b2ba457cb9f717acbc82871d7c2dcb7c51741f9855"
+  "sourceFrenchDictionarySha256": "970085efa70445e82be142be1984978df6311b4432d74ae63bec635085337911"
 }

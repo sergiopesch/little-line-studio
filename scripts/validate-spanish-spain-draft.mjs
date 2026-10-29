@@ -1,11 +1,11 @@
 // Offline checks for an editorial draft, not a release or provider plan.
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
-import vm from 'node:vm';
 import { pathToFileURL } from 'node:url';
 import { LESSONS } from '../src/lesson-catalogue.js';
 import sourceSpanish from '../src/spanish-lessons.es-419.json' with { type: 'json' };
 import { FRENCH_UI } from '../src/french-ui.fr-FR.js';
+import SPANISH_UI from '../src/spanish-ui.es-419.json' with { type: 'json' };
 
 const hash = (value) => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const lessonFields = ['title', 'invitation', 'objective', 'parentNote', 'simplify', 'transfer', 'colouringLabel'];
@@ -50,10 +50,7 @@ export function validateDraft({ catalogue, ui, pilot, lessons = LESSONS, spanish
 }
 
 export function readSourceUI() {
-  const file = readFileSync(new URL('../src/i18n.jsx', import.meta.url), 'utf8');
-  const literal = file.match(/const SPANISH = (\{[\s\S]*?\n\});/)?.[1];
-  if (!literal) fail('Spanish source dictionary missing');
-  return vm.runInNewContext(`(${literal})`);
+  return SPANISH_UI;
 }
 export function readDraft() {
   const read = (name) => JSON.parse(readFileSync(new URL(`../research/spanish-spain-draft/${name}`, import.meta.url), 'utf8'));

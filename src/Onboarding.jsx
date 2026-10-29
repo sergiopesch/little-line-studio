@@ -75,7 +75,7 @@ export function Onboarding({
               </label>
               <button className="entry-sound-check" onClick={onSample} disabled={!voiceAvailable}>
                 {speaking ? <StopIcon size={19} /> : <SpeakerHighIcon size={19} />}
-                {t(speaking ? "Stop voice check" : "Hear a hello")}
+                {t(speaking ? "setup.stopVoicePreview" : "Hear a hello")}
               </button>
             </div>
             {!voiceAvailable && <p className="entry-sound-note">{t("The selected voice is being prepared. Read the steps together for now.")}</p>}

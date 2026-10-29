@@ -25,6 +25,12 @@ Catalogue counts come from lesson data, and teaching-pack registration rejects d
 
 ## Content workflow
 
+For new locales or changes to regional wording, forms of address, control labels, captions or narration, follow the [localization workflow and locale guides](localization/README.md). `npm run review:localization` extracts complete Cat review packets from current text and recordings without provider requests.
+
+Static interface copy is registered once in `src/ui-translations.js`. React components use its `translate` function through `src/i18n.jsx`; the board failure screen uses the same pure function directly. English voice variants explicitly share source copy. Unknown locales and missing keys retain the English source text. Dictionaries are read-only, and the registry test requires an entry for every selectable language.
+
+Latin American Spanish copy lives in `src/spanish-ui.es-419.json`, including board recovery messages. Editorial checks import this data directly, and the Spain Spanish draft records its source checksum. Keep that source linkage current when changing the dictionary. When adding a locale, register its static copy here and verify normal, accessible and error labels; lesson loading, dynamic copy and narration release validation still have their own contracts.
+
 Follow the [lesson template](../DRAWING_LESSON_TEMPLATE.md). Lesson geometry, instructions, demonstrations and prepared media must remain consistent. When drawing geometry changes, run `npm run update:previews`, review the catalogue against the native board, then run the full checks. Builds reject stale precomputed outlines.
 
 Crayon patches are constructed inside authored contours with a safety margin from every edge. Changes to `src/crayon-regions.js` must preserve those boundaries and the resulting lesson geometry; `tests/crayon-regions.test.js` checks clearance and both contour directions, and the wider containment tests check the native ink envelopes.

@@ -104,7 +104,7 @@ export function Settings({
           />
           <button className="sample-button compact" onClick={onSample} disabled={!voiceAvailable}>
             {speaking ? <StopIcon size={20} /> : <SpeakerHighIcon size={21} />}{" "}
-            {t(speaking ? "Stop voice check" : "Check the voice")}
+            {t(speaking ? "settings.stopVoicePreview" : "Check the voice")}
           </button>
           {!voiceAvailable && <p className="sound-guidance">{t("The selected voice is being prepared. Read the steps together for now.")}</p>}
           {voiceUnavailable && (

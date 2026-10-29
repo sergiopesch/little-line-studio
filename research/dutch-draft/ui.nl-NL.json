@@ -208,6 +208,14 @@
     "Paused · nothing moves ahead": "Gepauzeerd · er gaat niets verder",
     "More time · estimate paused": "Meer tijd · schatting gepauzeerd",
     "Less than a minute left": "Minder dan een minuut te gaan",
-    "Estimates are a guide. More time is always yours.": "De schattingen zijn een richtlijn. Meer tijd is altijd beschikbaar."
+    "Estimates are a guide. More time is always yours.": "De schattingen zijn een richtlijn. Meer tijd is altijd beschikbaar.",
+    "lesson.pause": "Pauze",
+    "lesson.moreTime": "Meer tijd",
+    "lesson.replayInstruction": "Opnieuw luisteren",
+    "lesson.replayDemonstration": "Opnieuw laten zien",
+    "help.playHint": "Luister naar de tip",
+    "help.stopHint": "Tip stoppen",
+    "setup.stopVoicePreview": "Stemvoorbeeld stoppen",
+    "settings.stopVoicePreview": "Stemvoorbeeld stoppen"
   }
 }

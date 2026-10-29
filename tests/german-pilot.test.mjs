@@ -6,6 +6,7 @@ import { getLanguage } from '../src/languages.js';
 import { releasedLessons } from '../src/narration-locales.js';
 import draft from '../research/german-draft/basic/cat.de-DE.mjs';
 import { validateGermanPilot } from '../scripts/validate-german-pilot.mjs';
+import SPANISH_UI from '../src/spanish-ui.es-419.json' with { type: 'json' };
 
 const lesson = getLesson('cat');
 const source = JSON.parse(readFileSync(new URL('../research/german-draft/basic/cat.de-DE.source.json', import.meta.url), 'utf8'));
@@ -34,8 +35,7 @@ test('draft German UI covers the established source keys and preserves dynamic a
   assert.equal(ui.locale, 'de-DE');
   assert.equal(ui.status, 'assistant-draft-awaiting-native-human-review');
   assert.deepEqual(Object.keys(ui.strings).sort(), Object.keys(FRENCH_UI).sort());
-  const source = readFileSync(new URL('../src/i18n.jsx', import.meta.url), 'utf8');
-  const sourceKeys = [...source.matchAll(/^  ("(?:[^"\\]|\\.)*"): /gm)].map(match => JSON.parse(match[1]));
+  const sourceKeys = Object.keys(SPANISH_UI);
   for (const key of sourceKeys) assert.ok(Object.hasOwn(ui.strings, key), key);
   for (const [key, value] of Object.entries(ui.strings)) assert.ok(typeof value === 'string' && value.trim(), key);
   assert.deepEqual(Object.keys(GERMAN_DYNAMIC).sort(), Object.keys(FRENCH_DYNAMIC).sort());
