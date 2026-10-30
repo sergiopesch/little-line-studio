@@ -65,7 +65,6 @@ a:focus-visible { outline: 3px solid #ad3e25; outline-offset: 5px; }
 .about-actions a { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 22px; font-size: 16px; font-weight: 700; border-radius: 999px; }
 .about-primary { color: #17202f; text-decoration: none; background: #f5cf60; border: 1px solid #9a6b00; }
 .about-primary:hover { background: #edc24c; }
-.about-footer { padding: 0 24px 28px; color: #58616f; text-align: center; font-size: 13px; }
 @media (max-width: 800px) {
   .about-page { grid-template-columns: minmax(0, 1fr); gap: 24px; max-width: 740px; }
   .about-portrait { width: 128px; border-radius: 20px; }

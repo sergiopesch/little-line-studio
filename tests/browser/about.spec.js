@@ -38,7 +38,7 @@ test("About remains readable without JavaScript and loads only local resources",
     const response = await page.goto("/about/");
     expect(response.status()).toBe(200);
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Hi, I’m Sergio.");
-    await expect(page.getByText("The lessons are prepared in advance", { exact: false })).toBeVisible();
+    await expect(page.getByText("The site shows each step, but the drawing happens on paper.", { exact: false })).toBeVisible();
     expect(requests.every(request => new URL(request.url).origin === new URL(baseURL).origin)).toBe(true);
     expect(requests.some(request => ["script", "media"].includes(request.type))).toBe(false);
     await page.getByRole("link", { name: "Back to drawing", exact: true }).click();
