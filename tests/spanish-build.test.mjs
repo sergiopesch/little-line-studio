@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { copyFileSync, existsSync, mkdirSync, mkdtempSync, rmSync, unlinkSync, writeFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, mkdtempSync, rmSync, symlinkSync, unlinkSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
@@ -27,6 +27,7 @@ const source = `/narration/clip-${digest}.mp3`;
 function fixture(t, selected = ["cat"]) {
   const root = mkdtempSync(path.join(tmpdir(), "drawingteacher-spanish-build-"));
   t.after(() => rmSync(root, { recursive: true, force: true }));
+  symlinkSync(new URL("../node_modules", import.meta.url), path.join(root, "node_modules"), "dir");
   for (const dir of ["scripts", "src", "config", "dist/client/narration"])
     mkdirSync(path.join(root, dir), { recursive: true });
   copyFileSync(new URL("../scripts/prepare-build.mjs", import.meta.url), path.join(root, "scripts/prepare-build.mjs"));
@@ -183,6 +184,11 @@ test("Spain release requires its exact current text, UI, voice and complete audi
   };
   for (const [name, value] of Object.entries(files)) writeFileSync(f.file(`src/${name}`), JSON.stringify(value));
   assert.equal(f.run().status, 0);
+  writeFileSync(f.file("src/spanish-spain-dynamic.js"), "/** @type {string} */\nexport const copy = 'draft';\n");
+  assert.equal(f.run().status, 0, "type comments must not invalidate identical source-linked code");
+  writeFileSync(f.file("src/spanish-spain-dynamic.js"), "export const copy = 'draft /** changed wording */';\n");
+  assert.notEqual(f.run().status, 0, "comment-like text inside a string remains reviewed wording");
+  writeFileSync(f.file("src/spanish-spain-dynamic.js"), "export const copy = 'draft';\n");
   const partialFiles = structuredClone(files);
   partialFiles[`narration-availability.${locale}.json`].lessons = ["cat"];
   partialFiles[`narration-manifest.${locale}.json`].coveredLessons = ["cat"];

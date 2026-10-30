@@ -1,5 +1,7 @@
+// @ts-check
 // Spain Spanish copy remains subject to independent native-speaker review.
-export const SPAIN_DYNAMIC = Object.freeze({
+/** @type {import("./localization/contracts.ts").DynamicCopy} */
+const copy = {
   documentTitle: 'Trazolino — Todo dibujo empieza con una pequeña línea',
   errorTitle: 'Hagamos una pequeña pausa.',
   errorBody: 'No se ha podido abrir la clase. Tu dibujo en papel es tuyo. Pide a la persona adulta que vuelva a cargar la página cuando estéis preparados.',
@@ -22,10 +24,13 @@ export const SPAIN_DYNAMIC = Object.freeze({
   stepDrawing: (index, total) => `DIBUJO ${index} DE ${total}`,
   stepPrepare: 'PREPARACIÓN',
   stepGeneric: (index, total) => `PASO ${index} DE ${total}`,
-});
+};
+export const SPAIN_DYNAMIC = Object.freeze(copy);
 
+/** @param {import("./authoring/contracts.ts").AuthoredLesson} lesson @param {number} stepIndex */
 export function demonstrationLabel(lesson, stepIndex) {
   const step = lesson.steps[stepIndex];
+  if (!step) throw new TypeError("Unknown localized teaching stage.");
   if (step.kind === 'prepare') return SPAIN_DYNAMIC.boardBlank;
   if (step.kind === 'colour') return SPAIN_DYNAMIC.boardColour(lesson.title);
   if (step.kind === 'observe' || step.kind === 'explore') return SPAIN_DYNAMIC.boardReference(lesson.title);
@@ -33,8 +38,10 @@ export function demonstrationLabel(lesson, stepIndex) {
   return SPAIN_DYNAMIC.boardAction(lesson.title, action);
 }
 
+/** @param {import("./authoring/contracts.ts").AuthoredLesson} lesson @param {number} stepIndex */
 export function stageLabel(lesson, stepIndex) {
   const step = lesson.steps[stepIndex];
+  if (!step) throw new TypeError("Unknown localized teaching stage.");
   if (!lesson.pilot) return stepIndex === 0
     ? SPAIN_DYNAMIC.stepPrepare
     : SPAIN_DYNAMIC.stepGeneric(stepIndex, lesson.steps.length - 1);
@@ -49,6 +56,7 @@ export function stageLabel(lesson, stepIndex) {
   return SPAIN_DYNAMIC.stepDrawing(action, lesson.strokes.length);
 }
 
+/** @param {import("./localization/contracts.ts").TimelineEstimate} progress @param {(text: string) => string} translate */
 export function timelineEstimate(progress, translate) {
   return /^About \d+ min left$/.test(progress.estimateLabel)
     ? SPAIN_DYNAMIC.remaining(Math.ceil(progress.remainingMs / 60000))

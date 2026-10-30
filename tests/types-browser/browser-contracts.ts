@@ -2,10 +2,10 @@ import { StudioAudio } from "../../src/audio.js";
 import { loadLocaleLanguage, createLatestLanguageRequest } from "../../src/language-loading.js";
 import { useScriptedPlayback } from "../../src/useScriptedPlayback.js";
 import { useLessonClock } from "../../src/useLessonClock.js";
-import type { TimingLesson } from "../../src/core/contracts.ts";
+import type { AuthoredLesson } from "../../src/authoring/contracts.ts";
 import { createLessonClock, lessonClockReducer } from "../../src/core/lesson-clock.ts";
 
-declare const lesson: TimingLesson & { readonly title: string };
+declare const lesson: AuthoredLesson;
 declare const media: HTMLAudioElement;
 const audio = new StudioAudio();
 audio.attachNarration(media);
