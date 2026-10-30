@@ -16,8 +16,8 @@ export function browserMatrix(definitions = projects) {
   }) };
 }
 
-export function assertRequiredJobs(needs) {
-  assert.deepEqual(Object.keys(needs).sort(), ["browsers", "content", "plan"], "Every required job must report a result");
+export function assertRequiredJobs(needs, required = ["browsers", "content", "plan"]) {
+  assert.deepEqual(Object.keys(needs).sort(), required.toSorted(), "Every required job must report a result");
   for (const [name, job] of Object.entries(needs)) assert.equal(job.result, "success", `${name} did not succeed`);
 }
 
@@ -56,27 +56,30 @@ export function assertBrowserReport(report, inventory, project) {
   return { project, tests: planned.size, status: "passed" };
 }
 
-function runProject(project) {
+export function runBrowserProject(project, {
+  config = "playwright.ci.config.js", output, env = process.env,
+} = {}) {
   assert.ok(browserMatrix().include.some(item => item.project === project), "Unknown browser project");
   const root = fileURLToPath(new URL("../", import.meta.url));
-  const output = path.join(root, "output/playwright"), reportFile = path.join(output, "browser.json");
+  output ??= path.join(root, "output/playwright");
+  const reportFile = path.join(output, "browser.json");
   mkdirSync(output, { recursive: true });
   rmSync(reportFile, { force: true });
-  const args = [path.join(root, "node_modules/@playwright/test/cli.js"), "test", "--config", "playwright.ci.config.js", "--project", project];
-  const listed = spawnSync(process.execPath, [...args, "--list", "--reporter=json"], { cwd: root, encoding: "utf8", maxBuffer: 8 * 1024 * 1024 });
+  const args = [path.join(root, "node_modules/@playwright/test/cli.js"), "test", "--config", config, "--project", project, "--workers=1"];
+  const listed = spawnSync(process.execPath, [...args, "--list", "--reporter=json"], { cwd: root, env, encoding: "utf8", maxBuffer: 8 * 1024 * 1024 });
   assert.equal(listed.status, 0, `Browser collection failed: ${listed.stderr || listed.error || listed.signal}`);
   const inventory = JSON.parse(listed.stdout);
   cases(inventory, project);
   writeFileSync(path.join(output, "inventory.json"), listed.stdout);
-  const run = spawnSync(process.execPath, args, { cwd: root, stdio: "inherit" });
+  const run = spawnSync(process.execPath, args, { cwd: root, env, stdio: "inherit" });
   assert.equal(run.status, 0, `Browser execution failed: ${run.error || run.signal || run.status}`);
-  console.log(JSON.stringify(assertBrowserReport(JSON.parse(readFileSync(reportFile, "utf8")), inventory, project)));
+  return assertBrowserReport(JSON.parse(readFileSync(reportFile, "utf8")), inventory, project);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const [command, project, ...extra] = process.argv.slice(2);
   assert.equal(extra.length, 0, "Unexpected browser CI arguments");
-  if (command === "run" && project) runProject(project);
+  if (command === "run" && project) console.log(JSON.stringify(runBrowserProject(project)));
   else if (command === "matrix" && !project) console.log(JSON.stringify(browserMatrix()));
   else if (command === "gate" && !project) assertRequiredJobs(JSON.parse(process.env.NEEDS_JSON ?? "null"));
   else throw new Error("Use matrix, gate, or run <browser-project>");

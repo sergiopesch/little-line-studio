@@ -14,8 +14,13 @@ concurrency:
   group: production-verification
   cancel-in-progress: true
 
+env:
+  RELEASE_COMMIT: ${{ github.event.workflow_run.head_sha || github.sha }}
+  PRODUCTION_URL: https://trazolino.org
+
 jobs:
-  production:
+  readiness:
+    name: Production readiness
     if: >-
       github.repository == 'sergiopesch/trazolino' &&
       ((github.event_name == 'workflow_run' &&
@@ -25,9 +30,55 @@ jobs:
         github.event.workflow_run.head_repository.full_name == github.repository) ||
        (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'))
     runs-on: ubuntu-26.04
-    timeout-minutes: 30
+    timeout-minutes: 15
+    outputs:
+      browsers: ${{ steps.matrix.outputs.browsers }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ env.RELEASE_COMMIT }}
+          persist-credentials: false
+          sparse-checkout: |
+            /.gitignore
+            /scripts/production-ci.mjs
+            /scripts/production-checks.mjs
+            /scripts/wait-for-production.mjs
+            /scripts/release-metadata.mjs
+            /scripts/browser-ci.mjs
+            /config/browser-projects.json
+            /config/security.js
+            /src/narration-index.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: 24
+      - name: Establish a stable public release
+        run: node scripts/production-ci.mjs prepare
+      - id: matrix
+        name: Collect every browser project
+        run: |
+          browser_matrix="$(node scripts/browser-ci.mjs matrix)"
+          printf 'browsers=%s\n' "$browser_matrix" >> "$GITHUB_OUTPUT"
+      - name: Retain readiness evidence
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: production-readiness-${{ github.run_attempt }}
+          path: output/production-verification/readiness.json
+          retention-days: 14
+          if-no-files-found: error
+
+  browsers:
+    name: Production (${{ matrix.project }})
+    needs: readiness
+    runs-on: ubuntu-26.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.readiness.outputs.browsers) }}
     env:
-      RELEASE_COMMIT: ${{ github.event.workflow_run.head_sha || github.sha }}
+      BROWSER_PROJECT: ${{ matrix.project }}
+      BROWSER_ENGINE: ${{ matrix.browser }}
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
@@ -38,21 +89,79 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - name: Install browser and audio dependencies
+      - uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6
+        with:
+          name: production-readiness-${{ github.run_attempt }}
+          path: output/production-verification
+      - name: Install this browser and audio output
         run: |
           sudo apt-get update
           sudo apt-get install -y pulseaudio pulseaudio-utils
-          npx playwright install --with-deps chromium firefox webkit
+          npx playwright install --with-deps "$BROWSER_ENGINE"
           pulseaudio --start --exit-idle-time=-1
           pactl load-module module-null-sink sink_name=browser_checks
           pactl set-default-sink browser_checks
-      - name: Wait for the merged release and verify the public demo
-        run: npm run verify:production -- --url https://trazolino.org --commit "$RELEASE_COMMIT" --wait 600
-      - name: Retain production verification evidence
+      - name: Verify the complete project against the prepared release
+        run: node scripts/production-ci.mjs run "$BROWSER_PROJECT"
+      - name: Retain browser evidence
         if: always()
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
         with:
-          name: production-verification-${{ env.RELEASE_COMMIT }}
-          path: output/production-verification/
+          name: production-browser-${{ github.run_attempt }}-${{ matrix.project }}
+          path: output/production-verification/${{ matrix.project }}/
           retention-days: 14
-          if-no-files-found: warn
+          if-no-files-found: error
+
+  production:
+    name: Production verification
+    if: ${{ always() && needs.readiness.result != 'skipped' }}
+    needs: [readiness, browsers]
+    runs-on: ubuntu-26.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ env.RELEASE_COMMIT }}
+          persist-credentials: false
+          sparse-checkout: |
+            /.gitignore
+            /scripts/production-ci.mjs
+            /scripts/production-checks.mjs
+            /scripts/wait-for-production.mjs
+            /scripts/release-metadata.mjs
+            /scripts/browser-ci.mjs
+            /config/browser-projects.json
+            /config/security.js
+            /src/narration-index.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: 24
+      - name: Require every job to succeed
+        env:
+          NEEDS_JSON: ${{ toJSON(needs) }}
+        run: node --input-type=module -e 'import {assertRequiredJobs} from "./scripts/browser-ci.mjs"; assertRequiredJobs(JSON.parse(process.env.NEEDS_JSON), ["readiness", "browsers"]);'
+      - uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6
+        with:
+          name: production-readiness-${{ github.run_attempt }}
+          path: output/production-verification
+      - uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6
+        with:
+          pattern: production-browser-${{ github.run_attempt }}-*
+          path: output/production-verification/browsers
+          merge-multiple: false
+      - name: Require complete matching evidence and recheck the live release
+        if: always()
+        env:
+          NEEDS_JSON: ${{ toJSON(needs) }}
+        run: node scripts/production-ci.mjs finish
+      - name: Retain the aggregate result
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: production-verification-${{ env.RELEASE_COMMIT }}-${{ github.run_attempt }}
+          path: |
+            output/production-verification/summary.json
+            output/production-verification/readiness.json
+          retention-days: 14
+          if-no-files-found: error
