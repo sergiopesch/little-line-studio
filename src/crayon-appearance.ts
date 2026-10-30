@@ -1,4 +1,4 @@
-import type { AppearanceLesson, ColourMark, ColourState, CrayonAppearance, CrayonGesture, CrayonPath, CrayonPhase, DrawingPoint, OutlineStyle, ResolvedOutlineStyle } from "./drawing/contracts.ts";
+import type { AppearanceLesson, ColourMark, ColourState, CrayonAppearance, CrayonGesture, CrayonGestureOptions, CrayonPath, CrayonPhase, DrawingPoint, OutlineStyle, ResolvedOutlineStyle } from "./drawing/contracts.ts";
 import type { AuthoredStep } from "./core/contracts.ts";
 
 import { sampleEvenly } from "./lesson-geometry.js";
@@ -23,7 +23,7 @@ function pathLength(points: readonly DrawingPoint[]) {
 
 // Pressure is authored after distance resampling, and changes along a stroke
 // rather than fading a whole region onto the paper.
-export function crayonGesture(id: string, points: readonly DrawingPoint[], colour: string, options: Partial<Pick<CrayonPath, "width" | "opacity" | "strands">> = {}): CrayonPath {
+export function crayonGesture(id: string, points: readonly DrawingPoint[], colour: string, options: CrayonGestureOptions = {}): CrayonPath {
   const seed = seedFor(id);
   const sampled = sampleEvenly(points, 2);
   const pressurePoints = sampled.map((point, index) => {
@@ -102,7 +102,17 @@ export function defineCrayonAppearance({ palette, outlineStyles, colourPhases }:
       throw new TypeError("A crayon schedule must finish exactly at its authored duration.");
   }
   if (records >= 280) throw new TypeError("A lesson's native crayon records exceed the render budget.");
-  for (const style of Object.values(outlineStyles)) Object.freeze(style);
+  for (const style of Object.values(outlineStyles)) {
+    if ((style.color !== undefined && !COLOURS.has(style.color)) ||
+        (style.fill !== undefined && style.fill !== "none" && style.fill !== "fill") ||
+        (style.dash !== undefined && style.dash !== "draw" && style.dash !== "solid") ||
+        (style.size !== undefined && !["s", "m", "l", "xl"].includes(style.size)) ||
+        (style.ink !== undefined && !HEX.test(style.ink)) ||
+        (style.width !== undefined && (!Number.isFinite(style.width) || style.width < 0.5 || style.width > 20)) ||
+        (style.grainVariant !== undefined && (!Number.isInteger(style.grainVariant) || style.grainVariant < 0 || style.grainVariant > 2)))
+      throw new TypeError("An authored outline style needs supported native colours, ink, width and grain.");
+    Object.freeze(style);
+  }
   return Object.freeze({
     version: 1, medium: "crayon", palette: Object.freeze(palette),
     outlineStyles: Object.freeze(outlineStyles), colourPhases: Object.freeze(colourPhases),

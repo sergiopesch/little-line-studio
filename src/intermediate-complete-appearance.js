@@ -1,7 +1,14 @@
+// @ts-check
+/** @typedef {import("./drawing/contracts.ts").DrawingPoint} DrawingPoint */
+/** @typedef {import("./drawing/contracts.ts").OutlineStyle} OutlineStyle */
+/** @typedef {import("./authoring/contracts.ts").RegionPatch} RegionPatch */
+/** @typedef {import("./authoring/contracts.ts").RegionPatchOptions} RegionPatchOptions */
+/** @typedef {import("./authoring/contracts.ts").AuthoredArt} AuthoredArt */
 import { arc, cubic, ellipse, join, line, quad, rect } from "./lesson-geometry.js";
 import { crayonPhase, defineCrayonAppearance } from "./crayon-appearance.js";
 import { regionPatch } from "./crayon-regions.js";
 
+/** @satisfies {Readonly<Record<string, import("./drawing/contracts.ts").CrayonColour>>} */
 const palette = {
   tan: { sdkColor: "orange", ink: "#c99b6c", grain: "#af8058" },
   brown: { sdkColor: "orange", ink: "#ab7656", grain: "#8c5b43" },
@@ -19,13 +26,21 @@ const palette = {
 
 // These closed contours describe the subject, independently of the short inset
 // crayon movements. Unpainted details and paper gaps remain part of each picture.
+/** @param {...readonly DrawingPoint[]} paths */
 const closed = (...paths) => Object.freeze(join(...paths));
+/**
+ * @param {string} id @param {readonly DrawingPoint[]} boundary @param {keyof typeof palette} colour
+ * @param {number} cx @param {number} cy @param {number} rx @param {number} ry
+ * @param {Pick<RegionPatchOptions, "width" | "strands" | "passes" | "angle">} [options]
+ */
 const patch = (id, boundary, colour, cx, cy, rx, ry, options = {}) =>
   regionPatch({ id, boundary, colour, cx, cy, rx, ry, width: 12, strands: 3, passes: 5, ...options });
+/** @param {number} durationMs @param {readonly RegionPatch[]} patches */
 const phase = (durationMs, patches) => ({
   paint: crayonPhase(durationMs, patches.flatMap((entry) => entry.gestures)),
   regions: Object.freeze(patches.flatMap((entry) => entry.regions)),
 });
+/** @param {Readonly<Record<string, ReturnType<typeof phase>>>} phases @param {Readonly<Record<string, OutlineStyle>>} [details] @returns {AuthoredArt} */
 function appearance(phases, details = {}) {
   return Object.freeze({
     appearance: defineCrayonAppearance({

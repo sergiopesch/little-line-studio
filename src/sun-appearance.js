@@ -1,11 +1,25 @@
+// @ts-check
+/** @typedef {import("./drawing/contracts.ts").Coordinate} Coordinate */
+/** @typedef {import("./drawing/contracts.ts").QuadraticCurve} QuadraticCurve */
 import { line, quad } from "./lesson-geometry.js";
 import { crayonGesture, crayonPhase, defineCrayonAppearance } from "./crayon-appearance.js";
 
+/**
+ * @param {string} id @param {string} colour
+ * @param {Coordinate} from @param {Coordinate} bend @param {Coordinate} to
+ * @param {import("./drawing/contracts.ts").CrayonGestureOptions} options
+ */
 const curve = (id, colour, from, bend, to, options) =>
   crayonGesture(id, quad(from, bend, to), colour, options);
-const centrePath = (path) => path.map(([x, y]) => [300 + (x - 300) * 0.93, 240 + (y - 240) * 0.93]);
+/** @param {QuadraticCurve} path @returns {QuadraticCurve} */
+const centrePath = (path) => {
+  /** @param {Coordinate} point @returns {Coordinate} */
+  const move = ([x, y]) => [300 + (x - 300) * 0.93, 240 + (y - 240) * 0.93];
+  return [move(path[0]), move(path[1]), move(path[2])];
+};
 
-const leftCentre = [
+/** @type {readonly QuadraticCurve[]} */
+const leftCentrePaths = [
   [[303, 155], [258, 163], [233, 192]],
   [[226, 203], [247, 182], [280, 167]],
   [[305, 173], [268, 187], [245, 211]],
@@ -22,10 +36,12 @@ const leftCentre = [
   [[257, 290], [275, 302], [305, 312]],
   [[307, 290], [287, 286], [275, 277]],
   [[307, 323], [283, 323], [267, 317]],
-].map((path, index) => curve(`sun-left-yellow-${index}`, "yellow", ...centrePath(path),
+];
+const leftCentre = leftCentrePaths.map((path, index) => curve(`sun-left-yellow-${index}`, "yellow", ...centrePath(path),
   { width: 18, opacity: 0.83, strands: 5 }));
 
-const rightCentre = [
+/** @type {readonly QuadraticCurve[]} */
+const rightCentrePaths = [
   [[314, 156], [341, 163], [365, 186]],
   [[373, 197], [353, 180], [325, 169]],
   [[295, 181], [331, 189], [355, 211]],
@@ -42,7 +58,8 @@ const rightCentre = [
   [[342, 290], [326, 300], [308, 309]],
   [[294, 294], [317, 288], [329, 283]],
   [[309, 325], [326, 321], [341, 314]],
-].map((path, index) => curve(`sun-right-yellow-${index}`, "yellow", ...centrePath(path),
+];
+const rightCentre = rightCentrePaths.map((path, index) => curve(`sun-right-yellow-${index}`, "yellow", ...centrePath(path),
   { width: 18, opacity: 0.83, strands: 5 }));
 
 // These narrow strokes follow the actual ray outlines. In particular the lower
@@ -59,7 +76,8 @@ const rays = [
 ].map((points, index) => crayonGesture(`sun-orange-ray-${index}`, points, "orange",
   { width: 2, opacity: 0.84, strands: 3 }));
 
-const warmth = [
+/** @type {readonly QuadraticCurve[]} */
+const warmthPaths = [
   [[249, 181], [266, 165], [280, 163]],
   [[321, 164], [338, 170], [353, 184]],
   [[218, 235], [218, 250], [225, 263]],
@@ -68,7 +86,8 @@ const warmth = [
   [[330, 309], [345, 299], [353, 284]],
   [[244, 251], [251, 248], [258, 252]],
   [[342, 252], [349, 248], [356, 251]],
-].map((path, index) => curve(`sun-warmth-${index}`, "ochre", ...path,
+];
+const warmth = warmthPaths.map((path, index) => curve(`sun-warmth-${index}`, "ochre", ...path,
   { width: index > 5 ? 8 : 9, opacity: 0.6 }));
 
 export const SUN_APPEARANCE = defineCrayonAppearance({

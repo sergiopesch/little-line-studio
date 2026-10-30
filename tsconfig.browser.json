@@ -53,6 +53,13 @@
     "src/italian-dynamic.js",
     "src/spanish-spain-dynamic.js",
     "src/dutch-dynamic.js",
-    "src/french-dynamic.fr-FR.js"
+    "src/french-dynamic.fr-FR.js",
+    "src/cat-appearance.js",
+    "src/sun-appearance.js",
+    "src/rainbow-appearance.js",
+    "src/balloon-appearance.js",
+    "src/basic-complete-appearance.js",
+    "src/intermediate-complete-appearance.js",
+    "src/expert-complete-appearance.js"
   ]
 }

@@ -4,6 +4,7 @@ import type { TLDefaultColorStyle } from "@tldraw/tlschema";
 export interface DrawingPoint { readonly x: number; readonly y: number; readonly z?: number }
 export interface PressurePoint extends DrawingPoint { readonly z: number }
 export type Coordinate = readonly [number, number];
+export type QuadraticCurve = readonly [Coordinate, Coordinate, Coordinate];
 export interface AuthoredMark {
   readonly id: string;
   readonly points: readonly DrawingPoint[];
@@ -44,6 +45,7 @@ export interface CrayonPath {
   readonly strands: number;
   readonly seed: number;
 }
+export type CrayonGestureOptions = Partial<Pick<CrayonPath, "width" | "opacity" | "strands">>;
 export interface CrayonGesture extends CrayonPath {
   readonly drawMs: number;
   readonly liftMs: number;
