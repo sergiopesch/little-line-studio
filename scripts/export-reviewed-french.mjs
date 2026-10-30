@@ -1,76 +1,25 @@
-// Offline export of source-linked editorial drafts. No provider calls and no
-// release assertion: independent language and listening review remain pending.
-import { createHash, randomUUID } from "node:crypto";
-import { readFileSync, renameSync, unlinkSync, writeFileSync } from "node:fs";
-import { LESSONS, LEVELS, narrationKey } from "../src/lesson-catalogue.js";
+// @ts-check
+// Offline source-linked export. Pending review provenance is never promoted.
+import { pathToFileURL } from "node:url";
+import { LESSONS, LEVELS } from "../src/lesson-catalogue.js";
+import { readRecord } from "./localization/export.ts";
+import { reviewedExport } from "./localization/reviewed.ts";
+import { writeExportFiles } from "./localization/write.ts";
 
-const lessonFields = ["title", "invitation", "objective", "parentNote", "simplify", "transfer", "colouringLabel"];
-const stepFields = ["title", "instruction", "spoken", "hint", "notice"];
-const fullFields = ["id", ...lessonFields];
-const fullStepFields = ["id", "kind", ...stepFields, "canSkip", "quietMs"];
-const hash = (value) => createHash("sha256").update(JSON.stringify(value)).digest("hex");
-const sourceText = (lesson) => ({
-  ...Object.fromEntries(lessonFields.filter((key) => lesson[key] !== undefined).map((key) => [key, lesson[key]])),
-  pilotPhases: lesson.pilotPhases,
-  steps: Object.fromEntries(lesson.steps.map((step) => [step.id,
-    Object.fromEntries(stepFields.filter((key) => step[key] !== undefined).map((key) => [key, step[key]]))])),
-});
-const fullSourceText = (lesson) => ({
-  ...Object.fromEntries(fullFields.map((key) => [key, lesson[key]])),
-  steps: lesson.steps.map((step) => Object.fromEntries(fullStepFields.filter((key) => step[key] !== undefined).map((key) => [key, step[key]]))),
-});
-const fail = (message) => { throw new Error(message); };
-
-const texts = {}, translatedLessons = {};
-for (const lesson of LESSONS) {
-  const url = new URL(`../research/french-reviewed/${lesson.level}/${lesson.id}.fr-FR.json`, import.meta.url);
-  const record = JSON.parse(readFileSync(url, "utf8"));
-  if (record.locale !== "fr-FR" || record.lessonId !== lesson.id)
-    fail(`Invalid French lesson identity: ${lesson.id}`);
-  if (record.sourceLessonSha256 !== hash(lesson))
-    fail(`English lesson or geometry changed: ${lesson.id}`);
-  const wrapped = Boolean(record.lesson);
-  if (!["assistant-reviewed-awaiting-native-human-review"]
-      .includes(wrapped ? record.reviewStatus : record.status))
-    fail(`French lesson lacks its editorial review status: ${lesson.id}`);
-  const entry = wrapped ? record.lesson : record;
-  if ((wrapped ? entry.sourceSha256 : entry.sourceTextSha256) !== hash(wrapped ? sourceText(lesson) : fullSourceText(lesson)))
-    fail(`English source changed: ${lesson.id}`);
-  const stages = wrapped ? entry.steps : entry.stages;
-  if (!stages || JSON.stringify(Object.keys(stages)) !== JSON.stringify(lesson.steps.map((step) => step.id)))
-    fail(`French stages do not match: ${lesson.id}`);
-  if (!Array.isArray(entry.pilotPhases) || JSON.stringify(entry.pilotPhases.map(({ id }) => id)) !== JSON.stringify(lesson.pilotPhases.map(({ id }) => id)) ||
-      entry.pilotPhases.some(({ label }) => typeof label !== "string" || !label.trim()))
-    fail(`French phases do not match: ${lesson.id}`);
-  const text = Object.fromEntries(lessonFields.map((key) => [key, entry[key] ?? ""]));
-  for (const field of lessonFields) if (lesson[field] && (typeof text[field] !== "string" || !text[field].trim()))
-    fail(`Missing French lesson field: ${lesson.id}/${field}`);
-  const steps = {};
-  for (const [index, step] of lesson.steps.entries()) {
-    const translated = stages[step.id];
-    if (!translated || JSON.stringify(Object.keys(translated).sort()) !== JSON.stringify([...stepFields].sort()) ||
-        stepFields.some((key) => typeof translated[key] !== "string" || !translated[key].trim()))
-      fail(`Incomplete French stage: ${lesson.id}/${step.id}`);
-    steps[step.id] = translated;
-    texts[narrationKey(lesson, index)] = translated.spoken;
-    texts[narrationKey(lesson, index, "hint")] = translated.hint;
-  }
-  translatedLessons[lesson.id] = { ...text, pilotPhases: entry.pilotPhases, steps };
+export function exportReviewedFrench() {
+  return reviewedExport("fr-FR", LESSONS, LEVELS.map(({ id }) => id), lesson =>
+    readRecord(new URL(`../research/french-reviewed/${lesson.level}/${lesson.id}.fr-FR.json`, import.meta.url)));
 }
-const reviewStatus = "assistant-reviewed-awaiting-native-human-review";
-if (process.argv.slice(2).length === 0) {
-  console.log(JSON.stringify({ locale: "fr-FR", reviewStatus,
-    count: LESSONS.length, levels: LEVELS.map(({ id }) => id), lessons: translatedLessons, texts }));
-} else if (process.argv.slice(2).length === 1 && process.argv[2] === "--write-catalogue") {
-  const destination = new URL("../src/french-lessons.fr-FR.json", import.meta.url);
-  const temporary = new URL(`../src/.french-catalogue-${randomUUID()}.tmp`, import.meta.url);
-  try {
-    writeFileSync(temporary, `${JSON.stringify({ locale: "fr-FR", reviewStatus, lessons: translatedLessons }, null, 2)}\n`, { flag: "wx" });
-    renameSync(temporary, destination);
-  } finally {
-    try { unlinkSync(temporary); } catch (error) { if (error.code !== "ENOENT") throw error; }
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  const args = process.argv.slice(2);
+  if (args.length && (args.length !== 1 || args[0] !== "--write-catalogue"))
+    throw new Error("Use no arguments for a read-only export or --write-catalogue for the local runtime copy.");
+  const result = exportReviewedFrench();
+  if (!args.length) console.log(JSON.stringify(result));
+  else {
+    const { locale, reviewStatus, lessons } = result;
+    writeExportFiles([{ destination: new URL("../src/french-lessons.fr-FR.json", import.meta.url),
+      contents: `${JSON.stringify({ locale, reviewStatus, lessons }, null, 2)}\n` }]);
+    console.log(JSON.stringify({ locale, reviewStatus, lessons: result.count, written: "src/french-lessons.fr-FR.json" }));
   }
-  console.log(JSON.stringify({ locale: "fr-FR", reviewStatus, lessons: LESSONS.length, written: "src/french-lessons.fr-FR.json" }));
-} else {
-  fail("Use no arguments for a read-only export or --write-catalogue for the local runtime copy.");
 }
