@@ -9,9 +9,33 @@ permissions:
   contents: read
 
 jobs:
-  verify:
+  plan:
+    name: Browser plan
     runs-on: ubuntu-26.04
-    timeout-minutes: 30
+    timeout-minutes: 5
+    outputs:
+      browsers: ${{ steps.matrix.outputs.browsers }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            /config/browser-projects.json
+            /scripts/browser-ci.mjs
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: 24
+      - id: matrix
+        name: Collect every configured browser project
+        run: |
+          browser_matrix="$(node scripts/browser-ci.mjs matrix)"
+          printf 'browsers=%s\n' "$browser_matrix" >> "$GITHUB_OUTPUT"
+
+  content:
+    name: Content and engine
+    runs-on: ubuntu-26.04
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
@@ -21,22 +45,13 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - name: Install audio fixture and browser dependencies
+      - name: Install audio fixture dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg pulseaudio pulseaudio-utils
+          sudo apt-get install -y ffmpeg
           python3 -c "import subprocess; v = subprocess.check_output(['ffmpeg', '-version'], text=True).splitlines()[0]; print(v); assert v.startswith('ffmpeg version 8.'), 'Offline media fixtures are qualified with FFmpeg 8.x'"
-          npx playwright install --with-deps chromium firefox webkit
       - name: Build and verify content, media and controller
         run: npm run check
-      - name: Start virtual audio output
-        run: |
-          pulseaudio --start --exit-idle-time=-1
-          pactl load-module module-null-sink sink_name=browser_checks
-          pactl set-default-sink browser_checks
-          pactl list short sinks
-      - name: Verify browser flows
-        run: npm run test:browser
       - name: Prepare every localized lesson for review
         run: npm run review:localization
       - name: Keep localization review packets
@@ -46,11 +61,64 @@ jobs:
           path: output/localization-review/catalogue-*/
           retention-days: 14
           if-no-files-found: error
+
+  browsers:
+    name: Browser (${{ matrix.project }})
+    needs: plan
+    runs-on: ubuntu-26.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.plan.outputs.browsers) }}
+    env:
+      BROWSER_PROJECT: ${{ matrix.project }}
+      BROWSER_ENGINE: ${{ matrix.browser }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Install this browser and audio output
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pulseaudio pulseaudio-utils
+          npx playwright install --with-deps "$BROWSER_ENGINE"
+          pulseaudio --start --exit-idle-time=-1
+          pactl load-module module-null-sink sink_name=browser_checks
+          pactl set-default-sink browser_checks
+      - name: Verify every test in this browser project
+        run: node scripts/browser-ci.mjs run "$BROWSER_PROJECT"
       - name: Keep browser evidence
         if: always()
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
         with:
-          name: browser-evidence
+          name: browser-evidence-${{ matrix.project }}
           path: output/playwright/
           retention-days: 7
-          if-no-files-found: ignore
+          if-no-files-found: error
+
+  verify:
+    # This exact required check must fail when any dependency fails or is skipped.
+    if: always()
+    needs: [plan, content, browsers]
+    runs-on: ubuntu-26.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            /config/browser-projects.json
+            /scripts/browser-ci.mjs
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: 24
+      - name: Require every result to succeed
+        env:
+          NEEDS_JSON: ${{ toJSON(needs) }}
+        run: node scripts/browser-ci.mjs gate

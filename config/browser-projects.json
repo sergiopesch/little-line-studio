@@ -1,0 +1,7 @@
+[
+  { "name": "desktop-chromium", "use": { "browserName": "chromium", "viewport": { "width": 1440, "height": 1000 } } },
+  { "name": "small-screen-chromium", "use": { "browserName": "chromium", "viewport": { "width": 390, "height": 844 }, "isMobile": true, "hasTouch": true, "reducedMotion": "reduce" } },
+  { "name": "desktop-firefox", "use": { "browserName": "firefox", "viewport": { "width": 1440, "height": 1000 } } },
+  { "name": "desktop-webkit", "use": { "browserName": "webkit", "viewport": { "width": 1440, "height": 1000 } } },
+  { "name": "small-screen-webkit", "use": { "browserName": "webkit", "viewport": { "width": 390, "height": 844 }, "isMobile": true, "hasTouch": true, "reducedMotion": "reduce" } }
+]
