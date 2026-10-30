@@ -45,7 +45,16 @@ a:focus-visible { outline: 3px solid #ad3e25; outline-offset: 5px; }
   text-decoration: none;
 }
 .about-back:hover, .about-personal:hover { background: #fff8e5; }
-.about-page { max-width: 780px; margin: 44px auto 52px; padding: 0 28px; }
+.about-page {
+  display: grid;
+  grid-template-columns: clamp(180px, 22vw, 240px) minmax(0, 1fr);
+  align-items: start;
+  gap: 48px;
+  max-width: 1100px;
+  margin: 44px auto 52px;
+  padding: 0 28px;
+}
+.about-portrait { display: block; width: 100%; height: auto; border-radius: 24px; }
 .about-story h1 { margin: 0 0 20px; font-size: clamp(38px, 5vw, 64px); font-weight: 900; line-height: 1.1; letter-spacing: -1.8px; }
 .about-story h1 span { text-decoration: underline; text-decoration-color: #f5cf60; text-decoration-thickness: .13em; text-underline-offset: .06em; text-decoration-skip-ink: none; }
 .about-story p { margin: 0 0 20px; font-size: 18px; line-height: 1.65; color: #58616f; }
@@ -57,6 +66,10 @@ a:focus-visible { outline: 3px solid #ad3e25; outline-offset: 5px; }
 .about-primary { color: #17202f; text-decoration: none; background: #f5cf60; border: 1px solid #9a6b00; }
 .about-primary:hover { background: #edc24c; }
 .about-footer { padding: 0 24px 28px; color: #58616f; text-align: center; font-size: 13px; }
+@media (max-width: 800px) {
+  .about-page { grid-template-columns: minmax(0, 1fr); gap: 24px; max-width: 740px; }
+  .about-portrait { width: 128px; border-radius: 20px; }
+}
 @media (max-width: 620px) {
   .about-header { padding: 12px 16px; gap: 8px; }
   .about-brand { font-size: 24px; gap: 4px; }

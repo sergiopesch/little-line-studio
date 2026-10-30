@@ -10,6 +10,9 @@ test("About is reachable by keyboard and returns to the drawing choices", async 
   await expect(page).toHaveURL(/\/about\/$/);
   await expect(page).toHaveTitle("About — Trazolino");
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Hi, I’m Sergio.");
+  const portrait = page.getByRole("img", { name: "Sergio Peschiera", exact: true });
+  await expect(portrait).toBeVisible();
+  await expect.poll(() => portrait.evaluate(image => image.complete && image.naturalWidth === 400 && image.naturalHeight === 400)).toBe(true);
   await expect(page.getByRole("link", { name: "More about me" })).toHaveAttribute("href", "https://www.sergiopesch.com/about");
   await expect(page.locator("audio, video, iframe, vite-error-overlay")).toHaveCount(0);
   await page.reload();

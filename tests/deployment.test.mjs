@@ -14,6 +14,9 @@ test("About ships as a readable static page with local compiled styles and no sc
   assert.match(document, /href="https:\/\/trazolino.org\/about\/"/);
   assert.match(document, /name="robots" content="noindex, nofollow"/);
   assert.doesNotMatch(document, /<script\b|<iframe\b|<audio\b|<video\b|\/src\//i);
+  assert.match(document, /src="\/brand\/sergio-peschiera\.jpg"/);
+  const portrait = await readFile(new URL("../dist/client/brand/sergio-peschiera.jpg", import.meta.url));
+  assert.deepEqual(portrait, await readFile(new URL("../public/brand/sergio-peschiera.jpg", import.meta.url)));
   const styles = [...document.matchAll(/href="(\/assets\/[^"?]+\.css)"/g)];
   assert.ok(styles.length > 0, "Vite compiles the About stylesheet");
   for (const [, asset] of styles) await access(new URL(`../dist/client${asset}`, import.meta.url));
