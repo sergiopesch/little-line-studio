@@ -1,19 +1,31 @@
+// @ts-check
 import { EXPERT_COMPLETE_APPEARANCES } from "./expert-complete-appearance.js";
 
 const colourNotice = "Use available crayons and comfortable movements. White spaces and different colours are welcome. More time holds any stage without a deadline.";
+/** @type {readonly import("./authoring/contracts.ts").TeachingPhase[]} */
 const phases = Object.freeze([
-  { id: "observe", label: "Look" }, { id: "draw", label: "Draw" },
-  { id: "colour", label: "Colour" }, { id: "explore", label: "Your own ideas" },
-].map(Object.freeze));
+  Object.freeze({ id: "observe", label: "Look" }), Object.freeze({ id: "draw", label: "Draw" }),
+  Object.freeze({ id: "colour", label: "Colour" }), Object.freeze({ id: "explore", label: "Your own ideas" }),
+]);
+/** @type {(instruction: string, spoken: string, hint: string, quietMs?: number) => import("./authoring/contracts.ts").PracticeTeaching} */
 const turn = (instruction, spoken, hint, quietMs = 2000) => Object.freeze({ instruction, spoken, hint, quietMs });
+/** @type {(id: string, title: string, instruction: string, spoken: string, hint: string, quietMs?: number, canSkip?: boolean) => import("./authoring/contracts.ts").NamedPracticeTeaching} */
 const C = (id, title, instruction, spoken, hint, quietMs = 2000, canSkip = false) => Object.freeze({
   id, title, instruction, spoken, hint, quietMs, canSkip, notice: colourNotice,
 });
+/** @param {string} id
+ * @param {string} thread
+ * @param {string} intention
+ * @param {readonly [string, string, string, string]} observe
+ * @param {readonly (readonly [string, string, string, string, number?])[]} rows
+ * @param {readonly import("./authoring/contracts.ts").NamedPracticeTeaching[]} colourSteps
+ * @param {readonly [string, string, string, string]} explore
+ * @returns {import("./authoring/contracts.ts").TeachingPack} */
 function pack(id, thread, intention, observe, rows, colourSteps, explore) {
   return Object.freeze({
     version: 1, lessonId: id, story: Object.freeze({ thread, intention }), musicId: id,
     colouringLabel: "Small crayon movements, your own colours",
-    observe: Object.freeze({ id: "notice", title: observe[0], ...turn(...observe.slice(1), 2000) }),
+    observe: Object.freeze({ id: "notice", title: observe[0], ...turn(observe[1], observe[2], observe[3], 2000) }),
     draw: Object.freeze(Object.fromEntries(rows.map(([markId, ...teaching]) => [markId, turn(...teaching)]))),
     colourSteps: Object.freeze(colourSteps),
     explore: Object.freeze({ id: "explore", title: explore[0], instruction: explore[1], spoken: explore[2], hint: explore[3], canSkip: true }),
@@ -393,6 +405,12 @@ const coral = pack("coral",
   ["An underwater story of your own.", "Keep colouring or invent another small reef creature.", "Your little fish might explore another plant, shell, or creature you invent. Keep adding to the reef, or finish your underwater picture here.", "Try one different small shape while leaving space around your fish."],
 );
 
+const appearanceById = new Map(Object.entries(EXPERT_COMPLETE_APPEARANCES));
+
 export const EXPERT_COMPLETE_REGISTRATIONS = Object.freeze([
   bird, fox, elephant, rabbit, cup, fruitBowl, treePath, castle, lighthouse, coral,
-].map((teaching) => Object.freeze({ id: teaching.lessonId, pack: teaching, ...EXPERT_COMPLETE_APPEARANCES[teaching.lessonId] })));
+].map((teaching) => {
+  const art = appearanceById.get(teaching.lessonId);
+  if (!art) throw new TypeError(`Missing authored appearance for ${teaching.lessonId}.`);
+  return Object.freeze({ id: teaching.lessonId, pack: teaching, ...art });
+}));

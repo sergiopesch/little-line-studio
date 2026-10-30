@@ -1,6 +1,8 @@
+// @ts-check
 const colourNotice =
   "Let your child choose colours, leave white spaces or omit details. More time holds any stage open without a deadline.";
 
+/** @type {(id: string, title: string, instruction: string, spoken: string, hint: string, quietMs: number, canSkip?: boolean) => import("./authoring/contracts.ts").NamedPracticeTeaching} */
 function colour(id, title, instruction, spoken, hint, quietMs, canSkip = false) {
   return Object.freeze({
     id, title, instruction, spoken, hint, quietMs, canSkip,
@@ -8,6 +10,7 @@ function colour(id, title, instruction, spoken, hint, quietMs, canSkip = false) 
   });
 }
 
+/** @type {import("./authoring/contracts.ts").TeachingPack} */
 export const SUN_TEACHING_PACK = Object.freeze({
   version: 1,
   lessonId: "sun",

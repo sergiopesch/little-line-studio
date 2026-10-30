@@ -1,16 +1,21 @@
+// @ts-check
 import { BASIC_COMPLETE_ART } from "./basic-complete-appearance.js";
 
 const colourNotice = "Offer the crayons already available. The teacher models contained strokes; the child's colours, white spaces and marks may differ. More time holds without a deadline.";
+/** @type {(instruction: string, spoken: string, hint: string, quietMs: number, canSkip?: boolean) => import("./authoring/contracts.ts").PracticeTeaching} */
 const turn = (instruction, spoken, hint, quietMs, canSkip) => ({
   instruction, spoken, hint, quietMs, ...(canSkip === undefined ? {} : { canSkip }),
 });
+/** @type {(id: string, title: string, instruction: string, spoken: string, hint: string, quietMs: number, canSkip?: boolean) => import("./authoring/contracts.ts").NamedPracticeTeaching} */
 const colour = (id, title, instruction, spoken, hint, quietMs, canSkip = false) => ({
   id, title, ...turn(instruction, spoken, hint, quietMs, canSkip), notice: colourNotice,
 });
+/** @type {readonly import("./authoring/contracts.ts").TeachingPhase[]} */
 const phases = [
   { id: "observe", label: "Look" }, { id: "draw", label: "Draw" },
   { id: "colour", label: "Colour" }, { id: "explore", label: "Your own ideas" },
 ];
+/** @type {(lessonId: string, content: Omit<import("./authoring/contracts.ts").TeachingPack, "version" | "lessonId" | "musicId" | "phases">) => import("./authoring/contracts.ts").TeachingPack} */
 const pack = (lessonId, content) => Object.freeze({
   version: 1, lessonId, musicId: lessonId, phases, ...content,
 });
@@ -194,6 +199,10 @@ const packs = {
   }),
 };
 
-export const BASIC_COMPLETE_REGISTRATIONS = Object.freeze(Object.entries(packs).map(([id, teaching]) => Object.freeze({
-  id, pack: teaching, appearance: BASIC_COMPLETE_ART[id].appearance, regions: BASIC_COMPLETE_ART[id].regions,
-})));
+const appearanceById = new Map(Object.entries(BASIC_COMPLETE_ART));
+
+export const BASIC_COMPLETE_REGISTRATIONS = Object.freeze(Object.entries(packs).map(([id, teaching]) => {
+  const art = appearanceById.get(id);
+  if (!art) throw new TypeError(`Missing authored appearance for ${id}.`);
+  return Object.freeze({ id, pack: teaching, appearance: art.appearance, regions: art.regions });
+}));

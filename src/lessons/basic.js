@@ -1,3 +1,4 @@
+// @ts-check
 import { BASIC_COMPLETE_GEOMETRY } from "../basic-complete-appearance.js";
 import {
   line,

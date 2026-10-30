@@ -24,9 +24,13 @@ These are authoring choices, not experimentally established developmental stages
 
 ## Pack contract
 
-`src/teaching-pack.js` compiles authored data into the existing lesson/controller contract. It validates the version, lesson identity, complete mark coverage, unique stage IDs, nonempty teaching text and finite practice windows. It remaps stroke indexes without changing their geometry, preserves the adult notes, and enables concurrent teaching with both actual audio and demonstration completion gates.
+`src/teaching-pack.js` re-exports the strict `src/teaching-pack.ts` compiler, which compiles authored data into the existing lesson/controller contract. It validates the version, lesson identity, complete mark coverage, unique stage IDs, nonempty teaching text and finite practice windows. It remaps stroke indexes without changing their geometry, preserves the adult notes, and enables concurrent teaching with both actual audio and demonstration completion gates.
+
+Use `// @ts-check` in authored JavaScript and annotate the pack so missing fields and invalid value types fail in `npm run typecheck`:
 
 ```js
+// @ts-check
+/** @type {import("./authoring/contracts.ts").TeachingPack} */
 const pack = {
   version: 1,
   lessonId: "sun",
@@ -51,7 +55,7 @@ const pack = {
 };
 ```
 
-The example shows field names, not executable lesson content. Register a complete pack and its matching native appearance in `src/lesson-packs.js`. The registry rejects any native painting phase that lacks a matching compiled colouring stage, including misspelled IDs; colouring cannot silently lose its owned demonstration. Every published lesson requires a complete registered teaching pack; no published subject can silently fall back to an unfinished outline lesson. Keep `instruction` as the short visible caption and `spoken` as the reviewed recording transcript. `hint` is a requested explanation, not another automatic speech slot. `notice` is written adult help and is never substituted for a child's instruction. Packs contain no provider keys, generated runtime prompts, microphone permissions or model-issued commands.
+The example shows field names, not executable lesson content. Register a complete pack and its matching native appearance in `src/lesson-packs.ts`; `src/lesson-packs.js` preserves the public import path. Add new authoring entry files to `tsconfig.browser.json` so compilation checks their calls. Mark durations must be positive finite numbers; frames need finite coordinates and positive dimensions. The registry rejects any native painting phase that lacks a matching compiled colouring stage, including misspelled IDs; colouring cannot silently lose its owned demonstration. Every published lesson requires a complete registered teaching pack; no published subject can silently fall back to an unfinished outline lesson. Keep `instruction` as the short visible caption and `spoken` as the reviewed recording transcript. `hint` is a requested explanation, not another automatic speech slot. `notice` is written adult help and is never substituted for a child's instruction. Packs contain no provider keys, generated runtime prompts, microphone permissions or model-issued commands.
 
 For localized captions, spoken scripts, hints and adult notes, use the [localization workflow and locale guides](docs/localization/README.md). Keep the same teaching intention while adapting wording for its audience and locale.
 

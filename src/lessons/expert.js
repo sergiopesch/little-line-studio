@@ -1,3 +1,4 @@
+// @ts-check
 import {
   line,
   ellipse,
@@ -15,17 +16,25 @@ import { defineLesson } from "../lesson-model.js";
 
 // Authored foreground contours determine where a pen lifts. Every returned
 // piece remains a separate native stroke, so no connector crosses a hidden edge.
+/** @param {import("../drawing/contracts.ts").DrawingPoint} point
+ * @param {readonly import("../drawing/contracts.ts").DrawingPoint[]} boundary */
 function within(point, boundary) {
   let inside = false;
   for (let i = 0, j = boundary.length - 1; i < boundary.length; j = i++) {
     const a = boundary[i], b = boundary[j];
+    if (!a || !b) throw new TypeError("A foreground contour needs consecutive authored points.");
     if ((a.y > point.y) !== (b.y > point.y) &&
         point.x < (b.x - a.x) * (point.y - a.y) / (b.y - a.y) + a.x) inside = !inside;
   }
   return inside;
 }
+/** @param {string} id
+ * @param {readonly import("../drawing/contracts.ts").DrawingPoint[]} points
+ * @param {readonly (readonly import("../drawing/contracts.ts").DrawingPoint[])[]} foreground
+ * @param {number} durationMs */
 function uncovered(id, points, foreground, durationMs) {
   const sampled = sampleEvenly(points, 0.5), parts = [];
+  /** @type {import("../drawing/contracts.ts").DrawingPoint[]} */
   let part = [];
   for (const point of sampled) {
     if (foreground.some((boundary) => within(point, boundary))) {
@@ -34,14 +43,20 @@ function uncovered(id, points, foreground, durationMs) {
     } else part.push(point);
   }
   if (part.length > 2) parts.push(part);
-  const closed = Math.hypot(points[0].x - points.at(-1).x, points[0].y - points.at(-1).y) < 0.01;
-  if (closed && parts.length > 1 &&
-      Math.hypot(parts[0][0].x - sampled[0].x, parts[0][0].y - sampled[0].y) < 0.01 &&
-      Math.hypot(parts.at(-1).at(-1).x - sampled.at(-1).x, parts.at(-1).at(-1).y - sampled.at(-1).y) < 0.01) {
-    const first = parts.shift();
-    parts[parts.length - 1] = [...parts.at(-1), ...first.slice(1)];
+  const start = points[0], end = points.at(-1);
+  if (!start || !end) throw new TypeError("An authored contour needs endpoints.");
+  const closed = Math.hypot(start.x - end.x, start.y - end.y) < 0.01;
+  const firstPart = parts[0], lastPart = parts.at(-1);
+  const first = firstPart?.[0], last = lastPart?.at(-1);
+  const sampleStart = sampled[0], sampleEnd = sampled.at(-1);
+  if (closed && parts.length > 1 && firstPart && lastPart && first && last && sampleStart && sampleEnd &&
+      Math.hypot(first.x - sampleStart.x, first.y - sampleStart.y) < 0.01 &&
+      Math.hypot(last.x - sampleEnd.x, last.y - sampleEnd.y) < 0.01) {
+    parts.shift();
+    parts[parts.length - 1] = [...lastPart, ...firstPart.slice(1)];
   }
-  return parts.length === 1 ? mark(id, parts[0], durationMs) : multiMark(id, parts, durationMs);
+  const onlyPart = parts[0];
+  return parts.length === 1 && onlyPart ? mark(id, onlyPart, durationMs) : multiMark(id, parts, durationMs);
 }
 
 const foxMuzzle = join(quad([355, 252], [337, 259], [318, 282]), quad([318, 282], [347, 291], [368, 282]));

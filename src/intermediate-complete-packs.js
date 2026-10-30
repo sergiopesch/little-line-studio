@@ -1,9 +1,12 @@
+// @ts-check
 import { INTERMEDIATE_COMPLETE_APPEARANCES } from "./intermediate-complete-appearance.js";
 
+/** @type {readonly import("./authoring/contracts.ts").TeachingPhase[]} */
 const phases = Object.freeze([
   { id: "observe", label: "Look" }, { id: "draw", label: "Draw" },
   { id: "colour", label: "Colour" }, { id: "explore", label: "Your own ideas" },
 ]);
+/** @type {Readonly<Record<string, Readonly<Record<string, string>>>>} */
 const TITLE_LABELS = Object.freeze({
   dog: {
     notice: "A puppy at the park.",
@@ -98,14 +101,25 @@ const TITLE_LABELS = Object.freeze({
 });
 
 const colourNotice = "Your crayons and white spaces are welcome. More time holds any stage open; the teacher cannot see or judge your paper.";
+/** @type {(id: string, instruction: string, spoken: string, hint: string, quietMs?: number, canSkip?: boolean) => import("./authoring/contracts.ts").NamedPracticeTeaching} */
 const stage = (id, instruction, spoken, hint, quietMs = 1500, canSkip = false) =>
   Object.freeze({ id, title: instruction, instruction, spoken, hint, quietMs, canSkip });
+/** @param {string} prefix
+ * @param {readonly (readonly [string, string, string, string, number?])[]} entries */
 function drawing(prefix, entries) {
   return Object.freeze(Object.fromEntries(entries.map(([id, instruction, spoken, hint, quietMs = 1500]) => [
     `${prefix}-${id}`, Object.freeze({ instruction, spoken, hint, quietMs }),
   ])));
 }
+/** @param {string} id
+ * @param {string} story
+ * @param {readonly [string, string, string, number?, boolean?]} observe
+ * @param {Readonly<Record<string, import("./authoring/contracts.ts").PracticeTeaching>>} draw
+ * @param {readonly (readonly [string, string, string, string, number?, boolean?])[]} colours
+ * @param {readonly [string, string, string, number?, boolean?]} explore
+ * @returns {import("./authoring/contracts.ts").TeachingPack} */
 function pack(id, story, observe, draw, colours, explore) {
+  /** @param {import("./authoring/contracts.ts").NamedPracticeTeaching} entry */
   const withTitle = (entry) => {
     const title = TITLE_LABELS[id]?.[entry.id];
     if (!title) throw new TypeError(`Missing authored heading for ${id}/${entry.id}.`);
@@ -440,7 +454,13 @@ const robot = pack("robot", "A friendly invented robot is getting ready for a jo
   ["colour-reflection", "Notice big boxes joined by little connecting lines.", "Our robot's large boxes have small connections and details. Its lifted arm gives it a pose, ready for a job you invent.", "Notice how changing an arm direction changes the pose.", 1000, true],
 ], ["Choose a robot job, add ideas, or finish.", "Perhaps your robot plants paper flowers or carries imaginary books. Add your own idea, keep colouring, or finish without choosing a job.", "Try changing a joined shape's direction to invent another pose."]);
 
+const appearanceById = new Map(Object.entries(INTERMEDIATE_COMPLETE_APPEARANCES));
+
 export const INTERMEDIATE_COMPLETE_REGISTRATIONS = Object.freeze(
   Object.entries({ dog, turtle, butterfly, owl, sailboat, rocket, house, train, cactus, robot })
-    .map(([id, pack]) => Object.freeze({ id, pack, ...INTERMEDIATE_COMPLETE_APPEARANCES[id] })),
+    .map(([id, pack]) => {
+      const art = appearanceById.get(id);
+      if (!art) throw new TypeError(`Missing authored appearance for ${id}.`);
+      return Object.freeze({ id, pack, ...art });
+    }),
 );

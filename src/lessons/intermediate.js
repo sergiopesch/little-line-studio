@@ -1,3 +1,4 @@
+// @ts-check
 import {
   line,
   ellipse,
@@ -11,7 +12,9 @@ import {
 } from "../lesson-geometry.js";
 import { defineLesson } from "../lesson-model.js";
 
+/** @param {number} x @param {number} y @param {number} w @param {number} h */
 function cloud(x, y, w, h) {
+  /** @type {import("../drawing/contracts.ts").Coordinate} */
   const start = [x + w * 0.2, y + h * 0.85];
   return join(
     cubic(
