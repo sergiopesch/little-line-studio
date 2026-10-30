@@ -661,7 +661,7 @@ export function App({ initialSelection = null }: { initialSelection?: InitialSel
                   <p className="eyebrow">
                     {selectedLesson.title}{" "}
                     <span className="step-label">
-                      {dynamicLocale(languageId) ? dynamicLocale(languageId).stage(selectedLesson, lesson.step) : languageId === "es-419" ? spanishStepLabel : stepLabel}
+                      {dynamicLocale(languageId)?.stage(selectedLesson, lesson.step) ?? (languageId === "es-419" ? spanishStepLabel : stepLabel)}
                     </span>
                   </p>
                   <button

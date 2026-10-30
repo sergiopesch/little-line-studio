@@ -44,6 +44,16 @@ Follow [the acceptance checklist](acceptance-checklist.md) for physical-device l
 
 ## Registering another locale
 
-`src/locale-registry.js` owns the selectable identity, regional display labels, shared source language, UI dictionary, dynamic formatter, availability descriptor, approved voice, sample source and lazy text/audio loaders. The picker, translation resolver, runtime loading, narration authorization, review packets and build validation derive their registrations from it. English voice variants explicitly share English text but retain separate recordings. No registry entry alone makes an incomplete narration catalogue playable.
+`src/locale-registry.js` re-exports the strict `src/locale-registry.ts` implementation, which owns the selectable identity, regional display labels, shared source language, UI dictionary, dynamic formatter, availability descriptor, approved voice, sample source and lazy text/audio loaders. The picker, translation resolver, runtime loading, narration authorization, review packets and build validation derive their registrations from it. English voice variants explicitly share English text but retain separate recordings. No registry entry alone makes an incomplete narration catalogue playable.
 
 Keep translated content and source-linked exporters in their existing per-locale files. Dynamic label functions retain their regional grammar. A new locale still needs its editorial sources, guide, recordings, release validation and review evidence; the registry removes duplicated wiring, not those quality requirements. Source-specific exporter checks and the English/Spanish legacy media contracts remain explicit in the build.
+
+## Checked implementation
+
+`src/localization/contracts.ts` defines the structure shared by the lesson localizer, registry, regional formatters and browser loader. Each locale continues to author natural sentences in its own files; these contracts impose no word-for-word translation, common sentence length or shared grammar.
+
+All six translated lesson modules use `createLessonLocalizer` through the existing `src/localized-catalogue.js` entry. Raw catalogue JSON is validated when the lazy module loads. The adapter owns a frozen copy of the permitted lesson/stage text and phase labels, checks source stage/phase alignment when applying a lesson, and preserves authored geometry, timing, optionality, music and identity. Regional dynamic-copy modules use checked JavaScript and explicit formatter contracts. Add new entry files to `tsconfig.browser.json` and run `npm run typecheck` during authoring.
+
+The configured review status records existing provenance only: Spanish Latin America and French retain `assistant-reviewed-awaiting-native-human-review`; the other translated catalogues retain `assistant-draft-awaiting-native-human-review`. Parsing never upgrades either status or constitutes native-speaker approval. Keep editorial exporters, recording fingerprints and the review workflow above as separate release checks.
+
+For source-linked regional formatter code, update its draft and runtime implementation together. The packaging guard uses the existing esbuild parser to compare their executable JavaScript while ignoring type comments and formatting. Wording inside strings and formatter logic remain part of that comparison; the Italian template dictionary retains its separate exact-data check.

@@ -1,11 +1,13 @@
-// Offline integration candidate. It is not imported by the running app.
+// @ts-check
 // Independent Italian review and live accessibility review remain pending.
 import dictionary from './dynamic.it-IT.json' with { type: 'json' };
+/** @param {keyof typeof dictionary.templates} key @param {Readonly<Record<string, string | number>>} values */
 const template = (key, values = {}) => dictionary.templates[key].replace(/\{(\w+)\}/g, (_, name) => {
   if (!(name in values)) throw new TypeError(`Missing ${name} for ${key}`);
   return String(values[name]);
 });
-export const ITALIAN_DYNAMIC = Object.freeze({
+/** @type {import("../../src/localization/contracts.ts").DynamicCopy} */
+const copy = {
   documentTitle: template('documentTitle'), errorTitle: template('errorTitle'),
   errorBody: template('errorBody'), errorReload: template('errorReload'),
   levelExplore: (level, count) => template('levelExplore', { level, count }),
@@ -20,9 +22,13 @@ export const ITALIAN_DYNAMIC = Object.freeze({
   stepObserve: template('stepObserve'), stepColour: (index, total) => template('stepColour', { index, total }),
   stepExplore: template('stepExplore'), stepDrawing: (index, total) => template('stepDrawing', { index, total }),
   stepPrepare: template('stepPrepare'), stepGeneric: (index, total) => template('stepGeneric', { index, total }),
-});
+};
+export const ITALIAN_DYNAMIC = Object.freeze(copy);
+/** @param {import("../../src/authoring/contracts.ts").AuthoredLesson} lesson @param {number} stepIndex */
 export function demonstrationLabel(lesson, stepIndex) {
-  const kind = lesson.steps[stepIndex].kind;
+  const step = lesson.steps[stepIndex];
+  if (!step) throw new TypeError("Unknown localized teaching stage.");
+  const kind = step.kind;
   if (kind === 'prepare') return ITALIAN_DYNAMIC.boardBlank;
   if (kind === 'colour') return ITALIAN_DYNAMIC.boardColour(lesson.title);
   if (kind === 'observe' || kind === 'explore') return ITALIAN_DYNAMIC.boardReference(lesson.title);
@@ -30,8 +36,10 @@ export function demonstrationLabel(lesson, stepIndex) {
   if (index < 0) throw new TypeError('No demonstration action for this stage');
   return ITALIAN_DYNAMIC.boardAction(lesson.title, index + 1);
 }
+/** @param {import("../../src/authoring/contracts.ts").AuthoredLesson} lesson @param {number} stepIndex */
 export function stageLabel(lesson, stepIndex) {
   const step = lesson.steps[stepIndex];
+  if (!step) throw new TypeError("Unknown localized teaching stage.");
   if (!lesson.pilot) return stepIndex === 0 ? ITALIAN_DYNAMIC.stepPrepare : ITALIAN_DYNAMIC.stepGeneric(stepIndex, lesson.steps.length - 1);
   if (step.kind === 'observe') return ITALIAN_DYNAMIC.stepObserve;
   if (step.kind === 'colour') return ITALIAN_DYNAMIC.stepColour(
@@ -42,6 +50,7 @@ export function stageLabel(lesson, stepIndex) {
   if (index < 0) throw new TypeError('No demonstration action for this stage');
   return ITALIAN_DYNAMIC.stepDrawing(index + 1, lesson.strokes.length);
 }
+/** @param {import("../../src/localization/contracts.ts").TimelineEstimate} progress @param {(text: string) => string} translate */
 export function timelineEstimate(progress, translate) {
   return /^About \d+ min left$/.test(progress.estimateLabel)
     ? ITALIAN_DYNAMIC.remaining(Math.ceil(progress.remainingMs / 60000)) : translate(progress.estimateLabel);

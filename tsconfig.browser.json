@@ -39,6 +39,20 @@
     "src/basic-complete-packs.js",
     "src/intermediate-complete-packs.js",
     "src/expert-complete-packs.js",
-    "src/lesson-catalogue.js"
+    "src/lesson-catalogue.js",
+    "src/localization/**/*.ts",
+    "src/localized-catalogue.ts",
+    "src/locale-registry.ts",
+    "src/spanish-lessons.js",
+    "src/spanish-spain-lessons.js",
+    "src/french-lessons.js",
+    "src/german-lessons.js",
+    "src/italian-lessons.js",
+    "src/dutch-lessons.js",
+    "src/german-dynamic.js",
+    "src/italian-dynamic.js",
+    "src/spanish-spain-dynamic.js",
+    "src/dutch-dynamic.js",
+    "src/french-dynamic.fr-FR.js"
   ]
 }

@@ -1,5 +1,7 @@
+// @ts-check
 // Draft only: language and accessibility review by a native speaker is pending.
-export const DUTCH_DYNAMIC = Object.freeze({
+/** @type {import("./localization/contracts.ts").DynamicCopy} */
+const copy = {
   documentTitle: 'Trazolino — Elke tekening begint met een klein lijntje',
   errorTitle: 'Laten we even pauzeren.',
   errorBody: 'De les kon niet worden geopend. Je tekening op papier blijft van jou. Vraag de volwassene bij je om de pagina opnieuw te laden als jullie er klaar voor zijn.',
@@ -22,11 +24,15 @@ export const DUTCH_DYNAMIC = Object.freeze({
   stepDrawing: (index, total) => `TEKENEN ${index} VAN ${total}`,
   stepPrepare: 'VOORBEREIDING',
   stepGeneric: (index, total) => `STAP ${index} VAN ${total}`,
-});
+};
+export const DUTCH_DYNAMIC = Object.freeze(copy);
 
 // Proposed accessibility and timeline helpers for a later gated integration.
+/** @param {import("./authoring/contracts.ts").AuthoredLesson} lesson @param {number} stepIndex */
 export function demonstrationLabel(lesson, stepIndex) {
-  const kind = lesson.steps[stepIndex].kind;
+  const step = lesson.steps[stepIndex];
+  if (!step) throw new TypeError("Unknown localized teaching stage.");
+  const kind = step.kind;
   if (kind === 'prepare') return DUTCH_DYNAMIC.boardBlank;
   if (kind === 'colour') return DUTCH_DYNAMIC.boardColour(lesson.title);
   if (kind === 'observe' || kind === 'explore') return DUTCH_DYNAMIC.boardReference(lesson.title);
@@ -34,8 +40,10 @@ export function demonstrationLabel(lesson, stepIndex) {
   return DUTCH_DYNAMIC.boardAction(lesson.title, action);
 }
 
+/** @param {import("./authoring/contracts.ts").AuthoredLesson} lesson @param {number} stepIndex */
 export function stageLabel(lesson, stepIndex) {
   const step = lesson.steps[stepIndex];
+  if (!step) throw new TypeError("Unknown localized teaching stage.");
   if (!lesson.pilot) return stepIndex === 0
     ? DUTCH_DYNAMIC.stepPrepare
     : DUTCH_DYNAMIC.stepGeneric(stepIndex, lesson.steps.length - 1);
@@ -50,6 +58,7 @@ export function stageLabel(lesson, stepIndex) {
   return DUTCH_DYNAMIC.stepDrawing(action, lesson.strokes.length);
 }
 
+/** @param {import("./localization/contracts.ts").TimelineEstimate} progress @param {(text: string) => string} translate */
 export function timelineEstimate(progress, translate) {
   return /^About \d+ min left$/.test(progress.estimateLabel)
     ? DUTCH_DYNAMIC.remaining(Math.ceil(progress.remainingMs / 60000))

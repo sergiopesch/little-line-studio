@@ -1,5 +1,7 @@
-// Draft only; not imported by the application. Independent language review is pending.
-export const GERMAN_DYNAMIC = Object.freeze({
+// @ts-check
+// Independent German language review remains pending.
+/** @type {import("../../src/localization/contracts.ts").DynamicCopy} */
+const copy = {
   documentTitle: 'Trazolino – Jede Zeichnung beginnt mit einer kleinen Linie',
   errorTitle: 'Machen wir eine kleine Pause.',
   errorBody: 'Die Zeichenstunde konnte nicht geöffnet werden. Deine Zeichnung auf Papier gehört dir. Bitte die erwachsene Person bei dir, die Seite neu zu laden, wenn ihr bereit seid.',
@@ -22,10 +24,14 @@ export const GERMAN_DYNAMIC = Object.freeze({
   stepDrawing: (index, total) => `ZEICHNEN ${index} VON ${total}`,
   stepPrepare: 'VORBEREITUNG',
   stepGeneric: (index, total) => `SCHRITT ${index} VON ${total}`,
-});
+};
+export const GERMAN_DYNAMIC = Object.freeze(copy);
 
+/** @param {import("../../src/authoring/contracts.ts").AuthoredLesson} lesson @param {number} stepIndex */
 export function demonstrationLabel(lesson, stepIndex) {
-  const kind = lesson.steps[stepIndex].kind;
+  const step = lesson.steps[stepIndex];
+  if (!step) throw new TypeError("Unknown localized teaching stage.");
+  const kind = step.kind;
   if (kind === 'prepare') return GERMAN_DYNAMIC.boardBlank;
   if (kind === 'colour') return GERMAN_DYNAMIC.boardColour(lesson.title);
   if (kind === 'observe' || kind === 'explore') return GERMAN_DYNAMIC.boardReference(lesson.title);
@@ -33,8 +39,10 @@ export function demonstrationLabel(lesson, stepIndex) {
   return GERMAN_DYNAMIC.boardAction(lesson.title, action);
 }
 
+/** @param {import("../../src/authoring/contracts.ts").AuthoredLesson} lesson @param {number} stepIndex */
 export function stageLabel(lesson, stepIndex) {
   const step = lesson.steps[stepIndex];
+  if (!step) throw new TypeError("Unknown localized teaching stage.");
   if (!lesson.pilot) return stepIndex === 0 ? GERMAN_DYNAMIC.stepPrepare : GERMAN_DYNAMIC.stepGeneric(stepIndex, lesson.steps.length - 1);
   if (step.kind === 'observe') return GERMAN_DYNAMIC.stepObserve;
   if (step.kind === 'colour') {
@@ -46,6 +54,7 @@ export function stageLabel(lesson, stepIndex) {
   return GERMAN_DYNAMIC.stepDrawing(lesson.strokes.findIndex(stroke => stroke.id === step.id) + 1, lesson.strokes.length);
 }
 
+/** @param {import("../../src/localization/contracts.ts").TimelineEstimate} progress @param {(text: string) => string} translate */
 export function timelineEstimate(progress, translate) {
   return /^About \d+ min left$/.test(progress.estimateLabel)
     ? GERMAN_DYNAMIC.remaining(Math.ceil(progress.remainingMs / 60000))

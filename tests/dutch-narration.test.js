@@ -44,7 +44,9 @@ test('Dutch interface, greeting and dynamic labels match the prepared source', (
   assert.deepEqual(JSON.parse(read('../src/dutch-ui.nl-NL.json')),
     JSON.parse(read('../research/dutch-draft/ui.nl-NL.json')).strings);
   assert.equal(read('../src/narration-sample.nl-NL.txt'), read('../research/dutch-draft/sample.nl-NL.txt'));
-  assert.equal(read('../src/dutch-dynamic.js'), read('../research/dutch-draft/dynamic.nl-NL.js'));
+  // Type references are relative to each copy's directory; executable text stays identical.
+  assert.equal(read('../src/dutch-dynamic.js'), read('../research/dutch-draft/dynamic.nl-NL.js')
+    .replaceAll('import("../../src/', 'import("./'));
   const runtime = dynamicLocale('nl-NL');
   assert.equal(runtime.copy.duration(8), DUTCH_DYNAMIC.duration(8));
   assert.equal(runtime.estimate({ estimateLabel: 'About 4 min left', remainingMs: 190000 }, x => x), 'Nog ongeveer 4 min');

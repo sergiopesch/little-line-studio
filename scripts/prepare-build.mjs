@@ -8,6 +8,7 @@ import path from "node:path";
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import { transformSync } from "esbuild";
 import { securityHeaders } from "../config/security.js";
 import { LESSONS } from "../src/lesson-catalogue.js";
 import { localizeLesson } from "../src/spanish-lessons.js";
@@ -127,8 +128,12 @@ function validateDynamicCopy(locale) {
     "it-IT": ["research/italian-pilot/dynamic.it-IT.mjs", "src/italian-dynamic.js"],
     "nl-NL": ["research/dutch-draft/dynamic.nl-NL.js", "src/dutch-dynamic.js"],
   }[locale];
-  const normalize = (text) => text.split("\n").filter((line) => !line.startsWith("//") &&
-    !line.startsWith("export const SPAIN_LANGUAGE_DRAFT")).join("\n").trim();
+  // Parse with the existing build tool so type comments can differ without
+  // ignoring comment-like wording inside strings or executable label logic.
+  const normalize = (text) => transformSync(text.split("\n").filter((line) =>
+    !line.startsWith("export const SPAIN_LANGUAGE_DRAFT")).join("\n"), {
+    loader: "js", target: "esnext", format: "esm", legalComments: "none", treeShaking: false, logLevel: "silent",
+  }).code;
   try {
     if (!files || normalize(readFileSync(path.join(root, files[0]), "utf8")) !== normalize(readFileSync(path.join(root, files[1]), "utf8")))
       throw new Error();
