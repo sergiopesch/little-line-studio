@@ -1,3 +1,4 @@
+// @ts-check
 import { applyTeachingPack } from "./teaching-pack.js";
 
 // These quiet windows are authored starting points for this pilot, not learning
@@ -110,6 +111,7 @@ const COLOUR_CAPTIONS = Object.freeze({
   "colour-reflection": "Look at the whole picture. Which little mark or colour do you enjoy?",
 });
 
+/** @type {(id: keyof typeof COLOUR_CAPTIONS, title: string, instruction: string, hint: string, quietMs: number, canSkip?: boolean) => import("./authoring/contracts.ts").NamedPracticeTeaching & { readonly kind: "colour" }} */
 function colourStep(id, title, instruction, hint, quietMs, canSkip = false) {
   return Object.freeze({
     id,
@@ -172,6 +174,7 @@ export const CAT_COLOUR_STEPS = Object.freeze([
   ),
 ]);
 
+/** @type {readonly import("./authoring/contracts.ts").TeachingPhase[]} */
 export const CAT_PILOT_PHASES = Object.freeze([
   Object.freeze({ id: "observe", label: "Look" }),
   Object.freeze({ id: "draw", label: "Draw" }),
@@ -179,6 +182,9 @@ export const CAT_PILOT_PHASES = Object.freeze([
   Object.freeze({ id: "explore", label: "Your own ideas" }),
 ]);
 
+const quietById = new Map(Object.entries(DRAWING_QUIET_MS));
+
+/** @type {import("./authoring/contracts.ts").TeachingPack} */
 export const CAT_TEACHING_PACK = Object.freeze({
   version: 1,
   lessonId: "cat",
@@ -197,10 +203,11 @@ export const CAT_TEACHING_PACK = Object.freeze({
     quietMs: 1000,
   }),
   draw: Object.freeze(Object.fromEntries(
-    Object.entries(DRAWING_TEACHING).map(([id, teaching]) => [id, Object.freeze({
-      ...teaching,
-      quietMs: DRAWING_QUIET_MS[id],
-    })]),
+    Object.entries(DRAWING_TEACHING).map(([id, teaching]) => {
+      const quietMs = quietById.get(id);
+      if (quietMs === undefined) throw new TypeError(`Missing practice window for ${id}.`);
+      return [id, Object.freeze({ ...teaching, quietMs })];
+    }),
   )),
   colourSteps: CAT_COLOUR_STEPS,
   explore: Object.freeze({
@@ -216,6 +223,7 @@ export const CAT_TEACHING_PACK = Object.freeze({
 });
 
 // Compatibility for callers of the original cat-only adapter.
+/** @param {import("./authoring/contracts.ts").AuthoredLesson} lesson */
 export function applyCatPilot(lesson) {
   return lesson?.id === "cat" ? applyTeachingPack(lesson, CAT_TEACHING_PACK) : lesson;
 }

@@ -1,10 +1,13 @@
+// @ts-check
 const colourNotice =
   "Use the crayons you have. White spaces and your own colours belong here. More time keeps any stage open without a deadline.";
 
+/** @type {(id: string, title: string, instruction: string, spoken: string, hint: string, quietMs: number, canSkip?: boolean) => import("./authoring/contracts.ts").NamedPracticeTeaching} */
 const colour = (id, title, instruction, spoken, hint, quietMs, canSkip = false) => Object.freeze({
   id, title, instruction, spoken, hint, quietMs, notice: colourNotice, canSkip,
 });
 
+/** @type {import("./authoring/contracts.ts").TeachingPack} */
 export const BALLOON_TEACHING_PACK = Object.freeze({
   version: 1,
   lessonId: "balloon",

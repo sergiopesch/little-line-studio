@@ -23,6 +23,22 @@
     "src/lesson-geometry.ts",
     "src/outline-marks.ts",
     "src/crayon-appearance.ts",
-    "src/crayon-grain.ts"
+    "src/crayon-grain.ts",
+    "src/authoring/**/*.ts",
+    "src/lesson-model.ts",
+    "src/teaching-pack.ts",
+    "src/lesson-packs.ts",
+    "src/crayon-regions.ts",
+    "src/lessons/basic.js",
+    "src/lessons/intermediate.js",
+    "src/lessons/expert.js",
+    "src/sun-teaching-pack.js",
+    "src/rainbow-teaching-pack.js",
+    "src/balloon-teaching-pack.js",
+    "src/cat-pilot.js",
+    "src/basic-complete-packs.js",
+    "src/intermediate-complete-packs.js",
+    "src/expert-complete-packs.js",
+    "src/lesson-catalogue.js"
   ]
 }

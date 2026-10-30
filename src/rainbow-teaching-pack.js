@@ -1,10 +1,13 @@
+// @ts-check
 const colourNotice =
   "Model the colours available on your child's paper. Fewer bands, imagined colours and white spaces are welcome. More time holds any stage open.";
 
+/** @type {(id: string, title: string, instruction: string, spoken: string, hint: string, quietMs?: number, canSkip?: boolean) => import("./authoring/contracts.ts").NamedPracticeTeaching} */
 const colour = (id, title, instruction, spoken, hint, quietMs = 2000, canSkip = false) => Object.freeze({
   id, title, instruction, spoken, hint, quietMs, notice: colourNotice, canSkip,
 });
 
+/** @type {import("./authoring/contracts.ts").TeachingPack} */
 export const RAINBOW_TEACHING_PACK = Object.freeze({
   version: 1,
   lessonId: "rainbow",

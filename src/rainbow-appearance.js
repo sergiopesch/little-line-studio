@@ -9,7 +9,7 @@ const cloudTop = join(
 export const RAINBOW_LEFT_CLOUD = Object.freeze(join(
   cloudTop,
   cubic([254, 340], [263, 380], [48, 380], [60, 340]),
-).map(Object.freeze));
+).map(point => Object.freeze(point)));
 export const RAINBOW_RIGHT_CLOUD = Object.freeze(
   RAINBOW_LEFT_CLOUD.map((point) => Object.freeze({ ...point, x: 600 - point.x })),
 );
@@ -46,7 +46,8 @@ export function rainbowArch(rx, ry) {
   return arc(300, 340, rx, ry, start, 540 - start);
 }
 
-export const RAINBOW_BOUNDARIES = Object.freeze([
+/** @type {readonly (readonly [string, number, number, number])[]} */
+const boundaryRows = [
   ["outer-arch", 210, 220, 10000],
   ["second-arch", 188, 198, 9000],
   ["third-arch", 166, 176, 8000],
@@ -55,7 +56,8 @@ export const RAINBOW_BOUNDARIES = Object.freeze([
   ["sixth-arch", 100, 110, 6000],
   ["seventh-arch", 78, 88, 5000],
   ["inner-arch", 56, 66, 5000],
-].map(([id, rx, ry, durationMs]) => Object.freeze({ id, rx, ry, durationMs })));
+];
+export const RAINBOW_BOUNDARIES = Object.freeze(boundaryRows.map(([id, rx, ry, durationMs]) => Object.freeze({ id, rx, ry, durationMs })));
 
 export const RAINBOW_COLOURS = Object.freeze([
   "red", "orange", "yellow", "green", "blue", "indigo", "violet",

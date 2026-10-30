@@ -1,21 +1,8 @@
-import type { AuthoredStroke, CrayonAppearance } from "../drawing/contracts.ts";
-import type { AuthoredStep, LevelId, NarrationData, Speed, TimingLesson } from "../core/contracts.ts";
+import type { AuthoredLesson } from "../authoring/contracts.ts";
+import type { LevelId, NarrationData, Speed } from "../core/contracts.ts";
 
-/** Fields used by the family interface; authored data is verified by the build. */
-export interface LessonView extends TimingLesson {
-  readonly title: string;
-  readonly invitation: string;
-  readonly parentNote: string;
-  readonly simplify?: string;
-  readonly teachingPack?: { readonly version: number; readonly lessonId: string };
-  readonly pilot?: boolean;
-  readonly musicId?: string;
-  readonly colouringLabel?: string;
-  readonly viewFrame: { readonly x: number; readonly y: number; readonly w: number; readonly h: number };
-  readonly steps: readonly (AuthoredStep & { readonly canSkip?: boolean })[];
-  readonly strokes: readonly AuthoredStroke[];
-  readonly appearance?: CrayonAppearance;
-}
+/** The family interface consumes the compiled authoring contract. */
+export type LessonView = AuthoredLesson;
 
 export interface LevelView {
   readonly id: LevelId;
