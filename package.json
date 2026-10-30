@@ -17,7 +17,7 @@
     "verify:production": "node scripts/verify-production.mjs",
     "review:localization": "node scripts/localization-review.mjs",
     "test:accessibility": "playwright test accessibility.spec.js",
-    "typecheck": "tsc --noEmit && tsc --project tsconfig.browser.json --noEmit",
+    "typecheck": "tsc --noEmit && tsc --project tsconfig.browser.json --noEmit && tsc --project tsconfig.tools.json --noEmit",
     "agent": "node scripts/agent-workspace.mjs",
     "verify:engine-parity": "node scripts/verify-engine-parity.mjs"
   },
@@ -39,6 +39,7 @@
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",
     "@playwright/test": "1.64.1",
+    "@types/node": "24.19.2",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.7",
     "typescript": "7.0.2"

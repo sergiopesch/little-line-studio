@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "lib": ["ES2023", "DOM"],
+    "resolveJsonModule": true
+  },
+  "include": [
+    "scripts/localization/**/*.ts",
+    "scripts/export-reviewed-spanish.mjs",
+    "scripts/export-reviewed-french.mjs",
+    "scripts/export-spain-lessons.mjs",
+    "scripts/export-german-italian.mjs",
+    "scripts/export-dutch-draft.mjs",
+    "tests/types-tools/**/*.ts"
+  ]
+}

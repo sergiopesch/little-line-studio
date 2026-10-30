@@ -1,31 +1,30 @@
+// @ts-check
 // Offline export of complete draft text. This neither activates a locale nor generates audio.
-import { randomUUID } from 'node:crypto';
-import { readFileSync, renameSync, unlinkSync, writeFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 import { LESSONS } from '../src/lesson-catalogue.js';
-import { inspectDraft } from './verify-dutch-draft.mjs';
+import { inspectDraft, validateLesson } from './verify-dutch-draft.mjs';
+import { compileCatalogue, lessonTextInput, readRecord } from './localization/export.ts';
+import { writeExportFiles } from './localization/write.ts';
 
 export function exportDutchDraft() {
   inspectDraft({ complete: true });
+  /** @type {Record<string, unknown>} */
   const lessons = {};
   for (const lesson of LESSONS) {
-    const record = JSON.parse(readFileSync(new URL(`../research/dutch-draft/${lesson.level}/${lesson.id}.nl-NL.json`, import.meta.url), 'utf8'));
-    const { title, invitation, objective, parentNote, simplify, transfer, colouringLabel, pilotPhases, stages } = record;
-    lessons[lesson.id] = { title, invitation, objective, parentNote, simplify, transfer, colouringLabel, pilotPhases, steps: stages };
+    const record = readRecord(new URL(`../research/dutch-draft/${lesson.level}/${lesson.id}.nl-NL.json`, import.meta.url));
+    validateLesson(record, lesson);
+    lessons[lesson.id] = lessonTextInput(record, 'stages');
   }
-  return { locale: 'nl-NL', reviewStatus: 'assistant-draft-awaiting-native-human-review', lessons };
+  const locale = 'nl-NL', reviewStatus = 'assistant-draft-awaiting-native-human-review';
+  return compileCatalogue({ locale, reviewStatus, lessons }, locale, reviewStatus, LESSONS);
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const args = process.argv.slice(2);
+  if (args.length && (args.length !== 1 || args[0] !== '--write-catalogue')) throw new Error('Use no arguments or --write-catalogue.');
   const catalogue = exportDutchDraft();
   if (!args.length) console.log(JSON.stringify(catalogue));
-  else if (args.length === 1 && args[0] === '--write-catalogue') {
-    const dest = new URL('../src/dutch-lessons.nl-NL.json', import.meta.url);
-    const tmp = new URL(`../src/.dutch-catalogue-${randomUUID()}.tmp`, import.meta.url);
-    try {
-      writeFileSync(tmp, `${JSON.stringify(catalogue, null, 2)}\n`, { flag: 'wx' });
-      renameSync(tmp, dest);
-    } finally { try { unlinkSync(tmp); } catch (e) { if (e.code !== 'ENOENT') throw e; } }
+  else {
+    writeExportFiles([{ destination: new URL('../src/dutch-lessons.nl-NL.json', import.meta.url), contents: JSON.stringify(catalogue, null, 2) + '\n' }]);
     console.log(JSON.stringify({ locale: catalogue.locale, status: catalogue.reviewStatus, lessons: Object.keys(catalogue.lessons).length }));
-  } else throw new Error('Use no arguments or --write-catalogue.');
+  }
 }
