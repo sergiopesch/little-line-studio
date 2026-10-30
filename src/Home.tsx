@@ -101,6 +101,7 @@ export function Home({ onExplore, onPrivacy, onHow }: {
           <SpeakerHighIcon size={18} /> {t("Gentle teaching. Room to draw.")}
         </span>
         <button onClick={onPrivacy}>{t("Privacy & supervision")}</button>
+        <a className="about-link" href="/about/" lang="en-GB">About</a>
       </footer>
     </main>
   );

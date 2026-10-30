@@ -48,6 +48,12 @@ export default defineConfig(({ command, mode }) => {
     preview: { host: "127.0.0.1", headers: securityHeaders },
     build: {
       outDir: "dist/client",
+      rollupOptions: {
+        input: {
+          index: fileURLToPath(new URL("./index.html", import.meta.url)),
+          about: fileURLToPath(new URL("./about/index.html", import.meta.url)),
+        },
+      },
       modulePreload: {
         // WebKit can retain a failed preloaded entry that imports shared code
         // from its importer. Let import() fetch that entry so an explicit retry

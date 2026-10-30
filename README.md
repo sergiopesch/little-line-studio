@@ -8,7 +8,7 @@
 
 Trazolino is a parent-supervised drawing teacher. Children draw on real paper while a read-only teaching board demonstrates one small part at a time, with prepared narration, quiet practice and room to make the drawing their own.
 
-[Try Trazolino](https://trazolino.org) · [Run locally](#run-locally) · [Deployment guide](docs/deployment.md) · [Lesson authoring guide](DRAWING_LESSON_TEMPLATE.md)
+[Try Trazolino](https://trazolino.org) · [About](https://trazolino.org/about/) · [Run locally](#run-locally) · [Deployment guide](docs/deployment.md) · [Lesson authoring guide](DRAWING_LESSON_TEMPLATE.md)
 
 ![Trazolino home, with Basic, Intermediate and Expert drawing collections](docs/media/home.png)
 

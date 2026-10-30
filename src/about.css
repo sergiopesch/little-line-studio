@@ -1,0 +1,83 @@
+@import "@fontsource/nunito/latin-400.css";
+@import "@fontsource/nunito/latin-700.css";
+@import "@fontsource/nunito/latin-900.css";
+
+:root {
+  font-family: Nunito, ui-rounded, system-ui, sans-serif;
+  font-synthesis: none;
+  color: #17202f;
+  background: #fffefa;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: #204bd8; text-underline-offset: 4px; }
+a:focus-visible { outline: 3px solid #ad3e25; outline-offset: 5px; }
+.about-header {
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.about-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -1.1px;
+}
+.about-brand img { object-fit: contain; }
+.about-back {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 16px;
+  border: 1px solid #e5e6e9;
+  border-radius: 999px;
+  color: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.about-back:hover, .about-personal:hover { background: #fff8e5; }
+.about-page {
+  display: grid;
+  grid-template-columns: clamp(180px, 22vw, 240px) minmax(0, 1fr);
+  align-items: start;
+  gap: 48px;
+  max-width: 1100px;
+  margin: 44px auto 52px;
+  padding: 0 28px;
+}
+.about-portrait { display: block; width: 100%; height: auto; border-radius: 24px; }
+.about-story h1 { margin: 0 0 20px; font-size: clamp(38px, 5vw, 64px); font-weight: 900; line-height: 1.1; letter-spacing: -1.8px; }
+.about-story h1 span { text-decoration: underline; text-decoration-color: #f5cf60; text-decoration-thickness: .13em; text-underline-offset: .06em; text-decoration-skip-ink: none; }
+.about-story p { margin: 0 0 20px; font-size: 18px; line-height: 1.65; color: #58616f; }
+.about-story .about-intro { font-size: 23px; color: #17202f; line-height: 1.45; }
+.about-story h2 { margin: 32px 0 12px; font-size: 25px; font-weight: 900; letter-spacing: -.6px; line-height: 1.25; }
+.about-story .about-wish { color: #17202f; font-weight: 700; }
+.about-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 28px; }
+.about-actions a { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 22px; font-size: 16px; font-weight: 700; border-radius: 999px; }
+.about-primary { color: #17202f; text-decoration: none; background: #f5cf60; border: 1px solid #9a6b00; }
+.about-primary:hover { background: #edc24c; }
+.about-footer { padding: 0 24px 28px; color: #58616f; text-align: center; font-size: 13px; }
+@media (max-width: 800px) {
+  .about-page { grid-template-columns: minmax(0, 1fr); gap: 24px; max-width: 740px; }
+  .about-portrait { width: 128px; border-radius: 20px; }
+}
+@media (max-width: 620px) {
+  .about-header { padding: 12px 16px; gap: 8px; }
+  .about-brand { font-size: 24px; gap: 4px; }
+  .about-brand img { width: 40px; height: 36px; }
+  .about-back { font-size: 12px; padding-inline: 10px; }
+  .about-page { margin: 32px auto 40px; padding-inline: 24px; }
+  .about-story .about-intro { font-size: 21px; }
+  .about-story p { font-size: 17px; }
+  .about-story h2 { font-size: 23px; }
+  .about-actions { gap: 4px; }
+}

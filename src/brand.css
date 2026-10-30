@@ -201,6 +201,18 @@ h2,
   min-height: 44px;
   border-radius: 999px;
 }
+.home-footer .about-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  text-underline-offset: 3px;
+}
+.home-footer .about-link:hover { background: var(--hover); }
 .catalogue-page {
   height: auto;
   min-height: max(460px, 100dvh);
