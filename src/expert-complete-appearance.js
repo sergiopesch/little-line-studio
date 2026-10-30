@@ -1,11 +1,21 @@
+// @ts-check
+/** @typedef {import("./drawing/contracts.ts").DrawingPoint} DrawingPoint */
+/** @typedef {import("./drawing/contracts.ts").OutlineStyle} OutlineStyle */
+/** @typedef {import("./drawing/contracts.ts").CrayonPhase} CrayonPhase */
+/** @typedef {import("./authoring/contracts.ts").RegionPatchOptions} RegionPatchOptions */
+/** @typedef {import("./authoring/contracts.ts").ColourRegion} ColourRegion */
+/** @typedef {import("./authoring/contracts.ts").AuthoredArt} AuthoredArt */
 import { arc, cubic, ellipse, line, quad, rect } from "./lesson-geometry.js";
 import { crayonPhase, defineCrayonAppearance } from "./crayon-appearance.js";
 import { regionPatch } from "./crayon-regions.js";
 
 // These contours describe the subject, independently of the inset crayon paths.
 // A closing segment at an overlap is the edge hidden by the foreground object.
+/** @param {...readonly DrawingPoint[]} paths */
 const B = (...paths) => Object.freeze(paths.flat().map((point) => Object.freeze({ ...point })));
+/** @param {readonly DrawingPoint[]} points */
 const reverse = (points) => [...points].reverse();
+/** @satisfies {Readonly<Record<string, import("./drawing/contracts.ts").CrayonColour>>} */
 const palette = {
   blue: { sdkColor: "blue", ink: "#739fbd", grain: "#4d80a4" },
   teal: { sdkColor: "light-blue", ink: "#75b5af", grain: "#55948f" },
@@ -22,11 +32,21 @@ const palette = {
 
 // Every patch is an authored location. Short, alternating curved sweeps lift
 // between movements; no region is filled or covered by a mechanical scan.
+/**
+ * @param {string} id @param {readonly DrawingPoint[]} boundary @param {keyof typeof palette} colour
+ * @param {number} cx @param {number} cy @param {number} rx @param {number} ry
+ * @param {number} [angle] @param {number} [width] @param {number} [passes]
+ * @returns {RegionPatchOptions}
+ */
 const P = (id, boundary, colour, cx, cy, rx, ry, angle = 0, width = 8, passes = 3) => ({
   id, boundary, colour, cx, cy, rx, ry, angle, width, strands: 3, passes,
 });
+/** @param {string} id @param {readonly {id: string, ms: number, patches: readonly RegionPatchOptions[]}[]} phases @param {Readonly<Record<string, OutlineStyle>>} [outlineStyles] @returns {AuthoredArt} */
 function build(id, phases, outlineStyles = {}) {
-  const colourPhases = {}, regions = {};
+  /** @type {Record<string, CrayonPhase>} */
+  const colourPhases = {};
+  /** @type {Record<string, readonly ColourRegion[]>} */
+  const regions = {};
   for (const phase of phases) {
     const patches = phase.patches.map((patch) => regionPatch({ ...patch, id: `${id}-${patch.id}` }));
     colourPhases[phase.id] = crayonPhase(phase.ms, patches.flatMap((patch) => patch.gestures));

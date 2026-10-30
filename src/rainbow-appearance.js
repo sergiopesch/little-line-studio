@@ -1,3 +1,4 @@
+// @ts-check
 import { arc, cubic, join } from "./lesson-geometry.js";
 import { crayonGesture, crayonPhase, defineCrayonAppearance } from "./crayon-appearance.js";
 
@@ -14,15 +15,20 @@ export const RAINBOW_RIGHT_CLOUD = Object.freeze(
   RAINBOW_LEFT_CLOUD.map((point) => Object.freeze({ ...point, x: 600 - point.x })),
 );
 
+/** @param {number} x */
 function cloudHeight(x) {
   const localX = x > 300 ? 600 - x : x;
-  if (localX < cloudTop[0].x || localX > cloudTop.at(-1).x) return Infinity;
+  const first = cloudTop[0], last = cloudTop.at(-1);
+  if (!first || !last) throw new TypeError("A rainbow needs its authored cloud contour.");
+  if (localX < first.x || localX > last.x) return Infinity;
   const index = cloudTop.findIndex((point) => point.x >= localX);
-  if (index < 1) return cloudTop[0].y;
+  if (index < 1) return first.y;
   const before = cloudTop[index - 1], after = cloudTop[index];
+  if (!before || !after) throw new TypeError("A cloud height needs consecutive authored points.");
   return before.y + (after.y - before.y) * (localX - before.x) / (after.x - before.x);
 }
 
+/** @param {number} rx @param {number} ry @param {number} degrees */
 const ellipsePoint = (rx, ry, degrees) => ({
   x: 300 + rx * Math.cos(degrees * Math.PI / 180),
   y: 340 + ry * Math.sin(degrees * Math.PI / 180),
@@ -30,6 +36,7 @@ const ellipsePoint = (rx, ry, degrees) => ({
 
 // Every visible arch ends on a cloud puff. No white fill or masking rectangle
 // hides stray construction lines inside the clouds.
+/** @param {number} rx @param {number} ry @param {number} [inset] */
 export function rainbowArchStart(rx, ry, inset = 0) {
   let lower = 180, upper = 270;
   for (let iteration = 0; iteration < 40; iteration++) {
@@ -41,6 +48,7 @@ export function rainbowArchStart(rx, ry, inset = 0) {
   return upper;
 }
 
+/** @param {number} rx @param {number} ry */
 export function rainbowArch(rx, ry) {
   const start = rainbowArchStart(rx, ry);
   return arc(300, 340, rx, ry, start, 540 - start);
@@ -66,6 +74,8 @@ export const RAINBOW_COLOURS = Object.freeze([
 const paintingDurations = [12000, 12000, 12000, 10000, 10000, 10000, 8000];
 const colourPhases = Object.fromEntries(RAINBOW_COLOURS.map((colour, band) => {
   const outer = RAINBOW_BOUNDARIES[band], inner = RAINBOW_BOUNDARIES[band + 1];
+  const duration = paintingDurations[band];
+  if (!outer || !inner || duration === undefined) throw new TypeError("Each rainbow band needs two boundaries and its duration.");
   const rx = (outer.rx + inner.rx) / 2, ry = (outer.ry + inner.ry) / 2;
   // The crayon edge also stops clear of the cloud. Small sections and lifts
   // model a hand following a bend rather than a whole stripe being filled.
@@ -84,7 +94,7 @@ const colourPhases = Object.fromEntries(RAINBOW_COLOURS.map((colour, band) => {
     return crayonGesture(`rainbow-${colour}-patch-${section}`, points, colour,
       { width: 11, opacity: 0.85, strands: 5 });
   });
-  return [`colour-${colour}`, crayonPhase(paintingDurations[band], gestures)];
+  return [`colour-${colour}`, crayonPhase(duration, gestures)];
 }));
 
 export const RAINBOW_APPEARANCE = defineCrayonAppearance({

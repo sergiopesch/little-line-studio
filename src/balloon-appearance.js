@@ -1,13 +1,16 @@
+// @ts-check
 import { arc, cubic, ellipse, quad } from "./lesson-geometry.js";
 import { crayonGesture, crayonPhase, defineCrayonAppearance } from "./crayon-appearance.js";
 
-const fixedPath = (points) => Object.freeze(points.map(Object.freeze));
+/** @param {readonly import("./drawing/contracts.ts").DrawingPoint[]} points */
+const fixedPath = (points) => Object.freeze(points.map(point => Object.freeze(point)));
 export const BALLOON_BODY = fixedPath(ellipse(300, 190, 105, 132));
 export const BALLOON_LEFT_BOW = fixedPath(cubic([300, 333], [245, 302], [242, 365], [300, 333]));
 export const BALLOON_RIGHT_BOW = fixedPath(cubic([300, 333], [345, 301], [363, 363], [300, 333]));
 export const BALLOON_SHINE = fixedPath(arc(300, 190, 78, 105, 210, 258));
 
 const bodyOptions = { width: 16, opacity: 0.8, strands: 4 };
+/** @param {string} side @param {readonly import("./drawing/contracts.ts").QuadraticCurve[]} paths */
 const curves = (side, paths) => paths.map((path, index) =>
   crayonGesture(`balloon-${side}-red-${index}`, quad(...path), "red", bodyOptions));
 
@@ -47,6 +50,7 @@ const rightBody = curves("right", [
   [[307, 246], [322, 263], [338, 271]],
   [[328, 234], [349, 234], [366, 242]],
 ]);
+/** @type {readonly {id: string, boundary: readonly import("./drawing/contracts.ts").DrawingPoint[], path: import("./drawing/contracts.ts").QuadraticCurve}[]} */
 const bowPaths = [
   { id: "left-bow-upper", boundary: BALLOON_LEFT_BOW, path: [[267, 331], [276, 330], [283, 331]] },
   { id: "left-bow-lower", boundary: BALLOON_LEFT_BOW, path: [[283, 336], [275, 337], [267, 336]] },
@@ -61,7 +65,11 @@ const bow = bowPaths.map(({ id, path }) =>
 export const BALLOON_COLOUR_REGIONS = Object.freeze({
   "colour-body-left": Object.freeze(leftBody.map((gesture) => Object.freeze({ gestureId: gesture.id, boundary: BALLOON_BODY }))),
   "colour-body-right": Object.freeze(rightBody.map((gesture) => Object.freeze({ gestureId: gesture.id, boundary: BALLOON_BODY }))),
-  "colour-bow": Object.freeze(bow.map((gesture, index) => Object.freeze({ gestureId: gesture.id, boundary: bowPaths[index].boundary }))),
+  "colour-bow": Object.freeze(bow.map((gesture, index) => {
+    const path = bowPaths[index];
+    if (!path) throw new TypeError("A bow gesture needs its authored contour.");
+    return Object.freeze({ gestureId: gesture.id, boundary: path.boundary });
+  })),
 });
 
 export const BALLOON_APPEARANCE = defineCrayonAppearance({

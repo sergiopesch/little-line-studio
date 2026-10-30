@@ -76,5 +76,8 @@ export interface RegionPatchOptions {
 }
 export interface RegionPatch {
   readonly gestures: readonly CrayonPath[];
-  readonly regions: readonly { readonly gestureId: string; readonly boundary: readonly DrawingPoint[] }[];
+  readonly regions: readonly ColourRegion[];
 }
+export interface ColourRegion { readonly gestureId: string; readonly boundary: readonly DrawingPoint[] }
+export type ColourRegions = Readonly<Record<string, readonly ColourRegion[]>>;
+export interface AuthoredArt { readonly appearance: CrayonAppearance; readonly regions: ColourRegions }

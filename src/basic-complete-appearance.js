@@ -1,27 +1,51 @@
+// @ts-check
+/** @typedef {import("./drawing/contracts.ts").DrawingPoint} DrawingPoint */
+/** @typedef {import("./drawing/contracts.ts").OutlineStyle} OutlineStyle */
+/** @typedef {import("./drawing/contracts.ts").CrayonPhase} CrayonPhase */
+/** @typedef {import("./authoring/contracts.ts").RegionPatch} RegionPatch */
+/** @typedef {import("./authoring/contracts.ts").RegionPatchOptions} RegionPatchOptions */
+/** @typedef {import("./authoring/contracts.ts").ColourRegion} ColourRegion */
+/** @typedef {import("./authoring/contracts.ts").AuthoredArt} AuthoredArt */
 import { arc, cubic, ellipse, join, line, quad } from "./lesson-geometry.js";
 import { crayonPhase, defineCrayonAppearance } from "./crayon-appearance.js";
 import { regionPatch } from "./crayon-regions.js";
 
-const closed = (points) => Object.freeze([...points, { ...points[0] }].map(Object.freeze));
+/** @param {readonly DrawingPoint[]} points */
+const closed = (points) => {
+  const first = points[0];
+  if (!first) throw new TypeError("A closed contour needs authored points.");
+  return Object.freeze([...points, { ...first }].map(point => Object.freeze(point)));
+};
+/** @param {readonly DrawingPoint[]} points */
 const signedArea = (points) => points.reduce((sum, point, index) => {
   const next = points[(index + 1) % points.length];
+  if (!next) throw new TypeError("A contour needs consecutive authored points.");
   return sum + point.x * next.y - next.x * point.y;
 }, 0);
+/** @param {readonly DrawingPoint[]} outside @param {readonly (readonly DrawingPoint[])[]} holes */
 function withHoles(outside, holes) {
   const boundary = [...outside];
   for (const source of holes) {
     const hole = Math.sign(signedArea(source)) === Math.sign(signedArea(outside))
       ? [...source].reverse() : [...source];
-    const anchor = outside.reduce((best, point, index) =>
-      Math.hypot(point.x - hole[0].x, point.y - hole[0].y) <
-      Math.hypot(outside[best].x - hole[0].x, outside[best].y - hole[0].y) ? index : best, 0);
+    const first = hole[0];
+    if (!first) throw new TypeError("A hole needs an authored contour.");
+    const anchor = outside.reduce((best, point, index) => {
+      const previous = outside[best];
+      if (!previous) throw new TypeError("A hole needs an outer contour.");
+      return Math.hypot(point.x - first.x, point.y - first.y) <
+        Math.hypot(previous.x - first.x, previous.y - first.y) ? index : best;
+    }, 0);
+    const anchorPoint = outside[anchor];
+    if (!anchorPoint) throw new TypeError("A hole needs an outer contour.");
     // Retraced bridges carry zero winding. They only make the inset more
     // conservative; no runtime mask covers an escaped colouring movement.
     const approach = outside.slice(0, anchor + 1);
-    boundary.push(...approach, ...hole, hole[0], outside[anchor], ...approach.toReversed());
+    boundary.push(...approach, ...hole, first, anchorPoint, ...approach.toReversed());
   }
-  return Object.freeze(boundary.map(Object.freeze));
+  return Object.freeze(boundary.map(point => Object.freeze(point)));
 }
+/** @param {import("./drawing/contracts.ts").QuadraticCurve} first @param {import("./drawing/contracts.ts").QuadraticCurve} second @param {number} endAngle @param {number} startAngle */
 const petal = (first, second, endAngle, startAngle) => closed(join(
   quad(...first), quad(...second), arc(300, 190, 30, 30, endAngle, startAngle),
 ));
@@ -127,6 +151,7 @@ const cone = closed(g["ice-cream"]["pointed-cone"]);
 const cap = withHoles(closed(join(g.mushroom["mushroom-cap"], [...g.mushroom["cap-lower-edge"]].reverse())), [g.mushroom["cap-left-spot"], g.mushroom["cap-high-spot"], g.mushroom["cap-right-spot"], g.mushroom["cap-low-spot"]]);
 const stalk = closed(join(g.mushroom["stalk-left-side"], g.mushroom["stalk-base"], [...g.mushroom["stalk-right-side"]].reverse(), quad([350, 253], [300, 257], [250, 253])));
 
+/** @satisfies {Readonly<Record<string, import("./drawing/contracts.ts").CrayonColour>>} */
 const palette = {
   pink: { sdkColor: "light-red", ink: "#dc8b9d", grain: "#bd6b82" },
   yellow: { sdkColor: "yellow", ink: "#e9bf4e", grain: "#c39a32" },
@@ -141,10 +166,19 @@ const palette = {
 
 // Every placement is a small, deliberately selected patch in a real closed
 // part. Small sweeps and paper gaps model a child's crayon, without a flat fill.
+/**
+ * @param {string} id @param {readonly DrawingPoint[]} boundary @param {keyof typeof palette} colour
+ * @param {number} cx @param {number} cy @param {number} rx @param {number} ry
+ * @param {Pick<RegionPatchOptions, "width" | "strands" | "passes" | "angle">} [options]
+ */
 const patch = (id, boundary, colour, cx, cy, rx, ry, options = {}) =>
   regionPatch({ id, boundary, colour, cx, cy, rx, ry, ...options });
+/** @param {readonly (readonly [string, number, readonly RegionPatch[]])[]} phases @param {Readonly<Record<string, OutlineStyle>>} [outlineStyles] @returns {AuthoredArt} */
 function appearance(phases, outlineStyles = {}) {
-  const colourPhases = {}, regions = {};
+  /** @type {Record<string, CrayonPhase>} */
+  const colourPhases = {};
+  /** @type {Record<string, readonly ColourRegion[]>} */
+  const regions = {};
   for (const [id, duration, patches] of phases) {
     colourPhases[id] = crayonPhase(duration, patches.flatMap((entry) => entry.gestures));
     regions[id] = Object.freeze(patches.flatMap((entry) => entry.regions));
