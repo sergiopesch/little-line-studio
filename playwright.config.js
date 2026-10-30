@@ -1,4 +1,5 @@
 import { defineConfig } from "@playwright/test";
+import projects from "./config/browser-projects.json" with { type: "json" };
 
 export default defineConfig({
   testDir: "./tests/browser",
@@ -16,13 +17,7 @@ export default defineConfig({
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
   },
-  projects: [
-    { name: "desktop-chromium", use: { browserName: "chromium", viewport: { width: 1440, height: 1000 } } },
-    { name: "small-screen-chromium", use: { browserName: "chromium", viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, reducedMotion: "reduce" } },
-    { name: "desktop-firefox", use: { browserName: "firefox", viewport: { width: 1440, height: 1000 } } },
-    { name: "desktop-webkit", use: { browserName: "webkit", viewport: { width: 1440, height: 1000 } } },
-    { name: "small-screen-webkit", use: { browserName: "webkit", viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, reducedMotion: "reduce" } },
-  ],
+  projects,
   // A dedicated server avoids accidentally testing another checkout or the no-key build.
   webServer: {
     command: "npm run dev -- --host 127.0.0.1 --port 5186 --strictPort",

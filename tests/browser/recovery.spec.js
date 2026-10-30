@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect } from "./recovery-diagnostics.js";
 import { enterLesson, audioSilent } from "./fixtures.js";
 
 test("a failed board pauses safely and loads after restarting the lesson", async ({ page }) => {
