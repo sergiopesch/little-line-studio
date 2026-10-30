@@ -239,6 +239,7 @@ export function SiteEntry() {
       </section>
       <footer className="review-footer">
         <span>Trazolino · a personal family project</span>
+        <a href="/about/">About</a>
         <a
           href="https://tldraw.dev/get-a-license/hobby"
           target="_blank"

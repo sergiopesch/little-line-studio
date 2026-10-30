@@ -44,6 +44,8 @@ Keep source-specific validation before compilation. Source hashes, phase identit
 
 ## Regression checks
 
+The English About page is a separate static entry at `about/index.html`, served at `/about/`. Vite compiles its local stylesheet and fonts; it needs no JavaScript, lesson bundle or licence key. The homepage footer links to it without changing lesson navigation or audio. Its biography is based on [Sergio’s personal About page](https://www.sergiopesch.com/about); project goals reflect the parent-supervised, paper-first product direction. Keep edits personal, brief and separate from lesson translations and narration. Browser checks cover keyboard navigation, direct loading, reload, reflow, accessibility, returning to the drawing choices and reading with JavaScript disabled, in development and production.
+
 Run `npm run check` for the production build and Node tests. Install Python 3 and FFmpeg 8.x to run the audio fixture tests rather than skip them. The offline loop checks are qualified with FFmpeg 8.x: FFmpeg 6.1 produces different normalization and decoded-length results and fails the existing guards. CI uses the explicit [Ubuntu 26.04 runner](https://github.com/actions/runner-images/blob/main/README.md) and checks the FFmpeg major version; it does not relax loudness or continuity limits to accommodate another encoder. With no tldraw key, this command verifies the deliberately restricted licence-review build; it does not prove that the licensed lesson bundle renders.
 
 Run the browser suite separately:

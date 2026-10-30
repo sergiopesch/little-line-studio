@@ -6,6 +6,19 @@ import { securityHeaders } from "../config/security.js";
 import { REVIEW_STAGES } from "../src/review-tour.js";
 import { sha256 } from "../scripts/release-metadata.mjs";
 
+test("About ships as a readable static page with local compiled styles and no scripts", async () => {
+  const document = await readFile(new URL("../dist/client/about/index.html", import.meta.url), "utf8");
+  assert.match(document, /<html lang="en-GB">/);
+  assert.match(document, /<title>About — Trazolino<\/title>/);
+  assert.match(document, /Sergio Peschiera/);
+  assert.match(document, /href="https:\/\/trazolino.org\/about\/"/);
+  assert.match(document, /name="robots" content="noindex, nofollow"/);
+  assert.doesNotMatch(document, /<script\b|<iframe\b|<audio\b|<video\b|\/src\//i);
+  const styles = [...document.matchAll(/href="(\/assets\/[^"?]+\.css)"/g)];
+  assert.ok(styles.length > 0, "Vite compiles the About stylesheet");
+  for (const [, asset] of styles) await access(new URL(`../dist/client${asset}`, import.meta.url));
+});
+
 test("the public release marker fingerprints the built HTML and exposes only release identity", async () => {
   const document = await readFile(new URL("../dist/client/index.html", import.meta.url));
   const release = JSON.parse(await readFile(new URL("../dist/client/release.json", import.meta.url), "utf8"));
